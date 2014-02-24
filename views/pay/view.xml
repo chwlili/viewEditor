@@ -1,0 +1,54 @@
+<xml name="充值">
+	<depends>
+		<depend src="/public/publicButtons.xml" />
+	</depends>
+	<bitmaps>
+		<bitmap id="开通黄钻" src="imgs/开通黄钻.png" />
+		<bitmap id="bg" src="imgs/充值底.png" />
+		<bitmap id="content" src="imgs/内容框.jpg" />
+		<bitmap id="btnTitle" src="imgs/购买.png" />
+		<bitmap id="closeBtn_1" src="imgs/开关01.png" />
+		<bitmap id="closeBtn_2" src="imgs/开关02.png" />
+		<bitmap id="closeBtn_3" src="imgs/开关03.png" />
+	</bitmaps>
+	<texts>
+		<text id="提示0"><![CDATA[您确定充值<font color='#00ff00'>100</font>Q点吗?]]>\n<![CDATA[(将获得<font color='#00ff00'>100</font>钻石)]]></text>
+		<text id="提示1"><![CDATA[您确定充值<font color='#00ff00'>1000</font>Q点吗?]]>\n<![CDATA[(将获得<font color='#00ff00'>1050</font>钻石)]]></text>
+		<text id="提示2"><![CDATA[您确定充值<font color='#00ff00'>5000</font>Q点吗?]]>\n<![CDATA[(将获得<font color='#00ff00'>5500</font>钻石)]]></text>
+		<text id="itemId_0">1</text>
+		<text id="itemId_1">2</text>
+		<text id="itemId_2">3</text>
+		<text id="giftId_0">30095</text>
+		<text id="giftId_1">30095</text>
+		<text id="giftId_2">30095</text>
+		<text id="说明1">1.超值钻石,高额返利加额外奖励</text>
+		<text id="说明2">2.钻石与Q点不可以混合支付,钻石足够时优先使用钻石购买</text>
+		<text id="说明3">3.Q点及钻石消费均可累计骑士经验,使用钻石消费更划算</text>
+	</texts>
+	
+	<controls>
+		<window id="main" width="688" height="543">
+			<image bmp="bg" width="688" height="543" />
+			<image bmp="content" width="325" height="333" left="313" top="186" />
+			<labelButton name="closeBtn" width="29" height="29" right="20" top="160">
+				<state frame="1" back="closeBtn_1" />
+				<state frame="2" back="closeBtn_2" />
+				<state frame="3" back="closeBtn_3" />
+			</labelButton>
+			<button name="开通黄钻Btn" left="152" top="482" width="115" height="35">
+				<state frame="1" back="开通黄钻" />
+				<state frame="2" back="开通黄钻" />
+				<state frame="3" back="开通黄钻" />
+			</button>
+		</window>
+		
+		<box id="payBtnBox" width="98" height="46">
+			<labelButton name="payBtn" width="98" height="46">
+				<state frame="1" back="大号按钮两字01" />
+				<state frame="2" back="大号按钮两字02" />
+				<state frame="3" back="大号按钮两字03" />
+			</labelButton>
+			<image bmp="btnTitle" width="52" height="23" center="0" middle="0" />
+		</box>
+	</controls>
+</xml>

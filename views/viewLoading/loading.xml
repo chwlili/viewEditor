@@ -1,0 +1,30 @@
+<xml>
+	
+	<depends>
+		<depend src="../public/publicFrames.xml"/>
+	</depends>
+	<filters>
+		<filter id="黑色边框">
+			<glow color="0x000000" alpha="1" blurX="2" blurY="2" strength="10"/>
+		</filter>
+	</filters>
+	
+	<formats>
+		<format id="进度条字体" font="宋体" size="12" color="0xffffff" filter="黑色边框" align="right"/>
+	</formats>
+	
+	<controls>
+		<confirm id="进度列表" width="610" height="20">
+			<image bmp="进度条底板" left="0" top="0" right="0" bottom="0" grid="260,3,260,3"/>
+			<box name="进度列表" center="0" width="230"/>
+		</confirm>
+		
+		<box id="进度条" width="372" height="27" center="20">
+			<image bmp="进度条背景" width="372" height="27" x="0" y="0"/>
+			<image name="进度条前景" bmp="进度条前景" width="340" height="9" x="15" y="7" grid="0,3,0,3"/>
+			<label name="名称字段" x="-120" y="0" width="120" height="20" format="进度条字体"/>
+		</box>
+		
+	</controls>
+	
+</xml>

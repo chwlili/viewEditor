@@ -1,0 +1,10 @@
+<xml>
+	<depends>
+		<depend src="/public/controls/window/HelpButton.xml"/>
+    <depend src="/public/controls/window/CloseButton.xml"/>
+    <depend src="/public/controls/window/WindowBack.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+	</depends>
+</xml>

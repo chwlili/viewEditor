@@ -1,0 +1,64 @@
+﻿<xml preload="0">
+	<depends>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	<swfs>
+		<swf id="taskPane" src="../swfs/taskPane.swf"/>
+	</swfs>
+	<bitmaps>
+		<bitmap id="章节1" src="imgs/第一章标题.png" />
+		<bitmap id="章节2" src="imgs/第二章标题.png" />
+		<bitmap id="章节3" src="imgs/第三章标题.png" />
+		<bitmap id="章节4" src="imgs/第四章标题.png" />
+		<bitmap id="章节5" src="imgs/第五章标题.png" />
+		<bitmap id="章节6" src="imgs/第六章标题.png" />
+		<bitmap id="章节7" src="imgs/第七章标题.png" />
+		<bitmap id="快捷任务区底板new" src="imgs/快捷任务区底板new.png" />
+		<bitmap id="滚动条02-底板" src="imgs/滚动条02-底板.png" />
+		<bitmap id="滚动条02-上按钮01" src="imgs/滚动条02-上按钮01.png" />
+		<bitmap id="滚动条02-上按钮02" src="imgs/滚动条02-上按钮02.png" />
+		<bitmap id="滚动条02-上按钮03" src="imgs/滚动条02-上按钮03.png" />
+		<bitmap id="滚动条02-下按钮01" src="imgs/滚动条02-下按钮01.png" />
+		<bitmap id="滚动条02-下按钮02" src="imgs/滚动条02-下按钮02.png" />
+		<bitmap id="滚动条02-下按钮03" src="imgs/滚动条02-下按钮03.png" />
+		<bitmap id="滚动条02-中按钮01" src="imgs/滚动条02-中按钮01.png" />
+		<bitmap id="滚动条02-中按钮02" src="imgs/滚动条02-中按钮02.png" />
+		<bitmap id="滚动条02-中按钮03" src="imgs/滚动条02-中按钮03.png" />
+	</bitmaps>
+	<texts>
+		<text id="点击寻路">点击自动前往</text>
+		<text id="完成度">完成度： </text>
+		<text id="主">主线</text>
+		<text id="支">支线</text>
+		<text id="精英">挑战</text>
+		<text id="英雄">组队</text>
+
+		<text id="(可接)">(可接)</text>
+		<text id="级可接">级可接</text>
+		<text id="前往">前往</text>
+		<text id="找">找</text>
+		<text id="领取任务">领取任务</text>
+		<text id="处领取任务">处领取任务</text>
+		<text id="已完成">已完成</text>
+
+		<text id="推荐组队">必须组队</text>
+		<text id="次">次</text>
+		<text id="完成任务">完成任务</text>
+		<text id="去击败">去击败</text>
+		<text id="获得">获得</text>
+		<text id="个">个</text>
+		<text id="获得金币">获得金币</text>
+		<text id="对话">对话</text>
+		<text id="通关">通关</text>
+
+		<text id="副本">副本</text>
+		<text id="分钟通关">分钟通关</text>
+		<text id="限时">限时</text>
+		<text id="装备升星">装备升星</text>
+		<text id="镶嵌宝石">镶嵌宝石</text>
+		<text id="宝石升级">宝石升级</text>
+		<text id="技能">技能</text>
+
+	</texts>
+
+</xml>

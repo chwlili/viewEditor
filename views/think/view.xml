@@ -1,0 +1,76 @@
+﻿<xml>
+	<depends>
+		<depend src="/public/controls/window/HelpButton.xml"/>
+    <depend src="/public/controls/window/CloseButton.xml"/>
+    <depend src="/public/controls/window/WindowBack.xml"/>
+    <depend src="/public/controls/scroller/Scroller.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+    <depend src="/public/publicFilters.xml"/>
+	</depends>
+	<filters>
+		<filter id="描边">
+			<glow color="0x180902" alpha="1" blurX="2" blurY="2" strength="10" />
+		</filter>
+		<filter id="绿色描边">
+			<glow color="0x19041a" alpha="1" blurX="2" blurY="2" strength="10" />
+		</filter>
+		</filters>
+	<formats>
+		<format id="宋体浅黄色12" font="宋体" size="12" color="0xfde3ac" align="left" filter="描边"/>
+		<format id="宋体浅黄色居中12" font="宋体" size="12" color="0xfde3ac" align="center" filter="描边"/>
+		<format id="宋体蓝色居中12" font="宋体" size="12" color="0x02e4f8" align="center" filter="绿色描边"/>
+		<format id="宋体绿色居中12" font="宋体" size="12" color="0x03dd27" align="center" filter="绿色描边"/>
+		<format id="宋体橘黄色12居中" font="宋体" size="12" color="0xf79f13" align="center" filter="黑色边框"/>
+		<format id="宋体深橘黄色12居中" font="宋体" size="12" color="0xff8929" align="center" filter="黑色边框"/>
+	</formats>
+	<bitmaps>
+		<bitmap id="bg" src="imgs/冥想框.png"/>
+		<bitmap id="框体左侧装饰" src="imgs/框体左侧装饰.png"/>
+		<bitmap id="框体右侧装饰" src="imgs/框体右侧装饰.png"/>
+	</bitmaps>	
+	<texts>
+    <text id="累计获得经验"><![CDATA[已经累积  <font color='#03dd27'>$EXP</font> 经验]]></text>
+    <text id="累计获得战功"><![CDATA[已经累积  <font color='#02e4f8'>$POINT</font> 战功]]></text>
+    <text id="冥想时间"><![CDATA[已进入冥想时间  <font color='#03dd27'>$TIME</font>]]></text>
+<!--    <text id="冥想获得经验"><![CDATA[本次冥想获得 <font color='#03dd27'>$EXP</font>经验]]></text>
+    <text id="冥想获得战功"><![CDATA[本次冥想获得 <font color='#03dd27'>$POINT</font>战功]]></text>-->
+    <text id="本次冥想时间">本次冥想时间： $TIME</text>
+    <text id="冥想已收获经验"><![CDATA[本次冥想收获： <font color='#03dd27'>经验 $EXP</font>]]></text>
+    <text id="冥想已收获战功"><![CDATA[本次冥想收获： <font color='#02e4f8'>战功 $POINT</font>]]></text>
+    <text id="是否加倍"><![CDATA[本次冥想超过30分钟，是否花费<font color='#02e4f8'>$NUM钻石</font>加倍？]]></text>
+    <text id="领取剩余时间">领取剩余时间： </text>
+    <text id="开启骑士特权"><![CDATA[（开启骑士特权3级后冥想可获得额外战功，</font><a href='event:kkk'><font color='#03dd27'><u>点击开启</u></font></a>）]]></text>
+    <text id="本次冥想获得">本次冥想获得</text>
+    <text id="获得经验"><![CDATA[<font color='#03dd27'>$EXP</font>经验]]></text>
+    <text id="获得战功"><![CDATA[<font color='#02e4f8'>$POINT</font>战功]]></text>
+   </texts>
+   <controls>		
+		<box id="Main" width="259" height="206" center="0" middle="0">
+			<image bmp="bg" width="259" height="206" center="0" middle="0"/> 
+			<label name="contentTf" width="200" height="100" html="true" format="宋体浅黄色居中12"/>
+		</box>
+		<box id="Reword" width="293" height="165" center="0" middle="0">
+			<image bmp="中底板底" width="293" height="165" grid="50,50,50,50" center="0" middle="0"/> 
+			<image bmp="框体左侧装饰03" width="17" height="40" left="1" middle="0" /> 
+			<image bmp="框体左侧装饰03" width="17" height="40" right="-16" middle="0" scaleX="-1" /> 
+			<label name="contentTf" width="100" height="100" center="0" middle="-30" html="true" format="宋体浅黄色12"/>
+			<label name="doubleTf" width="293" height="35" center="0" html="true" format="宋体浅黄色居中12"/>
+			<labelButton name="okBtn" width="82" height="28" top="120" left="42" label="确定">
+        <state frame="1" back="knightLabelBtn2_1" format="宋体橘黄色12居中"/>
+        <state frame="2" back="knightLabelBtn2_2" format="宋体橘黄色12居中"/>
+        <state frame="3" back="knightLabelBtn2_3" format="宋体橘黄色12居中"/>
+      </labelButton>
+      <labelButton name="cancelBtn" width="82" height="28" top="120" left="170" label="取消">
+        <state frame="1" back="knightLabelBtn2_1" format="宋体橘黄色12居中"/>
+        <state frame="2" back="knightLabelBtn2_2" format="宋体橘黄色12居中"/>
+        <state frame="3" back="knightLabelBtn2_3" format="宋体橘黄色12居中"/>
+      </labelButton>
+		</box>
+		<box id="Result" width="220" height="107" center="0" middle="0">
+			<image bmp="中底板底" width="220" height="107" grid="50,50,50,50" center="0" middle="0"/> 
+			<label name="contentTf" width="293" height="100" center="0" middle="0" html="true" format="宋体浅黄色居中12"/>
+		</box>
+		</controls>
+</xml>

@@ -1,0 +1,60 @@
+﻿<xml>
+	<texts>
+		<text id="祝福描述">祝福值可提升成功率，但每天凌晨5点会清零</text>
+		<text id="本次消耗">本次消耗:</text>
+		<text id="升级">升级</text>
+		<text id="自动升级">自动升级</text>
+		<text id="停止升级">停止升级</text>
+		<text id="培养属性">培养属性</text>
+		<text id="宝石镶嵌">宝石镶嵌</text>
+		<text id="prop_0">生命值</text>
+		<text id="prop_1">物理攻击</text>
+		<text id="prop_2">魔法攻击</text>
+		<text id="prop_3">物理防御</text>
+		<text id="prop_4">魔法防御</text>
+		<text id="prop_5">移动速度</text>
+		<text id="prop_6">能量上限</text>
+		<text id="需要消耗">需要消耗:</text>
+		<text id="消耗值">10000</text>
+		<text id="注灵">注灵</text>
+		<text id="注灵描述"><![CDATA[天使之翼可升阶为<font color='#ff4200'>圣天使之翼</font>，进阶后<font color='#00ff12'>属性大量提升</font>]]></text>
+		<text id="道具培养描述">炽天使之羽×10</text>
+		<text id="宝石培养描述">钻石×100</text>
+		<text id="祝福进度">祝福值:$1</text>
+		<text id="满培养">(满)</text>
+		<text id="满培养提示">提升翅膀等级可增加培养属性上限</text>
+		<text id="培养道具id">3157</text>
+		<text id="自动升级提示1"><![CDATA[<font color='#be7826' size='14'>自动升级：</font><br>]]></text>
+		<text id="自动升级提示2"><![CDATA[<font color='#e0ceaf'>点击将会为您自动升级至更高级翅膀</font><br>]]></text>
+		<text id="自动升级提示3"><![CDATA[<font color='#efb55a'>自动升级过程中：</font><br>]]></text>
+		<text id="自动升级提示4"><![CDATA[<font color='#2feb16'>√所需材料不足，将自动从商城购买</font><br>]]></text>
+		<text id="自动升级提示5"><![CDATA[<font color='#2feb16'>√</font><font color='#2089ff'>金币和钻石不足，将自动停止升级</font><br>]]></text>
+		<text id="自动升级提示6"><![CDATA[<font color='#2feb16'>√</font><font color='#b93ff8'>自动升级完成后，将自动停止升级</font>]]></text>
+		
+		<text id="最大培养提示">最大培养与翅膀等级相关</text>
+		<text id="当前翅膀等级"><![CDATA[当前翅膀等级:<font color='#00ff12' size='12'>$1级</font><br>]]></text>
+		<text id="prop_0">生命值</text>
+		<text id="prop_1">物理攻击</text>
+		<text id="prop_2">魔法攻击</text>
+		<text id="铜币培养">金币培养:</text>
+		<text id="钻石培养">钻石培养:</text>
+		<text id="至尊培养">至尊培养:</text>
+		<text id="铜币培养描述">消耗50000金币，一定几率提升属性</text>
+		<text id="钻石培养描述">消耗10钻石，大幅提高某项属性</text>
+		<text id="至尊培养描述">消耗99钻石，大幅提高全部属性</text>
+		<text id="取消">取消</text>
+		<text id="保存">保存</text>
+		<text id="培养">培养</text>
+		<text id="培养加号">+</text>
+		
+		<text id="翅膀属性描述">已激活翅膀的附加属性可以累加</text>
+		<text id="翅膀使用中">使用中</text>
+		<text id="翅膀未激活">未激活</text>
+		<text id="激活翅膀">装备</text>
+		
+		<!--注灵面板-->
+		<text id="注灵称号描述">每次上线时聊天公告，一小时最多一次</text>
+		<text id="立刻抢购">立刻抢购</text>
+		<text id="注灵消耗"><![CDATA[<font color='#fde3ac' size='12'>需要花费：</font><font color='#02e4f8' size='12'>10000钻石</font>]]></text>
+	</texts>
+</xml>

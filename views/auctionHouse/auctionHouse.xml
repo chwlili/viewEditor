@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<xml>
+	<swfs>
+		<swf id="btnLib" src="../swfs/btnLib.swf"/>
+		<swf id="frameLib" src="../swfs/frameLib.swf"/>
+		<swf id="auctionHouse" src="../swfs/auctionHouse.swf"/>
+	</swfs>
+
+	<texts>
+		<text id="0">钱       庄</text> 
+		<text id="1">在钱庄的每次消费都可以增加好感度，\n好感度达到一定程度可换购超值道具</text> 
+		<text id="2">21</text>
+		<text id="3">好感度：182/200</text>
+		<text id="4">购  买</text>
+		<text id="5">批量购买</text>
+		<text id="6">钱庄铜票(每天限购10次)</text>
+		<text id="7">每次兑换铜票可获得40000铜币</text>
+		<text id="8">当前价格</text>
+		<text id="9">10 钻石</text>
+		<text id="10">好感度：</text>
+
+		<text id="可兑换铜钱"><![CDATA[每次可兑换:<font color='#60ff4e'>$1</font>金币]]></text>
+		<text id="剩余次数"><![CDATA[今日可兑换次数:<font color='#60ff4e'>$1</font>]]></text>
+		<text id="购买">购买</text>
+		<text id="批量购买">批量购买</text>
+		<text id="购买提示1"><![CDATA[您确定花费<font color='#60ff4e'>$1</font>钻石兑换<font color='#60ff4e'>$2</font>金币吗?]]></text>
+		<text id="购买提示2"><![CDATA[您确定花费<font color='#60ff4e'>$1</font>钻石兑换<font color='#60ff4e'>$2</font>金币吗?]]></text>
+	</texts>
+</xml>

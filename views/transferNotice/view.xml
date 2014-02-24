@@ -1,0 +1,150 @@
+<xml>
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicTexts.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="按钮01" src="imgs/1号按钮01.png" />
+		<bitmap id="按钮02" src="imgs/1号按钮02.png" />
+		<bitmap id="按钮03" src="imgs/1号按钮03.png" />
+		<bitmap id="底条" src="imgs/底条.png" />
+
+		<bitmap id="技能框" src="imgs/技能框.png" />
+		<bitmap id="角色框" src="imgs/角色背景框.png"/>
+		<bitmap id="输入框" src="imgs/输入框.png"/>
+		<bitmap id="转职预告标题" src="imgs/转职预告标题.png" />
+		<bitmap id="转职后解锁" src="imgs/转职后解锁.png"/>
+		<bitmap id="转职切图" src="imgs/转职切图.png"/>
+		<bitmap id="转职条件" src="imgs/转职条件.png" />
+		<bitmap id="转职为" src="imgs/转职为.png" />
+		<bitmap id="转职" src="imgs/转职文字.png" />
+		<bitmap id="第二级底板" src="imgs/第二级底板.png" />
+
+		<bitmap id="faction01" src="imgs/剑士.png"/>
+		<bitmap id="faction11" src="imgs/疾风剑士.png"/>
+		<bitmap id="faction21" src="imgs/皇家剑士.png"/>
+		<bitmap id="faction31" src="imgs/冰霜剑士.png"/>
+		<bitmap id="faction03" src="imgs/战士.png"/>
+		<bitmap id="faction13" src="imgs/狂战士.png"/>
+		<bitmap id="faction23" src="imgs/皇家战士.png"/>
+		<bitmap id="faction33" src="imgs/毁灭战神.png"/>
+		<bitmap id="faction02" src="imgs/刺客.png"/>
+		<bitmap id="faction12" src="imgs/暗影刺客.png"/>
+		<bitmap id="faction22" src="imgs/梦魇刺客.png"/>
+		<bitmap id="faction32" src="imgs/死亡使者.png"/>
+
+		<bitmap id="转职后" src="imgs/转职后.png"/>	
+		<bitmap id="条件数字底" src="imgs/条件数字底.png"/>
+		<bitmap id="转职后底" src="imgs/转职后底.png"/>	
+		<bitmap id="金币图标_小" src="imgs/金币图标_小.png"/>
+		<bitmap id="所需消耗" src="imgs/所需消耗.png"/>	
+
+		<bitmap id="所需消耗框" src="imgs/所需消耗框.png"/>
+
+		<bitmap id="增加属性" src="imgs/增加属性.png"/>
+		<bitmap id="信息框底板头" src="imgs/信息框底板头.png"/>
+		<bitmap id="中底板底" src="imgs/中底板底.png"/>
+				<bitmap id="可学文字" src="imgs/可学文字.png"/>
+	</bitmaps>
+	<texts>
+		<text id="等级需求">等级需求:</text>
+		<text id="声望">声望:</text>
+		<text id="战斗力需求">战斗力需求:</text>
+		<text id="我知道了">我知道了</text>
+		<text id="转职技能等级">Lv.1</text>
+		<text id="转职提示"><![CDATA[45级后可转职为更高级的职业！可以获得<font color='#00ff00'>更强大的属性，更帅气的外形！</font>]]></text>
+	</texts>
+
+	<controls>
+		<window id="main" width="535" height="583">
+
+			<image bmp="中底板底" grid="30,33,29,33" left="0" top="0" right="0" bottom="0" />	
+			<image bmp="信息框底板头" grid="55,0,54,0" left="0" top="0" width="535" height="36" />	
+
+			<label center="0" top="50" width="535" height="20" format="fde3ac_12居中" text="转职提示" html="true"/>
+			<image bmp="转职预告标题" center="0" top="5" width="162" height="27"/>		
+			<image bmp="第二级底板" grid="30,33,29,33" left="19" top="80" width="232" height="384" />
+			<image bmp="角色框" left="26" top="88" width="217" height="250"/>	
+
+			<image bmp="第二级底板" grid="30,33,29,33" left="281" top="80" width="232" height="384" />
+			<image bmp="转职后底" left="288" top="88" width="217" height="250"/>	
+
+			<image bmp="转职后解锁" left="335" top="342" width="118" height="22"/>	
+
+			<image bmp="技能框" left="293" top="363" width="49" height="49"/>	
+			<image bmp="技能框" left="347" top="363" width="49" height="49"/>	
+			<image bmp="技能框" left="401" top="363" width="49" height="49"/>	
+			<image bmp="技能框" left="455" top="363" width="49" height="49"/>	
+
+
+			<box name="playerBox" x="0" y="20" width="330" height="300">
+
+			</box>
+
+			<image bmp="底条" left="290" top="93" width="220" height="33"/>	
+			<image bmp="底条" left="30" top="93" width="220" height="33"/>	
+			<!-- <image bmp="转职为" left="80" top="75" width="61" height="21"/>	 -->
+			<!-- <image bmp="皇家剑士" left="147" top="73" width="68" height="24"/>	 -->
+			<image bmp="转职条件" left="76" top="342" width="126" height="24"/>	
+			<!-- <image bmp="02" left="25" top="424" width="280" height="51"/>	 -->
+			<image bmp="条件数字底" left="95" top="378" width="111" height="18"/>	
+			<image bmp="条件数字底" left="95" top="415" width="111" height="18"/>	
+
+
+
+			<labelButton name="转职" width="82" height="28" bottom="20" center="0" label="我知道了">
+				<state frame="1" back="按钮01" format="按钮标签_efb55a_12_居中" grid="40,0,40,0" />
+				<state frame="2" back="按钮02" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+				<state frame="3" back="按钮03" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+			</labelButton>
+
+			<label left="36" top="378" width="80" height="20" format="fde3ac_12居中" text="等级需求"/>
+			<!-- <label left="15" top="450" width="80" height="20" format="fde3ac_12居中" text="声望"/> -->
+			<label left="30" top="415" width="80" height="20" format="fde3ac_12居中" text="战斗力需求"/>
+
+			<label name="等级" left="95" top="378" width="111" height="18" format="宋体白色12居中" />
+			<!-- <label name="声望" left="75" top="452" width="72" height="20" format="宋体白色12居中" /> -->
+			<label name="战斗力" left="95" top="415" width="111" height="18" format="宋体白色12居中" />
+			<image name="等级满足" bmp="转职切图" left="193" top="373" width="24" height="26"/>	
+			<image name="战斗力满足" bmp="转职切图" left="193" top="410" width="24" height="26"/>	
+			<image bmp="转职后" left="225" top="195" width="86" height="60"/>	
+			<image name="skill1" left="297" top="366" width="40" height="40"/>	
+			<image name="skill2" left="351" top="366" width="40" height="40"/>	
+			<image name="skill3" left="405" top="366" width="40" height="40"/>	
+			<image name="skill4" left="459" top="366" width="40" height="40"/>	
+			<image name="icon1" bmp="可学文字" left="290" top="359" width="33" height="21"/>	
+			<image name="icon2" bmp="可学文字" left="344" top="359" width="33" height="21"/>	
+			<image name="icon3" bmp="可学文字" left="398" top="359" width="33" height="21"/>	
+			<image name="icon4" bmp="可学文字" left="452" top="359" width="33" height="21"/>	
+			<label name="level1" left="310" top="393" width="50" height="20" format="宋体绿色12" text="转职技能等级"/>
+			<label name="level2" left="364" top="393" width="50" height="20" format="宋体绿色12" text="转职技能等级"/>	
+			<label name="level3" left="418" top="393" width="50" height="20" format="宋体绿色12" text="转职技能等级"/>
+			<label name="level4" left="472" top="393" width="50" height="20" format="宋体绿色12" text="转职技能等级"/>
+
+			<image name="增加属性底板" bmp="增加属性" left="292" top="411" width="204" height="45"/>	
+
+
+			<image bmp="所需消耗框" left="19" top="483" width="497" height="47"/>	
+			<image bmp="所需消耗" left="235" top="475" width="64" height="20"/>	
+			<image bmp="输入框" left="145" top="500" width="72" height="17"/>	
+			<image bmp="输入框" left="350" top="500" width="72" height="17"/>
+			<image bmp="金币图标_小" left="115" top="488" width="40" height="40"/>	
+<!-- 			<image name="needItem" left="320" top="452" width="39" height="35"/> -->
+            <achieveEntity name="needItem" left="320" top="488"/>	
+			<label name="copper" left="140" top="500" width="80" height="20" format="宋体绿色12" />
+			<label name="item" left="350" top="500" width="80" height="20" format="宋体绿色12" />
+
+			<label name="attribute1" left="330" top="413" width="65" height="20" format="宋体绿色12" />
+			<label name="attribute2" left="435" top="413" width="65" height="20" format="宋体绿色12" />
+			<label name="attribute3" left="330" top="436" width="65" height="20" format="宋体绿色12" />
+			<label name="attribute4" left="435" top="436" width="65" height="20" format="宋体绿色12" />
+		</window>
+
+
+
+	</controls>	
+
+</xml>

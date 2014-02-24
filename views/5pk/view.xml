@@ -1,0 +1,371 @@
+<xml name="天神竞技">
+	<depends>
+	    <depend src="/public/publicButtons.xml"/>
+	    <depend src="/public/publicFormats.xml"/>
+	    <depend src="/public/publicFrames.xml"/>
+	    <depend src="/public/publicNumimage.xml"/>
+	    <depend src="/public/publicIcons.xml"/>
+		<depend src="/public/publicBitmapTexts.xml"/>
+		<depend src="/5pk/death.xml"/>
+		<depend src="/5pk/countdown.xml"/>
+		<depend src="/5pk/countdown_fight.xml"/>
+		<depend src="/5pk/countdown_signup.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+  	</depends>
+	<bitmaps>
+		<bitmap id="大底板" src="imgs/大底板.jpg"/>
+		<bitmap id="小地图底板" src="imgs/小地图底板.jpg"/>
+		<bitmap id="小地图" src="imgs/小地图.jpg"/>
+
+		<bitmap id="自己点" src="imgs/自己点.png"/>
+		<bitmap id="敌人点" src="imgs/敌人点.png"/>
+		<bitmap id="文字底板" src="imgs/右侧小底板.png"/>
+		<bitmap id="gameOverBack" src="imgs/gameOverBack.png" />
+		<bitmap id="最快登顶文字" src="imgs/最快登顶文字.png" />
+		<bitmap id="最多击杀文字" src="imgs/最多击杀文字.png" />
+		<bitmap id="最高连胜文字" src="imgs/最高连胜文字.png" />
+		<bitmap id="积分前五文字" src="imgs/积分前五文字.png" />
+		<bitmap id="右侧小底板框" src="imgs/右侧小底板框.png" />
+		<bitmap id="左侧小底板" src="imgs/左侧小底板.png" />
+
+		<bitmap id="报名大按钮01" src="imgs/我要报名_01.png" />
+		<bitmap id="报名大按钮02" src="imgs/我要报名_02.png" />
+		<bitmap id="报名大按钮03" src="imgs/我要报名_03.png" />
+
+		<bitmap id="取消报名大按钮01" src="imgs/取消报名_01.png" />
+		<bitmap id="取消报名大按钮02" src="imgs/取消报名_02.png" />
+		<bitmap id="取消报名大按钮03" src="imgs/取消报名_03.png" />
+
+		<bitmap id="进入战场_01" src="imgs/进入战场_01.png" />
+		<bitmap id="进入战场_02" src="imgs/进入战场_02.png" />
+		<bitmap id="进入战场_03" src="imgs/进入战场_03.png" />
+
+		<bitmap id="右侧小底板框" src="imgs/右侧小底板框.png" />
+
+		<bitmap id="箭头翻页01" src="imgs/箭头翻页01.png" />
+		<bitmap id="箭头翻页01" src="imgs/箭头翻页01.png" />
+		<bitmap id="箭头翻页02" src="imgs/箭头翻页02.png" />
+		<bitmap id="箭头翻页03" src="imgs/箭头翻页03.png" />
+
+		<bitmap id="第文字" src="imgs/第文字.png" />
+		<bitmap id="届文字" src="imgs/届文字.png" />
+
+		<bitmap id="其他阶级" src="imgs/其他阶级.png" />
+		<bitmap id="我的阶级" src="imgs/我的阶级.png" />
+
+		<bitmap id="我的位置" src="imgs/我的位置.png" />
+		<bitmap id="上届位置" src="imgs/上届位置.png" />
+
+		<bitmap id="顶层说明条底板" src="imgs/顶层说明条底板.png"/>
+
+		<bitmap id="大icon1" src="imgs/icon/1大.png" />
+		<bitmap id="大icon2" src="imgs/icon/2大.png" />
+		<bitmap id="大icon3" src="imgs/icon/3大.png" />
+		<bitmap id="大icon4" src="imgs/icon/4大.png" />
+		<bitmap id="大icon5" src="imgs/icon/5大.png" />
+		<bitmap id="大icon6" src="imgs/icon/6大.png" />
+		<bitmap id="大icon7" src="imgs/icon/7大.png" />
+		<bitmap id="大icon8" src="imgs/icon/8大.png" />
+		<bitmap id="大icon9" src="imgs/icon/9大.png" />
+		<bitmap id="大icon10" src="imgs/icon/10大.png" />
+
+		<bitmap id="小icon1" src="imgs/icon/1小.png" />
+		<bitmap id="小icon2" src="imgs/icon/2小.png" />
+		<bitmap id="小icon3" src="imgs/icon/3小.png" />
+		<bitmap id="小icon4" src="imgs/icon/4小.png" />
+		<bitmap id="小icon5" src="imgs/icon/5小.png" />
+		<bitmap id="小icon6" src="imgs/icon/6小.png" />
+		<bitmap id="小icon7" src="imgs/icon/7小.png" />
+		<bitmap id="小icon8" src="imgs/icon/8小.png" />
+		<bitmap id="小icon9" src="imgs/icon/9小.png" />
+		<bitmap id="小icon10" src="imgs/icon/10小.png" />
+
+		<bitmap id="特殊奖项礼包" src="imgs/icon/特殊奖项礼包.png" />
+		<bitmap id="黄金级别宝箱" src="imgs/icon/黄金级别宝箱.png" />
+		<bitmap id="白银级别宝箱" src="imgs/icon/白银级别宝箱.png" />
+		<bitmap id="青铜级别宝箱" src="imgs/icon/青铜级别宝箱.png" />
+		<bitmap id="初级勇者宝箱" src="imgs/icon/初级勇者宝箱.png" />
+
+		<bitmap id="箭头上" src="imgs/箭头上.png" />
+		<bitmap id="箭头下" src="imgs/箭头下.png" />
+		<bitmap id="箭头一" src="imgs/一.png" />
+		<bitmap id="离开按钮文字" src="imgs/离开按钮文字.png"/>
+		<bitmap id="往届荣誉" src="imgs/往届荣誉.png"/>
+		<bitmap id="占星说明按钮01" src="imgs/占星说明按钮01.png"/>
+	    <bitmap id="占星说明按钮02" src="imgs/占星说明按钮02.png"/>
+	    <bitmap id="占星说明按钮03" src="imgs/占星说明按钮03.png"/>
+
+	    <bitmap id="往届图标" src="imgs/往届图标.png"/>
+	    <bitmap id="结算自己底板" src="imgs/结算自己底板.png" />
+	</bitmaps>
+	<bitmapReaders>
+
+	</bitmapReaders>
+	<texts>
+		<text id="参赛:">参赛:</text>
+		<text id="击杀:">击杀:</text>
+		<text id="胜利:">胜利:</text>
+		<text id="积分:">积分:</text>
+		<text id="击杀">击杀</text>
+		<text id="积分">积分</text>
+
+		<text id="第场">第$1场</text>
+		<text id="第届">第$1届</text>
+		<text id="成功晋级至">成功晋级至</text>
+		<text id="保级成功">保级成功</text>
+		<text id="降级至">降级至</text>
+
+		<text id="阶级1">黄金一阶</text>
+		<text id="阶级2">黄金二阶</text>
+		<text id="阶级3">黄金三阶</text>
+		<text id="阶级4">白银一阶</text>
+		<text id="阶级5">白银二阶</text>
+		<text id="阶级6">白银三阶</text>
+		<text id="阶级7">青铜一阶</text>
+		<text id="阶级8">青铜二阶</text>
+		<text id="阶级9">青铜三阶</text>
+		<text id="阶级10">初级勇士</text>
+		
+		<text id="5pk说明">每晚20:00~20:30三场比赛连开,每7天一届</text>
+		<text id="您还未参赛">您还未参赛</text>
+		<text id="暂无">虚位以待</text>
+		<text id="空缺">空缺</text>
+		<text id="尚未结束">往届荣誉 敬请期待</text>
+
+		    <text id="5pkhelptxt">
+      <![CDATA[<font color='#fdd59a'>
+1.比赛时间:每天<font color='#2feb16'>20:00~20:30</font>,每场报名时间<font color='#2feb16'>3</font>分钟,战斗<font color='#2feb16'>5</font>分钟,每晚<font color='#2feb16'>3</font>场
+2.赛季周期:<font color='#2feb16'>7</font>天一个赛季,第<font color='#2feb16'>7</font>天晚比赛结束后结算赛季排名
+3.比赛规则:参与天神竞技的勇士共分<font color='#2feb16'>10</font>阶,每场比赛积分第一的玩家全部可进阶;积分第二的玩家中,青铜、白银2、3阶的玩家可进阶;积分最后的玩家降级<font color='#2feb16'>(白银阶以下玩家不降级)</font>其他玩家保级;积分相同时,按照死亡次数排序,死亡次数也相同时,按照战力排序
+4.奖励规则:赛季结束时,根据玩家曾经达到的最高阶级发放奖励,<font color='#2feb16'>最快登顶、最多击杀、最高连胜</font>玩家可获得<font color='#2feb16'>额外奖励</font>
+</font>]]>
+    </text>
+	</texts>
+	<controls>
+		<window id="main" left="0" right="0" top="0" bottom="0" center="0" middle="0">
+			<image bmp="大底板" width="1400" height="600" center="0" />
+			<button name="关闭" width="80" height="38" top="10" right="10">
+	        	<state frame="1" back="关闭按钮001"/>
+	         	<state frame="2" back="关闭按钮002"/>
+	         	<state frame="3" back="关闭按钮003"/>
+	        </button>
+	        <image bmp="第文字" width="35" height="34" top="62" center="-40" />
+	        <image bmp="届文字" width="35" height="34" top="62" center="40" />
+	        <countImage name="num" bmp="num14" sliceCount="10" center="0" top="60" />
+
+	        <button name="报名" width="224" height="75" visible="false" center="0" bottom="46"> 
+		       	<state frame="1" back="报名大按钮01"/>  
+		       	<state frame="2" back="报名大按钮02"/>  
+		       	<state frame="3" back="报名大按钮03"/> 
+      		</button>
+      		<button name="取消报名" width="224" height="75" visible="false" center="0" bottom="46"> 
+		        <state frame="1" back="取消报名大按钮01"/>  
+		        <state frame="2" back="取消报名大按钮02"/>  
+		        <state frame="3" back="取消报名大按钮03"/> 
+      		</button>
+      		<button name="进入战场" width="224" height="75" visible="false" center="0" bottom="46"> 
+		        <state frame="1" back="进入战场_01"/>  
+		        <state frame="2" back="进入战场_02"/>  
+		        <state frame="3" back="进入战场_03"/> 
+      		</button>
+      		<label name="time" width="220" height="18" bottom="115" center="0" format="宋体绿色12居中" html="true" />
+		</window>
+
+		<box id="centerBox" width="247" height="370" top="124" center="0">
+	    	<image bmp="顶层说明条底板" width="351" height="31" top="-30" center="0" />
+	    	<label width="315" height="18" center="0" top="-24" format="宋体黄色12居中" html="true" text="5pk说明" />
+
+	    	<image name="我的位置" bmp="我的位置" width="94" height="48" right="-86" />
+	    	<image name="上届位置" bmp="上届位置" width="94" height="48" left="-84" />
+
+	    	<labelButton name="问号" width="29" height="30" top="-30" center="150" >
+	          	<state frame="1" back="占星说明按钮01" />
+	          	<state frame="2" back="占星说明按钮02" />
+	          	<state frame="3" back="占星说明按钮03" />
+        	</labelButton>
+		      <box name="help" width="397" height="314" center="0" middle="0" visible="false">
+		        <image bmp="中底板底" top="0" bottom="0" left="0" right="0" grid="20,100,20,20"/>
+		        <image bmp="中底板标头" top="2" left="2" right="2" grid="50,0,50,0" height="36" />
+		        <image bmp="占星说明大" width="98" height="29" center="0" top="6" />
+		        <ref name="closeBtn" ref="CloseButton" top="6" right="6"/>
+		        <image bmp="中底板底" top="50" bottom="45" left="10" right="10" grid="20,100,20,20"/>
+		        <label width="375" height="260" format="宋体白色12带间隔10" left="14" top="42" text="5pkhelptxt" multiline="true" wordWrap="true" html="true" />
+		        <labelButton name="确定" width="62" height="22" center="0" bottom="12" label="确定" >
+		          <state frame="1" back="小按钮01"  format="按钮标签_efb55a_12_居中"/>
+		          <state frame="2" back="小按钮02"  format="按钮标签_efb55a_12_居中"/>
+		          <state frame="3" back="小按钮03"  format="按钮标签_efb55a_12_居中"/>
+		        </labelButton>
+		      </box>
+	    </box>
+
+	    <box id="centerItem" width="247" height="38" >
+	    	<image bmp="其他阶级" width="247" height="38" />
+	    	<image name="myLevel" bmp="我的阶级" width="247" height="38" visible="false" />
+
+	    	<image name="icon" width="39" height="36" left="1"/>
+	    	<label name="阶级名称" width="60" height="18" middle="-2" left="74" format="宋体黄色12" html="true"  />
+	    	<label name="人数" width="60" height="18" middle="-2" left="130" format="宋体绿色12居右" html="true"  />
+	    	<image name="itemIcon" width="26" height="28" middle="-3" right="10"/>
+	    	<maskcontrol name="item" width="40" height="40" right="2" middle="-2" mask="true"/>
+	    </box>
+
+		<box id="leftBox" width="188" height="445" top="120" center="-356">
+	        <image bmp="左侧小底板" width="188" height="48" top="12"/>
+	        <image bmp="左侧小底板" width="188" height="48" top="70"/>
+	        <image bmp="左侧小底板" width="188" height="48" top="128"/>
+
+	        <image bmp="最快登顶文字" width="66" height="23" top="0"/>
+	        <image bmp="最多击杀文字" width="66" height="23" top="58"/>
+	        <image bmp="最高连胜文字" width="66" height="23" top="116"/>
+	        <image bmp="积分前五文字" width="66" height="23" top="180"/>
+
+	        <label name="first" width="132" height="18" top="26" left="8" format="宋体白色12" html="true" />
+	        <label name="kill" width="132" height="18" top="84" left="8" format="宋体白色12" html="true" />
+	        <label name="streak" width="132" height="18" top="142" left="8" format="宋体白色12" html="true" />
+
+	        <image bmp="特殊奖项礼包" width="30" height="30" top="18" right="10" />
+	        <image bmp="特殊奖项礼包" width="30" height="30" top="76" right="10" />
+	        <image bmp="特殊奖项礼包" width="30" height="30" top="134" right="10" />
+
+	        <achieveEntity x="144" y="12" id="400021" mask="true"/>
+	        <achieveEntity x="144" y="70" id="400022" mask="true"/>
+	        <achieveEntity x="144" y="128" id="400023" mask="true"/>
+
+	        <box name="rank" top="204" left="15"/>
+
+	        <image bmp="往届荣誉" width="37" height="39" left="-44" bottom="25"/>
+	        <!--<image bmp="灰色" width="48" height="60" left="10" bottom="-14" tip="尚未结束" enabled="true" />-->
+	        <box name="historybox" width="330" height="48" left="10" bottom="20" />
+	    </box>
+
+	    <box id="rightBox" width="188" height="350" top="110" center="365" >
+	    	<image bmp="右侧小底板框" center="0" grid="15,15,15,15" width="90" height="90" />
+	    	<image bmp="右侧小底板框" center="0" grid="15,15,15,15" width="184" height="62" top="100" />
+	    	<image bmp="右侧小底板框" center="0" grid="15,15,15,15" width="184" height="84" top="204" />
+
+	    	<image name="icon" center="0" top="5" width="81" height="75" />
+
+	    	<label width="34" height="18" top="112" left="14" format="宋体白色12" text="参赛:" />
+	    	<label width="34" height="18" top="132" left="14" format="宋体白色12" text="击杀:" />
+	    	<label width="34" height="18" top="112" left="94" format="宋体白色12" text="胜利:" />
+	    	<label width="34" height="18" top="132" left="94" format="宋体白色12" text="积分:" />
+
+	    	<label name="参赛" width="60" height="18" top="112" left="48" format="宋体绿色12"  />
+	    	<label name="击杀" width="60" height="18" top="132" left="48" format="宋体绿色12"  />
+	    	<label name="胜利" width="60" height="18" top="112" left="128" format="宋体绿色12"  />
+	    	<label name="积分" width="60" height="18" top="132" left="128" format="宋体绿色12"  />
+
+	    	<label name="log结果" width="120" height="18" top="214" center="0" format="宋体白色12居中" html="true"  />
+	    	<label name="log击杀" width="120" height="18" top="234" center="0" format="宋体白色12" html="true"  />
+	    	<label name="log积分" width="120" height="18" top="254" center="0" format="宋体白色12" html="true"  />
+
+	    	<image bmp="右侧小底板框" center="0" grid="15,15,15,15" width="72" height="22" top="178" />
+	    	<button name="左翻页" width="16" height="24" center="-45" top="178"> 
+		        <state frame="1" back="箭头翻页01"/>  
+		        <state frame="2" back="箭头翻页02"/>  
+		        <state frame="3" back="箭头翻页03"/> 
+      		</button>
+      		<button name="右翻页" width="16" height="24" center="61" top="178" scaleX="-1"> 
+		        <state frame="1" back="箭头翻页01"/>  
+		        <state frame="2" back="箭头翻页02"/>  
+		        <state frame="3" back="箭头翻页03"/> 
+      		</button>
+      		<label name="页码" width="72" height="18" top="181" center="0" format="宋体黄色12居中" html="true" />
+	    </box>
+
+
+
+
+
+		<box id="miniMap" top="50" right="0" width="210" height="110">
+			<image bmp="小地图底板" width="210" height="110" />
+			<image name="map" bmp="小地图" width="200" height="100" left="5" top="5" />
+		</box>
+		
+		<box id="pkRank" top="160" right="0" width="219" height="234">
+			<image bmp="文字底板" width="219" height="234"/>
+			<box name="rankBox" top="25"/>
+		</box>
+
+		<box id="pkRankItem" height="30" width="250">
+			<label name="order" width="12" height="18" top="4" left="4" format="宋体白色12" html="true" />
+			<label name="name" width="90" height="18" top="4" left="20" format="宋体白色12" html="true" />
+			<label name="kills" width="24" height="18" top="4" left="130" format="宋体白色12" html="true" />
+			<label name="deaths" width="24" height="18" top="4" left="165" format="宋体白色12" html="true" />
+		</box>
+		
+		<box id="weekRankItem">
+			<label name="order" width="12" height="18" top="4" format="宋体白色12" html="true" />
+			<label name="name" width="90" height="18" top="4" left="20" format="宋体白色12" html="true" />
+			<label name="score" width="24" height="18" top="4" left="112" format="宋体白色12" html="true" />
+		</box>
+
+		<box id="resultView" width="468" height="317">
+			<image bmp="gameOverBack" left="0" top="0" right="0" bottom="0"/>
+			<button name="离开" width="159" height="55" center="0" bottom="-75"> 
+	        	<state frame="1" back="战斗结算大号按钮01"/>  
+	        	<state frame="2" back="战斗结算大号按钮02"/>  
+	        	<state frame="3" back="战斗结算大号按钮03"/> 
+      		</button> 
+      		<box name="rank" top="122" left="32" />
+		</box>
+
+		<box id="resultCell" width="436" height="30">
+			<image name="myImage" bmp="结算自己底板" height="28" top="-2" width="444" left="-20" visible="false"/>
+			<label name="order" width="12" height="18" middle="0" left="0" format="宋体白色12居中" html="true" />
+			<label name="name" width="90" height="18" middle="0" left="44" format="宋体白色12居中" html="true" />
+			<label name="kills" width="24" height="18" middle="0" left="160" format="宋体白色12居中" html="true" />
+			<label name="deaths" width="24" height="18" middle="0" left="214" format="宋体白色12居中" html="true" />
+			<label name="score" width="24" height="18" middle="0" left="272" format="宋体白色12居中" html="true" />
+
+			<image name="up" bmp="箭头上" width="16" height="18" top="6" right="56" />
+			<image name="down" bmp="箭头下" width="16" height="18" top="6" right="56" />
+			<image name="none" bmp="箭头一" width="14" height="5" top="12" right="56" />
+		</box>
+
+		<box id="historybox" width="330" height="48">
+			<button name="左翻页" width="16" height="24" left="-16" top="12"> 
+		        <state frame="1" back="箭头翻页01"/>  
+		        <state frame="2" back="箭头翻页02"/>  
+		        <state frame="3" back="箭头翻页03"/> 
+      		</button>
+      		<button name="右翻页" width="16" height="24" right="0" top="12" scaleX="-1"> 
+		        <state frame="1" back="箭头翻页01"/>  
+		        <state frame="2" back="箭头翻页02"/>  
+		        <state frame="3" back="箭头翻页03"/> 
+      		</button>
+		</box>
+		<box id="historyicon" width="48" height="48">
+			<image bmp="往届图标" width="48" height="48" />
+			<label name="label" width="48" height="18" bottom="0" format="宋体白色12居中" html="true" />
+		</box>
+
+		<box id="historyTip" width="180" height="320" left="48" top="-320">
+			<image bmp="中底板底" top="0" bottom="0" left="0" right="0" grid="20,100,20,20"/>
+			<image bmp="第文字" width="35" height="34" top="15" center="-40" />
+	        <image bmp="届文字" width="35" height="34" top="15" center="40" />
+	        <countImage name="num" bmp="num14" sliceCount="10" center="0" top="12" />
+
+	        <image bmp="最快登顶文字" width="66" height="23" left="10" top="50"/>
+	        <image bmp="最多击杀文字" width="66" height="23" left="10" top="95"/>
+	        <image bmp="最高连胜文字" width="66" height="23" left="10" top="140"/>
+	        <image bmp="积分前五文字" width="66" height="23" left="10" top="185"/>
+
+	        <label name="first" width="100" height="18" top="75" center="0" format="宋体白色12居中" html="true" text="空缺" />
+	        <label name="kills" width="100" height="18" top="120" center="0" format="宋体白色12居中" html="true" text="空缺" />
+	        <label name="streak" width="100" height="18" top="165" center="0" format="宋体白色12居中" html="true" text="空缺" />
+	        <label name="score1" width="100" height="18" top="210" center="0" format="宋体白色12居中" html="true" text="空缺" />
+	        <label name="score2" width="100" height="18" top="230" center="0" format="宋体白色12居中" html="true" text="空缺" />
+	        <label name="score3" width="100" height="18" top="250" center="0" format="宋体白色12居中" html="true" text="空缺" />
+	        <label name="score4" width="100" height="18" top="270" center="0" format="宋体白色12居中" html="true" text="空缺" />
+	        <label name="score5" width="100" height="18" top="290" center="0" format="宋体白色12居中" html="true" text="空缺" />
+
+		</box>
+
+
+
+		<image id="自己点" bmp="自己点" width="12" height="12" />
+		<image id="敌人点" bmp="敌人点" width="12" height="12" />
+		<image id="离开按钮文字" bmp="离开按钮文字" width="81" height="33" center="0" middle="0" />
+	</controls>
+</xml>

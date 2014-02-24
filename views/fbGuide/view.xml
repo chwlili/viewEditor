@@ -1,0 +1,12 @@
+<xml>
+	<bitmaps>
+		<bitmap id="title" src="imgs/箭头.png" />
+	</bitmaps>
+
+	<controls>
+		<box id="main" width="48" height="62">
+			<image bmp="title" left="0" top="0" right="0" bottom="0" />
+		</box>
+	</controls>
+
+</xml>

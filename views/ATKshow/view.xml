@@ -1,0 +1,12 @@
+﻿<xml>
+	<swfs>
+		<swf id="ATKshow" src="../swfs/ATKshow.swf"/>
+
+	</swfs>
+	<texts>
+		<text id="战斗力提升指南">战斗力提升指南</text>
+	</texts>
+  <bitmaps>
+    <bitmap id="主界面战斗力字" src="imgs/主界面战斗力字.png"/>
+  </bitmaps>
+</xml>

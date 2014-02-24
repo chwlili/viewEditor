@@ -1,0 +1,172 @@
+<xml name="通缉令" editorId="1">
+  <depends editorId="2">
+    <depend src="/public/controls/window/CloseButton.xml" editorId="3"/>
+    <depend src="/public/controls/window/WindowBack.xml" editorId="4"/>
+    <depend src="/public/publicButtons.xml" editorId="5"/>
+    <depend src="/public/publicFormats.xml" editorId="6"/>
+    <depend src="/public/publicFrames.xml" editorId="7"/>
+    <depend src="/public/publicNumimage.xml" editorId="8"/>
+    <depend src="/public/publicIcons.xml" editorId="9"/>
+    <depend src="/arena/arenaResult.xml" editorId="10"/>
+    <depend src="/public/publicBitmapTexts.xml" editorId="11"/>
+  </depends>
+  <formats editorId="12">
+    <format id="宋体红色12" font="宋体" color="0xe00503" size="12" align="left" filter="黑色边框" editorId="13"/>
+    <format id="宋体黄色居中12" font="宋体" size="12" color="0xffd880" bold="true" align="center" filter="黑色边框" editorId="14"/>
+    <format id="宋体橘黄色居中12" font="宋体" size="12" color="0xefb55a" align="center" filter="黑色边框" editorId="15"/>
+    <format id="宋体深黄色居中12" font="宋体" size="12" color="0x876b55" align="center" filter="黑色边框" editorId="16"/>
+    <format id="宋体浅黄色12" font="宋体" size="12" color="0xfde3ac" align="left" filter="黑色边框" editorId="17"/>
+    <format id="宋体浅黄色居中12" font="宋体" size="12" color="0xfde3ac" align="center" filter="黑色边框" editorId="18"/>
+    <format id="宋体灰色居中12" font="宋体" size="12" color="0x585755" align="center" filter="黑色边框" editorId="19"/>
+    <format id="宋体蓝色居中12" font="宋体" size="12" color="0x12def7" align="center" filter="黑色边框" editorId="20"/>
+  </formats>
+  <bitmaps editorId="21">
+    <bitmap id="按钮01" src="imgs/按钮01.png" editorId="22"/>
+    <bitmap id="按钮02" src="imgs/按钮02.png" editorId="23"/>
+    <bitmap id="按钮03" src="imgs/按钮03.png" editorId="24"/>
+    <bitmap id="大底板底条" src="imgs/大底板底条.png" editorId="25"/>
+    <bitmap id="放弃缉捕" src="imgs/放弃缉捕.png" editorId="26"/>
+    <bitmap id="奖励数字框" src="imgs/奖励数字框.png" editorId="27"/>
+    <bitmap id="普通物品框" src="imgs/普通物品框.png" editorId="28"/>
+    <bitmap id="前往缉捕" src="imgs/前往缉捕.png" editorId="29"/>
+    <bitmap id="上边框花纹" src="imgs/上边框花纹.png" editorId="30"/>
+    <bitmap id="通缉令" src="imgs/通缉令.png" editorId="31"/>
+    <bitmap id="通缉令纸张" src="imgs/通缉令纸张.png" editorId="32"/>
+    <bitmap id="通辑令下方" src="imgs/通辑令下方.jpg" editorId="33"/>
+    <bitmap id="通辑令右边框体" src="imgs/通辑令右边框体.jpg" editorId="34"/>
+    <bitmap id="稀有物品框" src="imgs/稀有物品框.png" editorId="35"/>
+    <bitmap id="稀有物品字体" src="imgs/稀有物品字体.png" editorId="36"/>
+    <bitmap id="下边框花纹" src="imgs/下边框花纹.png" editorId="37"/>
+    <bitmap id="战斗力底条" src="imgs/战斗力底条.png" editorId="38"/>
+    <bitmap id="通缉令已发布纸张" src="imgs/通缉令已发布纸张.png" editorId="39"/>
+    <bitmap id="数字底图效果" src="imgs/数字底图效果.png" editorId="40"/>
+    <bitmap id="数字" src="imgs/数字.png" editorId="41"/>
+    <bitmap id="得分数字" src="imgs/得分数字.png" editorId="42"/>
+    <bitmap id="BOSS掉落" src="imgs/BOSS掉落.png" editorId="43"/>
+    <bitmap id="经验" src="imgs/经验.png" editorId="44"/>
+    <bitmap id="金币" src="imgs/金币.png" editorId="45"/>
+    <bitmap id="战功" src="imgs/战功.png" editorId="46"/>
+    <bitmap id="结算框" src="imgs/结算框.png" editorId="47"/>
+    <bitmap id="加号" src="imgs/加号.png" editorId="48"/>
+    <bitmap id="结算数字" src="imgs/结算数字.png" editorId="49"/>
+    <bitmap id="胜利" src="imgs/胜利.png" editorId="50"/>
+    <bitmap id="你获得了以下奖励" src="imgs/胜利.png" editorId="51"/>
+    <bitmap id="itembg" src="imgs/bg.png" editorId="52"/>
+    <bitmap id="black" src="imgs/black.jpg" editorId="53"/>
+    <bitmap id="BOSS名字底条" src="imgs/BOSS名字底条.png" editorId="54"/>
+    <bitmap id="小数字" src="imgs/小数字.png" editorId="55"/>
+    <bitmap id="占星说明按钮01" src="imgs/占星说明按钮01.png" editorId="56"/>
+    <bitmap id="占星说明按钮02" src="imgs/占星说明按钮02.png" editorId="57"/>
+    <bitmap id="占星说明按钮03" src="imgs/占星说明按钮03.png" editorId="58"/>
+  </bitmaps>
+  <texts editorId="59">
+    <text id="通缉目标已击杀" editorId="60"><![CDATA[通缉目标已击杀玩家<font color='#2feb16'>$NUM</font>人]]></text>
+    <text id="本日首次缉捕者" editorId="62">本日首次缉捕者</text>
+    <text id="剩余缉捕令" editorId="64">剩余缉捕令</text>
+    <text id="缉捕令张数" editorId="66"><![CDATA[<font color='#2feb16'>$NUM</font>张]]></text>
+    <text id="缉捕奖励" editorId="68"><![CDATA[$NUM ×<font color='#2feb16'>$RATE倍</font>]]></text>
+    <text id="放弃缉捕将减少您今天一次缉捕机会" editorId="70">放弃缉捕将减少您今天一次缉捕机会，同时降低通缉热度，确定放弃吗？</text>
+    <text id="wanted_help" editorId="72"><![CDATA[
+1.<font color='#ff0000'>通缉热度</font>会成倍<font color='#00ff00'>增加奖励</font>，也会成倍<font color='#ff0000'>增加难度</font>。
+2.<font color='#00ff00'>通缉失败，不会有任何惩罚。</font>可以继续通缉。
+3.<font color='#00ff00'>通缉成功，可获得丰厚奖励。</font>同时<font color='#ff0000'>减少</font>今日通缉数量。
+4.<font color='#ff0000'>放弃通缉，将会降低通缉热度，减少通缉令数量。</font>，数量为<font color='#ff0000'>0</font>今日不可再缉捕犯人。
+5.随着玩家等级的提升，接受的通缉令难度会越来越高，对应的奖励也会越来越多。
+6.<font color='#00ff00'>通缉令数量</font>会在<font color='#ffff00'>每天0点重置</font>。]]></text>
+  </texts>
+  <controls editorId="74">
+    <window id="Main" width="716" height="546" editorId="75">
+      <ref ref="WindowBack" editorId="76"/>
+      <ref name="closeBtn" ref="CloseButton" editorId="77" x="679" y="13"/>
+      <image bmp="通缉令" width="78" height="29" top="12" center="0" editorId="78" x="319" y="12"/>
+      <image bmp="大底板底条" width="690" height="45" x="12" y="487" editorId="79"/>
+      <image bmp="knightFrame2" grid="30,47,29,49" width="695" height="450" x="10" y="46" editorId="80"/>
+      <image bmp="通辑令右边框体" width="263" height="431" x="436" editorId="81" y="53"/>
+      <image bmp="通辑令下方" width="430" height="39" x="20" y="442" editorId="82"/>
+      <image bmp="通缉令纸张" width="433" height="400" x="16" y="49" editorId="83"/>
+      <image bmp="BOSS名字底条" width="86" height="15" x="192" y="113" editorId="84"/>
+      <image bmp="奖励数字框" width="120" height="21" x="292" y="396" editorId="85"/>
+      <!--<image bmp="战斗力底条" width="336" height="30" x="67" y="342" editorId="86" name="fightBg"/>-->
+      <image bmp="数字底图效果" width="219" height="72" x="464" y="76" editorId="87"/>
+      <image bmp="奖励数字框" width="144" height="21" x="500" y="268" editorId="88"/>
+      <image bmp="奖励数字框" width="144" height="21" x="500" y="232" editorId="89"/>
+      <image bmp="奖励数字框" width="144" height="21" x="500" y="196" editorId="90"/>
+      <image bmp="knightsExp_2" width="40" height="40" x="474" y="186" editorId="91"/>
+      <image bmp="knightsFeat_2" width="42" height="42" x="472" y="222" editorId="92"/>
+      <image bmp="knightsGold_2" width="42" height="42" x="471" y="257" editorId="93"/>
+      <label name="timeTf" width="65" height="25" x="232" y="451" html="true" format="宋体浅黄色居中12" text="缉捕令张数" editorId="94"/>
+      <label width="120" height="25" x="292" y="397" html="true" format="宋体浅黄色居中12" text="名字有非法字符" editorId="95" name="nameTf"/>
+      <label width="70" height="25" x="152" y="451" html="true" format="宋体浅黄色居中12" text="剩余缉捕令" editorId="96"/>
+      <label width="94" height="25" x="198" y="397" html="true" format="宋体浅黄色居中12" text="本日首次缉捕者" editorId="97"/>
+      <label name="numTf" width="166" height="25" x="30" y="397" html="true" format="宋体浅黄色居中12" text="通缉目标已击杀" editorId="98"/>
+      <label name="monsterTf" width="166" height="25" x="152" y="111" html="true" format="宋体黄色居中12" text="名称无效" editorId="99"/>
+      <label name="rewardTf3" width="144" height="25" x="500" y="268" html="true" format="宋体浅黄色居中12" text="缉捕奖励" editorId="100"/>
+      <label name="rewardTf2" width="144" height="25" x="500" y="232" html="true" format="宋体浅黄色居中12" text="缉捕奖励" editorId="101"/>
+      <label name="rewardTf1" width="144" height="25" x="500" y="196" html="true" format="宋体浅黄色居中12" text="缉捕奖励" editorId="102"/>
+      <image name="finImgR" bmp="通辑令右边框体" width="263" height="431" x="436" editorId="103" y="53" visible="false"/>
+      <image name="finImgL" bmp="通缉令已发布纸张" width="433" height="400" x="16" y="49" editorId="104" visible="false"/>
+      <image name="topImg" bmp="上边框花纹" width="443" height="59" x="11" editorId="105" y="48"/>
+      <image name="bottomImg" bmp="下边框花纹" width="443" height="59" x="11" y="433" editorId="106"/>
+      <button name="enterBtn" width="120" height="42" right="NaN" bottom="10" editorId="107" x="228" y="494" center="-70">
+        <state frame="1" back="按钮01" editorId="108"/>
+        <state frame="2" back="按钮02" editorId="109"/>
+        <state frame="3" back="按钮03" editorId="110"/>
+      </button>
+      <button name="cancelBtn" width="120" height="42" right="NaN" bottom="10" editorId="111" x="368" y="494" center="70">
+        <state frame="1" back="按钮01" editorId="112"/>
+        <state frame="2" back="按钮02" editorId="113"/>
+        <state frame="3" back="按钮03" editorId="114"/>
+      </button>
+      <labelButton name="faqBtn" width="29" height="30" x="388" y="70" editorId="115">
+        <state frame="1" back="占星说明按钮01" editorId="116"/>
+        <state frame="2" back="占星说明按钮02" editorId="117"/>
+        <state frame="3" back="占星说明按钮03" editorId="118"/>
+      </labelButton>
+      <image bmp="前往缉捕" width="79" height="23" x="248" y="500" editorId="119"/>
+      <image bmp="放弃缉捕" width="79" height="23" x="389" y="500" editorId="120"/>
+    </window>
+    <window width="1400" height="600" top="0" center="0" id="Result" editorId="121">
+      <image bmp="black" left="0" right="0" top="0" bottom="0" center="0" middle="0" alpha="0.6" editorId="122"/>
+      <image bmp="结算框" width="615" height="249" top="150" center="0" editorId="123" x="392" y="150"/>
+      <image bmp="胜利" width="419" height="54" top="70" center="0" editorId="124" x="490" y="70"/>
+      <image bmp="knightsExp_2" width="40" height="40" x="529" y="212" editorId="125"/>
+      <image bmp="knightsFeat_2" width="42" height="42" x="526" y="255" editorId="126"/>
+      <image bmp="knightsGold_2" width="42" height="42" x="529" y="170" editorId="127"/>
+      <image bmp="金币" width="49" height="28" top="NaN" center="NaN" editorId="128" x="567" y="179"/>
+      <image bmp="经验" width="49" height="28" top="NaN" center="NaN" editorId="129" x="567" y="220"/>
+      <image bmp="战功" width="49" height="28" top="NaN" center="NaN" editorId="130" x="567" y="263"/>
+      <image bmp="加号" width="17" height="23" top="NaN" center="NaN" editorId="131" x="616" y="225"/>
+      <image bmp="加号" width="17" height="23" top="NaN" center="NaN" editorId="132" x="616" y="266"/>
+      <image bmp="加号" width="17" height="23" top="NaN" center="NaN" editorId="133" x="616" y="182"/>
+      <button name="quitBtn" width="159" height="55" center="0" bottom="100" editorId="134" x="620" y="445">
+        <box name="reward" width="615" height="104" center="0" middle="0" editorId="135"/>
+        <state frame="1" back="战斗结算大号按钮01" editorId="136"/>
+        <state frame="2" back="战斗结算大号按钮02" editorId="137"/>
+        <state frame="3" back="战斗结算大号按钮03" editorId="138"/>
+      </button>
+      <image bmp="战斗结算离开" width="76" height="28" center="0" bottom="113.5" editorId="139" x="662" y="458"/>
+      <box name="reward" width="615" height="104" center="0" y="274" editorId="140"/>
+    </window>
+    <box id="Help" width="397" height="300" center="0" middle="0" editorId="141">
+      <image bmp="中底板底" top="0" bottom="0" left="0" right="0" grid="20,100,20,20" editorId="142"/>
+      <image bmp="中底板标头" top="2" left="2" right="2" grid="50,0,50,0" height="36" editorId="143"/>
+      <!-- <image bmp="占星说明大" width="98" height="29" center="0" top="6" />-->
+      <ref name="closeBtn" ref="CloseButton" top="6" right="6" editorId="145"/>
+      <image bmp="中底板底" top="50" bottom="45" left="10" right="10" grid="20,100,20,20" editorId="146"/>
+      <label width="353" height="260" format="宋体白色12带间隔10" left="22" top="61" text="wanted_help" multiline="true" wordWrap="true" html="true" editorId="147"/>
+      <labelButton name="okBtn" width="62" height="22" center="0" bottom="12" label="确定" editorId="148">
+        <state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中" editorId="149"/>
+        <state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中" editorId="150"/>
+        <state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中" editorId="151"/>
+      </labelButton>
+    </box>
+    <box id="RewardCell" height="68" width="100" editorId="152">
+      <image bmp="itembg" width="48" height="49" editorId="153" x="26" y="0" center="0"/>
+      <label name="label" width="100" height="18" center="0" bottom="0" format="宋体浅黄色居中12" html="true" editorId="154" text="当前关卡通关奖励" x="0" y="50"/>
+    </box>
+    <box id="Cell" height="68" width="100" editorId="155">
+      <image bmp="普通物品框" width="48" height="49" editorId="156" x="26" y="0" center="0"/>
+      <label name="label" width="100" height="18" center="0" bottom="0" format="宋体浅黄色居中12" html="true" editorId="157" text="当前关卡通关奖励" x="0" y="52"/>
+    </box>
+  </controls>
+</xml>

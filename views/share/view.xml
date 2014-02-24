@@ -1,0 +1,104 @@
+﻿<xml name="分享">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	
+	<texts>
+		<text id="领取奖励">领取奖励</text>
+		<text id="领取奖励说明">完成以上操作后可领取以下分享奖励</text>
+		<text id="微博URL">http://e.t.qq.com/elex-wulin</text>
+		<text id="QQ空间URL">http://user.qzone.qq.com/2202411005</text>
+		<text id="精肉">潜能丹x5</text>
+		<text id="普通红宝石×10">红宝石×5</text>
+		<text id="普通蓝宝石×10">蓝宝石×5</text>
+		<text id="普通黄宝石×10">黄宝石×5</text>
+		<text id="大肉">潜能丹</text>
+		<text id="真武令">真武令</text>
+		<text id="普通随机宝石包">随机宝石包</text>
+		<text id="领取分享收听奖励">33</text>
+		<text id="领取分享日常奖励">34</text>
+	</texts>
+	
+	<bitmaps>
+		<bitmap id="标题文字.bmp" src="imgs/标题文字.png"/>
+		<bitmap id="第一步分享01.bmp" src="imgs/第一步分享01.png"/>
+		<bitmap id="第一步分享02.bmp" src="imgs/第一步分享02.png"/>
+		<bitmap id="第二步分享01.bmp" src="imgs/第二步分享01.png"/>
+		<bitmap id="第二步分享02.bmp" src="imgs/第二步分享02.png"/>
+		<bitmap id="第三步分享01.bmp" src="imgs/第三步分享01.png"/>
+		<bitmap id="第三步分享02.bmp" src="imgs/第三步分享02.png"/>
+		<bitmap id="对勾.bmp" src="imgs/对勾.png"/>
+		<bitmap id="每日分享.bmp" src="imgs/每日分享.png"/>
+		
+		<bitmap id="点击分享.bmp" src="imgs/点击分享.png"/>
+		<bitmap id="点击关注.bmp" src="imgs/点击关注.png"/>
+		<bitmap id="点击收听.bmp" src="imgs/点击收听.png"/>
+		
+	</bitmaps>
+	
+	<controls>
+		<window id="分享窗口" width="302" height="440">
+			<image bmp="1级底板2层.bmp" left="0" right="0" top="0" bottom="0" grid="38,38,38,38"/>
+			<image name="2级底板" bmp="2级底板.bmp" width="290" height="390" bottom="5" center="0" grid="40,40,40,40"/>
+			<image bmp="上方横条.frame" width="288" height="44" top="12" center="0" grid="20,0,20,0"/>
+			<image bmp="标题文字.bmp" width="92" height="24" top="22" center="0"/>
+			
+			<image name="第一步分享01" bmp="第一步分享01.bmp" width="237" height="47" center="0" top="69" enabled="true"/>
+			<image name="点击分享1" bmp="点击分享.bmp" width="51" height="16" top="83" right="45"/>
+			<image name="第一步对勾" bmp="对勾.bmp" width="38" height="37" top="72" right="45"/>
+
+			<image name="第二步分享01" bmp="第二步分享01.bmp" width="237" height="47" center="0" top="127" enabled="true"/>
+			<image name="点击收听" bmp="点击收听.bmp" width="51" height="16" top="141" right="45"/>
+			<image name="第二步对勾" bmp="对勾.bmp" width="38" height="37" top="130" right="45"/>
+			
+			<image name="第三步分享01" bmp="第三步分享01.bmp" width="237" height="47" center="0" top="185" enabled="true"/>
+			<image name="点击关注" bmp="点击关注.bmp" width="51" height="16" top="199" right="45"/>
+			<image name="第三步对勾" bmp="对勾.bmp" width="38" height="37" top="188" right="45"/>
+			
+			<image name="每日分享" bmp="每日分享.bmp" width="237" height="73" center="0" top="71" enabled="true"/>
+			<image name="每日分享对勾" bmp="对勾.bmp" width="38" height="37" top="86" right="45"/>
+			
+			<image bmp="hPoint" width="237" height="1" center="0" bottom="196" />
+			
+			<label width="237" height="20" bottom="170" center="0" text="领取奖励说明" format="2级底板咖啡色字体非加粗居中"/>
+			
+			<button name="关闭按钮" width="40" height="40" right="0" top="0">
+				<state frame="1" back="标准关闭按钮1.png" format="1"/>
+				<state frame="3" back="标准关闭按钮2.png" format="1"/>
+			</button>
+			
+			<box name="奖励1" x="45" y="279" width="160" height="145" >
+				<achieveEntity x="0" y="0" count="5" id="1751" />
+				<label width="65" height="20" x="40" y="11" text="精肉" format="宋体紫色12"/>
+				
+				<achieveEntity x="110" y="0" count="5" id="1692" />
+				<label width="65" height="20" x="150" y="11" text="普通红宝石×10" format="宋体紫色12"/>
+				
+				<achieveEntity x="0" y="49" count="5" id="1694" />
+				<label width="65" height="20" x="40" y="60" text="普通蓝宝石×10" format="宋体紫色12"/>
+				
+				<achieveEntity x="110" y="49" count="5" id="1693" />
+				<label width="65" height="20" x="150" y="60" text="普通黄宝石×10" format="宋体紫色12"/>	
+			</box>
+			
+			<box name="奖励2" x="45" bottom="16" width="160" height="145" >
+				<achieveEntity x="0" y="0" count="1" id="1751" />
+				<label width="65" height="20" x="40" y="11" text="大肉" format="宋体紫色12"/>
+				
+				<achieveEntity x="110" y="0" count="1" id="1680" />
+				<label width="65" height="20" x="150" y="11" text="真武令" format="宋体紫色12"/>
+				
+				<achieveEntity x="0" y="49" count="1" id="2377" />
+				<label width="65" height="20" x="40" y="60" text="普通随机宝石包" format="宋体紫色12"/>
+			</box>
+			
+			<labelButton name="领取奖励" width="100" height="27" center="0" bottom="35" label="领取奖励">
+				<state frame="1" back="普通按钮1" backGrid="30,9,30,9" format="宋体白色12"/>
+				<state frame="3" back="普通按钮2" backGrid="30,9,30,9" format="宋体白色12"/>
+			</labelButton>
+			
+		</window>
+	</controls>
+</xml>

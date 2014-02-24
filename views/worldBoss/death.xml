@@ -1,0 +1,51 @@
+<xml desc="复活倒计时">
+
+	<depends>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicNumimage.xml"/>	
+		<depend src="/public/publicButtons.xml"/>
+	</depends>
+
+	<colors>		
+
+	</colors>
+
+	<bitmaps>
+		<!-- 复活窗口 -->
+		<bitmap id="background" src="imgs/复活提示底板.png"/>
+		<bitmap id="冒号" src="imgs/战斗倒计时_冒号.png"/>
+	</bitmaps>
+
+	<filters>
+	</filters>
+
+	<formats>
+	</formats>
+
+	<texts>
+		<text id="文字1">您的角色将在</text>
+		<text id="文字2">后自动复活</text>
+		<text id="文字3"><![CDATA[<p align="center"><font color='#fcdbb0'>花 </font><font color='#1dd7ff'>5 钻石 </font><font color='#fcdbb0'>就可以立即复活，重返战场</font></p>]]></text>
+		<text id="文字4">立即复活</text>
+	</texts>
+
+	<controls>
+		<confirm id="worldBossRebirthWin" width="344" height="184">
+			<image name="bg" bmp="background"  top="0" center="0" width="344" height="184"/>
+			<image bmp="冒号" left="170" top="56" width="11" height="16"/>
+			<label left="46" top="55" width="86" height="18" format="宋体默认色12" text="文字1" />
+			<label left="228" top="55" width="86" height="18" format="宋体默认色12" text="文字2" />
+
+			<bitmap name="复活倒计时1" x="110" y="28"/>
+			<bitmap name="复活倒计时2" x="140" y="28"/>
+
+			<label name="hintLab" center="0" top="102" width="344" height="18" format="宋体默认色12" text="文字3" html="true"/>
+
+			<labelButton name="rebirth" center="0" top="136" width="84" height="28" label="文字4" >
+				<state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中" grid="40,0,40,0" />
+				<state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+				<state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+			</labelButton>
+		</confirm>
+	</controls>
+</xml>

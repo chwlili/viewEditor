@@ -1,0 +1,66 @@
+<xml desc="announce">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/controls/scroller/Scroller.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="title" src="imgs/公告标题字.png"/>
+		<bitmap id="页签未选择" src="imgs/页签未选择.png"/>
+		<bitmap id="页签选择" src="imgs/页签选择.png"/>
+	</bitmaps>
+	
+	<texts>
+	</texts>
+	
+	<formats>
+		<format id="按钮字体" font="宋体" size="12" color="0xffcd34" align="center" filter="按钮边框"/>
+		<format id="标题字体" font="宋体" size="14" color="0xff6c00" align="center" filter="标题边框"/>
+		<format id="作者字体" font="宋体" size="12" color="0x329d3e" align="right" filter="标题边框"/>
+		<format id="时间字体" font="宋体" size="12" color="0x328f9d" align="right" filter="标题边框"/>
+	</formats>
+	
+	<filters>
+		<filter id="标题边框">
+			<glow color="0x1e0202" alpha="1" blurX="2" blurY="2" strength="10"/>
+		</filter>
+		<filter id="按钮边框">
+			<glow color="0x200600" alpha="1" blurX="2" blurY="2" strength="10"/>
+		</filter>
+	</filters>
+	
+	<controls>
+		<window id="main" width="600" height="400">
+			<ref ref="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+			<image bmp="title" width="66" height="28" top="10" center="0"/>
+			
+			<box name="btnBox" width="144" height="320" left="20" top="60">
+			</box>
+			
+			<box name="descBox" width="418" height="320" left="162" top="58">
+				<image bmp="knightFrame2" grid="30,47,29,49" width="418" height="320"/>
+				<label name="title" width="418" height="30" format="标题字体" center="0" top="15"/>
+				<image bmp="分割线" grid="44,0,44,0" width="398" height="1" center="0" top="50"/>
+				<ref name="scroller" ref="Scroller" width="418" height="220" top="50"/>
+				<image bmp="分割线" grid="44,0,44,0" width="398" height="1" center="0" bottom="52"/>
+				<label name="author" width="403" height="20" format="作者字体" right="15" bottom="25"/>
+				<label name="date" width="403" height="20" format="时间字体" right="15" bottom="5"/>
+			</box>
+		</window>
+		
+		<labelToggleButton id="announceBtn" width="144" height="47">
+			<state frame="1" back="页签未选择" format="978773_12_居中"/>
+			<state frame="2" back="页签选择" format="ffe4c3_12_居中"/>
+			<state frame="3" back="页签选择" format="ffe4c3_12_居中"/>
+			<state frame="4" back="页签选择" format="ffe4c3_12_居中"/>
+			<state frame="5" back="页签选择" format="ffe4c3_12_居中"/>
+		</labelToggleButton>
+		
+		<label id="descLabel" width="398" autoHeight="true" center="0" middle="0" multiline="true" wordWrap="true" html="true" />
+	</controls>
+</xml>

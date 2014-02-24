@@ -1,0 +1,113 @@
+﻿<xml preload="0">
+	<bitmaps>
+		<bitmap id="背景" src="imgs/背景.png"/>
+		<bitmap id="标题" src="imgs/标题.png"/>
+		<bitmap id="关闭" src="imgs/关闭.png"/>
+
+		<bitmap id="世界按钮底板" src="imgs/世界按钮底板.png"/>
+		<bitmap id="世界按钮1" src="imgs/世界按钮1.png"/>
+		<bitmap id="世界按钮2" src="imgs/世界按钮2.png"/>
+		<bitmap id="世界按钮3" src="imgs/世界按钮3.png"/>
+
+		<bitmap id="组队按钮1" src="imgs/组队按钮1.png"/>
+		<bitmap id="组队按钮2" src="imgs/组队按钮2.png"/>
+		<bitmap id="组队按钮3" src="imgs/组队按钮3.png"/>
+
+		<bitmap id="冥想按钮1" src="imgs/挂机按钮1.png"/>
+		<bitmap id="冥想按钮2" src="imgs/挂机按钮2.png"/>
+		<bitmap id="冥想按钮3" src="imgs/挂机按钮3.png"/>
+
+		<bitmap id="好友按钮1" src="imgs/好友按钮1.png"/>
+		<bitmap id="好友按钮2" src="imgs/好友按钮2.png"/>
+		<bitmap id="好友按钮3" src="imgs/好友按钮3.png"/>
+
+		<bitmap id="信息按钮1" src="imgs/信息按钮1.png"/>
+		<bitmap id="信息按钮2" src="imgs/信息按钮2.png"/>
+		<bitmap id="信息按钮3" src="imgs/信息按钮3.png"/>
+
+		<bitmap id="声音按钮1" src="imgs/声音按钮1.png"/>
+		<bitmap id="声音按钮2" src="imgs/声音按钮2.png"/>
+		<bitmap id="声音按钮3" src="imgs/声音按钮3.png"/>
+
+		<bitmap id="隐藏按钮1" src="imgs/显示按钮1.png"/>
+		<bitmap id="隐藏按钮2" src="imgs/显示按钮2.png"/>
+		<bitmap id="隐藏按钮3" src="imgs/显示按钮3.png"/>
+
+		<bitmap id="设置按钮1" src="imgs/设置按钮1.png"/>
+		<bitmap id="设置按钮2" src="imgs/设置按钮2.png"/>
+		<bitmap id="设置按钮3" src="imgs/设置按钮3.png"/>
+	</bitmaps>
+
+
+	<texts>
+		<text id="世界栏_世界Tip">世界</text>
+		<text id="世界栏_组队Tip">组队</text>
+		<text id="世界栏_冥想Tip">冥想</text>
+		<text id="世界栏_好友Tip">好友</text>
+		<text id="世界栏_信息Tip">信息</text>
+		<text id="世界栏_声音Tip">声音</text>
+		<text id="世界栏_隐藏Tip">隐藏</text>
+		<text id="世界栏_设置Tip">设置</text>
+	</texts>
+
+	<formats>
+		<format id="场景名称字体" color="0xFFE2C0" size="12" align="center" />
+	</formats>
+
+	<controls>
+		<box id="视图1" width="260" height="110" right="0" top="0">
+
+			<image bmp="背景" width="204" height="73" x="10" y="10"/>
+			<image bmp="标题" width="222" height="35" y="7"/>
+			<image bmp="世界按钮底板" width="90" height="90" x="171"/>
+
+			<label name="场景名称" x="16" y="14" width="108" height="22" text="分享" format="场景名称字体"/>
+
+			<box name="世界" tip="世界栏_世界Tip" width="53" height="53" x="188" y="16">
+				<image bmp="世界按钮1" width="53" height="53"/>
+				<image bmp="世界按钮2" width="53" height="53"/>
+				<image bmp="世界按钮3" width="53" height="53"/>
+			</box>
+
+			<box name="组队" tip="世界栏_组队Tip" width="38" height="38" x="12" y="40">
+				<image bmp="组队按钮1" width="38" height="38"/>
+				<image bmp="组队按钮2" width="38" height="38"/>
+				<image bmp="组队按钮3" width="38" height="38"/>
+			</box>
+			<box name="冥想" tip="世界栏_冥想Tip" width="38" height="38" x="50" y="40">
+				<image bmp="冥想按钮1" width="38" height="38"/>
+				<image bmp="冥想按钮2" width="38" height="38"/>
+				<image bmp="冥想按钮3" width="38" height="38"/>
+			</box>
+			<box name="好友" tip="世界栏_好友Tip" width="38" height="38" x="88" y="40">
+				<image bmp="好友按钮1" width="38" height="38"/>
+				<image bmp="好友按钮2" width="38" height="38"/>
+				<image bmp="好友按钮3" width="38" height="38"/>
+			</box>
+			<box name="信息" tip="世界栏_信息Tip" width="38" height="38" x="126" y="40">
+				<image bmp="信息按钮1" width="38" height="38"/>
+				<image bmp="信息按钮2" width="38" height="38"/>
+				<image bmp="信息按钮3" width="38" height="38"/>
+			</box>
+
+			<box name="声音" tip="世界栏_声音Tip" width="31" height="31" x="162" y="10">
+				<image bmp="声音按钮1" width="31" height="31"/>
+				<image bmp="声音按钮2" width="31" height="31"/>
+				<image bmp="声音按钮3" width="31" height="31"/>
+				<image bmp="关闭" width="30" height="30" x="-1" y="-1"/>
+			</box>
+			<box name="隐藏" tip="世界栏_隐藏Tip" width="31" height="31" x="162" y="55">
+				<image bmp="隐藏按钮1" width="31" height="31"/>
+				<image bmp="隐藏按钮2" width="31" height="31"/>
+				<image bmp="隐藏按钮3" width="31" height="31"/>
+				<image bmp="关闭" width="30" height="30" x="-1" y="-1"/>
+			</box>
+			<box name="设置" tip="世界栏_设置Tip" width="31" height="31" x="198" y="75">
+				<image bmp="设置按钮1" width="31" height="31"/>
+				<image bmp="设置按钮2" width="31" height="31"/>
+				<image bmp="设置按钮3" width="31" height="31"/>
+			</box>
+		</box>
+	</controls>
+
+</xml>

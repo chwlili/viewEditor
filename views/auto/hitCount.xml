@@ -1,0 +1,13 @@
+<xml>
+	
+	<swfs>
+		<swf id="打击数" src="hitCount.swf"/>
+	</swfs>
+	
+	<controls>
+		<box id="打击面板" width="300" height="200" right="0" top="55">
+			<box name="连击动画容器" left="0" top="0"/>
+		</box>
+	</controls>
+
+</xml>

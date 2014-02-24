@@ -1,0 +1,164 @@
+<xml name="猎魔团">
+	<depends>
+	    <depend src="/public/publicButtons.xml"/>
+	    <depend src="/public/publicFormats.xml"/>
+	    <depend src="/public/publicFrames.xml"/>
+	    <depend src="/public/publicNumimage.xml"/>
+	    <depend src="/public/publicIcons.xml"/>
+		<depend src="/public/publicBitmapTexts.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+    	<depend src="/public/controls/window/WindowBack.xml"/>
+  	</depends>
+	<bitmaps>
+		<bitmap id="猎魔团标题" src="imgs/猎魔团标题.png" />
+		<bitmap id="右侧上层底板" src="imgs/右侧上层底板.jpg" />
+		<bitmap id="低级猎场-底板外框" src="imgs/低级猎场-底板外框.png" />
+		<bitmap id="低级猎场-底板中间" src="imgs/低级猎场-底板中间.jpg" />
+		<bitmap id="高级猎场-底板外框" src="imgs/高级猎场-底板外框.png" />
+		<bitmap id="高级猎场-底板中间" src="imgs/高级猎场-底板中间.jpg" />
+
+		<bitmap id="左侧切页01" src="imgs/左侧切页01.png" />
+		<bitmap id="左侧切页02" src="imgs/左侧切页02.png" />
+
+		<bitmap id="1阶猎场" src="imgs/一阶猎场.png" />
+		<bitmap id="2阶猎场" src="imgs/二阶猎场.png" />
+		<bitmap id="3阶猎场" src="imgs/三阶猎场.png" />
+		<bitmap id="4阶猎场" src="imgs/四阶猎场.png" />
+		<bitmap id="5阶猎场" src="imgs/五阶猎场.png" />
+
+		<bitmap id="1阶猎场1" src="imgs/一阶猎场02.png" />
+		<bitmap id="2阶猎场1" src="imgs/二阶猎场02.png" />
+		<bitmap id="3阶猎场1" src="imgs/三阶猎场02.png" />
+		<bitmap id="4阶猎场1" src="imgs/四阶猎场02.png" />
+		<bitmap id="5阶猎场1" src="imgs/五阶猎场02.png" />
+
+		<bitmap id="125收益文字" src="imgs/125收益文字.png" />
+		<bitmap id="150收益文字" src="imgs/150收益文字.png" />
+		<bitmap id="175收益文字" src="imgs/175收益文字.png" />
+		<bitmap id="200收益文字" src="imgs/200收益文字.png" />
+
+		<bitmap id="低级猎场名称1" src="imgs/低级猎场名称-01村郊猎场.png" />
+		<bitmap id="低级猎场名称2" src="imgs/低级猎场名称-02荒野猎场.png" />
+		<bitmap id="低级猎场名称3" src="imgs/低级猎场名称-03森林猎场.png" />
+		<bitmap id="低级猎场名称4" src="imgs/低级猎场名称-04废墟猎场.png" />
+		<bitmap id="低级猎场名称5" src="imgs/低级猎场名称-05宝藏猎场.png" />
+
+		<bitmap id="高级猎场名称1" src="imgs/高级猎场名称-01酋长猎场.png" />
+		<bitmap id="高级猎场名称2" src="imgs/高级猎场名称-02城堡猎场.png" />
+		<bitmap id="高级猎场名称3" src="imgs/高级猎场名称-03要塞猎场.png" />
+		<bitmap id="高级猎场名称4" src="imgs/高级猎场名称-04皇家猎场.png" />
+		<bitmap id="高级猎场名称5" src="imgs/高级猎场名称-05王座猎场.png" />
+
+		<bitmap id="低级猎场1" src="imgs/低级猎场-01村郊猎场.jpg" />
+		<bitmap id="低级猎场2" src="imgs/低级猎场-02荒野猎场.jpg" />
+		<bitmap id="低级猎场3" src="imgs/低级猎场-03森林猎场.jpg" />
+		<bitmap id="低级猎场4" src="imgs/低级猎场-04废墟猎场.jpg" />
+		<bitmap id="低级猎场5" src="imgs/低级猎场-05宝藏猎场.jpg" />
+
+		<bitmap id="高级猎场1" src="imgs/高级猎场-01酋长猎场.jpg" />
+		<bitmap id="高级猎场2" src="imgs/高级猎场-02要塞猎场.jpg" />
+		<bitmap id="高级猎场3" src="imgs/高级猎场-03城堡猎场.jpg" />
+		<bitmap id="高级猎场4" src="imgs/高级猎场-04皇家猎场.jpg" />
+		<bitmap id="高级猎场5" src="imgs/高级猎场-05王座猎场.jpg" />
+		
+		<bitmap id="锁" src="imgs/锁.png"/>
+		<bitmap id="战斗场景右侧波次底板" src="imgs/战斗场景右侧波次底板.png"/>
+		<bitmap id="胜利文字" src="imgs/胜利文字.png"/>
+		<bitmap id="恭喜通关猎魔团文字" src="imgs/恭喜通关猎魔团文字.png"/>
+	</bitmaps>
+	<bitmapReaders>
+	</bitmapReaders>
+	<texts>
+		<text id="前往猎魔">前往猎魔</text>
+		<text id="继续猎魔">继续猎魔</text>
+		<text id="需求战斗力">需求战斗力:</text>
+		<text id="猎魔说明">在狩猎场中击杀大量敌人,获得敌人掉落的金币和经验</text>
+		<text id="已击杀波次">已击杀波次:</text>
+		<text id="开启狩猎需要">开启狩猎需要:</text>
+		<text id="当前拥有">当前拥有:</text>
+		<text id="获取翅膀">获取翅膀</text>
+		<text id="猎魔几率掉落">几率掉落:</text>
+		<text id="猎魔道具描述"><![CDATA[猎魔令可在<font color='f8d40e'>每日活跃度宝箱</font>中免费获取3个,也可在<font color='f8d40e'>秘宝屋</font>中限量购买3个]]></text>
+	</texts>
+	<controls>
+		<window id="main" width="782" height="462">
+			<ref ref="WindowBack"/>
+      		<ref name="closeBtn" ref="CloseButton"/>
+      		<image bmp="猎魔团标题" center="0" top="10" width="79" height="31" />
+      		<image bmp="tips小底板" grid="9,9,9,9" width="206" height="390" left="16" top="53" />
+
+      		<box name="rightBox" width="537" height="390" left="225" top="53" >
+      			<image bmp="tips小底板" grid="9,9,9,9" width="537" height="390" />
+      			<image bmp="右侧上层底板" width="533" height="277" left="2" top="34" />
+      			<box name="普通" width="272" height="161" left="0" top="54">
+      				<image bmp="低级猎场-底板外框" width="272" height="161" />
+      				<image bmp="低级猎场-底板中间" width="238" height="133"  left="16" top="12"/>
+      				<image name="bg" width="238" height="88" left="16" top="12" />
+      				<image name="title" center="0" top="-4" width="92" height="28" />
+      				<image name="arrow" bmp="arrow2" width="35" height="41" center="0" top="-35" />
+	      		</box>
+	      		<box name="高级" width="272" height="161" right="0" top="54">
+	      			<image bmp="高级猎场-底板外框" width="272" height="161" />
+	      			<image bmp="高级猎场-底板中间" width="244" height="139" left="13" top="9" />
+	      			<image name="bg" width="238" height="88" left="16" top="19" />
+	      			<image name="title" center="0" top="-4" width="165" height="30" />
+	      			<image name="arrow" bmp="arrow2" width="35" height="41" center="0" top="-35" />
+	      			<image name="锁" bmp="锁" width="32" height="42" center="0" bottom="-5" />
+
+	      			<labelButton name="首充" center="0" middle="0" width="84" height="28" label="获取翅膀" >
+						<state frame="1" back="付费类按钮01" format="fdd59a_12_居中" />
+						<state frame="2" back="付费类按钮02" format="fdd59a_12_居中" />
+						<state frame="3" back="付费类按钮03" format="fdd59a_12_居中" />
+					</labelButton>
+	      		</box>
+
+	      		<labelButton name="enter" center="0" bottom="5" width="124" height="42" >
+					<state frame="1" back="大号按钮五字01" format="fdd59a_12_居中" />
+					<state frame="2" back="大号按钮五字02" format="fdd59a_12_居中" />
+					<state frame="3" back="大号按钮五字03" format="fdd59a_12_居中" />
+				</labelButton>
+
+				<label width="330" height="18" format="fdd59a_12_居中" top="8" center="0" text="猎魔说明" />
+				<label width="70" height="18" format="fdd59a_12" top="272" left="96" text="猎魔几率掉落" />
+
+      			<label name="count" width="130" height="18" format="fdd59a_12_居中" top="228" center="0" html="true" />
+      			<label name="item" width="280" height="18" format="fdd59a_12_居中" bottom="62" center="0" html="true" />
+      			<label width="380" height="18" format="fdd59a_12_居中" bottom="46" center="0" html="true" text="猎魔道具描述" />
+
+      			<image bmp="图标框" width="48" height="49" top="256" left="168" />
+      			<image bmp="图标框" width="48" height="49" top="256" left="220" />
+
+      			<achieveEntity x="173" y="260" id="3160"/>
+      			<achieveEntity x="225" y="260" id="10550"/>
+      		</box>
+      		
+      		<box name="btnList" top="60" left="22" />
+		</window>
+
+		<box id="leftBtn" width="195" height="67">
+			<image bmp="左侧切页02" width="195" height="67" />
+			<image name="bg" bmp="左侧切页01" width="195" height="67" />
+			<label name="label" width="120" height="18" left="28" top="36" format="fdd59a_12" />
+			<image name="title1" width="83" height="28" left="26" top="5" />
+			<image name="title2" width="83" height="28" left="26" top="5" />
+			<image name="title3" width="74" height="21" right="6" top="-2" />
+		</box>
+
+		<box id="phases" right="0" top="170" width="161" height="40">
+			<image bmp="战斗场景右侧波次底板" width="161" height="40" />
+			<countImage name="num" bmp="num13" sliceCount="10" top="18" center="0" />
+		</box>
+
+		<box id="结算" width="324" height="220" center="0" middle="0">
+			<image bmp="胜利文字" width="324" height="54" />
+			<image bmp="双层样式底框" top="60" width="324" height="80" grid="20,20,20,20"/>  
+			<image bmp="恭喜通关猎魔团文字" width="227" height="28" center="0" top="86" />
+			<labelButton name="button" width="159" height="55" center="0" bottom="0">
+				<state frame="1" back="战斗结算大号按钮01"/>
+	        	<state frame="2" back="战斗结算大号按钮02"/>
+	        	<state frame="3" back="战斗结算大号按钮03"/>
+        	</labelButton>
+        	<image name="离开按钮文字" bmp="战斗结算离开" center="0" middle="0" width="76" height="28"/>
+		</box>
+	</controls>
+</xml>

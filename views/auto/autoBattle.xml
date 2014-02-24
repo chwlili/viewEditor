@@ -1,0 +1,13 @@
+<xml>
+	
+	<bitmaps>
+		<bitmap id="自动战斗中" src="自动战斗中.png"/>
+	</bitmaps>
+	
+	<controls>
+		<box id="自动战斗中" width="247" height="104" center="0" middle="-200">
+			<image bmp="自动战斗中" width="247" height="104" center="0" middle="0"/>
+		</box>
+	</controls>
+
+</xml>

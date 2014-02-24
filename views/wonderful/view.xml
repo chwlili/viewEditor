@@ -1,0 +1,78 @@
+<xml name="精彩活动">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicNumimage.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/openingActivity/jewel_rebate2.xml"/>
+		<depend src="/openingActivity2/cost.xml"/>
+		<depend src="activity_21.xml"/>
+		<depend src="activity_22.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="页签选择" src="imgs/页签选择.png"/>
+		<bitmap id="页签未选择" src="imgs/页签未选择.png"/>
+		
+		<bitmap id="框体右侧装饰" src="imgs/框体右侧装饰.png"/>
+		<bitmap id="框体左侧装饰" src="imgs/框体左侧装饰.png"/>
+		<bitmap id="隔断条" src="imgs/隔断条.png"/>
+		<bitmap id="精彩活动图" src="imgs/精彩活动图.jpg"/>
+		
+		<bitmap id="精彩活动文字" src="imgs/精彩活动文字.png"/>
+		
+		<bitmap id="切页小角标" src="/openingActivity/imgs/切页小角标.png"/>
+	</bitmaps>
+	<texts>
+		<!--充值返利有两个，index为1的是开服的返利，index为2的是精彩返利 -->
+		<text id="BtnLabel_wonderful">积累消费拿大奖,充值返利 冲钻返钻,充值返利 冲钻返钻,累积充值 百万回馈,充值排行 赠送大礼</text>
+	</texts>
+	
+	<formats>
+		
+	</formats>
+	
+	<controls>
+		
+		<window id="main"  width="668" height="500">
+			<ref ref="WindowBack" name="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+			<image bmp="精彩活动文字" top="11" center="0" width="100" height="28" />
+			<box name="buttonGroupBox" left="16" top="50" />
+			
+			<box name="backBox" right="18" top="44" width="494" height="440">
+				<image name="cellBg" bmp="knightFrame2" left="0" top="0" right="0" bottom="0" grid="20,20,20,20"/>
+				<image name="精彩活动图" bmp="精彩活动图" center="0" top="4" width="482" height="161"/>
+			</box>
+			
+			<box name="cellBox" right="18" top="44" width="494" height="440">
+				
+			</box>
+			
+			<box name="upBox" right="18" top="44" width="494" height="440">
+				<image name="框体右侧装饰" bmp="框体右侧装饰" right="4" top="60" width="14" height="39"/>
+				<image name="框体左侧装饰" bmp="框体左侧装饰" left="4" top="60" width="14" height="39"/>
+				<image name="隔断条" bmp="隔断条" center="1" top="165" width="487" height="3"/>
+			</box>
+			
+		</window>
+		
+		<box id="selectBtnBox" left="0" top="0" width="144" height="47" >
+			<labelToggleButton name="selectBtn" center="0" middle="0" width="144" height="47">
+				<state frame="1" back="页签未选择" format="e9d5a4_12_居中"/>
+				<state frame="2" back="页签选择" format="e9d5a4_12_居中"/>
+				<state frame="3" back="页签选择" format="e9d5a4_12_居中"/>
+				<state frame="4" back="页签选择" format="e9d5a4_12_居中"/>
+				<state frame="5" back="页签选择" format="e9d5a4_12_居中"/>
+			</labelToggleButton>
+			<label name="btnLabel" width="144" height="20" center="0" middle="0"  format="fff266_12居中"/>
+			
+			<image name="labelImg1" center="5" middle="-2" width="144" height="47" enabled="false" />
+			<image name="labelImg2" center="5" middle="-2" width="144" height="47" enabled="false" />
+			
+			<image name="tip" bmp="切页小角标" left="-4" top="-11" width="28" height="28" />
+			<label name="label" width="20" height="20" left="4" top="-7"  format="宋体白色14加粗"/>
+		</box>
+	</controls>
+</xml>

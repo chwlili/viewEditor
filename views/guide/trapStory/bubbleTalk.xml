@@ -1,0 +1,46 @@
+﻿<xml>
+	
+	<bitmaps>
+		<bitmap id="黑底" src="黑底.jpg"/>
+		<bitmap id="泡泡背景" src="泡泡背景.png"/>
+		<bitmap id="泡泡箭头" src="泡泡箭头.png"/>
+	</bitmaps>
+
+	<formats>
+		<format id="名字" font="宋体" color="0x794a28" bold="true" size="12"/>
+		<format id="内容" font="宋体" color="0x794a28" size="12"/>
+	</formats>
+
+	<filters>
+		<filter id="投影">
+			<dropdownShadow distance="8" angle="45" color="0x0" alpha=".5" blurX="1" blurY="1" strength="1" quality="1"/>
+		</filter>
+	</filters>
+
+	<controls>
+		
+		<confirm id="剧情对话框" left="0" top="0" right="0" bottom="0">
+
+			<image name="黑底" bmp="黑底" left="0" right="0" top="0" bottom="0"/>
+
+			<box name="泡泡话容器" width="410" height="112" filters="投影">
+				<image bmp="泡泡背景" width="410" height="112" grid="15,0,15,0"/>
+				<box name="箭头" bottom="-16">
+					<image bmp="泡泡箭头" width="31" height="27" x="-30" y="-27"/>
+				</box>
+
+				<box name="图标容器" left="4" bottom="4">
+					<bitmap name="图标"/>
+				</box>
+
+				<text name="名字" autoSize="left" format="名字" x="165" y="12" width="220" height="30"/>
+				<text name="内容" format="内容" x="165" y="35" width="220" height="65" multiline="true" wordWrap="true"/>
+
+			</box>
+
+			
+		</confirm>
+
+	</controls>
+</xml>
+		

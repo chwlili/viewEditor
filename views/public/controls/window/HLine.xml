@@ -1,0 +1,12 @@
+<xml>
+	
+	<bitmaps>
+		<bitmap id="11内容横线11" src="imgs/hLine.png" />
+	</bitmaps>
+	
+	<controls>
+		
+		<image id="HLine" bmp="11内容横线11" grid="24,44,24,0" width="481" height="4"/>
+		
+	</controls>
+</xml>

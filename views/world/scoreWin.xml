@@ -1,0 +1,47 @@
+<xml>
+	<swfs>
+		<swf id="btnLib" src="../swfs/btnLib.swf"/>
+		<swf id="transcriptScoreWin" src="../swfs/transcriptScoreWin.swf"/>
+		<swf id="hitReward" src="../auto/hitReward.swf"/>
+	</swfs>
+
+	<depends>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicBitmapTexts.xml"/>
+	</depends>
+
+
+	<bitmaps>
+		<bitmap id="连击奖励底板" src="结算连击奖励底板.png"/>
+		<bitmap id="连击奖励框" src="结算连击奖励框.png"/>
+		<bitmap id="连击奖励文字" src="结算连击奖励文字.png"/>
+	</bitmaps>
+
+	<controls>
+		<box id="连击奖励面板" width="525" height="71" center="0" middle="5">
+			<image bmp="连击奖励底板" width="525" height="71" center="0" middle="0"/>
+			<box name="连击奖励容器" width="525" height="71" right="0" top="0">
+				<image bmp="连击奖励框" width="40" height="40" center="-140" middle="0"/>
+				<image bmp="连击奖励框" width="40" height="40" center="-100" middle="0"/>
+				<image bmp="连击奖励框" width="40" height="40" center="-60" middle="0"/>
+				<image bmp="连击奖励框" width="40" height="40" center="-20" middle="0"/>
+				<image bmp="连击奖励框" width="40" height="40" center="20" middle="0"/>
+				<image bmp="连击奖励框" width="40" height="40" center="60" middle="0"/>
+				<image bmp="连击奖励框" width="40" height="40" center="100" middle="0"/>
+				<image bmp="连击奖励框" width="40" height="40" center="140" middle="0"/>
+			</box>
+			<image bmp="连击奖励文字" width="82" height="27" center="0" top="-13"/>
+			<box name="连击奖励效果容器" left="0" top="0"/>
+		</box>
+		
+		<box id="离开" width="159" height="55">
+			<button name="离开按钮" width="159" height="55">
+	        	<state frame="1" back="战斗结算大号按钮01"/>
+	         	<state frame="2" back="战斗结算大号按钮02"/>
+	         	<state frame="3" back="战斗结算大号按钮03"/>
+	        </button>
+			<image bmp="战斗结算离开" width="76" height="28" center="0" middle="0"/>
+		</box>
+	</controls>
+
+</xml>

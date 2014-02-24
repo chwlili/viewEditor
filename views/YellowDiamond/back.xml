@@ -1,0 +1,70 @@
+﻿<xml name="黄钻">
+	<depends>
+		<depend src="../public/publicFrames.xml"/>
+		<depend src="../public/publicButtons.xml"/>
+		<depend src="../public/publicFormats.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="黄钻特权按钮1" src="imgs/yellowPrivilege1.png" size="102898"/>
+		<bitmap id="黄钻特权按钮2" src="imgs/yellowPrivilege2.png" size="102898"/>
+		<bitmap id="查看详细按钮1" src="imgs/detail1.png" size="102898"/>
+		<bitmap id="查看详细按钮2" src="imgs/detail2.png" size="102898"/>
+		
+		<bitmap id="失败标题" src="imgs/failtitle1.png" size="102898"/>
+		<bitmap id="成功标题1" src="imgs/successtitle1.png" size="102898"/>
+		<bitmap id="成功标题2" src="imgs/successtitle2.png" size="102898"/>
+		
+		<bitmap id="失败内容1" src="imgs/failcontent1.png" size="102898"/>
+		<bitmap id="失败内容2" src="imgs/failcontent2.png" size="102898"/>
+		<bitmap id="成功内容3" src="imgs/successcontent3.png" size="102898"/>
+	</bitmaps>
+	<texts>
+		<text id="pop">您已经开通黄钻了吗?</text>
+	</texts>
+	<formats>
+	</formats>
+	<controls>
+			<window id="成功" width="500" height="295">
+				<image bmp="1级底板2层.bmp" grid="38,38,38,38" left="0" top="0" right="0" bottom="0"/>
+				<image bmp="上方横条.frame" grid="24,44,24,0" height="44" left="5" top="20" right="5"/>
+				<image bmp="成功标题1" width="216" height="29" left="55" top="27" />
+				<button name="关闭按钮" width="40" height="40" right="0" top="0">
+					<state frame="1" back="标准关闭按钮1.png" format="1"/>
+					<state frame="3" back="标准关闭按钮2.png" format="1"/>
+				</button>
+				<image bmp="竞技3级底板.bmp" grid="15,15,15,15" left="25" top="65" right="25" bottom="140"/>
+				<image bmp="失败内容1" width="228" height="37" left="80" top="73" />
+				<image bmp="失败内容2" width="250" height="37" left="80" top="110" />
+				<button name="黄钻特权按钮" width="97" height="57" right="45" top="85">
+					<state frame="1" back="黄钻特权按钮1" format="1"/>
+					<state frame="3" back="黄钻特权按钮2" format="1"/>
+				</button>
+				
+				<image bmp="上方横条.frame" grid="24,44,24,0" height="44" left="5" top="170" right="5"/>
+				<image bmp="成功标题2" width="308" height="29" left="90" top="177" />
+				<image bmp="竞技3级底板.bmp" grid="15,15,15,15" left="25" top="210" right="25" bottom="25"/>
+				<image bmp="成功内容3" width="231" height="33" left="80" top="220"/>
+				<button name="查看详细按钮" width="97" height="57" right="45" top="210">
+					<state frame="1" back="查看详细按钮1" format="1"/>
+					<state frame="3" back="查看详细按钮2" format="1"/>
+				</button>
+			</window>
+				
+			<window id="失败" width="500" height="180">
+				<image bmp="1级底板2层.bmp" grid="38,38,38,38" left="0" top="0" right="0" bottom="0"/>
+				<image bmp="上方横条.frame" grid="24,44,24,0" height="44" left="5" top="20" right="5"/>
+				<image bmp="失败标题" width="272" height="29" left="105" top="27" />
+				<button name="关闭按钮" width="40" height="40" right="0" top="0">
+					<state frame="1" back="标准关闭按钮1.png" format="1"/>
+					<state frame="3" back="标准关闭按钮2.png" format="1"/>
+				</button>
+				<image bmp="竞技3级底板.bmp" grid="15,15,15,15" left="25" top="65" right="25" bottom="25"/>
+				<image bmp="失败内容1" width="221" height="36" left="60" top="73" />
+				<image bmp="失败内容2" width="250" height="37" left="60" top="110" />
+				<button name="开通黄钻.btn" width="140" height="34" right="25" top="90">
+					<state frame="1" back="开通黄钻.png" format="1"/>
+					<state frame="3" back="开通黄钻.png" format="1"/>
+				</button>
+			</window>
+	</controls>
+</xml>

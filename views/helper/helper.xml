@@ -1,0 +1,115 @@
+<xml>
+	<depends>
+		<depend src="/public/publicFrames.xml" />
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicIcons.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="title背景" src="imgs/滑动窗口标题底板.png"/>
+		<bitmap id="back" src="imgs/back.jpg"/>
+
+		<bitmap id="行动力不足文字" src="imgs/行动力不足文字.png"/>
+		<bitmap id="金币不足文字" src="imgs/金币不足文字.png"/>
+		<bitmap id="我要变强" src="imgs/我要变强.png"/>
+		<bitmap id="战功不足文字" src="imgs/战功不足文字.png"/>
+		<bitmap id="钻石不足文字" src="imgs/钻石不足文字.png"/>
+	</bitmaps>
+	
+	<texts>
+		<text id="我要充值">我要充值</text>
+		<text id="赚取金币">赚取金币</text>
+		<text id="获取战功">获取战功</text>
+		<text id="购买体力">购买体力</text>
+		<text id="立即强化">立即强化</text>
+		<text id="升级技能">升级技能</text>
+		<text id="嵌入宝石">嵌入宝石</text>
+		<text id="升级宝石">升级宝石</text>
+		<text id="立即进阶">立即进阶</text>
+		<text id="立即装备">立即装备</text>
+		<text id="我去看看">我去看看</text>
+
+		<text id="desc1">可通过充值界面直接购买</text>
+		<text id="desc2">可通过赚金币活动获得大量金币</text>
+		<text id="desc3">可通关主线副本、挑战、组队副本获得</text>
+		<text id="desc4">可通过购买体力获取,提升骑士等级能获取更多体力</text>
+		
+		<text id="装备提示">升级装备可以提高战斗力,在战斗中占得优势</text>
+		<text id="技能提示">升级技能可以提高战斗力,在战斗中占得优势</text>
+		<text id="嵌入宝石提示">嵌入宝石可以提高战斗力,在战斗中占得优势</text>
+		<text id="升级宝石提示">升级宝石可以提高战斗力,在战斗中占得优势</text>
+		<text id="装备进阶提示">装备进阶可以提高战斗力,在战斗中占得优势</text>
+		<text id="装备到身上提示">在背包中找到了这个,立即装备上吧</text>
+		<text id="炼金系统提示">我觉得炼金方面还可以有待提升</text>
+		<text id="光环系统提示">我觉得光环方面还可以有待提升</text>
+		<text id="首饰系统提示">我们去魔法工坊打造一些首饰吧</text>
+		<text id="附魔提示">我觉得装备附魔方面还可以有待提升</text>
+	</texts>
+	
+	<controls>
+		<box id="main" width="273" height="134" bottom="70" right="10">
+			<image bmp="双层样式底框" grid="30,30,30,30" left="0" top="0" right="0" bottom="0" />
+			<image bmp="lace1_1" left="0" middle="0" width="14" height="39" />
+			<image bmp="lace1_2" right="0" middle="0" width="14" height="39" />
+			<ref name="标准关闭按钮.btn" ref="CloseButton" top="8" right="8" />
+			<image bmp="分割用底图" height="44" top="80" left="7" right="7" scaleY="-1" />
+			<image bmp="分割用底图" height="44" bottom="7" left="7" right="7" />
+			<label name="desc" left="100" top="45" width="150" height="50" format="fdd59a_12_leading6" multiline="true" wordWrap="true" html="true"/>
+			<image bmp="back" width="69" height="69" left="24" top="48" />
+			<image name="图片" left="29" top="53" />
+
+			<box notice="钻石不足" name="box1" visible="false" left="0" top="0" right="0" bottom="0" >
+				<image bmp="钻石不足文字" center="0" top="12" width="79" height="26" />
+				<labelButton name="我要充值" label="我要充值" width="82" height="28" right="15" bottom="15">
+			        <state frame="1" back="knightLabelBtn2_1" format="工房按钮" />
+			        <state frame="2" back="knightLabelBtn2_2" format="工房按钮" />
+			        <state frame="3" back="knightLabelBtn2_3" format="工房按钮" />
+		    	</labelButton>
+			</box>
+
+			<box notice="金币不足" name="box2" visible="false" left="0" top="0" right="0" bottom="0" >
+				<image bmp="金币不足文字" center="0" top="12" width="79" height="26" />
+				<labelButton name="赚取金币" label="赚取金币" width="82" height="28" right="15" bottom="15">
+			        <state frame="1" back="knightLabelBtn2_1" format="工房按钮" />
+			        <state frame="2" back="knightLabelBtn2_2" format="工房按钮" />
+			        <state frame="3" back="knightLabelBtn2_3" format="工房按钮" />
+		    	</labelButton>
+			</box>
+
+			<box notice="战功不足" name="box3" visible="false" left="0" top="0" right="0" bottom="0" >
+				<image bmp="战功不足文字" center="0" top="12" width="79" height="25" />
+				<labelButton name="获取战功" label="获取战功" width="82" height="28" right="15" bottom="15">
+			        <state frame="1" back="knightLabelBtn2_1" format="工房按钮" />
+			        <state frame="2" back="knightLabelBtn2_2" format="工房按钮" />
+			        <state frame="3" back="knightLabelBtn2_3" format="工房按钮" />
+		    	</labelButton>
+			</box>
+
+			<box notice="体力不足" name="box4" visible="false" left="0" top="0" right="0" bottom="0" >
+				<image bmp="行动力不足文字" center="0" top="12" width="97" height="26" />
+				<labelButton name="购买体力" label="购买体力" width="82" height="28" right="15" bottom="15">
+			        <state frame="1" back="knightLabelBtn2_1" format="工房按钮" />
+			        <state frame="2" back="knightLabelBtn2_2" format="工房按钮" />
+			        <state frame="3" back="knightLabelBtn2_3" format="工房按钮" />
+		    	</labelButton>
+			</box>
+			<box notice="死亡后提示" name="box5" visible="false" left="0" top="0" right="0" bottom="0" >
+				<image bmp="我要变强" center="0" top="12" width="79" height="26" />
+				<labelButton name="按钮" width="82" height="28" right="15" bottom="15">
+			        <state frame="1" back="knightLabelBtn2_1" format="工房按钮" />
+			        <state frame="2" back="knightLabelBtn2_2" format="工房按钮" />
+			        <state frame="3" back="knightLabelBtn2_3" format="工房按钮" />
+		    	</labelButton>
+			</box>
+		</box>
+
+		<helperData id="数据">
+			<data id="1" title="" bmp="knightsBlueGem_3" desc="" link=""/>
+			<data id="2" title="" bmp="knightsGold_1"  desc="" link=""/>
+			<data id="3" title="" bmp="knightsFeat_1" desc="" link=""/>
+			<data id="4" title="" bmp="体力60" desc="" link=""/>
+		</helperData>
+	</controls>
+</xml>

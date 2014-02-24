@@ -1,0 +1,102 @@
+﻿<xml name="角色">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/controls/scroller/Scroller.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicTexts.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="翅膀文字01" src="imgs/翅膀文字01.png" />
+		<bitmap id="翅膀文字02" src="imgs/翅膀文字02.png" />
+		<bitmap id="宠物文字01" src="imgs/宠物文字01.png" />
+		<bitmap id="宠物文字02" src="imgs/宠物文字02.png" />
+		<bitmap id="光环文字01" src="imgs/光环文字01.png" />
+		<bitmap id="光环文字02" src="imgs/光环文字02.png" />
+		<bitmap id="角色" src="imgs/角色.png" />
+		<bitmap id="角色切页底板01_1" src="imgs/角色切页底板01_1.png" />
+		<bitmap id="角色切页底板01_2" src="imgs/角色切页底板01_2.png" />
+		<bitmap id="角色切页底板02_1" src="imgs/角色切页底板02_1.png" />
+		<bitmap id="角色切页底板02_2" src="imgs/角色切页底板02_2.png" />
+		<bitmap id="角色切页头像猪脚01" src="imgs/角色切页头像猪脚01.png" />
+		<bitmap id="角色切页头像猪脚02" src="imgs/角色切页头像猪脚02.png" />
+		<bitmap id="角色装备底板" src="imgs/角色装备底板.jpg" />
+		<bitmap id="圣契文字01" src="imgs/圣契文字01.png" />
+		<bitmap id="圣契文字02" src="imgs/圣契文字02.png" />
+		<bitmap id="下方侧边栏小装饰_右" src="imgs/下方侧边栏小装饰_右.png" />
+		<bitmap id="下方侧边栏小装饰_左" src="imgs/下方侧边栏小装饰_左.png" />
+		<bitmap id="下方功能外框" src="imgs/下方功能外框.png" />
+
+		<bitmap id="下方功能外框_空" src="imgs/下方功能外框_空.png" />
+		<bitmap id="下方功能外框_锁" src="imgs/下方功能外框_锁.png" />
+
+		<bitmap id="坐骑文字01" src="imgs/坐骑文字01.png"/>
+		<bitmap id="坐骑文字02" src="imgs/坐骑文字02.png"/>
+
+		<bitmap id="faction_1_1" src="imgs/剑士.png"/>
+		<bitmap id="faction_1_2" src="imgs/疾风剑士.png"/>
+		<bitmap id="faction_1_3" src="imgs/皇家剑士.png"/>
+		<bitmap id="faction_1_4" src="imgs/冰霜剑士.png"/>
+		<bitmap id="faction_3_1" src="imgs/战士.png"/>
+		<bitmap id="faction_3_2" src="imgs/狂战士.png"/>
+		<bitmap id="faction_3_3" src="imgs/皇家战士.png"/>
+		<bitmap id="faction_3_4" src="imgs/毁灭战神.png"/>
+		<bitmap id="faction_2_1" src="imgs/刺客.png"/>
+		<bitmap id="faction_2_2" src="imgs/暗影刺客.png"/>
+		<bitmap id="faction_2_3" src="imgs/梦魇刺客.png"/>
+		<bitmap id="faction_2_4" src="imgs/死亡使者.png"/>
+		<bitmap id="职业图标" src="imgs/职业图标.png"/>
+		<bitmap id="转职底板" src="imgs/转职底板.png"/>
+
+		<bitmap id="转职美术字01" src="imgs/转职美术字01.png"/>	
+		<bitmap id="转职美术字02" src="imgs/转职美术字02.png"/>	
+		<bitmap id="转职美术字03" src="imgs/转职美术字03.png"/>	
+
+		<bitmap id="光环图标" src="imgs/光环图标.png"/>	
+		<bitmap id="翅膀图标" src="imgs/翅膀图标.png"/>	
+		<bitmap id="圣器图标" src="imgs/圣器图标.png"/>	
+	</bitmaps>
+	<texts>
+		<text id="装备">装备</text>
+		<text id="光环">光环</text>
+		<text id="圣器">圣器</text>
+		<text id="46级开启光环"><![CDATA[46级完成[主线]$1任务后开启]]></text>  
+		<text id="41级开启圣器"><![CDATA[41级完成[主线]$1任务后开启]]></text>  
+	</texts>
+
+	<controls>
+		<window id="main" width="475" height="490">
+			<ref ref="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+
+			<image bmp="knightFrame2" grid="30,47,29,49" left="110" top="50" width="352" height="327" />
+			<image bmp="角色" left="220" top="10" width="77" height="27"/>			
+			<image bmp="角色装备底板" left="118" top="58" width="337" height="310" />		
+			<image bmp="knightFrame2" grid="30,47,29,49" left="110" top="380" width="352" height="95" />
+			<image bmp="下方侧边栏小装饰_左" left="114" top="408" width="13" height="39" />
+			<image bmp="下方侧边栏小装饰_右" left="445" top="408" width="13" height="39" />
+
+			
+			<!-- <image bmp="角色切页头像猪脚01" left="30" top="80" width="43" height="44" />
+			<label name="玩家一等级" height="20" width="105" top="70" left="20" format="橘黄色宋体12加粗" /> -->
+			<image bmp="转职底板" left="197" top="67" width="197" height="33"/>	
+			<!-- <image bmp="皇家剑士" left="260" top="70" width="68" height="24"/>	 -->
+			<!-- <image bmp="职业图标" left="240" top="73" width="19" height="22"/>								 -->
+			<!-- <image bmp="转职箭头" left="330" top="70" width="26" height="30"/>	 -->
+ 			<button name="按钮右" width="47" height="22" left="334" top="70">
+ 				<state frame="1" back="转职美术字01"/>
+ 				<state frame="2" back="转职美术字02"/>
+				<state frame="3" back="转职美术字03"/>
+ 			</button>
+
+		</window>
+
+
+
+
+	</controls>	
+
+</xml>

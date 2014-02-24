@@ -1,0 +1,33 @@
+<xml>
+
+	<bitmaps>
+		<bitmap id="连击奖励底板" src="连击奖励底板.png"/>
+		<bitmap id="连击奖励框" src="连击奖励框.png"/>
+		<bitmap id="连击奖励" src="连击奖励.png"/>
+		<bitmap id="金币" src="金币.png"/>
+		<bitmap id="经验" src="经验.png"/>
+		<bitmap id="战功" src="战功.png"/>
+	</bitmaps>
+
+	<swfs>
+		<swf id="打击奖励" src="hitReward.swf"/>
+	</swfs>
+	
+	<controls>
+		<box id="连击奖励面板" width="300" height="200" right="0" top="55">
+			<image bmp="连击奖励底板" width="300" height="41" right="0" top="0" grid="60,0,60,0"/>
+			<image bmp="连击奖励" width="66" height="21" center="0" top="-12"/>
+			<box name="连击奖励容器" width="300" height="41" right="0" top="0">
+				<image bmp="连击奖励框" width="40" height="40" center="-105" middle="0"/>
+				<image bmp="连击奖励框" width="40" height="40" center="-75" middle="0"/>
+				<image bmp="连击奖励框" width="40" height="40" center="-45" middle="0"/>
+				<image bmp="连击奖励框" width="40" height="40" center="-15" middle="0"/>
+				<image bmp="连击奖励框" width="40" height="40" center="15" middle="0"/>
+				<image bmp="连击奖励框" width="40" height="40" center="45" middle="0"/>
+				<image bmp="连击奖励框" width="40" height="40" center="75" middle="0"/>
+				<image bmp="连击奖励框" width="40" height="40" center="105" middle="0"/>
+			</box>
+		</box>
+	</controls>
+
+</xml>

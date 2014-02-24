@@ -1,0 +1,12 @@
+﻿<xml name="小提示">
+	<depends>
+		<depend src="../notice/image.xml"/>
+	</depends>
+	
+	<controls>
+		<box id="提示容器" width="24" height="24" center="0" bottom="150">
+			<image name="按钮1" bmp="icon1" left="0" right="0" top="0" bottom="0" />
+			<image name="按钮2" bmp="icon2" left="0" right="0" top="0" bottom="0" />
+		</box>
+	</controls>
+</xml>

@@ -1,0 +1,441 @@
+<xml name="任务">
+  <depends>
+    <depend src="imgs.xml"/>
+  </depends>
+  <controls>
+    <skin id="skin" bind="game.game.workflow.room.plugins.window.quest.ui.QuestWindow">
+      <skin id="image5Skin">
+        <var id="image" type="bitmapReader" value="BagWindowBack.br"/>
+        <var id="x" type="int" value="20"/>
+        <var id="width" type="int" value="381"/>
+        <var id="height" type="int" value="174"/>
+        <var id="y" type="int" value="310"/>
+      </skin>
+      <skin id="intentCellSkin">
+        <skin id="intentNameSkin">
+          <var id="center" type="int" value="0"/>
+          <var id="defaultFormat" type="format" value="st0xffffff12_align_center"/>
+          <var id="y" type="int" value="10"/>
+          <var id="html" type="boolean" value="true"/>
+          <var id="width" type="int" value="306"/>
+        </skin>
+        <var id="width" type="int" value="320"/>
+        <skin id="label1Skin">
+          <var id="label" type="text" value="skin.intentCellSkin.label1Skin.label.text"/>
+          <var id="top" type="int" value="35"/>
+          <var id="left" type="int" value="20"/>
+          <var id="defaultFormat" type="format" value="st0x2d030312粗体"/>
+        </skin>
+        <skin id="buttonSkin">
+          <var id="label" type="text" value="skin.intentCellSkin.buttonSkin.label.text"/>
+          <var id="width" type="int" value="81"/>
+          <var id="height" type="int" value="27"/>
+          <var id="clickSkin" type="bitmapReader" value="Button3_2.br"/>
+          <var id="x" type="int" value="235"/>
+          <var id="defaultSkin" type="bitmapReader" value="Button3_1.br"/>
+          <var id="defaultFormat" type="format" value="st0xffffff12"/>
+        </skin>
+        <skin id="nameBackSkin">
+          <var id="image" type="bitmapReader" value="nameBack.br"/>
+          <var id="top" type="int" value="9"/>
+          <var id="width" type="int" value="306"/>
+          <var id="height" type="int" value="19"/>
+          <var id="center" type="int" value="0"/>
+        </skin>
+        <skin id="text1Skin">
+          <var id="label" type="text" value=""/>
+          <var id="left" type="int" value="44"/>
+          <var id="width" type="int" value="250"/>
+          <var id="buttonMode" type="boolean" value="true"/>
+          <var id="top" type="int" value="54"/>
+          <var id="mouseChldren" type="boolean" value="false"/>
+          <var id="defaultFormat" type="format" value="st0xffffff12"/>
+          <var id="html" type="boolean" value="true"/>
+        </skin>
+        <skin id="topLineSkin">
+          <var id="image" type="bitmapReader" value="backHLine.br"/>
+          <var id="x" type="int" value="5"/>
+          <var id="y" type="int" value="0"/>
+          <var id="height" type="int" value="4"/>
+          <var id="width" type="int" value="320"/>
+        </skin>
+        <skin id="label2Skin">
+          <var id="label" type="text" value="skin.intentCellSkin.label2Skin.label.text"/>
+          <var id="top" type="int" value="73"/>
+          <var id="left" type="int" value="20"/>
+          <var id="defaultFormat" type="format" value="st0x2d030312粗体"/>
+        </skin>
+        <skin id="intentRewardCellSkin">
+          <skin id="goldIconSkin">
+            <var id="image" type="bitmapReader" value="GoldIcon.br"/>
+            <var id="x" type="int" value="0"/>
+            <var id="width" type="int" value="18"/>
+            <var id="height" type="int" value="13"/>
+            <var id="y" type="int" value="2"/>
+          </skin>
+          <skin id="expIconSkin">
+            <var id="image" type="bitmapReader" value="ExpIcon.br"/>
+            <var id="x" type="int" value="0"/>
+            <var id="width" type="int" value="18"/>
+            <var id="height" type="int" value="16"/>
+            <var id="y" type="int" value="1"/>
+          </skin>
+          <skin id="numberLabelSkin">
+            <var id="x" type="int" value="20"/>
+            <var id="defaultFormat" type="format" value="st0xffffff12"/>
+          </skin>
+          <skin id="coinsIconSkin">
+            <var id="image" type="bitmapReader" value="CoinsIcon.br"/>
+            <var id="x" type="int" value="0"/>
+            <var id="width" type="int" value="18"/>
+            <var id="height" type="int" value="18"/>
+            <var id="y" type="int" value="0"/>
+          </skin>
+        </skin>
+      </skin>
+      <skin id="image6Skin">
+        <var id="image" type="bitmapReader" value="BagWindowBack.br"/>
+        <var id="x" type="int" value="395"/>
+        <var id="width" type="int" value="391"/>
+        <var id="height" type="int" value="428"/>
+        <var id="y" type="int" value="56"/>
+      </skin>
+      <skin id="closeButtonSkin">
+        <var id="top" type="int" value="0"/>
+        <var id="width" type="int" value="40"/>
+        <var id="right" type="int" value="0"/>
+        <var id="height" type="int" value="40"/>
+        <var id="clickSkin" type="bitmapReader" value="closeButton_2.br"/>
+        <var id="defaultSkin" type="bitmapReader" value="closeButton_1.br"/>
+      </skin>
+      <skin id="titleSkin">
+        <var id="disabledFormat" type="format" value="st0xa0a0a012"/>
+        <var id="x" type="int" value="4"/>
+        <var id="label" type="text" value=""/>
+        <var id="defaultFormat" type="format" value="st0xffffff12_align_center"/>
+        <var id="y" type="int" value="55"/>
+        <var id="right" type="int" value="55"/>
+      </skin>
+      <skin id="list1Skin">
+        <var id="paddingTop" type="int" value="0"/>
+        <skin id="vScrollBarSkin">
+          <skin id="downArrowSkin">
+            <var id="highlightSkin" type="bitmapReader" value="scrollBarDownArrow_1.br"/>
+            <var id="defaultSkin" type="bitmapReader" value="scrollBarDownArrow_1.br"/>
+          </skin>
+          <skin id="dragSkin">
+            <var id="highlightSkin" type="bitmapReader" value="scrollBarDrag_1.br"/>
+            <var id="defaultSkin" type="bitmapReader" value="scrollBarDrag_1.br"/>
+          </skin>
+          <skin id="upArrowSkin">
+            <var id="highlightSkin" type="bitmapReader" value="scrollBarUpArrow_1.br"/>
+            <var id="defaultSkin" type="bitmapReader" value="scrollBarUpArrow_1.br"/>
+          </skin>
+          <skin id="trackSkin">
+            <var id="highlightSkin" type="bitmapReader" value="scrollbarTrack_1.br"/>
+            <var id="defaultSkin" type="bitmapReader" value="scrollbarTrack_1.br"/>
+          </skin>
+        </skin>
+        <var id="vScrollPolicy" type="int" value="1"/>
+        <var id="y" type="int" value="75"/>
+        <var id="width" type="int" value="340"/>
+        <var id="paddingBottom" type="int" value="0"/>
+        <var id="x" type="int" value="37"/>
+        <var id="height" type="int" value="195"/>
+        <var id="paddingLeft" type="int" value="0"/>
+        <var id="hScrollPolicy" type="int" value="2"/>
+        <var id="paddingRight" type="int" value="0"/>
+      </skin>
+      <var id="height" type="int" value="520"/>
+      <var id="background" type="bitmapReader" value="windowBack.br"/>
+      <skin id="image2Skin">
+        <var id="image" type="bitmapReader" value="questImage2.br"/>
+        <var id="x" type="int" value="90"/>
+        <var id="width" type="int" value="234"/>
+        <var id="height" type="int" value="49"/>
+        <var id="y" type="int" value="292"/>
+      </skin>
+      <skin id="helpButtonSkin">
+        <var id="top" type="int" value="0"/>
+        <var id="visible" type="boolean" value="false"/>
+        <var id="height" type="int" value="34"/>
+        <var id="clickSkin" type="bitmapReader" value="helpButton_2.br"/>
+        <var id="right" type="int" value="40"/>
+        <var id="defaultSkin" type="bitmapReader" value="helpButton_1.br"/>
+        <var id="width" type="int" value="34"/>
+      </skin>
+      <skin id="dailyTitleSkin">
+        <var id="defaultSkin" type="bitmapReader" value="TitleBack.br"/>
+        <var id="width" type="int" value="232"/>
+        <var id="defaultFormat" type="format" value="st0xffffff12_align_left"/>
+        <var id="highlightSkin" type="bitmapReader" value="TitleBack.br"/>
+        <var id="paddingLeft" type="int" value="-180"/>
+        <var id="clickSkin" type="bitmapReader" value="TitleBack.br"/>
+        <var id="height" type="int" value="22"/>
+      </skin>
+      <skin id="taskNumLabelSkin">
+        <var id="label" type="text" value=""/>
+        <var id="height" type="int" value="32"/>
+        <var id="width" type="int" value="340"/>
+        <var id="visible" type="boolean" value="false"/>
+        <var id="x" type="int" value="40"/>
+        <var id="defaultFormat" type="format" value="st0xffffff12_align_center"/>
+        <var id="y" type="int" value="390"/>
+        <var id="html" type="boolean" value="true"/>
+      </skin>
+      <skin id="closeButtonBackSkin">
+        <var id="width" type="int" value="51"/>
+      </skin>
+      <skin id="image1Skin">
+        <var id="image" type="bitmapReader" value="questImage1.br"/>
+        <var id="x" type="int" value="90"/>
+        <var id="width" type="int" value="234"/>
+        <var id="height" type="int" value="49"/>
+        <var id="y" type="int" value="39"/>
+      </skin>
+      <skin id="noQuestLabelSkin">
+        <var id="x" type="int" value="460"/>
+        <var id="label" type="text" value="skin.noQuestLabelSkin.label.text"/>
+        <var id="height" type="int" value="32"/>
+        <var id="defaultFormat" type="format" value="st0xffffff12_align_center"/>
+        <var id="y" type="int" value="110"/>
+        <var id="width" type="int" value="260"/>
+      </skin>
+      <skin id="image3Skin">
+        <var id="image" type="bitmapReader" value="questImage3.br"/>
+        <var id="x" type="int" value="500"/>
+        <var id="width" type="int" value="234"/>
+        <var id="height" type="int" value="49"/>
+        <var id="y" type="int" value="39"/>
+      </skin>
+      <skin id="list3Skin">
+        <skin id="vScrollBarSkin">
+          <skin id="downArrowSkin">
+            <var id="highlightSkin" type="bitmapReader" value="scrollBarDownArrow_1.br"/>
+            <var id="defaultSkin" type="bitmapReader" value="scrollBarDownArrow_1.br"/>
+          </skin>
+          <skin id="dragSkin">
+            <var id="highlightSkin" type="bitmapReader" value="scrollBarDrag_1.br"/>
+            <var id="defaultSkin" type="bitmapReader" value="scrollBarDrag_1.br"/>
+          </skin>
+          <skin id="upArrowSkin">
+            <var id="highlightSkin" type="bitmapReader" value="scrollBarUpArrow_1.br"/>
+            <var id="defaultSkin" type="bitmapReader" value="scrollBarUpArrow_1.br"/>
+          </skin>
+          <skin id="trackSkin">
+            <var id="highlightSkin" type="bitmapReader" value="scrollbarTrack_1.br"/>
+            <var id="defaultSkin" type="bitmapReader" value="scrollbarTrack_1.br"/>
+          </skin>
+        </skin>
+        <var id="paddingBottom" type="int" value="0"/>
+        <var id="paddingRight" type="int" value="0"/>
+        <var id="x" type="int" value="37"/>
+        <var id="y" type="int" value="75"/>
+        <var id="paddingLeft" type="int" value="0"/>
+        <var id="vScrollPolicy" type="int" value="1"/>
+        <var id="left" type="int" value="425"/>
+        <var id="top" type="int" value="90"/>
+        <var id="width" type="int" value="340"/>
+        <var id="paddingTop" type="int" value="0"/>
+        <var id="height" type="int" value="372"/>
+        <var id="hScrollPolicy" type="int" value="2"/>
+      </skin>
+      <skin id="dImage1Skin">
+        <var id="image" type="bitmapReader" value="backHLine.br"/>
+        <var id="x" type="int" value="40"/>
+        <var id="y" type="int" value="340"/>
+        <var id="height" type="int" value="4"/>
+        <var id="width" type="int" value="335"/>
+      </skin>
+      <skin id="dailyButtonSkin">
+        <var id="label" type="text" value="skin.dailyButtonSkin.label.text"/>
+        <var id="y" type="int" value="425"/>
+        <var id="width" type="int" value="81"/>
+        <var id="height" type="int" value="27"/>
+        <var id="clickSkin" type="bitmapReader" value="Button3_2.br"/>
+        <var id="x" type="int" value="165"/>
+        <var id="defaultSkin" type="bitmapReader" value="Button3_1.br"/>
+        <var id="defaultFormat" type="format" value="st0xffffff12"/>
+        <var id="visible" type="boolean" value="false"/>
+      </skin>
+      <skin id="list2Skin">
+        <skin id="vScrollBarSkin">
+          <skin id="downArrowSkin">
+            <var id="highlightSkin" type="bitmapReader" value="scrollBarDownArrow_1.br"/>
+            <var id="defaultSkin" type="bitmapReader" value="scrollBarDownArrow_1.br"/>
+          </skin>
+          <skin id="dragSkin">
+            <var id="highlightSkin" type="bitmapReader" value="scrollBarDrag_1.br"/>
+            <var id="defaultSkin" type="bitmapReader" value="scrollBarDrag_1.br"/>
+          </skin>
+          <skin id="upArrowSkin">
+            <var id="highlightSkin" type="bitmapReader" value="scrollBarUpArrow_1.br"/>
+            <var id="defaultSkin" type="bitmapReader" value="scrollBarUpArrow_1.br"/>
+          </skin>
+          <skin id="trackSkin">
+            <var id="highlightSkin" type="bitmapReader" value="scrollbarTrack_1.br"/>
+            <var id="defaultSkin" type="bitmapReader" value="scrollbarTrack_1.br"/>
+          </skin>
+        </skin>
+        <var id="top" type="int" value="276"/>
+        <var id="hScrollPolicy" type="int" value="2"/>
+        <var id="paddingBottom" type="int" value="0"/>
+        <var id="width" type="int" value="340"/>
+        <var id="paddingLeft" type="int" value="0"/>
+        <var id="paddingTop" type="int" value="0"/>
+        <var id="x" type="int" value="37"/>
+        <var id="paddingRight" type="int" value="0"/>
+        <var id="vScrollPolicy" type="int" value="1"/>
+        <var id="y" type="int" value="75"/>
+        <var id="height" type="int" value="195"/>
+      </skin>
+      <skin id="dailyContentSkin">
+        <var id="x" type="int" value="6"/>
+        <skin id="questContentSkin">
+          <var id="defaultFormat" type="format" value="st0xffffff12_align_left"/>
+          <var id="width" type="int" value="200"/>
+          <var id="html" type="boolean" value="true"/>
+        </skin>
+        <skin id="rewardSkin">
+          <var id="html" type="boolean" value="true"/>
+          <var id="defaultFormat" type="format" value="st0xffffff12_align_left"/>
+          <var id="width" type="int" value="200"/>
+          <var id="y" type="int" value="18"/>
+        </skin>
+        <var id="width" type="int" value="230"/>
+        <skin id="buttonSkin1">
+          <var id="label" type="text" value="skin.dailyContentSkin.buttonSkin1.label.text"/>
+          <var id="y" type="int" value="18"/>
+          <var id="width" type="int" value="81"/>
+          <var id="height" type="int" value="27"/>
+          <var id="clickSkin" type="bitmapReader" value="Button3_2.br"/>
+          <var id="x" type="int" value="167"/>
+          <var id="defaultSkin" type="bitmapReader" value="Button3_1.br"/>
+          <var id="defaultFormat" type="format" value="st0xffffff12"/>
+        </skin>
+        <skin id="buttonSkin2">
+          <var id="label" type="text" value="skin.dailyContentSkin.buttonSkin2.label.text"/>
+          <var id="y" type="int" value="2"/>
+          <var id="width" type="int" value="60"/>
+          <var id="height" type="int" value="25"/>
+          <var id="clickSkin" type="bitmapReader" value="Button10_2.br"/>
+          <var id="x" type="int" value="167"/>
+          <var id="defaultSkin" type="bitmapReader" value="Button10_1.br"/>
+          <var id="defaultFormat" type="format" value="st0xffffff12"/>
+        </skin>
+      </skin>
+      <skin id="questBackSkin">
+        <var id="image" type="bitmapReader" value="questTitle.br"/>
+        <var id="x" type="int" value="0"/>
+        <var id="y" type="int" value="0"/>
+        <var id="width" type="int" value="157"/>
+        <var id="height" type="int" value="38"/>
+      </skin>
+      <skin id="dImage2Skin">
+        <var id="image" type="bitmapReader" value="backHLine.br"/>
+        <var id="x" type="int" value="40"/>
+        <var id="y" type="int" value="412"/>
+        <var id="height" type="int" value="4"/>
+        <var id="width" type="int" value="335"/>
+      </skin>
+      <skin id="chainCellSkin">
+        <skin id="image1Skin">
+          <var id="image" type="bitmapReader" value="backHLine.br"/>
+          <var id="x" type="int" value="5"/>
+          <var id="y" type="int" value="34"/>
+          <var id="height" type="int" value="4"/>
+          <var id="width" type="int" value="320"/>
+        </skin>
+        <skin id="image3Skin">
+          <var id="image" type="bitmapReader" value="backHLine.br"/>
+          <var id="x" type="int" value="5"/>
+          <var id="y" type="int" value="34"/>
+          <var id="height" type="int" value="4"/>
+          <var id="width" type="int" value="320"/>
+        </skin>
+        <skin id="label3Skin">
+          <var id="x" type="int" value="10"/>
+          <var id="label" type="text" value="skin.chainCellSkin.label3Skin.label.text"/>
+          <var id="defaultFormat" type="format" value="st0x2d030312粗体"/>
+        </skin>
+        <var id="width" type="int" value="310"/>
+        <skin id="label1Skin">
+          <var id="x" type="int" value="10"/>
+          <var id="label" type="text" value="skin.chainCellSkin.label1Skin.label.text"/>
+          <var id="defaultFormat" type="format" value="st0x2d030312粗体"/>
+          <var id="y" type="int" value="40"/>
+        </skin>
+        <skin id="label2Skin">
+          <var id="x" type="int" value="10"/>
+          <var id="label" type="text" value="skin.chainCellSkin.label2Skin.label.text"/>
+          <var id="defaultFormat" type="format" value="st0x2d030312粗体"/>
+        </skin>
+        <skin id="questNameSkin">
+          <var id="html" type="boolean" value="true"/>
+          <var id="defaultFormat" type="format" value="st0xffffff12粗体_align_center"/>
+          <var id="width" type="int" value="310"/>
+          <var id="y" type="int" value="15"/>
+        </skin>
+        <skin id="buttonSkin2">
+          <var id="label" type="text" value="skin.chainCellSkin.buttonSkin2.label.text"/>
+          <var id="width" type="int" value="60"/>
+          <var id="height" type="int" value="25"/>
+          <var id="defaultFormat" type="format" value="st0xffffff12"/>
+          <var id="x" type="int" value="235"/>
+          <var id="defaultSkin" type="bitmapReader" value="Button10_1.br"/>
+          <var id="clickSkin" type="bitmapReader" value="Button10_2.br"/>
+        </skin>
+        <skin id="image2Skin">
+          <var id="image" type="bitmapReader" value="backHLine.br"/>
+          <var id="x" type="int" value="5"/>
+          <var id="y" type="int" value="34"/>
+          <var id="height" type="int" value="4"/>
+          <var id="width" type="int" value="320"/>
+        </skin>
+        <skin id="name1Skin">
+          <var id="defaultFormat" type="format" value="st0x2d030312粗体"/>
+          <var id="width" type="int" value="230"/>
+        </skin>
+        <skin id="buttonSkin1">
+          <var id="label" type="text" value="skin.chainCellSkin.buttonSkin1.label.text"/>
+          <var id="width" type="int" value="81"/>
+          <var id="height" type="int" value="27"/>
+          <var id="defaultFormat" type="format" value="st0xffffff12"/>
+          <var id="x" type="int" value="235"/>
+          <var id="defaultSkin" type="bitmapReader" value="Button3_1.br"/>
+          <var id="clickSkin" type="bitmapReader" value="Button3_2.br"/>
+        </skin>
+      </skin>
+      <var id="width" type="int" value="800"/>
+      <skin id="descSkin">
+        <var id="label" type="text" value="skin.descSkin.label.text"/>
+        <var id="multiline" type="boolean" value="true"/>
+        <var id="width" type="int" value="312"/>
+        <var id="visible" type="boolean" value="false"/>
+        <var id="wordWrap" type="boolean" value="true"/>
+        <var id="x" type="int" value="54"/>
+        <var id="defaultFormat" type="format" value="st0xffe16812_indent_24_leading_2"/>
+        <var id="y" type="int" value="350"/>
+        <var id="height" type="int" value="50"/>
+      </skin>
+      <skin id="image4Skin">
+        <var id="image" type="bitmapReader" value="BagWindowBack.br"/>
+        <var id="x" type="int" value="20"/>
+        <var id="width" type="int" value="381"/>
+        <var id="height" type="int" value="234"/>
+        <var id="y" type="int" value="56"/>
+      </skin>
+      <skin id="questWindowQuestButtonSkin">
+        <var id="top" type="int" value="-6"/>
+        <var id="label" type="text" value="skin.questWindowQuestButtonSkin.label.text"/>
+        <var id="width" type="int" value="157"/>
+        <var id="height" type="int" value="38"/>
+        <var id="defaultFormat" type="format" value="st0xffffff14"/>
+        <var id="highlightSkin" type="bitmapReader" value="WindowToggleButton2.br"/>
+        <var id="defaultSkin" type="bitmapReader" value="WindowToggleButton2.br"/>
+        <var id="clickSkin" type="bitmapReader" value="WindowToggleButton2.br"/>
+        <var id="center" type="int" value="0"/>
+      </skin>
+    </skin>
+  </controls>
+</xml>

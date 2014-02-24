@@ -1,0 +1,11 @@
+﻿<xml>
+	<swfs>
+    	<swf id="任务完成" src="../swfMotion/任务完成.swf"/>
+	</swfs>
+	<controls>
+		<box id="main" left="0" right="0" top="0" bottom="0" center="0" middle="0">
+			<swf name="任务完成" bmp="任务完成" top="190" right="770" />
+		</box>
+	</controls>
+	
+</xml>

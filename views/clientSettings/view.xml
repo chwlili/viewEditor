@@ -1,0 +1,262 @@
+<xml name="系统设置">
+  <depends>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+    <depend src="/public/controls/window/HelpButton.xml"/>
+    <depend src="/public/controls/window/CloseButton.xml"/>
+    <depend src="/public/controls/window/WindowBack.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+    <depend src="/public/publicTexts.xml"/>
+  </depends>
+  
+  <bitmaps>
+    <bitmap id="title1" src="imgs/title1.png"/>
+    <bitmap id="btn1_1" src="imgs/btn1.png"/>
+    <bitmap id="btn1_2" src="imgs/btn2.png"/>
+    <bitmap id="btn1_3" src="imgs/btn3.png"/>
+    <bitmap id="icon" src="imgs/icon.png"/>
+    <bitmap id="shortcut" src="imgs/shortcut.png"/>
+    <bitmap id="shortcutbg" src="imgs/shortcutbg.png"/>
+    <bitmap id="transition" src="imgs/transition.png"/>
+	<bitmap id="临时底板" src="imgs/临时底板.png"/>
+  </bitmaps>
+  
+  <texts>
+	<text id="基本设置">基本设置:</text>
+    <text id="mute">静音</text>
+    <text id="allowTeam">允许组队</text>
+    <text id="hideOthers">隐藏其他玩家</text>
+	<text id="显示设置">显示设置:</text>
+	<text id="全部显示">全部显示</text>
+	<text id="显示5人">显示5人</text>
+	<text id="显示10人">显示10人</text>
+	<text id="显示20人">显示20人</text>
+    <text id="keyboard">键盘设置:</text>
+    <text id="moveUp">移 动 (↑) . . . . . .</text>
+    <text id="moveLeft">移 动 (←) . . . . . .</text>
+    <text id="moveDown">移 动 (↓) . . . . . .</text>
+    <text id="moveRight">移 动 (→) . . . . . .</text>
+    <text id="attack">普通攻击 . . . . . .</text>
+    <text id="jump">跳    跃 . . . . . .</text>
+    <text id="skillFirst">技 能 1 . . . . . . . . .</text>
+    <text id="skillSecond">技 能 2 . . . . . . . . .</text>
+    <text id="skillThird">技 能 3 . . . . . . . . .</text>
+    <text id="skillFourth">技 能 4 . . . . . . . . .</text>
+    <text id="skillFifth">技 能 5 . . . . . . . . .</text>
+    <text id="petSkill">禁 术 . . . . . . . . .</text>
+    <text id="costAlert">消费提示:</text>
+    <text id="costAlertItems">设置提示项目</text>
+    <text id="default">默认设置</text>
+    <text id="clear">清除缓存</text>
+  </texts>
+  
+  <formats>
+	<format id="设置项目字体" font="宋体" size="12" color="0xab9753" filter="设置项目边框"/>
+  </formats>
+  
+  <filters>
+	<filter id="设置项目边框">
+		<glow color="0x36150a" alpha="1" blurX="2" blurY="2" strength="10"/>
+	</filter>
+  </filters>
+  
+  <controls>
+    <window id="main" width="454" height="459">
+      <ref ref="WindowBack"/>
+      <ref name="closeBtn" ref="CloseButton"/>
+      <image bmp="title1" width="65" height="28" top="12" center="0"/>
+	  
+	  <box name="基本设置区域" width="454" height="30" top="50">
+		<label text="基本设置" format="设置宋体12亮金加粗" width="65" height="20" left="20" middle="0" html="true"/>
+		<checkBox name="muteBtn" width="55" height="25" left="120" middle="0" label="mute">
+			<state frame="1" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="2" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="3" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="4" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="5" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="6" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="7" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="8" back="SelectedButton3_2" format="设置项目字体"/>
+		</checkBox>
+		<checkBox name="allowTeamBtn" width="80" height="25" left="260" middle="0" label="allowTeam">
+			<state frame="1" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="2" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="3" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="4" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="5" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="6" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="7" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="8" back="SelectedButton3_2" format="设置项目字体"/>
+		</checkBox>
+		<checkBox name="hideOthersBtn" width="100" height="25" left="300" middle="0" label="hideOthers">
+			<state frame="1" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="2" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="3" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="4" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="5" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="6" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="7" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="8" back="SelectedButton3_2" format="设置项目字体"/>
+		</checkBox>
+	  </box>
+	  
+	  <box name="显示设置区域" width="454" height="60" top="85">
+		<image bmp="临时底板" width="307" height="74" left="100" middle="0"/>
+		<label text="显示设置" format="设置宋体12亮金加粗" width="65" height="20" left="20" middle="0" html="true"/>
+		<checkBox name="showAll" width="80" height="25" top="5" left="120" label="全部显示">
+			<state frame="1" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="2" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="3" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="4" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="5" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="6" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="7" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="8" back="SelectedButton3_2" format="设置项目字体"/>
+		</checkBox>
+		<checkBox name="showFive" width="80" height="25" top="5" left="260" label="显示5人">
+			<state frame="1" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="2" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="3" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="4" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="5" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="6" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="7" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="8" back="SelectedButton3_2" format="设置项目字体"/>
+		</checkBox>
+		<checkBox name="showTen" width="80" height="25" bottom="5" left="120" label="显示10人">
+			<state frame="1" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="2" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="3" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="4" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="5" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="6" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="7" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="8" back="SelectedButton3_2" format="设置项目字体"/>
+		</checkBox>
+		<checkBox name="showTwenty" width="80" height="25" bottom="5" left="260" label="显示20人">
+			<state frame="1" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="2" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="3" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="4" back="SelectedButton3_1" format="设置项目字体"/>
+			<state frame="5" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="6" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="7" back="SelectedButton3_2" format="设置项目字体"/>
+			<state frame="8" back="SelectedButton3_2" format="设置项目字体"/>
+		</checkBox>
+	  </box>
+	  
+	  <box name="键盘设置区域" width="454" height="220" top="155">
+		<label text="keyboard" format="设置宋体12亮金加粗" width="65" height="20" left="20" top="0" html="true"/>
+		<image bmp="shortcut" width="430" height="196" left="10" top="20"/>
+		<image bmp="icon" width="13" height="13" left="20" top="38"/>
+		<label text="moveUp" format="设置宋体12暗金加粗" width="100" height="20" left="40" top="35"/>
+		<textInput name="moveUp" width="57" height="21" left="150" top="35">
+			<state frame="1" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="2" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="3" back="shortcutbg" format="ffbe57_12_居中"/>
+		</textInput>
+		<image bmp="icon" width="13" height="13" left="20" top="68"/>
+		<label text="moveLeft" format="设置宋体12暗金加粗" width="100" height="20" left="40" top="65"/>
+		<textInput name="moveLeft" width="57" height="21" left="150" top="65">
+			<state frame="1" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="2" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="3" back="shortcutbg" format="ffbe57_12_居中"/>
+		</textInput>
+		<image bmp="icon" width="13" height="13" left="20" top="98"/>
+		<label text="moveDown" format="设置宋体12暗金加粗" width="100" height="20" left="40" top="95"/>
+		<textInput name="moveDown" width="57" height="21" left="150" top="95">
+			<state frame="1" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="2" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="3" back="shortcutbg" format="ffbe57_12_居中"/>
+		</textInput>
+		<image bmp="icon" width="13" height="13" left="20" top="128"/>
+		<label text="moveRight" format="设置宋体12暗金加粗" width="100" height="20" left="40" top="125"/>
+		<textInput name="moveRight" width="57" height="21" left="150" top="125">
+			<state frame="1" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="2" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="3" back="shortcutbg" format="ffbe57_12_居中"/>
+		</textInput>
+		<image bmp="icon" width="13" height="13" left="20" top="158"/>
+		<label text="attack" format="设置宋体12暗金加粗" width="100" height="20" left="40" top="155"/>
+		<textInput name="attack" width="57" height="21" left="150" top="155">
+			<state frame="1" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="2" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="3" back="shortcutbg" format="ffbe57_12_居中"/>
+		</textInput>
+		<image bmp="icon" width="13" height="13" left="20" top="188"/>
+		<label text="jump" format="设置宋体12暗金加粗" width="100" height="20" left="40" top="185"/>
+		<textInput name="jump" width="57" height="21" left="150" top="185">
+			<state frame="1" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="2" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="3" back="shortcutbg" format="ffbe57_12_居中"/>
+		</textInput>
+		<image bmp="icon" width="13" height="13" left="230" top="38"/>
+		<label text="skillFirst" format="设置宋体12暗金加粗" width="90" height="20" left="250" top="35"/>
+		<textInput name="skillFirst" width="57" height="21" left="350" top="35">
+			<state frame="1" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="2" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="3" back="shortcutbg" format="ffbe57_12_居中"/>
+		</textInput>
+		<image bmp="icon" width="13" height="13" left="230" top="68"/>
+		<label text="skillSecond" format="设置宋体12暗金加粗" width="90" height="20" left="250" top="65"/>
+		<textInput name="skillSecond" width="57" height="21" left="350" top="65">
+			<state frame="1" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="2" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="3" back="shortcutbg" format="ffbe57_12_居中"/>
+		</textInput>
+		<image bmp="icon" width="13" height="13" left="230" top="98"/>
+		<label text="skillThird" format="设置宋体12暗金加粗" width="90" height="20" left="250" top="95"/>
+		<textInput name="skillThird" width="57" height="21" left="350" top="95">
+			<state frame="1" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="2" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="3" back="shortcutbg" format="ffbe57_12_居中"/>
+		</textInput>
+		<image bmp="icon" width="13" height="13" left="230" top="128"/>
+		<label text="skillFourth" format="设置宋体12暗金加粗" width="90" height="20" left="250" top="125"/>
+		<textInput name="skillFourth" width="57" height="21" left="350" top="125">
+			<state frame="1" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="2" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="3" back="shortcutbg" format="ffbe57_12_居中"/>
+		</textInput>
+		<image bmp="icon" width="13" height="13" left="230" top="158"/>
+		<label text="skillFifth" format="设置宋体12暗金加粗" width="90" height="20" left="250" top="155"/>
+		<textInput name="skillFifth" width="57" height="21" left="350" top="155">
+			<state frame="1" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="2" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="3" back="shortcutbg" format="ffbe57_12_居中"/>
+		</textInput>
+		<image bmp="icon" width="13" height="13" left="230" top="188"/>
+		<label text="petSkill" format="设置宋体12暗金加粗" width="90" height="20" left="250" top="185"/>
+		<textInput name="petSkill" width="57" height="21" left="350" top="185">
+			<state frame="1" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="2" back="shortcutbg" format="ffbe57_12_居中"/>
+			<state frame="3" back="shortcutbg" format="ffbe57_12_居中"/>
+		</textInput>
+	  </box>
+	  
+	  <box name="消费提示区域" width="454" heigth="22" top="388">
+		<label text="costAlert" format="设置宋体12亮金加粗" width="65" height="20" left="20" middle="0" html="true"/>
+		<labelButton name="costAlertBtn" label="costAlertItems" width="94" height="22" left="90" middle="0" paddingTop="-1">
+			<state frame="1" back="小按钮01" format="ffbe57_12_居中" backGrid="25,0,25,0"/>
+			<state frame="2" back="小按钮02" format="ffbe57_12_居中" backGrid="25,0,25,0"/>
+			<state frame="3" back="小按钮03" format="ffbe57_12_居中" backGrid="25,0,25,0"/>
+		</labelButton>
+	  </box>
+      
+	  <box name="底部按钮区域" width="454" height="30" top="410">
+		<image bmp="transition" width="420" height ="20" left="15" top="-5"/>
+		<labelButton name="defaultBtn" label="default" width="82" height="28" left="100" middle="0">
+			<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+			<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+			<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+		</labelButton>
+		<labelButton name="clearBtn" label="clear" width="82" height="28" right="100" middle="0">
+			<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+			<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+			<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+		</labelButton>
+	  </box>
+      
+    </window>
+  </controls>
+</xml>

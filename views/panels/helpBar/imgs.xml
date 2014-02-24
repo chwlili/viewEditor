@@ -1,0 +1,11 @@
+<xml>
+	<bitmaps>
+	
+		<bitmap id="背景.bmp" src="imgs/大背景.jpg"/>
+		<bitmap id="底板.bmp" src="imgs/底板.png"/>
+		<bitmap id="父按钮.bmp" src="imgs/父按钮.png"/>
+		<bitmap id="子按钮.bmp" src="imgs/子按钮.png"/>
+		<bitmap id="缩进按钮.bmp" src="imgs/缩进按钮.png"/>
+		
+	</bitmaps>
+</xml>

@@ -1,0 +1,11 @@
+﻿<xml>
+	<swfs>
+    	<swf id="升级特效" src="../swfMotion/任务完成.swf"/>
+	</swfs>
+	
+	<controls>
+		<box id="main" left="0" right="0" top="0" bottom="0" center="0" middle="0">
+			<swf name="升级特效" bmp="升级特效" />
+		</box>
+	</controls>
+</xml>

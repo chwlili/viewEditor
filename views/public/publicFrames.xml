@@ -1,0 +1,185 @@
+<xml>
+	<bitmaps>
+		<bitmap id="标准背景.frame" src="imgs/frames/windowBack.png" size="45378"/>
+		<bitmap id="windowBack2" src="imgs/frames/windowBack2.png"/>
+		<bitmap id="上方横条.frame" src="imgs/frames/topbar.png" size="4622"/>
+		<bitmap id="标准关闭按钮背景.frame" src="imgs/frames/closeButtonBack.png" size="146"/>
+		<bitmap id="标准Item背景默认" src="imgs/frames/itemBack1.png" size="219" />
+		<bitmap id="标准Item背景选中" src="imgs/frames/itemBack2.png" size="401" />
+		<bitmap id="标准黄黑渐变背景" src="imgs/frames/BagWindowBack.png" size="398" />
+		<bitmap id="标准内框背景" src="imgs/frames/frame1.png" size="18164" />
+		<bitmap id="标准内框背景2" src="imgs/frames/frame2.png" size="90" />
+		<bitmap id="标准提示框背景" src="imgs/frames/popFrame2.png" size="720" />
+		<bitmap id="表情框背景" src="imgs/frames/ChatPanelBack.png" size="156" />
+		<bitmap id="scrollbar背景.bmp" src="imgs/frames/ScrollBarTrack_1.png" size="121"/>
+		<bitmap id="scrollbar滑块.bmp" src="imgs/frames/ScrollBarDrag_1.png" size="124"/>
+		<bitmap id="scrollbar上箭头.bmp" src="imgs/frames/ScrollBarUpArrow_1.png" size="141"/>
+		<bitmap id="scrollbar下箭头.bmp" src="imgs/frames/ScrollBarDownArrow_1.png" size="144"/>
+		<bitmap id="Underline" src="imgs/frames/Underline.png" />
+		
+		<bitmap id="scrollbar_2背景.bmp" src="imgs/frames/ScrollBarTrack_2.png"/>
+		<bitmap id="scrollbar_2滑块.bmp" src="imgs/frames/ScrollBarDrag_2.png"/>
+		<bitmap id="scrollbar_2上箭头.bmp" src="imgs/frames/ScrollBarUpArrow_2.png"/>
+		<bitmap id="scrollbar_2下箭头.bmp" src="imgs/frames/ScrollBarDownArrow_2.png"/>
+		
+		<bitmap id="itemBack_1.bmp" src="imgs/frames/itemBack_1.png" />
+		<bitmap id="itemBack_2.bmp" src="imgs/frames/itemBack_2.png" />
+		
+		<bitmap id="list背景.bmp" src="imgs/frames/ListBackFrame.png" size="140"/>
+		<bitmap id="67道具背景.bmp" src="imgs/frames/1.png" size="5417"/>
+		<bitmap id="标准panel背景.bmp" src="imgs/frames/frame.png" size="219"/>
+		<bitmap id="hPoint" src="imgs/frames/hPoint.png" size="936"/>
+		<bitmap id="onePoint" src="imgs/frames/onePoint.png"/>
+		<bitmap id="backHLine" src="imgs/frames/backHLine.png"/>
+		<bitmap id="backVLine" src="imgs/frames/backVLine.png"/>
+		<bitmap id="3级底板.bmp" src="imgs/frames/backLvl3.png" size="6612"/>
+		<bitmap id="2级底板.bmp" src="imgs/frames/frame1.png" size="6612"/>
+		<bitmap id="文字背景.bmp" src="imgs/frames/topTextBack.png" size="6612"/>
+		<bitmap id="1级底板2层.bmp" src="imgs/frames/back1_2.png"/>
+		<bitmap id="竞技3级底板.bmp" src="imgs/frames/frame3.png"/>
+		<bitmap id="黄钻3级底板.bmp" src="imgs/frames/frame3a.png"/>
+		<bitmap id="5级底板.bmp" src="imgs/frames/frame5.png"/>
+		<bitmap id="6级底板.bmp" src="imgs/frames/frame6.jpg"/>
+		<bitmap id="tip底板.bmp" src="imgs/frames/ChatPanelBack1.png"/>
+		<bitmap id="back1_3" src="imgs/frames/back1_3.png"/>
+		
+		<bitmap id="进度条底板" src="imgs/frames/进度条底板.png"/>
+		<bitmap id="进度条背景" src="imgs/frames/进度条背景.png"/>
+		<bitmap id="进度条前景" src="imgs/frames/进度条前景.png"/>
+		
+		<bitmap id="签到普通背景" src="imgs/frames/signBk1.png"/>
+		<bitmap id="签到高亮背景" src="imgs/frames/signBk2.png"/>
+		
+		<bitmap id="BagSlotBack" src="imgs/frames/BagSlotBack.png"/>
+		<bitmap id="BagSlotBack1" src="imgs/frames/BagSlotBack1.png"/>
+		
+		<bitmap id="BagSlotBack3" src="imgs/frames/BagSlotBack3.png"/>
+		<bitmap id="BagSlotBack6" src="imgs/frames/BagSlotBack6.png"/>
+
+
+		<bitmap id="nameBack" src="imgs/frames/nameBack.png"/>
+		
+		<bitmap id="titleBack1" src="imgs/frames/WindowToggleButton1.png" />
+		<bitmap id="titleBack2" src="imgs/frames/WindowToggleButton2.png" />
+
+		
+		
+		<bitmap id="titleback" src="imgs/frames/titleback.png" />
+		<bitmap id="titleback2" src="imgs/frames/titleback2.png" />
+
+		<bitmap id="blackback" src="imgs/frames/back3.png" />
+		<bitmap id="back4" src="imgs/frames/back4.png" />
+		<bitmap id="back5" src="imgs/frames/back5.png" />
+		<bitmap id="back6" src="imgs/frames/back6.png" />
+		<bitmap id="back7" src="imgs/frames/back7.png" />
+		
+		
+		<bitmap id="outback1" src="imgs/frames/outBack_1.png" />
+		<bitmap id="slotback1" src="imgs/frames/slotBack1.png" />
+		
+
+		<bitmap id="LimitBack" src="imgs/frames/LimitBack.png" />
+		<bitmap id="backPanel2" src="imgs/frames/backPanel2.png" />
+		
+		<bitmap id="backPanel5" src="imgs/frames/backPanel5.png" />
+		<bitmap id="backPanel6" src="imgs/frames/backPanel6.png" />
+		
+		<bitmap id="frame12" src="imgs/frames/frame12.png"/>
+		
+		<bitmap id="frame13" src="imgs/frames/frame13.png"/>
+		<bitmap id="frame14" src="imgs/frames/frame14.png"/>
+		<bitmap id="frame15" src="imgs/frames/frame15.png"/>
+
+		<bitmap id="grooveBack" src="imgs/frames/SmithGrooveBack.png"/>
+		<bitmap id="groove" src="imgs/frames/SmithGroove.png"/>
+
+		<bitmap id="canvas_wordback2" src="imgs/frames/canvas_wordback2.png"/>
+
+		<bitmap id="back2_2" src="imgs/frames/back2_2.png"/>
+
+		<!--         新加在下方 上方将在将来清理掉             -->
+
+		<!--48,0,43,0-->
+		<bitmap id="knightTitle1" src="imgs/frames/knightTitle1.png" />
+		<!--73,41,77,54-->
+		<bitmap id="knightFrame1" src="imgs/frames/knightFrame1.png" />
+		<!--30,47,29,49-->
+		<bitmap id="knightFrame2" src="imgs/frames/knightFrame2.png" />
+		<!--10,10,10,10-->
+		<bitmap id="knightFrame3" src="imgs/frames/knightFrame3.png"/>
+		<!--10,10,10,10-->
+		<bitmap id="knightFrame4" src="imgs/frames/knightFrame4.png"/>
+		<!--20,0,20,0-->
+		<bitmap id="knightFrame5" src="imgs/frames/knightFrame5.png"/>
+		<!--20,0,20,0-->
+		<bitmap id="knightFrame6" src="imgs/frames/knightFrame6.png"/>
+		<!--20,0,20,0-->
+		<bitmap id="knightFrame7" src="imgs/frames/knightFrame7.png"/>
+		<!--20,0,20,0-->
+		<bitmap id="knightFrame8" src="imgs/frames/knightFrame8.png"/>
+		<!--20,0,20,0-->
+		<bitmap id="knightFrame9" src="imgs/frames/knightFrame9.png"/>
+		<!--46,42,46,42-->
+		<bitmap id="knightFrame10" src="imgs/frames/knightFrame10.png"/>
+		<!--0000-->
+		<bitmap id="knightFrame11" src="imgs/frames/knightFrame11.png"/>
+
+		<!--100,100,100,100  -->
+		<bitmap id="knightFrame12" src="imgs/frames/knightFrame12.png"/>
+		
+		<!--8,8,8,8-->
+		<bitmap id="knightTextBoard" src="imgs/frames/奖励底板.png" />
+		<!--20,80,20,20-->
+		<bitmap id="mapTipsBoard" src="imgs/frames/tooltips首都_底板.png" />
+		
+		<!-- newBag2 4646 -->
+		<bitmap id="newBag2" src="imgs/frames/newBag2.png" />
+
+		<!--头像选中底板 -->
+		<bitmap id="knightRolehead1" src="imgs/frames/标签01.png" />
+		<bitmap id="knightRolehead2" src="imgs/frames/标签0102.png" />
+		<bitmap id="knightRolehead3" src="imgs/frames/标签0201.png" />
+		<bitmap id="knightRolehead4" src="imgs/frames/标签0202.png" />
+		
+		<!--44 0 44 0-->
+		<bitmap id="分割线" src="imgs/frames/分割线.png" />
+		
+		
+		<!--花边14,39-->
+		<bitmap id="lace1_2" src="imgs/frames/框体右侧装饰.png" />
+		<bitmap id="lace1_1" src="imgs/frames/框体左侧装饰.png" />
+		
+		<!--花边1436,71-->
+		<bitmap id="lace2_2" src="imgs/frames/框体右侧装饰01.png" />
+		<bitmap id="lace2_1" src="imgs/frames/框体左侧装饰01.png" />
+		
+		<bitmap id="框体左侧装饰03" src="imgs/frames/框体左侧装饰03.png" />
+		
+		<!--花边1436,71-->
+		<bitmap id="lace3_2" src="imgs/frames/装饰02.png" />
+		<bitmap id="lace3_1" src="imgs/frames/装饰01.png" />
+		
+		<!--翻页底框-->
+		<bitmap id="pageBg" src="imgs/frames/翻页框.png" />
+		
+		<!-- 3030 -->
+		<bitmap id="双层样式底框" src="imgs/frames/双层样式底框.png"/>
+		<bitmap id="中底板底" src="imgs/frames/中底板底.png"/>
+		
+		<bitmap id="图标框" src="imgs/frames/图标框.png"/>
+		<!-- 框体四个角样式-->
+		<bitmap id="上框" src="imgs/frames/上框.png"/>
+		<bitmap id="下框" src="imgs/frames/下框.png"/>
+		<!-- 349 44 -->
+		<bitmap id="分割用底图" src="imgs/frames/分割用底图.png"/>
+
+		<!-- 133*36  grid(50,0,50,0)-->
+		<bitmap id="中底板标头" src="imgs/frames/中底板标头.png"/>
+
+		<!-- tips小底板_9-9-9-9 -->
+		<bitmap id="tips小底板" src="imgs/frames/tips小底板_9-9-9-9.png"/>
+
+		<!-- 黑色一像素 -->
+		<bitmap id="blackPoint" src="imgs/frames/blackPoint.jpg" />
+	</bitmaps>
+</xml>

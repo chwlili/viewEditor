@@ -1,0 +1,64 @@
+<xml>
+  <depends>
+    <!--depend src="/public/publicFrames.xml"/-->
+    <depend src="/public/publicFormats.xml"/>
+	<!--depend src="/public/publicIcons.xml"/-->
+  </depends>
+  <bitmaps>
+	<bitmap id="q0" src="imgs/q0.jpg"/>
+    <bitmap id="q1" src="imgs/q1.jpg"/>
+	<bitmap id="q2" src="imgs/q2.jpg"/>
+	<bitmap id="q3" src="imgs/q3.jpg"/>
+	<bitmap id="q4" src="imgs/q4.jpg"/>
+	<bitmap id="q5" src="imgs/q5.jpg"/>
+	<bitmap id="q6" src="imgs/q6.jpg"/>
+	
+	<bitmap id="mapTipsBoard" src="/public/imgs/frames/tooltips首都_底板.png"/>
+	<bitmap id="分割线" src="/public/imgs/frames/分割线.png"/>
+	<bitmap id="knightsGold_3" src="/public/imgs/icons/金币图标_最小.png"/>
+  </bitmaps>
+  <bitmapReaders>
+	<bitmapReader id="q0" bmp="q0" grid="4,4,5,5"/>
+    <bitmapReader id="q1" bmp="q1" grid="4,4,5,5"/>
+	<bitmapReader id="q2" bmp="q2" grid="4,4,5,5"/>
+	<bitmapReader id="q3" bmp="q3" grid="4,4,5,5"/>
+	<bitmapReader id="q4" bmp="q4" grid="4,4,5,5"/>
+	<bitmapReader id="q5" bmp="q5" grid="4,4,5,5"/>
+	<bitmapReader id="q6" bmp="q6" grid="4,4,5,5"/>
+  </bitmapReaders>
+  <texts>
+    <text id="使用效果">使用效果:</text>
+    <text id="需求等级">需求等级:</text>
+    <text id="双击使用">双击使用</text>
+	<text id="不可使用">不可使用</text>
+    <text id="价格">价格:</text>
+  </texts>
+  <controls>
+    <box id="propTip" width="253" height="249">
+      <image bmp="mapTipsBoard" grid="50,50,50,50" top="0" left="0" right="0" bottom="0"/>
+	  <box name="topField" top="15" left="0" width="253" height="69">
+		  <image name="iconBg" left="20" top="0" width="69" height="69"/>
+		  <image name="icon" left="23" top="4" width="60" height="60"/>
+		  <label name="name" top="17" left="95" autoWidth="true" height="20" format="宋体白色14加粗" html="true"/>
+	  </box>
+	  <box name="effectField" width="253" top="75">
+	    <image bmp="分割线" grid="44,0,44,0" width="213" height="1" center="0"/>
+	    <label text="使用效果" format="efb55a_12" html="true" top="5" left="20" width="60" height="20"/>
+        <label name="effect" format="宋体绿色12" html="true" top="5" left="75" width="143" autoHeight="true"/>
+	  </box>
+	  <box name="descField" width="253" top="110">
+	    <image bmp="分割线" grid="44,0,44,0" width="213" height="1" center="0"/>
+        <label name="desc" format="提示说明文字" html="true" top="10" left="20" width="213" height="60"/>
+	  </box>
+	  <box name="bottomField" width="253" top="175" height="50">
+	    <image bmp="分割线" grid="44,0,44,0" width="213" height="1" center="0"/>
+        <!--label text="需求等级" format="宋体绿色12" html="true" top="5" left="20" width="60" height="20"/-->
+        <!--label name="lv" format="宋体绿色12" html="true" top="5" left="80" width="10" height="20"/-->
+        <label name="priceName" text="价格" format="提示价格" html="true" top="5" left="20" width="30" height="20"/>
+        <label name="price" format="提示价格" html="true" top="5" left="55" autoWidth="true" height="20"/>
+        <image name="priceIcon" left="110" top="5" width="20" height="20"/>
+		<label name="usable" format="提示双击装备文字" html="true" top="30" left="20" width="60" height="20"/>
+	  </box>
+    </box>
+  </controls>
+</xml>

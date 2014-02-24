@@ -1,0 +1,34 @@
+﻿<xml>
+	<depends>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="加载-黑底" src="imgs/加载-黑底.jpg"/>
+		<bitmap id="01" src="imgs/01.png"/>
+		<bitmap id="02" src="imgs/02.png"/>
+
+	</bitmaps>
+	
+	<formats>
+		<format id="复选框格式1" color="0xd7d096" size="12" align="center" filter="黑色边框"/>
+	</formats>
+
+	<texts>
+		<text id="进度">加载中...</text>
+	</texts>
+
+	<controls>
+		
+		<cover id="加载窗口" width="1400" height="600" >
+			<image bmp="加载-黑底" left="0" top="0" right="0" bottom="0" />
+			<label name="label" width="200" height="18" center="0" middle="-80" format="复选框格式1" />
+			<image bmp="02" center="0" middle="0" width="606" height="179" />
+			<image name="上层" bmp="01" center="0" middle="0" width="606" height="179" />
+			<image name="遮罩" bmp="加载-黑底" middle="0" width="606" height="179" />
+		</cover>
+
+
+	</controls>
+</xml>
+		

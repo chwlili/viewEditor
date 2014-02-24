@@ -1,0 +1,47 @@
+<xml >
+  <depends>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicIcons.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+  </depends>
+  <bitmaps>
+
+    <bitmap id="rail" src="imgs/快捷任务区中间横条.png" />
+    <bitmap id="board" src="imgs/tooltips_底板.png" />
+  </bitmaps>
+
+  
+  <texts>
+    <text id="队伍信息">队伍信息</text>
+    <text id="职业001">剑士</text>
+    <text id="职业002">刺客</text>
+    <text id="职业003">战士</text>
+    <text id="职业004">骑士</text>
+  </texts>
+  <controls>
+    <box id="tip" width="166" height="107">
+
+      <image bmp="mapTipsBoard" grid="50,50,50,50" left="0" top="0" right="0" bottom="0" />
+      <label text="队伍信息" x="7" y="4" width="150" height="20" format="金色字体_left"/>
+
+      <image bmp="rail" x="0" y="23" width="166" height="3" />
+
+      <label name="name1" x="5" y="25" width="89" height="20" format="fde3ac_12居中"/>
+      <label name="name2" x="5" y="45" width="89" height="20" format="fde3ac_12居中"/>
+      <label name="name3" x="5" y="65" width="89" height="20" format="fde3ac_12居中"/>
+      <label name="name4" x="5" y="85" width="89" height="20" format="fde3ac_12居中"/>
+
+      <label name="faction1" x="97" y="25" width="30" height="20" format="fde3ac_12居中"/>
+      <label name="faction2" x="97" y="45" width="30" height="20" format="fde3ac_12居中"/>
+      <label name="faction3" x="97" y="65" width="30" height="20" format="fde3ac_12居中"/>
+      <label name="faction4" x="97" y="85" width="30" height="20" format="fde3ac_12居中"/>
+
+      <label name="level1" x="130" y="25" width="60" height="20" format="fmt_03dd27_12"/>
+      <label name="level2" x="130" y="45" width="60" height="20" format="fmt_03dd27_12"/>
+      <label name="level3" x="130" y="65" width="60" height="20" format="fmt_03dd27_12"/>
+      <label name="level4" x="130" y="85" width="60" height="20" format="fmt_03dd27_12"/>
+
+
+    </box>
+  </controls>
+</xml>

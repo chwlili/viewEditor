@@ -1,0 +1,6 @@
+<xml>
+	<bitmaps>
+		<bitmap id="icon1" src="imgs/icon1.png"/>
+		<bitmap id="icon2" src="imgs/icon2.png"/>
+	</bitmaps>
+</xml>

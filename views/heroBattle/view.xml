@@ -1,0 +1,151 @@
+<xml name="组队副本">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicTexts.xml"/>
+	</depends>
+	<bitmaps>
+
+		<bitmap id="标题章节底板" src="imgs/标题章节底板.png" />
+		<bitmap id="需求道具底板框" src="imgs/需求道具底板框.png" />		
+		<bitmap id="英雄副本标题" src="imgs/英雄副本标题.png" />
+
+		<bitmap id="右翻页按钮01" src="imgs/右翻页按钮01.png"/>
+		<bitmap id="右翻页按钮02" src="imgs/右翻页按钮02.png"/>
+		<bitmap id="右翻页按钮03" src="imgs/右翻页按钮03.png" />
+		<bitmap id="左翻页按钮01" src="imgs/左翻页按钮01.png"/>
+		<bitmap id="左翻页按钮02" src="imgs/左翻页按钮02.png"/>
+		<bitmap id="左翻页按钮03" src="imgs/左翻页按钮03.png" />
+
+
+		<bitmap id="右按钮01" src="imgs/右按钮01.png"/>
+		<bitmap id="右按钮02" src="imgs/右按钮02.png"/>
+		<bitmap id="右按钮03" src="imgs/右按钮03.png" />
+		<bitmap id="左按钮01" src="imgs/左按钮01.png"/>
+		<bitmap id="左按钮02" src="imgs/左按钮02.png"/>
+		<bitmap id="左按钮03" src="imgs/左按钮03.png" />
+
+		<bitmap id="框体右侧装饰01" src="imgs/框体右侧装饰.png"/>
+		<bitmap id="框体左侧装饰01" src="imgs/框体左侧装饰.png"/>
+		<bitmap id="特殊小窗体框" src="imgs/第二级底板.png" />
+		<!-- <bitmap id="引导" src="imgs/引导.png" /> -->
+		<!-- <bitmap id="解锁底板" src="imgs/解锁底板.png"/> -->
+		<bitmap id="第几章文字" src="imgs/第几章文字.png"/>
+		<bitmap id="title1" src="imgs/公主遇险.png"/>
+		<bitmap id="title5" src="imgs/死亡骑士.png" />
+		<bitmap id="title3" src="imgs/亡灵崛起.png"/>
+		<bitmap id="title7" src="imgs/王者之剑.png"/>
+		<bitmap id="title6" src="imgs/瘟疫之影.png" />
+		<bitmap id="title4" src="imgs/幽林废土.png" />
+		<bitmap id="title2" src="imgs/战争骑士.png" />
+		<bitmap id="title8" src="imgs/追寻圣杯.png" />
+		<bitmap id="title9" src="imgs/瘟疫骑士.png" />
+
+		<bitmap id="头像框" src="imgs/boss边框.png" />
+		<bitmap id="首杀底框" src="imgs/首杀底框.png" />
+		<bitmap id="未被首杀" src="imgs/未被首杀.png" />
+	</bitmaps>
+	<texts>
+		<text id="需先开启之后2个英雄章节才可激活此章节扫荡功能">需先开启之后2个英雄章节才可激活此章节扫荡功能</text>
+		<text id="重置">重置</text>
+		<text id="购买次数">购买次数</text>
+		<text id="组队">组队</text>
+		<text id="扫荡">扫荡</text>
+		<text id="今日剩余重置次数">今日可购买收益次数：</text>
+		<text id="通关可获得收益">今日剩余收益次数</text>
+		<text id="通关无收益">通关无收益</text>
+		<text id="次">次</text>
+		<text id="开启副本">开启副本需要</text>
+		<text id="道具名">铁龟岛藏宝图</text>
+		<text id="退队">是否离开队伍</text>
+		<text id="升级Vip等级可获得更多重置次数">升级骑士等级可购买更多收益次数</text>
+		<text id="花费钻石重置副本"><![CDATA[花费<font color='#2feb16'>$1</font>钻石购买1次收益次数]]></text>
+		<text id="vip重置副本次数"><![CDATA[骑士$1级 每日可购买<font color='#2feb16'>$2</font>次收益次数]]></text>
+				<text id="消耗15点体力">消耗体力:15</text>		
+				<text id="需拥有15点体力">消耗体力:0(需拥有15点)</text>		
+						<text id="点击进入">点击进入</text>		
+		<text id="点击进入">点击进入</text>		
+		<text id="非vip重置副本次数"><![CDATA[非骑士用户每日可以购买<font color='#2feb16'>$1</font>次收益次数]]></text>
+	</texts>
+	<swfs>
+		<swf id="numberLib" src="../swfs/numberLib.swf"/>
+	</swfs>
+	<controls>
+		<window id="main" width="865" height="490">
+			<ref ref="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+
+			<image bmp="英雄副本标题" left="380" top="10" width="105" height="31"/>		
+
+			<image bmp="标题章节底板" left="40" top="77" width="764" height="21"/>	
+			<!-- <label name="剩余重置次数" height="20" width="310" top="448" left="250" format="ffbe57_12_居中" /> -->
+			<image name="title" left="440" top="70" width="105" height="31"/>	
+			<image bmp="第几章文字" left="315" top="65" width="104" height="37"/>
+			<button name="按钮左" width="26" height="41" left="260" top="63">
+ 				<state frame="1" back="左按钮01"/>
+ 				<state frame="2" back="左按钮02"/>
+ 				<state frame="3" back="左按钮03"/>
+			</button>
+ 			<button name="按钮右" width="26" height="41" left="568" top="63">
+ 				<state frame="1" back="右按钮01"/>
+ 				<state frame="2" back="右按钮02"/>
+				<state frame="3" back="右按钮03"/>
+ 			</button>
+ 			<button name="按钮左2" width="33" height="51" left="7" top="239">
+ 				<state frame="1" back="左翻页按钮01"/>
+ 				<state frame="2" back="左翻页按钮02"/>
+ 				<state frame="3" back="左翻页按钮03"/>
+			</button>
+ 			<button name="按钮右2" width="33" height="51" left="821" top="239">
+ 				<state frame="1" back="右翻页按钮01"/>
+ 				<state frame="2" back="右翻页按钮02"/>
+				<state frame="3" back="右翻页按钮03"/>
+ 			</button>
+		</window>
+   		<box id="boss头像" width="194" height="300" >
+			<box name="头像" width="130" height="111" top="0" left="0">
+				<!-- <image bmp="解锁底板" width="130" height="111" center="0" middle="0"/> -->
+			</box>
+			<image name="需求道具底板框" bmp="需求道具底板框" left="69" top="100" width="55" height="59"/>	
+			<labelButton name="组队" width="82" height="28" top="293" left="55" label="组队">
+				<state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中"/>
+				<state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中"/>
+				<state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+<!-- 			<labelButton name="扫荡" width="82" height="28" top="293" left="13" label="进入">
+				<state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中"/>
+				<state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中"/>
+				<state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中"/>
+			</labelButton> -->
+
+			<labelButton name="重置" width="82" height="28" top="293" left="97" label="购买次数">
+				<state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中" grid="40,0,40,0" />
+				<state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+				<state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+			</labelButton>
+
+				<image bmp="特殊小窗体框" left="27" top="200" width="140" height="50"/>	
+				<image bmp="框体左侧装饰01" left="162" top="205" width="14" height="39"/>	
+				<image bmp="框体右侧装饰01" left="18" top="205" width="14" height="39"/>	
+				<label name="boss名" height="20" width="135" top="205" left="26" format="队伍红棕色字体" />
+				<label name="可通关次数" height="20" width="135" top="230" left="26" format="e9d5a4_12_居中" text="可通关次数"/>
+				<label name="体力消耗" height="20" width="150" top="250" left="23" format="e9d5a4_12_居中" html="true"/>
+
+				<label name="开启副本文本" height="20" width="135" top="75" left="30" format="e9d5a4_12_居中" text="开启副本"/>
+
+				<label name="道具名" height="20" width="135" top="165" left="30" format="宋体紫色12居中" text="道具名"/>
+
+			<!-- <image name="首杀底框" bmp="首杀底框" left="37" top="12" width="148" height="26"/>		 -->
+			<!-- <image name="未被首杀" bmp="未被首杀" left="45" top="12" width="115" height="25"/>	 -->
+			<!-- <label name="firstkill" height="20" width="123" top="15" left="43" /> -->
+				<!-- <image name="引导" bmp="引导" left="72" top="-20" width="48" height="62"/>	 -->
+		</box>
+
+
+	</controls>	
+
+</xml>

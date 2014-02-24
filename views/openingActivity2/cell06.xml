@@ -1,0 +1,39 @@
+﻿<xml desc="boss专场">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="cell06背景" src="imgs/元旦BOSS表格框大图.jpg" />
+		<bitmap id="果断出手按钮01" src="imgs/果断出手按钮01.png" />
+		<bitmap id="果断出手按钮02" src="imgs/果断出手按钮02.png" />
+		<bitmap id="果断出手按钮03" src="imgs/果断出手按钮03.png" />
+		<bitmap id="立即前往按钮字" src="imgs/立即前往按钮字.png" />
+	</bitmaps>
+	
+	<texts>
+		<text id="cell06描述">1月28日-2月10日，每日10:30、19:00、21:30，巨兽现身</text>
+	</texts>
+	
+	<formats>
+
+	</formats>
+	
+	<controls>
+		<box id="cell06"  width="482" height="270">			
+			<image bmp="cell06背景" width="482" height="270" center="6" bottom="0" />
+			<label text="cell06描述" width="483" height="20" center="0" top="111" format="翅膀培养12居中" />
+			<box name="joinBox" width="160" height="54" center="0" bottom="35">
+				<labelButton name="joinBtn" width="160" height="54" center="0">
+					<state frame="1" back="果断出手按钮01" />
+					<state frame="2" back="果断出手按钮02" />
+					<state frame="3" back="果断出手按钮03" />
+				</labelButton>
+				<image bmp="立即前往按钮字" width="104" height="29" center="0" middle="-3" />
+			</box>
+		</box>
+		
+	</controls>
+</xml>

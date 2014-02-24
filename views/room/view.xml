@@ -1,0 +1,8 @@
+﻿<xml>
+	<bitmaps>
+		<bitmap id="1" src="1.png"/>
+		<bitmap id="2" src="2.png"/>
+		<bitmap id="3" src="3.png"/>
+		<bitmap id="go" src="go.png"/>
+	</bitmaps>
+</xml>

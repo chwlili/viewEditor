@@ -1,0 +1,74 @@
+<xml name="送花">
+	<depends>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicFrames.xml"/>	
+		<depend src="/public/publicButtons.xml"/>	
+		<depend src="/public/controls/window/CloseButton.xml"/>
+	</depends>
+	
+	<colors>		
+	</colors>
+	
+	<bitmaps>
+
+	</bitmaps>
+	
+	<filters>
+	</filters>
+	
+	<formats>
+	</formats>
+	
+	<texts>
+		<text id="已有$鲜花">当前拥有<![CDATA[<font color="#00ff00"> $ </font>]]>朵鲜花</text>
+		<text id="亲密度+1"><![CDATA[<font color="#00ff00">亲密度+1</font>]]></text>
+		<text id="亲密度+9"><![CDATA[<font color="#00ff00">亲密度+9</font>]]></text>
+		<text id="亲密度+99"><![CDATA[<font color="#00ff00">亲密度+99</font>]]></text>
+
+
+
+		<text id="赠送">赠 送</text>
+		<text id="黄钻用户可用">黄钻用户可用</text>
+	</texts>
+	
+	<controls>
+		<box id="main" width="306" height="207" center="0" middle="0">
+			<image bmp="back1_3" grid="18,18,18,18" top="0" bottom="0" left="0" right="0" />
+			<ref name="关闭按钮" ref="CloseButton"/>
+			<label name="鲜花数量" height="18" width="160" format="宋体默认色14居中" top="14" center="0" html="true"/>
+			<image bmp="backPanel5" grid="10,10,10,10" width="85" height="120" left="15" middle="0" />
+			<image bmp="backPanel5" grid="10,10,10,10" width="85" height="120" center="0" middle="0" />
+			<image bmp="backPanel5" grid="10,10,10,10" width="85" height="120" right="15" middle="0" />
+
+			<achieveEntity name="花道具1" id="2992" left="24" top="52" isBig="true"/>
+			<achieveEntity name="花道具2" id="2993" left="119" top="52" isBig="true"/>
+			<achieveEntity name="花道具3" id="2994" left="216" top="52" isBig="true"/>
+
+			<label name="花名字1" height="18" width="67" format="宋体默认色14居中" left="24" top="122" html="true" />
+			<label name="花名字2" height="18" width="67" format="宋体默认色14居中" left="119" top="122" html="true" />
+			<label name="花名字3" height="18" width="67" format="宋体默认色14居中" left="216" top="122" html="true" />
+
+			<label height="16" width="67" format="宋体绿色12居中" left="24" top="140" html="true" text="亲密度+1" />
+			<label height="16" width="67" format="宋体绿色12居中" left="119" top="140" html="true" text="亲密度+9" />
+			<label height="16" width="67" format="宋体绿色12居中" left="216" top="140" html="true" text="亲密度+99"/>
+
+			<labelButton name="送1" width="70" height="23"  label="赠送" center="-96" bottom="16">
+  	 			<state frame="1" back="方角普通按钮1" backGrid="24,0,24,0" format="宋体白色12" />
+    			<state frame="3" back="方角普通按钮2" backGrid="24,0,24,0" format="宋体白色12" /> 
+    		</labelButton>
+
+    		<maskcontrol name="mask2" tip="黄钻用户可用" width="70" height="23" x="118" y="168" />
+    		<labelButton name="送2" width="70" height="23"  label="赠送" center="0" bottom="16">
+  	 			<state frame="1" back="方角普通按钮1" backGrid="24,0,24,0" format="宋体白色12" />
+    			<state frame="3" back="方角普通按钮2" backGrid="24,0,24,0" format="宋体白色12" /> 
+    		</labelButton>
+    		<maskcontrol name="mask3" tip="黄钻用户可用" width="70" height="23" x="214" y="168"/>
+    		<labelButton name="送3" width="70" height="23"  label="赠送" center="96" bottom="16">
+  	 			<state frame="1" back="方角普通按钮1" backGrid="24,0,24,0" format="宋体白色12" />
+    			<state frame="3" back="方角普通按钮2" backGrid="24,0,24,0" format="宋体白色12" /> 
+    		</labelButton>
+
+		</box>
+
+	</controls>
+</xml>

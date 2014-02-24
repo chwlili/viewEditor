@@ -1,0 +1,164 @@
+﻿<xml name="秘宝屋">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicIcons.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+   		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicTexts.xml"/>
+	</depends>
+	<bitmaps>
+
+		<bitmap id="翻页数字框" src="imgs/翻页数字框.png" />	
+		<bitmap id="金钱框" src="imgs/金钱框.png" />
+		<bitmap id="金钱输入框" src="imgs/金钱输入框.png" />
+
+
+
+
+		<bitmap id="购买01" src="imgs/购买01.png" />		
+		<bitmap id="购买02" src="imgs/购买02.png" />
+		<bitmap id="购买03" src="imgs/购买03.png"/>
+
+
+		<bitmap id="普通商品框" src="imgs/普通商品框.png"/>
+
+		<bitmap id="数量框" src="imgs/数量框.png"/>
+
+		<bitmap id="小上翻01" src="imgs/小上翻01.png" />
+		<bitmap id="小上翻02" src="imgs/小上翻02.png"/>
+		<bitmap id="小上翻03" src="imgs/小上翻03.png" />
+		<bitmap id="小下翻01" src="imgs/小下翻01.png"/>
+		<bitmap id="小下翻02" src="imgs/小下翻02.png" />
+		<bitmap id="小下翻03" src="imgs/小下翻03.png"/>
+
+		<bitmap id="右01" src="imgs/右01.png" />
+		<bitmap id="右02" src="imgs/右02.png"/>
+		<bitmap id="右03" src="imgs/右03.png" />
+		<bitmap id="左01" src="imgs/左01.png" />
+		<bitmap id="左02" src="imgs/左02.png"/>
+		<bitmap id="左03" src="imgs/左03.png" />
+
+
+		<bitmap id="蓝宝石图标_最小" src="imgs/蓝宝石图标_最小.png"/>
+
+		<bitmap id="限量底板" src="imgs/限量底板.png"/>
+		
+		<bitmap id="特卖广告标头" src="imgs/特卖广告标头.png"/>
+		<bitmap id="信息框底板头" src="imgs/信息框底板头.png" />
+		<bitmap id="元旦大特卖" src="imgs/元旦大特卖.png" />
+		<bitmap id="元旦大特卖底条" src="imgs/元旦大特卖底条.png"/>
+		<bitmap id="元旦大特卖渐变底" src="imgs/元旦大特卖渐变底.png" />
+
+		<bitmap id="橙色渐变底" src="imgs/橙色渐变底.png" />
+		<bitmap id="打折小花底" src="imgs/打折小花底.png"/>
+		<bitmap id="红渐变底" src="imgs/红渐变底.png" />
+	</bitmaps>
+	<texts>
+		<text id="今日限量">今日限量</text>
+		<text id="全服限量">全服限量</text>
+		<text id="原价">原价</text>
+		<text id="折">折</text>
+
+<text id="距离特卖关闭">距离特卖关闭：</text>
+
+		
+		<text id="购买">购买</text>
+		<text id="当前拥有">当前拥有：</text>
+
+		<text id="立即刷新">立即刷新</text>
+
+		<text id="商店每">商店每</text>
+
+		<text id="个小时自动刷新一次">个小时自动刷新一次</text>
+
+		<text id="立即刷新消耗">立即刷新消耗  20</text>
+		<text id="花费钻石刷新商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>钻石刷新商品]]></text>
+		<text id="花费钻石购买商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>钻石购买此商品]]></text>
+		<text id="花费金币购买商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>金币购买此商品]]></text>
+		
+		<text id="花费勇气勋章兑换商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>勇气勋章兑换此商品]]></text>
+		<text id="花费荣誉勋章兑换商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>荣誉勋章兑换此商品]]></text>
+		<text id="花费勋章兑换商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>勋章兑换此商品]]></text>
+		
+		<text id="勋章获得提示">参加世界BOSS、竞技场、巅峰对决可获得勋章。</text>
+		<text id="勇气勋章tip">勇气勋章：参加世界BOSS、竞技场、巅峰对决可获得</text>
+		<text id="荣誉勋章tip">荣誉勋章：世界BOSS伤害前10、巅峰对决获胜可获得</text>
+		
+		<text id="限量Text"><![CDATA[<font color='#fff2b5'> 限量 </font><font color='#24ff00'>$1/$2</font>]]></text>
+	</texts>
+
+	<controls>
+		<window id="main" width="656" height="533">
+			<image bmp="knightFrame10" grid="46,42,46,42" x="0" y="0" width="656" height="533"/>    
+      		<image bmp="信息框底板头" grid="127,0,127,0" x="0" y="0" width="656" height="36"/>
+      		<ref name="closeBtn" top="4" ref="CloseButton"/>
+ 			<image bmp="元旦大特卖" left="264" top="3" width="128" height="30" />
+ 			<image bmp="特卖广告标头" left="18" top="48" width="627" height="96" />
+ 			<image bmp="元旦大特卖渐变底" left="25" top="157" width="578" height="311" />
+
+ 			<label width="200" height="21" left="230" top="130" html="true" name="剩余时间" format="ffbe57_14_居中"/>
+
+
+			<box name="骑士商店列表" width="620" height="375" x="15" y="167">
+ 				<image bmp="元旦大特卖底条" left="0" top="300" width="624" height="51" />
+ 				<image bmp="翻页数字框" left="270" top="315" width="78" height="18" />
+				<image bmp="蓝宝石图标_最小" left="490" top="312" width="25" height="25" />
+ 				<image bmp="金钱输入框" left="520" top="315" width="86" height="18" />
+ 				<button name="翻页左" width="24" height="22" left="239" top="315">
+ 					<state frame="1" back="翻页按钮左大01"/>
+ 					<state frame="2" back="翻页按钮左大02"/>
+					<state frame="3" back="翻页按钮左大03"/>
+ 				</button>
+ 				<button name="翻页右" width="24" height="22" left="358" top="315">
+ 					<state frame="1" back="翻页按钮右大01"/>
+ 					<state frame="2" back="翻页按钮右大02"/>
+					<state frame="3" back="翻页按钮右大03"/>
+ 				</button>
+ 				<label name="页" height="18" width="78" top="315" left="270" format="宋体白色12居中" />
+ 				<label text="当前拥有" height="18" width="80" top="315" left="410" format="商品计时字体" />
+ 				<label name="元宝" height="18" width="86" top="316" left="520" format="钻石文字字体" />
+			</box>
+			
+
+		</window>
+
+		<box id="骑士商品框" width="209" height="93" left="0" top="0">
+ 			<image bmp="普通商品框" left="0" top="0" width="209" height="93" />
+ 			<image bmp="金钱框" left="112" top="36" width="80" height="18" />
+				<labelButton name="购买" width="72" height="27" top="60" left="125" >
+					<state frame="1" back="购买01" format="ffbe57_12_居中"/>
+					<state frame="2" back="购买02" format="ffbe57_12_居中"/>
+					<state frame="3" back="购买03" format="ffbe57_12_居中"/>
+				</labelButton>
+ 			<image bmp="数量框" left="81" top="58" width="44" height="26" />
+ 			<image bmp="蓝宝石图标_最小" left="84" top="32" width="25" height="25" />
+ 			<button name="加" width="12" height="9" left="111" top="60">
+ 				<state frame="1" back="小上翻01"/>
+ 				<state frame="2" back="小上翻02"/>
+				<state frame="3" back="小上翻03"/>
+ 			</button>
+ 			<button name="减" width="12" height="9" left="111" top="71">
+ 				<state frame="1" back="小下翻01"/>
+ 				<state frame="2" back="小下翻02"/>
+				<state frame="3" back="小下翻03"/>
+ 			</button>
+			<achieveEntity name="item1" x="15" y="14" isBig="true"/>
+ 			<label name="商品名" height="30" width="118" top="7" left="80" format="商城14蓝色商品名" />
+ 			<label name="单价" height="18" width="80" top="36" left="112" format="商品价格字体" />
+ 			<label name="数量" height="18" width="40" top="53" left="46" format="宋体绿色12居中" />
+
+
+ 			<image name="限量底" bmp="红渐变底" left="4" top="0" width="82" height="22" />
+ 			<image name="原价底" bmp="橙色渐变底" left="6" bottom="0" width="75" height="17" />
+ 			<label name="限量" height="18" width="80" top="1" left="3" format="队伍金色字体" />
+ 			<label name="原价" height="18" width="80" bottom="-1" left="4" format="ff021a_12居中" />
+
+ 			<image name="折扣底" bmp="打折小花底" right="-5" top="-5" width="28" height="29" />
+ 			<label name="折扣" height="18" width="50" top="0" right="-17" format="队伍金色字体" />
+
+		</box>
+
+	</controls>	
+
+</xml>

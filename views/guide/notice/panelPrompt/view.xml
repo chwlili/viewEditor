@@ -1,0 +1,49 @@
+﻿<xml>
+	<depends>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="背景" src="操作提示底板.png"/>
+		<bitmap id="标题" src="操作指南文字.png"/>
+
+		<bitmap id="走" src="操作指南_方向键.png"/>
+		<bitmap id="跑" src="操作指南_冲刺.png"/>
+		<bitmap id="跳" src="操作指南_跳跃.png"/>
+
+		<bitmap id="普攻" src="操作指南_普通攻击.png"/>
+		<bitmap id="跳斩" src="操作指南_空中打击.png"/>
+		<bitmap id="冲斩" src="操作指南_冲刺攻击.png"/>
+
+		<bitmap id="技能U" src="操作指南_技能1.png"/>
+		<bitmap id="技能I" src="操作指南_技能2.png"/>
+		<bitmap id="技能O" src="操作指南_技能3.png"/>
+		<bitmap id="技能L" src="操作指南_技能4.png"/>
+		<bitmap id="技能H" src="操作指南_必杀技.png"/>
+
+		
+		<bitmap id="奔跑文字" src="奔跑文字.png" />
+		<bitmap id="手1" src="手1.png" />
+		<bitmap id="手2" src="手2.png" />
+	</bitmaps>
+	<texts>
+		<text id="跑提示">双击方向键后按住可快速奔跑</text>
+	</texts>
+	<controls>
+
+		<box id="提示窗" width="214" height="136">
+			<image bmp="背景" grid="60,40,60,40" left="0" top="0" right="0" bottom="0"/>
+			<image bmp="标题" width="88" height="28" center="0" top="-14"/>
+			<box name="图像容器"/>
+			<!--
+			<box name="跑anim" center="0" middle="0" width="214" height="136">
+				<image name="手1" bmp="手1" center="10" middle="10" width="55" height="66"/>
+				<image name="手2" bmp="手2" center="10" middle="10" width="55" height="66"/>
+				<image bmp="奔跑文字" center="0" top="20" width="36" height="21" />
+				<label center="0" bottom="6" width="214" height="20" html="true" format="36e314_12_center" text="跑提示"/>
+			</box>
+			-->
+		</box>
+		
+	</controls>
+
+</xml>

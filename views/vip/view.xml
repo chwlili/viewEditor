@@ -1,0 +1,170 @@
+<xml name="VIP">
+  <depends>
+    <depend src="/public/controls/window/WindowBack.xml"/>
+
+    <depend src="/public/controls/window/CloseButton.xml"/>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+	<depend src="/public/publicNumimage.xml"/>
+	<depend src="/motion/image.xml"/>
+  </depends>
+  
+  <bitmaps>
+    <bitmap id="title" src="imgs/骑士特权字.png"/>
+    <bitmap id="lvBorder" src="imgs/骑士等级框.png"/>
+	<bitmap id="lvDesc" src="imgs/骑士等级字.png"/>
+	<bitmap id="progressBarBg" src="imgs/骑士读取条.png"/>
+	<bitmap id="progressLine" src="imgs/进度分割.png"/>
+	<bitmap id="submitBtn_1" src="imgs/果断充值01.png"/>
+	<bitmap id="submitBtn_2" src="imgs/果断充值02.png"/>
+	<bitmap id="submitBtn_3" src="imgs/果断充值03.png"/>
+	<bitmap id="tableBg" src="imgs/表格底.jpg"/>
+	<bitmap id="smallNum" src="imgs/等级数字小号.png"/>
+	<bitmap id="bigNum" src="imgs/等级数字大.png"/>
+	<bitmap id="leftBtn_1" src="imgs/左翻页01.png"/>
+	<bitmap id="leftBtn_2" src="imgs/左翻页02.png"/>
+	<bitmap id="leftBtn_3" src="imgs/左翻页03.png"/>
+	<bitmap id="bigLvBg" src="imgs/底条渐变.png"/>
+	<bitmap id="bigLvDesc" src="imgs/骑师X级.png"/>
+	<bitmap id="rightBtn_1" src="imgs/右翻页01.png"/>
+	<bitmap id="rightBtn_2" src="imgs/右翻页02.png"/>
+	<bitmap id="rightBtn_3" src="imgs/右翻页03.png"/>
+	<bitmap id="powerBg" src="imgs/图标框.png"/>
+	<bitmap id="powerIcon_0" src="imgs/更多金币图标.jpg"/>
+	<bitmap id="powerIcon_1" src="imgs/更多便捷图标.jpg"/>
+	<bitmap id="powerIcon_2" src="imgs/更多经验图标.jpg"/>
+	<bitmap id="powerIcon_3" src="imgs/更多收货.jpg"/>
+	<bitmap id="powerTitle_0" src="imgs/更多金币.png"/>
+	<bitmap id="powerTitle_1" src="imgs/更加便捷.png"/>
+	<bitmap id="powerTitle_2" src="imgs/更多经验.png"/>
+	<bitmap id="powerTitle_3" src="imgs/更多收货.png"/>
+	<bitmap id="powerIcon" src="imgs/荐字.png"/>
+	<bitmap id="tagBmp" src="imgs/已领取.png"/>
+	<bitmap id="每日奖励宝箱_1" src="imgs/绿宝箱.png"/>
+	<bitmap id="每日奖励宝箱_2" src="imgs/绿宝箱光效.png"/>
+	<bitmap id="首充奖励宝箱_1" src="imgs/大红宝箱.png"/>
+	<bitmap id="首充奖励宝箱_2" src="imgs/大红宝箱光效.png"/>
+	<bitmap id="骑士奖励宝箱_1" src="imgs/深蓝宝箱.png"/>
+	<bitmap id="骑士奖励宝箱_2" src="imgs/深蓝宝箱光效.png"/>
+	<bitmap id="通关宝箱_1" src="imgs/紫色宝箱.png"/>
+	<bitmap id="通关宝箱_2" src="imgs/紫色宝箱光效.png"/>
+  </bitmaps>
+  
+  <bitmapReaders>
+	<bitmapReader id="giftBtn_0_1" bmp="每日奖励宝箱_1" />
+	<bitmapReader id="giftBtn_0_2" bmp="每日奖励宝箱_2" />
+	<bitmapReader id="giftBtn_1_1" bmp="首充奖励宝箱_1" />
+	<bitmapReader id="giftBtn_1_2" bmp="首充奖励宝箱_2" />
+	<bitmapReader id="giftBtn_2_1" bmp="骑士奖励宝箱_1" />
+	<bitmapReader id="giftBtn_2_2" bmp="骑士奖励宝箱_2" />
+	<bitmapReader id="giftBtn_3_1" bmp="通关宝箱_1" />
+	<bitmapReader id="giftBtn_3_2" bmp="通关宝箱_2" />
+	<bitmapReader id="giftBtn_4_1" bmp="通关宝箱_1" />
+	<bitmapReader id="giftBtn_4_2" bmp="通关宝箱_2" />
+	<bitmapReader id="giftBtn_5_1" bmp="通关宝箱_1" />
+	<bitmapReader id="giftBtn_5_2" bmp="通关宝箱_2" />
+	<bitmapReader id="giftBtn_6_1" bmp="通关宝箱_1" />
+	<bitmapReader id="giftBtn_6_2" bmp="通关宝箱_2" />
+  </bitmapReaders>
+  
+  <texts>
+	<text id="VIP等级满">您已经是最高骑士等级</text>
+	<text id="特权描述"><![CDATA[再充值<font color='#1dd7ff'>$1钻石</font>，即可永久成为尊贵的<font color='#fae500'>骑士$2级</font>]]></text>
+	<text id="领取礼包描述"><![CDATA[可领取<font color='#fae500'>骑士$1级</font>大礼包]]></text>
+	<text id="概述"><![CDATA[<font color='#fae500'>$1级</font>包含<font color='#fae500'>$2</font>的所有功能]]></text>
+	<text id="giftBtnName_0">每日礼金</text>
+	<text id="giftBtntip_0">每日登入可领取奖励</text>
+	<text id="giftBtnName_1">首冲礼包</text>
+	<text id="giftBtntip_1">首冲礼包提示</text>
+	<text id="giftBtnName_2">骑士礼包</text>
+	<text id="giftBtntip_2">骑士礼包提示</text>
+	<text id="giftBtnName_3">通关礼包</text>
+	<text id="giftBtntip_3">通关礼包提示</text>
+	<text id="giftBtnName_4">节日礼包</text>
+	<text id="giftBtntip_4">节日礼包提示</text>
+	<text id="giftBtnName_5">补偿礼包</text>
+	<text id="giftBtntip_5">补偿礼包提示</text>
+	<text id="giftBtnName_6">激活码礼包</text>
+	<text id="giftBtntip_6">激活码礼包提示</text>
+	<text id="竞技场奖励">竞技场排名奖</text>
+	<text id="竞技场奖励提示">开启竞技场挑战功能，根据排名可领取奖励</text>
+	<text id="首冲礼包">首充礼包</text>
+	<text id="首冲礼包提示">充值任意金额可领取奖励</text>
+	<text id="累冲礼包">累充礼包</text>
+	<text id="累冲礼包提示">充值XXX金额可领取奖励</text>
+	<text id="特权礼包">骑士等级礼盒</text>
+	<text id="特殊礼包">暂未开放</text>
+	<text id="每日酬劳礼包ID">183</text>
+	<text id="首冲礼包ID">117</text>
+  </texts>
+  
+  <controls>
+    <window id="main" width="744" height="546">
+      <ref ref="WindowBack"/>
+
+      <ref name="closeBtn" ref="CloseButton"/>
+      <image bmp="title" width="104" height="30" top="10" center="0"/>
+      <box name="topField" width="675" height="88" top="48" center="0">
+        <label name="vipDesc" html="true" format="fa9600_14_居中" width="310" height="20" top="15" left="70"/>
+        <label name="giftDesc" html="true" format="fa9600_14_居中" width="150" height="20" top="15" right="145"/>
+        <image bmp="lvBorder" width="532" height="39" top="25" left="0"/>
+		<image bmp="lvDesc" width="77" height="23" top="60" left="0"/>
+		<box name="progressBox" width="447" height="9" left="71" top="44">
+			<progressBar name="progressBar" bmp="progressBarBg" width="447" height="9" onlyFront="true" ease="true" scaleX="1"/>
+			<image bmp="progressLine" width="15" height="20" center="0" middle="0"/>
+		</box>
+		<labelButton name="submitBtn" width="136" height="54" top="25" right="0">
+			<state frame="1" back="submitBtn_1"/>
+			<state frame="2" back="submitBtn_2"/>
+			<state frame="3" back="submitBtn_3"/>
+		</labelButton>
+      </box>
+      <box name="middleField" width="702" height="295" top="140" center="0">
+		<image bmp="tableBg" width="702" height="295"/>
+		<box name="lvBox" width="285" height="44" top="10" center="0">
+			<image bmp="bigLvBg" width="619" height="35" top="6" center="0"/>
+			<labelButton name="leftBtn" width="19" height="27" top="8" left="0">
+				<state frame="1" back="leftBtn_1"/>
+				<state frame="2" back="leftBtn_2"/>
+				<state frame="3" back="leftBtn_3"/>
+			</labelButton>
+			<image bmp="bigLvDesc" width="123" height="34" top="5" center="0"/>
+			<labelButton name="rightBtn" width="19" height="27" top="8" right="0">
+				<state frame="1" back="rightBtn_1"/>
+				<state frame="2" back="rightBtn_2"/>
+				<state frame="3" back="rightBtn_3"/>
+			</labelButton>
+		</box>
+		<label name="summary" autoWidth="true" height="20" left="260" top="50" format="fa9600_14_居中" html="true"/>
+	  </box>
+      <box name="bottomField" width="702" height="100" bottom="5" center="0">
+		<box name="bottomBox" height="100" center="0" middle="0" />
+	  </box>
+    </window>
+	
+	<box id="giftBox" width="73" height="98" middle="0">
+		<labelButton name="button" width="73" height="78" left="0" top="0" tip="">
+			<state frame="1" back="每日奖励宝箱_1"/>
+			<state frame="2" back="每日奖励宝箱_2"/>
+			<state frame="3" back="每日奖励宝箱_1"/>
+		</labelButton>
+		<label name="label" width="80" height="20" center="0" bottom="5" format="fa9600_12_居中"/>
+		<image name="tag" bmp="tagBmp" width="68" height="56" top="15" left="0"/>
+		<filmAnimEffect name="rewardEffect" bmp="任务完成金边" x="-8" y="0" row="1" col="12" frameDelay="100" loop="0"/>
+	</box>
+	
+	<box id="powerItem" width="325" height="115">
+		<image bmp="powerBg" width="75" height="74" left="7" top="7"/>
+		<image name="title" width="77" height="22" top="81" left="7"/>
+		<image name="powerIcon" width="60" height="60" top="15" left="15"/>
+		<image name="icon_0" bmp="powerIcon" width="16" height="16" top="13" left="105"/>
+		<image name="icon_1" bmp="powerIcon" width="16" height="16" top="33" left="105"/>
+		<image name="icon_2" bmp="powerIcon" width="16" height="16" top="53" left="105"/>
+		<image name="icon_3" bmp="powerIcon" width="16" height="16" top="73" left="105"/>
+		<label name="label_0" width="200" height="20" top="11" left="125" html="true" format="vip特权描述"/>
+		<label name="label_1" width="200" height="20" top="31" left="125" html="true" format="vip特权描述"/>
+		<label name="label_2" width="200" height="20" top="51" left="125" html="true" format="vip特权描述"/>
+		<label name="label_3" width="200" height="20" top="71" left="125" html="true" format="vip特权描述"/>
+	</box>
+  </controls>
+</xml>

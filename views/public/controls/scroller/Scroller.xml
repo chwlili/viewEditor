@@ -1,0 +1,28 @@
+<xml>
+	<bitmaps>
+		<bitmap id="1" src="imgs/1.png" />
+		<bitmap id="21" src="imgs/21.png" />
+		<bitmap id="22" src="imgs/22.png" />
+		<bitmap id="23" src="imgs/23.png" />
+		<bitmap id="31" src="imgs/31.png" />
+		<bitmap id="32" src="imgs/32.png" />
+		<bitmap id="33" src="imgs/33.png" />
+		<bitmap id="41" src="imgs/41.png" />
+		<bitmap id="42" src="imgs/42.png" />
+		<bitmap id="43" src="imgs/43.png" />
+	</bitmaps>
+	<controls>
+		<scroller id="Scroller" width="200" height="300" barWidth="18" >
+			<skin frame="1" back="1" grid="2,2,2,2" /> 
+			<skin frame="21" back="21" grid="0,23,0,23" /> 
+			<skin frame="22" back="22" grid="0,23,0,23" /> 
+			<skin frame="23" back="23" grid="0,23,0,23" /> 
+			<skin frame="31" back="31" height="18" /> 
+			<skin frame="32" back="32" height="18" /> 
+			<skin frame="33" back="33" height="18" /> 
+			<skin frame="41" back="41" height="18" /> 
+			<skin frame="42" back="42" height="18" /> 
+			<skin frame="43" back="43" height="18" /> 
+		</scroller>
+	</controls>
+</xml>

@@ -1,0 +1,109 @@
+<xml>
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/controls/scroller/Scroller.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicTexts.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="绿勾01" src="imgs/绿勾01.png" />
+		<bitmap id="绿勾02" src="imgs/绿勾02.png" />	
+		<bitmap id="页签01" src="imgs/页签01.png" />
+		<bitmap id="页签02" src="imgs/页签02.png" />
+		<bitmap id="邀请" src="imgs/邀请.png" />
+		<bitmap id="邀请表格条" src="imgs/邀请表格条.png" />
+		<bitmap id="邀请选中" src="imgs/邀请选中.png" />
+		<bitmap id="左01" src="imgs/左01.png" />
+		<bitmap id="左02" src="imgs/左02.png"/>
+		<bitmap id="左03" src="imgs/左03.png"/>
+		<bitmap id="右01" src="imgs/右01.png" />
+		<bitmap id="右02" src="imgs/右02.png"/>
+		<bitmap id="右03" src="imgs/右03.png"/>
+		<bitmap id="小按钮01" src="imgs/小按钮01.png" />
+		<bitmap id="小按钮02" src="imgs/小按钮02.png" />
+		<bitmap id="小按钮03" src="imgs/小按钮03.png" />
+		<bitmap id="翻页框" src="imgs/翻页框.png" />
+		<bitmap id="邀请表格顶条" src="imgs/邀请表格顶条.png" />
+		<bitmap id="邀请底条" src="imgs/邀请底条.png" />
+	</bitmaps>
+	<texts>
+		<text id="当前">当前</text>
+		<text id="好友">好友</text>
+		<text id="军团">军团</text>
+		<text id="邀请_角色名">角色名</text>
+		<text id="邀请_等级">等级</text>
+		<text id="操作">操作</text>
+		<text id="邀请">邀请</text>
+	</texts>
+
+	<controls>
+		<window id="邀请" width="296" height="390">
+			<ref ref="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+ 			<image bmp="knightFrame2" grid="30,47,29,49" right="8" top="70" width="283" height="280" />
+ 			<image bmp="邀请表格顶条" right="13" top="75" width="274" height="29" />
+ 			<image bmp="邀请底条" right="13" top="340" width="274" height="41" />
+			<image bmp="邀请" left="115" top="10" width="66" height="29"/>		
+
+			<label text="邀请_角色名" height="20" width="140" top="80" left="12"  format="队伍红棕色字体" />
+			<label text="邀请_等级" height="20" width="67" top="80" left="146"  format="队伍红棕色字体" />
+			<label text="操作" height="20" width="73" top="80" left="212"  format="队伍红棕色字体" />
+  			<labelToggleButton name="好友" width="60" height="24" left="45" top="50" label="好友">
+					<state frame="1" back="页签02" format="e9d5a4_12_居中"/>
+ 					<state frame="2" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="4" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="5" back="页签01" format="e9d5a4_12_居中"/>
+  			</labelToggleButton>
+	  		<labelToggleButton name="军团" width="60" height="24" left="115" top="50" label="军团">
+					<state frame="1" back="页签02" format="e9d5a4_12_居中"/>
+ 					<state frame="2" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="4" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="5" back="页签01" format="e9d5a4_12_居中"/>
+  			</labelToggleButton>
+
+
+		<box name="好友列表" width="280" height="275">
+			<button name="按钮左" width="22" height="20" left="80" top="353">
+ 				<state frame="1" back="左01"/>
+ 				<state frame="2" back="左02"/>
+ 				<state frame="3" back="左03"/>
+			</button>
+ 			<button name="按钮右" width="22" height="20" left="180" top="353">
+ 				<state frame="1" back="右01"/>
+ 				<state frame="2" back="右02"/>
+				<state frame="3" back="右03"/>
+ 			</button>
+			<image bmp="翻页框" left="102" top="353" width="78" height="18" />
+			<label name="页码" height="20" width="78" top="353" left="102"  format="宋体白色12居中" />
+		</box>
+		<box name="军团列表" width="280" height="275">
+			<button name="按钮左" width="22" height="20" left="80" top="353">
+ 				<state frame="1" back="左01"/>
+ 				<state frame="2" back="左02"/>
+ 				<state frame="3" back="左03"/>
+			</button>
+ 			<button name="按钮右" width="22" height="20" left="180" top="353">
+ 				<state frame="1" back="右01"/>
+ 				<state frame="2" back="右02"/>
+				<state frame="3" back="右03"/>
+ 			</button>
+			<image bmp="翻页框" left="102" top="353" width="78" height="18" />
+			<label name="页码" height="20" width="78" top="353" left="102"  format="宋体白色12居中" />
+		</box>
+		</window>
+		<box id="列表格" width="280" height="30">
+			<labelButton name="邀请" width="56" height="22" bottom="5" right="14" label="邀请">
+				<state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中"/>
+				<state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中"/>
+				<state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+			<label name="名字" height="20" width="140" top="5" left="0"  format="fffdd6_12_居中" />
+			<label name="等级" height="20" width="67" top="5" left="135"  format="fffdd6_12_居中" />
+		</box>
+
+	</controls>	
+
+</xml>

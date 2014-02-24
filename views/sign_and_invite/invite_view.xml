@@ -1,0 +1,127 @@
+﻿<xml name="邀请">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicNumimage.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+	</depends>
+	<bitmaps>
+		
+		<bitmap id="邀请好友" src="imgs/邀请好友.png" />
+		<bitmap id="邀请人数" src="imgs/邀请人数.png"/>
+		<bitmap id="获取奖品" src="imgs/获取奖品.png"/>
+		
+		<bitmap id="渐变光" src="imgs/渐变光.png" />
+		<bitmap id="邀请X人" src="imgs/邀请X人.png" />
+		
+		<bitmap id="邀请好友浮动效果条" src="imgs/邀请好友浮动效果条.png"/>
+		<bitmap id="邀请好友普通效果条" src="imgs/邀请好友普通效果条.png"/>
+		<bitmap id="邀请好友下面底框" src="imgs/邀请好友下面底框.png"/>
+		
+		<bitmap id="框" src="imgs/框.png" />
+		<bitmap id="已领取" src="imgs/已领取.png"/>
+		<bitmap id="已领取后图标上面显示" src="imgs/已领取后图标上面显示.png"/>
+		
+		<bitmap id="邀请好友按钮字" src="imgs/邀请好友按钮字.png" />
+	</bitmaps>
+	<texts>
+		<text id="价值">价值</text>
+		<text id="Q点">钻石</text>
+		<text id="领奖">领奖</text>
+		<text id="邀请好友">邀请好友</text>
+		<text id="已经邀请到好友$人">已经邀请到好友  $  人</text>
+		<text id="友情提示"><![CDATA[您的好友须通过您的邀请链接进入游戏
+您的好友须在您所在的大区创建角色
+建议不要在同一IP下进行邀请好友操作,可能会失败]]></text>
+	</texts>
+	<formats>
+
+	</formats>
+	<controls>
+		<window id="window"  width="655" height="440">
+			
+			<ref ref="WindowBack"/>
+			<ref name="closeBtn" ref="CloseButton" />
+			
+			<image bmp="knightFrame2" center="0" top="70" width="636" height="303" grid="20,20,20,20"/>
+			
+			<image bmp="邀请好友" center="0" top="9" width="101" height="29"/>
+			<image bmp="邀请人数" left="47" top="47" width="66" height="20"/>
+			<box name="数字容器" left="118" top="49" width="20" height="50"/>
+			<image bmp="获取奖品" left="308" top="47" width="66" height="20"/>
+			
+			<image bmp="邀请好友下面底框" center="0" top="371" width="632" height="55"/>
+			<button name="邀请好友" center="0" top="380" width="104" height="42">
+				<state frame="1" back="大号按钮四字01"/>
+				<state frame="2" back="大号按钮四字02"/>
+				<state frame="3" back="大号按钮四字03"/>
+			</button>
+			<image bmp="邀请好友按钮字" center="0" top="389" width="76" height="22" enabled="false" />
+			
+			<label name="成功邀请数量" html="true" height="18" width="140" format="fde3ac_12_right" right="30" bottom="34"/>
+			<label multiline="true" wordWrap="true" html="true" height="50" width="288" format="宋体红色12" left="15" bottom="15" text="友情提示" visible="false" />
+		</window>
+
+		<item id="item" width="627" height="54">
+			<image bmp="邀请好友普通效果条" left="0" top="0" width="627" height="54" />
+			<image name="背景" bmp="邀请好友浮动效果条" left="0" top="0" width="627" height="54" />
+			<image bmp="邀请X人" left="15" top="20" width="92" height="20"/>
+			<image bmp="渐变光" left="17" top="25" width="95" height="24"/>
+			
+			<box name="数字容器" width="20" height="50" left="69" top="17"/>
+			
+			<image name="已领取" bmp="已领取" right="10" middle="0" width="70" height="45" visible="false" />
+			
+			<labelButton name="领奖" left="564" middle="0" width="56" height="22" label="领奖">
+				<state frame="1" back="small_btn_1_1" format="ffbe57_12_居中" />
+				<state frame="2" back="small_btn_1_2" format="ffbe57_12_居中" />
+				<state frame="3" back="small_btn_1_3" format="ffbe57_12_居中" />
+			</labelButton>
+			
+			<label height="18" width="28" format="fde3ac_12居中" left="455" middle="0" text="价值"/>
+			<label height="18" width="28" format="fde3ac_12居中" left="515" middle="0" text="Q点"/>
+			<label name="价值" height="18" width="28" format="宋体绿色12居右" left="486" middle="0"/>
+		</item>
+		<image id="道具背景框" bmp="框" width="52" height="53" />
+		
+		<datas id="data">
+			<data num="1" QP="80" sendid="35" giftid="111">
+				<reward id="1990" count="1" />
+				<reward id="1751" count="1" />
+				<reward id="20" count="1" />
+			</data>
+			<data num="5" QP="170" sendid="36" giftid="112">
+				<reward id="1692" count="5" />
+				<reward id="1694" count="5" />
+				<reward id="1693" count="5" />
+				<reward id="20" count="2" />
+			</data>
+			<data num="10" QP="275" sendid="37" giftid="113">
+				<reward id="1692" count="10" />
+				<reward id="1694" count="10" />
+				<reward id="1693" count="10" />
+				<reward id="20" count="4" />
+				<reward id="1656" count="2" />
+			</data>
+			<data num="15" QP="620" sendid="38" giftid="114">
+				<reward id="1701" count="5" />
+				<reward id="1695" count="5" />
+				<reward id="1698" count="5" />
+				<reward id="20" count="6" />
+				<reward id="1656" count="4" />
+				<reward id="2124" count="1" />
+			</data>
+			<data num="20" QP="1465" sendid="39" giftid="115">
+				<reward id="1701" count="10" />
+				<reward id="1695" count="10" />
+				<reward id="1698" count="10" />
+				<reward id="20" count="8" />
+				<reward id="1656" count="4" />
+				<reward id="2125" count="1" />
+			</data>
+		</datas>
+		
+	</controls>
+</xml>

@@ -1,0 +1,86 @@
+﻿<xml>
+	<bitmaps>
+		<bitmap id="title" src="imgs/title.png"/>
+		<bitmap id="wingBg" src="imgs/翅膀背景图.png"/>
+		<bitmap id="borderUp" src="imgs/框体花边上.png"/>
+		<bitmap id="borderDown" src="imgs/框体花边下.png"/>
+		<bitmap id="标题底板横条" src="imgs/标题底板横条.jpg"/>
+		<bitmap id="翅膀预览效果文字" src="imgs/翅膀预览效果文字.png"/>
+		
+		<!--可选翅膀-->
+		<bitmap id="普通翅膀文字" src="imgs/普通翅膀文字.png"/>
+		<bitmap id="特殊翅膀文字" src="imgs/特殊翅膀文字.png"/>
+		<bitmap id="框" src="imgs/框.png"/>
+		<bitmap id="特殊翅膀道具框" src="imgs/特殊翅膀道具框.png"/>
+		<bitmap id="选中框" src="imgs/选中框.png"/>
+		<bitmap id="锁" src="imgs/锁.png"/>
+		<bitmap id="翅膀左翻页按钮01" src="imgs/左翻页按钮01.png"/>
+		<bitmap id="翅膀左翻页按钮02" src="imgs/左翻页按钮02.png"/>
+		<bitmap id="翅膀左翻页按钮03" src="imgs/左翻页按钮03.png"/>
+		<bitmap id="翅膀右翻页按钮01" src="imgs/右翻页按钮01.png"/>
+		<bitmap id="翅膀右翻页按钮02" src="imgs/右翻页按钮02.png"/>
+		<bitmap id="翅膀右翻页按钮03" src="imgs/右翻页按钮03.png"/>
+		<bitmap id="普通翅膀底板" src="imgs/普通翅膀底板.jpg"/>
+		<bitmap id="高级翅膀底板" src="imgs/高级翅膀底板.jpg"/>
+		
+		<!--翅膀战斗力-->
+		<bitmap id="wingPowerTitle" src="imgs/翅膀战斗力文字.png"/>
+		<bitmap id="战斗力底板" src="imgs/战斗力底板.png"/>
+		<bitmap id="powerBg" src="imgs/名称特效底.png"/>
+		
+		<!--翅膀属性-->
+		<bitmap id="翅膀属性文字" src="imgs/翅膀属性文字.png"/>
+		<bitmap id="wingProp" src="imgs/属性.png"/>
+		
+		<!--翅膀升级-->
+		<bitmap id="翅膀等级文字" src="imgs/翅膀等级文字.png"/>
+		<bitmap id="progressBg" src="imgs/经验条底.png"/>
+		<bitmap id="progressBar" src="imgs/经验条.png"/>
+		<bitmap id="progressLine" src="imgs/进度分割.png"/>
+		<bitmap id="costImg" src="imgs/所需消耗.png"/>
+		
+		<!--培养面板-->
+		<bitmap id="bringUpTitle" src="imgs/属性培养.png"/>
+		<bitmap id="selectIcon" src="imgs/选择02.png"/>
+		<bitmap id="dropIcon" src="imgs/选择01.png"/>
+		<bitmap id="up" src="imgs/箭头上.png"/>
+		<bitmap id="down" src="imgs/箭头下.png"/>
+		<bitmap id="当前属性" src="imgs/当前属性.png"/>
+		<bitmap id="新增属性" src="imgs/新增属性.png"/>
+		<bitmap id="翅膀培养属性框" src="imgs/翅膀培养属性框.png"/>
+		<bitmap id="翅膀培养属性条" src="imgs/翅膀培养属性条.png"/>
+		<bitmap id="新属性框" src="imgs/新属性框.png"/>
+		<bitmap id="选择培养方式" src="imgs/选择培养方式.png"/>
+		
+		<!--注灵面板-->
+		<bitmap id="霸道属性" src="imgs/zhuling/霸道属性.png"/>
+		<bitmap id="翅膀属性" src="imgs/zhuling/翅膀属性.png"/>
+		<bitmap id="加号" src="imgs/zhuling/加号.png"/>
+		<bitmap id="渐变框上" src="imgs/zhuling/渐变框上.png"/>
+		<bitmap id="渐变框中" src="imgs/zhuling/渐变框中.png"/>
+		<bitmap id="渐变框下" src="imgs/zhuling/渐变框下.png"/>
+		<bitmap id="能量上限" src="imgs/zhuling/能量上限.png"/>
+		<bitmap id="全服限量" src="imgs/zhuling/全服限量.png"/>
+		<bitmap id="圣天使之翼标题" src="imgs/zhuling/圣天使之翼标题.png"/>
+		<bitmap id="圣天使之翼标题字" src="imgs/zhuling/圣天使之翼标题字.png"/>
+		<bitmap id="需花费渐变底" src="imgs/zhuling/需花费渐变底.png"/>
+		<bitmap id="永久获得" src="imgs/zhuling/永久获得.png"/>
+		<bitmap id="战斗力" src="imgs/zhuling/战斗力.png"/>
+		<bitmap id="战力狂飙" src="imgs/zhuling/战力狂飙.png"/>
+		<bitmap id="注灵底板" src="imgs/zhuling/角色背景底板.jpg"/>
+		<bitmap id="圣翼使者" src="imgs/zhuling/圣翼使者.png"/>
+		
+		<bitmap id="num" src="imgs/数字.png"/>
+		<bitmap id="渐变底条" src="imgs/渐变底条.png"/>
+	</bitmaps>
+	
+	<bitmapReaders>
+		<!--可选翅膀-->
+		<bitmapReader id="wingEntityBg" bmp="框"/>
+		<bitmapReader id="specWingEntityBg" bmp="特殊翅膀道具框"/>
+		
+		<!--培养-->
+		<bitmapReader id="select" bmp="selectIcon"/>
+		<bitmapReader id="drop" bmp="dropIcon"/>
+	</bitmapReaders>
+</xml>

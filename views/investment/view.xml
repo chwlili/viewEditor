@@ -1,0 +1,115 @@
+<xml name="投资计划">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicNumimage.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="eff1" src="/public/imgs/effects/1.png"/>
+		<bitmap id="eff2" src="/public/imgs/effects/2.png"/>
+		
+		<bitmap id="3000" src="imgs/3000.png"/>
+		<bitmap id="10000" src="imgs/10000.png"/>
+		<bitmap id="按钮01" src="imgs/按钮01.png"/>
+		<bitmap id="按钮02" src="imgs/按钮02.png"/>
+		<bitmap id="按钮03" src="imgs/按钮03.png"/>
+		<bitmap id="第1天" src="imgs/第1天.png"/>
+		<bitmap id="第2天" src="imgs/第2天.png"/>
+		<bitmap id="第3天" src="imgs/第3天.png"/>
+		<bitmap id="第5天" src="imgs/第5天.png"/>
+		<bitmap id="第7天" src="imgs/第7天.png"/>
+		<bitmap id="第10天" src="imgs/第10天.png"/>
+		<bitmap id="第14天" src="imgs/第14天.png"/>
+		<bitmap id="第22天" src="imgs/第22天.png"/>
+		<bitmap id="第30天" src="imgs/第30天.png"/>
+		<bitmap id="红爆炸底" src="imgs/红爆炸底.png"/>
+		<bitmap id="立即抢购" src="imgs/立即抢购.png"/>
+		
+		
+		<bitmap id="t_1" src="imgs/3000钻石.png"/>
+		<bitmap id="t_2" src="imgs/1000钻石.png"/>
+		<bitmap id="t_3" src="imgs/2000钻石.png"/>
+		<bitmap id="t_4" src="imgs/300万金币.png"/>
+		<bitmap id="t_5" src="imgs/至尊秘法礼盒.png"/>
+		<bitmap id="t_6" src="imgs/7级绿宝石.png"/>
+		<bitmap id="t_7" src="imgs/20万战功.png"/>
+		<bitmap id="t_8" src="imgs/天使之羽.png"/>
+		<bitmap id="t_9" src="imgs/8级红宝石.png"/>
+
+		
+		<bitmap id="投资大图01" src="imgs/投资大图01.png"/>
+		<bitmap id="投资大图02" src="imgs/投资大图02.jpg"/>
+		
+		<bitmap id="投资计划" src="imgs/投资计划.png"/>
+		<bitmap id="领取奖品" src="imgs/领取奖品.png"/>
+		
+		<bitmap id="图标框" src="imgs/图标框.png"/>
+		<bitmap id="图标名称底" src="imgs/图标名称底.png"/>
+	</bitmaps>
+	<texts>
+		<text id="下次领奖时间invest"><![CDATA[<font color='#fdd59a'>距离下次领奖倒计时：</font>]]></text>
+		<text id="可领取invest"><![CDATA[<font color='#0bff44'>可领取</font>]]></text>
+		<text id="已领取invest"><![CDATA[<font color='#0bff44'>已领取</font>]]></text>
+	</texts>
+	
+	<formats>
+		<format id="item_name_center" font="宋体" size="14" color="0x36e314" bold="true" filter="黑色边框" align="center"/>
+	</formats>
+	
+	<controls>
+		
+		<window id="main"  width="750" height="445">
+			<image bmp="投资大图01" right="0" bottom="0" width="919" height="474" />
+			<image bmp="投资大图02" right="3" top="-1" width="747" height="442" />
+			<image bmp="投资计划" center="24" top="-1" width="128" height="36" />
+			<image bmp="3000" left="266" top="48" width="76" height="30" />
+			<image bmp="10000" left="450" top="82" width="89" height="30" />
+			
+			<ref name="closeBtn" ref="CloseButton" right="8" top="4" />
+			
+			<label name="countDownLab" center="90" top="350" width="400" height="20" html="true" format="36e314_12_center" />
+			
+			<box name="cellBox" left="13" top="36" />
+			
+			<box name="立即抢购Btn"  center="90" bottom="10" width="153" height="54">
+				<button name="btn" center="0" middle="0" width="153" height="54">
+					<state frame="1" back="按钮01" />
+					<state frame="2" back="按钮02" />
+					<state frame="3" back="按钮03" />
+				</button>
+				<image bmp="立即抢购" center="-2" middle="0" width="87" height="26" />
+			</box>
+			
+			<box name="领取奖品Btn"  center="90" bottom="10" width="153" height="54">
+				<button name="btn" center="0" middle="0" width="153" height="54">
+					<state frame="1" back="按钮01" />
+					<state frame="2" back="按钮02" />
+					<state frame="3" back="按钮03" />
+				</button>
+				<image bmp="领取奖品" center="-2" middle="0" width="87" height="26" />
+			</box>
+			
+		</window>
+		
+		<box id="cell" width="77" height="100">
+			<box name="dayImgBox" center="0" top="0" width="77" height="40">
+				<image bmp="红爆炸底" center="0" middle="0" width="60" height="40" />
+				<image name="dayImg" bmp="第1天" center="0" middle="0" width="77" height="24" />
+			</box>
+			<label name="titleLab" center="0" top="10" width="77" height="20" html="true" format="36e314_12_center" />
+			
+			<box name="itemBox" center="0" top="38" width="57" height="57">
+				<image bmp="图标框" center="0" middle="0" width="57" height="57" />
+				<achieveEntity name="item" left="7" top="6" />
+			</box>
+			
+			<image bmp="图标名称底" center="0" top="95" width="72" height="15" />
+			<image name="图标名称" bmp="t_1" center="0" top="94" width="72" height="15" />
+			<label name="itemName" center="0" top="94" width="100" height="20" html="true" format="item_name_center" />
+		</box>
+		
+	</controls>
+</xml>

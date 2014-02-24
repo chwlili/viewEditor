@@ -1,0 +1,145 @@
+﻿<xml name="等级特购">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicIcons.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+   		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicTexts.xml"/>
+	</depends>
+	<bitmaps>
+
+		<bitmap id="上面文字" src="imgs/上面文字.png" />		
+		<bitmap id="等级特购" src="imgs/等级特购.png" />
+		<bitmap id="道具底板" src="imgs/道具底板.png"/>
+
+		<bitmap id="Q点" src="imgs/Q点.png" />		
+		<bitmap id="条件不足文字底板" src="imgs/条件不足文字底板.png" />
+		<bitmap id="已购买" src="imgs/已购买.png"/>
+
+		<bitmap id="购买01" src="imgs/购买01.png" />		
+		<bitmap id="购买02" src="imgs/购买02.png" />
+		<bitmap id="购买03" src="imgs/购买03.png"/>
+
+	</bitmaps>
+	<texts>
+		<text id="等级特卖页签">等级 $1</text>
+
+		<text id="等级特卖描述">玩家等级和骑士等级都到达指定要求 才可以购买对应的超值商品哦</text>
+		<text id="等级特卖原价">原价：</text>
+		<text id="等级特卖现价">现价：</text>
+		<text id="全民购买">全民购买</text>
+		<text id="需求骑士等级购买"><![CDATA[骑士$1级购买]]></text>
+
+		<text id="等级特卖不能买">未达到购买条件</text>
+
+		<text id="花费钻石购买商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>钻石购买此商品]]></text>
+		<text id="花费金币购买商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>金币购买此商品]]></text>
+		<text id="花费勇气勋章兑换商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>勇气勋章兑换此商品]]></text>
+		<text id="花费荣誉勋章兑换商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>荣誉勋章兑换此商品]]></text>
+		<text id="花费勋章兑换商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>勋章兑换此商品]]></text>
+		<text id="勋章获得提示">参加世界BOSS、竞技场、巅峰对决可获得勋章。</text>
+		<text id="勇气勋章tip">勇气勋章：参加世界BOSS、竞技场、巅峰对决可获得</text>
+		<text id="荣誉勋章tip">荣誉勋章：世界BOSS伤害前10、巅峰对决获胜可获得</text>
+		<text id="限量Text"><![CDATA[<font color='#fff2b5'> 限量 </font><font color='#24ff00'>$1/$2</font>]]></text>
+	</texts>
+
+	<controls>
+		<window id="main" width="667" height="433">
+			<image bmp="knightFrame10" grid="46,42,46,42" x="0" y="0" width="667" height="433"/>    
+      		<image bmp="中底板标头" grid="65,0,65,0" x="0" y="0" width="667" height="36"/>
+      		<ref name="closeBtn" top="4" ref="CloseButton"/>
+ 			<image bmp="等级特购" center="0" top="3" width="105" height="32" />
+ 			<image bmp="上面文字" left="2" top="48" width="663" height="104" />
+ 			<label width="500" height="21" center="0" top="50" html="true" text="等级特卖描述" format="宋体绿色12居中"/>
+
+
+      		<labelToggleButton name="toggleBtn1" width="75" height="24" top="140" left="70" >
+        		<state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中"/>
+      	  		<state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        		<state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        		<state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        		<state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+      		</labelToggleButton>
+      		<labelToggleButton name="toggleBtn2" width="75" height="24" top="140" left="155" >
+        		<state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中"/>
+        		<state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        		<state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+       		 	<state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+       		 	<state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+      		</labelToggleButton>
+      		<labelToggleButton name="toggleBtn3" width="75" height="24" top="140" left="240" >
+        		<state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中"/>
+      	  		<state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        		<state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        		<state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        		<state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+      		</labelToggleButton>
+      		<labelToggleButton name="toggleBtn4" width="75" height="24" top="140" left="325" >
+        		<state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中"/>
+        		<state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        		<state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+       		 	<state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+       		 	<state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+      		</labelToggleButton>
+      		<labelToggleButton name="toggleBtn5" width="75" height="24" top="140" left="410" >
+        		<state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中"/>
+        		<state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        		<state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+       		 	<state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+       		 	<state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+      		</labelToggleButton>
+			<labelToggleButton name="toggleBtn6" width="75" height="24" top="140" left="495" >
+        		<state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中"/>
+        		<state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        		<state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+       		 	<state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+       		 	<state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+      		</labelToggleButton>
+
+      		<image bmp="knightFrame2" grid="30,47,29,49" left="12" top="160" width="644" height="258" />
+
+		</window>
+
+		<box id="等级商品框" width="160" height="245" left="0" top="0">
+ 			<image bmp="道具底板" left="0" top="0" right="0" bottom="0" />
+
+ 			<label name="购买条件" height="18" width="100" top="10" center="0" format="宋体绿色12居中" />
+
+
+			<achieveEntity name="item1" x="50" y="72" isBig="true"/>
+				<labelButton name="购买" width="72" height="27" top="205" center="0" >
+					<state frame="1" back="购买01" format="ffbe57_12_居中"/>
+					<state frame="2" back="购买02" format="ffbe57_12_居中"/>
+					<state frame="3" back="购买03" format="ffbe57_12_居中"/>
+				</labelButton>
+
+ 			<image name="q点" bmp="Q点" left="60" top="146" width="29" height="18" />
+ 			<image name="Q点" bmp="Q点" left="60" top="171" width="29" height="18" />
+ 			<image name="钻石" bmp="knightsBlueGem_1" left="60" top="143" width="25" height="25" />
+ 			<image name="钻石2" bmp="knightsBlueGem_1" left="60" top="168" width="25" height="25" />
+
+ 			<label text="等级特卖原价" height="18" width="40" top="146" left="29" format="89814e_12_left" />
+ 			<label text="等级特卖现价" height="18" width="40" top="171" left="29" format="钻石文字字体left" />
+ 			<label name="等级特卖原价" height="18" width="60" top="146" left="85" format="89814e_12_left" />
+ 			<label name="等级特卖现价" height="18" width="60" top="171" left="85" format="钻石文字字体left" />
+
+
+ 			<image name="已购买" bmp="已购买" left="40" top="75" width="75" height="54" />
+ 			<image name="底板" bmp="条件不足文字底板" left="6" bottom="20" width="142" height="18" />
+
+
+ 			<label name="商品名" height="30" width="118" top="36" center="0" html="true" format="商城14蓝色商品名" />
+ 			<label name="等级特卖不能买" text="等级特卖不能买" height="18" width="142" bottom="20" left="6" format="宋体红色12居中" />
+
+
+
+
+
+
+
+		</box>
+
+	</controls>	
+
+</xml>

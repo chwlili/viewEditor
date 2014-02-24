@@ -1,0 +1,264 @@
+﻿<xml>
+	<depends>
+		<depend src="../../public/publicColor.xml"/>
+		<depend src="../../public/publicFormats.xml"/>
+	</depends>
+	<formats>
+		<format id="1" font="宋体" size="12" color="0xff0000" filter="1"/>
+	</formats>
+	
+	<filters>
+		<filter id="1">
+			<glow color="0x000000" alpha="1" blurX="2" blurY="2" strength="10"/>  
+		</filter>
+	</filters>
+	
+	<texts>
+		<text id="默认">$</text>
+		<text id="功能尚未开启">功能尚未开启</text>
+		<text id="物品冷却中">物品冷却中！</text>
+		<text id="技能冷却中">技能冷却中！</text>
+		<text id="气血不足">气血不足！</text>
+		<text id="内力不足">能量不足！</text>
+		<text id="怒气不足">能量不足！</text>
+		<text id="行动力不足">体力不足！</text>
+		<text id="气血已满">气血已满！</text>
+		<text id="内力已满">能量已满！</text>
+		<text id="气血内力已满">气血能量已满！</text>
+		<text id="有一个相同的BUFF存在">有一个相同的效果存在！</text>
+		<text id="未装备武器">未装备武器!</text>
+		<text id="武器与技能派系不符">当前武器与技能派系不符!</text>
+		<text id="安全区域不允许释放技能">安全区域不允许释放技能!</text>
+		<text id="背包已满">背包已经放不下更多东西了！</text>
+		<text id="未开放">功能尚未开启!</text>
+		<text id="铜钱不足">金币不足!</text>
+		<text id="金锭不足">钻石不足!</text>
+		<text id="该玩家已在关注列表中">该玩家已在关注列表中！</text>
+		<text id="关注好友成功">关注好友[$1]成功!</text>
+		<text id="开始自动行走">正在前往：$1</text>
+		<text id="无法到达的场景">无法到达的场景！</text>
+		<text id="竞技场中禁止吃药">此场景禁止使用恢复类物品!</text>
+		<text id="竞技场中禁止穿脱">竞技场中禁止穿脱装备!</text>
+		<text id="通关副本后可以采集">通关$1后可以采集</text>
+		<text id="没有可用采集时间">今日剩余采集时间不够</text>
+		<text id="请先完成当前的宝箱或神灯操作">请先完成当前的宝箱或神灯操作</text>
+		
+		<text id="vip未开放">骑士暂未开放,敬请期待!</text>
+		<text id="shop未开放">商城暂未开放,敬请期待!</text>
+		<text id="背包不足2格">背包空间可能不足,请保证至少2格</text>
+		<text id="背包不足4格">背包空间可能不足,请保证至少4格</text>
+		<text id="friend未开放">好友功能未开启,请先继续主线任务</text>
+		<text id="联盟名称太短">骑士团名称太短,请重新输入</text>
+		<text id="联盟名称太长">骑士团名称太长,请重新输入</text>
+		<text id="联盟创建成功">恭喜:骑士团创建成功!</text>
+		<text id="collect未开放">钱庄功能未开启,请先继续主线任务</text>
+		<text id="冲脉未开放">冲脉功能未开启,请先继续主线任务</text>
+		<text id="请先建造休息室">请先建造休息室</text>
+		<text id="该道具已经满级">该道具已经满级</text>
+		<text id="当前队列已达上限">当前队列已达上限</text>
+		<text id="数量不足">$1 数量不足</text>
+		<text id="采集中不能打坐">采集中不能打坐</text>
+		<text id="无法精铸">装备等级不足,无法精铸,请先进行强化</text>
+		<text id="无法神铸">装备等级不足,无法神铸,请先进行强化</text>
+		<text id="请先精铸">请先进行精铸,再进行神铸!</text>
+		<text id="雇佣达到上限">今日雇佣已达到上限</text>
+		<text id="请先在家园中修建休息室">请先在家园中修建休息室</text>
+		
+		<text id="沉默期间无法使用技能">沉默期间无法使用技能</text>
+
+		<text id="请先领取联盟活动奖励">请先领取骑士团活动奖励</text>
+		<text id="请先领取日常精英任务奖励">请先领取日常精英任务奖励</text>
+
+		<text id="请建造练功场">请建造练功场</text>	
+		<text id="联盟夺宝已经领取完成">骑士团夺宝已经领取完成</text>		
+		
+		<text id="当前无法继续强化，请先进行主线任务">当前无法继续强化，请先进行主线任务</text>
+
+		<!-- 坐骑 -->
+		<text id="缺少坐骑">尚未拥有坐骑，可通过狩猎兑换或直接购买</text>
+		<text id="未装备坐骑">未装备坐骑</text>
+
+		<text id="培育丹药不足">培育丹药不足</text>
+		<text id="饲料不足">饲料不足</text>
+	
+		
+		<!-- 礼包相关提示 -->
+		<text id="礼包领取成功">礼包领取成功</text>
+		<text id="今日奖励已领完,请明日继续领取">今日奖励已领完,请明日继续领取</text>
+		<!---->
+		
+		<!-- 打坐 -->
+		<text id="场景不能打坐">这么危险的地方,我无法安心打坐呢..</text>
+		<!---->
+
+		<!-- 头像提示 -->
+		<text id="前往葬情谷从柳飞丝处换取面具进行易容">前往葬情谷,从柳飞丝处换取面具进行易容</text>
+		<!---->
+		
+		<!--符文相关提示-->
+		<text id="没有符文">您没有可以合并的副符</text>
+		<text id="没选符文点">请选择需要替换的符文点</text>
+		<text id="符文合并成功">符文合并完成</text>
+		<!---->
+
+		<text id="背包空间可能不足,请确保至少1个空位">背包空间可能不足,请确保至少1个空位</text>
+		<text id="背包空间可能不足,请确保至少2个空位">背包空间可能不足,请确保至少2个空位</text>
+		
+		<text id="请先完成任务再领取奖励">请先完成任务再领取奖励!</text>
+		<text id="今日分享奖励已领完,请明日继续领取">今日分享奖励已领完,请明日继续领取</text>
+		
+		<text id="BOSS已被击杀...">今日Boss已经被击杀，下次早点来哦</text>
+		<text id="这里不能去boss场景">这里距离BOSS出现的地方太远了,我必须先回到城市才能前往</text>
+		<text id="请在完成副本后前往">请在完成副本后,从主城前往</text>
+		
+		<text id="江湖评价.text">战斗力  $</text> 
+		<text id="木材.text">木材  $</text> 
+		<text id="石材.text">石材  $</text> 
+		<text id="潜能点.text">战功  $</text> 
+		<text id="武学修为.text">战斗力  $</text> 
+		<text id="徒弟数量.text">徒弟数量  $</text> 
+		<text id="徒弟上限.text">徒弟上限  $</text> 
+		<text id="物理攻击.text">物理攻击  $</text> 
+		<text id="魔法攻击.text">魔法攻击  $</text> 
+		<text id="物理防御.text">物理防御  $</text> 
+		<text id="魔法防御.text">魔法防御  $</text> 
+		<text id="暴击.text">暴击  $</text> 
+		<text id="破击.text">破击  $</text> 
+		<text id="气血最大值.text">生命上限  $</text> 
+		<text id="内力最大值.text">能量最大值  $</text> 
+		<text id="怒气.text">能量  $</text> 
+		<text id="移动.text">移动  $</text> 
+		<text id="吸血.text">吸血  $</text> 
+		<text id="吸内.text">吸内  $</text> 
+		<text id="吸血比例.text">吸血比例  $</text> 
+		<text id="吸内比例.text">吸内比例  $</text> 
+		<text id="反弹.text">反弹  $</text> 
+		<text id="反弹比例.text">反弹比例  $</text> 
+		<text id="幸运.text">幸运  $</text> 
+		<text id="阴.text">阴  $</text> 
+		<text id="阳.text">阳  $</text> 
+		<text id="玄.text">玄  $</text> 
+		<text id="毒.text">毒  $</text> 
+		<text id="气血恢复.text">气血恢复  $</text> 
+		<text id="内力恢复.text">能量恢复  $</text> 
+		<text id="暴击率.text">暴击率  $</text> 
+		<text id="破击率.text">破击率  $</text> 
+		<text id="铜钱.text">金币  $</text> 
+		<text id="金锭.text">钻石  $</text> 
+		<text id="装备强度.text">装备强度 $</text> 
+		<text id="徒弟最大值.text">徒弟最大值  $</text> 
+		<text id="行动力.text">体力  $</text> 
+		<text id="行动力最大值.text">体力最大值 $</text> 
+		<text id="暴击比例.text">暴击比例  $</text> 
+		<text id="破击比例.text">破击比例  $</text> 
+		<text id="家园威望.text">家园威望  $</text> 
+		<text id="技能充能.text">技能熟练度  $</text> 
+		<text id="装备能量.text">装备能量  $</text> 
+		<text id="真气.text">真气  $</text>
+		<text id="经验.text">经验  $</text> 
+		<text id="格挡.text">格挡  $</text> 
+		<text id="韧性.text">韧性  $</text> 
+		<text id="历练值.text">历练值  $</text> 
+		<text id="骑士经验.text">骑士经验  $</text>
+
+		<text id="自动战斗已开启">自动战斗已开启</text>
+		<text id="自动战斗已关闭">自动战斗已关闭</text>
+		<text id="千里传音令使用成功">千里传音令使用成功</text>
+		<text id="禁言令使用成功">禁言令使用成功</text>
+		<text id="禁言令使用失败">请在聊天频道中选择玩家并禁言发言</text>
+		<text id="解禁令使用成功">您已经解禁，可以正常发言</text>
+		<text id="解禁令使用失败">您当前未被禁言</text>
+		<text id="千里传音令输入空">请输入发送内容</text>
+		<text id="被其他玩家禁言">您被其他玩家禁言，无法在世界频道发言</text>
+		<text id="获得鲜花"><![CDATA[<font color='#00ff00'>$1</font> 对您大献殷勤,送您 <font color='#00ff00'>1</font> 朵玫瑰!]]></text>
+		<text id="送花成功!">赠送鲜花成功!</text>
+		<text id="聊天没开">您当前等级太低,不能在世界频道中发言</text>
+		<text id="聊天不能私聊">您当前等级太低,不能对他人进行私聊</text>
+		<text id="聊天不能加好友">您当前等级太低,不能加其他人为好友</text>
+		<text id="联盟等级未能满足">联盟等级未能达到开启条件</text>
+		
+		<text id="已经参与过">您已经参与过该活动</text>
+		<text id="已装备相同属性星运"><![CDATA[已装备相同属性星运 $1]]></text>
+		
+		<text id="任务[39]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>黑风山</font>任务-<font color='#00f6ff'>一上黑风山</font>后开启此功能。</font>]]></text>
+		<text id="任务[41]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>黑风山</font>任务-<font color='#00f6ff'>村长解疑惑</font>后开启此功能。</font>]]></text>
+		<text id="任务[43]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>黑风山</font>任务-<font color='#00f6ff'>工匠传绝艺</font>后开启此功能。</font>]]></text>
+		<text id="任务[48]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>黑风山</font>任务-<font color='#00f6ff'>义气众乡里</font>后开启此功能。</font>]]></text>
+		<text id="任务[49]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>黑风山</font>任务-<font color='#00f6ff'>重建家园</font>后开启此功能。</font>]]></text>
+		<text id="任务[54]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>黑风山</font>任务-<font color='#00f6ff'>铁匠教镶嵌</font>后开启此功能。</font>]]></text>
+		<text id="任务[56]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>黑风山</font>任务-<font color='#00f6ff'>斩草要除根</font>后开启此功能。</font>]]></text>
+		<text id="任务[57]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>黑风山</font>任务-<font color='#00f6ff'>乱起黑风山</font>后开启此功能。</font>]]></text>
+		<text id="任务[59]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>葬情谷</font>任务-<font color='#00f6ff'>探访葬情谷</font>后开启此功能。</font>]]></text>
+		<text id="任务[63]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>葬情谷</font>任务-<font color='#00f6ff'>漱玉泉寻仇</font>后开启此功能。</font>]]></text>
+		<text id="任务[64]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>葬情谷</font>任务-<font color='#00f6ff'>清理门户</font>后开启此功能。</font>]]></text>
+		<text id="任务[68]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>葬情谷</font>任务-<font color='#00f6ff'>拨开迷雾</font>后开启此功能。</font>]]></text>
+		<text id="任务[73]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>霹雳堂</font>任务-<font color='#00f6ff'>前往霹雳堂</font>后开启此功能。</font>]]></text>
+		<text id="任务[77]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>葬情谷</font>任务-<font color='#00f6ff'>清理门户</font>后开启此功能。</font>]]></text>
+		<text id="任务[75]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>霹雳堂</font>任务-<font color='#00f6ff'>潜入后院</font>后开启此功能。</font>]]></text>
+		<text id="任务[87]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>霹雳堂</font>任务-<font color='#00f6ff'>激战火器房</font>后开启此功能。</font>]]></text>
+		<text id="任务[104]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>寒霜堡</font>任务-<font color='#00f6ff'>情牵孤儿泪</font>后开启此功能。</font>]]></text>
+		<text id="任务[166]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>霹雳堂</font>任务-<font color='#00f6ff'>阻断救援</font>后开启此功能。</font>]]></text>
+		<text id="任务[115]未完成"><![CDATA[<font color='#ffffff'>完成<font color='#00f6ff'>塔木陀</font>任务-<font color='#00f6ff'>初踏寻宝路</font>后开启此功能。</font>]]></text>
+		
+		<text id="没有联盟">您还未拥有骑士团</text>
+		<text id="成就[114]未完成"><![CDATA[<font color='#ffffff'>完成1级主厅建造后开启此功能。</font>]]></text>
+		<text id="需要休息室"><![CDATA[<font color='#ffffff'>建造<font color='#00f6ff'>休息室</font>后开启此功能。</font>]]></text>
+		
+		<!-- 新加的在下面-->
+		<text id="行动力不足">您的体力不足</text>
+		<text id="请先选择关卡">请先选择关卡</text>
+		<text id="您尚未组队">您当前没有加入任何队伍</text>
+		<text id="您尚未加入骑士团">您当前没有加入骑士团</text>
+		<text id="不可出售">该物品不可出售</text>
+		<text id="技能书不足">技能书不足</text>
+		<text id="骑士团名称错误">骑士团名称错误</text>
+		<text id="加入申请已发出">加入申请已发送</text>
+		<text id="请先选择一位将军">请先选择一位副团长</text>
+		<text id="购买成功">获得 </text>
+		<text id="获得">获得 </text>
+		<text id="组队邀请已发送">组队邀请已发送</text>
+		<text id="饰品合成成功">饰品打造成功，熟练度+1</text>
+		<text id="副本尚未开启">副本尚未开启</text>
+		<text id="未指定副本无法使用招募功能">未指定副本无法使用招募功能</text>
+		<text id="已转职到最高级别">已转职到最高级别</text>
+		<text id="请稍后再发布公告">您发布公告过于频繁，请$1秒后再次发布</text>
+		<!--好友模块提示信息-->
+		<text id="请输入关注的姓名">请输入关注的姓名</text>
+		<text id="领取条件不足或已经领取过该礼包">领取条件不足或已经领取过该礼包</text>
+		<!--异步竞技提示信息-->
+		<text id="请等待冷却时间结束后再进入">请等待冷却时间结束后再进入</text>
+		<text id="竞技场排名下降">$NAME挑战了你，你失败了，排名降至$RANK</text>
+		
+		<text id="骑士团历练增加">历练+$1</text>
+		<text id="未设置扫荡次数">未设置扫荡次数</text>
+		<text id="副本通关次数不足">副本通关次数不足</text>
+		<!--炼金提示信息-->
+		<text id="炼金石不足">炼金石不足</text>
+		<text id="钻石不足">钻石不足</text>
+		<text id="VIP等级达到5级才可以高级炼金">骑士等级达到5级才可以高级炼金</text>
+		<text id="炼金失败，返回3个炼金石">炼金失败，返回3个炼金石</text>
+		<text id="炼金成功">$1增加$2</text>
+
+		<!--角色等级-->
+		<text id="角色$1级后开启">角色<![CDATA[<font color='#00ff00'>$1</font>]]>级后开启</text>
+		<text id="角色$1级后完成$2任务开启">角色<![CDATA[<font color='#00ff00'>$1</font>]]>级完成<![CDATA[<font color='#00ff00'>$2</font>]]>任务后开启</text>
+		<text id="活动已结束">活动已结束</text>
+
+		<text id="名字过短">名字过短</text>
+		<text id="名字过长">名字过长</text>
+		<text id="名字有非法字符">名字有非法字符</text>
+	</texts>
+	<controls>
+		<text id="1" filter="1" format="1"/>
+		<box id="2" width="1" height="1" center="0" bottom="90" />
+		
+		<text id="文字弹出框.text" filter="黑色边框" format="黑体白色20"/>
+		<titleBox id="文字弹出框.box" width="1" height="1"/>
+		
+		<MoveImage id="动画移动框.image" left="0" top="0" right="0" bottom="0" width="37" height="37"/>
+		<text id="动画移动框.text" filter="黑色边框" format="华文楷体白色20"/>
+		<moveBox id="动画移动框.box" widht="1" height="1" />
+		
+	</controls>
+	
+</xml>

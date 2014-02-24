@@ -1,0 +1,76 @@
+<xml>
+	<depends>
+		<!--depend src="/public/publicFrames.xml"/-->
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicFilters.xml"/>
+		<!--depend src="/public/publicNumimage.xml"/-->
+		<!--depend src="/public/publicIcons.xml"/-->
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="q0" src="imgs/q0.jpg"/>
+		<bitmap id="q1" src="imgs/q1.jpg"/>
+		<bitmap id="q2" src="imgs/q2.jpg"/>
+		<bitmap id="q3" src="imgs/q3.jpg"/>
+		<bitmap id="q4" src="imgs/q4.jpg"/>
+		<bitmap id="q5" src="imgs/q5.jpg"/>
+		<bitmap id="q6" src="imgs/q6.jpg"/>
+		<bitmap id="加号" src="imgs/加号.png"/>
+		
+		<bitmap id="mapTipsBoard" src="/public/imgs/frames/tooltips首都_底板.png"/>
+		<bitmap id="分割线" src="/public/imgs/frames/分割线.png"/>
+	</bitmaps>
+	
+	<bitmapReaders>
+		<bitmapReader id="q0" bmp="q0" grid="4,4,5,5"/>
+		<bitmapReader id="q1" bmp="q1" grid="4,4,5,5"/>
+		<bitmapReader id="q2" bmp="q2" grid="4,4,5,5"/>
+		<bitmapReader id="q3" bmp="q3" grid="4,4,5,5"/>
+		<bitmapReader id="q4" bmp="q4" grid="4,4,5,5"/>
+		<bitmapReader id="q5" bmp="q5" grid="4,4,5,5"/>
+		<bitmapReader id="q6" bmp="q6" grid="4,4,5,5"/>
+	</bitmapReaders>
+	
+	<texts>
+		<text id="属性效果">属性效果</text>
+	</texts>
+	
+	<formats>
+		<format id="属性字体" font="宋体" size="12" color="0x2feb16" filter="黑色边框" align="left"/>
+		<format id="产出途径字体" font="宋体" size="12" color="0xefb55a" filter="黑色边框" align="left"/>
+	</formats>
+	
+	<controls>
+		<box id="fashionTip" width="253" height="324">
+			<image bmp="mapTipsBoard" grid="50,50,50,50" top="0" left="0" right="0" bottom="0"/>
+			
+			<box name="topField" width="253" height="69" center="0" top="15">
+				<box name="iconBox" width="69" height="69" left="20">
+					<image name="iconBg" width="69" height="69"/>
+					<image name="icon" width="60" height="60" center="0" middle="0"/>
+				</box>
+				
+				<box name="propBox" width="154" height="69" left="99">
+					<label name="名字" autoWidth="true" height="20" top="7" format="宋体白色14加粗" html="true"/>
+				</box>
+			</box>
+			
+			<box name="fashionPropField" width="253" top="89">
+				<image bmp="分割线" grid="44,0,44,0" width="213" height="1" center="0"/>
+				<label text="属性效果" width="213" height="20" left="20" top="10" format="efb55a_12"/>
+			</box>
+			
+			<box name="descField" width="253">
+				<image bmp="分割线" grid="44,0,44,0" width="213" height="1" center="0"/>
+				<label name="desc" width="213" autoHeight="true" left="20" top="10" multiline="true" wordWrap="true" format="efb55a_12" html="true"/>
+			</box>
+			
+			<box name="bottomField" width="253">
+				<image bmp="分割线" grid="44,0,44,0" width="213" height="1" center="0"/>
+				<label name="gainWay" width="213" autoHeight="true" left="20" top="10" multiline="true" wordWrap="true" format="产出途径字体" html="true"/>
+			</box>
+		</box>
+		
+		<label id="fashionPropLabel" width="223" height="20" left="40" format="属性字体"/>
+	</controls>
+</xml>

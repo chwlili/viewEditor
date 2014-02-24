@@ -1,0 +1,16 @@
+<xml>
+	
+	<bitmaps>
+		<bitmap id="knightCloseBtn1_1" src="/public/imgs/buttons/knightCloseBtn1_1.png" />
+		<bitmap id="knightCloseBtn1_2" src="/public/imgs/buttons/knightCloseBtn1_2.png" />
+		<bitmap id="knightCloseBtn1_3" src="/public/imgs/buttons/knightCloseBtn1_3.png" />
+	</bitmaps>
+	
+	<controls>
+		<button id="CloseButton" width="26" height="26" right="11" top="13">
+			<state frame="1" back="knightCloseBtn1_1" />
+			<state frame="2" back="knightCloseBtn1_2" />
+			<state frame="3" back="knightCloseBtn1_3" />
+		</button>
+	</controls>
+</xml>

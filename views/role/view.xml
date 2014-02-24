@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<xml name="角色"> 
+  <depends> 
+    <depend src="/public/publicFrames.xml"/>  
+    <depend src="/public/publicButtons.xml"/>  
+    <depend src="/public/controls/window/CloseButton.xml"/>  
+    <depend src="/public/controls/window/WindowBack.xml"/>  
+    <depend src="/public/controls/scroller/Scroller.xml"/>  
+    <depend src="/public/publicFormats.xml"/>  
+    <depend src="/public/publicTexts.xml"/> 
+    <depend src="/roleProperties/view.xml"/>
+  </depends>  
+  <bitmaps> 
+    <bitmap id="翅膀文字01" src="imgs/翅膀文字01.png"/>  
+    <bitmap id="翅膀文字02" src="imgs/翅膀文字02.png"/>  
+    <bitmap id="宠物文字01" src="imgs/宠物文字01.png"/>  
+    <bitmap id="宠物文字02" src="imgs/宠物文字02.png"/>  
+    <bitmap id="光环文字01" src="imgs/光环文字01.png"/>  
+    <bitmap id="光环文字02" src="imgs/光环文字02.png"/>  
+    <bitmap id="圣器文字01" src="imgs/圣器文字01.png"/>  
+    <bitmap id="圣器文字02" src="imgs/圣器文字02.png"/>  
+    <bitmap id="星运文字01" src="imgs/星运文字01.png"/>  
+    <bitmap id="星运文字02" src="imgs/星运文字02.png"/>  
+    <bitmap id="坐骑文字01" src="imgs/坐骑文字01.png"/>  
+    <bitmap id="坐骑文字02" src="imgs/坐骑文字02.png"/> 
+    
+    <bitmap id="角色" src="imgs/角色.png"/>  
+    <bitmap id="角色切页底板01_1" src="imgs/角色切页底板01_1.png"/>  
+    <bitmap id="角色切页底板01_2" src="imgs/角色切页底板01_2.png"/>  
+    <bitmap id="角色切页底板02_1" src="imgs/角色切页底板02_1.png"/>  
+    <bitmap id="角色切页底板02_2" src="imgs/角色切页底板02_2.png"/>  
+    <bitmap id="角色切页头像猪脚01" src="imgs/角色切页头像猪脚01.png"/>  
+    <bitmap id="角色切页头像猪脚02" src="imgs/角色切页头像猪脚02.png"/>  
+    <bitmap id="角色装备底板" src="imgs/角色装备底板.jpg"/>  
+   
+    <bitmap id="隔断条" src="imgs/隔断条.png"/>  
+    <bitmap id="下方功能外框" src="imgs/下方功能外框.png"/>  
+    <bitmap id="下方功能外框_空" src="imgs/下方功能外框_空.png"/>  
+    <bitmap id="下方功能外框_锁" src="imgs/下方功能外框_锁.png"/>  
+ 
+    <bitmap id="faction_1_1" src="imgs/剑士.png"/>  
+    <bitmap id="faction_1_2" src="imgs/疾风剑士.png"/>  
+    <bitmap id="faction_1_3" src="imgs/皇家剑士.png"/>  
+    <bitmap id="faction_1_4" src="imgs/冰霜剑士.png"/>  
+    <bitmap id="faction_3_1" src="imgs/战士.png"/>  
+    <bitmap id="faction_3_2" src="imgs/狂战士.png"/>  
+    <bitmap id="faction_3_3" src="imgs/皇家战士.png"/>  
+    <bitmap id="faction_3_4" src="imgs/毁灭战神.png"/>  
+    <bitmap id="faction_2_1" src="imgs/刺客.png"/>  
+    <bitmap id="faction_2_2" src="imgs/暗影刺客.png"/>  
+    <bitmap id="faction_2_3" src="imgs/梦魇刺客.png"/>  
+    <bitmap id="faction_2_4" src="imgs/死亡使者.png"/>  
+    
+    <bitmap id="职业图标" src="imgs/职业图标.png"/>  
+    <bitmap id="转职底板" src="imgs/转职底板.png"/>  
+    <bitmap id="转职美术字01" src="imgs/转职美术字01.png"/>  
+    <bitmap id="转职美术字02" src="imgs/转职美术字02.png"/>  
+    <bitmap id="转职美术字03" src="imgs/转职美术字03.png"/>  
+    <bitmap id="光环图标" src="imgs/光环图标.png"/>  
+    <bitmap id="翅膀图标" src="imgs/翅膀图标.png"/> 
+    <bitmap id="星运图标" src="imgs/星运图标.png"/> 
+    <bitmap id="圣器图标" src="imgs/圣器图标.png"/>
+    <bitmap id="小数字" src="imgs/小数字.png"/>
+    <bitmap id="绿箭头" src="imgs/绿箭头.png"/>
+    <bitmap id="红箭头" src="imgs/红箭头.png"/>
+    <bitmap id="标记说明" src="imgs/标记说明.png"/>
+
+    <bitmap id="上面图标底板" src="imgs/上面图标底板.png"/>  
+    <bitmap id="宝石" src="imgs/上面图标-宝石.png"/> 
+    <bitmap id="黄钻" src="imgs/上面图标-黄钻.png"/> 
+    <bitmap id="进阶星级" src="imgs/上面图标-进阶星级.png"/>
+    <bitmap id="骑士等级" src="imgs/上面图标-骑士等级-金.png"/>
+
+    <bitmap id="称号小标new01" src="imgs/称号小标new01.png"/> 
+    <bitmap id="称号小标new02" src="imgs/称号小标new02.png"/>
+    <bitmap id="圣衣01" src="imgs/圣衣01.png"/>
+    <bitmap id="圣衣02" src="imgs/圣衣02.png"/>
+  </bitmaps>  
+  <bitmapReaders>
+    <bitmapReader id="下方功能外框" bmp="下方功能外框"/>
+    <bitmapReader id="下方功能外框_空" bmp="下方功能外框_空"/>
+    <bitmapReader id="下方功能外框_锁" bmp="下方功能外框_锁"/>
+    <bitmapReader id="光环图标" bmp="光环图标"/>
+    <bitmapReader id="翅膀图标" bmp="翅膀图标"/>
+    <bitmapReader id="星运图标" bmp="星运图标"/>
+    <bitmapReader id="圣器图标" bmp="圣器图标"/>
+    
+    <bitmapReader id="翅膀文字01" bmp="翅膀文字01"/>  
+    <bitmapReader id="翅膀文字02" bmp="翅膀文字02"/>  
+    <bitmapReader id="宠物文字01" bmp="宠物文字01"/>  
+    <bitmapReader id="宠物文字02" bmp="宠物文字02"/>  
+    <bitmapReader id="光环文字01" bmp="光环文字01"/>  
+    <bitmapReader id="光环文字02" bmp="光环文字02"/>  
+    <bitmapReader id="圣器文字01" bmp="圣器文字01"/>  
+    <bitmapReader id="圣器文字02" bmp="圣器文字02"/>  
+    <bitmapReader id="星运文字01" bmp="星运文字01"/>  
+    <bitmapReader id="星运文字02" bmp="星运文字02"/>  
+    <bitmapReader id="坐骑文字01" bmp="坐骑文字01"/>  
+    <bitmapReader id="坐骑文字02" bmp="坐骑文字02"/> 
+  </bitmapReaders>  
+  <texts> 
+    <text id="装备">装备</text>  
+    <text id="角色点亮成就">点亮成就：</text>  
+    <text id="光环">光环</text>  
+    <text id="圣器">圣器</text>  
+    <text id="46级开启光环"><![CDATA[42级完成[主线]$1任务后开启]]></text> 
+    <text id="36级开启占星"><![CDATA[36级完成[主线]$1任务后开启]]></text> 
+    <text id="41级开启圣器"><![CDATA[46级完成[主线]$1任务后开启]]></text> 
+    <text id="尚未开放tip"><![CDATA[尚未开放]]></text> 
+    <text id="翅膀尚未开放tip"><![CDATA[充值任意金额可获得翅膀]]></text> 
+    <text id="黄钻成就尚未开放tip"><![CDATA[黄钻成就，提升黄钻等级可点亮]]></text> 
+    <text id="宝石成就尚未开放tip"><![CDATA[宝石成就，尚未开放]]></text> 
+    <text id="装备强化成就尚未开放tip"><![CDATA[装备强化成就，尚未开放]]></text> 
+    <text id="骑士等级成就尚未开放tip"><![CDATA[骑士等级成就，购买钻石可点亮]]></text> 
+    <text id="称号tip"><![CDATA[排行榜最高排名可获得称号]]></text> 
+    <text id="时装tip"><![CDATA[充值满1000钻石送黄金甲]]></text> 
+  </texts>  
+  <controls> 
+    <window id="Main" width="475" height="490"> 
+      <ref ref="WindowBack"/>  
+      <ref name="closeBtn" ref="CloseButton"/>  
+      <image bmp="隔断条" x="7" y="383" width="460" height="3"/>  
+      <image bmp="knightFrame2" grid="30,47,29,49" left="110" top="50" width="352" height="327"/>  
+      <image bmp="角色" left="220" top="10" width="77" height="27"/>  
+      <image bmp="角色装备底板" left="118" top="58" width="337" height="310"/>  
+      <image bmp="转职底板" left="197" top="93" width="197" height="33"/>  
+
+      <image bmp="上面图标底板" x="117" y="60" width="340" height="34" grid="21,0,21,0"/> 
+      <label text="角色点亮成就" height="20" width="123" top="67" left="120" format="fde3ac_12_right"/>
+      <image name="vipIcon" bmp="骑士等级" x="240" y="63" width="25" height="25"/> 
+      <image name="gemIcon" bmp="宝石" x="267" y="63" width="25" height="25"/> 
+      <image name="equipIcon" bmp="进阶星级" x="294" y="63" width="25" height="25"/> 
+      <image name="yellowIcon" bmp="黄钻" x="321" y="63" width="25" height="25"/> 
+
+      <button name="titleBtn" width="45" height="45" left="180" top="95"> 
+        <state frame="1" back="称号小标new01"/>  
+        <state frame="2" back="称号小标new02"/>  
+        <state frame="3" back="称号小标new01"/> 
+      </button> 
+      <button name="fashionBtn" width="45" height="45" left="180" top="145"> 
+        <state frame="1" back="圣衣01"/>  
+        <state frame="2" back="圣衣02"/>  
+        <state frame="3" back="圣衣01"/> 
+      </button> 
+
+      <button name="transBtn" width="47" height="22" left="334" top="100"> 
+        <state frame="1" back="转职美术字01"/>  
+        <state frame="2" back="转职美术字02"/>  
+        <state frame="3" back="转职美术字03"/> 
+      </button> 
+    </window> 
+    <!--翅膀等使用的功能框-->
+    <box id="FuncCell" width="79" height="72"> 
+      <image name="bg" bmp="下方功能外框" x="0" y="0" width="79" height="72"/> 
+      <image name="icon" bmp="翅膀图标" x="9" y="6" width="60" height="60"/> 
+      <image name="logo" bmp="翅膀文字01" x="23" y="50" width="32" height="20"/> 
+    </box>
+  </controls> 
+</xml>

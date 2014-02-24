@@ -1,0 +1,5 @@
+.NoticeBack {
+	border-style: solid;
+	border-width: 29px 4px 0px 29px;
+	border-image: url(slice_NoticeBack_00.png) 29 4 0 29 fill stretch;
+}

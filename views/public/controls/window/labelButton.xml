@@ -1,0 +1,16 @@
+<xml>
+	
+	<bitmaps>
+		<bitmap id="knightLabelBtn1_1" src="/public/imgs/buttons/升级按钮01.png" />
+		<bitmap id="knightLabelBtn1_2" src="/public/imgs/buttons/升级按钮02.png" />
+		<bitmap id="knightLabelBtn1_3" src="/public/imgs/buttons/升级按钮03.png" />
+	</bitmaps>
+	
+	<controls>
+		<labelButton id="labelButton"  width="111" height="39" x="0" y="0" label="按钮_立即前往" >
+			<state frame="1" back="knightLabelBtn1_1" format="按钮字体样式"/>
+			<state frame="2" back="knightLabelBtn1_2" format="按钮字体样式"/>
+			<state frame="3" back="knightLabelBtn1_3" format="按钮字体样式"/>
+		</labelButton>
+	</controls>
+</xml>

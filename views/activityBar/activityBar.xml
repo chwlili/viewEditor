@@ -1,0 +1,360 @@
+﻿<xml preload="0">
+	<bitmaps>
+		<bitmap id="精英副本_01" src="imgs/精英副本_01.png"/>
+		<bitmap id="精英副本_02" src="imgs/精英副本_02.png"/>
+		
+		<bitmap id="竞技场_01" src="imgs/竞技场_01.png"/>
+		<bitmap id="竞技场_02" src="imgs/竞技场_02.png"/>
+		
+		<bitmap id="决斗神殿_01" src="imgs/巅峰对决_01.png"/>
+		<bitmap id="决斗神殿_02" src="imgs/巅峰对决_02.png"/>
+		
+		<bitmap id="排行榜_01" src="imgs/排行榜_01.png"/>
+		<bitmap id="排行榜_02" src="imgs/排行榜_02.png"/>
+		
+		<bitmap id="人气活动_01" src="imgs/人气活动_01.png"/>
+		<bitmap id="人气活动_02" src="imgs/人气活动_02.png"/>
+		
+		<bitmap id="血战前线_01" src="imgs/血战前线_01.png"/>
+		<bitmap id="血战前线_02" src="imgs/血战前线_02.png"/>
+		
+		<bitmap id="英雄副本_01" src="imgs/英雄副本_01.png"/>
+		<bitmap id="英雄副本_02" src="imgs/英雄副本_02.png"/>
+		
+		<bitmap id="赚金币_01" src="imgs/赚金币_01.png"/>
+		<bitmap id="赚金币_02" src="imgs/赚金币_02.png"/>
+		
+		<bitmap id="每日签到_01" src="imgs/每日签到_01.png"/>
+		<bitmap id="每日签到_02" src="imgs/每日签到_02.png"/>
+		
+		<bitmap id="首充礼包_01" src="imgs/首充礼包_01.png"/>
+		<bitmap id="首充礼包_02" src="imgs/首充礼包_02.png"/>
+		
+		<bitmap id="累计充值_01" src="imgs/累计充值_01.png"/>
+		<bitmap id="累计充值_02" src="imgs/累计充值_02.png"/>
+		
+		<bitmap id="礼包领取_01" src="imgs/领取礼包_01.png"/>
+		<bitmap id="礼包领取_02" src="imgs/领取礼包_02.png"/>
+		
+		<bitmap id="黄钻新手未开启_01" src="imgs/黄钻新手_01.png"/>
+		<bitmap id="黄钻新手未开启_02" src="imgs/黄钻新手_02.png"/>
+
+		<bitmap id="黄钻每日已开启_01" src="imgs/黄钻每日_01.png"/>
+		<bitmap id="黄钻每日已开启_02" src="imgs/黄钻每日_02.png"/>
+		
+		<bitmap id="黄钻每日未开启_01" src="imgs/黄钻每日_01.png"/>
+		<bitmap id="黄钻每日未开启_02" src="imgs/黄钻每日_02.png"/>
+		
+		<bitmap id="在线礼包_01" src="imgs/在线礼包_01.png"/>
+		<bitmap id="在线礼包_02" src="imgs/在线礼包_02.png"/>
+		
+		<bitmap id="开服活动_01" src="imgs/开服活动_01a.png"/>
+		<bitmap id="开服活动_02" src="imgs/开服活动_02a.png"/>
+		
+		<bitmap id="天降奇财_01" src="imgs/天降奇财_01a.png"/>
+		<bitmap id="天降奇财_02" src="imgs/天降奇财_02a.png"/>
+		
+		<bitmap id="天降奇财2_01" src="imgs/天降奇财_01a.png"/>
+		<bitmap id="天降奇财2_02" src="imgs/天降奇财_02a.png"/>
+		
+		<bitmap id="太阳神殿_01" src="imgs/太阳神殿_01.png"/>
+		<bitmap id="太阳神殿_02" src="imgs/太阳神殿_02.png"/>
+		
+		<bitmap id="召唤BOSS_01" src="imgs/召唤BOSS_01.png"/>
+		<bitmap id="召唤BOSS_02" src="imgs/召唤BOSS_02.png"/>
+		
+		<bitmap id="神域争霸_01" src="imgs/神域争霸灰化.png"/>
+		<bitmap id="神域争霸_02" src="imgs/神域争霸灰化.png"/>
+
+		
+		<bitmap id="限量翅膀_01" src="imgs/限量翅膀_01.png"/>
+		<bitmap id="限量翅膀_02" src="imgs/限量翅膀_02.png"/>
+		
+
+		<bitmap id="翅膀特效" src="imgs/翅膀图标特效.png"/>
+
+		<bitmap id="收藏游戏_01" src="imgs/收藏大奖_01.png"/>
+		<bitmap id="收藏游戏_02" src="imgs/收藏大奖_02.png"/>
+
+		<bitmap id="变强宝典_01" src="imgs/变强宝典_01.png"/>
+		<bitmap id="变强宝典_02" src="imgs/变强宝典_02.png"/>
+		
+		<bitmap id="元旦活动_01" src="imgs/新春活动_01.png" />
+		<bitmap id="元旦活动_02" src="imgs/新春活动_02.png" />
+		
+		<bitmap id="精彩活动_01" src="imgs/精彩活动_01.png" />
+		<bitmap id="精彩活动_02" src="imgs/精彩活动_02.png" />
+		
+		<bitmap id="投资计划_01" src="imgs/投资计划_01.png" />
+		<bitmap id="投资计划_02" src="imgs/投资计划_01.png" />
+		
+		<bitmap id="神器大放送_01" src="imgs/麻痹戒指_01.png" />
+		<bitmap id="神器大放送_02" src="imgs/麻痹戒指_02.png" />
+
+		<bitmap id="元旦特卖_01" src="imgs/元旦特卖01.png" />
+		<bitmap id="元旦特卖_02" src="imgs/元旦特卖02.png" />
+
+		<bitmap id="第一赛季_01" src="imgs/天神竞技_03.png"/>
+		<bitmap id="第一赛季_02" src="imgs/天神竞技_04.png"/>
+		
+		<bitmap id="每日秒杀_01" src="imgs/每日秒杀_01.png"/>
+		<bitmap id="每日秒杀_02" src="imgs/每日秒杀_02.png"/>
+
+		<bitmap id="猎魔团_01" src="imgs/猎魔团_01.png"/>
+		<bitmap id="猎魔团_02" src="imgs/猎魔团_02.png"/>
+
+		<bitmap id="开服特卖_01" src="imgs/开服特卖_01.png"/>
+		<bitmap id="开服特卖_02" src="imgs/开服特卖_02.png"/>
+		
+		<bitmap id="通缉令_01" src="imgs/通缉令_01.png"/>
+		<bitmap id="通缉令_02" src="imgs/通缉令_02.png"/>
+		
+		<bitmap id="登录礼包_01" src="imgs/登录礼包_01.png"/>
+		<bitmap id="登录礼包_02" src="imgs/登录礼包_02.png"/>
+
+		<bitmap id="等级特卖_01" src="imgs/等级特惠_01.png"/>
+		<bitmap id="等级特卖_02" src="imgs/等级特惠_02.png"/>
+	</bitmaps>
+
+	<texts>
+		<text id="活动栏_竞技场Tip">点击进入竞技场</text>
+		<text id="活动栏_决斗神殿Tip">点击进入决斗神殿</text>
+		<text id="活动栏_人气活动Tip">点击查看人气活动</text>
+		<text id="活动栏_血战前线Tip">点击进入血战前线</text>
+		<text id="活动栏_排行榜Tip">点击查看排行榜</text>
+		<text id="活动栏_英雄副本Tip">点击进入组队副本</text>
+		<text id="活动栏_精英副本Tip">点击进入挑战副本</text>
+		<text id="活动栏_赚金币Tip">点击进入赚金币</text>
+		<text id="活动栏_首充礼包Tip">点击打开首充礼包</text>
+		<text id="活动栏_限量翅膀Tip">点击升级翅膀</text>
+		<text id="活动栏_每日签到Tip">点击打开每日签到</text>
+		<text id="活动栏_累计充值Tip">点击打开累充礼包</text>
+		<text id="活动栏_黄钻新手Tip">点击打开黄钻特权</text>
+		<text id="活动栏_黄钻每日Tip">点击打开黄钻特权</text>
+		<text id="活动栏_礼包领取Tip">点击领取礼包</text>
+		<text id="活动栏_天降奇财Tip">点击打开天降奇财</text>
+		<text id="活动栏_天降奇财2Tip">点击打开天降奇财</text>
+		<text id="活动栏_太阳神殿Tip">点击打开太阳神密宝</text>
+		<text id="活动栏_召唤BOSSTip">点击击杀骑士团BOSS</text>
+		<text id="活动栏_收藏游戏Tip">点击收藏游戏</text>
+		<text id="活动栏_变强宝典Tip">点击打开变强宝典</text>
+		<text id="活动栏_元旦特卖Tip">点击打开限时特卖</text>
+		<text id="活动栏_天神竞技Tip">点击打开天神竞技</text>
+		<text id="活动栏_每日秒杀Tip">点击打开每日秒杀</text>
+
+		<text id="活动栏_竞技场引导">点击进入竞技场</text>
+		<text id="活动栏_决斗神殿引导">点击进入决斗神殿</text>
+		<text id="活动栏_人气活动引导">点击查看人气活动</text>
+		<text id="活动栏_血战前线引导">点击进入血战前线</text>
+		<text id="活动栏_排行榜引导">点击查看排行榜</text>
+		<text id="活动栏_英雄副本引导">点击进入组队副本</text>
+		<text id="活动栏_精英副本引导">点击进入挑战副本</text>
+		<text id="活动栏_赚金币引导">点击进入赚金币</text>
+		<text id="活动栏_首充礼包引导">点击打开首充礼包</text>
+		<text id="活动栏_每日签到引导">点击打开每日签到</text>
+		<text id="活动栏_累计充值引导">点击打开累充礼包</text>
+		<text id="活动栏_黄钻新手引导">点击打开黄钻特权</text>
+		<text id="活动栏_黄钻每日引导">点击打开黄钻特权</text>
+		<text id="活动栏_礼包领取引导">点击领取礼包</text>
+
+		<text id="活动栏_猎魔团Tip">点击进入猎魔团</text>
+		
+		<text id="活动栏_开服特卖Tip">点击进入开服特卖</text>
+		<text id="活动栏_通缉令Tip">点击进入通缉令</text>
+		<text id="活动栏_登录礼包Tip">点击领取登录礼包</text>
+		<text id="活动栏_等级特卖Tip">点击进入等级特购</text>
+		<text id="活动栏_开服特卖Tip">点击进入开服特卖</text>
+	</texts>
+
+	<controls>
+		<box id="活动条" width="0" height="65" right="270" top="5">
+			<box name="通缉令" tip="活动栏_通缉令Tip" width="64" height="65">
+				<image bmp="通缉令_01" width="64" height="65"/>
+				<image bmp="通缉令_02" width="64" height="65"/>
+			</box>
+
+			<box name="等级特卖" tip="活动栏_等级特卖Tip" width="64" height="65">
+				<image bmp="等级特卖_01" width="64" height="65"/>
+				<image bmp="等级特卖_02" width="64" height="65"/>
+			</box>
+			
+			<box name="登录礼包" tip="活动栏_登录礼包Tip" width="64" height="65">
+				<image bmp="登录礼包_01" width="64" height="65"/>
+				<image bmp="登录礼包_02" width="64" height="65"/>
+			</box>
+			
+			<box name="猎魔团" tip="活动栏_猎魔团Tip" width="64" height="65">
+				<image bmp="猎魔团_01" width="64" height="65"/>
+				<image bmp="猎魔团_02" width="64" height="65"/>
+			</box>
+
+			<box name="元旦特卖" tip="活动栏_元旦特卖Tip" width="64" height="65">
+				<image bmp="元旦特卖_01" width="64" height="65"/>
+				<image bmp="元旦特卖_02" width="64" height="65"/>
+			</box>
+
+			<box name="开服特卖" tip="活动栏_开服特卖Tip" width="64" height="65">
+				<image bmp="开服特卖_01" width="64" height="65"/>
+				<image bmp="开服特卖_02" width="64" height="65"/>
+			</box>
+			
+			<box name="召唤BOSS" tip="活动栏_召唤BOSSTip" width="64" height="65">
+				<image bmp="召唤BOSS_01" width="64" height="65"/>
+				<image bmp="召唤BOSS_02" width="64" height="65"/>
+			</box>
+			
+			<box name="限量翅膀" tip="活动栏_限量翅膀Tip" width="64" height="65">
+				<image bmp="限量翅膀_01" width="64" height="65"/>
+				<image bmp="限量翅膀_02" width="64" height="65"/>
+			</box>
+			
+			<box name="每日秒杀" tip="活动栏_每日秒杀Tip" width="64" height="65">
+				<image bmp="每日秒杀_01" width="64" height="65"/>
+				<image bmp="每日秒杀_02" width="64" height="65"/>
+			</box>
+			
+			<box name="收藏游戏" tip="活动栏_收藏游戏Tip" width="64" height="65">
+				<image bmp="收藏游戏_01" width="64" height="65"/>
+				<image bmp="收藏游戏_02" width="64" height="65"/>
+			</box>
+			
+			<box name="黄钻每日已开启" tip="活动栏_黄钻每日Tip" width="64" height="65">
+				<image bmp="黄钻每日已开启_01" width="64" height="65"/>
+				<image bmp="黄钻每日已开启_02" width="64" height="65"/>
+			</box>
+
+			<box name="黄钻每日未开启" tip="活动栏_黄钻每日Tip" width="64" height="65">
+				<image bmp="黄钻每日未开启_01" width="64" height="65"/>
+				<image bmp="黄钻每日未开启_02" width="64" height="65"/>
+			</box>
+
+			<box name="黄钻新手未开启" tip="活动栏_黄钻新手Tip" width="64" height="65">
+				<image bmp="黄钻新手未开启_01" width="64" height="65"/>
+				<image bmp="黄钻新手未开启_02" width="64" height="65"/>
+			</box>
+			
+			<box name="每日签到" tip="活动栏_每日签到Tip" width="64" height="65">
+				<image bmp="每日签到_01" width="64" height="65"/>
+				<image bmp="每日签到_02" width="64" height="65"/>
+			</box>
+			
+			<box name="在线礼包" tip="活动栏_礼包领取Tip" width="64" height="65">
+				<image bmp="在线礼包_01" width="64" height="65"/>
+				<image bmp="在线礼包_02" width="64" height="65"/>
+			</box>
+			
+			<box name="礼包领取" tip="活动栏_礼包领取Tip" width="64" height="65">
+				<image bmp="礼包领取_01" width="64" height="65"/>
+				<image bmp="礼包领取_02" width="64" height="65"/>
+			</box>
+			
+			<box name="变强宝典" tip="活动栏_变强宝典Tip" width="64" height="65">
+				<image bmp="变强宝典_01" width="64" height="65"/>
+				<image bmp="变强宝典_02" width="64" height="65"/>
+			</box>
+			
+			<box name="太阳神殿" tip="活动栏_太阳神殿Tip" width="64" height="65">
+				<image bmp="太阳神殿_01" width="64" height="65"/>
+				<image bmp="太阳神殿_02" width="64" height="65"/>
+			</box>
+			
+			<box name="赚金币" tip="活动栏_赚金币Tip" width="64" height="65">
+				<image bmp="赚金币_01" width="64" height="65"/>
+				<image bmp="赚金币_02" width="64" height="65"/>
+			</box>
+			
+			<box name="累计充值" tip="活动栏_累计充值Tip" width="64" height="65">
+				<image bmp="累计充值_01" width="64" height="65"/>
+				<image bmp="累计充值_02" width="64" height="65"/>
+			</box>
+			
+			<box name="人气活动" tip="活动栏_人气活动Tip" width="64" height="65">
+				<image bmp="人气活动_01" width="64" height="65"/>
+				<image bmp="人气活动_02" width="64" height="65"/>
+			</box>
+			
+			<box name="投资计划" tip="活动栏_礼包领取Tip" width="64" height="65">
+				<image bmp="投资计划_01" width="64" height="65"/>
+				<image bmp="投资计划_02" width="64" height="65"/>
+			</box>
+			
+			<box name="精彩活动" tip="活动栏_礼包领取Tip" width="64" height="65">
+				<image bmp="精彩活动_01" width="64" height="65"/>
+				<image bmp="精彩活动_02" width="64" height="65"/>
+			</box>
+			
+			<box name="排行榜" tip="活动栏_排行榜Tip" width="64" height="65">
+				<image bmp="排行榜_01" width="64" height="65"/>
+				<image bmp="排行榜_02" width="64" height="65"/>
+			</box>
+			
+			<box name="血战前线" tip="活动栏_血战前线Tip" width="64" height="65">
+				<image bmp="血战前线_01" width="64" height="65"/>
+				<image bmp="血战前线_02" width="64" height="65"/>
+			</box>
+			
+			<box name="英雄副本" tip="活动栏_英雄副本Tip" width="64" height="65">
+				<image bmp="英雄副本_01" width="64" height="65"/>
+				<image bmp="英雄副本_02" width="64" height="65"/>
+			</box>
+			
+			<box name="精英副本" tip="活动栏_精英副本Tip" width="64" height="65">
+				<image bmp="精英副本_01" width="64" height="65"/>
+				<image bmp="精英副本_02" width="64" height="65"/>
+			</box>
+			
+			<box name="首充礼包" tip="活动栏_首充礼包Tip" width="64" height="65">
+				<image bmp="首充礼包_01" width="64" height="65"/>
+				<image bmp="首充礼包_02" width="64" height="65"/>
+				<filmAnimEffect name="翅膀特效" bmp="翅膀特效" x="-70" y="-35" row="1" col="9" frameDelay="100" loop="1"/>
+			</box>
+			
+			<box name="竞技场" tip="活动栏_竞技场Tip" width="64" height="65">
+				<image bmp="竞技场_01" width="64" height="65"/>
+				<image bmp="竞技场_02" width="64" height="65"/>
+			</box>
+			
+			<box name="决斗神殿" tip="活动栏_决斗神殿Tip" width="64" height="65">
+				<image bmp="决斗神殿_01" width="64" height="65"/>
+				<image bmp="决斗神殿_02" width="64" height="65"/>
+			</box>
+			
+			<box name="天降奇财" tip="活动栏_天降奇财Tip" width="64" height="65">
+				<image bmp="天降奇财_01" width="64" height="65"/>
+				<image bmp="天降奇财_02" width="64" height="65"/>
+			</box>
+			
+			<box name="天降奇财2" tip="活动栏_天降奇财2Tip" width="64" height="65">
+				<image bmp="天降奇财2_01" width="64" height="65"/>
+				<image bmp="天降奇财2_02" width="64" height="65"/>
+			</box>
+			
+			<box name="神器大放送" tip="活动栏_礼包领取Tip" width="64" height="65">
+				<image bmp="神器大放送_01" width="64" height="65"/>
+				<image bmp="神器大放送_02" width="64" height="65"/>
+			</box>
+			
+			<box name="元旦活动" tip="活动栏_礼包领取Tip" width="64" height="65">
+				<image bmp="元旦活动_01" width="64" height="65"/>
+				<image bmp="元旦活动_02" width="64" height="65"/>
+			</box>
+			
+			<box name="开服活动" tip="活动栏_礼包领取Tip" width="64" height="65">
+				<image bmp="开服活动_01" width="64" height="65"/>
+				<image bmp="开服活动_02" width="64" height="65"/>
+			</box>
+
+			
+			<box name="第一赛季" tip="活动栏_天神竞技Tip" width="64" height="65">
+				<image bmp="第一赛季_01" width="64" height="65"/>
+				<image bmp="第一赛季_02" width="64" height="65"/>
+			</box>
+			
+			<box name="神域争霸" tip="" width="64" height="65">
+				<image bmp="神域争霸_01" width="64" height="65"/>
+				<image bmp="神域争霸_02" width="64" height="65"/>
+			</box>
+		</box>
+	</controls>
+
+</xml>

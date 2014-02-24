@@ -1,0 +1,74 @@
+<xml name="累计充值">
+  <depends>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+    <depend src="/public/controls/window/WindowBack.xml"/>
+    <depend src="/public/controls/window/CloseButton.xml"/>
+  </depends>
+  <bitmaps>
+    <bitmap id="title" src="imgs/累计充值.png"/>
+    <bitmap id="bg" src="imgs/内容框.jpg"/>
+    <bitmap id="送" src="imgs/送字.png"/>
+    <bitmap id="turnBg" src="imgs/翻页框.png"/>
+    <bitmap id="turnLeft_1" src="imgs/左01.png"/>
+    <bitmap id="turnLeft_2" src="imgs/左02.png"/>
+    <bitmap id="turnLeft_3" src="imgs/左03.png"/>
+    <bitmap id="turnRight_1" src="imgs/右01.png"/>
+    <bitmap id="turnRight_2" src="imgs/右02.png"/>
+    <bitmap id="turnRight_3" src="imgs/右03.png"/>
+    <bitmap id="当前累积充值钻石" src="imgs/当前累积充值钻石.png"/>
+    <bitmap id="payBtnTitle" src="imgs/快速消费.png"/>
+	<bitmap id="num" src="imgs/红色数字.png"/>
+	<bitmap id="已领取图标" src="imgs/已领取图标.png"/>
+  </bitmaps>
+  <texts>
+    <text id="领取">领取</text>
+    <text id="快速充值">快速充值</text>
+  </texts>
+  <controls>
+    <window id="main" width="610" height="431">
+      <ref ref="WindowBack"/>
+      <ref name="closeBtn" ref="CloseButton"/>
+      <image bmp="title" width="100" height="26" center="0" top="12"/>
+      <image bmp="bg" width="595" height="371" center="0" top="50"/>
+      <image bmp="送" width="66" height="64" left="190" top="60"/>
+	  <box name="maxNumBox" width="95" height="39" left="420" top="65"/>
+      <box name="itemContainer" left="211" top="138" width="366" height="145">
+		<box name="itemBox" width="366" height="145"/>
+		<image name="tag" bmp="已领取图标" width="156" height="66" left="240" top="90"/>
+	  </box>
+      <box name="turnPageBox" width="132" height="20" center="80" bottom="120">
+        <labelButton name="turnLeftBtn" width="24" height="22" left="0" top="0">
+          <state frame="1" back="翻页按钮左大01"/>
+		  <state frame="2" back="翻页按钮左大02"/>
+		  <state frame="3" back="翻页按钮左大03"/>
+        </labelButton>
+        <image bmp="turnBg" width="78" height="18" center="0" middle="0"/>
+        <label name="turnLabel" width="78" height="18" center="0" middle="0" format="宋体白色12居中"/>
+        <labelButton name="turnRightBtn" width="24" height="22" right="0" top="0">
+           <state frame="1" back="翻页按钮右大01"/>
+		   <state frame="2" back="翻页按钮右大02"/>
+		   <state frame="3" back="翻页按钮右大03"/>
+        </labelButton>
+      </box>
+      <box name="rewardBox" width="550" height="22" center="0" bottom="82">
+        <image bmp="当前累积充值钻石" width="124" height="18" middle="0"/>
+        <label name="curNum" width="40" height="18" left="127" middle="0" format="宋体绿色12"/>
+        <label name="desc" autoWidth="true" height="18" left="201" middle="0" html="true"/>
+        <labelButton name="rewardBtn" label="领取" width="71" height="23" right="24" paddingBottom="2">
+          <state frame="1" back="小按钮四字01" format="ffbe57_12_居中"/>
+          <state frame="2" back="小按钮四字02" format="ffbe57_12_居中"/>
+          <state frame="3" back="小按钮四字03" format="ffbe57_12_居中"/>
+        </labelButton>
+      </box>
+      <box name="payBox" width="104" height="42" center="0" bottom="13">
+        <labelButton name="payBtn" width="84" height="28" center="0" middle="0" label="快速充值">
+			<state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+			<state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+			<state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+        </labelButton>
+      </box>
+    </window>
+  </controls>
+</xml>

@@ -1,0 +1,17 @@
+<xml>
+	<depends>
+		<depend src="../public/publicFrames.xml"/>
+		<depend src="../public/publicButtons.xml"/>
+		<depend src="../public/publicFormats.xml"/>
+	</depends>
+	
+	<bitmaps>
+	</bitmaps>
+	
+	<controls>
+		<image bmp="标准背景.frame" grid="13,13,13,13" left="0" top="0" right="0" bottom="0"/>
+		<label format="宋体默认色12" width="190" height="20" x="350" y="20" text="20"/>	
+		<progressBar>
+		</progressBar>
+	</controls>
+</xml>

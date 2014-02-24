@@ -1,0 +1,18 @@
+<xml name="区域左侧">
+	<swfs>
+		<swf id="numberLib" src="../swfs/numberLib.swf"/>
+		<swf id="frameLib" src="../swfs/frameLib.swf"/>
+		<swf id="regionMapLeft" src="../swfs/regionMapLeft.swf"/>
+	</swfs>
+	<texts>
+		<text id="全部通关">全部通关</text>
+		<text id="完成度">完成度:</text>
+		<text id="可领奖">可领奖</text>
+		<text id="已领取">已领取</text>
+		<text id="未完成">未完成</text>
+		<text id="已获星数">已获星数:</text>
+		<text id="主城">主城</text>
+		<text id="副本">副本</text>
+		<text id="章节奖励">章节奖励:</text>
+	</texts>
+</xml>

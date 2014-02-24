@@ -1,0 +1,31 @@
+﻿<xml>
+  <depends>
+    <depend src="/public/publicFormats.xml"/>
+  </depends>
+  <bitmaps>
+    <bitmap id="worldBoss2" src="imgs/worldBoss2.png"/>
+    <bitmap id="worldBoss5" src="imgs/worldBoss5.png"/>
+    <bitmap id="worldBoss6" src="imgs/worldBoss6.png"/>
+    <bitmap id="worldBoss99999" src="imgs/worldBoss99999.png"/>
+    <bitmap id="召唤boss" src="imgs/召唤boss.png"/>
+    <bitmap id="天神竞技" src="imgs/天神竞技.png"/>
+    <bitmap id="提示框背景" src="imgs/提示框背景.png" />
+  </bitmaps>
+  <texts>
+
+    <text id="距活动开始">距活动开始</text>
+    <text id="距活动结束">距活动结束</text>
+    <text id="活动倒计时">活动倒计时</text>
+    <text id="距离活动结束">距离活动结束</text>
+  </texts>
+  <controls>
+    <box id="main" top="110" left="230" width="161" height="236" />
+
+    <box id="cell" width="161" height="59">
+        <filmAnimEffect name="底板" bmp="提示框背景" row="1" col="10" frameDelay="100" y="5" />
+        <image name="icon" width="64" height="59" />
+        <label name="topLabel" width="86" height="18" top="15" left="60" format="宋体白色12居中" text="00" />
+        <label name="bottomLabel" width="86" height="18" top="32" left="60" format="宋体白色12居中" text="00" />
+    </box>
+  </controls>
+</xml>

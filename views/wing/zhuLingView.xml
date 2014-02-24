@@ -1,0 +1,57 @@
+﻿<xml>
+	<depends>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicIcons.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicNumimage.xml"/>
+		<depend src="../wing/wingBitmap.xml"/>
+		<depend src="../wing/wingText.xml"/>
+		<depend src="../wing/wingFormat.xml"/>
+	</depends>
+	
+	<controls>
+		<window id="zhuLing" width="618" height="560">
+			<ref ref="WindowBack"/>
+			<ref name="closeBtn" ref="CloseButton"/>
+			<image bmp="zhuLingTitle" width="70" height="31" top="12" center="0"/>
+			<image bmp="costImg" width="72" height="20" left="200" bottom="90"/>
+			<image name="goldIcon" width="25" height="25" left="300" bottom="87.5"/>
+			<label text="消耗值" width="80" height="20" bottom="90" left="325" format="翅膀培养12"/>
+			<image bmp="分割线" grid="44,0,44,0" width="600" height="1" center="0" bottom="90"/>
+			
+			<labelButton name="commitBtn" width="200" height="49" center="0" bottom="35">
+				<state frame="1" back="zhuLingBtn1" />
+				<state frame="2" back="zhuLingBtn2" />
+				<state frame="3" back="zhuLingBtn3" />
+			</labelButton>
+			
+			<label text="注灵描述" width="614" height="20" bottom="10" center="0" format="ffbe57_12_居中" html="true"/>
+		</window>
+	
+		<box id="zhuLingBox" width="270" height="380" top="50">
+			<image bmp="knightFrame2" grid="30,47,29,49" width="270" height="380"/>
+			<box name="翅膀名称" width="270" height="42" top="-10">
+				<image name="wingTitle" bmp="wingTitle" width="230" height="42" center="0" middle="0"/>
+				<image bmp="add" width="15" height="22" left="170" middle="4"/>
+			</box>
+			<box name="wingBox" width="270" height="241" top="27">
+				<image bmp="zhuLingBg" width="252" height="241" center="0" top="0"/>
+				<box name="roleBox" width="260" height="186" center="0" middle="0" />
+			</box>
+		</box>
+	 
+		<box id="leftPropBox" width="150" height="20" center="0">
+			<label name="title" width="60" height="18" left="0" format="翅膀属性名称字体"/>
+			<label name="prop" width="40" height="18" left="110" format="培养属性字体"/>
+		</box>
+	 
+		<box id="rightPropBox" width="150" height="20" center="0">
+			<label name="title" width="60" height="18" left="0" format="翅膀属性名称字体"/>
+			<label name="prop" width="40" height="18" left="60" format="培养属性字体"/>
+			<label name="add" width="50" height="18" left="100" format="翅膀培养12居左"/>
+		</box>
+	</controls>
+</xml>

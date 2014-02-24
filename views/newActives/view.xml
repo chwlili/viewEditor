@@ -1,0 +1,278 @@
+<xml name="活动主界面">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+
+	</depends>
+
+
+	<texts>
+		<text id="进入按钮">进 入</text>
+		<text id="参加按钮">参 加</text>
+		<text id="已结束">已结束</text>
+		<text id="时间">活动时间</text>
+		<text id="需求"><![CDATA[<font color="#ee280e" face="宋体" size="12">需求等级 $1</font>]]></text>
+		<text id="boss升级提示"><![CDATA[<p align="center"><font color="#fdd59a" face="宋体" size="12">玩家击败世界Boss后  次日，该Boss将升级，变得更加强大。</font></p>]]></text>
+		<text id="开启时间"><![CDATA[<font color="#56f592" face="宋体" size="12">$1:$2-$3:$4</font>]]></text>
+		<text id="倒计时"><![CDATA[<p align="center"><font color="#e8dcbd" face="宋体" size="12">倒计时 </font><font color="#ee280e" face="宋体" size="12">$1</font></p>]]></text>
+		<text id="级">级</text>
+		
+		<text id="boss_reward_1">3160,10714,100224</text>
+		<text id="boss_reward_2">3160,10714,100224</text>
+		<text id="boss_reward_3">3160,10714,100224</text>
+		<text id="boss_reward_4">10551,30064,100224</text>
+		<text id="boss_reward_5">111,112,113,255,222,333</text>
+		<text id="退出组队">如果参加世界Boss将退出当前队伍,您确定嘛?</text>
+	</texts>
+
+	<bitmaps>
+		
+		<bitmap id="活动" src="imgs/活动.png" />
+		<bitmap id="副本名称标头" src="imgs/副本名称标头.png" />
+		<bitmap id="副本名称标头灰" src="imgs/副本名称标头-灰.png" />
+		<bitmap id="参加" src="imgs/参加.png" />	
+		<bitmap id="奖励" src="imgs/奖励.png" />
+		<bitmap id="已击杀遮罩图" src="imgs/黑色透明.png" />
+		<bitmap id="已击杀文字" src="imgs/已被击杀.png" />
+		
+		<bitmap id="风暴泰坦" src="imgs/风暴泰坦.png" />
+		<bitmap id="巨人泰坦底图" src="imgs/泰坦图.jpg" />
+		
+		<bitmap id="冰霜巨龙字" src="imgs/冰霜巨龙字.png" />
+		<bitmap id="冰霜巨龙" src="imgs/冰霜骨龙图.jpg" />
+		
+		<bitmap id="猎魂死神字" src="imgs/猎魂死神.png" />
+		<bitmap id="猎魂死神图" src="imgs/猎魂死神图.jpg" />
+		
+		<bitmap id="新年Boss字" src="imgs/新年Boss.png" />
+		<bitmap id="比蒙图" src="imgs/比蒙图.jpg" />
+		
+		<bitmap id="跨服竞技大赛" src="imgs/跨服竞技大赛.png" />
+		
+		<bitmap id="遮罩框33" src="imgs/遮罩框33-33-33-33.png" />
+		
+		<bitmap id="进入" src="imgs/进入.png" />
+		<bitmap id="未开始" src="imgs/未开始.png" />
+		<bitmap id="已结束" src="imgs/已结束.png" />
+		
+		
+		<bitmap id="暂未开放字" src="imgs/神秘活动.png" />
+		
+		<bitmap id="可挑战" src="imgs/可挑战.png" />
+		<bitmap id="跨服底图" src="imgs/跨服底图.jpg" />
+		<bitmap id="神秘活动暂未开放" src="imgs/未开放.jpg" />
+		<bitmap id="图标框" src="imgs/图标框.png" />
+		
+		
+		<bitmap id="内容字体渐变底" src="imgs/内容字体渐变底.png" />
+		
+		
+		<bitmap id="lv_pic" src="imgs/等级.png" />
+		<bitmap id="lv_num" src="imgs/等级数字.png" />
+	</bitmaps>
+
+
+	<controls>
+		<window id="main" width="766" height="410">
+			<ref ref="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+			<image bmp="活动"  top="8" center="0" width="65" height="29"/>
+			<label center="0" top="48" width="766" height="20" text="boss升级提示" html="true" />
+			<box name="box1" desc="泰坦"  left="15" bottom="18"  width="180" height="308">
+				<image bmp="knightFrame2" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" />
+				<image name="effect_bg" bmp="巨人泰坦底图" left="0" top="0" right="0" bottom="0"/>
+				<image name="effect_bg_enter" bmp="遮罩框33" left="0" top="0" right="0" bottom="0" visible="false" grid="30,30,30,30" />
+				
+				<box name="kill_box" center="0" middle="0" width="180" height="308">
+					<image name="kill_bg_mask" bmp="已击杀遮罩图" left="0" top="0" right="0" bottom="0" />
+					<image name="kill_word" bmp="已击杀文字" center="0" top="56" width="149" height="96" />
+				</box>
+				<image name="no_open_bg" bmp="神秘活动暂未开放" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" visible="false" />
+				
+				<image bmp="内容字体渐变底" center="0" top="30" width="139" height="15"/>
+				
+				<label name="活动时间lab" x="22" y="28" width="54" height="18" label="时间" format="fdd59a_12" />
+				<label name="活动时间" x="79" y="28" width="91" height="16" format="fmt_03dd27_12"/>
+				
+				<image name="需求等级bg" bmp="内容字体渐变底" center="0" middle="0" width="139" height="15"/>
+				<label name="需求等级" center="0" middle="0" width="180" height="20" format="宋体绿色12居中" html="true"/>
+
+				<image name="挑战" bmp="可挑战" center="0" top="75" width="130" height="34"/>
+
+				<box name="奖励内容"  left="17" top="184" width="150" height="74">
+					<image bmp="奖励" center="0" top="0" width="130" height="23"/>
+				</box>
+				<box name="btnBox" width="81" height="26" center="0" bottom="12">
+					<labelButton name="按钮"  width="82" height="28" label="进入按钮" center="0" middle="0">
+						<state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中"/>
+						<state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中"/>
+						<state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中"/>
+					</labelButton>
+					
+					<label name="time_lab" center="0" middle="0" width="110" height="20" html="true" visible="false" />
+				</box>
+				<image name="no_open_bg" bmp="神秘活动暂未开放" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" visible="false" />
+				
+				<image name="title_bg" bmp="副本名称标头" center="0" top="-11" width="165" height="33" grid="70,0,70,0" />
+				<image name="title_bg_gray" bmp="副本名称标头灰" center="0" top="-11" width="165" height="33" grid="70,0,70,0"/>
+				<box name="boss_lv_num" left="106" top="-4" width="29" height="25">
+					<image bmp="lv_pic" left="0" middle="0" width="29" height="25" scaleX=".6" scaleY=".6" />
+				</box>
+				
+				<image name="title_word" bmp="风暴泰坦" center="-18" top="-6" width="68" height="22"/>
+				<image name="title_word_no_open" bmp="暂未开放字" center="0" top="-6" width="68" height="22"/>
+				
+			</box>
+
+			<box name="box2" desc="巨龙"  left="200" bottom="18"  width="180" height="308">
+				<image bmp="knightFrame2" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" />
+				
+				<image name="effect_bg" bmp="冰霜巨龙" left="0" top="0" right="0" bottom="0"/>
+				<image name="effect_bg_enter" bmp="遮罩框33" left="0" top="0" right="0" bottom="0" visible="false" grid="30,30,30,30" />
+				<box name="kill_box" center="0" middle="0" width="180" height="308">
+					<image name="kill_bg_mask" bmp="已击杀遮罩图" left="0" top="0" right="0" bottom="0" />
+					<image name="kill_word" bmp="已击杀文字" center="0" top="56" width="149" height="96" />
+				</box>
+				<image bmp="内容字体渐变底" center="0" top="30" width="139" height="15"/>
+				<label name="活动时间lab" x="22" y="28" width="54" height="18" label="时间" format="fdd59a_12" />
+				<label name="活动时间" x="79" y="28" width="91" height="16" format="fmt_03dd27_12"/>
+				
+				<image name="需求等级bg" bmp="内容字体渐变底" center="0" middle="0" width="139" height="15"/>
+				<label name="需求等级" center="0" middle="0" width="180" height="20" format="宋体绿色12居中" html="true"/>
+
+				<image name="挑战" bmp="可挑战" center="0" top="75" width="130" height="34"/>
+
+				<box name="奖励内容"  left="17" top="184" width="150" height="74">
+					<image bmp="奖励" center="0" top="0" width="130" height="23"/>
+				</box>
+
+				<box name="btnBox" width="81" height="26" center="0" bottom="12">
+					<labelButton name="按钮"  width="82" height="28" label="进入按钮" center="0" middle="0">
+						<state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中"/>
+						<state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中"/>
+						<state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中"/>
+					</labelButton>
+					
+					<label name="time_lab" center="0" middle="0" width="110" height="20" html="true" visible="false" />
+				</box>
+				<image name="no_open_bg" bmp="神秘活动暂未开放" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" visible="false" />
+				
+				<image name="title_bg" bmp="副本名称标头" center="0" top="-11" width="165" height="33" grid="70,0,70,0" />
+				<image name="title_bg_gray" bmp="副本名称标头灰" center="0" top="-11" width="165" height="33" grid="70,0,70,0"/>
+				<box name="boss_lv_num" left="106" top="-4" width="29" height="25">
+					<image bmp="lv_pic" left="0" middle="0" width="29" height="25" scaleX=".6" scaleY=".6" />
+				</box>
+				
+				<image name="title_word" bmp="冰霜巨龙字" center="-18" top="-6" width="68" height="22"/>
+				<image name="title_word_no_open" bmp="暂未开放字" center="0" top="-6" width="68" height="22"/>
+				
+			</box>
+
+			<box name="box3" desc="裂魂"  left="385" bottom="18"  width="180" height="308">
+				<image bmp="knightFrame2" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" />
+				
+				<image name="effect_bg" bmp="猎魂死神图" left="0" top="0" right="0" bottom="0"/>
+				<image name="effect_bg_enter" bmp="遮罩框33" left="0" top="0" right="0" bottom="0" visible="false" grid="30,30,30,30" />
+				
+				<box name="kill_box" center="0" middle="0" width="180" height="308">
+					<image name="kill_bg_mask" bmp="已击杀遮罩图" left="0" top="0" right="0" bottom="0" />
+					<image name="kill_word" bmp="已击杀文字" center="0" top="56" width="149" height="96" />
+				</box>
+				
+				<image bmp="内容字体渐变底" center="0" top="30" width="139" height="15"/>
+				<label name="活动时间lab" x="22" y="28" width="54" height="18" label="时间" format="fdd59a_12" />
+				<label name="活动时间" x="79" y="28" width="91" height="16" format="fmt_03dd27_12"/>
+				
+				<image name="需求等级bg" bmp="内容字体渐变底" center="0" middle="0" width="139" height="15"/>
+				<label name="需求等级" center="0" middle="0" width="180" height="20" format="宋体绿色12居中" html="true" />
+
+				<image name="挑战" bmp="可挑战" center="0" top="75" width="130" height="34"/>
+
+				<box name="奖励内容"  left="17" top="184" width="150" height="74">
+					<image bmp="奖励" center="0" top="0" width="130" height="23"/>
+				</box>
+
+				<box name="btnBox" width="81" height="26" center="0" bottom="12">
+					<labelButton name="按钮"  width="82" height="28" label="进入按钮" center="0" middle="0">
+						<state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中"/>
+						<state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中"/>
+						<state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中"/>
+					</labelButton>
+					
+					<label name="time_lab" center="0" middle="0" width="110" height="20" html="true" visible="false" />
+				</box>
+				<image name="no_open_bg" bmp="神秘活动暂未开放" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" visible="false" />
+				
+				<image name="title_bg" bmp="副本名称标头" center="0" top="-11" width="165" height="33" grid="70,0,70,0" />
+				<image name="title_bg_gray" bmp="副本名称标头灰" center="0" top="-11" width="165" height="33" grid="70,0,70,0"/>
+				<box name="boss_lv_num" left="106" top="-4" width="29" height="25">
+					<image bmp="lv_pic" left="0" middle="0" width="29" height="25" scaleX=".6" scaleY=".6" />
+				</box>
+				
+				<image name="title_word" bmp="猎魂死神字" center="-18" top="-6" width="68" height="22"/>
+				<image name="title_word_no_open" bmp="暂未开放字" center="0" top="-6" width="68" height="22"/>
+				
+			</box>
+
+			<box name="box4" desc="未开启"  left="570" bottom="18" width="180" height="308">
+				<image bmp="knightFrame2" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" />
+				
+				<image name="effect_bg" bmp="比蒙图" left="0" top="0" right="0" bottom="0"/>
+				<image name="effect_bg_enter" bmp="遮罩框33" left="0" top="0" right="0" bottom="0" visible="false" grid="30,30,30,30" />
+				
+				<box name="kill_box" center="0" middle="0" width="180" height="308">
+					<image name="kill_bg_mask" bmp="已击杀遮罩图" left="0" top="0" right="0" bottom="0" />
+					<image name="kill_word" bmp="已击杀文字" center="0" top="56" width="149" height="96" />
+				</box>
+				
+				<image bmp="内容字体渐变底" center="0" top="30" width="139" height="15"/>
+				<label name="活动时间lab" x="22" y="28" width="54" height="18" label="时间" format="fdd59a_12" />
+				<label name="活动时间" x="79" y="28" width="91" height="16" format="fmt_03dd27_12"/>
+				
+				<image name="需求等级bg" bmp="内容字体渐变底" center="0" middle="0" width="139" height="15"/>
+				<label name="需求等级" center="0" middle="0" width="180" height="20" format="宋体绿色12居中" html="true"/>
+				
+				<image name="挑战" bmp="可挑战" center="0" top="75" width="130" height="34"/>
+				
+				<box name="奖励内容"  left="17" top="184" width="150" height="74">
+					<image bmp="奖励" center="0" top="0" width="130" height="23"/>
+				</box>
+				
+				<box name="btnBox" width="81" height="26" center="0" bottom="12">
+					<labelButton name="按钮"  width="82" height="28" label="进入按钮" center="0" middle="0">
+						<state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中"/>
+						<state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中"/>
+						<state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中"/>
+					</labelButton>
+					
+					<label name="time_lab" center="0" middle="0" width="110" height="20" html="true" visible="false" />
+				</box>
+				<image name="no_open_bg" bmp="神秘活动暂未开放" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" visible="true" />
+				
+				<image name="title_bg" bmp="副本名称标头" center="0" top="-11" width="165" height="33" grid="70,0,70,0" />
+				<image name="title_bg_gray" bmp="副本名称标头灰" center="0" top="-11" width="165" height="33" grid="70,0,70,0"/>
+				<box name="boss_lv_num" left="106" top="-4" width="29" height="25">
+					<image bmp="lv_pic" left="0" middle="0" width="29" height="25" scaleX=".6" scaleY=".6" />
+				</box>
+				
+				<image name="title_word" bmp="新年Boss字" center="-18" top="-6" width="73" height="24"/>
+				<image name="title_word_no_open" bmp="暂未开放字" center="0" top="-6" width="68" height="22"/>
+				
+			</box>
+			
+		</window>
+		
+		<box id="奖励" width="48" height="49">
+			<image bmp="图标框" left="0" top="0" right="0" bottom="0"/>
+			<image name="图标" left="5" top="5" right="5" bottom="5"/>
+			<label name="数量" x="0" y="29" width="48" height="20" format="宋体绿色12居右"/>
+			<achieveEntity name="item" center="0" middle="0"/>
+		</box>
+		
+	</controls>
+
+
+</xml>

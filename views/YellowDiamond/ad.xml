@@ -1,0 +1,70 @@
+﻿<xml name="黄钻">
+	<depends>
+		<depend src="../public/publicFrames.xml"/>
+		<depend src="../public/publicButtons.xml"/>
+		<depend src="../public/publicFormats.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="title2.png" src="imgs/title2.png" size="102898"/>
+		<bitmap id="texts.png" src="imgs/texts.png" size="102898"/>
+		<bitmap id="小黄钻.bmp" src="imgs/diamond.png" size="102898"/>
+		<bitmap id="1.bmp" src="imgs/1.png" size="102898"/>
+		<bitmap id="2.bmp" src="imgs/2.png" size="102898"/>
+		<bitmap id="3.bmp" src="imgs/3.png" size="102898"/>
+		<bitmap id="4.bmp" src="imgs/4.png" size="102898"/>
+		<bitmap id="5.bmp" src="imgs/5.png" size="102898"/>
+		<bitmap id="6.bmp" src="imgs/6.png" size="102898"/>
+		<bitmap id="7.bmp" src="imgs/7.png" size="102898"/>
+		<bitmap id="8.bmp" src="imgs/8.png" size="102898"/>
+	</bitmaps>
+	<texts>
+	</texts>
+	<controls>
+		<view id="ad">
+			<window id="黄钻广告.win" name="窗口" width="630" height="530">
+				<image bmp="1级底板2层.bmp" grid="38,38,38,38" left="0" top="0" right="0" bottom="0"/>
+				<image bmp="上方横条.frame" grid="24,44,24,0" height="44" left="5" top="20" right="5"/>
+				<image bmp="title2.png" grid="0,0,0,0" width="267" height="50" center="0" top="20"/>
+				
+				
+				<image bmp="5级底板.bmp" grid="50,50,50,50" left="20" top="70" right="20" bottom="20"/>
+				<image bmp="黄钻3级底板.bmp" grid="15,15,15,15" left="45" top="130" right="223" bottom="80"/>
+				<image bmp="黄钻3级底板.bmp" grid="15,15,15,15" left="410" top="130" right="45" bottom="80"/>
+				<image bmp="texts.png" grid="0,0,0,0" width="517" height="106" center="0" top="100"/>
+
+				<button name="关闭.btn" width="40" height="40" right="0" top="0">
+					<state frame="1" back="标准关闭按钮1.png" format="1"/>
+					<state frame="3" back="标准关闭按钮2.png" format="1"/>
+				</button>
+				
+				<button name="开通黄钻.btn" width="140" height="34" left="265" top="454">
+					<state frame="1" back="开通黄钻.png" format="1"/>
+					<state frame="3" back="开通黄钻.png" format="1"/>
+				</button>
+				
+				<button name="续费黄钻.btn" width="140" height="34" left="265" top="454">
+					<state frame="1" back="续费黄钻.png" format="1"/>
+					<state frame="3" back="续费黄钻.png" format="1"/>
+				</button>
+				
+				<button name="开通年费黄钻.btn" width="140" height="34" left="414" top="454">
+					<state frame="1" back="开通年费黄钻.png" format="1"/>
+					<state frame="3" back="开通年费黄钻.png" format="1"/>
+				</button>
+				
+				<button name="续费年费黄钻.btn" width="140" height="34" left="414" top="454">
+					<state frame="1" back="续费年费黄钻.png" format="1"/>
+					<state frame="3" back="续费年费黄钻.png" format="1"/>
+				</button>
+				
+				<image bmp="67道具背景.bmp" name="道具容器1" grid="0,0,0,0" width="99" height="99" x="450" y="232" />
+				<achieveEntity name="年费道具" isBig="true" x="466" y="248"/>
+				<label name="年费文本框" format="宋体白色14居中" html="true" width="99" height="18" x="450" y="338" />
+			</window>
+		</view>
+		<item id="道具条">
+			<achieveEntity name="道具容器" x="70"/>
+			<label name="文本框" format="宋体灰色12" html="true" width="60" height="16" x="105" y="5" />
+		</item>
+	</controls>
+</xml>

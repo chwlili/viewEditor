@@ -1,0 +1,54 @@
+<xml>
+	<depends>
+		<depend src="/public/publicFilters.xml"/>
+	</depends>
+
+	<bitmaps>
+		<bitmap id="框体背景" src="/public/imgs/frames/中底板底.png"/>
+		<bitmap id="框体边框" src="/public/imgs/frames/框体左侧装饰03.png"/>
+
+		<bitmap id="按钮1" src="/public/imgs/buttons/普通功能按钮1.png"/>
+		<bitmap id="按钮2" src="/public/imgs/buttons/普通功能按钮2.png"/>
+
+		<bitmap id="图标" src="img.png" />
+	</bitmaps>
+
+	<texts>
+		<text id="提示">
+			<![CDATA[当前玩家场景人数过多，<font color='#00ff00'>建议您点确定隐藏其它玩家</font>
+(点击右上角小眼睛图标可显示/隐藏其它玩家)]]></text>
+		<text id="确定">确定</text>
+		<text id="取消">取消</text>
+	</texts>
+
+	<formats>
+		<format id="文字字体" color="0xfdd59a" size="12" filter="黑色边框" align="center" leading="10"/>
+		<format id="按钮字体" color="0xfdd59a" size="12" filter="黑色边框" align="center"/>
+	</formats>
+
+	<controls>
+		<confirm id="窗口" width="310" height="190">
+			<image bmp="框体背景" left="0" right="0" top="0" bottom="0" grid="20,20,20,20"/>
+			
+			<image bmp="框体边框" width="17" height="40" left="0" middle="0" />
+			<box width="17" height="40" right="0" middle="0" >
+				<image bmp="框体边框" width="17" height="40" x="17" scaleX="-1" />
+			</box>
+
+			<text text="提示" multiline="true" wordWrap="true" width="290" height="55" x="10" y="20" html="true" format="文字字体"/>
+
+			<image bmp="图标" width="117" height="65" center="0" bottom="50"/>
+
+			<labelButton name="btn1" width="82" height="28" center="-45" bottom="20" label="确定">
+				<state frame="1" back="按钮1" format="按钮字体"/>
+				<state frame="2" back="按钮2" format="按钮字体"/>
+			</labelButton>
+
+			<labelButton name="btn2" width="82" height="28" center="45" bottom="20" label="取消">
+				<state frame="1" back="按钮1" format="按钮字体"/>
+				<state frame="2" back="按钮2" format="按钮字体"/>
+			</labelButton>
+
+		</confirm>
+	</controls>
+</xml>

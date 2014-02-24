@@ -1,0 +1,81 @@
+<xml>
+	<filters>
+	
+		<filter id="黑色边框">
+			<glow color="0x000000" alpha="1" blurX="2" blurY="2" strength="10"/>
+		</filter>
+		
+		<filter id="咖啡色边框">
+			<glow color="0x37200e" alpha="1" blurX="2" blurY="2" strength="10"/>
+		</filter>
+		
+		<filter id="灰色滤镜">
+			<colorMatrix matrix="0.3,0.6,0,0,0,0.3,0.6,0,0,0,0.3,0.6,0,0,0,0,0,0,1,0"/>
+		</filter>
+		
+		<filter id="黄光滤镜">
+			<glow color="0x330099" alpha="0.6" blurX="8" blurY="8" strength="10"/>
+		</filter>
+		
+		<filter id="0x987a1a滤镜">
+			<glow color="0x987a1a" alpha="1" blurX="2" blurY="3" strength="4"/>
+		</filter>
+		
+		<filter id="黑色边框2">
+			<glow color="0x000000" alpha="1" blurX="4" blurY="4" strength="10"/>
+		</filter>
+		
+		<filter id="黑色边框3">
+			<glow color="0x000000" alpha="1" blurX="3" blurY="3" strength="300"/>
+		</filter>
+		
+		<filter id="金色边框">
+			<glow color="0x210f04" alpha="1" blurX="3" blurY="3" strength="300"/>
+		</filter>
+		
+		<filter id="战功包边">
+			<glow color="0x231207" alpha="1" blurX="3" blurY="3" strength="10"/>
+		</filter>
+		
+		<filter id="亮金边框">
+			<glow color="0x3a1402" alpha="1" blurX="3" blurY="3" strength="10"/>
+		</filter>
+		
+		<filter id="暗金边框">
+			<glow color="0x36150a" alpha="1" blurX="3" blurY="3" strength="10"/>
+		</filter>
+		
+		<filter id="231207边框">
+			<glow color="0x231207" alpha="1" blurX="2" blurY="2" strength="10"/>
+		</filter>
+
+		<filter id="170702边框">
+			<glow color="0x170702" alpha="1" blurX="2" blurY="2" strength="10"/>
+		</filter>
+		
+
+		<filter id="36150a边框">
+			<glow color="0x36150a" alpha="1" blurX="3" blurY="3" strength="10"/>
+		</filter>
+
+		<filter id="vip特权描述边框">
+			<glow color="0x110501" alpha="1" blurX="3" blurY="3" strength="10"/>
+		</filter>
+		
+		<filter id="ftr_19041a边框">
+			<glow color="0x19041a" alpha="1" blurX="3" blurY="3" strength="10"/>
+		</filter>
+		
+		<filter id="道具培养边框">
+			<glow color="0x1f0e04" alpha="1" blurX="3" blurY="3" strength="10"/>
+		</filter>
+		
+		<filter id="role_name_sytle_filter">
+			<glow color="0x3b1209" alpha="1" blurX="3" blurY="3" strength="300"/>
+		</filter>
+		
+		<filter id="按钮标签边框">
+			<glow color="0x350c00" alpha="1" blurX="3" blurY="3" strength="300"/>
+		</filter>
+	</filters>
+</xml>

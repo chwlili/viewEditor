@@ -1,0 +1,26 @@
+<xml desc="跑马灯">
+	<bitmaps>
+		<bitmap id="跑马灯公告框" src="imgs/跑马灯公告框.png" />
+	</bitmaps>
+	
+	<texts>
+	</texts>
+	
+	<formats>
+		<format id="跑马灯" font="宋体" align="left" size="14" color="0xffe400" filter="边框" leading="4" />
+	</formats>
+	
+	<filters>
+		<filter id="边框">
+			<glow color="0x2c0d02" alpha="1" blurX="2" blurY="2" strength="10"/>
+		</filter>
+	</filters>
+
+	<controls>
+		<box id="marqueeBox" width="622" height="73">
+			<image bmp="跑马灯公告框" left="0" top="0" right="0" bottom="0" grid="300,30,300,30" />
+			<label name="msgLabel" left="70" middle="5" width="520" height="20" html="true" format="跑马灯" />
+		</box>
+	</controls>	
+
+</xml>

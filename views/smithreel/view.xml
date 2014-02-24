@@ -1,0 +1,69 @@
+<xml>
+	
+	<depends>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="canvas_tital" src="imgs/canvas_tital.png" />
+		<bitmap id="canvas_item" src="imgs/canvas_item.png" />
+		<bitmap id="canvas_attribute" src="imgs/canvas_attribute.png" />
+		<bitmap id="icon_item_B" src="imgs/icon_item_B.png" />
+  	</bitmaps>
+
+	<texts>
+		<text id="制作">制 作</text>
+		<text id="秘宝">秘宝</text>
+		<text id="龙纹铜尊">龙纹铜尊</text>
+		<text id="攻击"><![CDATA[攻    击]]></text>
+		<text id="气血上限"><![CDATA[气血上限]]></text>
+		<text id="内力上限"><![CDATA[内力上限]]></text>
+		<text id="装备强度"><![CDATA[装备强度]]></text>
+
+		<text id="+200"><![CDATA[<font color="#00ff1e">+ 200</font>]]></text>
+		<text id="+2000"><![CDATA[<font color="#fcdbb0">+2000</font>]]></text>
+		<text id="+1000"><![CDATA[<font color="#fcdbb0">+1000</font>]]></text>
+		<text id="+40"><![CDATA[<font color="#00ff1e">+  40</font>]]></text>
+
+		<text id="描述"><![CDATA[江湖评价达到<font color="#a9d5fa">初窥门径</font>,即可进行制作]]></text>
+	</texts>
+	
+	<controls>
+		<box id="view" width="246" height="400" center="0" middle="0">
+			<image bmp="tip底板.bmp" top="0" bottom="0" left="0" right="0" grid="15,15,15,15" />
+			<ref ref="CloseButton" name="关闭按钮"/>
+			<image bmp="canvas_tital" top="0" center="0" width="236" height="31"/>
+			<image name="icon" bmp="icon_item_B" top="49" center="0" width="143" height="143" />
+			<image bmp="canvas_item" top="48" center="0" width="145" height="145" grid="12,0,12,0"/>
+			<image bmp="canvas_attribute" top="214" center="0" width="219" height="95" />
+			
+			<label format="宋体白色12" width="34" height="18" top="6" left="52" text="秘宝"/>
+			<label format="宋体紫色14" width="90" height="18" top="6" left="90" text="龙纹铜尊"/>
+
+			<label format="宋体白色12" width="60" height="18" top="220" left="76" html="true" text="攻击"/>
+			<label format="宋体白色12" width="60" height="18" top="240" left="76" html="true" text="气血上限"/>
+			<label format="宋体白色12" width="60" height="18" top="260" left="76" html="true" text="内力上限"/>
+			<label format="宋体白色12" width="60" height="18" top="280" left="76" html="true" text="装备强度"/>
+
+			<label format="宋体白色12" width="60" height="18" top="220" left="136" html="true" text="+200"/>
+			<label format="宋体白色12" width="60" height="18" top="240" left="136" html="true" text="+2000"/>
+			<label format="宋体白色12" width="60" height="18" top="260" left="136" html="true" text="+1000"/>
+			<label format="宋体白色12" width="60" height="18" top="280" left="136" html="true" text="+40"/>
+
+			<label format="宋体白色12居中" width="220" height="16" bottom="62" center="0" html="true" text="描述"/>
+
+			<achieveEntity name="mibao" x="0" y="0" count="1" id="3095" mask="true"/>
+
+			<labelButton name="开启" width="83" height="34" center="0" bottom="16" label="制作" >
+				<state frame="1" back="红色按钮1.png" format="宋体默认色14居中"/>
+				<state frame="3" back="红色按钮2.png" format="宋体默认色14居中"/>
+			</labelButton>
+
+		</box>
+	</controls>
+	
+</xml>

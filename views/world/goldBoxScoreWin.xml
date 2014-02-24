@@ -1,0 +1,57 @@
+<xml>
+  <depends>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+    <depend src="/public/controls/window/HelpButton.xml"/>
+    <depend src="/public/controls/window/CloseButton.xml"/>
+    <depend src="/public/controls/window/WindowBack.xml"/>
+    <depend src="/public/controls/scroller/Scroller.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+    <depend src="/public/publicTexts.xml"/>
+    <depend src="/public/publicIcons.xml"/>
+    <depend src="/public/publicNumimage.xml"/>
+	<depend src="/public/publicBitmapTexts.xml"/>
+  </depends>
+  <bitmaps>
+    <bitmap id="胜利文字" src="imgs/胜利文字.png"/>
+    <bitmap id="失败文字" src="imgs/失败文字.png"/>
+    <bitmap id="恭喜文字" src="imgs/恭喜文字.png"/>
+  </bitmaps>
+  <texts>
+    <text id="亚瑟王宝箱">亚瑟王宝箱x1</text>
+  </texts>
+  <controls>
+    <confirm id="结算窗口" top="0" bottom="0" left="0" right="0">
+      <image bmp="knightFrame11" top="0" bottom="0" left="0" right="0"/>
+      <box name="box" width="335" height="280" center="0" middle="0">
+        <box name="成功" width="335" height="280">
+          <image bmp="胜利文字" width="324" height="54" center="0" top="0"/>
+          <image bmp="knightFrame2" grid="30,47,77,54" width="340" height="108" center="0" top="100"/>
+          <image bmp="knightFrame10" grid="46,42,46,42" width="320" height="88" center="0" top="110"/>
+          <image bmp="恭喜文字" center="0" top="92" width="187" height="28"/>
+          
+          <box name="goldBox" width="46" height="46" top="130" center="-80">
+            <image bmp="newBag2" center="0" top="0" width="46" height="46"/>
+            <image bmp="knightsGold_2" center="0" top="0" width="46" height="46"/>
+            <label name="gold" format="宋体黄色12" height="18" width="80" left="46" middle="0"/>
+          </box>
+          
+          <box name="item" width="46" height="46" top="130" center="30">
+            <image bmp="newBag2" center="0" top="0" width="46" height="46"/>
+            <achieveEntity id="1001010" center="0" middle="0"/>
+            <label format="宋体紫色12" text="亚瑟王宝箱" height="18" width="80" left="46" middle="0"/>
+          </box>
+        </box>
+        <box name="失败" width="335" height="280">
+          <image bmp="失败文字" width="428" height="85" center="0" top="0"/>
+        </box>
+        <labelButton name="button" width="159" height="55" center="0" bottom="0">
+			<state frame="1" back="战斗结算大号按钮01"/>
+	        <state frame="2" back="战斗结算大号按钮02"/>
+	        <state frame="3" back="战斗结算大号按钮03"/>
+        </labelButton>
+        <image name="离开按钮文字" bmp="战斗结算离开" center="0" middle="0" width="76" height="28"/>
+      </box>
+    </confirm>
+  </controls>
+</xml>

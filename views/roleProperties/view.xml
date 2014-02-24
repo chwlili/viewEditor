@@ -1,0 +1,116 @@
+<xml>
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/controls/scroller/Scroller.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicTexts.xml"/>
+	
+	</depends>
+	<bitmaps>
+		<bitmap id="蓝条" src="imgs/蓝条.png" />
+		<bitmap id="属性" src="imgs/属性.png" />
+		<bitmap id="属性文字" src="imgs/属性文字.png" />
+		<bitmap id="血条" src="imgs/血条.png" />
+		<bitmap id="战斗力底板" src="imgs/战斗力底板.jpg" />
+		<bitmap id="底框格段条" src="imgs/底框格段条.png" />
+		<bitmap id="数字底板" src="imgs/数字底板.png" />
+		<bitmap id="得分数字" src="imgs/得分数字.png" />
+		<bitmap id="数字02" src="imgs/数字02.png" />
+	</bitmaps>
+	<texts>
+		<text id="无">无</text>
+		<text id="faction01">剑士</text>
+		<text id="faction11">疾风剑士</text>
+		<text id="faction21">皇家剑士</text>
+		<text id="faction31">冰霜剑士</text>
+		<text id="faction03">战士</text>
+		<text id="faction13">狂战士</text>
+		<text id="faction23">皇家战士</text>
+		<text id="faction33">毁灭战神</text>
+		<text id="faction02">刺客</text>
+		<text id="faction12">暗影刺客</text>
+		<text id="faction22">梦魇刺客</text>
+		<text id="faction32">死亡使者</text>
+
+		<text id="tip1">影响普通攻击伤害</text>
+		<text id="tip2">减少受到普通攻击伤害</text>
+		<text id="tip3">影响技能攻击伤害</text>
+		<text id="tip4">减少受到技能攻击伤害</text>
+		<text id="tip5">影响暴击概率</text>
+		<text id="tip6">影响被暴击的概率</text>
+		<text id="tip7">影响对方格挡的概率</text>
+		<text id="tip8">影响伤害减免</text>
+		<text id="tip9">影响暴击时伤害值</text>
+		<text id="tip10">影响移动的速度</text>
+		<text id="未加入骑士团">未加入骑士团</text>
+	</texts>
+  <formats> 
+    <format id="绿字" font="宋体" size="12" align="left" color="0x00ff12" filter="黑色边框"/>  
+    <format id="红字" font="宋体" size="12" align="left" color="0xff0000" filter="黑色边框"/> 
+  </formats>
+	<controls>
+		<window id="main" width="276" height="490">
+			<ref ref="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+
+			<image bmp="knightFrame2" grid="30,47,29,49" left="10" top="140" width="253" height="58" />
+			<image bmp="knightFrame2" grid="30,47,29,49" left="10" top="203" width="253" height="270" />
+			<image bmp="战斗力底板" left="20" top="55" width="233" height="76" />
+			<image bmp="属性文字" left="18" top="140" width="234" height="333" />			
+			<image bmp="属性"  left="100" top="10" width="77" height="27" />
+			<image bmp="蓝条"  left="82" top="273" width="159" height="19" />
+			<image bmp="血条"  left="82" top="252" width="159" height="19" />
+			<image bmp="底框格段条" left="16" top="307" width="240" height="1" />
+
+			<image bmp="数字底板" grid="8,8,8,8" left="67" top="323" width="67" height="20" />
+			<image bmp="数字底板" grid="8,8,8,8" left="172" top="323" width="67" height="20" />
+			<image bmp="数字底板" grid="8,8,8,8" left="67" top="345" width="67" height="20" />
+			<image bmp="数字底板" grid="8,8,8,8" left="172" top="345" width="67" height="20" />
+			<image bmp="数字底板" grid="8,8,8,8" left="67" top="368" width="67" height="20" />
+			<image bmp="数字底板" grid="8,8,8,8" left="172" top="368" width="67" height="20" />
+			<image bmp="数字底板" grid="8,8,8,8" left="67" top="391" width="67" height="20" />
+			<image bmp="数字底板" grid="8,8,8,8" left="172" top="391" width="67" height="20" />
+			<image bmp="数字底板" grid="8,8,8,8" left="42" top="438" width="95" height="20" />
+			<image bmp="数字底板" grid="8,8,8,8" left="147" top="438" width="95" height="20" />
+
+			<label name="职业" height="20" width="111" top="149" left="40" format="宋体白色12居中" />
+			<label name="骑士团" height="20" width="105" top="149" left="170" format="宋体白色12" />
+			<label name="声望" height="20" width="105" top="169" left="77" format="宋体白色12" />
+			<label name="称号" height="20" width="105" top="169" left="157" format="宋体白色12" />
+			<label name="等级" height="20" width="60" top="228" left="77" format="宋体白色12" />
+			<label name="物攻" height="20" width="60" top="323" left="77" format="宋体白色12" />
+			<label name="物防" height="20" width="60" top="323" left="182" format="宋体白色12" />
+			<label name="魔攻" height="20" width="60" top="345" left="77" format="宋体白色12" />
+			<label name="魔防" height="20" width="60" top="345" left="182" format="宋体白色12" />
+			<label name="暴击" height="20" width="60" top="368" left="77" format="宋体白色12" />
+			<label name="韧性" height="20" width="60" top="368" left="182" format="宋体白色12" />
+			<label name="破击" height="20" width="60" top="391" left="77" format="宋体白色12" />
+			<label name="格挡" height="20" width="60" top="391" left="182" format="宋体白色12" />
+			<label name="暴击伤害" height="20" width="105" top="438" left="52" format="宋体白色12" />
+			<label name="移动速度" height="20" width="105" top="438" left="157" format="宋体白色12" />
+
+
+			<maskcontrol name="物攻tip" x="37" y="323" width="100" height="20" />
+			<maskcontrol name="物防tip" x="142" y="323" width="100" height="20" />
+			<maskcontrol name="魔攻tip" x="37" y="345" width="100" height="20" />
+			<maskcontrol name="魔防tip" x="142" y="345" width="100" height="20" />
+			<maskcontrol name="暴击tip" x="37" y="368" width="100" height="20" />
+			<maskcontrol name="韧性tip" x="142" y="368" width="100" height="20" />
+			<maskcontrol name="破击tip" x="37" y="391" width="100" height="20" />
+			<maskcontrol name="格挡tip" x="142" y="391" width="100" height="20" />
+			<maskcontrol name="暴击伤害tip" x="37" y="420" width="100" height="40" />
+			<maskcontrol name="移动速度tip" x="142" y="420" width="100" height="40" />
+
+
+		</window>
+
+
+
+
+	</controls>	
+
+</xml>

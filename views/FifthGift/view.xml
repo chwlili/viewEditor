@@ -1,0 +1,76 @@
+﻿<xml name="新人欢乐送">
+	<depends>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="登陆礼包标题文字" src="imgs/登陆礼包标题文字.png"/>
+		<bitmap id="签到浮动效果条" src="imgs/签到浮动效果条.png"/>
+		<bitmap id="签到普通条" src="imgs/签到普通条.png"/>
+		<bitmap id="第几天文字" src="imgs/第几天文字.png"/>
+		<bitmap id="框" src="imgs/框.png"/>
+		<bitmap id="已领取" src="imgs/已领取.png"/>
+		<bitmap id="框体花边上" src="imgs/框体花边上.png"/>
+		<bitmap id="框体花边下" src="imgs/框体花边下.png"/>
+		<bitmap id="边框花边右" src="imgs/边框花边右.png"/>
+		<bitmap id="边框花边左" src="imgs/边框花边左.png"/>
+		<bitmap id="右侧下面文字" src="imgs/右侧下面文字.png"/>
+		<bitmap id="翅膀背景图" src="imgs/翅膀背景图.png"/>
+		<bitmap id="dayNum" src="imgs/tips属性加成_黄.png"/>
+		<bitmap id="leftNum" src="imgs/tips属性加成_红.png"/>
+		<bitmap id="标题底板横条" src="imgs/标题底板横条.jpg"/>
+		<bitmap id="渣渣翅膀文字" src="imgs/梦幻之翼文字.png"/>
+		<bitmap id="紫色特效" src="imgs/紫色特效.png"/>
+		<bitmap id="金色特效" src="imgs/金色特效.png"/>
+	</bitmaps>
+	
+	<bitmapReaders>
+		<bitmapReader id="框" bmp="框"/>
+		<bitmapReader id="可领取背景" bmp="签到浮动效果条"/>
+		<bitmapReader id="普通背景" bmp="签到普通条"/>
+	</bitmapReaders>
+	
+	<texts>
+		<text id="领取">领取</text>
+	</texts>
+	
+	<controls>
+		<window id="main" width="890" height="560">
+			<box name="mainBox" width="560" height="560">
+				<ref ref="WindowBack"/>
+				<ref name="closeBtn" ref="CloseButton"/>
+				<image bmp="登陆礼包标题文字" width="105" height="31" top="12" center="0"/>
+			</box>
+			
+			<box name="showBox" width="335" height="365" left="560" bottom="0">
+				<image bmp="knightFrame10" width="335" height="365" grid="46,42,46,42"/>
+				<image bmp="标题底板横条" width="335" height="30" center="0" top="10"/>
+				<image bmp="渣渣翅膀文字" width="105" height="31" center="0" top="10"/>
+				<image bmp="翅膀背景图" width="315" height="251" center="0" middle="0"/>
+				<image bmp="框体花边上" width="330" height="41" center="0" top="0"/>
+				<image bmp="框体花边下" width="330" height="41" center="0" bottom="0"/>
+				<image bmp="边框花边右" width="13" height="39" left="2" middle="0"/>
+				<image bmp="边框花边左" width="13" height="39" right="2" middle="0"/>
+				<image bmp="右侧下面文字" width="229" height="24" center="0" bottom="10"/>
+			</box>
+		</window>
+		
+		<box id="itemBox" width="541" height="54">
+			<box name="mainBox" width="541" height="54">
+				<image name="bg" width="541" height="54"/>
+				<image bmp="第几天文字" width="75" height="24" left="20" middle="0"/>
+			</box>
+			
+			<labelButton name="rewardBtn" right="20" middle="0" width="56" height="22" label="领取">
+				<state frame="1" back="small_btn_1_1" format="ffbe57_12_居中" />
+				<state frame="2" back="small_btn_1_2" format="ffbe57_12_居中" />
+				<state frame="3" back="small_btn_1_3" format="ffbe57_12_居中" />
+			</labelButton>
+			<image name="rewardedIcon" bmp="已领取" width="70" height="45" right="20" middle="0"/>
+		</box>
+	</controls>
+</xml>

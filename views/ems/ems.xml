@@ -1,0 +1,61 @@
+<xml preload="0">
+	<depends>
+		<depend src="../public/publicFrames.xml"/>
+		<depend src="../public/publicFormats.xml"/>
+		<depend src="../public/publicButtons.xml"/>
+	</depends>
+	<swfs>
+		<swf id="emote" src="swfs/ems.swf" size="200759"/>
+		<swf id="titles" src="swfs/titles.swf" size="200759"/>
+	</swfs>
+	
+	<texts>
+		<text id="选择道具">选择道具</text>
+		<text id="确定">确定</text>
+		<text id="取消">取消</text>
+	</texts>
+
+	<controls>
+		<view id="view" emsnum="71" widthnum="11" x="260" y="570" >
+			<box id="表情列表.box" x="200" y="400" visible="false">
+				<image bmp="表情框背景" grid="5,5,5,5" left="0" right="0" top="0" bottom="0"/>
+				<swf name="ems" bmp="emote" width="30" height="30" x="10" y="10"/>
+			</box>
+		</view>
+
+		<box id="forbidWin" middle="0" center="0" width="174" height="145">
+			
+			<image bmp="1级底板2层.bmp" left="0" right="0" top="0" bottom="0" grid="50,50,50,50" />
+			
+			<label center="0" width="60" top="20" height="20" text="选择道具" format="宋体白色12居中"/>
+			
+			<box name="普通禁言容器" left="30" y="40" width="47" height="47">
+				<bitmap name="图标字段" x="5" y="5" width="45" height="45"/>
+				<label name="数量字段" left="5" bottom="5" width="37" height="15" format="宋体白色12"/>
+				<checkBox name="选择按钮" right="0" bottom="0" width="16" height="16">
+					<state frame="1" back="勾选按钮1"/>
+					<state frame="5" back="勾选按钮2"/>
+				</checkBox>
+			</box>
+			
+			<box name="永久禁言容器" right="30" y="40" width="47" height="47">
+				<bitmap name="图标字段" x="5" y="5" width="45" height="45"/>
+				<label name="数量字段" left="5" bottom="5" width="37" height="15" format="宋体白色12"/>
+				<checkBox name="选择按钮" right="0" bottom="0" width="16" height="16">
+					<state frame="1" back="勾选按钮1"/>
+					<state frame="5" back="勾选按钮2"/>
+				</checkBox>
+			</box>
+			
+			<labelButton name="确定" left="20" top="100" width="56" height="23" label="确定">
+				<state frame="1" back="方角普通按钮1" backGrid="30,9,30,9" format="宋体白色12"/>
+				<state frame="3" back="方角普通按钮2" backGrid="30,9,30,9" format="宋体白色12"/>
+			</labelButton>
+			
+			<labelButton name="取消" right="20" top="100" width="56" height="23" label="取消">
+				<state frame="1" back="方角普通按钮1" backGrid="30,9,30,9" format="宋体白色12"/>
+				<state frame="3" back="方角普通按钮2" backGrid="30,9,30,9" format="宋体白色12"/>
+			</labelButton>
+		</box>
+	</controls>
+</xml>

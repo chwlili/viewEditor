@@ -1,0 +1,39 @@
+<xml desc="yellow vip">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="礼包01图" src="imgs/礼包01图.jpg" />
+		<bitmap id="礼包02图" src="imgs/礼包02图.jpg" />
+		<bitmap id="礼包03图" src="imgs/礼包03图.jpg" />
+		<bitmap id="礼包04图" src="imgs/礼包04图.jpg" />
+		<bitmap id="下方渐变条" src="imgs/下方渐变条(特权与升级礼包用).png" />
+		<bitmap id="前去领取" src="imgs/前去领取.png" />
+	</bitmaps>
+	<texts>
+		
+	</texts>
+	
+	<formats>
+
+	</formats>
+	
+	<controls>
+		<box id="cell0"  width="605" height="316">			
+			<image bmp="下方渐变条" center="0" bottom="0" width="606" height="47" />
+			
+		</box>
+		
+		<box id="rewardCell" left="6" top="6" width="146" height="260" >
+			<image name="rewardImg" left="0" top="0" width="146" height="260" />
+			<button name="领取礼包" center="0" bottom="4" width="104" height="42">
+				<state frame="1" back="大号按钮四字01" />
+				<state frame="2" back="大号按钮四字02" />
+				<state frame="3" back="大号按钮四字03" />
+			</button>
+			<image bmp="前去领取" center="0" bottom="16" width="76" height="21" enabled="false" />
+		</box>
+	</controls>
+</xml>

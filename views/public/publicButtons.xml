@@ -1,0 +1,259 @@
+﻿<xml>
+	<bitmaps>
+		<bitmap id="标准关闭按钮1.png" src="imgs/buttons/closeButton_1.png" size="5872"/>
+		<bitmap id="标准关闭按钮2.png" src="imgs/buttons/closeButton_2.png" size="5421"/>
+		<bitmap id="标准帮助按钮.png" src="imgs/buttons/helpButton.png" size="5080"/>
+		
+		<bitmap id="标准标签背景" src="imgs/buttons/WindowToggleButton2.png" size="12744"/>
+		<bitmap id="标准标签背景1" src="imgs/buttons/WindowToggleButton1.png" size="12744"/>
+		<bitmap id="绿色按钮1.png" src="imgs/buttons/Button11_1.png" size="516"/>
+		<bitmap id="绿色按钮2.png" src="imgs/buttons/Button11_2.png" size="151"/>
+		
+		<bitmap id="红色按钮1.png" src="imgs/buttons/redbutton1.png" size="516"/>
+		<bitmap id="红色按钮2.png" src="imgs/buttons/redbutton2.png" size="151"/>
+		
+		<bitmap id="紫色按钮1.png" src="imgs/buttons/button_purple.png" size="516"/>
+		<bitmap id="紫色按钮2.png" src="imgs/buttons/button_purple_fouce.png" size="151"/>
+		
+		<bitmap id="商城购买1.png" src="imgs/buttons/buy1.png" size="151"/>
+		<bitmap id="商城购买2.png" src="imgs/buttons/buy2.png" size="151"/>
+
+		<bitmap id="活动查看1.png" src="imgs/buttons/promotionBtn_1.png" size="6427"/>
+		<bitmap id="活动查看2.png" src="imgs/buttons/promotionBtn_2.png" size="6049"/>
+		
+		<bitmap id="开通黄钻.png" src="imgs/buttons/1.png" size="8258" />
+		<bitmap id="开通年费黄钻.png" src="imgs/buttons/2.png" size="9451" />
+		<bitmap id="立即领取.png" src="imgs/buttons/3.png" size="8371" />
+		<bitmap id="续费黄钻.png" src="imgs/buttons/4.png" size="8299" />
+		<bitmap id="续费年费黄钻.png" src="imgs/buttons/5.png" size="9001" />
+		<bitmap id="我知道了.png" src="imgs/buttons/9.png" size="7600" />
+		<bitmap id="圆形关闭按钮1.png" src="imgs/buttons/6.png" size="4772"/>
+		<bitmap id="圆形关闭按钮2.png" src="imgs/buttons/7.png" size="5253"/>
+		<bitmap id="圆形关闭按钮3.png" src="imgs/buttons/8.png" size="5239"/>
+		
+		<bitmap id="竞技退出按钮" src="imgs/buttons/NormalButton.png" size="367"/>
+		
+		<bitmap id="竞技商店" src="imgs/buttons/Button14_1.png" size="655"/>
+		
+		<bitmap id="普通按钮1" src="imgs/buttons/button_1.png" size="655"/>
+		<bitmap id="普通按钮2" src="imgs/buttons/button_2.png" size="655"/>
+		
+		<bitmap id="方角普通按钮1" src="imgs/buttons/newButton1_1.png" size="655"/>
+		<bitmap id="方角普通按钮2" src="imgs/buttons/newButton1_2.png" size="655"/>
+		
+		<bitmap id="newButton3_1" src="imgs/buttons/newButton3_1.png"/>
+		<bitmap id="newButton3_2" src="imgs/buttons/newButton3_2.png"/>
+
+		<bitmap id="greenBtn_1" src="imgs/buttons/greenBtn_1.png"/>
+		<bitmap id="greenBtn_2" src="imgs/buttons/greenBtn_2.png"/>
+		<bitmap id="redBtn_1" src="imgs/buttons/redBtn_1.png"/>
+		<bitmap id="redBtn_2" src="imgs/buttons/redBtn_2.png"/>
+		
+		
+		<bitmap id="勾选按钮1" src="imgs/buttons/SelectedButton1_1.png" />
+		<bitmap id="勾选按钮2" src="imgs/buttons/SelectedButton1_2.png" />
+		
+		<bitmap id="邀请好友按钮1" src="imgs/buttons/invite1.png" />
+		<bitmap id="邀请好友按钮2" src="imgs/buttons/invite2.png" />
+		
+		<bitmap id="加号按钮" src="imgs/buttons/增加按钮.png" />
+		
+		<bitmap id="立即购买1" src="imgs/buttons/pay1.png"/>
+		<bitmap id="立即购买2" src="imgs/buttons/pay2.png"/>
+
+		<bitmap id="立即购买3" src="imgs/buttons/pay5.png"/>
+		<bitmap id="立即购买4" src="imgs/buttons/pay6.png"/>
+
+		<bitmap id="充值1" src="imgs/buttons/pay3.png"/>
+		<bitmap id="充值2" src="imgs/buttons/pay4.png"/>
+
+		<bitmap id="buttonBack" src="imgs/buttons/buttonBack.png" />
+
+		<bitmap id="快捷离开按钮1" src="imgs/buttons/快捷离开副本按钮01a.png"/>
+		<bitmap id="快捷离开按钮2" src="imgs/buttons/快捷离开副本按钮02a.png" />
+		
+		<bitmap id="左箭头1" src="imgs/buttons/la1.png"/><!--2220-->
+		<bitmap id="右箭头1" src="imgs/buttons/ra1.png"/><!--2220-->
+		
+		
+		<bitmap id="button15_1" src="imgs/buttons/button15_1.png"/><!--107 30-->
+		<bitmap id="button15_2" src="imgs/buttons/button15_2.png"/><!--107 30-->
+		
+		<bitmap id="button16_1" src="imgs/buttons/button16_1.png"/><!--147 30-->
+		<bitmap id="button16_2" src="imgs/buttons/button16_2.png"/><!--147 30-->
+		
+		<bitmap id="WindowToggleButton3" src="imgs/buttons/WindowToggleButton3.png" /><!--99 26-->
+		<bitmap id="WindowToggleButton4" src="imgs/buttons/WindowToggleButton4.png" /><!--99 26-->
+
+
+
+		<!--   new    -->
+		<bitmap id="knightBtn1_1" src="imgs/buttons/knightBtn1_1.png"/><!--80 24-->
+		<bitmap id="knightBtn1_2" src="imgs/buttons/knightBtn1_2.png"/><!--80 24-->
+
+		<!--111 39-->
+		<bitmap id="knightLabelBtn1_1" src="imgs/buttons/升级按钮01.png"/>
+		<bitmap id="knightLabelBtn1_2" src="imgs/buttons/升级按钮02.png"/>
+		<bitmap id="knightLabelBtn1_3" src="imgs/buttons/升级按钮03.png"/>
+
+		<!--8228(1号按钮)-->
+		<bitmap id="knightLabelBtn2_1" src="imgs/buttons/knightBtn2_1.png"/>
+		<bitmap id="knightLabelBtn2_2" src="imgs/buttons/knightBtn2_2.png"/>
+		<bitmap id="knightLabelBtn2_3" src="imgs/buttons/knightBtn2_3.png"/>
+		
+		<!--9846   30,0,30,0-->
+		<bitmap id="knightLabelBtn3_1" src="imgs/buttons/knightBtn3_1.png"/>
+		<bitmap id="knightLabelBtn3_2" src="imgs/buttons/knightBtn3_2.png"/>
+		<bitmap id="knightLabelBtn3_3" src="imgs/buttons/knightBtn3_3.png"/>
+		
+		<bitmap id="knightCloseBtn1_1" src="imgs/buttons/knightCloseBtn1_1.png"/>
+		<bitmap id="knightCloseBtn1_2" src="imgs/buttons/knightCloseBtn1_2.png"/>
+		<bitmap id="knightCloseBtn1_3" src="imgs/buttons/knightCloseBtn1_3.png"/>
+
+		<!--2222-->
+		<bitmap id="SelectedButton2_1" src="imgs/buttons/SelectedButton2_1.png"/>
+		<bitmap id="SelectedButton2_2" src="imgs/buttons/SelectedButton2_2.png"/>
+		
+		<!--勾选按钮3(23*25)-->
+		<bitmap id="SelectedButton3_1" src="imgs/buttons/SelectedButton3_1.png"/>
+		<bitmap id="SelectedButton3_2" src="imgs/buttons/SelectedButton3_2.png"/>
+		
+		<!--159 65-->
+		<bitmap id="knightLabelBtn4_1" src="imgs/buttons/knightBtn4_1.png"/>
+		<bitmap id="knightLabelBtn4_2" src="imgs/buttons/knightBtn4_2.png"/>
+		
+		<!--通用按钮文件夹左右按钮 朝左-->
+		<bitmap id="leftBtn01" src="imgs/buttons/左01.png"/>
+		<bitmap id="leftBtn02" src="imgs/buttons/左02.png"/>
+		<bitmap id="leftBtn03" src="imgs/buttons/左03.png"/>
+		
+		<!--通用按钮文件夹左右按钮 朝右-->
+		<bitmap id="rightBtn01" src="imgs/buttons/右01.png"/>
+		<bitmap id="rightBtn02" src="imgs/buttons/右02.png"/>
+		<bitmap id="rightBtn03" src="imgs/buttons/右03.png"/>
+		
+		<bitmap id="深绿色圆角Btn01" src="imgs/buttons/button17_1.png"/>
+		<bitmap id="深绿色圆角Btn02" src="imgs/buttons/button17_2.png"/>
+		<bitmap id="深绿色圆角Btn03" src="imgs/buttons/button17_3.png"/>
+		
+		<!--通用清除CD按钮-->
+		<bitmap id="clearBtn" src="imgs/buttons/清cd图标.png"/>
+		<!--通用按钮小 -->
+		<bitmap id="small_btn_1_1" src="imgs/buttons/small_btn_1_1.png"/>
+		<bitmap id="small_btn_1_2" src="imgs/buttons/small_btn_1_2.png"/>
+		<bitmap id="small_btn_1_3" src="imgs/buttons/small_btn_1_3.png"/>
+		
+		<!--大号按钮活动用 -->
+		<bitmap id="大号按钮活动用01" src="imgs/buttons/大号按钮活动用01.png"/>
+		<bitmap id="大号按钮活动用02" src="imgs/buttons/大号按钮活动用02.png"/>
+		<bitmap id="大号按钮活动用03" src="imgs/buttons/大号按钮活动用03.png"/>
+		
+		<!--大号按钮 骑士团冒险 -->
+		<bitmap id="大号按钮两字01" src="imgs/buttons/大号按钮两字01.png"/>
+		<bitmap id="大号按钮两字02" src="imgs/buttons/大号按钮两字02.png"/>
+		<bitmap id="大号按钮两字03" src="imgs/buttons/大号按钮两字03.png"/>
+		
+		<!-- 大号按钮 四字 -->
+		<bitmap id="大号按钮四字01" src="imgs/buttons/大号按钮四字01.png"/>
+		<bitmap id="大号按钮四字02" src="imgs/buttons/大号按钮四字02.png"/>
+		<bitmap id="大号按钮四字03" src="imgs/buttons/大号按钮四字03.png"/>
+		
+		<!-- 大号按钮 五字 -->
+		<bitmap id="大号按钮五字01" src="imgs/buttons/大号按钮(五字)01.png"/>
+		<bitmap id="大号按钮五字02" src="imgs/buttons/大号按钮(五字)02.png"/>
+		<bitmap id="大号按钮五字03" src="imgs/buttons/大号按钮(五字)03.png"/>
+		
+		<!--大号按钮特殊 世界boss 死亡复活 -->
+		<bitmap id="大号按钮特殊01" src="imgs/buttons/大号按钮特殊01.png"/>
+		<bitmap id="大号按钮特殊02" src="imgs/buttons/大号按钮特殊02.png"/>
+		<bitmap id="大号按钮特殊03" src="imgs/buttons/大号按钮特殊03.png"/>
+		
+		<!--大号按钮特殊 世界boss 死亡复活 -->
+		<bitmap id="大号按钮特殊11" src="imgs/buttons/大号按钮特殊11.png"/>
+		<bitmap id="大号按钮特殊12" src="imgs/buttons/大号按钮特殊12.png"/>
+		<bitmap id="大号按钮特殊13" src="imgs/buttons/大号按钮特殊13.png"/>
+		
+		<!--离开按钮1VS1_01 世界boss 结算 -->
+		<bitmap id="离开按钮1VS1_01" src="imgs/buttons/离开按钮1VS1_01.png"/>
+		<bitmap id="离开按钮1VS1_02" src="imgs/buttons/离开按钮1VS1_02.png"/>
+		<bitmap id="离开按钮1VS1_03" src="imgs/buttons/离开按钮1VS1_03.png"/>
+	
+		<!--大地图 全屏窗口上的 关闭按钮   80 38-->
+		<bitmap id="关闭按钮001" src="imgs/buttons/关闭按钮001.png"/>
+		<bitmap id="关闭按钮002" src="imgs/buttons/关闭按钮002.png"/>
+		<bitmap id="关闭按钮003" src="imgs/buttons/关闭按钮003.png"/>
+		
+		<!--战斗结算大号按钮-->
+		<bitmap id="战斗结算大号按钮01" src="imgs/buttons/战斗结算按钮1.png"/>
+		<bitmap id="战斗结算大号按钮02" src="imgs/buttons/战斗结算按钮2.png"/>
+		<bitmap id="战斗结算大号按钮03" src="imgs/buttons/战斗结算按钮3.png"/>
+		
+		<!--1号按钮英雄副本-->
+		<bitmap id="1号按钮英雄副本01" src="imgs/buttons/1号按钮英雄副本01.png"/>
+		<bitmap id="1号按钮英雄副本02" src="imgs/buttons/1号按钮英雄副本02.png"/>
+		<bitmap id="1号按钮英雄副本03" src="imgs/buttons/1号按钮英雄副本03.png"/>
+		
+		<!--小按钮四字-->
+		<bitmap id="小按钮四字01" src="imgs/buttons/小按钮（四字）01.png"/>
+		<bitmap id="小按钮四字02" src="imgs/buttons/小按钮（四字）02.png"/>
+		<bitmap id="小按钮四字03" src="imgs/buttons/小按钮（四字）03.png"/>
+		
+		<!--小红按钮四字-->
+		<bitmap id="小红按钮四字01" src="imgs/buttons/小红按钮（四字）01.png"/>
+		<bitmap id="小红按钮四字02" src="imgs/buttons/小红按钮（四字）02.png"/>
+		<bitmap id="小红按钮四字03" src="imgs/buttons/小红按钮（四字）03.png"/>
+
+		<!--128 39-->
+		<bitmap id="2号按钮01" src="imgs/buttons/2号按钮01.png"/>
+		<bitmap id="2号按钮02" src="imgs/buttons/2号按钮02.png"/>
+		<bitmap id="2号按钮03" src="imgs/buttons/2号按钮03.png"/>	
+		
+		<!--钻石附魔按钮01   85 x 33-->
+		<bitmap id="钻石附魔按钮01" src="imgs/buttons/钻石附魔按钮01.png"/>
+		<bitmap id="钻石附魔按钮02" src="imgs/buttons/钻石附魔按钮02.png"/>
+		<bitmap id="钻石附魔按钮03" src="imgs/buttons/钻石附魔按钮03.png"/>
+		
+		
+		<!-- 统一使用的按钮 -->
+		<!--付费类按钮01   84 x 28-->
+		<bitmap id="付费类按钮01" src="imgs/buttons/付费类按钮1.png"/>
+		<bitmap id="付费类按钮02" src="imgs/buttons/付费类按钮2.png"/>
+		<bitmap id="付费类按钮03" src="imgs/buttons/付费类按钮3.png"/>
+		
+		<!--普通功能按钮1   82 x 28-->
+		<bitmap id="普通功能按钮1" src="imgs/buttons/普通功能按钮1.png"/>
+		<bitmap id="普通功能按钮2" src="imgs/buttons/普通功能按钮2.png"/>
+		<bitmap id="普通功能按钮3" src="imgs/buttons/普通功能按钮3.png"/>
+		
+		<!--普通功能-大1   101 x 39-->
+		<bitmap id="普通功能-大1" src="imgs/buttons/普通功能-大1.png"/>
+		<bitmap id="普通功能-大2" src="imgs/buttons/普通功能-大2.png"/>
+		<bitmap id="普通功能-大3" src="imgs/buttons/普通功能-大3.png"/>
+		
+		<!--小按钮01   56 x 22-->
+		<bitmap id="小按钮01" src="imgs/buttons/小按钮01.png"/>
+		<bitmap id="小按钮02" src="imgs/buttons/小按钮02.png"/>
+		<bitmap id="小按钮03" src="imgs/buttons/小按钮03.png"/>
+		
+		<!--战斗结算按钮   159 x 55-->
+		<bitmap id="战斗结算按钮1" src="imgs/buttons/战斗结算按钮1.png"/>
+		<bitmap id="战斗结算按钮2" src="imgs/buttons/战斗结算按钮2.png"/>
+		<bitmap id="战斗结算按钮3" src="imgs/buttons/战斗结算按钮3.png"/>
+
+		<!--勋章商店   131 44 -->
+		<bitmap id="勋章商店按钮01" src="imgs/buttons/勋章商店按钮01.png"/>
+		<bitmap id="勋章商店按钮02" src="imgs/buttons/勋章商店按钮02.png"/>
+		<bitmap id="勋章商店按钮03" src="imgs/buttons/勋章商店按钮03.png"/>
+		
+		<!--翻页按钮右大   24 22 -->
+		<bitmap id="翻页按钮右大01" src="imgs/buttons/翻页右-01.png"/>
+		<bitmap id="翻页按钮右大02" src="imgs/buttons/翻页右-02.png"/>
+		<bitmap id="翻页按钮右大03" src="imgs/buttons/翻页右-03.png"/>
+		<!--翻页按钮左大   24 22 -->
+		<bitmap id="翻页按钮左大01" src="imgs/buttons/翻页左-01.png"/>
+		<bitmap id="翻页按钮左大02" src="imgs/buttons/翻页左-02.png"/>
+		<bitmap id="翻页按钮左大03" src="imgs/buttons/翻页左-03.png"/>
+	</bitmaps>
+
+	
+</xml>

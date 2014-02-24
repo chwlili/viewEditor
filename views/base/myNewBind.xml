@@ -1,0 +1,91 @@
+﻿<xml>
+	<depends>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicFilters.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="底板图" src="imgs/底板图.jpg" />
+		<bitmap id="logo" src="imgs/logo.png"/>
+		<bitmap id="火焰" src="imgs/火焰.png"/>
+
+		<bitmap id="defRole" src="imgs/def.png" />
+
+		<bitmap id="role11" src="imgs/role11.png" />
+		<bitmap id="role12" src="imgs/role12.png" />
+
+		<bitmap id="role21" src="imgs/role21.png" />
+		<bitmap id="role22" src="imgs/role22.png" />
+
+		<bitmap id="role31" src="imgs/role31.png" />
+		<bitmap id="role32" src="imgs/role32.png" />
+
+		<bitmap id="faction1" src="imgs/faction1.png" />
+		<bitmap id="faction2" src="imgs/faction2.png" />
+		<bitmap id="faction3" src="imgs/faction3.png" />
+
+		<bitmap id="btn1" src="imgs/开始游戏按钮01.png" />
+		<bitmap id="btn2" src="imgs/开始游戏按钮02.png" />
+		<bitmap id="btn3" src="imgs/开始游戏按钮03.png" />
+
+		<bitmap id="角色1待机" src="imgs/角色1待机.png" />
+		<bitmap id="角色2待机" src="imgs/角色2待机.png" />
+		<bitmap id="角色3待机" src="imgs/角色3待机.png" />
+
+		<bitmap id="特点1" src="imgs/特点1.png" />
+		<bitmap id="特点2" src="imgs/特点2.png" />
+		<bitmap id="特点3" src="imgs/特点3.png" />
+	</bitmaps>
+
+	<bitmapReaders>
+		<bitmapReader id="特点1" bmp="特点1" />
+		<bitmapReader id="特点2" bmp="特点2" />
+		<bitmapReader id="特点3" bmp="特点3" />
+	</bitmapReaders>
+	
+	<controls>
+		<box id="注册面板.box" width="1440" height="600" center="0" middle="0" >	
+			<image name="back" bmp="底板图" width="1400" height="462" center="0" middle="0" />
+			<image name="logo" bmp="logo" width="458" height="179" center="0" top="-60" alpha="0" />
+			<image name="火焰" bmp="火焰" width="216" height="299" center="0" top="60" />
+			<image name="特点" width="184" height="24" center="0" bottom="115" />
+
+			<button name="enter" width="220" height="69" center="0" bottom="18" alpha="0">
+ 				<state frame="1" back="btn1"/>
+ 				<state frame="2" back="btn2"/>
+				<state frame="3" back="btn3"/>
+ 			</button>
+			<box name="roleBox" width="1440" height="600" center="0" middle="0" />
+		</box>
+
+		<box id="role1" width="170" height="358">
+			<box name="picBox" width="170" height="358" top="0">
+				<image name="pic1" bmp="role11" width="170" height="358" center="0" middle="0"/>
+				<image name="pic2" bmp="role12" width="170" height="358"/>
+				<image name="faction" bmp="faction1" width="42" height="161" top="16"/>
+			</box>
+			<maskcontrol name="mask" x="38" y="12" width="97" height="314" buttonMode="true" />
+		</box>
+		<box id="role2" width="170" height="358">
+			<box name="picBox" width="170" height="358" top="0">
+				<image name="pic1" bmp="role21" width="170" height="358" center="0" middle="0"/>
+				<image name="pic2" bmp="role22" width="170" height="358"/>
+				<image name="faction" bmp="faction2" width="42" height="161" top="16"/>
+			</box>
+			<maskcontrol name="mask" x="38" y="12" width="97" height="314" buttonMode="true" />
+		</box>
+		<box id="role3" width="170" height="358">
+			<box name="picBox" width="170" height="358" top="0">
+				<image name="pic1" bmp="role31" width="170" height="358" center="0" middle="0"/>
+				<image name="pic2" bmp="role32" width="170" height="358"/>
+				<image name="faction" bmp="faction3" width="42" height="161" top="16"/>
+			</box>
+			<maskcontrol name="mask" x="38" y="12" width="97" height="314" buttonMode="true" />
+		</box>
+		<box id="def" width="170" height="358">
+			<maskcontrol name="mask" x="38" y="12" width="97" height="314" />
+			<image name="pic1" bmp="defRole" width="170" height="358" center="0" middle="0"/>
+		</box>
+	</controls>
+	
+</xml>

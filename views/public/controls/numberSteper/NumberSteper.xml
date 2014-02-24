@@ -1,0 +1,23 @@
+<xml>
+	<depends>
+		<depend src="/public/publicFilters.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="numstepers背景.bmp" src="NumberSteperBack1.png"/>
+		<bitmap id="numstepers下箭头1.bmp" src="NumberSteperDown1_1.png" />
+		<bitmap id="numstepers下箭头2.bmp" src="NumberSteperDown1_2.png" />
+		<bitmap id="numstepers上箭头1.bmp" src="NumberSteperUp1_1.png" />
+		<bitmap id="numstepers上箭头2.bmp" src="NumberSteperUp1_2.png" />
+	</bitmaps>
+	
+	<controls>
+		<numbersteper id="NumberSteper" format="宋体白色12" width="70" height="30">
+			<skin frame="1" back="numstepers背景.bmp" grid="6,6,6,6" /> 
+			<skin frame="2" defaultback="numstepers上箭头1.bmp" clickback="numstepers上箭头2.bmp" width="20" height="12"/>
+			<skin frame="3" defaultback="numstepers下箭头1.bmp" clickback="numstepers下箭头2.bmp" width="20" height="12"/> 
+		</numbersteper>
+	</controls>
+	
+</xml>

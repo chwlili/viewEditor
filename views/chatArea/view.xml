@@ -1,0 +1,86 @@
+﻿<xml preload="0">
+	<depends>
+		<depend src="/public/controls/scrollbar/Scrollbar.xml"/>
+	</depends>
+	<swfs>
+		<swf id="chatArea" src="../swfs/chatArea.swf"/>
+	</swfs>
+	<texts>
+		<text id="全部">全部</text>
+		<text id="世界">世界</text>
+		<text id="军团">军团</text>
+		<text id="组队">组队</text>
+		<text id="私聊">私聊</text>
+		<text id="发送">发送</text>
+	</texts>
+	<bitmaps>
+		<bitmap id="scrollbar背景1.bmp" src="imgs/1.png"/>
+		<bitmap id="scrollbar滑块1.bmp" src="imgs/21.png"/>
+		<bitmap id="scrollbar滑块2.bmp" src="imgs/22.png"/>
+		<bitmap id="scrollbar滑块3.bmp" src="imgs/23.png"/>
+		<bitmap id="scrollbar上箭头1.bmp" src="imgs/31.png"/>		
+		<bitmap id="scrollbar上箭头2.bmp" src="imgs/32.png"/>		
+		<bitmap id="scrollbar上箭头3.bmp" src="imgs/33.png"/>	
+		<bitmap id="scrollbar下箭头1.bmp" src="imgs/41.png"/>		
+		<bitmap id="scrollbar下箭头2.bmp" src="imgs/42.png"/>		
+		<bitmap id="scrollbar下箭头3.bmp" src="imgs/43.png"/>	
+
+		<bitmap id="1" src="imgs/1.png" />
+		<bitmap id="21" src="imgs/21.png" />
+		<bitmap id="22" src="imgs/22.png" />
+		<bitmap id="23" src="imgs/23.png" />
+		<bitmap id="31" src="imgs/31.png" />
+		<bitmap id="32" src="imgs/32.png" />
+		<bitmap id="33" src="imgs/33.png" />
+		<bitmap id="41" src="imgs/41.png" />
+		<bitmap id="42" src="imgs/42.png" />
+		<bitmap id="43" src="imgs/43.png" />
+	</bitmaps>
+
+ 	<controls>
+		<ref id="scroller" ref="Scroller" width="280" height="420" x="70" y="58"/>
+ 		<scrollBar id="Scroller" width="200" height="300" barWidth="18" >
+			<skin frame="1" back="1" grid="2,2,2,2" /> 
+			<skin frame="21" back="21" grid="0,23,0,23" /> 
+			<skin frame="22" back="22" grid="0,23,0,23" /> 
+			<skin frame="23" back="23" grid="0,23,0,23" /> 
+			<skin frame="31" back="31" height="18" /> 
+			<skin frame="32" back="32" height="18" /> 
+			<skin frame="33" back="33" height="18" /> 
+			<skin frame="41" back="41" height="18" /> 
+			<skin frame="42" back="42" height="18" /> 
+			<skin frame="43" back="43" height="18" /> 
+		</scrollBar>
+
+ 		<box id="main" x="0" y="0" width="251" >
+
+	 		<button id="滑块" width="18" height="48" x="0" y="0">
+				<state frame="1" back="scrollbar滑块1" />
+				<state frame="2" back="scrollbar滑块2" />
+				<state frame="3" back="scrollbar滑块3" />
+			</button>
+
+			 <button id="上箭头" width="26" height="26" x="0" y="0">
+				<state frame="1" back="scrollbar上箭头1" />
+				<state frame="2" back="scrollbar上箭头2" />
+				<state frame="3" back="scrollbar上箭头3" />
+			</button>
+
+			 <button id="下箭头" width="26" height="26"  x="0" y="0">
+				<state frame="1" back="scrollbar下箭头1" />
+				<state frame="2" back="scrollbar下箭头1" />
+				<state frame="3" back="scrollbar下箭头1" />
+			</button>
+
+			<button id="滑道" width="26" height="26"  x="0" y="0">
+				<state frame="1" back="scrollbar背景1" />
+				<state frame="2" back="scrollbar背景1" />
+				<state frame="3" back="scrollbar背景1" />
+			</button>
+
+ 		</box>
+
+
+
+	</controls>
+</xml>

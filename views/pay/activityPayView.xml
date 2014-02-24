@@ -1,0 +1,86 @@
+<xml name="充值活动">
+	<depends>
+		<depend src="/public/publicButtons.xml" />
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="bg" src="imgs/外框.png" />
+		<bitmap id="content" src="imgs/中间区域0.jpg" />
+		<bitmap id="closeBtn_1" src="imgs/开关01.png" />
+		<bitmap id="closeBtn_2" src="imgs/开关02.png" />
+		<bitmap id="closeBtn_3" src="imgs/开关03.png" />
+		<bitmap id="btnTitle" src="imgs/购买.png" />
+		<bitmap id="开通黄钻" src="imgs/开通黄钻.png" />
+		<bitmap id="紫色光圈" src="imgs/紫色光圈.png" />
+		<bitmap id="金色光圈" src="imgs/金色光圈.png" />
+	</bitmaps>
+	
+	<texts>
+		<text id="activityPay_0">4</text>
+		<text id="activityPay_1">1</text>
+		<text id="activityPay_2">2</text>
+		<text id="activityPay_3">3</text>
+		<text id="活动描述">期间内充值即可获赠超值海量奖励</text>
+	</texts>
+	
+	<controls>
+		<window id="main" width="911" height="528">
+			<image bmp="bg" width="911" height="528" />
+			<image bmp="content" width="820" height="391" left="87" top="134" />
+			
+			<label name="desc" width="418" height="20" left="300" top="180" format="ffbe57_12_居中"/>
+			
+			<achieveEntity name="gift_1_0" x="555" y="300" id="100142" count="1" />
+			<maskcontrol name="mask_1_0" width="40" height="40" x="555" y="300" />
+			<filmAnimEffect name="effect_1_0" bmp="紫色光圈" x="547" y="292" row="2" col="11" frameDelay="100" loop="0" tCount="21"/>
+			<achieveEntity name="gift_1_1" x="615" y="300" id="10559" count="5" />
+			<maskcontrol name="mask_1_1" width="40" height="40" x="615" y="300" />
+			<filmAnimEffect name="effect_1_1" bmp="紫色光圈" x="607" y="292" row="2" col="11" frameDelay="100" loop="0" tCount="21"/>
+			
+			<achieveEntity name="gift_2_0" x="555" y="380" id="100125" count="1" />
+			<maskcontrol name="mask_2_0" width="40" height="40" x="555" y="380" />
+			<filmAnimEffect name="effect_2_0" bmp="紫色光圈" x="547" y="372" row="2" col="11" frameDelay="100" loop="0" tCount="21"/>
+			<achieveEntity name="gift_2_1" x="615" y="380" id="10559" count="50" />
+			<maskcontrol name="mask_2_1" width="40" height="40" x="615" y="380" />
+			<filmAnimEffect name="effect_2_1" bmp="紫色光圈" x="607" y="372" row="2" col="11" frameDelay="100" loop="0" tCount="21"/>
+			<achieveEntity name="gift_2_2" x="675" y="380" id="10714" count="2" />
+			<maskcontrol name="mask_2_2" width="40" height="40" x="675" y="380" />
+			<filmAnimEffect name="effect_2_2" bmp="金色光圈" x="667" y="372" row="2" col="11" frameDelay="100" loop="0" tCount="21"/>
+			
+			<achieveEntity name="gift_3_0" x="555" y="460" id="100154" count="1" />
+			<maskcontrol name="mask_3_0" width="40" height="40" x="555" y="460" />
+			<filmAnimEffect name="effect_3_0" bmp="金色光圈" x="547" y="452" row="2" col="11" frameDelay="100" loop="0" tCount="21"/>
+			<achieveEntity name="gift_3_1" x="615" y="460" id="10559" count="250" />
+			<maskcontrol name="mask_3_1" width="40" height="40" x="615" y="460" />
+			<filmAnimEffect name="effect_3_1" bmp="金色光圈" x="607" y="452" row="2" col="11" frameDelay="100" loop="0" tCount="21"/>
+			<achieveEntity name="gift_3_2" x="675" y="460" id="10714" count="15" />
+			<maskcontrol name="mask_3_2" width="40" height="40" x="675" y="460" />
+			<filmAnimEffect name="effect_3_2" bmp="金色光圈" x="667" y="452" row="2" col="11" frameDelay="100" loop="0" tCount="21"/>
+			<achieveEntity name="gift_3_3" x="735" y="460" id="100023" count="1" />
+			<maskcontrol name="mask_3_3" width="40" height="40" x="735" y="460" />
+			<filmAnimEffect name="effect_3_3" bmp="金色光圈" x="727" y="452" row="2" col="11" frameDelay="100" loop="0" tCount="21"/>
+			
+			<labelButton name="closeBtn" width="29" height="29" right="10" top="140">
+				<state frame="1" back="closeBtn_1" />
+				<state frame="2" back="closeBtn_2" />
+				<state frame="3" back="closeBtn_3" />
+			</labelButton>
+			
+			<button name="开通黄钻Btn" left="137" top="472" width="115" height="35">
+				<state frame="1" back="开通黄钻" />
+				<state frame="2" back="开通黄钻" />
+				<state frame="3" back="开通黄钻" />
+			</button>
+		</window>
+		
+		<box id="payBtnBox" width="98" height="46">
+			<labelButton name="payBtn" width="98" height="46">
+				<state frame="1" back="大号按钮两字01" />
+				<state frame="2" back="大号按钮两字02" />
+				<state frame="3" back="大号按钮两字03" />
+			</labelButton>
+			<image bmp="btnTitle" width="52" height="23" center="0" middle="0" />
+		</box>
+	</controls>
+</xml>

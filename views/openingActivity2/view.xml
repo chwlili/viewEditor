@@ -1,0 +1,85 @@
+<xml name="新年活动">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicNumimage.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="cell0.xml"/>
+		<depend src="cell01.xml"/>
+		<depend src="cell04.xml"/>
+		<depend src="cost.xml"/>
+		<depend src="cell05.xml"/>
+		<depend src="cell06.xml"/>
+		<depend src="sellcell.xml"/>
+		<depend src="/wonderful/activity_21_for_newyear.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="页签选择" src="imgs/页签选择.png"/>
+		<bitmap id="页签未选择" src="imgs/页签未选择.png"/>
+		
+		<bitmap id="label_日日高升大礼包_1" src="imgs/日日高升礼包页签01.png"/>
+		<bitmap id="label_日日高升大礼包_2" src="imgs/日日高升礼包页签02.png"/>
+		
+		<bitmap id="label_累积充值_1" src="imgs/累积充值大奖01.png"/>
+		<bitmap id="label_累积充值_2" src="imgs/累积充值大奖02.png"/>
+		
+		<bitmap id="label_单笔充返_1" src="imgs/单笔充值返利页签01.png"/>
+		<bitmap id="label_单笔充返_2" src="imgs/单笔充值返利页签02.png"/>
+
+		<bitmap id="label_积累消费拿大奖_1" src="imgs/累计消费大奖01.png"/>
+		<bitmap id="label_积累消费拿大奖_2" src="imgs/累计消费大奖02.png"/>
+		
+		<bitmap id="label_春节特卖_1" src="imgs/新春特卖页签字01.png"/>
+		<bitmap id="label_春节特卖_2" src="imgs/新春特卖页签字02.png"/>
+		
+		<bitmap id="label_BOSS专场_1" src="imgs/新春BOSS专场01.png"/>
+		<bitmap id="label_BOSS专场_2" src="imgs/新春BOSS专场02.png"/>
+		
+		<bitmap id="框体右侧装饰" src="imgs/框体右侧装饰.png"/>
+		<bitmap id="框体左侧装饰" src="imgs/框体左侧装饰.png"/>
+		<bitmap id="隔断条" src="imgs/隔断条.png"/>
+		<bitmap id="新春活动大图" src="imgs/新春活动大图.jpg"/>
+		
+		<bitmap id="窗体标题" src="imgs/新春活动标题.png"/>
+	</bitmaps>
+	<texts>
+		<text id="BtnLabel">日日高升大礼包,累积充值,单笔充返,积累消费拿大奖,春节特卖,BOSS专场</text>
+	</texts>
+	
+	<formats>
+		
+	</formats>
+	
+	<controls>
+		<window id="main"  width="660" height="500">
+			<ref ref="WindowBack" name="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+			<image bmp="窗体标题" top="11" center="0" width="103" height="29" />
+			<box name="buttonGroupBox" left="15" top="50" />
+			
+			<box name="cellBox" right="15" top="44" width="492" height="440">
+				<image name="cellBg" bmp="knightFrame2" left="0" top="0" right="0" bottom="0" grid="20,20,20,20"/>
+				<image name="新春活动大图" bmp="新春活动大图" center="0" top="4" width="482" height="161"/>
+			</box>
+			<box name="upBox" right="16" top="44" width="492" height="440">
+				<image name="框体右侧装饰" bmp="框体右侧装饰" right="4" top="60" width="14" height="39"/>
+				<image name="框体左侧装饰" bmp="框体左侧装饰" left="4" top="60" width="14" height="39"/>
+				<image name="隔断条" bmp="隔断条" center="1" top="165" width="489" height="3"/>
+			</box>
+			
+		</window>
+		<box id="selectBtnBox" left="0" top="0" width="144" height="47" >
+			<labelToggleButton name="selectBtn" center="0" middle="0" width="144" height="47">
+				<state frame="1" back="页签未选择" format="978773_12_居中"/>
+				<state frame="2" back="页签选择" format="ffe4c3_12_居中"/>
+				<state frame="3" back="页签选择" format="ffe4c3_12_居中"/>
+				<state frame="4" back="页签选择" format="ffe4c3_12_居中"/>
+				<state frame="5" back="页签选择" format="ffe4c3_12_居中"/>
+			</labelToggleButton>
+			<image name="labelImg1" center="5" middle="-2" width="144" height="47" enabled="false" />
+			<image name="labelImg2" center="5" middle="-2" width="144" height="47" enabled="false" />
+		</box>
+	</controls>
+</xml>

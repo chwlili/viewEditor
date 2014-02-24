@@ -1,0 +1,140 @@
+<xml>
+  <depends>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+    <depend src="/public/controls/window/HelpButton.xml"/>
+    <depend src="/public/controls/window/CloseButton.xml"/>
+    <depend src="/public/controls/window/WindowBack.xml"/>
+    <depend src="/public/controls/scroller/Scroller.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+    <depend src="/public/publicTexts.xml"/>
+    <depend src="/public/publicIcons.xml"/>
+    <depend src="/public/publicNumimage.xml"/>
+  </depends>
+  <bitmaps>
+    <bitmap id="背景下" src="imgs/内框.jpg"/>
+    <bitmap id="背景上" src="imgs/大外框.png"/>
+    <bitmap id="标题" src="imgs/天降奇财.png"/>
+    <bitmap id="button1" src="imgs/按钮01.png"/>
+    <bitmap id="button2" src="imgs/按钮02.png"/>
+    <bitmap id="button3" src="imgs/按钮03.png"/>
+    <bitmap id="需字" src="imgs/需.png"/>
+    <bitmap id="使用按钮标签" src="imgs/赢取钻石.png"/>
+    <bitmap id="恭喜你获得小" src="imgs/恭喜你获得(小).png"/>
+    <bitmap id="恭喜你获得大" src="imgs/恭喜你获得(大).png"/>
+    <bitmap id="领取按钮标签" src="imgs/领取.png"/>
+    <bitmap id="已领完" src="imgs/已领取全部钻石.png"/>
+    <bitmap id="得分数字" src="imgs/数字卡片合集.jpg"/>
+    <bitmap id="时间数字" src="imgs/数字.png"/>
+    <bitmap id="下一层需要" src="imgs/下一层需要.png"/>
+    <bitmap id="小红点" src="imgs/小红点.png"/>
+    <bitmap id="橘色小按钮01" src="imgs/橘色小按钮01.png"/>
+    <bitmap id="橘色小按钮02" src="imgs/橘色小按钮02.png"/>
+    <bitmap id="橘色小按钮03" src="imgs/橘色小按钮03.png"/>
+    <bitmap id="领取" src="imgs/领取.png"/>
+    <bitmap id="稳赚" src="imgs/稳赚.png"/>
+	
+	<bitmap id="恭喜底板" src="imgs/恭喜底板.png" />
+	<bitmap id="钻石02" src="imgs/钻石02.png" />
+  </bitmaps>
+  <texts>
+	<text id="时间">00</text>
+	<text id="充值"><![CDATA[<u>充值</u>]]></text>
+	<text id="日志"><![CDATA[<font color="#FFFF00">恭喜<font color="#fcdbb0">$1</font>通过天降奇财赢得<font color="#00FF00">$2</font>钻石</font>]]></text>
+    <text id="现有钻石数量"><![CDATA[<p align="left"><font color='#fde3ac'>现有 </font><font color='#02e4f8'>$1</font></p>]]></text>
+	<text id="确定">确定</text>
+  </texts>
+  <formats>
+    <format id="时间样式" size="16" color="0xffdb2f" align="right" bold="true"/>
+    <format id="金锭样式" size="12" color="0xffffff" filter="黑色边框"/>
+    <format id="充值样式" size="14" color="0xe7d584" filter="黑色边框" align="center" underline="true"/>
+  </formats>
+  <controls>
+    <window id="财神到" width="506" height="475">
+      <image bmp="背景下" center="0" top="33" width="484" height="431"/>
+      <image bmp="背景上" center="0" middle="0" width="506" height="475"/>
+      <image bmp="标题" center="-5" top="23" width="101" height="27"/>
+      <image bmp="稳赚" left="394" top="31" width="65" height="63"/>
+	  
+      <button name="closeBtn" left="461" top="41" width="26" height="26">
+        <state frame="1" back="knightCloseBtn1_1"/>
+        <state frame="2" back="knightCloseBtn1_2"/>
+        <state frame="3" back="knightCloseBtn1_3"/>
+      </button>
+      <box name="需要钻石" center="0" top="270" width="132" height="26">
+        <image bmp="小红点" left="0" middle="0" width="10" height="12"/>
+        <image bmp="小红点" right="0" middle="0" width="10" height="12"/>
+        <image bmp="需字" left="30" middle="0" width="25" height="23"/>
+        <image bmp="knightsBlueGem_1" left="56" middle="0" width="25" height="25"/>
+        <label name="jewelNum" left="81" middle="0" width="49" height="18" format="钻石文字字体left"/>
+      </box>
+      <box name="下一层需要钻石" center="0" top="270" width="208" height="26">
+        <image bmp="小红点" left="0" middle="0" width="10" height="12"/>
+        <image bmp="小红点" right="0" middle="0" width="10" height="12"/>
+        <image bmp="下一层需要" left="32" middle="0" width="94" height="23"/>
+        <image bmp="knightsBlueGem_1" left="128" middle="0" width="25" height="25"/>
+        <label name="jewelNum" left="156" middle="0" width="49" height="18" format="钻石文字字体left"/>
+      </box>
+      <box name="恭喜你获得小" center="0" top="268" width="208" height="26">
+        <image bmp="小红点" left="0" middle="0" width="10" height="12"/>
+        <image bmp="小红点" right="0" middle="0" width="10" height="12"/>
+        <image bmp="恭喜你获得小" left="32" middle="0" width="94" height="23"/>
+        <image bmp="knightsBlueGem_1" left="128" middle="0" width="25" height="25"/>
+        <label name="jewelNum" left="156" middle="0" width="49" height="18" format="钻石文字字体left"/>
+      </box>
+      <box name="已领完" center="0" top="310" width="208" height="28">
+        <image bmp="小红点" left="0" middle="0" width="10" height="12"/>
+        <image bmp="小红点" right="0" middle="0" width="10" height="12"/>
+        <image bmp="已领完" center="0" middle="0" width="173" height="28"/>
+      </box>
+      <box name="恭喜你获得大" center="0" top="314" width="215" height="28">
+        <image bmp="小红点" left="0" middle="0" width="10" height="12"/>
+        <image bmp="小红点" right="0" middle="0" width="10" height="12"/>
+        <image bmp="恭喜你获得大" left="16" middle="0" width="126" height="28"/>
+        <image bmp="knightsBlueGem_1" left="142" middle="0" width="25" height="25"/>
+        <label name="jewelNum" left="174" middle="0" width="49" height="18" format="钻石文字字体"/>
+      </box>
+      <label name="现有钻石数" text="时间" width="100" height="22" left="27" top="304" html="true"/>
+      <labelButton name="充值" left="29" top="322" width="74" height="30" label="充值" html="true">
+        <state frame="1" back="橘色小按钮01" format="ffbe57_12_居中"/>
+        <state frame="2" back="橘色小按钮02" format="ffbe57_12_居中"/>
+        <state frame="3" back="橘色小按钮03" format="ffbe57_12_居中"/>
+      </labelButton>
+      <box name="使用按钮box" width="146" height="50" center="0" top="301">
+        <button name="使用按钮" width="146" height="50" center="0" top="0">
+          <state frame="1" back="button1"/>
+          <state frame="2" back="button2"/>
+          <state frame="3" back="button3"/>
+        </button>
+        <image bmp="使用按钮标签" enabled="false" center="2" top="11" width="83" height="26"/>
+      </box>
+      <box name="领取按钮box" width="146" height="50" center="0" top="301">
+        <button name="领取按钮" width="146" height="50" center="0" top="0">
+          <state frame="1" back="button1"/>
+          <state frame="2" back="button2"/>
+          <state frame="3" back="button3"/>
+        </button>
+        <image bmp="领取" enabled="false" center="2" top="11" width="83" height="26"/>
+      </box>
+      <box name="领取数量" width="80" height="30" left="184" bottom="100"/>
+      <box name="日志容器" width="300" height="80" left="33" bottom="17"/>
+      <box name="数字容器1" width="56" height="101" left="48" top="146"/>
+      <box name="数字容器2" width="56" height="101" left="138" top="146"/>
+      <box name="数字容器3" width="56" height="101" left="228" top="146"/>
+      <box name="数字容器4" width="56" height="101" left="318" top="146"/>
+      <box name="数字容器5" width="56" height="101" left="407" top="146"/>
+	  
+	 <box name="reward_alert" width="333" height="177" center="0" middle="30" visible="false">
+		<image name="bg" bmp="恭喜底板" center="0" middle="0" width="333" height="177" />
+		<image name="jewel" bmp="钻石02" left="24" middle="0" width="39" height="52" />
+		<box name="num" left="240" middle="-2" width="100" height="25" />
+		<labelButton name="button" width="82" height="28" center="0" bottom="15" label="确定">
+			<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中" />
+			<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中" />
+			<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中" />
+		</labelButton>
+	</box>
+    </window>
+	
+  </controls>
+</xml>

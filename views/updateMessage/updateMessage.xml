@@ -1,0 +1,53 @@
+﻿<xml>
+	<depends>
+		<depend src="../public/publicFrames.xml"/>
+		<depend src="../public/publicButtons.xml"/>
+		<depend src="../public/publicFormats.xml"/>
+		
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/controls/window/HeadBar.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/scroller/Scroller.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="公告横线" src="imgs/公告横线.png" />
+		<bitmap id="窗口背景" src="/public/imgs/frames/back1_2.png"/>
+		<bitmap id="内容背景" src="/public/imgs/frames/frame3a.png"/>
+	</bitmaps>
+	
+	<filters>
+		<filter id="黑色边框">
+			<glow color="0x000000" alpha="1" blurX="2" blurY="2" strength="10"/>
+		</filter>
+	</filters>
+	
+	<formats>
+		<format id="标题字体" size="14" color="0xffd991" align="center" bold="true" filter="黑色边框"/>
+		<format id="消息字体" size="14" color="0xe1911a" align="center" filter="黑色边框"/>
+		<format id="内容字体" font="宋体" size="12" color="0xffffff" leading="15" filter="黑色边框"/>
+	</formats>
+	
+	<texts>
+		<text id="标题"></text>
+		<text id="消息"></text>
+		<text id="内容">	</text>
+	</texts>
+	
+	<controls>
+		
+		<confirm id="更新窗口" width="620" height="415">
+			<image bmp="窗口背景" grid="50,50,50,50" left="0" top="0" right="0" bottom="0"/>
+			<ref ref="HeadBar" top="20"/>
+			<ref name="关闭按钮" ref="CloseButton"/>
+			<image bmp="内容背景" grid="15,15,15,15" left="22" top="70" right="22" bottom="22"/>
+			<image bmp="公告横线" width="518" height="1" center="0" top="110"/>
+			<ref name="滚动面板" ref="Scroller" left="45" top="122" right="45" bottom="40" />
+			<label name="标题文本框" width="500" height="50" x="60" y="32" format="标题字体" text="标题" />
+			<text name="提示文本框" width="500" height="50" x="60" y="85" format="消息字体" text="消息" html="true" mouseEnabled="true" mouseChildren="true"/>
+			<text name="内容文本框" format="内容字体" selectable="true" html="true" wordWrap="true" multiline="true" width="500" autoSize="left" text="内容"/>
+		</confirm>
+		
+	</controls>
+	
+</xml>

@@ -1,0 +1,54 @@
+﻿<xml>
+	
+	<bitmaps>
+		<bitmap id="黑底" src="黑底.jpg"/>
+		<bitmap id="按键" src="按键.png"/>
+		<bitmap id="鼠标1" src="鼠标1.png"/>
+		<bitmap id="鼠标2" src="鼠标2.png"/>
+		<bitmap id="文字背景" src="文字背景.png"/>
+	</bitmaps>
+
+	<texts>
+		<text id="剧情对话框_name"></text>
+		<text id="剧情对话框_text"></text>
+		<text id="剧情对话框_或">或</text>
+	</texts>
+
+	<formats>
+		<format id="名字" font="宋体" color="0x50bae6" bold="true" size="14"/>
+		<format id="内容" font="宋体" color="0xeee1c9" size="14" align="justify" leading="8"/>
+		<format id="或字体" font="宋体" color="0x4dab30" align="center"/>
+	</formats>
+	
+	<controls>
+		
+		<confirm id="剧情对话框" left="0" top="0" right="0" bottom="0">
+
+			<image name="黑底" bmp="黑底" left="0" right="0" top="0" bottom="0"/>
+			<image name="上黑底" bmp="黑底" left="0" right="0" height="70" y="-70"/>
+			<image name="下黑底" bmp="黑底" left="0" right="0" height="130" y="-130"/>
+
+			<box name="左边照片容器" x="0" bottom="0">
+				<bitmap name="图像"/>
+			</box>
+
+			<box name="右边照片容器" x="0" bottom="0">
+				<bitmap name="图像"/>
+			</box>
+
+			<box name="文字容器" width="400" height="115" center="0" bottom="0">
+				<image name="背景" bmp="文字背景" width="674" height="130" center="0" top="-18"/>
+				<text name="名称" text="剧情对话框_name" autoSize="left" format="名字" x="0" y="0"/>
+				<text name="内容" text="剧情对话框_text" autoSize="left" format="内容" x="0" y="26" width="400" multiline="true" wordWrap="true"/>
+
+				<box name="图标" width="70" height="30" right="0" bottom="8">
+					<text text="剧情对话框_或" format="或字体" x="0" y="2" width="70" height="25"/>
+					<bitmap name="鼠标" bmp="鼠标1" x="0"/>
+					<image name="按键" bmp="按键"  width="25" height="28" x="50"/>
+				</box>
+			</box>
+		</confirm>
+
+	</controls>
+</xml>
+		

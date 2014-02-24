@@ -1,0 +1,106 @@
+﻿<xml name="占星商店">
+  <depends>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+
+    <depend src="/public/controls/window/CloseButton.xml"/>
+    <depend src="/public/controls/window/WindowBack.xml"/>
+    <depend src="/public/controls/scroller/Scroller.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+    <depend src="/public/publicTexts.xml"/>
+    <depend src="/public/publicIcons.xml"/>
+    <depend src="/public/publicNumimage.xml"/>
+  </depends>
+  
+  <bitmaps>
+    <bitmap id="星魂商店标头字" src="imgs/星魂商店标头字.png"/>
+    <bitmap id="兑换星运01" src="imgs/兑换星运01.png"/>
+    <bitmap id="兑换星运02" src="imgs/兑换星运02.png"/>
+    <bitmap id="分解星运01" src="imgs/分解星运01.png"/>
+    <bitmap id="分解星运02" src="imgs/分解星运02.png"/>
+    <bitmap id="输入框" src="imgs/输入框.png"/>
+    <bitmap id="橧色碎片" src="imgs/橧色碎片.png"/>
+    <bitmap id="分割线" src="imgs/分割线.png"/>
+  </bitmaps>
+  <bitmapReaders>
+  </bitmapReaders>
+  <texts>
+    <text id="兑换1">兑换</text>
+    <text id="分解1">分解</text>
+    <text id="星魂商店说明">仓库内的金色、橙色、红色星运可分解星魂,星魂可兑换金色、橙色、红色星运</text>
+    <text id="星魂商店当前拥有">当前拥有:</text>
+  </texts>
+  <formats>
+  </formats>
+  <filters>
+  </filters>
+  <controls>
+    <window id="main" width="693" height="504">
+      <ref ref="WindowBack"/>
+      <ref name="closeBtn" ref="CloseButton"/>
+      <image bmp="星魂商店标头字" width="102" height="27" top="10" center="0" />
+
+      <labelToggleButton name="兑换" width="141" height="74" left="18" top="70">
+        <state frame="1" back="兑换星运01"/>
+        <state frame="2" back="兑换星运02"/>
+        <state frame="3" back="兑换星运02"/>
+        <state frame="4" back="兑换星运02"/>
+        <state frame="5" back="兑换星运02"/>
+      </labelToggleButton>
+
+      <labelToggleButton name="分解" width="141" height="74" left="18" top="150">
+        <state frame="1" back="分解星运01"/>
+        <state frame="2" back="分解星运02"/>
+        <state frame="3" back="分解星运02"/>
+        <state frame="4" back="分解星运02"/>
+        <state frame="5" back="分解星运02"/>
+      </labelToggleButton>
+      
+      <image bmp="中底板底" left="159" top="57" width="515" height="424" grid="20,20,20,20"/>
+      <box name="box" left="159" top="57" width="515" height="424">
+        <image bmp="分割线" center="0" top="358" width="400" height="1" grid="40,0,40,0" />
+        <label width="500" height="18" format="宋体橙色12居中" html="true" text="星魂商店说明" top="370" />
+        <label width="64" height="18" format="efb55a_12" html="true" text="星魂商店当前拥有" top="396" right="100" />
+        <image bmp="输入框" width="82" height="15" right="15" top="396" grid="10,0,10,0" />
+        <image name="橧色碎片" bmp="橧色碎片" width="16" height="20" top="394" right="88"/>
+        <label name="itemNum" width="64" height="18" format="宋体绿色12居中" html="true" top="395" right="24" />
+      </box>
+    </window>
+
+    <box id="shopBox" width="502" height="392">
+      <ref name="scroller" ref="Scroller" width="512" height="352" />
+    </box>
+
+    <box id="decomposeBox" width="502" height="392">
+      <ref name="scroller" ref="Scroller" width="512" height="352" />
+    </box>
+
+    <box id="shopCell" width="80" height="105" >
+      <filmAnimEffect name="image" center="0" top="6" row="1" col="10" frameDelay="100" loop="0"/>
+      <label name="lv" width="80" height="18" format="宋体白色12居中" html="true" />
+      <label name="name" width="80" height="18" top="42" format="宋体白色12居中" html="true" />
+      <image bmp="输入框" width="40" height="15" center="0" top="64" />
+      <image name="橧色碎片" bmp="橧色碎片" width="16" height="20" top="60" center="-15"/>
+      <label name="price" width="28" height="18" top="62" format="宋体白色12居中" center="5" html="true"/>
+      <labelButton name="buy" width="56" height="22" bottom="0" center="0" label="兑换1" >
+        <state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中" />
+        <state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中" />
+        <state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中" />
+      </labelButton>
+    </box>
+
+    <box id="decomposeCell" width="80" height="105" >
+      <filmAnimEffect name="image" center="0" top="6" row="1" col="10" frameDelay="100" loop="0"/>
+      <label name="lv" width="80" height="18" format="宋体白色12居中" html="true" />
+      <label name="name" width="80" height="18" top="42" format="宋体白色12居中" html="true" />
+      <image bmp="输入框" width="40" height="15" center="0" top="64" />
+      <image name="橧色碎片" bmp="橧色碎片" width="16" height="20" top="60" center="-15"/>
+      <label name="price" width="28" height="18" top="62" format="宋体白色12居中" center="5" html="true"/>
+      <labelButton name="buy" width="56" height="22" bottom="0" center="0" label="分解1" >
+        <state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中" />
+        <state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中" />
+        <state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中" />
+      </labelButton>
+    </box>
+  </controls>
+</xml>

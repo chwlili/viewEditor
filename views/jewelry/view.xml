@@ -1,0 +1,234 @@
+<xml name="魔法工坊">
+  <depends>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+
+    <depend src="/public/controls/window/CloseButton.xml"/>
+    <depend src="/public/controls/window/WindowBack.xml"/>
+    <depend src="/public/controls/scroller/Scroller.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+    <depend src="/public/publicTexts.xml"/>
+    <depend src="/public/publicNumimage.xml"/>
+  </depends>
+
+  <bitmaps>
+    <bitmap id="装备升级动画" src="/motion/imgs/强化.png"/>
+    <bitmap id="slotSeleceedBg" src="imgs/slotSeleceedBg.png"/>
+    <bitmap id="宝石框" src="imgs/宝石框.png"/>
+    <bitmap id="背包内饰品" src="imgs/背包内饰品.png"/>
+    <bitmap id="当前装备饰品" src="imgs/当前装备饰品.png"/>
+    <bitmap id="合成" src="imgs/合成.png"/>
+    <bitmap id="第三级底板" src="imgs/第三级底板.png"/>
+    <bitmap id="合成饰品" src="imgs/合成饰品.png"/>
+    <bitmap id="合成熟练等级" src="imgs/合成熟练等级.png"/>
+    <bitmap id="滑动底条" src="imgs/滑动底条.png"/>
+    <bitmap id="框04" src="imgs/框04.png"/>
+    <bitmap id="魔法板" src="imgs/魔法板.jpg"/>
+    <bitmap id="魔法工坊" src="imgs/魔法工坊.png"/>
+    <bitmap id="文字下面黑渐变" src="imgs/文字下面黑渐变.png"/>
+    <bitmap id="页签未选中" src="imgs/页签未选中.png"/>
+    <bitmap id="页签选中" src="imgs/页签选中.png"/>
+    <bitmap id="右框渐变隔断条" src="imgs/右框渐变隔断条.png"/>
+    <bitmap id="右下角底条" src="imgs/右下角底条.png"/>
+    <bitmap id="中间隔断条" src="imgs/中间隔断条.png"/>
+    <bitmap id="大号按钮特殊03" src="imgs/大号按钮特殊03.png"/>
+    <bitmap id="大号按钮特殊02" src="imgs/大号按钮特殊02.png"/>
+    <bitmap id="大号按钮特殊01" src="imgs/大号按钮特殊01.png"/>
+    <bitmap id="1号按钮01" src="imgs/1号按钮01.png"/>
+    <bitmap id="1号按钮02" src="imgs/1号按钮02.png"/>
+    <bitmap id="1号按钮03" src="imgs/1号按钮03.png"/>
+    <bitmap id="pic29" src="imgs/pic29.png"/>
+    <bitmap id="pic28" src="imgs/pic28.png"/>
+    <bitmap id="pic17" src="imgs/pic17.png"/>
+    <bitmap id="中底板底" src="imgs/中底板底.png"/>    
+    <bitmap id="项链框空底板" src="imgs/项链框空底板.jpg"/>    
+    <bitmap id="戒指框空底板" src="imgs/戒指框空底板.jpg"/>  
+    <bitmap id="右下切换底条" src="imgs/右下切换底条.png"/>  
+    <bitmap id="new" src="imgs/new.png"/>  
+    <bitmap id="绿箭头" src="imgs/绿箭头.png"/>  
+    <bitmap id="红箭头" src="imgs/红箭头.png"/>  
+    <bitmap id="信息框底板头" src="imgs/信息框底板头.png"/> 
+    <bitmap id="标题字" src="imgs/标题字.png"/> 
+
+    <bitmap id="攻略文字" src="imgs/攻略.png"/> 
+    <bitmap id="攻略" src="imgs/占星说明按钮01.png"/> 
+    <bitmap id="渐变条" src="imgs/渐变条.png"/> 
+    <bitmap id="攻略02" src="imgs/占星说明按钮02.png"/> 
+    <bitmap id="攻略03" src="imgs/占星说明按钮03.png"/> 
+  </bitmaps>
+  
+  <texts>
+    <text id="完美">完美</text>
+    <text id="完美的">完美的</text>
+    <text id="分解获得材料">对饰品进行分解，可获取打造材料</text>
+    <text id="打造出了">打造出了</text>
+    <text id="合成饰品">打造饰品</text>
+    <text id="合成兽魂">打造兽魂</text>
+    <text id="饰品分解">分解</text>
+    <text id="饰品装备">装备</text>
+    <text id="脱下">脱下</text>
+    <text id="饰品展示">展示</text>
+    <text id="确认分解">确认分解</text>
+    <text id="是否分解此装备">是否分解此装备</text>
+    <text id="分解的饰品">请选择想要分解的饰品</text>
+    <text id="分解后获得以下材料">分解后获得以下材料</text>
+    <text id="打造">打造</text>
+    <text id="魔法工坊标头">可打造项链与戒指，每次打造提升工坊经验值，工坊等级越高打造的饰品质量越好</text>
+    <text id="打造饰品可获得打造经验">打造饰品可获得打造经验</text>
+    <text id="可造出品质">可打造:</text>
+    <text id="魔法工坊升级"><![CDATA[成功将<font color='#ee280e'>打造等级</font>提升到Lv$1,可以打造<font color='$3'>$2</font>的饰品]]></text>
+    <text id="打造出完美品质饰品"><![CDATA[打造出了拥有<font color='#2feb16'>$1</font>条完美属性的]]></text>
+    <text id="魔法工坊攻略"><![CDATA[1.工坊等级越高打造的饰品质量越好$1<font color='#2feb16'>LV1:青铜品质（2条属性）$2Lv2:【精致】青铜品质（2条属性）$3LV3:【稀有】青铜品质（2条属性）</font>$4<font color='#2089ff'>LV4:黑铁品质（3条属性）$5Lv5:【精致】黑铁品质（3条属性）$6LV6:【稀有】黑铁品质（3条属性）</font>$7<font color='#b93ff8'>LV7:白银品质（4条属性）$8Lv8:【精致】白银品质（4条属性）$9LV9:【稀有】白银品质（4条属性）</font>$10<font color='#f8d40e'>LV10:【稀有】黄金品质（5条属性）$11Lv11:【传奇】黄金品质（5条属性）</font>$12<font color='#e98e19'>LV12:【稀有】神圣品质（5条属性）$13Lv13:【传奇】神圣品质（5条属性）</font>$14<font color='#ee280e'>LV14:【稀有】王者品质（6条属性）$15Lv15:【传奇】王者品质（6条属性）</font>$162.秘法材料产出途径：$17每日签到、世界BOSS伤害前3、阿拉丁神灯、竞技场排名奖励、太阳神殿。$183、饰品每条属性可能重复，因此您可能打造<font color='#ee280e'>【全攻】、【全防】、【全暴击】、【全生命】</font>等稀世珍品。]]></text>
+  </texts>
+  <controls>
+    <window id="main" width="688" height="498">
+      <ref ref="WindowBack"/>
+      <ref name="closeBtn" ref="CloseButton"/>
+      <image bmp="魔法工坊" width="102" height="27" top="12" center="0"/>
+      <image bmp="knightFrame2" grid="30,47,29,49" left="8" top="100" width="670" height="387" />
+      
+      <labelToggleButton name="toggleBtn1" width="80" height="24" top="80" left="35" label="合成饰品">
+        <state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中"/>
+        <state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        <state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        <state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        <state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+      </labelToggleButton>
+      <labelToggleButton name="toggleBtn2" width="80" height="24" top="80" left="130" label="合成兽魂">
+        <state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中"/>
+        <state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        <state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        <state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        <state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+      </labelToggleButton>
+      <image bmp="渐变条" center="0" top="51" width="677" height="21"/>    
+      <image bmp="攻略文字" right="53" top="53" width="30" height="20"/>    
+        <labelButton name="攻略" width="29" height="30" right="25" top="48" >
+          <state frame="1" back="攻略" format="ffbe57_12_居中"/>
+          <state frame="2" back="攻略02" format="ffbe57_12_居中"/>
+          <state frame="3" back="攻略03" format="ffbe57_12_居中"/>
+        </labelButton>
+      <label text="魔法工坊标头" width="480" height="20" center="0" top="52" format="队伍金色字体"/>
+
+
+      <image bmp="knightFrame10" grid="46,42,46,42" x="688" y="4" width="266" height="490"/>    
+      <image bmp="信息框底板头" grid="65,0,65,0"  x="688" y="4" width="266" height="36"/>
+      <image bmp="标题字" x="774" y="13" width="94" height="18"/>
+
+      <box name="LogBox" width="290" height="425" x="690" y="40">
+
+
+
+      </box>
+      <box name="tipBox" width="295" height="440" x="685" y="65">
+        <image bmp="中底板底" right="0" bottom="0" left="0" top="0" grid="30,47,29,49"/>
+        <label name="tip" text="魔法工坊攻略" width="250" height="400" left="25" top="25"  html="true" format="fdd59a_12_leading6"/>
+
+      </box>
+
+    </window>
+
+    <box id="饰品页签" width="688" height="472" top="25">
+      <image bmp="第三级底板" grid="30,37,29,39" left="116" top="82" width="555" height="373" />
+      <image bmp="魔法板" left="118" top="84" width="286" height="370" />
+      <image bmp="中间隔断条" left="404" top="84" width="2" height="370" />
+      <image bmp="右框渐变隔断条" left="404" top="180" width="271" height="40" />
+      <image bmp="右下角底条" left="405" top="393" width="265" height="61" />
+      <image bmp="合成熟练等级" left="130" top="90" width="76" height="21" />
+      <image bmp="合成饰品" left="130" top="144" width="74" height="19" />
+
+      <image bmp="当前装备饰品" left="420" top="90" width="106" height="19" />
+      <image bmp="背包内饰品" left="420" top="225" width="91" height="19" />
+      <image bmp="框04" left="445" top="122" width="77" height="77" />
+      <image bmp="框04" left="555" top="122" width="77" height="77" />
+      <image name="ring" bmp="戒指框空底板" left="453" top="130" width="60" height="60" />
+      <image name="jewelry" bmp="项链框空底板" left="563" top="130" width="60" height="60" />
+      <label width="130" height="21" left="419" top="200" name="namelabel1" format="宋体绿色12居中"/>
+      <label width="130" height="21" left="529" top="200" name="namelabel2" format="宋体绿色12居中"/>
+      <label width="160" height="21" left="200" top="145" text="打造饰品可获得打造经验" format="fde3ac_12居中"/>
+      <label width="160" height="21" left="250" top="93" name="打造品质" format="fde3ac_12居中" html="true"/>
+
+      <ref name="scroller" ref="Scroller" width="265" height="151" left="407" y="245"/>
+      <labelButton name="合成按钮" width="82" height="28" left="218" bottom="30" label="打造">
+        <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中"/>
+        <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中"/>
+        <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中"/>
+      </labelButton>
+      
+      <label width="200" height="21" left="440" bottom="55" text="分解获得材料" format="fde3ac_12居中" html="true"/>
+        <labelButton name="分解" width="82" height="28" left="500" bottom="25"  label="饰品分解">
+          <state frame="1" back="1号按钮01" format="ffbe57_12_居中"/>
+          <state frame="2" back="1号按钮02" format="ffbe57_12_居中"/>
+          <state frame="3" back="1号按钮03" format="ffbe57_12_居中"/>
+        </labelButton>
+
+            <achieveEntity name="item1" left="241" top="179"/>
+            <achieveEntity name="item2" left="153" top="317"/>
+            <achieveEntity name="item3" left="327" top="317"/>
+            <achieveEntity name="composeitem" left="230" top="270" isBig="true"/>
+            <achieveEntity name="curitem1" left="453" top="129" isBig="true"/>
+            <achieveEntity name="curitem2" left="563" top="129" isBig="true"/>
+      <filmAnimEffect name="装备升级动画" bmp="装备升级动画" x="178" y="214" row="1" col="10" tCount="10" frameDelay="30" loop="1"/>
+
+        <image bmp="pic28" width="246" height="21" left="140" top="115"/>
+        <image name="progressBar" bmp="pic29" width="222" height="10" x="152" y="120" scaleX="1"  />
+        <image bmp="pic17" width="15" height="20" left="252" top="115" />
+        <!-- <label name="level" width="40" height="18" left="250" top="92" format="fmt_03dd27_12"/> -->
+        <label name="level2" width="80" height="18" left="210" top="92" format="技能KEY"/>
+
+        <label name="num1" width="80" height="18" left="220" top="220" format="宋体绿色12居中"/>
+        <label name="num2" width="80" height="18" left="132" top="360" format="宋体绿色12居中"/>
+        <label name="num3" width="80" height="18" left="307" top="360" format="宋体绿色12居中"/>
+    </box>
+
+    <box id="jewelryBox" width="45" height="45">
+      <image bmp="宝石框" width="40" height="40" center="0" middle="0"/>
+      <achieveEntity name="item" center="0" middle="0"/>
+      <image name="slotSeleceedBg" bmp="slotSeleceedBg" width="45" height="45" center="0" middle="0" visible="false" mouseEnable="false"/>
+      <label name="label" width="40" height="18" center="0" middle="0" text="饰品分解" format="fdd59a_12_居中" mouseEnable="false" />
+      <image name="newicon" bmp="new" width="23" height="10" left="3" top="2"/>
+      <image name="红箭头" bmp="红箭头" width="13" height="14" right="4" top="4"/>
+      <image name="绿箭头" bmp="绿箭头" width="13" height="14" right="4" top="4"/>
+    </box>
+   
+    <box id="decompose" width="234" height="146">
+      <image bmp="中底板底" width="234" height="146" left="0" top="0" grid="30,47,29,49"/>
+      <image bmp="宝石框" width="40" height="40" left="35" top="45"/>
+      <image bmp="宝石框" width="40" height="40" left="95" top="45"/>
+      <image bmp="宝石框" width="40" height="40" left="155" top="45"/>
+            <achieveEntity name="item1" left="35" top="45"/>
+            <achieveEntity name="item2" left="95" top="45"/>
+            <achieveEntity name="item3" left="155" top="45"/>
+      <label width="20" height="18" left="60" top="70" name="num1" format="宋体绿色12居中" />
+      <label width="20" height="18" left="120" top="70" name="num2" format="宋体绿色12居中" />
+      <label width="20" height="18" left="180" top="70" name="num3" format="宋体绿色12居中" />
+
+      <label width="164" height="18" left="35" top="15" text="分解后获得以下材料" format="ffbe57_12_居中" />
+        <labelButton name="确定" width="82" height="28" left="76" top="100"  label="确定">
+          <state frame="1" back="1号按钮01" format="ffbe57_12_居中"/>
+          <state frame="2" back="1号按钮02" format="ffbe57_12_居中"/>
+          <state frame="3" back="1号按钮03" format="ffbe57_12_居中"/>
+        </labelButton>
+    </box>
+
+    <box id="movedown" width="255" height="32" x="405" y="185">
+      <image bmp="右下切换底条" width="255" height="32" left="0" top="0"/>
+      <label width="255" height="18" center="0" middle="0" text="分解的饰品" format="fa9600_12_居中" />
+    </box>
+    <box id="moveup" width="265" height="61" x="405" y="460">
+        <image bmp="右下角底条" left="0" top="0" width="265" height="61" />
+        <labelButton name="取消" width="82" height="28" left="150" top="17" label="取消">
+          <state frame="1" back="1号按钮01" format="ffbe57_12_居中"/>
+          <state frame="2" back="1号按钮02" format="ffbe57_12_居中"/>
+          <state frame="3" back="1号按钮03" format="ffbe57_12_居中"/>
+        </labelButton>
+        <labelButton name="确认分解" width="82" height="28" left="31" top="17" label="确认分解">
+          <state frame="1" back="1号按钮01" format="ffbe57_12_居中"/>
+          <state frame="2" back="1号按钮02" format="ffbe57_12_居中"/>
+          <state frame="3" back="1号按钮03" format="ffbe57_12_居中"/>
+        </labelButton>
+    </box>
+
+
+  </controls>
+</xml>

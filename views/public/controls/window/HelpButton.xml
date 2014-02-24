@@ -1,0 +1,18 @@
+<xml>
+	
+	<bitmaps>
+		<bitmap id="knightHelpBtn1_1" src="/public/imgs/buttons/knightHelpBtn1_1.png" />
+		<bitmap id="knightHelpBtn1_2" src="/public/imgs/buttons/knightHelpBtn1_2.png" />
+		<bitmap id="knightHelpBtn1_3" src="/public/imgs/buttons/knightHelpBtn1_3.png" />
+	</bitmaps>
+	
+	<controls>
+		
+		<button id="HelpButton" width="27" height="27" left="11" top="12">
+			<state frame="1" back="knightHelpBtn1_1" />
+			<state frame="2" back="knightHelpBtn1_2" />
+			<state frame="3" back="knightHelpBtn1_3" />
+		</button>
+		
+	</controls>
+</xml>

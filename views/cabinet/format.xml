@@ -1,0 +1,28 @@
+<xml>
+	<depends>
+		<depend src="../public/publicColor.xml"/>
+	</depends>
+	
+	<filters>
+		<filter id="黑色边框">
+			<glow color="0x000000" alpha="1" blurX="2" blurY="2" strength="10"/>
+		</filter>
+	</filters>
+	
+	
+	<formats>
+		<format id="小时字体样式" size="16" color="0xffdb2f" />
+		<format id="分字体样式" size="16" color="0xffdb2f" />
+		<format id="秒字体样式" size="36" color="0xffdb2f" />
+		<format id="原价字体样式" size="12" color="0x666666" filter="黑色边框"/>
+		<format id="现价字体样式" size="12" color="0xd7d096" filter="黑色边框"/>
+		<format id="商品数量字体样式" size="12" color="0xffffff" filter="黑色边框" align="right"/>
+		<format id="商品名字字体样式" size="12" color="0xd7d096" filter="黑色边框" align="center"/>
+		<format id="原价价格字体样式" size="12" color="0xffffff" filter="黑色边框" align="right"/>
+		<format id="现价价格字体样式" size="12" color="0xd7d096" filter="黑色边框" align="right"/>
+		<format id="Q点字体样式" size="12" color="0xffffff" />
+		<format id="说明字体样式" size="12" color="0xd7d096" filter="黑色边框" align="center"/>
+		
+		
+	</formats>
+</xml>

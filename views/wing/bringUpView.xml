@@ -1,0 +1,126 @@
+﻿<xml>
+	<depends>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicIcons.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicNumimage.xml"/>
+		<depend src="../wing/wingBitmap.xml"/>
+		<depend src="../wing/wingText.xml"/>
+		<depend src="../wing/wingFormat.xml"/>
+	</depends>
+	
+	<controls>
+		<window id="bringUp" width="431" height="339">
+			<ref ref="WindowBack"/>
+			<ref name="closeBtn" ref="CloseButton"/>
+			<image bmp="bringUpTitle" width="76" height="23" top="14" center="0"/>
+
+			<box name="wingLvBox" width="431" height="25" top="55">
+				<image bmp="渐变底条" width="409" height="25" center="0"/>
+				<label text="最大培养提示" autoWidth="true" height="20" left="30" middle="0" format="最大培养字体居左"/>
+				<label name="wingLv" width="150" height="20" right="30" middle="0" format="最大培养字体居右" html="true"/>
+			</box>
+			
+			<box name="propBox" width="431" height="73" top="85">
+				<image bmp="当前属性" width="61" height="20" center="-10" top="0"/>
+				<image bmp="新增属性" width="65" height="20" right="36" top="0"/>
+				
+				<box name="hpBox" width="431" height="21" top="25" center="0">
+					<label text="prop_0" width="60" height="18" left="40" middle="0" format="培养属性字体"/>
+					<box name="progress" width="193" height="20" center="-10" middle="0">
+						<image bmp="翅膀培养属性框" width="193" height="20"/>
+						<progressBar name="progressBar" bmp="翅膀培养属性条" width="183" height="10" center="0" middle="0" onlyFront="false" ease="true" scaleX="1"/>
+						<image bmp="progressLine" width="15" height="20" center="0" middle="0"/>
+					</box>
+					<box name="hpAdd" width="64" height="21" right="40">
+						<image bmp="新属性框" width="64" height="21"/>
+						<label name="hpChange" width="29" height="18" left="8" format="efb55a_12" html="true"/>
+						<image name="hpArrow" width="16" height="18" right="8"/>
+					</box>
+				</box>
+				
+				<box name="attackBox" width="431" height="21" top="51" center="0">
+					<label text="prop_1" width="60" height="18" left="40" middle="0" format="培养属性字体"/>
+					<box name="progress" width="193" height="20" center="-10" middle="0">
+						<image bmp="翅膀培养属性框" width="193" height="20"/>
+						<progressBar name="progressBar" bmp="翅膀培养属性条" width="183" height="10" center="0" middle="0" onlyFront="false" ease="true" scaleX="1"/>
+						<image bmp="progressLine" width="15" height="20" center="0" middle="0"/>
+					</box>
+					<box name="attackAdd" width="64" height="21" right="40">
+						<image bmp="新属性框" width="64" height="21"/>
+						<label name="attackChange" width="29" height="18" left="8" format="efb55a_12" html="true"/>
+						<image name="attackArrow" width="16" height="18" right="8"/>
+					</box>
+				</box>
+			
+				<box name="magicBox" width="431" height="21" top="77" center="0">
+					<label text="prop_2" width="60" height="18" left="40" middle="0" format="培养属性字体"/>
+					<box name="progress" width="193" height="20" center="-10" middle="0">
+						<image bmp="翅膀培养属性框" width="193" height="20"/>
+						<progressBar name="progressBar" bmp="翅膀培养属性条" width="183" height="10" center="0" middle="0" onlyFront="false" ease="true" scaleX="1"/>
+						<image bmp="progressLine" width="15" height="20" center="0" middle="0"/>
+					</box>
+					<box name="magicAdd" width="64" height="21" right="40">
+						<image bmp="新属性框" width="64" height="21"/>
+						<label name="magicChange" width="29" height="18" left="8" format="efb55a_12" html="true"/>
+						<image name="magicArrow" width="16" height="18" right="8"/>
+					</box>
+				</box>
+			</box>
+
+			<box name="costBox" width="351" height="90" center="0" bottom="50">
+				<image bmp="knightFrame4" grid="10,10,10,10" width="351" height="90"/>
+				<image bmp="选择培养方式" width="91" height="19" center="0" top="-10"/>
+				<box name="useItemBox" width="351" height="20" left="10" top="15">
+					<labelButton name="useItemBtn" width="15" height="15" left="5" middle="0">
+						<state frame="1" back="selectIcon"/>
+						<state frame="2" back="selectIcon"/>
+						<state frame="3" back="selectIcon"/>
+					</labelButton>
+					<label text="铜币培养" width="60" height="18" left="25" middle="0" format="efb55a_12"/>
+					<label name="useItem" text="铜币培养描述" autoWidth="true" height="18" left="90" middle="0" format="铜币培养字体" html="true"/>
+				</box>
+				<box name="useGemBox" width="351" height="20" left="10" top="40">
+					<labelButton name="useGemBtn" width="15" height="15" left="5" middle="0">
+						<state frame="1" back="dropIcon"/>
+						<state frame="2" back="dropIcon"/>
+						<state frame="3" back="dropIcon"/>
+					</labelButton>
+					<label text="钻石培养" width="60" height="18" left="25" middle="0" format="efb55a_12"/>
+					<label name="useGem" text="钻石培养描述" autoWidth="true" height="18" left="90" middle="0" format="钻石培养字体"/>
+				</box>
+				<box name="useGoldBox" width="351" height="20" left="10" bottom="5">
+					<labelButton name="useGoldBtn" width="15" height="15" left="5" middle="0">
+						<state frame="1" back="dropIcon"/>
+						<state frame="2" back="dropIcon"/>
+						<state frame="3" back="dropIcon"/>
+					</labelButton>
+					<label text="至尊培养" width="60" height="18" left="25" middle="0" format="efb55a_12"/>
+					<label name="useGold" text="至尊培养描述" autoWidth="true" height="18" left="90" middle="0" format="至尊培养字体"/>
+				</box>
+			</box>
+
+			<labelButton name="trainBtn" label="培养" width="82" height="28" center="0" bottom="12">
+				<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+				<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+				<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+			</labelButton>
+			
+			<labelButton name="saveBtn" label="保存" width="82" height="28" left="108" bottom="12">
+				<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+				<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+				<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+			</labelButton>
+			
+			<labelButton name="cancelBtn" label="取消" width="82" height="28" right="108" bottom="12">
+				<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+				<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+				<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+			</labelButton>
+			
+		</window>
+	</controls>
+</xml>

@@ -1,0 +1,20 @@
+<xml>
+	<depends>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+
+	<bitmaps>
+		<bitmap id="骑士VIP弹窗小箭头" src="imgs/骑士VIP弹窗小箭头.png" />
+		<bitmap id="骑士VIP弹窗底板" src="imgs/骑士VIP弹窗底板.png" />
+	</bitmaps>
+	
+	<controls>
+		<window id="main">
+			<box name="bgBox" left="10" top="0" width="120" height="46">
+				<image name="bg" bmp="骑士VIP弹窗底板" grid="10,10,10,10" width="120" height="46" />
+				<label name="content" center="0" middle="0" width="100" autoHeight="true" format="翅膀培养12" html="true" multiline="true" wordWrap="true" />
+			</box>
+			<image bmp="骑士VIP弹窗小箭头" left="0" top="10" width="22" height="12" />
+		</window>
+	</controls>
+</xml>

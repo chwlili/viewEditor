@@ -1,0 +1,37 @@
+<xml>
+	<depends>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicFrames.xml"/>	
+		<depend src="/public/publicNumimage.xml"/>
+	</depends>
+
+	<colors>		
+
+	</colors>
+
+	<bitmaps>
+		<bitmap id="back" src="imgs/count_down_bg.png"/>
+		<bitmap id="start_fight" src="imgs/开始战斗.png"/>
+		<bitmap id="冒号" src="imgs/战斗倒计时_冒号.png"/>
+	</bitmaps>
+
+	<texts>
+	</texts>
+
+	<controls>
+		<box id="倒计时" width="548" height="154" top="80" center="0">
+			<image bmp="back" grid="14,14,14,14" top="0" bottom="0" left="0" right="0"/> 
+			<image bmp="冒号" left="264" top="70" width="21" height="32"/>
+
+			<countImage name="num1" bmp="num13" sliceCount="10" left="224" top="70" />
+			<countImage name="num2" bmp="num13" sliceCount="10" left="244" top="70" />
+			<countImage name="num3" bmp="num13" sliceCount="10" left="285" top="70" />
+			<countImage name="num4" bmp="num13" sliceCount="10" left="305" top="70" />
+
+
+			<image name="start_fight" bmp="start_fight" left="110" top="42" width="267" height="82" visible="false"/>
+
+
+		</box>
+	</controls>
+</xml>

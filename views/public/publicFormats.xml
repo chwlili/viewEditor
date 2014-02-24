@@ -1,0 +1,306 @@
+<xml>
+	<depends>
+		<depend src="publicColor.xml"/>
+		<depend src="publicFilters.xml"/>
+	</depends>
+	<formats>
+		<format id="华文楷体白色20" font="楷体" size="20" color="0xffffff" filter="黑色边框"/>
+		<format id="华文楷体白色26" font="楷体" size="26" color="0xffffff" filter="黑色边框"/>
+		<format id="宋体白色14居中" font="宋体" size="14" color="0xffffff" align="center" filter="黑色边框"/>
+		<format id="宋体白色14居中加粗" font="宋体" size="14" color="0xffffff" align="center" filter="黑色边框" bold="true"/>
+		<format id="宋体白色14居右加粗" font="宋体" size="14" color="0xffffff" align="right" filter="黑色边框" bold="true"/>
+		<format id="宋体白色12居中加粗" font="宋体" size="12" color="0xffffff" align="center" filter="黑色边框" bold="true"/>
+		<format id="宋体黄色14居中" font="宋体" size="14" color="0xffcc00" align="center" filter="黑色边框" leading="6"/>
+		<format id="宋体黄色14加粗" font="宋体" size="14" color="0xffcc00" filter="黑色边框" leading="6" bold="true"/>
+		<format id="宋体黄色14居中加粗" font="宋体" size="14" color="0xffcc00" align="center" filter="黑色边框" bold="true" leading="6"/>
+		<format id="宋体黄色14" font="宋体" size="14" color="0xffcc00" filter="黑色边框"/>
+		<format id="宋体白色12" font="宋体" size="12" color="0xffffff" filter="黑色边框"/>
+		<format id="宋体白色12_right" font="宋体" size="12" color="0xffffff" align="right" filter="黑色边框"/>
+		<format id="宋体橙红色12" font="宋体" size="12" color="i橙红色" filter="黑色边框"/>
+		<format id="宋体白色12无框" font="宋体" size="12" color="0xffffff" />
+		<format id="宋体白色12间距2" font="宋体" size="12" color="0xffffff" filter="黑色边框" leading="2"/>
+		<format id="宋体白色12间距4" font="宋体" size="12" color="0xffffff" filter="黑色边框" leading="4"/>
+		<format id="宋体白色12带间隔" font="宋体" size="12" color="0xffffff" filter="黑色边框" leading="6"/>
+		<format id="宋体白色12带间隔10" font="宋体" size="12" color="0xffffff" filter="黑色边框" leading="10"/>
+		<format id="宋体白色12居中间距4" font="宋体" size="12" color="0xffffff" filter="黑色边框" leading="4" align="center"/>
+		<format id="宋体绿色12" font="宋体" size="12" color="0x00ff1e" filter="黑色边框" bold="false"/>
+		<format id="宋体绿色12居中" font="宋体" size="12" color="0x00ff1e" filter="黑色边框" bold="false" align="center"/>
+		<format id="宋体绿色12无框" font="宋体" size="12" color="0x00ff1e" bold="false"/>
+		<format id="宋体绿色12间距4" font="宋体" size="12" color="0x00ff1e" filter="黑色边框" leading="4"/>
+		
+		<format id="宋体浅绿色12居中" font="宋体" size="12" color="0x99FDA3" filter="黑色边框" bold="false" align="center"/>
+		
+		<format id="宋体白色12带下划线" font="宋体" size="12" color="0xffffff" filter="黑色边框" underline="true"/>
+		<format id="宋体白色12居右" font="宋体" size="12" color="0xffffff" align="right" filter="黑色边框"/>
+		<format id="宋体白色12居右加粗" font="宋体" size="12" color="0xffffff" align="right" bold="true" filter="黑色边框"/>
+		<format id="宋体白色14" font="宋体" size="14" color="0xffffff" filter="黑色边框"/>
+		<format id="宋体白色14加粗" font="宋体" size="14" color="0xffffff" filter="黑色边框" bold="true"/>
+		<format id="宋体绿色14" font="宋体" size="14" color="0x00ff1e" filter="黑色边框"/>
+		<format id="宋体白色12居中" font="宋体" size="12" color="0xffffff" align="center" filter="黑色边框"/>
+		<format id="宋体绿色12居右" font="宋体" size="12" color="0x00ff1e" align="right" filter="黑色边框"/>
+		<format id="宋体黄色12带间隔" font="宋体" size="12" color="0xffcc00" filter="黑色边框" leading="6"/>
+		<format id="宋体黄色12带间隔8" font="宋体" size="12" color="0xffcc00" filter="黑色边框" leading="8"/>
+		<format id="宋体黄色12" font="宋体" size="12" color="0xffcc00" filter="黑色边框" />
+		<format id="宋体黄色12加粗" font="宋体" size="12" color="0xffcc00" filter="黑色边框" bold="true" />
+		<format id="宋体黄色12居中" font="宋体" size="12" color="0xffcc00" align="center" filter="黑色边框"/>
+		<format id="宋体黄色12居右" font="宋体" size="12" color="0xffcc00" align="right" filter="黑色边框"/>
+		<format id="宋体绿色12居右带下划线" font="宋体" size="12" color="0x00ff1e" align="right" underline="true" filter="黑色边框" bold="false"/>
+		<format id="宋体默认色12" font="宋体" size="12" color="0xfcdbb0" filter="黑色边框"/>
+		<format id="宋体默认色12加粗" font="宋体" size="12" color="0xfcdbb0" filter="黑色边框" bold="true"/>
+		<format id="宋体默认色12居中" font="宋体" size="12" color="0xfcdbb0" filter="黑色边框" align="center"/>
+		<format id="宋体默认色14居中" font="宋体" size="14" color="0xfcdbb0" filter="黑色边框" align="center"/>
+		<format id="宋体默认色14加粗居中" font="宋体" size="14" color="0xfcdbb0" filter="黑色边框" bold="true" align="center" />
+		<format id="宋体浅灰色12" font="宋体" size="12" color="0x959595" filter="黑色边框"/>
+		<format id="宋体灰色12居中" font="宋体" size="12" color="0x6d6c6a" align="center" filter="黑色边框"/>
+		<format id="宋体黄色16居中" font="宋体" size="16" color="0xffcc00" align="center" filter="黑色边框" bold="true"/>
+		<format id="宋体白色16居中" font="宋体" size="16" color="0xffffff" align="center" filter="黑色边框" bold="true" />
+		<format id="宋体红色14" font="宋体" size="14" color="0xff0000" filter="黑色边框"/>
+		<format id="宋体红色14居中" font="宋体" size="14" color="0xff0000" filter="黑色边框" align="center" />
+		<format id="宋体红色16居中" font="宋体" size="14" color="0xff0000" align="center" filter="黑色边框"/>
+
+		<format id="宋体黄色16" font="宋体" size="16" color="0xffcc00" filter="黑色边框" bold="true" ieading="20"/>
+		<format id="宋体白色20居中" font="宋体" size="20" color="0xffffff" align="center" filter="黑色边框"/>
+		<format id="宋体绿色16" font="宋体" size="16" color="0x00ff1e" filter="黑色边框" bold="true"/>
+		<format id="宋体粉色12居中" font="宋体" size="12" color="0xff6000" filter="黑色边框" align="center"/>
+		<format id="宋体黄色26" font="宋体" size="26" color="0xffcc00" filter="黑色边框" bold="true"/>
+		<format id="宋体白色14带文字间距" font="宋体" size="14" color="0xffffff" filter="黑色边框" leading="6"/>
+		<format id="宋体绿色12黑色边框2" font="宋体" size="12" color="0x00ff1e" filter="黑色边框2"/>
+		<format id="宋体红色12居右" font="宋体" size="12" color="0xff0000" align="right" filter="黑色边框"/>
+		<format id="宋体红色12居中" font="宋体" size="12" color="0xff0000" align="center" filter="黑色边框"/>
+		<format id="宋体红色12" font="宋体" size="12" color="0xff0000" filter="黑色边框" />
+		<format id="宋体紫色12" font="宋体" size="12" color="0xd800ff" filter="咖啡色边框"/>
+		<format id="宋体紫色12居中" font="宋体" size="12" color="0xd800ff" align="center" filter="咖啡色边框"/>
+		<format id="宋体紫色14" font="宋体" size="14" color="0xd800ff" filter="黑色边框"/>
+
+		<format id="宋体橘黄色居中" font="宋体" size="14" color="0xff8400" align="center" filter="咖啡色边框"/>
+
+		
+		
+		
+		<format id="2级底板咖啡色字体" font="宋体" size="12" color="i墨红色" bold="true"/>
+		<format id="2级底板咖啡色字体非加粗" font="宋体" size="12" color="i墨红色" />
+		<format id="2级底板咖啡色字体非加粗居中" font="宋体" size="12" color="i墨红色" align="center"/>
+		<format id="黄色" font="宋体" size="12" color="i黄色" filter="黑色边框"/>
+		<format id="黄色center" font="宋体" size="12" color="i黄色" align="center" filter="黑色边框"/>
+		<format id="暗黄色" font="宋体" size="12" color="i暗黄色" />
+		<format id="暗黄色带间距" font="宋体" size="12" color="i暗黄色" leading="6"/>
+		<format id="暗黄色加粗" font="宋体" size="12" color="i暗黄色" bold="true"/>
+		<format id="暗黄色居中" font="宋体" size="12" align="center" color="i暗黄色"/>
+		<format id="暗黄色加粗居中" font="宋体" size="12" color="i暗黄色" bold="true" align="center"/>
+		<format id="蓝色1" font="宋体" size="12" color="i蓝色1"/>
+		<format id="红色" font="宋体" size="12" color="i红色"/>
+		<format id="红色带间距" font="宋体" size="12" color="i红色" leading="6" />
+		<format id="红色边框" font="宋体" size="12" color="i红色" filter="黑色边框"/>
+		
+		<format id="宋体蓝色14加粗" color="0x00ffd8" bold="true" size="14" filter="黑色边框"/>
+		<format id="宋体红色14加粗居右" color="i红色" bold="true" size="14" align="right" filter="黑色边框"/>
+		<format id="宋体白色14加粗居右" font="宋体" align="right" size="14" color="0xffffff" filter="黑色边框" bold="true"/>
+		<format id="宋体白色14加粗居中" font="宋体" align="center" size="14" color="0xffffff" filter="黑色边框" bold="true"/>
+		<format id="宋体橙色12" font="宋体" size="12" color="0xf76900" filter="黑色边框" />
+		<format id="宋体橙色14" font="宋体" size="14" color="0xf76900" filter="黑色边框" />
+		<format id="宋体橙色12居中" font="宋体" size="12" color="0xf76900" filter="黑色边框" align="center" />
+		
+		<format id="数值变化up样式" font="宋体" size="12" color="0x00ff00" />
+		<format id="数值变化down样式" font="宋体" size="12" color="0xff0000" />
+		
+		<format id="黄色宋体14加粗居中" font="宋体" size="14" bold="true" align="center" color="0xffff00" filter="黑色边框3"/>
+		<format id="橘色宋体12" font="宋体" size="12" color="0xFCDBB0" filter="黑色边框3"/>
+		<format id="橘色宋体12居中" font="宋体" size="12" align="center" color="0xFCDBB0" filter="黑色边框3"/>
+		<format id="橘色宋体12右对齐" font="宋体" size="12" color="0xFCDBB0" filter="黑色边框3" align="right"/>
+		<format id="橘色宋体14" font="宋体" size="14" color="0xFCDBB0" filter="黑色边框3"/>
+		<format id="橘色宋体16" font="宋体" size="16" color="0xFCDBB0" filter="黑色边框3"/>
+		<format id="橘色宋体12加粗" font="宋体" size="12" color="0xFCDBB0" filter="黑色边框3" bold="true"/>
+		
+		<format id="宋体白色12indent24" font="宋体" size="12" leading="4" color="0xffffff" filter="黑色边框3" indent="24"/>
+
+		<format id="宋体黑色16粗体" bold="true" font="宋体" size="16" color="0x000000" filter="黑色边框3"/>
+		
+		<format id="宋体白色22间距5" font="宋体" size="22" leading="5" color="0xffffff" filter="黑色边框3"/>
+
+		<format id="小脉点左" font="宋体" size="12" color="0xffcc00" filter="黑色边框3"/>
+		<format id="小脉点右" font="宋体" size="12" color="0x17BDF9" align="right" filter="黑色边框3"/>
+		
+		<format id="武学左" font="宋体" size="12" color="0xffd06a" align="right" filter="黑色边框3"/>
+		<format id="武学右" font="宋体" size="12" color="0xff6a19" filter="黑色边框3"/>
+
+		<format id="升级技能" font="宋体" size="12" color="0xffbe57" filter="金色边框"/>
+		<format id="工房按钮" font="宋体" size="12" color="0xffbe57" filter="道具培养边框"/>
+
+		<format id="名字" font="宋体" size="12" color="0xffb400" filter="黑色边框3"/>
+		<format id="等级" font="宋体" size="12" bold="true" color="0x47c91f" filter="黑色边框3"/>
+		<format id="战功字体" font="宋体" size="14" color="0x00c6ff"  bold="true" filter="战功包边"/>
+		<format id="技能KEY" font="宋体" size="14" bold="true" color="0xffb400" filter="黑色边框3"/>
+		<format id="技能名称" font="宋体" size="12" color="0xffb400" filter="黑色边框3" align="center"/>
+		<format id="技能名称_左" font="宋体" size="12" color="0xffb400" filter="黑色边框3"/>
+		<format id="解锁" font="宋体" size="12" align="center" color="0xffb400" filter="黑色边框3"/>
+		<format id="蓝色标题" font="宋体" size="16" bold="true" color="i蓝色1"/>
+		<format id="ff670c_12_左" font="宋体" size="12"  color="0xff670c" filter="黑色边框3"/>
+		<format id="ecd0ab_12_左" font="宋体" size="12"  color="0xecd0ab" filter="黑色边框3"/>
+		<format id="ffb400_12" font="宋体" size="12" color="0xffb400" filter="黑色边框3"/>
+		
+		
+
+		<format id="ffe4c3_12_居中" font="宋体" size="12" color="0xffe4c3" align="center" filter="黑色边框3"/>
+		<format id="978773_12_居中" font="宋体" size="12" color="0x978773" align="center" filter="黑色边框3"/>
+		<format id="978773_14_居中" font="宋体" size="14" color="0x978773" align="center" filter="黑色边框3"/>
+
+		<format id="f5cfb3_12_居中" font="宋体" size="12" color="0xf5cfb3" align="center" filter="黑色边框3"/>
+		<format id="dc7c00_12" font="宋体" size="12" color="0xdc7c00" filter="黑色边框3"/>
+		<format id="fce5b8_12" font="宋体" size="12" color="0xfce5b8" filter="黑色边框3"/>
+		<format id="fce5b8_12_居中" font="宋体" size="12" color="0xfce5b8" filter="黑色边框3" align="center"/>
+		<format id="橘黄色宋体12加粗" font="宋体" size="12" bold="true" color="0xFC930B" filter="黑色边框3"/>
+		<format id="876b55_12_居中" font="宋体" size="12" color="0x876b55" align="center" filter="黑色边框3"/>
+		<format id="e9d5a4_12_居中" font="宋体" size="12" color="0xe9d5a4" align="center" filter="黑色边框3"/>
+		<format id="ffbe57_12_居中" font="宋体" size="12" color="0xffbe57" align="center" filter="黑色边框3"/>
+		<format id="队伍金色字体" font="宋体" size="12" color="0xf8d40e" align="center" filter="黑色边框3"/>
+		<format id="队伍金色字体_14" font="宋体" size="14" color="0xf8d40e" align="left" filter="黑色边框3"/>
+		<format id="金色字体_left" font="宋体" size="12" color="0xf8d40e" align="left" filter="黑色边框3"/>
+		<format id="队伍红棕色字体" font="宋体" size="12" color="0xb5550e" align="center" filter="黑色边框3"/>
+		<format id="队伍粉红色字体" font="宋体" size="12" color="0xf76a6e" align="center" filter="黑色边框3"/>
+		<format id="f1ab03_12_居中" font="宋体" size="12" color="0xf1ab03" align="center" filter="黑色边框3"/>
+		<format id="f1ab03_12_右对齐" font="宋体" size="12" color="0xf1ab03" align="right" filter="黑色边框3"/>
+
+
+		<format id="队伍绿色字体" font="宋体" size="14" color="0x2feb16" align="center" filter="黑色边框3"/>
+		<format id="队伍金色14字体" font="宋体" size="14" color="0xf8d40e" align="center" filter="黑色边框3"/>
+		<format id="队伍红色字体" font="宋体" size="14" color="0xf05916" align="center" filter="黑色边框3"/>
+		<format id="队伍深红色字体" font="宋体" size="14" color="0xe50000" align="center" filter="黑色边框3"/>
+		<format id="ffbe57_14_居中" font="宋体" size="14" color="0xffbe57" align="center" filter="黑色边框3"/>
+
+		<format id="ff7a21_12_居中" font="宋体" size="12" color="0xff7a21" align="center" filter="黑色边框3"/>
+		<format id="f89802_12_居中" font="宋体" size="12" color="0xf89802" align="center" filter="黑色边框3"/>
+		<format id="fdd69a_12_居中" font="宋体" size="12" color="0xfdd69a" align="center" filter="黑色边框3"/>
+		<format id="fdd59a_12" font="宋体" size="12" color="0xfdd59a" filter="黑色边框3"/>
+		<format id="fdd59a_12_leading6" font="宋体" size="12" color="0xfdd59a" filter="黑色边框3" leading="6"/>
+		<format id="fdd59a_12_居中" font="宋体" size="12" color="0xfdd59a" align="center" filter="黑色边框3"/>
+		<format id="efb55a_12" font="宋体" size="12" color="0xefb55a" filter="黑色边框3"/>
+		<format id="efb55a_12_居中" font="宋体" size="12" color="0xefb55a" align="center"  filter="黑色边框3"/>
+		<format id="按钮标签_efb55a_12_居中" font="宋体" size="12" color="0xefb55a" align="center"  filter="按钮标签边框"/>
+		
+		<format id="0xe50000_14_左" font="宋体" size="14"  color="0xe50000" filter="黑色边框3"/>
+		<format id="0x2feb16_14_左" font="宋体" size="14"  color="0x2feb16" filter="黑色边框3"/>
+		
+		<format id="宋体灰色12" font="宋体" size="12" color="0x6d6c6a" filter="黑色边框" ieading="20"/>
+		<format id="ffbe57_14" font="宋体" size="14" color="0xffbe57" filter="黑色边框"/>
+		
+		<format id="商城14蓝色商品名" font="宋体" size="14" bold="true" align="center" color="0x2089ff" filter="黑色边框"/>
+		<format id="商城14蓝色商品名_右对齐" font="宋体" size="14" bold="true" align="right" color="0x2089ff" filter="黑色边框"/>
+		<format id="商城14蓝色商品名_左对齐" font="宋体" size="14" bold="true" color="0x2089ff" filter="黑色边框"/>
+		<format id="2089ff_左对齐" font="宋体" size="14" color="0x2089ff" filter="黑色边框"/>
+		<format id="2089ff_右对齐" font="宋体" size="14" align="right" color="0x2089ff" filter="黑色边框"/>
+		
+		<format id="设置宋体12亮金加粗" font="宋体" size="12" color="0xfde3ac" bold="true" filter="亮金边框"/>
+		<format id="设置宋体12暗金加粗" font="宋体" size="12" color="0xffc453" bold="true" filter="暗金边框"/>
+
+		<format id="fa9600_12_居中" font="宋体" size="12" align="center" color="0xfa9600" filter="黑色边框"/>
+		<format id="fa9600_14_居中" font="宋体" size="14" align="center" color="0xfa9600" filter="黑色边框"/>
+		<format id="fa9600_14" font="宋体" size="14" color="0xfa9600" filter="黑色边框"/>
+
+		<format id="b93ff8_14" font="宋体" size="14" color="0xb93ff8" filter="黑色边框"/>
+		<format id="b93ff8_12" font="宋体" size="12" color="0xb93ff8" filter="黑色边框"/>
+		<format id="b93ff8_12_leading6" font="宋体" size="12" color="0xb93ff8" filter="黑色边框" leading="6"/>
+		<format id="b93ff8_12_center" font="宋体" size="12" color="0xb93ff8" filter="黑色边框" align="center" />
+		<format id="b93ff8_14_right" font="宋体" size="14" align="right" color="0xb93ff8" filter="黑色边框"/>
+
+		<format id="e98e19_12" font="宋体" size="12" color="0xe98e19" filter="黑色边框"/>
+		<format id="e98e19_14_left" font="宋体" size="14" color="0xe98e19" filter="黑色边框"/>
+		<format id="e98e19_14_right" font="宋体" size="14" align="right" color="0xe98e19" filter="黑色边框"/>
+		
+		<format id="提示说明文字" font="宋体" size="12" color="0xe0ceaf" filter="黑色边框"/>
+		<format id="提示双击装备文字" font="宋体" size="12" color="0x2ba089" filter="黑色边框"/>
+		<format id="提示价格" font="宋体" size="12" color="0xe07c59" filter="黑色边框"/>
+		<format id="0x2feb16_12_左" font="宋体" size="12"  color="0x2feb16" filter="黑色边框"/>
+		<format id="0x2feb16_14_左" font="宋体" size="14"  color="0x2feb16" filter="黑色边框"/>
+		<format id="0x13664c_12_左" font="宋体" size="12"  color="0x13664c" filter="黑色边框"/>
+
+		<format id="5a320c_12_leading6" font="宋体" size="12" color="0x5a320c" leading="6" />
+		<format id="fff4de_14_加粗居中" font="宋体" size="14" bold="true" color="0xfff4de" filter="黑色边框" align="center"/>
+
+		<format id="ffdfac_12_居中" font="宋体" size="12" align="center" color="0xffdfac" filter="231207边框"/>
+
+		<format id="黑体白色20" font="黑体" size="20" color="0xffffff" filter="黑色边框"/>
+
+		<format id="86603f_12" font="宋体" size="12" color="0x86603f" filter="黑色边框" />
+		<format id="86603f_12_居中" font="宋体" size="12" color="0x86603f" filter="黑色边框" align="center"/>
+		<format id="575757_12_居中" font="宋体" size="12" color="0x575757" filter="黑色边框" align="center"/>
+
+		<format id="e8ddcb_12_居中" font="宋体" size="12" color="0xe8ddcb" filter="170702边框" align="center"/>
+		<format id="e8ddcb_12" font="宋体" size="12" color="0xe8ddcb" filter="170702边框" />
+
+		<format id="e8dcbd_14_居中" font="宋体" size="14" color="0xe8dcbd" filter="170702边框" align="center"/>
+		
+		<format id="骑士团名称字体" font="黑体" bold="true" size="18" color="0xf4dfcd" filter="36150a边框" align="center"/>
+		<format id="vip特权描述" font="宋体" size="12" color="0x1aabd5" filter="vip特权描述边框"/>
+		
+		<format id="fmt_03dd27_12" font="宋体" size="12" color="0x03dd27" filter="ftr_19041a边框"/>
+		<format id="宋体灰色14" font="宋体" size="14" color="0x6d6c6a" filter="黑色边框" ieading="20"/>
+		<format id="钻石文字字体" font="宋体" size="12" color="0x02e4f8" filter="黑色边框" align="center"/>
+		<format id="钻石文字字体left" font="宋体" size="12" color="0x02e4f8" filter="黑色边框" align="left"/>
+		<format id="商品价格字体" font="宋体" size="12" color="0xff7200" filter="黑色边框" align="center"/>
+		<format id="商品计时字体" font="宋体" size="12" color="0xfdd59a" filter="黑色边框" align="center"/>
+
+		<format id="0cb2ff黑体24" font="黑体" size="24" color="0x0cb2ff" filter="黑色边框" />
+		<format id="翅膀属性12居中" font="宋体" size="12" color="0xdacbc4" align="center" filter="黑色边框"/>
+		<format id="翅膀培养12" font="宋体" size="12" color="0x00ff12" align="left" filter="ftr_19041a边框"/>
+		<format id="翅膀培养12居中" font="宋体" size="12" color="0x00ff12" align="center" filter="ftr_19041a边框"/>
+		<format id="道具培养" font="宋体" size="12" color="0x128eee" filter="道具培养边框"/>
+		<format id="6d6c6a_14居中" font="宋体" size="14" color="0x6d6c6a" filter="黑色边框" align="center"/>
+		<format id="翅膀祝福" font="宋体" size="12" color="0xfdd59a" filter="战功包边" align="center"/>
+
+		<format id="fde3ac_12居中" font="宋体" size="12" color="0xfde3ac" filter="黑色边框" align="center"/>
+		<format id="807d7c_12_居中_加粗" font="宋体" size="12" color="0x807d7c" bold="true" filter="黑色边框" align="center"/>
+		<format id="03dd27_12_居中_加粗" font="宋体" size="12" color="0x03dd27" bold="true" filter="ftr_19041a边框" align="center"/>
+
+		<format id="ff7200_12_粗体" font="宋体" size="12" bold="true" color="0xff7200" filter="黑色边框" align="center"/>
+		<format id="02e4f8_12_粗体" font="宋体" size="12" bold="true" color="0x02e4f8" filter="黑色边框" align="center"/>
+		<format id="4e4e4e_14" font="宋体" size="14" color="0x4e4e4e" filter="黑色边框" align="center"/>
+		<format id="f79f13_12_left" font="宋体" size="12" color="0xf79f13" filter="黑色边框" align="left"/>
+		<format id="fde3ac_12_right" font="宋体" size="12" color="0xfde3ac" filter="黑色边框" align="right"/>
+		
+		<format id="role_name_style1" font="宋体" size="12" color="0xfee7b9" filter="role_name_sytle_filter" align="center" bold="true" />
+
+		<format id="0x2089ff_12" font="宋体" size="12" color="0x2089ff" filter="黑色边框" />
+		<format id="4e4e4e_12" font="宋体" size="12" color="0x4e4e4e" filter="黑色边框" />
+		<format id="ff8400_12" font="宋体" size="12" color="0xff8400" filter="黑色边框"/>
+	  	<format id="36e314_12" font="宋体" size="12" color="0x36e314" filter="黑色边框"/>
+	  	<format id="36e314_12_right" font="宋体" size="12" color="0x36e314" align="center" filter="黑色边框"/>
+	  	<format id="36e314_14" font="宋体" size="14" color="0x36e314" filter="黑色边框"/>
+	  	<format id="36e314_18" font="宋体" size="18" color="0x36e314" bold="true" filter="黑色边框"/>
+		<format id="a03506_12" font="宋体" size="12" color="0xa03506" filter="黑色边框"/>
+
+		<format id="f79f13_14_center" font="宋体" bold="true" size="14" color="0xf79f13" filter="黑色边框" align="center"/>
+		<format id="0x2089ff_12_center" font="宋体" size="12" color="0x2089ff" filter="黑色边框" align="center"/>
+	  	<format id="36e314_12_center" font="宋体" size="12" color="0x36e314" filter="黑色边框" align="center"/>
+	  	<format id="ffe5bc_12" font="宋体" size="12" color="0xffe5bc" filter="黑色边框" />
+	  	<format id="ffb238_12" font="宋体" size="12" color="0xffb238" filter="黑色边框" />
+	  	<format id="808080_12_center" font="宋体" size="12" color="0x808080" filter="黑色边框" align="center"/>
+	  	<format id="808080_12" font="宋体" size="12" color="0x808080" filter="黑色边框" />
+
+	  	<format id="fffdd6_12_居中" font="宋体" size="12" color="0xfffdd6" align="center" filter="黑色边框3"/>
+
+
+	  	<format id="ffe4b4_12" font="宋体" size="12" color="0xffe4b4" align="left" filter="黑色边框3"/>
+		<format id="fee7b9_12" font="宋体" size="12" color="0xfee7b9" filter="黑色边框3" align="left" />
+
+	  	<format id="1dd7ff_12_居中" font="宋体" size="12" color="0x1dd7ff" align="center" filter="黑色边框3"/>
+	  	<format id="ffd800_12_居中" font="宋体" size="12" color="0xffd800" align="center" filter="黑色边框3"/>
+	  	<format id="ff5ca9_12_居中" font="宋体" size="12" color="0xff5ca9" align="center" filter="黑色边框3"/>
+
+	  	<format id="433ff8_12" font="宋体" size="12" color="0x433ff8" filter="黑色边框" />
+
+	  	<format id="0793ff_12_居中" font="宋体" size="12" color="0x0793ff" align="center" filter="黑色边框" />
+	  	<format id="fff600_12_居中" font="宋体" size="12" color="0xfff600" align="center" filter="黑色边框" />
+	  	<format id="195516_12" font="宋体" size="12" color="0x195516" filter="黑色边框" />
+	  	<format id="efb55a_12居中" font="宋体" size="12" align="center" color="0xefb55a" filter="黑色边框" />
+	  	<format id="ff021a_12居中" font="宋体" size="12" align="center" color="0xff021a" filter="黑色边框" />
+
+	  	<format id="f1ff0c_12" font="宋体" size="12" color="0xf1ff0c" filter="黑色边框" />
+	  	<format id="ffeb09_12" font="宋体" size="12" color="0xffeb09" filter="黑色边框" />
+	  			<format id="fde3ac_12_left" font="宋体" size="12" color="0xfde3ac" filter="黑色边框" align="left" leading="4"/>
+
+	  	<format id="fff266_12居中" font="宋体" size="12" align="center" color="0xfff266" filter="黑色边框" />
+	  	<format id="f85d00_12_居中" font="宋体" size="12" align="center" color="0xf85d00" filter="黑色边框" />
+
+	  	<format id="89814e_12_left" font="宋体" size="12" align="left" color="0x89814e" filter="黑色边框" />
+	</formats>
+</xml>

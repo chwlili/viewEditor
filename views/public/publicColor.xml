@@ -1,0 +1,208 @@
+<xml>
+	<colors>		
+		<color id="#白色">#ffffff</color>
+		<color id="i白色">0xffffff</color>
+	
+		<color id="#绿色">#3cff00</color>
+		<color id="i绿色">0x3cff00</color>
+		
+		<color id="#红色">#ff0000</color>
+		<color id="i红色">0xff0000</color>
+
+		<color id="#墨红色">#2d0303</color>
+		<color id="i墨红色">0x2d0303</color>
+		
+		<color id="#暗金色">#dfb067</color>
+		<color id="i暗金色">0xdfb067</color>
+
+		<color id="#黄色">#ffe168</color>
+		<color id="i黄色">0xffe168</color>
+		
+		<color id="#暗黄色">#d7d096</color>
+		<color id="i暗黄色">0xd7d096</color>
+
+		<color id="#金色">#ffd460</color>
+		<color id="i金色">0xffd460</color>
+
+		<color id="#浅灰色">#aaaaaa</color>
+		<color id="i浅灰色">0xaaaaaa</color>
+
+		<color id="#灰色">#d3d3d3</color>
+		<color id="i灰色">0xd3d3d3</color>
+
+		<color id="#深黄色">#ffcc01</color>
+		<color id="i深黄色">0xffcc01</color>
+
+		<color id="#深灰色">#9a9999</color>
+		<color id="i深灰色">0x9a9999</color>
+		
+		<color id="#亮绿色">#2aff14</color>
+		<color id="i亮绿色">0x2aff14</color>
+		  
+		<color id="#浅黄色">#fff1a2</color>
+		<color id="i浅黄色">0xfff1a2</color>
+		
+		<color id="#橙色">#ff6000</color>
+		<color id="i橙色">0xff6000</color>
+		
+		<color id="#橙红色">#ff7101</color>
+		<color id="i橙红色">0xff7101</color>
+		
+		<color id="#蓝色">#00aeff</color>
+		<color id="i蓝色">0x00aeff</color>
+
+		<color id="#蓝色1">#2de9ff</color>
+		<color id="i蓝色1">0x2de9ff</color>
+		
+		<color id="#粉色">#ff5ca9</color>
+		<color id="i粉色">0xff5ca9</color>
+		
+		<color id="#橘黄色">#ff8400</color>
+		<color id="i橘黄色">0xff8400</color>
+		
+		<color id="#亮蓝色">#00f6ff</color>
+		<color id="i亮蓝色">0x00f6ff</color>
+		
+		<color id="#任务npc名字粉">#ff06d3</color>
+		<color id="i任务npc名字粉">0xff06d3</color>
+		
+		<color id="#纯绿色">#00ff00</color>
+		<color id="i纯绿色">0x00ff00</color>
+		
+		
+		
+		
+		
+		
+		
+		
+		<!--
+		颜色注释
+		/**
+		 * 白色  <font color="#ffffff">█</font>
+		 * 0xffffff
+		 */
+		static public const iWHITE:int =  0xffffff ;
+		
+		/**
+		 * 绿色  <font color="#3cff00">█</font>： 条件满足时显示
+		 * 0x3cff00
+		 */
+		static public const iGREEN:int =  0x3cff00 ;
+		
+		/**
+		 * 红色  <font color="#ff0000">█</font>： 条件不满足时显示/系统公告
+		 * 0xff0000
+		 */
+		static public const iRED:int =  0xff0000 ;
+		
+		/**
+		 * 墨红色  <font color="#2d0303">█</font>： 2级底板上，冒号前的标题颜色
+		 * 0x2d0303
+		 */
+		static public const iBLACKRED:int =  0x2d0303 ;
+		
+		/**
+		 * 暗金色  <font color="#dfb067">█</font>： 3级底板上，冒号前的标题颜色
+		 * 0xdfb067
+		 */
+		static public const iBLACKGOLD:int =  0xdfb067 ;
+		
+		/**
+		 * 黄色  <font color="#ffe168">█</font>： 2，3级底板上，说明文字/括号内 颜色
+		 * 0xffe168
+		 */
+		static public const iYELLOW:int =  0xffe168 ;
+		
+		/**
+		 * 暗黄色  <font color="#d7d096">█</font>： 顶部红条标题颜色
+		 * 0xd7d096
+		 */
+		static public const iBLACKYELLOW:int =  0xd7d096 ;
+		
+		/**
+		 * 金色  <font color="#ffd460">█</font>： 标题 江湖评价 颜色
+		 * 0xffd460
+		 */
+		static public const iGOLD:int =  0xffd460 ;
+		
+		/**
+		 * 浅灰色  <font color="#aaaaaa">█</font>： 工房等级不足
+		 * 0xaaaaaa
+		 */
+		static public const iLIGHTGRAY:int =  0xaaaaaa ;
+		
+		/**
+		 * 灰色  <font color="#d3d3d3">█</font>： 技能书未获得
+		 * 0xd3d3d3
+		 */
+		static public const iGRAY:int =  0xd3d3d3 ;
+		
+		/**
+		 * 深黄色  <font color="#ffcc01">█</font>： 任务标题
+		 * 0xffcc01
+		 */
+		static public const iDEEPYELLOW:int =  0xffcc01 ;
+		
+		/**
+		 * 深灰色  <font color="#9a9999">█</font>： 离线
+		 * 0x9a9999
+		 */
+		static public const iDEEPGRAY:int =  0x9a9999 ;
+		
+		/**
+		 * 亮绿色  <font color="#2aff14">█</font>： 任务完成/聊天 玩家自己名字/联盟聊天
+		 * 0x2aff14
+		 */
+		static public const iLIGHTGREN:int =  0x2aff14 ;
+		
+		/**
+		 * 浅黄色  <font color="#fff1a2">█</font>： 聊天 其他玩家名字
+		 * 0xfff1a2
+		 */
+		static public const iLIGHTYELLOW:int =  0xfff1a2 ;
+		
+		/**
+		 * 橙色  <font color="#ff6000">█</font>： 聊天 任务属性相关提升消息
+		 * 0xff6000
+		 */
+		static public const iORANGE:int =  0xff6000 ;
+		
+		/**
+		 * 蓝色  <font color="#00aeff">█</font>： 聊天 战斗或活动相关消息
+		 * 0x00aeff
+		 */
+		static public const iBLUE:int =  0x00aeff ;
+		
+		/**
+		 * 粉色  <font color="#ff5ca9">█</font>： 聊天 好友和其他类提示信息
+		 * 0xff5ca9
+		 */
+		static public const iPINK:int =  0xff5ca9 ;
+		
+		/**
+		 * 橘黄色  <font color="#ff8400">█</font>： 日常精英任务
+		 * #ff8400
+		 */
+		static public const iLIGHTORANGE:int = 0xff8400;
+		
+		/**
+		 * 亮蓝色  <font color="#00f6ff">█</font>： 任务地名色
+		 * #ff8400
+		 */
+		static public const iLIGHTBLUE:int = 0x00f6ff;
+		
+		/**
+		 * 任务npc名字粉  <font color="#ff06d3">█</font>： 任务npc名字粉
+		 * #ff06d3
+		 */
+		static public const iQUESTNPCPINK:int = 0xff06d3;
+		
+		/**
+		 * 纯绿色  <font color="#00ff00">█</font>： 纯绿色
+		 * #00ff00
+		 */
+		static public const iPUREGREEN:int = 0x00ff00;
+		-->
+	</colors>
+</xml>

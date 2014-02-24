@@ -1,0 +1,13 @@
+<xml>
+	
+	<bitmaps>
+		<bitmap id="自动寻路中" src="自动寻路中.png"/>
+	</bitmaps>
+	
+	<controls>
+		<box id="自动寻路中" width="360" height="92" center="0" middle="-200">
+			<image bmp="自动寻路中" width="360" height="92" center="0" middle="0"/>
+		</box>
+	</controls>
+
+</xml>

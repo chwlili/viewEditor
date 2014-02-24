@@ -1,0 +1,47 @@
+<xml>
+
+	<texts>
+		<text id="无法连接服务器">无法连接服务器</text>
+		<text id="登录失败">登录失败</text>
+		<text id="帐号封停">您的帐号已被封停！</text>
+		
+		<text id="服务器已断开连接">服务器已断开连接</text>
+		<text id="被迫下线">您的帐号在别处上线，您被迫下线。</text>
+		
+		<text id="确定">确定</text>
+		<text id="取消">取消</text>
+		
+		<text id="角色名称不能为空">角色名称不能为空！</text>
+		<text id="角色名称过长">角色名称过长！</text>
+		<text id="角色名称过短">角色名称过短！</text>
+		<text id="角色名称无效">角色名称无效！</text>
+		<text id="角色名称已经存在">角色名称已经存在！</text>
+		<text id="创建角色失败">创建角色失败！</text>
+
+		<text id="jobKey_1">剑士</text>
+		<text id="jobKey_2">刺客</text>
+		<text id="jobKey_3">战士</text>
+		<text id="jobKey_4">骑士</text>
+		
+		<text id="itemDataKey_8">生命上限</text>
+		<text id="itemDataKey_9">物理攻击</text>
+		<text id="itemDataKey_10">物理防御</text>
+		<text id="itemDataKey_11">魔法攻击</text>
+		<text id="itemDataKey_12">魔法防御</text>
+
+		<text id="itemDataKey_15">暴击</text>
+		<text id="itemDataKey_16">韧性</text>
+		<text id="itemDataKey_17">破击</text>
+		<text id="itemDataKey_18">格挡</text>
+		
+		<text id="绿装">绿装</text>
+		<text id="蓝装">蓝装</text>
+		<text id="紫装">紫装</text>
+		<text id="黄装">黄装</text>
+		<text id="橙装">橙装</text>
+		<text id="红装">红装</text>
+		
+		<text id="poplistTf">["查看资料","邀请组队","发送私聊","加为好友","屏蔽发言","复制姓名"]</text>
+	</texts>
+	
+</xml>

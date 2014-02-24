@@ -1,0 +1,90 @@
+<xml name="背包">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/controls/scroller/Scroller.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	<swfs>
+   		<swf id="背包开锁" src="../swfMotion/背包开锁.swf"/>
+ 	</swfs>
+	<bitmaps>
+		<bitmap id="背包.bmp" src="imgs/背包.png"/>
+		<bitmap id="选中框" src="imgs/物品框_外框.png"/>
+
+
+		<bitmap id="整理01.bmp" src="imgs/1号按钮01.png"/>
+		<bitmap id="整理02.bmp" src="imgs/1号按钮02.png"/>
+		<bitmap id="整理03.bmp" src="imgs/1号按钮03.png"/>
+		<bitmap id="底框格段条.bmp" src="imgs/底框格段条.png"/>
+    	<bitmap id="物品框_锁_连续开亮" src="imgs/物品框_锁_连续开亮.png" />
+		<bitmap id="scrollbar背景1.bmp" src="imgs/1.png"/>
+		<bitmap id="scrollbar滑块1.bmp" src="imgs/21.png"/>
+		<bitmap id="scrollbar滑块2.bmp" src="imgs/22.png"/>
+		<bitmap id="scrollbar滑块3.bmp" src="imgs/23.png"/>
+		<bitmap id="scrollbar上箭头1.bmp" src="imgs/31.png"/>		
+		<bitmap id="scrollbar上箭头2.bmp" src="imgs/32.png"/>		
+		<bitmap id="scrollbar上箭头3.bmp" src="imgs/33.png"/>	
+		<bitmap id="scrollbar下箭头1.bmp" src="imgs/41.png"/>		
+		<bitmap id="scrollbar下箭头2.bmp" src="imgs/42.png"/>		
+		<bitmap id="scrollbar下箭头3.bmp" src="imgs/43.png"/>		
+		<bitmap id="蓝宝石图标_最小" src="imgs/蓝宝石图标_最小.png"/>
+    	<bitmap id="快捷任务区中间横条" src="imgs/快捷任务区中间横条.png" />
+	</bitmaps>
+	<texts>
+  		<text id="小时">小时</text>
+  		<text id="分">分</text>
+   		<text id="秒">秒</text>
+   		<text id="花费钻石购买背包"><![CDATA[花费<font color='#60ff4e'>$1</font>钻石购买<font color='#60ff4e'>$2</font>格背包]]></text>
+  		<text id="花费">花费</text>
+  		<text id="钻石购买">钻石购买</text>
+   		<text id="格背包">格背包</text>
+  		<text id="整理">整   理</text>
+   		<text id="出售">出   售</text>
+ 
+  	</texts>
+	<controls>
+		<window id="main" width="330" height="490" >	
+			<ref ref="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+
+			<image bmp="knightFrame2" grid="30,47,29,49" left="9" top="50" width="311" height="430" />
+			<!-- <ref name="scroller" ref="Scroller" width="350" height="345" left="16" top="55" /> -->
+			<image bmp="底框格段条.bmp" left="13" top="430" width="303" height="1" />
+			<image bmp="背包.bmp" left="123" top="10" width="77" height="27" />
+<!-- 				<button name="整理" x="48" y="440" width="82" height="28">
+					<state frame="1" back="整理01.bmp" />
+					<state frame="2" back="整理02.bmp" />
+					<state frame="3" back="整理03.bmp" />
+				</button>
+				<button name="出售" x="196" y="440" width="82" height="28">
+					<state frame="1" back="整理01.bmp" />
+					<state frame="2" back="整理02.bmp" />
+					<state frame="3" back="整理03.bmp" />
+				</button> -->
+			<labelButton name="整理" width="82" height="28" x="48" y="440" label="整理">
+					<state frame="1" back="整理01.bmp" format="ffbe57_12_居中"/>
+					<state frame="2" back="整理02.bmp" format="ffbe57_12_居中"/>
+					<state frame="3" back="整理03.bmp" format="ffbe57_12_居中"/>
+			</labelButton>
+			<labelButton name="出售" width="82" height="28" x="196" y="440" label="出售">
+					<state frame="1" back="整理01.bmp" format="ffbe57_12_居中"/>
+					<state frame="2" back="整理02.bmp" format="ffbe57_12_居中"/>
+					<state frame="3" back="整理03.bmp" format="ffbe57_12_居中"/>
+			</labelButton>
+			<label name="整理倒计时" height="28" width="82"  x="48" y="444" format="ffbe57_12_居中"/>
+
+			<swf name="背包开锁动画" bmp="背包开锁" />
+		</window>
+		<box id="背包Tip" width="180" height="95">
+     		<image bmp="mapTipsBoard" grid="50,50,50,50" left="0" top="0" right="0" bottom="0" />
+     		<label name="时间" height="40" width="180" top="20" left="30" />
+     		<image bmp="快捷任务区中间横条" x="0" y="60" width="180" height="3" />
+     		<label name="开启花费" height="20" width="180" top="65" left="30" />
+     		<image bmp="蓝宝石图标_最小" left="135" top="65" width="25" height="25" />
+		</box>
+	</controls>
+</xml>

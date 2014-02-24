@@ -1,0 +1,7 @@
+<xml name="信箱">
+	<swfs>
+		<swf id="btnLib" src="../swfs/btnLib.swf"/>
+		<swf id="frameLib" src="../swfs/frameLib.swf"/>
+		<swf id="mail" src="../swfs/mail.swf"/>
+	</swfs>
+</xml>

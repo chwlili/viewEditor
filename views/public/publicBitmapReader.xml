@@ -1,0 +1,34 @@
+<xml>
+	<depends>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+	</depends>
+	
+	<bitmapReaders>
+		<bitmapReader id="chatPop.br" bmp="chatPop" grid="0,0,0,0"/>
+		<bitmapReader id="newButton3_1.br" bmp="newButton3_1"/>
+		<bitmapReader id="newButton3_2.br" bmp="newButton3_2"/>
+
+		<bitmapReader id="newButton1_1.br" bmp="方角普通按钮1"/>
+		<bitmapReader id="newButton1_2.br" bmp="方角普通按钮2"/>
+
+		<bitmapReader id="WindowToggleButton1.br" bmp="标准标签背景1"/>
+		<bitmapReader id="WindowToggleButton2.br" bmp="标准标签背景"/>
+		<bitmapReader id="上方横条.br" bmp="上方横条.frame" grid="20,0,20,0"/>
+
+		<bitmapReader id="2级底板.br" bmp="2级底板.bmp" grid="40,40,40,40"/>
+
+		<bitmapReader id="scrollbar背景.br" bmp="scrollbar背景.bmp"/>
+		<bitmapReader id="scrollbar滑块.br" bmp="scrollbar滑块.bmp"/>
+		<bitmapReader id="scrollbar上箭头.br" bmp="scrollbar上箭头.bmp"/>
+		<bitmapReader id="scrollbar下箭头.br" bmp="scrollbar下箭头.bmp"/>
+		<bitmapReader id="list背景.br" bmp="list背景.bmp"/>
+
+		<bitmapReader id="1级底板2层.br" bmp="1级底板2层.bmp"/>
+
+		<bitmapReader id="backHLine.br" bmp="backHLine"/>
+		<bitmapReader id="文字背景.br" bmp="文字背景.bmp" grid="11,8,11,8"/>
+
+	</bitmapReaders>	
+	
+</xml>	

@@ -1,0 +1,8 @@
+<xml>
+	<depends>
+		<depend src="text.xml"/>
+	</depends>
+	<swfs>
+		<swf id="view" src="../../swfs/PlayerPanel.swf"/>
+	</swfs>
+</xml>

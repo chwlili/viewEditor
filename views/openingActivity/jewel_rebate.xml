@@ -1,0 +1,206 @@
+<xml desc="钻石返利">
+	<depends>
+		<depend src="/public/controls/window/WindowBack.xml" />
+		<depend src="/public/controls/window/HelpButton.xml" />
+		<depend src="/public/controls/window/CloseButton.xml" />
+		<depend src="/public/publicFrames.xml" />
+		<depend src="/public/publicFormats.xml" />
+		<depend src="/public/publicNumimage.xml" />
+	</depends>
+	<texts>
+		<text id="活动提示_rebate"><![CDATA[<p align='center'><font color='#fdd59a'>活动期间充钻石，活动结束领返利！</font></p>]]></text>
+		<text id="活动时间_rebate"><![CDATA[<font color='#fdd59a'>活动时间: </font><font color='#36e314'>$1</font>]]></text>
+		<text id="活动剩余时间_rebate"><![CDATA[<font color='#fdd59a'>活动剩余时间: </font><font color='#36e314'>$1</font>]]></text>
+		
+		<text id="活动时间截至_rebate"><![CDATA[<p align='center'><font color='#f8d40e' size="12"><font color='#36e314'>$1</font>天后，每日登录时可在本页面领取钻石返利！</font></p>]]></text>
+		<text id="钻石_rebate">$1钻石</text>
+		
+		<text id="活动需求_冲级_cell"><![CDATA[<p align="center"><font color='#e8dcbd'>玩家等级达到 </font><font color="#36e314">$1级</font></p>]]></text>
+		
+		<text id="活动需求_冲级">活动需求</text>
+		<text id="奖励_冲级">奖励</text>
+		<text id="剩余数量_冲级">剩余数量</text>
+		<text id="已领取">已领取</text>
+		<text id="可享第x档返利">可享第 $1 档返利</text>
+		
+	</texts>
+	
+	<bitmaps>
+		<bitmap id="渐变条" src="imgs01/渐变条.png"/>
+		<bitmap id="返钻大图" src="imgs01/钻石返利大图_无小字.jpg"/>
+		<bitmap id="全服冲级" src="imgs01/全服冲级.jpg"/>
+		<bitmap id="全服冲级表格头" src="imgs01/全服冲级表格头.png"/>
+		
+		<bitmap id="框体右侧装饰" src="imgs01/框体右侧装饰.png"/>
+		<bitmap id="框体左侧装饰" src="imgs01/框体左侧装饰.png"/>
+		
+		<bitmap id="充值按钮01" src="imgs01/快速充值按钮01.png"/>
+		<bitmap id="充值按钮02" src="imgs01/快速充值按钮02.png"/>
+		<bitmap id="充值按钮03" src="imgs01/快速充值按钮03.png"/>
+		<bitmap id="充值" src="imgs01/充值.png"/>
+		
+		<bitmap id="钻石返利已充字" src="imgs01/钻石返利已充字.png"/>
+		<bitmap id="钻石返利再充字" src="imgs01/钻石返利再充字.png"/>
+		<bitmap id="钻石返利钻石字" src="imgs01/钻石返利钻石字.png"/>
+		
+		<bitmap id="隔断条" src="imgs01/隔断条.png"/>
+		
+		<bitmap id="钻石01" src="imgs01/送100.png"/>
+		<bitmap id="钻石02" src="imgs01/送240.png"/>
+		<bitmap id="钻石03" src="imgs01/送700.png"/>
+		<bitmap id="钻石04" src="imgs01/送1600.png"/>
+		<bitmap id="钻石05" src="imgs01/送3600.png"/>
+		<bitmap id="钻石06" src="imgs01/送1万.png"/>
+		
+		<bitmap id="充1_01" src="imgs01/充1000.png"/>
+		<bitmap id="充2_01" src="imgs01/充2000.png"/>
+		<bitmap id="充3_01" src="imgs01/充5000.png"/>
+		<bitmap id="充4_01" src="imgs01/充1万.png"/>
+		<bitmap id="充5_01" src="imgs01/充2万.png"/>
+		<bitmap id="充6_01" src="imgs01/充5万.png"/>
+		
+		<bitmap id="送钻框当前" src="imgs01/送钻框当前.png"/>
+		<bitmap id="送钻框" src="imgs01/送钻框.png"/>
+		<bitmap id="时间数字" src="imgs01/数字.png"/>
+		
+		<bitmap id="奖励图标框" src="imgs01/奖励图标框.png"/>
+		
+		<bitmap id="钻石返利充值框" src="imgs01/钻石返利充值框.png"/>
+		<bitmap id="钻石返利进度条" src="imgs01/钻石返利进度条.png"/>
+		<bitmap id="钻石返利指针" src="imgs01/钻石返利指针.png"/>
+		<bitmap id="快速充值" src="imgs01/快速充值.png"/>
+		<bitmap id="已累充" src="imgs01/已累充.png"/>
+		
+		<bitmap id="今日可领取" src="imgs01/今日可领取.png"/>
+		<bitmap id="明日还可领取" src="imgs01/明日还可领取.png"/>
+		<bitmap id="领取按钮字" src="imgs01/领取按钮字.png"/>
+		
+		<bitmap id="已领取按钮" src="imgs01/已领取按钮.png"/>
+	</bitmaps>
+	
+	<controls>
+		<window id="jewel_rebate_main" width="509" height="500">
+			<ref ref="WindowBack" />
+			<box name="containerBox" center="0" top="40" width="509" height="500" />
+		</window>
+		<box id="jewel_rebate" width="492" height="440" top="45" left="155">
+			<image name="背景" bmp="knightFrame2" left="0" top="0" width="492" height="440" grid="10,10,10,10" />
+			<image name="返钻大图" bmp="返钻大图" center="0" top="4" width="482" height="206" />
+			<label name="活动提示" center="0" top="22" width="492" height="20" html="true" format="36e314_12" text="活动提示_rebate" />
+			
+			<image name="框体右侧装饰" bmp="框体右侧装饰" right="4" top="60" width="14" height="39"/>
+			<image name="框体左侧装饰" bmp="框体左侧装饰" left="4" top="60" width="14" height="39"/>
+			
+			<box name="已充Box" center="1" top="60" width="492" height="30" >
+				<image bmp="钻石返利已充字" left="80" middle="0" width="55" height="23" />
+				<box name="已充num" left="145" middle="0" width="80" height="30"/>
+				<image bmp="钻石返利钻石字" left="240" middle="0" width="44" height="23" />
+				<label name="可获赠lab" left="305" middle="0" width="140" height="20" format="36e314_14" />
+			</box>
+			<box name="再充Box" center="0" top="95" width="492" height="30" >
+				<image bmp="钻石返利再充字" left="80" middle="0" width="55" height="23" />
+				<box name="再充num" left="145" middle="0" width="80" height="30"/>
+				<image bmp="钻石返利钻石字" left="240" middle="0" width="44" height="23" />
+				<label name="可获赠lab" left="305" middle="0" width="140" height="20" format="队伍金色字体_14" />
+			</box>
+			
+			<box name="box1" center="-30" top="60" width="492" height="30" >
+				<image bmp="今日可领取" left="80" middle="0" width="117" height="23" />
+				<box name="numBox" left="227" middle="0" width="80" height="30"/>
+				<image bmp="钻石返利钻石字" left="310" middle="0" width="44" height="23" />
+			</box>
+			<box name="box2" center="-30" top="95" width="492" height="30" >
+				<image bmp="明日还可领取" left="80" middle="0" width="137" height="23" />
+				<box name="numBox" left="227" middle="0" width="80" height="30"/>
+				<image bmp="钻石返利钻石字" left="310" middle="0" width="44" height="23" />
+			</box>
+			
+			<box name="getRewardBtnBox" right="40" top="70" width="116" height="50">
+				<button name="getRewardBtn" center="0" middle="0" width="116" height="50">
+					<state frame="1" back="充值按钮01"/>
+					<state frame="2" back="充值按钮02"/>
+					<state frame="3" back="充值按钮03"/>
+				</button>
+				<image name="领取" bmp="领取按钮字" center="0" middle="-3" width="50" height="21" enabled="false" />
+				<image name="已领取" bmp="已领取按钮" center="0" middle="0" width="116" height="50" enabled="false" />
+			</box>
+			
+			
+			<label name="活动时间lab" left="234" top="164" width="254" height="20" format="36e314_12" text="活动时间_rebate" html="true" />
+			<label name="活动剩余时间lab" left="234" top="183" width="254" height="20" format="36e314_12" text="活动剩余时间_rebate" html="true" />
+			
+			<box name="下box" center="0" bottom="0" width="492" height="231">
+				<image name="隔断条" bmp="隔断条" center="0" top="-3" width="489" height="3"/>
+				<image bmp="渐变条" center="0" top="0" width="507" height="35"/>
+				<label name="msgLab" center="0" top="7" width="454" height="40" html="true" format="36e314_12" text="活动时间截至_rebate" />
+				
+				<box name="progressBox" width="453" height="52" top="100" center="-10">
+					<image name="bg1" bmp="钻石返利充值框" width="453" height="52" center="0" top="0"/>
+					<progressBar name="progressBar" bmp="钻石返利进度条" width="380" height="9" x="58" y="33" scaleX="1" onlyFront="true" ease="true" grid="10,0,0,0" />
+					<box name="已充num" left="8" top="14" width="50" height="30">
+						<image bmp="已累充" width="72" height="24" center="0" top="25"/>
+					</box>
+				</box>
+				
+				<box name="快速充值BtnBox" center="0" bottom="5" width="108" height="54">
+					<button name="快速充值Btn" center="0" middle="0" width="108" height="54">
+						<state frame="1" back="充值按钮01"/>
+						<state frame="2" back="充值按钮02"/>
+						<state frame="3" back="充值按钮03"/>
+					</button>
+					<image bmp="快速充值" center="0" middle="0" width="76" height="23" enabled="false" />
+				</box>
+			</box>
+			
+		</box>
+		
+		<box id="rebateRewardCell" width="74" height="86">
+			<image bmp="钻石返利指针" width="12" height="16" center="0" bottom="0" />
+			<image name="jewelIcon" width="30" height="16" center="-5" bottom="16" />
+			<image name="word" width="30" height="16" center="0" bottom="-25" />
+		</box>
+		
+		<box id="全服冲级" width="492" height="440" top="45" left="155">
+			<image name="背景" bmp="knightFrame2" center="0" middle="0" width="492" height="440" grid="10,10,10,10" />
+			<image name="全服冲级" bmp="全服冲级" center="0" top="6" width="482" height="161" />
+			
+			<image name="框体右侧装饰" bmp="框体右侧装饰" right="4" top="60" width="14" height="39"/>
+			<image name="框体左侧装饰" bmp="框体左侧装饰" left="4" top="60" width="14" height="39"/>
+			
+			<label name="活动时间lab" left="230" top="123" width="254" height="20" format="36e314_12" text="活动时间_rebate" html="true" />
+			<label name="活动剩余时间lab" left="230" top="144" width="254" height="20" format="36e314_12" text="活动剩余时间_rebate" html="true" />
+			
+			<box name="cellBox" center="0" top="168" width="492" height="277" >
+				<image name="隔断条" bmp="隔断条" center="1" top="-3" width="486" height="3"/>
+				<image bmp="全服冲级表格头" center="0" top="0" width="488" height="30"/>
+				<label width="78" height="21" left="45" top="5" text="活动需求_冲级" format="a03506_12"/>
+				<label width="78" height="21" left="210" top="5" text="奖励_冲级" format="a03506_12"/>
+				<label width="78" height="21" left="340" top="5" text="剩余数量_冲级" format="a03506_12"/>
+				<ref name="scroller" ref="Scroller" width="483" height="240" center="0" y="30"/>
+			</box>
+		</box>
+		
+		<box id="全服冲级Cell" width="468" height="51">
+			<image bmp="未选择表格条" top="0" center="0" width="468" height="51" />
+			<image name="select" bmp="选择表格条" top="0" center="0" width="468" height="51" />
+			
+			<label name="活动需求" left="5" middle="0" width="142" height="21" format="0x2089ff_12" html="true" />
+			<label name="剩余数量" left="320" middle="0" width="78" height="21" format="36e314_12_right"/>
+			
+			<image name="rewardBg_1" bmp="奖励图标框" middle="0" left="158" width="42" height="42" />
+			<image name="rewardBg_2" bmp="奖励图标框" middle="0" left="205" width="42" height="42" />
+			<image name="rewardBg_3" bmp="奖励图标框" middle="0" left="252" width="42" height="42" />
+			
+			<achieveEntity name="item1" left="159" top="6"/>
+			<achieveEntity name="item2" left="206" top="6"/>
+			<achieveEntity name="item3" left="253" top="6"/>
+			
+			<labelButton name="领取" width="56" height="22" left="385" top="14" label="领取">
+				<state frame="1" back="small_btn_1_1" format="ffbe57_12_居中"/>
+				<state frame="2" back="small_btn_1_2" format="ffbe57_12_居中"/>
+				<state frame="3" back="small_btn_1_3" format="ffbe57_12_居中"/>
+			</labelButton>
+		</box>
+	</controls>
+		
+</xml>

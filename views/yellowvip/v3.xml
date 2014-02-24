@@ -1,0 +1,53 @@
+<xml desc="yellow vip3">
+	<depends>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/controls/scroller/Scroller.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="等级表格当前条" src="imgs/等级表格当前条.jpg" />
+		<bitmap id="等级表格普通条" src="imgs/等级表格普通条.jpg" />
+		<bitmap id="lv" src="imgs/Lv字体.png" />
+		<bitmap id="lvLine" src="imgs/Lv下面亮光条.png" />
+		<bitmap id="立即领取小号按钮字" src="imgs/立即领取小号按钮字.png" />
+		<bitmap id="lvNum" src="imgs/等级数字.png" />
+		<bitmap id="图标框02" src="imgs/图标框02.png" />
+		<bitmap id="已领取" src="imgs/已领取.png" />
+	</bitmaps>
+	
+	<bitmapReaders>
+		<bitmapReader id="itemBg" bmp="等级表格普通条"/>
+		<bitmapReader id="curItemBg" bmp="等级表格当前条"/>
+		<bitmapReader id="entityBg" bmp="图标框02"/>
+	</bitmapReaders>
+	
+	<texts>
+		<text id="等级不足">等级不足</text>
+	</texts>
+	
+	<formats>
+		<format id="等级不足字体" font="宋体" size="12" color="0x978773" align="center" filter="黑色边框"/>
+	</formats>
+	
+	<controls>
+		<box id="cell3"  width="605" height="316">
+			<ref name="scroller" ref="Scroller" width="605" height="275" />
+		</box>
+		
+		<box id="cell3Item" width="585" height="51" center="0">
+			<image name="bg" width="585" height="51" />
+			<image bmp="lv" width="31" height="24" left="20" top="10" />
+			<image bmp="lvLine" width="81" height="23" left="10" bottom="10" />
+			<box name="rewardBox" width="86" height="32" right="10" middle="0">
+				<button name="rewardBtn" width="86" height="32">
+					<state frame="1" back="大号按钮活动用01" />
+					<state frame="2" back="大号按钮活动用02" />
+					<state frame="3" back="大号按钮活动用03" />
+				</button>
+				<image name="btnWord" bmp="立即领取小号按钮字" width="59" height="17" center="0" middle="0" />
+			</box>
+			<image name="rewardedIcon" bmp="已领取" width="79" height="33" right="3" middle="0" />
+			<label name="lvLess" text="等级不足" width="79" height="20" right="13" middle="0" format="等级不足字体" /> 
+		</box>
+	</controls>
+</xml>

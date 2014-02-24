@@ -1,0 +1,13 @@
+<xml name="区域">
+	<swfs>
+		<swf id="btnLib" src="../swfs/btnLib.swf"/>
+		<swf id="fbBase" src="../swfs/fbBase.swf"/>
+		<swf id="frames" src="../swfs/frames.swf"/>
+		<swf id="transcriptPop" src="../swfs/transcriptPop.swf"/>
+		<swf id="regionMap" src="../swfs/regionMap3.swf"/>
+		<swf id="numberLib" src="../swfs/numberLib.swf"/>
+	</swfs>
+	<depends>
+    	<depend src="/regionMap/text.xml"/>
+    </depends>
+</xml>

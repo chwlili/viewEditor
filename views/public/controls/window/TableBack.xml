@@ -1,0 +1,12 @@
+<xml>
+	
+	<bitmaps>
+		<bitmap id="11表格背景11" src="/public/imgs/frames/backLvl3.png" />
+	</bitmaps>
+	
+	<controls>
+		
+		<image id="TableBack" bmp="11表格背景11" grid="15,15,15,15" width="60" height="60"/>
+		
+	</controls>
+</xml>

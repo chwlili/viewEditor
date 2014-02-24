@@ -1,0 +1,206 @@
+﻿<xml desc="">
+	<depends>
+		<depend src="/public/publicFrames.xml" />
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/controls/scroller/Scroller.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<!--公用资源-->
+		<bitmap id="第一模块标头" src="imgs/第一模块标头.jpg"/>
+		<bitmap id="前三名" src="imgs/前三名.png"/>
+		<bitmap id="第二模底板" src="imgs/第二模底板.jpg"/>
+		<bitmap id="虚位以待" src="imgs/虚位以待.png"/>
+		<bitmap id="表格普通条" src="imgs/表格普通条.jpg"/>
+		<bitmap id="第4-10名" src="imgs/第4-10名.png"/>
+		<bitmap id="第11-20名" src="imgs/第11-20名.png"/>
+		<bitmap id="第21-50名" src="imgs/第21-50名.png"/>
+		<bitmap id="第51-100名" src="imgs/第51-100名.png"/>
+		<bitmap id="第101-500名" src="imgs/第101-500名.png"/>
+		<bitmap id="奖励图标框" src="imgs/奖励图标框.png"/>
+		<bitmap id="紫色光圈" src="imgs/1.png"/>
+		<bitmap id="金色光圈" src="imgs/2.png"/>
+		
+		<!--开服第二日-->
+		<bitmap id="开服第二日标题" src="imgs/开服第二日标题.png"/>
+		
+		<!--开服第四日-->
+		<bitmap id="开服第四日标题01" src="imgs/开服第四日标题01.png"/>
+		<bitmap id="开服第四日标题02" src="imgs/开服第四日标题02.png"/>
+		
+		<!--开服第五日-->
+		<bitmap id="开服第五日标题01" src="imgs/开服第五日标题01.png"/>
+		<bitmap id="开服第五日标题02" src="imgs/开服第五日标题02.png"/>
+		
+		<!--开服第六日-->
+		<bitmap id="开服第六日标题" src="imgs/开服第六日标题.png"/>
+	</bitmaps>
+	
+	 <bitmapReaders>
+		<bitmapReader id="imageTitle_0" bmp="第4-10名"/>
+		<bitmapReader id="imageTitle_1" bmp="第11-20名"/>
+		<bitmapReader id="imageTitle_2" bmp="第21-50名"/>
+		<bitmapReader id="imageTitle_3" bmp="第51-100名"/>
+		<bitmapReader id="imageTitle_4" bmp="第101-500名"/>
+		
+		<!--开服第二日-->
+		<bitmapReader id="开服第二日标题" bmp="开服第二日标题"/>
+		
+		<!--开服第四日-->
+		<bitmapReader id="开服第四日标题01" bmp="开服第四日标题01"/>
+		<bitmapReader id="开服第四日标题02" bmp="开服第四日标题02"/>
+		
+		<!--开服第五日-->
+		<bitmapReader id="开服第五日标题01" bmp="开服第五日标题01"/>
+		<bitmapReader id="开服第五日标题02" bmp="开服第五日标题02"/>
+		
+		<!--开服第六日-->
+		<bitmapReader id="开服第六日标题" bmp="开服第六日标题"/>
+	</bitmapReaders>
+	
+	<texts>
+		<!--开服第二日-->
+		<text id="开服第二日第一模块描述">活动期间参加竞技场，排名越高奖励越丰厚！</text>
+		
+		<!--开服第四日-->
+		<text id="开服第四日第一模块描述">全服技能总等级前三名，将赢取奖励！</text>
+		<text id="开服第四日第二模块描述">只要达到指定等级，即可领取丰厚大奖！</text>
+		<text id="开服第四日title_0">技能总等级达到50级</text>
+		<text id="开服第四日title_1">技能总等级达到100级</text>
+		<text id="开服第四日title_2">技能总等级达到150级</text>
+		<text id="开服第四日title_3">技能总等级达到200级</text>
+		<text id="开服第四日title_4">技能总等级达到250级</text>
+		<text id="开服第四日title_5">技能总等级达到300级</text>
+		
+		<!--开服第五日-->
+		<text id="开服第五日第一模块描述">全服宝石镶嵌总等级前三名，将赢取奖励！</text>
+		<text id="开服第五日第二模块描述">只要达到指定等级，即可领取丰厚大奖！</text>
+		<text id="开服第五日title_0">全身装备宝石总等级达到30级</text>
+		<text id="开服第五日title_1">全身装备宝石总等级达到60级</text>
+		<text id="开服第五日title_2">全身装备宝石总等级达到120级</text>
+		<text id="开服第五日title_3">全身装备宝石总等级达到180级</text>
+		<text id="开服第五日title_4">全身装备宝石总等级达到240级</text>
+		<text id="开服第五日title_5">全身装备宝石总等级达到300级</text>
+		
+		<!--开服第六日-->
+		<text id="开服第六日第一模块描述">活动期间充值提升骑士等级，排名越高奖励越丰厚！</text>
+		<text id="开服第六日最低消费提示">（最低充值5万钻石）</text>
+	</texts>
+	
+	<formats>
+		<format id="开服活动描述字体居中" font="宋体" size="12" color="0xfdd59a" filter="开服活动描述边框" align="center"/>
+		<format id="开服活动描述字体左对齐" font="宋体" size="12" color="0xfdd59a" filter="开服活动描述边框" align="left"/>
+		<format id="排名字体右对齐" font="宋体" size="12" color="0xfdd59a" filter="开服活动描述边框" align="right"/>
+		<format id="排行可领取字体" font="宋体" size="12" color="0x36e314" filter="开服活动描述边框" align="center"/>
+		<format id="排行已领取字体" font="宋体" size="12" color="0xf85d00" filter="开服活动描述边框" align="center"/>
+		<format id="第六日最低消费字体" font="宋体" size="12" color="0x1871c4" filter="开服活动描述边框" align="center"/>
+	</formats>
+	
+	<filters>
+		<filter id="开服活动描述边框">
+			<glow color="0x180902" alpha="1" blurX="2" blurY="2" strength="10"/>
+		</filter>
+	</filters>
+	
+	<controls>
+		<!--开服第四日、第五日-->
+		<box id="baseActivity" width="496" height="488" top="44" left="162">
+			<image name="背景" bmp="knightFrame2" left="0" top="0" right="0" bottom="0" grid="10,10,10,10" />
+			
+			<box name="lvBox" width="486" height="244" center="0" top="4">
+				<box name="lvTopBox" width="486" height="87" center="0">
+					<image bmp="第一模块标头" width="486" height="87"/>
+					<image name="第一模块标题" center="0" top="5"/>
+					<label name="第一模块描述" width="486" height="20" top="40" format="开服活动描述字体居中"/>
+					<label name="第一模块活动描述" width="400" height="20" left="5" bottom="2" format="开服活动描述字体左对齐" html="true"/>
+					<label name="我的排名" width="200" height="20" right="100" bottom="2" format="排名字体右对齐" html="true"/>
+				</box>
+				<box name="lvBottomBox" width="486" height="148" center="0" bottom="0">
+					<image bmp="前三名" width="486" height="148"/>
+				</box>
+			</box>
+			
+			<box name="conditionBox" width="486" height="236" center="0" bottom="8">
+				<image bmp="第二模底板" width="486" height="236"/>
+				<box name="conditionTopBox" width="486" height="87" center="0">
+					<image name="第二模块标题" center="0" top="5"/>
+					<label name="第二模块描述" width="486" height="20" top="47" format="开服活动描述字体居中" html="true"/>
+				</box>
+				
+				<box name="conditionBottomBox" width="496" height="170" center="0" bottom="0">
+					<ref name="scroller" ref="Scroller" width="496" height="170" />
+				</box>
+			</box>
+		</box>
+		
+		<!--开服第二日、第六日-->
+		<box id="baseActivityTwo" width="496" height="488" top="44" left="162">
+			<image name="背景" bmp="knightFrame2" left="0" top="0" right="0" bottom="0" grid="10,10,10,10" />
+			
+			<box name="lvBox" width="486" height="244" center="0" top="4">
+				<box name="lvTopBox" width="486" height="87" center="0">
+					<image bmp="第一模块标头" width="486" height="87"/>
+					<image name="第一模块标题" center="0" top="5"/>
+					<label name="第一模块描述" width="486" height="20" top="40" format="开服活动描述字体居中"/>
+					<label name="第一模块活动描述" width="400" height="20" left="5" bottom="2" format="开服活动描述字体左对齐" html="true"/>
+					<label name="我的排名" width="200" height="20" right="100" bottom="2" format="排名字体右对齐" html="true"/>
+				</box>
+				<box name="lvBottomBox" width="486" height="148" center="0" bottom="0">
+					<image bmp="前三名" width="486" height="148"/>
+				</box>
+			</box>
+			
+			<ref name="scroller" ref="Scroller" width="496" height="244" center="0" bottom="0"/>
+		</box>
+		
+		<box id="lvCell" width="486" height="50">
+			<achieveEntity name="gift_0" x="133" y="2"/>
+			<achieveEntity name="gift_1" x="177" y="2"/>
+			<achieveEntity name="gift_2" x="221" y="2"/>
+			<achieveEntity name="gift_3" x="265" y="2"/>
+			
+			<box name="unrewardBox" width="157" height="40" right="10" middle="-2">
+				<image name="虚位以待" bmp="虚位以待" width="70" height="20" center="0" middle="0"/>
+				<label name="最低消费提示" text="开服第六日最低消费提示" width="157" height="20" center="0" bottom="0" format="第六日最低消费字体"/>
+			</box>
+			
+			<box name="rewardBox" width="157" height="40" right="10" middle="-2">
+				<label name="userName" width="80" height="20" left="10" top="0" format="排行可领取字体"/>
+				<label name="userLv" width="80" height="20" left="10" bottom="0" format="排行可领取字体"/>
+				<labelButton name="rewardBtn" width="56" height="22" right="10" middle="0" label="领取">
+					<state frame="1" back="小按钮01" format="ffbe57_12_居中" />
+					<state frame="2" back="小按钮02" format="ffbe57_12_居中" />
+					<state frame="3" back="小按钮03" format="ffbe57_12_居中" />
+				</labelButton>
+			</box>
+			
+			<box name="rewardedBox" width="157" height="40" right="10" middle="-2">
+				<label name="userName" width="157" height="20" left="0" top="0" format="排行已领取字体"/>
+				<label name="userLv" width="157" height="20" left="0" bottom="0" format="排行已领取字体"/>
+			</box>
+		</box>
+		
+		<box id="conditionCell" width="486" height="44">
+			<image bmp="表格普通条" width="486" height="50" center="0" middle="0"/>
+			
+			<label name="title" width="105" height="32" middle="0" format="排行已领取字体" multiline="true" wordWrap="true"/>
+			<image name="imageTitle" width="104" height="21" middle="0"/>
+			
+			<image name="giftBorder_0" bmp="奖励图标框" width="42" height="42" x="132" y="1" visible="false"/>
+			<achieveEntity name="gift_0" x="133" y="2"/>
+			<image name="giftBorder_1" bmp="奖励图标框" width="42" height="42" x="176" y="1" visible="false"/>
+			<achieveEntity name="gift_1" x="177" y="2"/>
+			<image name="giftBorder_2" bmp="奖励图标框" width="42" height="42" x="220" y="1" visible="false"/>
+			<achieveEntity name="gift_2" x="221" y="2"/>
+			<image name="giftBorder_3" bmp="奖励图标框" width="42" height="42" x="264" y="1" visible="false"/>
+			<achieveEntity name="gift_3" x="265" y="2"/>
+			
+			<labelButton name="rewardBtn" width="56" height="22" right="30" middle="0" label="领取">
+				<state frame="1" back="小按钮01" format="ffbe57_12_居中" />
+				<state frame="2" back="小按钮02" format="ffbe57_12_居中" />
+				<state frame="3" back="小按钮03" format="ffbe57_12_居中" />
+			</labelButton>
+		</box>
+	</controls>
+</xml>

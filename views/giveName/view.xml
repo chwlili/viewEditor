@@ -1,0 +1,11 @@
+﻿<xml name="您的名字">
+	<depends>
+		<depend src="text.xml"/>
+		<depend src="bindTxt.xml"/>
+	</depends>
+	<swfs>
+		<swf id="btnLib" src="../swfs/btnLib.swf"/>
+		<swf id="frameLib" src="../swfs/frameLib.swf"/>
+		<swf id="view" src="../swfs/namePanel.swf"/>
+	</swfs>
+</xml>

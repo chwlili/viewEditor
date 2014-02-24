@@ -1,0 +1,52 @@
+﻿<xml>
+	<swfs>
+		<swf id="LM_Active" src="../swfs/LM_Active.swf"/>
+	</swfs>
+	
+	<depends>
+		<depend src="/public/publicButtons.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="活跃宝箱01" src="imgs/活跃宝箱01.png" />
+		<bitmap id="宝箱提示" src="imgs/宝箱提示.png" />
+	</bitmaps>
+	
+	<bitmapReaders>
+		<bitmapReader id="宝箱提示" bmp="宝箱提示"/>
+	</bitmapReaders>
+	
+	<texts>
+		<text id="text_0">可探索宝藏$1次</text>
+		<text id="text_1">可挑战金库$1次</text>
+		<text id="text_2">可点石成金$1次</text>
+		<text id="text_3">可协助探索宝藏</text>
+		<text id="text_4">点击强化装备</text>
+		<text id="text_5">点击升级技能</text>
+		<text id="text_6">可挑战竞技场$1次</text>
+
+		<text id="当前活跃度">当前活跃度 $1/$2</text>
+		<text id="协助探索提示">请在【世界频道】的探索宝藏通告中，协助他人探索宝藏!</text>
+		<text id="矮人宝库冷却中">矮人宝库冷却中:</text>
+		<text id="竞技场冷却中">竞技场冷却中:</text>
+		<text id="矮人宝库CD提示">是否花费10钻石消除矮人宝库冷却时间</text>
+		<text id="协助探索冷却中">协助探索冷却中</text>
+	</texts>
+	
+	<controls>
+		<labelButton id="clearBtn" label="" width="27" height="23">
+			<state frame="1" back="clearBtn"/>
+			<state frame="2" back="clearBtn"/>
+			<state frame="3" back="clearBtn"/>
+		</labelButton>
+		
+		<labelButton id="rewardBtn" width="40" height="41">
+			<state frame="1" back="活跃宝箱01"/>
+			<state frame="2" back="活跃宝箱01"/>
+			<state frame="3" back="活跃宝箱01"/>
+		</labelButton>
+		
+		<image id="rewardTip" bmp="宝箱提示" width="101" height="48" />
+	</controls>
+
+</xml>

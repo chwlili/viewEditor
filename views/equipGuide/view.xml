@@ -1,0 +1,23 @@
+<xml>
+	<depends>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+
+	<bitmaps>
+		<bitmap id="上指键头" src="imgs/上指键头.png" />
+		<bitmap id="主界面说明框体" src="imgs/主界面说明框体.png" />
+	</bitmaps>
+	<texts>
+		<text id="强化装备碾压BOSS">强化装备，可以让你爽快的碾压BOSS！</text>
+	</texts>
+	<controls>
+			<box id="Tip" width="160" height="46">
+				<image name="bg" bmp="主界面说明框体" grid="10,10,10,10" width="160" height="46" />
+				<image bmp="上指键头" left="10" top="34" width="23" height="23" />
+				<label text="强化装备碾压BOSS" center="0" top="10" width="140" autoHeight="true" format="ffe4b4_12" html="true" multiline="true" wordWrap="true" />
+
+			</box>
+
+
+	</controls>
+</xml>

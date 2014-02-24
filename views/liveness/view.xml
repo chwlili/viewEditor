@@ -1,0 +1,141 @@
+<xml name="活跃度">
+	<depends>
+		<depend src="/public/publicFrames.xml" />
+		<depend src="/public/publicButtons.xml" />
+
+		<depend src="/public/controls/window/CloseButton.xml" />
+		<depend src="/public/controls/window/WindowBack.xml" />
+		<depend src="/public/controls/scroller/Scroller.xml" />
+		<depend src="/public/publicFormats.xml" />
+		<depend src="/public/publicTexts.xml" />
+		<depend src="/public/publicIcons.xml" />
+		<depend src="/public/publicNumimage.xml" />
+	</depends>
+	<swfs />
+	<bitmaps>
+		<bitmap id="arrow" src="imgs/arrow.png" />
+		<bitmap id="bar1" src="imgs/bar1.png" />
+		<bitmap id="bg1" src="imgs/bg1.png" />
+		<bitmap id="finished" src="imgs/finished.png" />
+		<bitmap id="finished_bar" src="imgs/finished_bar.png" />
+		
+		<bitmap id="icon01" src="imgs/icon01.png" />
+		<bitmap id="icon02" src="imgs/icon02.png" />
+		<bitmap id="icon03" src="imgs/icon03.png" />
+		<bitmap id="icon04" src="imgs/icon04.png" />
+		<bitmap id="icon05" src="imgs/icon05.png" />
+		
+		<bitmap id="openIcon01" src="imgs/图标01开.png" />
+		<bitmap id="openIcon02" src="imgs/图标02开.png" />
+		<bitmap id="openIcon03" src="imgs/图标03开.png" />
+		<bitmap id="openIcon04" src="imgs/图标04开.png" />
+		<bitmap id="openIcon05" src="imgs/图标05开.png" />
+		
+		<bitmap id="glowIcon01" src="imgs/图标01开.png" />
+		<bitmap id="glowIcon02" src="imgs/图标02开.png" />
+		<bitmap id="glowIcon03" src="imgs/图标03开.png" />
+		<bitmap id="glowIcon04" src="imgs/图标04开.png" />
+		<bitmap id="glowIcon05" src="imgs/图标05开.png" />
+		
+		<bitmap id="num" src="imgs/num.png" />
+		<bitmap id="num_border" src="imgs/num_border.png" />
+		<bitmap id="progress_bar" src="imgs/progress_bar.png" />
+		<bitmap id="red_bar" src="imgs/red_bar.png" />
+		<bitmap id="title1" src="imgs/title1.png" />
+		<bitmap id="title2" src="imgs/title2.png" />
+		<bitmap id="title3" src="imgs/title3.png" />
+		<bitmap id="unfinished_bar" src="imgs/unfinished_bar.png" />
+	</bitmaps>
+	<bitmapReaders />
+	<texts>
+		<text id="完成目标label">已经完成目标$1</text>
+		<text id="前往">前往</text>
+		<text id="reward_tip_1"><![CDATA[条件：活跃度达到<font color='#00ff00' size='12' face='宋体'>20</font>
+奖励：<font color='#fa9600'>一级活跃宝箱</font>
+开启宝箱可获得：
+<font color='#f8d40e' size='12' face='宋体'>金币50000</font>
+		]]></text>
+		<text id="reward_tip_2"><![CDATA[条件：活跃度达到<font color='#00ff00' size='12' face='宋体'>45</font>
+奖励：<font color='#fa9600'>二级活跃宝箱</font>
+开启宝箱可获得：
+<font color='#f8d40e' size='12' face='宋体'>金币80000</font>
+<font color='#b93ff8' size='12' face='宋体'>亚瑟王钥匙×1</font>
+<font color='#b93ff8' size='12' face='宋体'>猎魔令×1</font>
+		]]></text>
+		<text id="reward_tip_3"><![CDATA[条件：活跃度达到<font color='#00ff00' size='12' face='宋体'>70</font>
+奖励：<font color='#fa9600'>三级活跃宝箱</font>
+开启宝箱可获得：
+<font color='#f8d40e' size='12' face='宋体'>金币120000</font>
+<font color='#b93ff8' size='12' face='宋体'>亚瑟王钥匙×1</font>
+<font color='#b93ff8' size='12' face='宋体'>猎魔令×1</font>
+		]]></text>
+		<text id="reward_tip_4"><![CDATA[条件：活跃度达到<font color='#00ff00' size='12' face='宋体'>95</font>
+奖励：<font color='#fa9600'>四级活跃宝箱</font>
+开启宝箱可获得：
+<font color='#2089ff' size='12' face='宋体'>战功5000</font>
+<font color='#2089ff' size='12' face='宋体'>钻石10</font>
+<font color='#b93ff8' size='12' face='宋体'>猎魔令×1</font>
+		]]></text>
+		<text id="reward_tip_5"><![CDATA[条件：活跃度达到<font color='#00ff00' size='12' face='宋体'>125</font>
+奖励：<font color='#fa9600'>五级活跃宝箱</font>
+开启宝箱可获得：
+<font color='#2089ff' size='12' face='宋体'>战功10000</font>
+<font color='#2089ff' size='12' face='宋体'>钻石25</font>
+		]]></text>
+	</texts>
+	<controls>
+		<window id="main" width="723" height="524">
+			<ref ref="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+
+
+			<image name="bg1" bmp="knightFrame10" grid="20,20,20,20" left="9" top="49" width="702" height="338" />
+			<image name="bg2" bmp="red_bar" height="28" width="717" top="389" center="0" />
+			<label name="finishedLabel" height="22" width="200" format="橘色宋体12居中" top="391" center="0" label="完成目标label"/>
+			<ref name="scroller" ref="Scroller" width="700" height="335" left="10" top="50" />
+
+			<image bmp="title1" width="77" height="29" top="10" center="0" />
+			<!--<image bmp="title2" width="179" height="29" top="59" left="15" />-->
+			<box name="progressBox" width="712" height="103" top="413" center="0">
+				<image name="bg1" bmp="bg1" width="712" height="103" center="0" top="0" grid="47,27,43,19" />
+				<image name="bg2" bmp="bar1" width="582" height="79" left="60" top="19" />
+				<image name="title1" bmp="title3" width="62" height="26" left="77" top="42" />
+
+				<progressBar name="progressBar" bmp="progress_bar" width="479" height="11" x="149" y="57" scaleX="1"
+					onlyFront="true" ease="true" grid="10,0,0,0" />
+
+			</box>
+		</window>
+		<box id="taskCell" width="331" height="36">
+			<image name="bg1" bmp="finished_bar" visible="false" top="0" bottom="0" left="0" right="0" />
+			<image name="bg2" bmp="finished" visible="false" top="0" bottom="0" left="263" right="0" />
+			<image name="bg3" bmp="unfinished_bar" visible="true" top="0" bottom="0" left="0" right="0" />
+
+			<label name="taskLabel" format="宋体橙红色12" height="18" width="114" top="10" left="10" />
+			<label name="completeNumLabel" format="宋体绿色12" height="18" width="56" top="10" left="124" />
+			<label name="rewardLabel" format="橘色宋体12右对齐" height="18" width="83" top="10" right="66" />
+			<label name="dontOpenLabel" format="宋体浅灰色12" height="18" width="56" top="10" left="270" visible="false" />
+
+			<labelButton name="前往" width="56" height="22" middle="0" left="272" label="前往" visible="true">
+				<state frame="1" back="small_btn_1_1" format="ffbe57_12_居中" />
+				<state frame="2" back="small_btn_1_2" format="ffbe57_12_居中" />
+				<state frame="3" back="small_btn_1_3" format="ffbe57_12_居中" />
+			</labelButton>
+		</box>
+		
+		<box id="rewardCell" width="44" height="80">
+			<image bmp="arrow" width="13" height="17" center="0" top="40" />
+			<image bmp="num_border" width="30" height="16" center="0" top="63" />
+			
+			<image name="openIcon" width="55" height="48" top="-8" left="-11"/>
+			<image name="glowIcon" width="42" height="39" top="0" center="0"/>
+			<!-- 用于灰色 -->
+			<image name="normalIcon" bmp="icon03" width="42" height="39" top="0" center="0" enabled="true" tip="reward_tip_1"/>
+			
+			<label name="rewardLab" format="橘色宋体12居中" label="reward_level_1" width="33" height="18" center="0" top="62" />
+			<!-- 
+			<swf name="宝箱闪动动画1" bmp="宝箱闪动动画" x="216" y="14" />
+			-->
+		</box>
+	</controls>
+</xml>

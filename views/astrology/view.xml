@@ -1,0 +1,213 @@
+﻿<xml name="占星术">
+  <depends>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+
+    <depend src="/public/controls/window/CloseButton.xml"/>
+    <depend src="/public/controls/window/WindowBack.xml"/>
+    <depend src="/public/controls/scroller/Scroller.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+    <depend src="/public/publicTexts.xml"/>
+    <depend src="/public/publicIcons.xml"/>
+    <depend src="/public/publicNumimage.xml"/>
+  </depends>
+  
+  <bitmaps>
+    <bitmap id="开放星运槽" src="imgs/开放星运槽.png"/>
+    <bitmap id="上锁圆" src="imgs/上锁圆.png"/>
+    <bitmap id="仓库方格" src="imgs/仓库方格.png"/>
+    <bitmap id="星辰底" src="imgs/星辰底.jpg"/>
+    <bitmap id="角色面版" src="imgs/角色面版.jpg" />
+    <bitmap id="占星两字" src="imgs/占星两字.png" />
+
+    <bitmap id="向上渐变条" src="imgs/向上渐变条.png"/>
+    <bitmap id="向下渐变条" src="imgs/向下渐变条.png"/>
+    <bitmap id="占卜小球框" src="imgs/占卜小球框.png" />
+    <bitmap id="占卜大球框" src="imgs/占卜大球框.png" />
+    <bitmap id="灰色球" src="imgs/绿色球.png" />
+    <bitmap id="绿色球" src="imgs/蓝色球.png" />
+    <bitmap id="蓝色球" src="imgs/紫色球.png" />
+    <bitmap id="紫色球" src="imgs/金色球.png" />
+    <bitmap id="橙色球" src="imgs/橙色球.png" />
+    <bitmap id="初级占卜" src="imgs/初级占卜.png"/>
+    <bitmap id="中级占卜" src="imgs/中级占卜.png"/>
+    <bitmap id="高级占卜" src="imgs/高级占卜.png"/>
+    <bitmap id="完美占卜" src="imgs/完美占卜.png"/>
+    <bitmap id="神之占卜" src="imgs/神之占卜.png"/>
+
+    <bitmap id="占星说明按钮01" src="imgs/占星说明按钮01.png"/>
+    <bitmap id="占星说明按钮02" src="imgs/占星说明按钮02.png"/>
+    <bitmap id="占星说明按钮03" src="imgs/占星说明按钮03.png"/>
+    <bitmap id="占星说明小" src="imgs/占星说明.png"/>
+    <bitmap id="占星说明大" src="imgs/占星说明标题字.png"/>
+    <bitmap id="箭头" src="imgs/箭头.png"/>
+    <bitmap id="小球光效" src="imgs/小球光效.png"/>
+    <bitmap id="大球光效" src="imgs/大球光效.png"/>
+  </bitmaps>
+  <bitmapReaders>
+    <bitmapReader id="开放星运槽" bmp="开放星运槽"/>
+    <bitmapReader id="上锁圆" bmp="上锁圆"/>
+    <bitmapReader id="仓库方格" bmp="仓库方格"/>
+  </bitmapReaders>
+  <texts>
+    <text id="占星战斗力">战斗力:</text>
+    <text id="钻石占卜">钻石占卜</text>
+    <text id="一键占星">一键占星</text>
+    <text id="一键合成">一键合成</text>
+    <text id="一键拾取">一键拾取</text>
+    <text id="兑换星灵">兑换星魂</text>
+
+    <text id="消耗8000金币">初级占卜:消耗8000金币</text>
+    <text id="消耗12000金币">中级占卜:消耗12000金币</text>
+    <text id="消耗20000金币">高级占卜:消耗20000金币</text>
+    <text id="消耗40000金币">完美占卜:消耗40000金币</text>
+    <text id="消耗60000金币">神之占卜:消耗60000金币</text>
+    <text id="是否花费200"><![CDATA[是否花费<font color='#00ff00'>200</font>钻石开启钻石占卜]]></text>
+    <text id="骑士等级达到3级开启"><![CDATA[骑士等级达到<font color='#00ff00'>3</font>级开启]]></text>
+    <text id="骑士等级达到4级开启"><![CDATA[骑士等级达到<font color='#00ff00'>4</font>级开启]]></text>
+
+    <text id="钻石占卜tip"><![CDATA[使用<font color='#00ff00'>200</font>钻石占卜,有更高几率获得金色星运]]></text>
+
+    <text id="条件0"></text>
+    <text id="条件1"></text>
+    <text id="条件2">45级开启</text>
+    <text id="条件3">50级开启</text>
+    <text id="条件4">55级开启</text>
+    <text id="条件5">60级开启</text>
+    <text id="条件6">65级开启</text>
+    <text id="条件7">70级开启</text>
+
+    <text id="确定">确定</text>
+    <text id="helptxt">
+      <![CDATA[<font color='#efb55a'>
+    通过占星能获得各种星运,装备星运可<font color='#00ff00'>大幅增加你的能力</font>,占星
+时要注意以下几点：
+1.每次占星有一定几率开启下一级的水晶球,<font color='#00ff00'>水晶球级别越高,获得
+稀有星运的机率越大</font>
+2.星运可以靠相互吞噬提升等级,星运等级提高会增强星运的能力
+3.骑士3级可以开启<font color='#00ff00'>一键占星</font>,骑士4级可以开启<font color='#1dd7ff'>钻石占星</font>,直接获得
+<font color='#f8d40e'>高级星运</font>
+4.<font color='#f8d40e'>金色</font>及以上品质的星运,可以在星魂商店折解成<font color='#00ff00'>星魂</font>,用以兑
+换<font color='#00ff00'>稀有星运</font></font>]]>
+    </text>
+  </texts>
+  <formats>
+	<format id="占星战斗力字体" font="宋体" size="12" color="0xfff0e3" filter="占星战斗力边框" bold="false" align="center"/>
+  </formats>
+  <filters>
+	<filter id="占星战斗力边框">
+		<glow color="0x1d0303" alpha="1" blurX="2" blurY="2" strength="10"/>
+	</filter>
+  </filters>
+  <controls>
+    <window id="main" width="998" height="558">
+      <ref ref="WindowBack"/>
+      <ref name="closeBtn" ref="CloseButton"/>
+      <image bmp="占星两字" width="75" height="27" center="0" top="12" />
+
+      <image bmp="角色面版" width="328" height="487" top="52" left="114" />
+	  <label name="atk" width="96" height="16" top="66" left="234" format="占星战斗力字体" />
+
+      <box name="右侧" left="480" top="45" height="1" width="469">
+        <image bmp="星辰底" width="545" height="302" center="0" top="48"/>
+        <image bmp="向上渐变条" width="420" height="63" center="0" top="-14" />
+
+        <image bmp="knightTextBoard" grid="8,8,8,8" width="78" height="21" left="20" top="13" />
+        <image bmp="knightsBlueGem_1" width="25" height="25" left="19" top="11" />
+        <label name="gold" width="56" height="20" format="1dd7ff_12_居中" left="41" top="15" />
+        <maskcontrol name="goldmask" width="78" height="21" left="20" top="13"/>
+
+        <image bmp="knightTextBoard" grid="8,8,8,8" width="78" height="21" left="108" top="13" />
+        <image bmp="knightsGold_3" width="25" height="25" left="107" top="11" />
+        <label name="copper" width="56" height="20" format="ffd800_12_居中" left="128" top="15" />
+        <maskcontrol name="coppermask" width="78" height="21" left="108" top="13"/>
+
+        <image bmp="knightTextBoard" grid="8,8,8,8" width="78" height="21" left="196" top="13" />
+        <image bmp="橧色碎片" width="16" height="20" left="198" top="13" />
+        <label name="item" width="56" height="20" format="ff5ca9_12_居中" left="215" top="15" />
+        <maskcontrol name="itemmask" width="78" height="21" left="196" top="13"/>
+
+        <labelButton name="兑换星灵" width="82" height="28" top="10" center="120" label="兑换星灵">
+          <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中"/>
+          <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中"/>
+          <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中"/>
+        </labelButton>
+        <labelButton name="一键占星" width="82" height="28" top="300" center="-60" label="一键占星">
+          <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中"/>
+          <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中"/>
+          <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中"/>
+        </labelButton>
+        <maskcontrol name="一键占星Tip" width="82" height="28" center="-60" top="300" tip="骑士等级达到3级开启"/>
+        <labelButton name="一键合成" width="82" height="28" top="300" center="60" label="一键合成">
+          <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中"/>
+          <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中"/>
+          <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中"/>
+        </labelButton>
+      </box>
+
+      <box name="控制台" left="475" top="452" height="1" width="469">
+        <image bmp="向下渐变条" width="420" height="63" center="0" middle="-28"/>
+        <box name="1" width="75" height="76" middle="0" buttonMode="true" tip="消耗8000金币">
+          <image bmp="占卜小球框" width="75" height="76" />
+          <image bmp="灰色球" width="38" height="38" center="1" middle="1"/>
+          <image bmp="初级占卜" width="53" height="14" center="0" middle="30"/>
+          <image bmp="箭头" width="26" height="40" middle="0" left="70" />
+          <filmAnimEffect name="eff" bmp="小球光效" center="1" middle="1" row="2" col="10" frameDelay="100" loop="0"/>
+        </box>
+        <box name="2" width="75" height="76" left="95" middle="0" buttonMode="true" tip="消耗12000金币">
+          <image bmp="占卜小球框" width="75" height="76" />
+          <image bmp="绿色球" width="38" height="38" center="1" middle="1"/>
+          <image bmp="中级占卜" width="53" height="14" center="0" middle="30"/>
+          <image bmp="箭头" width="26" height="40" middle="0" left="70" />
+          <filmAnimEffect name="eff" bmp="小球光效" center="1" middle="1" row="2" col="10" frameDelay="100" loop="0"/>
+        </box>
+        <box name="3" width="75" height="76" left="190" middle="0" buttonMode="true" tip="消耗20000金币">
+          <image bmp="占卜小球框" width="75" height="76" />
+          <image bmp="蓝色球" width="38" height="38" center="1" middle="1"/>
+          <image bmp="高级占卜" width="53" height="14" center="0" middle="30"/>
+          <image bmp="箭头" width="26" height="40" middle="0" left="70" />
+          <filmAnimEffect name="eff" bmp="小球光效" center="1" middle="1" row="2" col="10" frameDelay="100" loop="0"/>
+        </box>
+        <box name="4" width="75" height="76" left="285" middle="0" buttonMode="true" tip="消耗40000金币">
+          <image bmp="占卜小球框" width="75" height="76" />
+          <image bmp="紫色球" width="38" height="38" center="1" middle="1"/>
+          <image bmp="完美占卜" width="53" height="14" center="0" middle="30"/>
+          <image bmp="箭头" width="26" height="40" middle="0" left="70" />
+          <filmAnimEffect name="eff" bmp="小球光效" center="1" middle="1" row="2" col="10" frameDelay="100" loop="0"/>
+        </box>
+        <box name="5" width="89" height="90" left="380" middle="0" buttonMode="true">
+          <image bmp="占卜大球框" width="89" height="90" />
+          <image bmp="橙色球" width="45" height="45" center="1" middle="1"/>
+          <image bmp="神之占卜" width="53" height="14" center="0" middle="30"/>
+          <filmAnimEffect name="eff" bmp="大球光效" center="1" middle="1" row="3" col="7" tCount="20" frameDelay="100" loop="0"/>
+        </box>
+          <labelButton name="钻石占卜" width="84" height="28" left="382" middle="65" label="钻石占卜" tip="钻石占卜tip">
+          <state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中"/>
+          <state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中"/>
+          <state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中"/>
+          </labelButton>
+          <maskcontrol name="钻石占卜Tip" width="84" height="28" left="382" middle="60" tip="骑士等级达到4级开启"/>
+      </box>
+
+      <image bmp="占星说明小" width="52" height="17" right="42" top="60" />
+        <labelButton name="问号" width="29" height="30" top="53" right="15" >
+          <state frame="1" back="占星说明按钮01" />
+          <state frame="2" back="占星说明按钮02" />
+          <state frame="3" back="占星说明按钮03" />
+        </labelButton>
+      <box name="help" width="397" height="314" center="0" middle="0" visible="false">
+        <image bmp="中底板底" top="0" bottom="0" left="0" right="0" grid="20,100,20,20"/>
+        <image bmp="中底板标头" top="2" left="2" right="2" grid="50,0,50,0" height="36" />
+        <image bmp="占星说明大" width="98" height="29" center="0" top="6" />
+        <ref name="closeBtn" ref="CloseButton" top="6" right="6"/>
+        <image bmp="中底板底" top="50" bottom="45" left="10" right="10" grid="20,100,20,20"/>
+        <label width="380" height="260" format="宋体白色12带间隔10" left="22" top="45" text="helptxt" multiline="true" wordWrap="true" html="true" />
+        <labelButton name="确定" width="62" height="22" center="0" bottom="12" label="确定" >
+          <state frame="1" back="小按钮01"  format="按钮标签_efb55a_12_居中"/>
+          <state frame="2" back="小按钮02"  format="按钮标签_efb55a_12_居中"/>
+          <state frame="3" back="小按钮03"  format="按钮标签_efb55a_12_居中"/>
+        </labelButton>
+      </box>
+    </window>
+  </controls>
+</xml>

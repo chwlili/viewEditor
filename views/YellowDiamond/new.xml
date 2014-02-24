@@ -1,0 +1,83 @@
+﻿<xml name="黄钻">
+	<depends>
+		<depend src="../public/publicFrames.xml"/>
+		<depend src="../public/publicButtons.xml"/>
+		<depend src="../public/publicFormats.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="title.png" src="imgs/title.png" size="30619"/>
+		<bitmap id="yellow.png" src="imgs/yellow.png" size="30619"/>
+		<bitmap id="notyellow.png" src="imgs/notyellow.png" size="30619"/>
+	</bitmaps>
+	<texts>
+	</texts>
+	<formats>
+	</formats>
+	<controls>
+		<view id="newYellowDiamond">
+			<window id="黄钻新手.win" name="窗口" width="530" height="375">
+				<image bmp="1级底板2层.bmp" grid="38,38,38,38" left="0" top="0" right="0" bottom="0"/>
+				<image bmp="上方横条.frame" grid="24,44,24,0" height="44" left="5" top="20" right="5"/>
+				
+				<image bmp="title.png" grid="0,0,0,0" width="300" height="50" center="0" top="20"/>
+				<image bmp="5级底板.bmp" grid="50,50,50,50" left="20" top="70" right="20" bottom="20"/>
+				<image bmp="黄钻3级底板.bmp" grid="15,15,15,15" left="48" top="130" right="48" bottom="95"/>
+				
+				<image name="黄钻" bmp="yellow.png" grid="0,0,0,0" center="0" top="100" width="340" height="20"/>
+				<image name="非黄" bmp="notyellow.png" grid="0,0,0,0" center="0" top="100" width="340" height="20"/>
+				<label name="查看" html="true" width="99" height="18" right="40" bottom="36" />
+				<button name="关闭.btn" width="40" height="40" right="0" top="0">
+					<state frame="1" back="标准关闭按钮1.png" format="1"/>
+					<state frame="3" back="标准关闭按钮2.png" format="1"/>
+				</button>
+
+				<button name="立即领取.btn" width="87" height="30" left="150" top="290">
+					<state frame="1" back="立即领取.png" format="1"/>
+					<state frame="3" back="立即领取.png" format="1"/>
+				</button>
+				
+				<button name="我知道了.btn" width="87" height="30" left="150" top="290">
+					<state frame="1" back="我知道了.png" format="1"/>
+					<state frame="3" back="我知道了.png" format="1"/>
+				</button>
+				
+				<button name="开通黄钻.btn" width="140" height="34" left="280" top="286">
+					<state frame="1" back="开通黄钻.png" format="1"/>
+					<state frame="3" back="开通黄钻.png" format="1"/>
+				</button>
+				
+				<button name="开通年费黄钻.btn" width="140" height="34" left="280" top="286">
+					<state frame="1" back="开通年费黄钻.png" format="1"/>
+					<state frame="3" back="开通年费黄钻.png" format="1"/>
+				</button>
+				
+				<button name="续费黄钻.btn" width="140" height="34" left="280" top="286">
+					<state frame="1" back="续费黄钻.png" format="1"/>
+					<state frame="3" back="续费黄钻.png" format="1"/>
+				</button>
+				
+				<button name="续费年费黄钻.btn" width="140" height="34" left="280" top="286">
+					<state frame="1" back="续费年费黄钻.png" format="1"/>
+					<state frame="3" back="续费年费黄钻.png" format="1"/>
+				</button>
+				
+				<image bmp="67道具背景.bmp" grid="0,0,0,0" width="99" height="99" x="52" y="145" />
+				<image bmp="67道具背景.bmp" grid="0,0,0,0" width="99" height="99" x="161" y="145" />
+				<image bmp="67道具背景.bmp" grid="0,0,0,0" width="99" height="99" x="268" y="145" />
+				<image bmp="67道具背景.bmp"  grid="0,0,0,0" width="99" height="99" x="377" y="145" />
+				
+				<achieveEntity name="道具容器1" isBig="true" x="68" y="161" />
+				<achieveEntity name="道具容器2" isBig="true" x="177" y="161" />
+				<achieveEntity name="道具容器3" isBig="true" x="284" y="161" />
+				<achieveEntity name="道具容器4" isBig="true" x="393" y="161" />
+				
+				<label name="道具名称1" format="宋体白色14居中" html="true" width="99" height="18" x="52" y="250" />
+				<label name="道具名称2" format="宋体白色14居中" html="true" width="99" height="18" x="161" y="250" />
+				<label name="道具名称3" format="宋体白色14居中" html="true" width="99" height="18" x="268" y="250" />
+				<label name="道具名称4" format="宋体白色14居中" html="true" width="99" height="18" x="377" y="250" />
+				
+				
+			</window>
+		</view>
+	</controls>
+</xml>

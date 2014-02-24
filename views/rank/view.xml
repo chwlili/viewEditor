@@ -1,0 +1,156 @@
+﻿<xml name="排行榜">
+	<depends>
+
+    <depend src="/public/controls/window/CloseButton.xml"/>
+    <depend src="/public/controls/window/WindowBack.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+	</depends>
+	<filters>
+		<filter id="名字描边">
+			<glow color="0x231207" alpha="1" blurX="2" blurY="2" strength="10" />
+		</filter>
+		<filter id="表头描边">
+			<glow color="0x1f0e04" alpha="1" blurX="2" blurY="2" strength="10" />
+		</filter>
+		<filter id="我的排名描边">
+			<glow color="0x36150a" alpha="1" blurX="2" blurY="2" strength="10" />
+		</filter>
+	</filters>
+	<formats>
+		<format id="主角姓名" font="宋体" size="14" color="0xf8b346" align="center" filter="名字描边" bold="true"/>
+		<format id="表头" font="宋体" size="12" color="0xa03506" align="center" filter="名字描边"/>
+		<format id="我的排名" font="宋体" size="14" color="0xdb7620" align="right" filter="名字描边"/>
+		<format id="查看" font="宋体" size="12" color="0xf8b346" align="center" filter="名字描边"/>
+		<format id="0" font="宋体" color="0xee8615" size="12" align="center" filter="黑色边框"/>
+		<format id="1" font="宋体" color="0xb93ff8" size="12" align="center" filter="黑色边框"/>
+		<format id="2" font="宋体" color="0x1a5bf1" size="12" align="center" filter="黑色边框"/>
+		<format id="默认文字" font="宋体" color="0x978773" size="12" align="center" filter="黑色边框"/>
+		<format id="宋体绿色12号居中" font="宋体" color="0x36dd15" size="12" align="center" filter="黑色边框"/>
+	</formats>
+	<bitmaps>
+		<bitmap id="title" src="imgs/排行榜.png"/>
+		<bitmap id="角色框" src="imgs/角色框整图.png"/>
+   	<bitmap id="表头" src="imgs/表格标头.png"/>
+   	<bitmap id="表1" src="imgs/表格条.png"/>
+   	<bitmap id="表2" src="imgs/表格下方条.png"/>
+   	
+   	<bitmap id="等级按钮1" src="imgs/等级02.jpg"/>
+   	<bitmap id="等级按钮2" src="imgs/等级01.jpg"/>
+   	
+   	<bitmap id="战斗力按钮1" src="imgs/战斗力02.jpg"/>
+   	<bitmap id="战斗力按钮2" src="imgs/战斗力01.jpg"/>
+   	
+   	<bitmap id="荣誉按钮1" src="imgs/荣誉02.jpg"/>
+   	<bitmap id="荣誉按钮2" src="imgs/荣誉01.jpg"/>
+   	
+   	<bitmap id="竞技按钮1" src="imgs/竞技02.jpg"/>
+   	<bitmap id="竞技按钮2" src="imgs/竞技01.jpg"/>
+   	
+   	<bitmap id="1" src="imgs/1.png"/>
+   	<bitmap id="2" src="imgs/2.png"/>
+   	<bitmap id="3" src="imgs/3.png"/>
+   	<bitmap id="选中状态条" src="imgs/选中状态条.png"/>
+   	<bitmap id="战斗力" src="imgs/数字.png"/>
+   	<bitmap id="框" src="imgs/框.png"/>
+    <bitmap id="战斗力字" src="imgs/战斗力字.png"/>
+	</bitmaps>
+	 <texts>
+    <text id="查看">操作</text>
+    <text id="我的排名">我的排名：0</text>
+    <text id="title0">["排名","角色名","骑士团","等级","操作"]</text>
+    <text id="title1">["排名","角色名","骑士团","战斗力","操作"]</text>
+    <text id="title2">["排名","角色名","骑士团","荣誉","操作"]</text>
+    <text id="title3">["排名","角色名","骑士团","","操作"]</text>
+    <text id="poplistTf">["查看资料","邀请组队","发送私聊","加为好友","屏蔽发言","复制姓名"]</text>
+   </texts>
+   
+	<controls>		
+		<window id="main" width="665" height="500">
+			<ref ref="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+
+			<image bmp="title" width="79" height="29" top="12" center="0" />
+			<!--背景-->
+			<image bmp="表头" width="418" height="30" x="225" y="133"/>
+			<image bmp="表2" width="418" height="30" x="223" y="438"/>
+			<image bmp="knightFrame2" grid="30,47,29,49" width="434" height="440" top="50" left="220"/>
+			<!--4个大按钮-->
+			<labelToggleButton name="btn0" width="106" height="83" left="225" top="55">
+          <state frame="1" back="等级按钮2"/>
+          <state frame="2" back="等级按钮1"/>
+          <state frame="3" back="等级按钮1"/>
+          <state frame="4" back="等级按钮1"/>
+        	<state frame="5" back="等级按钮1"/>
+      </labelToggleButton>
+      <labelToggleButton name="btn1" width="106" height="83" left="331" top="55">
+          <state frame="1" back="战斗力按钮2"/>
+          <state frame="2" back="战斗力按钮1"/>
+          <state frame="3" back="战斗力按钮1"/>
+          <state frame="4" back="战斗力按钮1"/>
+        	<state frame="5" back="战斗力按钮1"/>
+      </labelToggleButton>
+      <labelToggleButton name="btn2" width="106" height="83" left="437" top="55">
+          <state frame="1" back="荣誉按钮2"/>
+          <state frame="2" back="荣誉按钮1"/>
+          <state frame="3" back="荣誉按钮1"/>
+          <state frame="4" back="荣誉按钮1"/>
+        	<state frame="5" back="荣誉按钮1"/>
+      </labelToggleButton>
+      <labelToggleButton name="btn3" width="106" height="83" left="543" top="55">
+          <state frame="1" back="竞技按钮2"/>
+          <state frame="2" back="竞技按钮1"/>
+          <state frame="3" back="竞技按钮1"/>
+        	<state frame="4" back="竞技按钮1"/>
+        	<state frame="5" back="竞技按钮1"/>
+      </labelToggleButton>
+			<image bmp="knightFrame2" grid="30,47,29,49" width="426" height="355" left="223" top="130"/>
+			<image bmp="角色框" width="207" height="437" left="10" top="50"/>
+			<image name="rankBar" bmp="框" width="35" height="37" left="31" top="92"/>
+			<image name="rank1" bmp="1" width="22" height="24" left="38" top="98"/>
+			<image name="rank2" bmp="2" width="22" height="24" left="38" top="98"/>
+			<image name="rank3" bmp="3" width="22" height="24" left="38" top="98"/>
+
+      <!--文字内容-->
+      <label name="nameTf" width="203" height="25" x="12" y="58" html="true" format="主角姓名"/>
+      <label name="title0Tf" width="65" height="30" y="135" x="227" html="true" format="表头" text="title0"/>
+      <label name="title1Tf" width="100" height="30" y="135" x="292" html="true" format="表头" text="title0"/>
+      <label name="title2Tf" width="100" height="30" y="135" x="387" html="true" format="表头" text="title0"/>
+      <label name="title3Tf" width="95" height="30" y="135" x="487" html="true" format="表头" text="title0"/>
+      <label name="title4Tf" width="57" height="30" y="135" x="570" html="true" format="表头" text="title0"/>
+      <label name="myRankTf" width="121" height="25" y="457" x="523" html="true" format="我的排名" text="我的排名"/>
+      <!--底部翻页-->
+      <button name="prevBtn" width="24" height="22" x="346" y="456">
+		<state frame="1" back="翻页按钮左大01"/>
+		<state frame="2" back="翻页按钮左大02"/>
+		<state frame="3" back="翻页按钮左大03"/>
+      </button>
+      <image bmp="pageBg" width="78" height="20" x="370" y="457"/>
+      <label name="pageTf" width="78" height="20" x="370" y="457" html="true" format="宋体白色12居中"/>
+      <button name="nextBtn" width="24" height="22" x="448" y="456">
+        <state frame="1" back="翻页按钮右大01"/>
+		<state frame="2" back="翻页按钮右大02"/>
+		<state frame="3" back="翻页按钮右大03"/>
+      </button>
+		</window>
+		<!--排行榜单行-->
+		<box id="RankCell" width="418" height="30">
+			<image bmp="表1" width="418" height="30" x="0" y="0"/>
+			<image name="1" bmp="1" width="27" height="29" x="18" y="2"/>
+			<image name="2" bmp="2" width="27" height="29" x="18" y="2"/>
+			<image name="3" bmp="3" width="27" height="29" x="18" y="2"/>
+			<image name="selectBar" bmp="选中状态条" width="418" height="28" x="0" y="0"/>
+			<image name="overBar" bmp="选中状态条" width="418" height="28" x="0" y="0"/>
+			<label width="65" height="18" x="0" y="3" name="numTf" html="true" format="默认文字"/>
+			<label width="100" height="18" x="65" y="3" name="nameTf" html="true" format="默认文字"/>
+			<label width="100" height="18" x="160" y="3" name="guildTf" html="true" format="默认文字"/>
+			<label width="95" height="18" x="260" y="3" name="fightTf" html="true" format="默认文字"/>
+			<labelButton name="lookBtn" width="56" height="22" x="343" y="3" label="查看" >
+				<state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中"/>
+				<state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中"/>
+				<state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+		</box>    	
+	</controls>
+</xml>

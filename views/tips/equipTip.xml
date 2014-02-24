@@ -1,0 +1,192 @@
+<xml >
+  <depends>
+    <!--depend src="/public/publicFrames.xml"/-->
+    <depend src="/public/publicFormats.xml"/>
+    <!--depend src="/public/publicNumimage.xml"/-->
+    <depend src="/public/publicTexts.xml"/>
+	<!--depend src="/public/publicIcons.xml"/-->
+  </depends>
+  
+  <bitmaps>
+	<bitmap id="q0" src="imgs/q0.jpg"/>
+    <bitmap id="q1" src="imgs/q1.jpg"/>
+    <bitmap id="q2" src="imgs/q2.jpg"/>
+    <bitmap id="q3" src="imgs/q3.jpg"/>
+    <bitmap id="q4" src="imgs/q4.jpg"/>
+    <bitmap id="q5" src="imgs/q5.jpg"/>
+    <bitmap id="q6" src="imgs/q6.jpg"/>
+
+    <bitmap id="slotBack_1" src="imgs/slotBack_1.png" />
+    <bitmap id="slotBack_2" src="imgs/slotBack_2.png" />
+    <bitmap id="slotBack_3" src="imgs/slotBack_3.png" />
+    <bitmap id="slotBack_4" src="imgs/slotBack_4.png" />
+    <bitmap id="slotBack_5" src="imgs/slotBack_5.png" />
+    <bitmap id="slotBack_6" src="imgs/slotBack_6.png" />
+    <bitmap id="slotBack_7" src="imgs/slotBack_7.png" />
+
+    <bitmap id="加号" src="imgs/加号.png"/>
+	<bitmap id="lock" src="imgs/lock.png"/>
+	<bitmap id="gray" src="imgs/灰色.png"/>
+	
+	<bitmap id="pic19" src="imgs/pic19.png"/>
+	<bitmap id="pic20" src="imgs/pic20.png"/>
+	<bitmap id="pic22" src="imgs/pic22.png"/>
+	
+	<bitmap id="king" src="imgs/皇冠图标.png"/>
+	<bitmap id="sun" src="imgs/太阳图标.png"/>
+	<bitmap id="moon" src="imgs/月亮图标.png"/>
+	<bitmap id="star" src="imgs/星星图标.png"/>
+	
+	<bitmap id="战斗力文字" src="imgs/战斗力文字.png"/>
+	
+	<bitmap id="mapTipsBoard" src="/public/imgs/frames/tooltips首都_底板.png"/>
+	<bitmap id="分割线" src="/public/imgs/frames/分割线.png"/>
+	<bitmap id="knightsGold_3" src="/public/imgs/icons/金币图标_最小.png"/>
+	<bitmap id="num8" src="/public/imgs/number/num8.png"/>
+  </bitmaps>
+  
+  <bitmapReaders>
+	<bitmapReader id="q0" bmp="q0"/>
+    <bitmapReader id="q1" bmp="q1"/>
+    <bitmapReader id="q2" bmp="q2"/>
+    <bitmapReader id="q3" bmp="q3"/>
+    <bitmapReader id="q4" bmp="q4"/>
+    <bitmapReader id="q5" bmp="q5"/>
+    <bitmapReader id="q6" bmp="q6"/>
+
+    <bitmapReader id="slotBack_1" bmp="slotBack_1"/>
+    <bitmapReader id="slotBack_2" bmp="slotBack_2"/>
+    <bitmapReader id="slotBack_3" bmp="slotBack_3"/>
+    <bitmapReader id="slotBack_4" bmp="slotBack_4"/>
+    <bitmapReader id="slotBack_5" bmp="slotBack_5"/>
+    <bitmapReader id="slotBack_6" bmp="slotBack_6"/>
+    <bitmapReader id="slotBack_7" bmp="slotBack_7"/>
+	
+	<bitmapReader id="lock" bmp="lock"/>
+	<bitmapReader id="gray" bmp="gray"/>
+	
+	<bitmapReader id="pic19" bmp="pic19"/>
+	<bitmapReader id="pic20" bmp="pic20"/>
+	<bitmapReader id="pic22" bmp="pic22"/>
+	
+	<bitmapReader id="kingIcon" bmp="king"/>
+	<bitmapReader id="sunIcon" bmp="sun"/>
+	<bitmapReader id="moonIcon" bmp="moon"/>
+	<bitmapReader id="starIcon" bmp="star"/>
+  </bitmapReaders>
+  
+  <texts>
+    <text id="Lv.">Lv.</text>
+	<text id="强化属性">强化属性:</text>
+    <text id="当前镶嵌宝石">当前镶嵌宝石:</text>
+    <text id="双击装备">双击装备</text>
+    <text id="道具价格">道具价格:</text>
+	<text id="未解锁">未解锁</text>
+	<text id="空">空</text>
+	<text id="精炼等级">装备进阶:</text>
+	<text id="当前附魔">当前附魔:</text>
+	<text id="需求职业">需求职业:</text>
+	<text id="双击装备">双击装备</text>
+	<text id="双击卸下">双击卸下</text>
+	<text id="强化加成">该装备强化属性加成</text>
+	<text id="通用">通用</text>
+	<text id="已装备">已装备</text>
+  </texts>
+  
+  <controls>
+    <box id="tip" width="272" height="562">
+      <image bmp="mapTipsBoard" grid="50,50,50,50" top="0" left="0" right="0" bottom="0" />
+	  
+      <box name="基础属性" top="0" left="0" right="0" height="100">
+        <image name="imageBg" left="19" top="15" width="69" height="69" />
+        <image name="image" left="23" top="19" width="60" height="60" />
+		<label name="equipped" text="已装备" width="50" height="20" left="15" top="5" format="0x2feb16_12_左" />
+		<box name="titleBox" left="100" top="15" width="172">
+			<label name="name" top="0" left="0" autoWidth="true" height="20" format="宋体白色14加粗" html="true" />
+			<label name="lv" top="0" right="20" autoWidth="true" height="18" format="宋体白色12居右加粗" html="true" />
+		</box>
+		<box name="atkBox" width="172" height="50" left="100" top="41">
+			<image bmp="战斗力文字" width="58" height="22" left="-5" top="0"/>
+		</box>
+      </box>
+	  
+	  <box name="强化属性" width="272" top="97">
+		<image bmp="分割线" grid="44,0,44,0" width="200" height="1" center="0" />
+		<label text="强化属性" width="60" height="18" left="20" top="2" format="efb55a_12" />
+		<label name="prop1" width="232" height="18" left="40" top="22" format="宋体白色12" html="true" />
+		<label name="prop2" width="232" height="18" left="40" top="42" format="宋体白色12" html="true" />
+	  </box>
+	  
+      <box name="宝石属性" top="102" left="0" right="0" height="102">
+		<image bmp="分割线" grid="44,0,44,0" width="200" height="1" center="0" />
+        <label top="2" left="20" height="18" width="100" format="efb55a_12" text="当前镶嵌宝石" />
+        <box name="gem0" height="18" left="40" top="22" >
+          <image name="icon" width="16" height="15" top="2" />
+		  <label name="title" left="20" autoWidth="true" height="18" format="宋体白色12" html="true"/>
+          <label name="prop" right="20" autoWidth="true" height="18" format="宋体白色12" html="true" />
+        </box>
+        <box name="gem1" height="18" left="40" top="42" >
+          <image name="icon" width="16" height="15" top="2" />
+          <label name="title" left="20" autoWidth="true" height="18" format="宋体白色12" html="true"/>
+          <label name="prop" right="20" autoWidth="true" height="18" format="宋体白色12" html="true" />
+        </box>
+        <box name="gem2" height="18" left="40" top="62" >
+          <image name="icon" width="16" height="15" top="2" />
+          <label name="title" left="20" autoWidth="true" height="18" format="宋体白色12" html="true"/>
+          <label name="prop" right="20" autoWidth="true" height="18" format="宋体白色12" html="true" />
+        </box>
+        <box name="gem3" height="18" left="40" top="82" >
+          <image name="icon" width="16" height="15" top="2" />
+          <label name="title" left="20" autoWidth="true" height="18" format="宋体白色12" html="true"/>
+          <label name="prop" right="20" autoWidth="true" height="18" format="宋体白色12" html="true" />
+        </box>
+      </box>
+	  
+	  <box name="刻印" top="207" width="272">
+	    <image bmp="分割线" grid="44,0,44,0" width="200" height="1" center="0"/>
+		<label text="精炼等级" top="2" left="20" width="60" height="18" format="efb55a_12" html="true"/>
+		<!--label name="lv" top="2" left="80" autoWidth="true" height="18" format="efb55a_12" html="true"/-->
+		<box name="lvBox" width="162" heith="19" left="80" top="1"/>
+		<label name="rate" top="22" left="40" autoWidth="true" height="18" format="876b55_12_居中" html="true"/>
+		<label name="num0" top="42" left="40" autoWidth="true" height="18" format="876b55_12_居中" html="true"/>
+		<label name="num1" top="62" left="40" autoWidth="true" height="18" format="876b55_12_居中" html="true"/>
+	  </box>
+	  
+	  <box name="附魔" top="300" width="272">
+	    <image bmp="分割线" grid="44,0,44,0" width="200" height="1" center="0"/>
+		<label text="当前附魔" format="efb55a_12" top="2" left="20" width="60" height="20"/>
+		<label name="开启条件" format="efb55a_12" top="25" left="40" autoWidth="true" height="20"/>
+		<box name="fm0" height="60">
+			<image name="icon" bmp="pic19" top="2" left="0" width="44" height="44"/>
+			<label name="prop0" top="0" left="65" autoWidth="true" height="18" format="efb55a_12" html="true"/>
+			<label name="prop1" top="18" left="65" autoWidth="true" height="18" format="efb55a_12" html="true"/>
+			<label name="prop2" top="36" left="65" autoWidth="true" height="18" format="efb55a_12" html="true"/>
+		</box>
+		<box name="fm1" height="60">
+			<image name="icon" bmp="pic20" top="2" left="0" width="44" height="44"/>
+			<label name="prop0" top="0" left="65" autoWidth="true" height="18" format="efb55a_12" html="true"/>
+			<label name="prop1" top="18" left="65" autoWidth="true" height="18" format="efb55a_12" html="true"/>
+			<label name="prop2" top="36" left="65" autoWidth="true" height="18" format="efb55a_12" html="true"/>
+		</box>
+		<box name="fm2" height="60">
+			<image name="icon" bmp="pic22" top="2" left="0" width="44" height="44"/>
+			<label name="prop0" top="0" left="65" autoWidth="true" height="18" format="efb55a_12" html="true"/>
+			<label name="prop1" top="18" left="65" autoWidth="true" height="18" format="efb55a_12" html="true"/>
+			<label name="prop2" top="36" left="65" autoWidth="true" height="18" format="efb55a_12" html="true"/>
+		</box>
+	  </box>
+	  
+	  <box name="bottomField" top="450" width="272">
+	    <image bmp="分割线" grid="44,0,44,0" width="200" height="1" center="0"/>
+	    <!--label name="desc" format="提示说明文字" html="true" top="5" left="20" width="213" height="20"/-->
+	    <!--image bmp="分割线" grid="44,0,44,0" width="200" height="1" center="0" top="30" /-->
+		<label text="需求职业" format="efb55a_12" top="5" left="20" width="60" height="20"/>
+	    <label name="job" format="efb55a_12" html="true" top="5" left="85" width="100" height="20"/>
+        <label name="priceName" text="价格" format="提示价格" html="true" top="30" left="20" width="30" height="20"/>
+        <label name="price" format="提示价格" html="true" top="30" left="55" autoWidth="true" height="20"/>
+        <image name="priceIcon" left="110" top="30" width="20" height="20"/>
+		<label name="info" format="提示双击装备文字" top="55" left="20" width="60" height="20"/>
+	  </box>
+    </box>
+  </controls>
+</xml>

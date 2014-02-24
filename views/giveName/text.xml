@@ -1,0 +1,10 @@
+﻿<xml>
+	<texts>
+		<text id="label1">梅林:</text>
+		<text id="label2">您的名字</text>
+		<text id="label3">尊敬的骑士，你的美德让我看到了王国的希望，您的名字是?</text>
+
+		<text id="inputTxtDef">点击这里输入您的角色名</text>
+		<text id="ok">确定</text>
+	</texts>
+</xml>

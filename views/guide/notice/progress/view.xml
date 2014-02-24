@@ -1,0 +1,53 @@
+﻿<xml>
+	<depends>
+		<depend src="/public/publicFilters.xml"/>
+	</depends>
+
+	<bitmaps>
+		<bitmap id="背景" src="背景.jpg"/>
+		<bitmap id="星星" src="星星.png"/>
+		<bitmap id="章节通关" src="章节通关.png"/>
+		<bitmap id="章节通关底板" src="章节通关底板.png"/>
+		<bitmap id="解锁等级底板" src="解锁等级底板.png"/>
+
+		<bitmap id="奖励标题" src="过关文字.png"/>
+	</bitmaps>
+	
+	<texts>
+		<text id="以下功能马上开启">以下功能马上开启</text>
+	</texts>
+
+	<formats>
+		<format id="描述格式" color="0xfdd59a" size="12" align="center" filter="黑色边框"/>
+	</formats>
+
+	<controls>
+
+		<box id="提示窗" left="0" top="0" right="0" bottom="0">
+
+			<image bmp="背景" left="0" top="0" right="0" bottom="0" alpha=".5"/>
+
+			<box name="页面1" width="402" height="90" center="0" middle="0">
+				<image bmp="章节通关底板" width="402" height="90" center="0" middle="0"/>
+				<image bmp="星星" width="70" height="56" center="-70" middle="0"/>
+				<image bmp="章节通关" width="105" height="31" center="30" top="18"/>
+				<bitmap name="章节名称" x="176" y="55"/>
+			</box>
+
+			<box name="页面2" width="294" height="160" center="0" middle="0">
+				<image bmp="奖励标题" width="294" height="27" center="0" top="0"/>
+				<text x="0" y="27" width="294" height="25" text="以下功能马上开启" format="描述格式"/>
+				<image bmp="章节通关底板" width="450" height="114" center="0" top="50" grid="180,20,180,20"/>
+				<box name="图标容器" width="165" height="114" center="0" top="50"/>
+			</box>
+		</box>
+
+		<box id="开启图标" width="67" height="90" middle="0" filters="灰色滤镜">
+			<bitmap name="图标"/>
+			<image bmp="解锁等级底板" width="46" height="22" center="0" top="68"/>
+			<text name="标签" x="0" y="70" width="67" height="22" format="描述格式"/>
+		</box>
+		
+	</controls>
+
+</xml>

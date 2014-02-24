@@ -1,0 +1,72 @@
+<xml desc="累积充值">
+	<depends>
+		<depend src="/public/controls/window/WindowBack.xml" />
+		<depend src="/public/controls/window/HelpButton.xml" />
+		<depend src="/public/controls/window/CloseButton.xml" />
+		<depend src="/public/publicFrames.xml" />
+		<depend src="/public/publicFormats.xml" />
+		<depend src="/public/publicNumimage.xml" />
+	</depends>
+	
+	<texts>
+		<text id="活动倒计时activity21"><![CDATA[<p align="center"><font color='#fdd59a'>活动倒计时：</font></p>]]></text>
+		<text id="活动结束提示activity21"><![CDATA[<p align="center"><font color='#fdd59a'>活动已结束</font></p>]]></text>
+		<text id="领取activity21">领取</text>
+		
+		<text id="累积充值activity21"><![CDATA[<font color='#fdd59a'>累积充值<font color='#2089ff'>$1钻石</font>送</font>]]></text>
+		<text id="总价值activity21"><![CDATA[<font color='#36e314'>总价值$1钻石</font>]]></text>
+		<text id="myPayNumActivity21"><![CDATA[<p align="right"><font color='#fdd59a'>我的充值：</font><font color='#2089ff'>$1</font></p>]]></text>
+	</texts>
+	
+	<bitmaps>
+		<bitmap id="奖励图标框" src="imgs01/奖励图标框.png"/>
+		<bitmap id="精彩活动面版图1" src="imgs/精彩活动面版图1.jpg"/>
+		<bitmap id="未选择表格条" src="imgs/未选择表格条.png"/>
+		<bitmap id="选择表格条" src="imgs/选择表格条.png"/>
+		<bitmap id="eff1" src="imgs/1.png"/>	
+		<bitmap id="eff2" src="imgs/2.png"/>
+	</bitmaps>
+	
+	<controls>
+		<box id="activity_21" width="496" height="446">
+			<image name="背景" bmp="knightFrame2" left="0" top="0" right="0" bottom="0" grid="10,10,10,10" />
+			
+			<box name="upBox" width="486" height="104" center="0" top="4">
+				<image bmp="精彩活动面版图1" left="0" top="0" right="0" bottom="0"/>
+				<label name="timeCountDownLab" center="5" top="80" width="486" height="20" format="36e314_12" html="true" />
+				<label name="myPayNumLab" right="10" top="80" width="300" height="20" format="36e314_12_right" html="true" />
+			</box>
+			
+			<box name="cellBox" width="486" height="333" center="0" top="110">
+				<label width="486" height="21" center="0" top="46" html="true" visible="false" format="36e314_12_center"/>
+				<ref name="scroller" ref="Scroller" width="486" height="333" center="0" y="0"/>
+			</box>
+		</box>
+		
+		<box id="activity_21_cell" width="469" height="51">
+			<image bmp="未选择表格条" top="0" center="0" width="468" height="51" />
+			<image name="select" bmp="选择表格条" top="0" center="0" width="468" height="51" />
+			
+			<label name="累积充值Lab" left="1" middle="0" width="160" height="21" html="true" format="36e314_12" />
+			<label name="总价值Lab" left="310" middle="0" width="78" height="21" html="true" format="36e314_12_right" visible="false" />
+			
+			<image name="item1Bg" bmp="奖励图标框" middle="0" left="123" width="42" height="42" />
+			<image name="item2Bg" bmp="奖励图标框" middle="0" left="170" width="42" height="42" />
+			<image name="item3Bg" bmp="奖励图标框" middle="0" left="217" width="42" height="42" />
+			<image name="item4Bg" bmp="奖励图标框" middle="0" left="264" width="42" height="42" />
+			
+			<achieveEntity name="item1" left="124" top="6"/>
+			<achieveEntity name="item2" left="171" top="6"/>
+			<achieveEntity name="item3" left="218" top="6"/>
+			<achieveEntity name="item4" left="265" top="6"/>
+			
+			<labelButton name="领取" width="56" height="22" right="12" top="14" label="领取activity21">
+				<state frame="1" back="small_btn_1_1" format="ffbe57_12_居中"/>
+				<state frame="2" back="small_btn_1_2" format="ffbe57_12_居中"/>
+				<state frame="3" back="small_btn_1_3" format="ffbe57_12_居中"/>
+			</labelButton>
+		</box>
+		
+	</controls>
+	
+</xml>

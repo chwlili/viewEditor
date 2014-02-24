@@ -1,0 +1,219 @@
+﻿<xml name="炼金"> 
+  <depends> 
+    <depend src="/public/controls/window/CloseButton.xml"/>  
+    <depend src="/public/controls/window/WindowBack.xml"/>  
+    <depend src="/public/controls/scroller/Scroller.xml"/>  
+    <depend src="/public/publicFormats.xml"/>  
+    <depend src="/public/publicFrames.xml"/>  
+    <depend src="/public/publicButtons.xml"/>  
+    <depend src="/public/publicFilters.xml"/> 
+  </depends>  
+  <formats> 
+    <format id="宋体红色12" font="宋体" color="0xe00503" size="12" align="left" filter="黑色边框"/>  
+    <format id="宋体橘黄色12" font="宋体" size="12" color="0xfa9600" align="left" filter="黑色边框"/>  
+    <format id="宋体橘黄色12居中" font="宋体" size="12" color="0xfa9600" align="center" filter="黑色边框"/>  
+    <format id="宋体浅黄色居中12" font="宋体" size="12" color="0xfdd59a" align="center" filter="黑色边框"/>  
+    <format id="宋体浅黄色12" font="宋体" size="12" color="0xfdd59a" align="left" filter="黑色边框"/>  
+    <format id="宋体黄色居中12" font="宋体" size="12" color="0xefb55a" align="center" filter="黑色边框"/>  
+    <format id="宋体黄色居中12加粗" font="宋体" size="12" color="0xefb55a" align="center" filter="黑色边框" bold="true"/>  
+    <format id="宋体灰色居中12" font="宋体" size="12" color="0x876b55" align="center" filter="黑色边框"/>  
+    <format id="宋体深灰色居中12" font="宋体" size="12" color="0x5e4936" align="center" filter="黑色边框"/>  
+    <format id="宋体绿色居中12" font="宋体" size="12" color="0x2feb16" align="center" filter="黑色边框"/> 
+    <format id="宋体绿色12" font="宋体" size="12" color="0x2feb16" align="left" filter="黑色边框"/> 
+  </formats>  
+  <bitmaps> 
+    <bitmap id="标题" src="imgs/标题.png"/>  
+    <bitmap id="3" src="imgs/橙色能量.png"/>  
+    <bitmap id="1" src="imgs/蓝色能量.png"/>  
+    <bitmap id="4" src="imgs/金色能量.png"/>  
+    <bitmap id="2" src="imgs/紫色能量.png"/>  
+    <bitmap id="身躯标题" src="imgs/身躯标题.png"/>  
+    <bitmap id="手臂标题" src="imgs/手臂标题.png"/>  
+    <bitmap id="腿部标题" src="imgs/腿部标题.png"/>  
+    <bitmap id="提升品质标题" src="imgs/提升品质标题.png"/>  
+    <bitmap id="大召唤阵" src="imgs/大召唤阵.png"/>  
+    <bitmap id="召唤阵" src="imgs/召唤阵.png"/>  
+    <bitmap id="锁定" src="imgs/锁定.png"/>
+<!--    <bitmap id="能量底板01" src="imgs/能量底板01.png"/>  
+    <bitmap id="能量底板02" src="imgs/能量底板02.png"/>
+   <bitmap id="能量底板03" src="imgs/能量底板03.png"/>  -->
+    <bitmap id="光条" src="imgs/光条.png"/>  
+    <bitmap id="区隔竖条" src="imgs/区隔竖条.png"/>  
+    <bitmap id="品质提升" src="imgs/品质提升.png"/>  
+    <bitmap id="双层样式底框" src="imgs/双层样式底框.png"/>  
+    <bitmap id="分割用底图" src="imgs/分割用底图.png"/>  
+    <bitmap id="品质橙色" src="imgs/品质橙色.png"/>  
+    <bitmap id="品质金色" src="imgs/品质金色.png"/>  
+    <bitmap id="品质蓝色" src="imgs/品质蓝色.png"/>  
+    <bitmap id="品质绿色" src="imgs/品质绿色.png"/>  
+    <bitmap id="品质紫色" src="imgs/品质紫色.png"/>
+    <bitmap id="可提升品质标志" src="imgs/可提升品质标志.png"/> 
+    <bitmap id="炼金1" src="imgs/alchemy_1.png"/>		
+		<bitmap id="炼金2" src="imgs/alchemy_2.png"/>	
+		<bitmap id="炼金飘动结束特效" src="imgs/炼金飘动结束特效.png"/>	
+		<bitmap id="炼金飘动特效" src="imgs/炼金飘动特效.png"/>	
+		<bitmap id="炼金特效" src="imgs/炼金特效.png"/>			
+		<bitmap id="炼金左侧底板" src="imgs/炼金左侧底板.jpg"/>	
+		<bitmap id="信息框底板头" src="imgs/信息框底板头.png"/>	
+		
+		<bitmap id="炼金普通按钮01" src="imgs/炼金普通按钮01.png"/>		
+		<bitmap id="炼金普通按钮02" src="imgs/炼金普通按钮02.png"/>		
+		<bitmap id="炼金普通按钮03" src="imgs/炼金普通按钮03.png"/>		
+		
+		<bitmap id="臂力增幅" src="imgs/eff/臂力增幅.png"/>	
+		<bitmap id="穿刺之力" src="imgs/eff/穿刺之力.png"/>	
+		<bitmap id="格挡反应" src="imgs/eff/格挡反应.png"/>	
+		<bitmap id="坚韧体魄" src="imgs/eff/坚韧体魄.png"/>	
+		<bitmap id="抗魔因子" src="imgs/eff/抗魔因子.png"/>	
+		<bitmap id="魔力酝酿" src="imgs/eff/魔力酝酿.png"/>	
+		<bitmap id="皮肤硬化" src="imgs/eff/皮肤硬化.png"/>	
+		<bitmap id="生命祝福" src="imgs/eff/生命祝福.png"/>	
+		<bitmap id="致命爆发" src="imgs/eff/致命爆发.png"/>	
+		<bitmap id="致命一击" src="imgs/eff/致命一击.png"/>	
+  </bitmaps>  
+  <texts> 
+    <text id="当前拥有的秘法能量"><![CDATA[当前拥有的秘法能量<font color='#876b55'>（可提升左侧炼金效果的品质）</font>]]></text>  
+    <text id="消耗炼金石"><![CDATA[每次消耗 <font color='#2feb16'>5</font> 个 <font color='#2feb16'>炼金石</font>]]></text>  
+    <text id="消耗钻石"><![CDATA[每次消耗 <font color='#2feb16'>200</font> <font color='#12def7'>钻石</font>]]></text>  
+    <text id="炼成阵：">炼成阵：</text>  
+    <text id="普通炼化">炼金</text>  
+    <text id="高级炼成">超级炼金</text>  
+    <text id="alchemy_expText"><![CDATA[经验：<font color='#2feb16'> $MIN/$MAX </font>]]></text>  
+    <text id="炼金需要消耗">需要消耗</text>  
+    <text id="提升">提升</text>  
+    <text id="取消">取消</text> 
+    <text id="炼金经验+">经验+</text> 
+    <text id="炼金升级为">升级为</text> 
+    <text id="炼金tip1"><![CDATA[<font size='14'>$NAME    LV.$LV</font>
+<font color='#fdd59a'>经验    $MIN/$MAX</font>
+<font color='#fdd59a'>#PROP  +$VALUE</font>]]></text>  
+		<text id="炼金tip2"><![CDATA[等级达到<font color='#2feb16'>$NUM</font>级开启]]></text> 
+		<text id="达到VIP5级可开启高级炼成">达到骑士5级可开启高级炼成</text> 
+		<text id="炼金_普通炼金tip"><![CDATA[消耗<font color='#2feb16'>5个炼金石</font>炼金进行一次普通炼金，获取少量秘纹经验
+较小几率出现<font color='#b93ff8'>精致炼化（8倍暴击）</font>，极小几率出现<font color='#ff0000'>完美炼化（30倍暴击）</font>]]></text> 
+		<text id="炼金_高级炼成tip"><![CDATA[消耗<font color='#12def7'>200钻石</font>炼金进行40次完美炼金，获取海量秘纹经验
+较大几率出现<font color='#b93ff8'>精致炼化（8倍暴击）</font>与<font color='#ff0000'>完美炼化（30倍暴击）</font>]]></text> 
+		
+  	<text id="拥有炼金石"><![CDATA[拥有炼金石： <font color='#2feb16'>$NUM</font>]]></text> 
+ 		<text id="炼金type0"><![CDATA[<font color='#2089ff'>$NAME 普通炼化 经验+ $EXP</font>]]></text> 
+ 		<text id="炼金type1"><![CDATA[<font color='#b93ff8'>$NAME 精致炼化 经验+ $EXP</font>]]></text> 
+ 		<text id="炼金type2"><![CDATA[<font color='#ff0000'>$NAME 完美炼化 经验+ $EXP</font>]]></text> 
+ 		<text id="超级炼金开始"><![CDATA[<font color='#fdd59a'>超级炼金开始...</font>]]></text> 
+ 		<text id="超级炼金_恭喜"><![CDATA[<font color='#fdd59a'>恭喜您获得$NUM1次完美炼化，$NUM2次精致炼化</font>]]></text> 
+  </texts>  
+  <controls> 
+    <window id="Main" width="1096" height="477"> 
+      <box id="WindowBack" width="840" height="477">
+			<!-- 窗口标题 -->
+			<image bmp="knightTitle1" grid="48,0,43,0" left="0" top="0" right="0" height="43"/>
+			<!-- 窗口背景 -->
+			<image bmp="knightFrame1" grid="73,41,77,54" left="1" top="43" right="0" bottom="0"/>
+			</box>
+      <ref name="closeBtn" ref="CloseButton"/>  
+      <image bmp="标题" center="-128" top="10" width="81" height="31"/>  
+      <image bmp="knightFrame10" grid="46,42,46,42" x="13" y="53" width="812" height="402"/>  
+      <image bmp="大召唤阵" width="464" height="292" x="370" y="85"/>  
+      <image bmp="召唤阵" width="122" height="74" x="543" y="138"/>  
+      <image bmp="召唤阵" width="122" height="74" x="460" y="219"/>  
+      <image bmp="召唤阵" width="122" height="74" x="620" y="219"/>  
+      <image bmp="区隔竖条" x="382" y="53" width="2" height="402"/>  
+     <!-- <image bmp="中底板底" x="35" y="66" width="320" height="115" grid="20,20,20,20"/>  
+      <image bmp="中底板底" x="35" y="198" width="320" height="115" grid="20,20,20,20"/>  
+      <image bmp="中底板底" x="35" y="329" width="320" height="115" grid="20,20,20,20"/>
+      <image bmp="lace2_2" x="10" y="88" width="36" height="71"/>  
+      <image bmp="lace2_2" x="10" y="222" width="36" height="71"/>  
+      <image bmp="lace2_2" x="10" y="352" width="36" height="71"/>  
+      <image bmp="lace2_1" x="344" y="88" width="36" height="71"/>  
+      <image bmp="lace2_1" x="344" y="222" width="36" height="71"/>  
+      <image bmp="lace2_1" x="344" y="352" width="36" height="71"/>  
+      <image bmp="光条" x="75" y="60" width="228" height="17"/>  
+      <image bmp="光条" x="75" y="190" width="228" height="17"/>  
+      <image bmp="光条" x="75" y="322" width="228" height="17"/>  
+      <image bmp="身躯标题" x="166" y="57" width="44" height="27"/>  
+      <image bmp="手臂标题" x="166" y="187" width="44" height="27"/>  
+      <image bmp="腿部标题" x="166" y="319" width="44" height="27"/>   -->
+      <image bmp="炼金左侧底板" x="16" y="64" width="364" height="388"/>       
+      <image bmp="分割用底图" x="425" y="316" width="349" height="44"/>
+      
+      <image bmp="knightFrame10" grid="46,42,46,42" x="836" y="53" width="256" height="402"/>    
+      <image bmp="信息框底板头" x="836" y="53" width="256" height="36"/>
+   <!--   <image bmp="1" x="400" y="85" width="30" height="30" tip="秘法金石蓝"/>  
+      <image bmp="2" x="500" y="85" width="30" height="30" tip="秘法金石紫"/>  
+      <image bmp="3" x="600" y="85" width="30" height="30" tip="秘法金石橙"/>   
+      <image bmp="4" x="700" y="85" width="30" height="30" tip="秘法金石金"/> --> 
+      <labelButton name="startBtn" width="82" height="28" label="普通炼化" x="470" y="388" tip="炼金_普通炼金tip"> 
+        <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中" grid="20,0,20,0"/>  
+        <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中" grid="20,0,20,0"/>  
+        <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中" grid="20,0,20,0"/> 
+      </labelButton>  
+      <labelButton name="advStartBtn" width="84" height="28" label="高级炼成" x="625" y="388" tip="炼金_高级炼成tip"> 
+        <state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中" grid="20,0,20,0"/>  
+        <state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中" grid="20,0,20,0"/>  
+        <state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中" grid="20,0,20,0"/> 
+      </labelButton>  
+      <!--文字内容-->  
+      <label width="307" height="25" x="400" y="67" html="true" format="宋体黄色居中12" text="当前拥有的秘法能量" visible="false"/>  
+      <label width="50" height="25" x="730" y="143" html="true" format="宋体橘黄色12" text="炼成阵：" visible="false"/>  
+      
+      <label name="infoTf" width="349" height="25" x="425" y="360" html="true" format="宋体橘黄色12居中" text="消耗炼金石"/>
+      <label name="e26" width="75" height="25" x="430" y="90" html="true" format="宋体橘黄色12" text="初始数字" tip="秘法金石蓝" visible="false"/>
+      <label name="e27" width="75" height="25" x="530" y="90" html="true" format="宋体橘黄色12" text="初始数字" tip="秘法金石紫" visible="false"/>
+      <label name="e28" width="75" height="25" x="630" y="90" html="true" format="宋体橘黄色12" text="初始数字" tip="秘法金石橙" visible="false"/> 
+      <label name="e29" width="75" height="25" x="730" y="90" html="true" format="宋体橘黄色12" text="初始数字" tip="秘法金石金" visible="false"/> 
+      <label name="StoneTf" width="349" height="25" x="425" y="334" html="true" format="宋体黄色居中12" text="拥有炼金石"/> 
+    </window>  
+    <!--炼金面板一个格子-->  
+    <box id="Cell" width="62" height="62"> 
+      <image name="bg0" bmp="锁定" width="57" height="57" visible="false"/>  
+      <!--<image name="bg1" bmp="能量底板02" width="62" height="62" visible="false"/> --> 
+<!--      <image name="bg2" bmp="能量底板01" width="62" height="62" visible="false"/>-->
+      <image name="q4" bmp="品质橙色" x="-7" y="-5" width="27" height="14"/>
+      <image name="q5" bmp="品质金色" x="-7" y="-5" width="27" height="14"/>
+      <image name="q2" bmp="品质蓝色" x="-7" y="-5" width="27" height="14"/>
+      <image name="q1" bmp="品质绿色" x="-7" y="-5" width="27" height="14"/>
+      <image name="q3" bmp="品质紫色" x="-7" y="-5" width="27" height="14"/>  
+      <image name="upable" bmp="可提升品质标志" x="43" y="-9" width="28" height="28"  visible="false"/> 
+      <label name="nameTf" width="62" height="38" x="0" y="63" html="true" format="宋体黄色居中12"/> 
+    </box>  
+    <window id="Upgrade" width="380" height="330"> 
+      <image bmp="双层样式底框" top="9" width="380" height="319" grid="20,20,20,20"/>  
+      <image bmp="knightFrame2" grid="30,47,29,49" width="140" height="175" x="24" y="57"/>  
+      <image bmp="knightFrame2" grid="30,47,29,49" width="140" height="175" x="217" y="57"/>  
+      <ref name="closeBtn" right="10" top="20" ref="CloseButton"/>  
+      <image bmp="光条" x="0" y="2" width="228" height="17" center="0"/>  
+      <image bmp="提升品质标题" width="81" height="26" center="0"/>  
+      <image bmp="品质提升" width="67" height="48" center="0" y="115"/>
+      <image bmp="lace1_2" width="14" height="39" x="147" y="120"/>  
+      <image bmp="lace1_2" width="14" height="39" x="340" y="120"/>  
+      <image bmp="lace1_1" width="14" height="39" x="28" y="120"/>  
+      <image bmp="lace1_1" width="14" height="39" x="221" y="120"/>  
+      <image bmp="分割用底图" center="0" y="283" width="250" height="44" scaleY="-1"/>  
+      <image bmp="分割用底图" center="0" y="227" width="349" height="44"/>  
+      <achieveEntity name="item" x="173" y="234"/>
+      <labelButton name="okBtn" width="82" height="28" x="94" y="275" label="提升" visible="true"> 
+        <state frame="1" back="knightLabelBtn2_1" format="宋体橘黄色12居中"/>  
+        <state frame="2" back="knightLabelBtn2_2" format="宋体橘黄色12居中"/>  
+        <state frame="3" back="knightLabelBtn2_3" format="宋体橘黄色12居中"/> 
+      </labelButton>  
+      <labelButton name="cancelBtn" width="82" height="28" x="200" y="275" label="取消" visible="true"> 
+        <state frame="1" back="knightLabelBtn2_1" format="宋体橘黄色12居中"/>  
+        <state frame="2" back="knightLabelBtn2_2" format="宋体橘黄色12居中"/>  
+        <state frame="3" back="knightLabelBtn2_3" format="宋体橘黄色12居中"/> 
+      </labelButton>  
+      <!--文字内容-->  
+      <label name="expTf" width="140" height="25" x="24" y="180" html="true" format="宋体浅黄色居中12" text="经验"/>  
+      <label name="upExpTf" width="140" height="25" x="217" y="180" html="true" format="宋体浅黄色居中12" text="经验"/>  
+      <label name="infoTf" width="140" height="25" x="24" y="200" html="true" format="宋体浅黄色居中12" text="经验"/>  
+      <label name="upInfoTf" width="140" height="25" x="217" y="200" html="true" format="宋体浅黄色居中12" text="经验"/> 
+      <label width="100" height="25" left="125" y="245" html="true" format="宋体橘黄色12" text="炼金需要消耗"/> 
+      <label name="payTf" width="100" height="25" left="213" y="245" html="true" format="宋体橘黄色12" text="炼金需要消耗"/> 
+    </window> 
+    <!--炼金面板-战报单元格-->  
+    <box id="ReportCell" width="62" height="20"> 
+      <label name="infoTf" width="250" height="20" x="25" y="0" html="true" format="宋体浅黄色12"/> 
+    <!--  <label name="nameTf" width="100" height="20" x="75" y="0" html="true" format="宋体浅黄色12"/> 
+      <label name="titleTf" width="40" height="20" x="166" y="0" html="true" format="宋体浅黄色12" text="炼金经验+"/> 
+      <label name="expTf" width="50" height="20" x="200" y="0" html="true" format="宋体绿色12" text="初始数字"/> -->
+    </box>  
+  </controls> 
+</xml>

@@ -1,0 +1,56 @@
+﻿<xml>
+	<depends>
+		<depend src="/public/publicColor.xml"/>
+		<depend src="/public/publicFilters.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+	</depends>
+
+	<bitmaps>
+		<bitmap id="获得道具文字" src="获得道具文字.png"/>
+		<bitmap id="获得新技能文字" src="获得新技能文字.png"/>
+		<bitmap id="获得新装备文字" src="获得新装备文字.png"/>
+
+		<bitmap id="获得技能背景" src="获得新技能底板.png"/>
+		<bitmap id="获得装备背景" src="获得新装备底板.png"/>
+
+		<bitmap id="确定01" src="/public/imgs/buttons/1号按钮英雄副本01.png"/>
+		<bitmap id="确定02" src="/public/imgs/buttons/1号按钮英雄副本02.png"/>
+		<bitmap id="确定03" src="/public/imgs/buttons/1号按钮英雄副本03.png"/>
+	</bitmaps>
+
+	<texts>
+		<text id="提示栏_点击装备">点击穿戴</text>
+		<text id="提示栏_点击学习">点击学习</text>
+		<text id="提示栏_点击使用">点击使用</text>
+		<text id="提示栏_恭喜获得新装备"><![CDATA[恭喜获得新装备：<font color="#2feb16">$1</font>]]></text>
+		<text id="提示栏_恭喜获得新技能"><![CDATA[恭喜获得新技能：<font color="#2feb16">$1</font>]]></text>
+		<text id="提示栏_恭喜获得新道具">恭喜获得道具：$1</text>
+	</texts>
+
+	<formats>
+		<format id="描述格式" color="0xfdd59a" size="12" align="center" filter="黑色边框"/>
+		<format id="按钮格式" color="0xe1c67d" size="12" align="center" filter="黑色边框"/>
+	</formats>
+
+	<controls>
+
+		<box id="提示窗" width="206" height="175" right="10" bottom="80">
+			<bitmap name="背景"/>
+			<bitmap name="title"/>
+			<ref name="closeBtn" ref="CloseButton"/>
+			<box name="图标容器" width="60" height="60" center="0" top="34">
+				<bitmap name="图标"/>
+			</box>
+
+			<text name="描述" format="描述格式" width="206" height="20" x="0" y="105"/>
+
+			<labelButton name="确定" width="80" height="28" center="0" bottom="18" label="提示栏_点击装备">
+				<state frame="1" back="确定01" backGrid="10,5,10,10" format="按钮格式"/>
+				<state frame="2" back="确定02" backGrid="10,5,10,10" format="按钮格式"/>
+				<state frame="3" back="确定03" backGrid="10,5,10,10" format="按钮格式"/>
+			</labelButton>
+		</box>
+		
+	</controls>
+
+</xml>

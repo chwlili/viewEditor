@@ -1,0 +1,35 @@
+<xml>
+	<bitmaps>
+		<bitmap id="下划线" src="/public/imgs/frames/Underline.png"/>
+	</bitmaps>
+	
+	<formats>
+		<format id="名称字体" font="宋体" color="0xd800ff" size="14" bold="true"/>
+
+		<format id="介绍字体" font="宋体" color="0x00ff00" size="12" filter="黑色边框" align="left" leading="4"/>
+
+		<format id="描述字体" font="宋体" color="0xfcaff0" size="12" filter="黑色边框" align="left" leading="4"/>
+	</formats>
+	
+	<controls>
+		
+		<!-- 副本Tip -->
+		<box id="掉落物Tip" width="220" height="200">
+			<!-- 掉落物图片  -->
+			<bitmap name="图标字段" x="13" y="13"/>
+			<!-- 掉落物名称  -->
+			<text name="名称字段" x="65" y="22"  width="150" height="25" format="名称字体" html="true"/>
+			
+			<image name="下划线1" bmp="下划线" x="37" y="39"  width="135" height="23"/>
+			<!-- 掉落物介绍  -->
+			<text name="介绍字段" x="13" y="55"  width="200" format="介绍字体" html="true" autoSize="left" wordWrap="true" multiline="true"/>
+			
+			<image name="下划线2" bmp="下划线" x="37"  width="135" height="23"/>
+			<!-- 掉落物详细描述  -->
+			<text  name="详细描述字段" x="13" y="55"  width="200"  format="描述字体" html="true" autoSize="left" wordWrap="true" multiline="true"/>
+			
+		</box>
+		
+	</controls>
+
+</xml>

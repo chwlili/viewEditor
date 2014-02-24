@@ -1,0 +1,218 @@
+<xml name="麻痹戒指">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicNumimage.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="eff1" src="/public/imgs/effects/1.png"/>
+		<bitmap id="eff2" src="/public/imgs/effects/2.png"/>
+		
+		<bitmap id="大图" src="imgs/大图.png"/>
+		<bitmap id="大图下" src="imgs/大图.jpg"/>
+		
+		<bitmap id="不在当天面版" src="imgs/不在当天面版.png"/>		
+		<bitmap id="不在当天面版下" src="imgs/不在当天面版.jpg"/>		
+		
+		<bitmap id="当天面版" src="imgs/当天面版.png"/>
+		<bitmap id="当天面版下" src="imgs/当天面版.jpg"/>
+		
+		<bitmap id="圣器大放送" src="imgs/麻痹戒指大放送标头字.png"/>
+		
+		<bitmap id="day_1_01" src="imgs/第一天01.png"/>
+		<bitmap id="day_1_02" src="imgs/第一天02.png"/>
+		<bitmap id="day_2_01" src="imgs/第二天01.png"/>
+		<bitmap id="day_2_02" src="imgs/第二天02.png"/>
+		
+		<bitmap id="day_3_01" src="imgs/第三天01.png"/>
+		<bitmap id="day_3_02" src="imgs/第三天02.png"/>
+		
+		<bitmap id="day_4_01" src="imgs/第四天01.png"/>
+		<bitmap id="day_4_02" src="imgs/第四天02.png"/>
+		
+		<bitmap id="day_5_01" src="imgs/第五天01.png"/>
+		<bitmap id="day_5_02" src="imgs/第五天02.png"/>
+		<bitmap id="day_6_01" src="imgs/第六天01.png"/>
+		<bitmap id="day_6_02" src="imgs/第六天02.png"/>
+		
+		<bitmap id="day_7_01" src="imgs/第七天01.png"/>
+		<bitmap id="day_7_02" src="imgs/第七天02.png"/>
+		
+		
+		<bitmap id="广告条" src="imgs/麻痹戒指大放送广告条.png"/>
+		
+		<bitmap id="领取奖励按钮01" src="imgs/领取奖励按钮01.png"/>
+		<bitmap id="领取奖励按钮02" src="imgs/领取奖励按钮02.png"/>
+		<bitmap id="领取奖励按钮03" src="imgs/领取奖励按钮03.png"/>
+		
+		<bitmap id="我的信息底条" src="imgs/我的信息底条.png"/>
+		
+		<bitmap id="右翻01" src="imgs/右翻01.png"/>
+		<bitmap id="右翻02" src="imgs/右翻02.png"/>
+		<bitmap id="右翻03" src="imgs/右翻03.png"/>
+		
+		<bitmap id="左翻01" src="imgs/左翻01.png"/>
+		<bitmap id="左翻02" src="imgs/左翻02.png"/>
+		<bitmap id="左翻03" src="imgs/左翻03.png"/>
+
+
+	</bitmaps>
+	
+	<texts>
+		<text id="领取奖励activity">领取奖励</text>
+		<text id="查看详情activity">查看详情</text>
+		<text id="不可领activity">不可领</text>
+		<text id="已领取activity">已领取</text>
+		<text id="可领取activity">可领取</text>
+		<text id="rewardName_activity"><![CDATA[最炫翅膀$1]]></text>
+		
+		<text id="领奖倒计时activity23"><![CDATA[<p align="center"><font color='#fdd59a'>领奖倒计时：</font></p>]]></text>
+		<text id="活动结束提示activity23"><![CDATA[<p align="center"><font color='#fdd59a'>活动已结束</font></p>]]></text>
+		
+		<text id="first_condition_1"><![CDATA[翅膀战斗力全服排名第一]]></text>
+		<text id="first_condition_2"><![CDATA[武器战斗力全服排名第一]]></text>
+		<text id="first_condition_3"><![CDATA[宝珠战斗力全服排名第一]]></text>
+		<text id="first_condition_4"><![CDATA[星运战斗力全服排名第一]]></text>
+		<text id="first_condition_5"><![CDATA[胸甲进阶等级全服排名第一]]></text>
+		<text id="first_condition_6"><![CDATA[头盔进阶等级全服排名第一]]></text>
+		<text id="first_condition_7"><![CDATA[戒指战斗力全服排名第一]]></text>
+		<!-- 最低条件 -->
+		<text id="first_min_1"><![CDATA[<font color='#f85d00'>翅膀战斗力达到:</font><font color='#ff0000'>$1</font>]]></text>
+		<text id="first_min_2"><![CDATA[<font color='#f85d00'>武器战斗力达到:</font><font color='#ff0000'>$1</font>]]></text>
+		<text id="first_min_3"><![CDATA[<font color='#f85d00'>宝珠战斗力达到:</font><font color='#ff0000'>$1</font>]]></text>
+		<text id="first_min_4"><![CDATA[<font color='#f85d00'>星运战斗力达到:</font><font color='#ff0000'>$1</font>]]></text>
+		<text id="first_min_5"><![CDATA[<font color='#f85d00'>胸甲进阶等级达到:</font><font color='#ff0000'>$1</font>级]]></text>
+		<text id="first_min_6"><![CDATA[<font color='#f85d00'>头盔进阶等级达到:</font><font color='#ff0000'>$1</font>级]]></text>
+		<text id="first_min_7"><![CDATA[<font color='#f85d00'>戒指战斗力达到:</font><font color='#ff0000'>$1</font>]]></text>
+		
+		<text id="other_condition_1"><![CDATA[翅膀战斗力达到<font color='#ff0000'>$1</font>]]></text>
+		<text id="other_condition_2"><![CDATA[武器战斗力达到<font color='#ff0000'>$1</font>]]></text>
+		<text id="other_condition_3"><![CDATA[宝珠战斗力达到<font color='#ff0000'>$1</font>]]></text>
+		<text id="other_condition_4"><![CDATA[星运战斗力达到<font color='#ff0000'>$1</font>]]></text>
+		<text id="other_condition_5"><![CDATA[胸甲进阶等级达到<font color='#ff0000'>$1</font>级]]></text>
+		<text id="other_condition_6"><![CDATA[头盔进阶等级达到<font color='#ff0000'>$1</font>级]]></text>
+		<text id="other_condition_7"><![CDATA[戒指战斗力达到<font color='#ff0000'>$1</font>]]></text>
+		
+		<text id="获奖者act"><![CDATA[<font color='#ff3e00'>获奖者</font>]]></text>
+		<text id="角色名act"><![CDATA[<font color='#f85d00'>$1</font>]]></text>
+		<text id="武器名act"><![CDATA[<font color='#ffea00'>$1</font>]]></text>
+		<text id="当前第一act"><![CDATA[<font color='#00ff90' face='宋体' bold='true'>当前第一</font>]]></text>
+		<text id="虚位以待act"><![CDATA[<font color='#fdd59a' face='宋体' bold='true'>虚位以待</font>]]></text>
+		
+		<text id="self_value_1"><![CDATA[<font color='#f85d00'>我的翅膀战斗力:</font>$1]]></text>
+		<text id="self_value_2"><![CDATA[<font color='#f85d00'>我的武器战斗力:</font>$1]]></text>
+		<text id="self_value_3"><![CDATA[<font color='#f85d00'>我的宝珠战斗力:</font>$1]]></text>
+		<text id="self_value_4"><![CDATA[<font color='#f85d00'>我的星运战斗力:</font>$1]]></text>
+		<text id="self_value_5"><![CDATA[<font color='#f85d00'>我的胸甲等级:</font>$1]]></text>
+		<text id="self_value_6"><![CDATA[<font color='#f85d00'>我的头盔等级:</font>$1]]></text>
+		<text id="self_value_7"><![CDATA[<font color='#f85d00'>我的戒指战斗力:</font>$1]]></text>
+		
+		<text id="ac_name_1"><![CDATA[<font color='#ffea00'>最炫翅膀</font>]]></text>
+		<text id="ac_name_2"><![CDATA[<font color='#ffea00'>最酷武器</font>]]></text>
+		<text id="ac_name_3"><![CDATA[<font color='#ffea00'>最美宝珠</font>]]></text>
+		<text id="ac_name_4"><![CDATA[<font color='#ffea00'>最强星运</font>]]></text>
+		<text id="ac_name_5"><![CDATA[<font color='#ffea00'>最厚胸甲</font>]]></text>
+		<text id="ac_name_6"><![CDATA[<font color='#ffea00'>最硬头盔</font>]]></text>
+		<text id="ac_name_7"><![CDATA[<font color='#ffea00'>最亮戒指</font>]]></text>
+		
+		<text id="ac_day_1"><![CDATA[一]]></text>
+		<text id="ac_day_2"><![CDATA[二]]></text>
+		<text id="ac_day_3"><![CDATA[三]]></text>
+		<text id="ac_day_4"><![CDATA[四]]></text>
+		<text id="ac_day_5"><![CDATA[五]]></text>
+		<text id="ac_day_6"><![CDATA[六]]></text>
+		<text id="ac_day_7"><![CDATA[七]]></text>
+		
+		<text id="loopup_tip"><![CDATA[<font color='#fdd59a'>狂欢第$AC_DAY天:</font>$AC_NAME
+<font color='#fdd59a'>结算时间:</font><font color='#36e314'>当天23:59分</font>
+<font color='#f85d00'>1、全服第一奖励：</font>
+<font color='#fdd59a'>   倒计时结束后，<font color='#f85d00'>$CON_1</font>并达到<font color='#ff0000'>$LV</font>的
+玩家，可在本面板领取奖励。</font>
+<font color='#f85d00'>2、全民奖励:</font>
+<font color='#fdd59a'>   倒计时结束后，$CON_2的
+玩家可在本面板领取全民奖励。</font>
+		]]></text>
+		
+	</texts>
+	
+	<formats>
+		
+	</formats>
+	
+	<controls>
+		
+		<window id="main"  width="712" height="478">
+			<image bmp="大图" center="0" bottom="0" width="790" height="524" />
+			<image bmp="大图下" center="1" bottom="11" width="705" height="396" />
+			
+			<image bmp="广告条" center="0" top="45" width="649" height="21" />
+			<image bmp="圣器大放送" center="3" top="-2" width="175" height="29" />
+			
+			<ref name="closeBtn" ref="CloseButton" top="6" />
+			
+			<box name="cellBox" center="0" top="66" width="712" height="388" />
+			
+			<button name="pageLeftBtn" left="-30" middle="0" width="63" height="82">
+				<state frame="1" back="左翻01" />
+				<state frame="2" back="左翻02" />
+				<state frame="3" back="左翻03" />
+			</button>
+			
+			<button name="pageRightBtn" right="-30" middle="0" width="63" height="82">
+				<state frame="1" back="右翻01" />
+				<state frame="2" back="右翻02" />
+				<state frame="3" back="右翻03" />
+			</button>
+			
+		</window>
+		
+		<box id="cell" width="170" height="388" >
+			<box name="noSelectBg" left="0" top="0" width="170" height="388">
+				<image bmp="不在当天面版" left="0" top="0" right="0" bottom="0" />
+				<image bmp="不在当天面版下" center="0" middle="0" width="164" height="379" />
+			</box>
+			<box name="selectBg" left="0" top="0" width="170" height="388">
+				<image bmp="当天面版" left="0" top="0" right="0" bottom="0" />
+				<image bmp="当天面版下" center="0" middle="0" width="164" height="379" />
+			</box>
+			
+			<label name="countDownLab" center="0" top="17" width="170" height="20" html="true" format="36e314_12_center" text="rewardName_activity" />
+			<label name="firstDescLab" center="0" top="40" width="170" height="20" html="true" format="36e314_12_center" text="rewardName_activity" />
+			
+			<labelButton name="loopUpBtn" width="72" height="22" center="-1" top="160" label="查看详情activity">
+				<state frame="1" back="小按钮01" format="ffbe57_12_居中" grid="26,0,26,0" />
+				<state frame="2" back="小按钮02" format="ffbe57_12_居中" grid="26,0,26,0" />
+				<state frame="3" back="小按钮03" format="ffbe57_12_居中" grid="26,0,26,0" />
+			</labelButton>
+			
+			<labelButton name="getFirstBtn" width="72" height="22" center="-1" top="160" label="领取奖励activity">
+				<state frame="1" back="领取奖励按钮01" format="ffbe57_12_居中" />
+				<state frame="2" back="领取奖励按钮02" format="ffbe57_12_居中" />
+				<state frame="3" back="领取奖励按钮03" format="ffbe57_12_居中" />
+			</labelButton>
+			
+			<labelButton name="getOtherBtn" width="72" height="22" center="-1" bottom="50" label="领取奖励activity">
+				<state frame="1" back="领取奖励按钮01" format="ffbe57_12_居中" />
+				<state frame="2" back="领取奖励按钮02" format="ffbe57_12_居中" />
+				<state frame="3" back="领取奖励按钮03" format="ffbe57_12_居中" />
+			</labelButton>
+			
+			<achieveEntity name="firstItem" left="51" top="78"/>
+			<label name="firstItemNameLab" center="0" top="140" width="170" height="20" html="true" format="36e314_12_center" text="rewardName_activity" />
+			
+			<label name="rewardDescLab" center="0" top="186" width="170" height="20" html="true" format="36e314_12_center" text="获奖者" />
+			<label name="playerNameLab" center="0" top="204" width="170" height="20" html="true" format="36e314_12_center" text="角色名" />
+			
+			<achieveEntity name="otherItem" left="62" top="272"/>
+			<label name="otherRewardDescLab" center="1" top="254" width="170" height="20" html="true" format="36e314_12_center" text="other_condition_1" />
+			
+			<label name="selfValueLab" center="0" bottom="8" width="170" height="20" html="true" format="36e314_12_center" text="self_value_1" />
+			
+			<image name="dayImg" bmp="第一天01" center="0" top="-15" width="80" height="33"/>
+		</box>
+		
+	</controls>
+</xml>

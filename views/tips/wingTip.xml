@@ -1,0 +1,82 @@
+<xml>
+  <depends>
+    <!--depend src="/public/publicFrames.xml"/-->
+    <depend src="/public/publicFormats.xml"/>
+	<!--depend src="/public/publicIcons.xml"/-->
+	<depend src="/public/publicTexts.xml"/>
+  </depends>
+  
+  <bitmaps>
+	<bitmap id="q0" src="imgs/q0.jpg"/>
+    <bitmap id="q1" src="imgs/q1.jpg"/>
+	<bitmap id="q2" src="imgs/q2.jpg"/>
+	<bitmap id="q3" src="imgs/q3.jpg"/>
+	<bitmap id="q4" src="imgs/q4.jpg"/>
+	<bitmap id="q5" src="imgs/q5.jpg"/>
+	<bitmap id="q6" src="imgs/q6.jpg"/>
+	
+	<bitmap id="mapTipsBoard" src="/public/imgs/frames/tooltips首都_底板.png"/>
+	<bitmap id="分割线" src="/public/imgs/frames/分割线.png"/>
+  </bitmaps>
+  
+  <bitmapReaders>
+	<bitmapReader id="q0" bmp="q0" grid="4,4,5,5"/>
+    <bitmapReader id="q1" bmp="q1" grid="4,4,5,5"/>
+	<bitmapReader id="q2" bmp="q2" grid="4,4,5,5"/>
+	<bitmapReader id="q3" bmp="q3" grid="4,4,5,5"/>
+	<bitmapReader id="q4" bmp="q4" grid="4,4,5,5"/>
+	<bitmapReader id="q5" bmp="q5" grid="4,4,5,5"/>
+	<bitmapReader id="q6" bmp="q6" grid="4,4,5,5"/>
+  </bitmapReaders>
+  
+  <texts>
+    <text id="翅膀">翅膀</text>
+	<text id="属性效果">属性效果:</text>
+    <text id="需求职业">需求职业:</text>
+	<text id="双击装备">双击装备</text>
+	<text id="双击卸下">双击卸下</text>
+	<text id="已装备">已装备</text>
+	<text id="生命">生命</text>
+	<text id="物理攻击">物理攻击</text>
+	<text id="物理防御">物理防御</text>
+	<text id="魔法攻击">魔法攻击</text>
+	<text id="魔法防御">魔法防御</text>
+	<text id="移动速度">移动速度</text>
+	<text id="能量上限">能量上限</text>
+  </texts>
+  
+  <controls>
+    <box id="wingTip" width="253" height="326">
+      <image bmp="mapTipsBoard" grid="50,50,50,50" top="0" left="0" right="0" bottom="0"/>
+	  
+	  <box name="topField" top="15" left="0" width="173" height="69">
+		<box name="iconField" width="69" height="69" left="20">
+			<image name="iconBg" left="0" top="0" width="69" height="69"/>
+			<image name="icon" center="0" middle="0" width="60" height="60"/>
+			<label name="equipped" text="已装备" width="50" height="20" left="-5" top="-10" format="0x2feb16_12_左" />
+		</box>
+		<box name="titleField" height="48" left="95" middle="0">  
+			<label name="name" autoWidth="true" height="20" format="宋体白色14加粗" html="true"/>
+			<label name="type" autoWidth="true" height="18" bottom="0" format="efb55a_12"/>
+		</box>
+	  </box>
+	  
+	  <box name="effectField" width="253" top="94">
+	    <image bmp="分割线" grid="44,0,44,0" width="213" height="1" center="0"/>
+		<label text="属性效果" format="efb55a_12" top="5" left="20" width="60" height="20"/>
+	  </box>
+	  
+	  <box name="bottomField" width="253">
+	    <image bmp="分割线" grid="44,0,44,0" width="200" height="1" center="0"/>
+		<label text="需求职业" format="efb55a_12" top="5" left="20" width="60" height="20"/>
+	    <label name="job" format="efb55a_12" html="true" top="5" left="85" width="100" height="20"/>
+		<label name="info" format="提示双击装备文字" top="55" left="20" width="60" height="20"/>
+	  </box>
+    </box>
+	
+	<box id="propItem" left="20" top="35">
+		<label name="prop0" width="60" height="18" format="0x2feb16_12_左"/>
+		<label name="prop1" width="40" height="18" left="85" format="0x2feb16_12_左"/>
+	</box>
+  </controls>
+</xml>

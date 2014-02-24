@@ -1,0 +1,228 @@
+<xml name="好友面板" editorId="1">
+  <depends editorId="2">
+    <depend src="/public/controls/window/HelpButton.xml" editorId="3"/>
+    <depend src="/public/controls/window/CloseButton.xml" editorId="4"/>
+    <depend src="/public/controls/window/WindowBack.xml" editorId="5"/>
+    <depend src="/public/controls/scroller/Scroller.xml" editorId="6"/>
+    <depend src="/public/publicFormats.xml" editorId="7"/>
+    <depend src="/public/publicFrames.xml" editorId="8"/>
+    <depend src="/public/publicButtons.xml" editorId="9"/>
+    <depend src="/public/publicFilters.xml" editorId="10"/>
+  </depends>
+  <formats editorId="11">
+    <format id="宋体红色12" font="宋体" color="0xe00503" size="12" align="left" filter="黑色边框" editorId="12"/>
+    <format id="宋体橘黄色12" font="宋体" size="12" color="0xfe9627" align="left" filter="黑色边框" editorId="13"/>
+    <format id="宋体浅黄色居中12" font="宋体" size="12" color="0xfffdd6" align="center" filter="黑色边框" editorId="14"/>
+    <format id="宋体灰色居中12" font="宋体" size="12" color="0x585755" align="center" filter="黑色边框" editorId="15"/>
+    <format id="宋体绿色12" font="宋体" size="12" color="0x03dd27" align="left" filter="黑色边框" editorId="16"/>
+    <format id="宋体暗绿色12" font="宋体" size="12" color="0x3e6a2d" align="left" filter="黑色边框" editorId="16"/>
+  </formats>
+  <bitmaps editorId="17">
+    <bitmap id="title" src="imgs/好友.png" editorId="18"/>
+    <bitmap id="headbg" src="imgs/头像框.png" editorId="19"/>
+    <bitmap id="panel1" src="imgs/红色渐变条.png" editorId="20"/>
+    <bitmap id="宝箱" src="imgs/宝箱图标2.png" editorId="21"/>
+    <bitmap id="名字输入框" src="imgs/名字输入框.png" editorId="22"/>
+    <bitmap id="关注1" src="imgs/关注按钮01.png" editorId="23"/>
+    <bitmap id="关注2" src="imgs/关注按钮02.png" editorId="24"/>
+    <bitmap id="关注3" src="imgs/关注按钮03.png" editorId="25"/>
+    <bitmap id="female01" src="imgs/女好友图标.png" editorId="26"/>
+    <bitmap id="female02" src="imgs/女好友图标灰.png" editorId="27"/>
+    <bitmap id="male01" src="imgs/男好友图标.png" editorId="28"/>
+    <bitmap id="male02" src="imgs/男好友图标灰.png" editorId="29"/>
+    <bitmap id="flower" src="imgs/鲜花图标.png" editorId="30"/>
+    <bitmap id="little_flower" src="imgs/小花图标.png" editorId="31"/>
+    <bitmap id="bottomBg" src="imgs/下方底图.png" editorId="32"/>
+    <bitmap id="seq" src="imgs/框体隔断条.png" editorId="33"/>
+    <bitmap id="selectBar" src="imgs/选中条.png" editorId="34"/>
+    <bitmap id="未选中条" src="imgs/选中条.png" editorId="35"/>
+    <bitmap id="组队好友推荐标题" src="imgs/组队好友推荐标题.png" editorId="36"/>
+    <bitmap id="勾选框-未选中" src="imgs/勾选框-未选中.png" editorId="37"/>
+    <bitmap id="勾选框-选中" src="imgs/勾选框-选中.png" editorId="38"/>
+  </bitmaps>
+  <texts editorId="39">
+    <text id="好友" editorId="40">好 友</text>
+    <text id="最近联系" editorId="42">最近联系</text>
+    <text id="黑名单" editorId="44">黑名单</text>
+    <text id="foucs" editorId="46">关注</text>
+    <text id="送花记录" editorId="48">收花记录</text>
+    <text id="人气" editorId="50">人气值：</text>
+    <text id="友好" editorId="52">友好度：</text>
+    <text id="交互大奖" editorId="54">交互大奖：</text>
+    <text id="请输入玩家名字" editorId="56">请输入玩家名字</text>
+    <text id="初始数字" editorId="58">0/30</text>
+    <!--  <text id="通过赠送鲜花可以获得友好度">通过赠送鲜花可以获得友好度</text>
+    <text id="通过获得鲜花可以获得人气值">通过获得鲜花可以获得人气值</text>
+    <text id="人气值和友好度都满后可开启交互大奖">人气值和友好度都满后可开启交互大奖</text>-->
+    <text id="查看资料" editorId="61">查看资料</text>
+    <text id="邀请组队" editorId="63">邀请组队</text>
+    <text id="发送私聊" editorId="65">发送私聊</text>
+    <text id="加为好友" editorId="67">加为好友</text>
+    <text id="军团邀请" editorId="69">军团邀请</text>
+    <text id="屏蔽发言" editorId="71">屏蔽发言</text>
+    <text id="删除好友" editorId="73">删除好友</text>
+    <text id="复制姓名" editorId="75">复制姓名</text>
+    <text id="关  注" editorId="77">关        注</text>
+    <text id="移  除" editorId="79">移        除</text>
+    <text id="poplist" editorId="81">["查看资料","邀请组队","发送私聊","加为好友","屏蔽发言","删除好友","复制姓名"]</text>
+    <text id="fpoplist" editorId="83">["查看资料","邀请组队","发送私聊","屏蔽发言","删除好友","复制姓名"]</text>
+    <text id="bpoplist" editorId="85">["关        注","移        除","复制姓名"]</text>
+    <text id="rpoplist" editorId="87">["关        注","发送私聊","复制姓名"]</text>
+    <text id="recordText" editorId="89"><![CDATA[<a href='event:$NAME'><font color='#00ff00'>$NAME</font></a>送了你一朵鲜花，人气值+1！]]></text>
+    <text id="treaTips" editorId="91"><![CDATA[条件:$DESC
+奖励:
+#ITEMS]]></text>
+    <text id="100221" editorId="93">金币+100000</text>
+    <text id="100222" editorId="95">金币+100000</text>
+    <text id="100223" editorId="97"><![CDATA[<font color='#12def7'>钻石</font>+10]]></text>
+    <text id="flowerEnableTip" editorId="99">赠送好友鲜花增加友好度</text>
+    <text id="flowerdisableTip" editorId="101">今日已送，明日可再送</text>
+    <text id="下面是刚刚与您并肩战斗的伙伴" editorId="103"><![CDATA[下面是刚刚与您并肩战斗的伙伴，是否将他们<font color='#66ff00'>加为好友</font>]]></text>
+    <text id="推荐好友单条" editorId="105">$NAME Lv.$LV $JOB</text>
+        <text id="faction_1_1">剑士</text> 
+    <text id="faction_1_1">疾风剑士</text>
+    <text id="faction_1_2">皇家剑士</text> 
+    <text id="faction_1_3">冰霜剑士</text>
+    <text id="faction_3_0">战士</text>
+    <text id="faction_3_1">狂战士</text>  
+    <text id="faction_3_2">皇家战士</text>
+    <text id="faction_3_3">毁灭战神</text> 
+    <text id="faction_2_0">刺客</text>
+    <text id="faction_2_1">暗影刺客</text> 
+    <text id="faction_2_2">梦魇刺客</text>  
+    <text id="faction_2_3">死亡使者</text> 
+  </texts>
+  <controls editorId="107">
+    <window id="Main" width="318" height="554" editorId="108">
+      <ref ref="WindowBack" editorId="109"/>
+      <ref name="closeBtn" ref="CloseButton" editorId="110"/>
+      <image bmp="bottomBg" width="274" height="105" x="23" y="434" editorId="111"/>
+      <image bmp="seq" width="276" height="3" x="22" y="432" editorId="112"/>
+      <image bmp="knightFrame2" grid="30,47,29,49" width="280" height="393" top="151" center="0" editorId="113"/>
+      <image bmp="title" width="66" height="28" top="12" center="0" editorId="114"/>
+      <image bmp="panel1" width="295" height="15" top="43" center="0" editorId="115"/>
+      <image bmp="headbg" width="277" height="78" top="52" center="0" editorId="116"/>
+      <image bmp="名字输入框" width="165" height="29" x="33" y="437" editorId="117"/>
+      <button name="popularTreaBtn" width="38" height="31" x="110" y="474" editorId="118">
+        <state frame="1" back="宝箱" editorId="119"/>
+        <state frame="2" back="宝箱" editorId="120"/>
+        <state frame="3" back="宝箱" editorId="121"/>
+      </button>
+      <button name="friendlyTreaBtn" width="38" height="31" x="250" y="474" editorId="122">
+        <state frame="1" back="宝箱" editorId="123"/>
+        <state frame="2" back="宝箱" editorId="124"/>
+        <state frame="3" back="宝箱" editorId="125"/>
+      </button>
+      <button name="interactTreaBtn" width="38" height="31" x="110" y="507" editorId="126">
+        <state frame="1" back="宝箱" editorId="127"/>
+        <state frame="2" back="宝箱" editorId="128"/>
+        <state frame="3" back="宝箱" editorId="129"/>
+      </button>
+      <!--三个切换按钮-->
+      <labelToggleButton name="friendBtn" width="80" height="24" top="130" left="30" label="好友" editorId="131">
+        <state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中" editorId="132"/>
+        <state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="133"/>
+        <state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="134"/>
+        <state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="135"/>
+        <state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="136"/>
+      </labelToggleButton>
+      <labelToggleButton name="recentBtn" width="80" height="24" top="130" left="115" label="最近联系" editorId="137">
+        <state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中" editorId="138"/>
+        <state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="139"/>
+        <state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="140"/>
+        <state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="141"/>
+        <state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="142"/>
+      </labelToggleButton>
+      <labelToggleButton name="blackBtn" width="80" height="24" top="130" left="200" label="黑名单" editorId="143">
+        <state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中" editorId="144"/>
+        <state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="145"/>
+        <state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="146"/>
+        <state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="147"/>
+        <state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="148"/>
+      </labelToggleButton>
+      <labelButton name="addBtn" paddingBottom="5" width="64" height="22" x="210" y="438" editorId="149">
+        <state frame="1" back="关注1" format="宋体白色12居中" editorId="150"/>
+        <state frame="2" back="关注2" format="宋体白色12居中" editorId="151"/>
+        <state frame="3" back="关注3" format="宋体白色12居中" editorId="152"/>
+      </labelButton>
+      <labelButton name="recordBtn" label="送花记录" width="71" height="23" x="200" y="510" paddingBottom="2" editorId="153">
+        <state frame="1" back="小按钮四字01" format="宋体黄色12居中" editorId="154"/>
+        <state frame="2" back="小按钮四字02" format="宋体黄色12居中" editorId="155"/>
+        <state frame="3" back="小按钮四字03" format="宋体黄色12居中" editorId="156"/>
+      </labelButton>
+      <!--滚动条-->
+      <ref name="scroller" ref="Scroller" left="22" top="156" height="273" width="273" editorId="158"/>
+      <!--文字内容-->
+      <label name="nameTf" width="130" height="25" x="100" y="84" html="true" format="宋体浅黄色居中12" editorId="160"/>
+      <label name="searchTf" type="input" width="165" height="29" x="33" y="440" html="true" format="宋体灰色12居中" text="请输入玩家名字" editorId="161"/>
+      <label name="popularTf" width="60" height="25" x="80" y="477" html="true" format="宋体绿色12" text="初始数字" editorId="162"/>
+      <label width="50" height="25" x="34" y="477" html="true" format="宋体橘黄色12" text="人气" editorId="163"/>
+      <label name="friendlyTf" width="60" height="25" x="217" y="477" html="true" format="宋体绿色12" text="初始数字" editorId="164"/>
+      <label width="50" height="25" x="170" y="477" html="true" format="宋体橘黄色12" text="友好" editorId="165"/>
+      <label width="70" height="25" x="34" y="510" html="true" format="宋体红色12" text="交互大奖" editorId="166"/>
+    </window>
+    <!--好友面板单个名字显示-->
+    <box id="Cell" top="0" left="0" width="255" height="28" editorId="168">
+      <image name="selectBar" bmp="selectBar" width="255" height="28" x="0" y="0" editorId="169"/>
+      <image name="overBar" bmp="未选中条" width="255" height="28" x="0" y="0" editorId="170"/>
+      <image name="femaleOn" bmp="female01" width="20" height="26" x="5" y="2" editorId="171"/>
+      <image name="femaleOff" bmp="female02" width="20" height="26" x="5" y="2" editorId="172"/>
+      <image name="maleOn" bmp="male01" width="20" height="26" x="5" y="2" editorId="173"/>
+      <image name="maleOff" bmp="male02" width="20" height="26" x="5" y="2" editorId="174"/>
+      <label name="nameTf" width="178" height="25" x="30" y="5" html="true" format="宋体浅黄色居中12" editorId="175"/>
+      <button name="flowerBtn" width="23" height="24" x="210" y="2" editorId="176">
+        <state frame="1" back="flower" editorId="177"/>
+        <state frame="2" back="flower" editorId="178"/>
+        <state frame="3" back="flower" editorId="179"/>
+      </button>
+    </box>
+    <!--好友面板送花记录-->
+    <box id="Record" top="0" left="0" width="400" height="130" editorId="181">
+      <image bmp="mapTipsBoard" grid="50,50,50,50" left="0" top="0" right="0" bottom="0" editorId="182"/>
+    </box>
+    <!--好友面板送花记录单行-->
+    <box id="RecordCell" top="0" left="0" width="282" height="28" editorId="184">
+      <image bmp="little_flower" width="16" height="19" x="3" y="3" editorId="185"/>
+      <label name="timeTf" width="55" height="25" x="20" y="3" html="true" format="宋体浅黄色居中12" editorId="186"/>
+      <!--<label name="contentTf" width="255" height="25" x="135" y="3" html="true" format="宋体白色12居中"/>-->
+    </box>
+    <!--推荐好友面板-->
+    <box id="Recomend" width="340" height="235" editorId="189">
+      <image bmp="中底板底" top="0" bottom="0" left="0" right="0" grid="20,100,20,20" editorId="190" x="0" y="0"/>
+      <image bmp="中底板标头" top="2" left="2" right="2" grid="50,0,50,0" height="36" editorId="191" x="2" y="2"/>
+      <image bmp="knightFrame10" top="43" bottom="9" left="7" right="7" grid="20,20,20,20" editorId="192" x="7" y="43"/>
+      <ref name="closeBtn" ref="CloseButton" editorId="193" x="303" y="13" top="7"/>
+      <image bmp="组队好友推荐标题" width="130" height="28" top="5" center="0" editorId="194" x="105" y="5"/>
+      <label width="340" height="25" x="0" y="56" html="true" format="宋体浅黄色居中12" text="下面是刚刚与您并肩战斗的伙伴" editorId="195" center="0"/>
+      <label name="member0" width="200" height="25" x="88" y="86" html="true" format="宋体绿色12" text="推荐好友单条" editorId="196"/>
+      <label name="member1" width="200" height="25" x="88" y="116" html="true" format="宋体绿色12" text="推荐好友单条" editorId="197"/>
+      <label name="member2" width="200" height="25" x="88" y="146" html="true" format="宋体绿色12" text="推荐好友单条" editorId="198"/>
+      <labelToggleButton name="cb2" width="25" height="25" top="NaN" left="NaN" editorId="199" x="60" y="143">
+        <state frame="1" back="勾选框-未选中" format="978773_12_居中" editorId="200"/>
+        <state frame="2" back="勾选框-选中" format="ffe4c3_12_居中" editorId="201"/>
+        <state frame="3" back="勾选框-未选中" format="ffe4c3_12_居中" editorId="202"/>
+        <state frame="4" back="勾选框-选中" format="ffe4c3_12_居中" editorId="203"/>
+        <state frame="5" back="勾选框-选中" format="ffe4c3_12_居中" editorId="204"/>
+      </labelToggleButton>
+      <labelToggleButton name="cb1" width="25" height="25" top="NaN" left="NaN" editorId="205" x="60" y="113">
+        <state frame="1" back="勾选框-未选中" format="978773_12_居中" editorId="206"/>
+        <state frame="2" back="勾选框-选中" format="ffe4c3_12_居中" editorId="207"/>
+        <state frame="3" back="勾选框-未选中" format="ffe4c3_12_居中" editorId="208"/>
+        <state frame="4" back="勾选框-选中" format="ffe4c3_12_居中" editorId="209"/>
+        <state frame="5" back="勾选框-选中" format="ffe4c3_12_居中" editorId="210"/>
+      </labelToggleButton>
+      <labelToggleButton name="cb0" width="25" height="25" top="NaN" left="NaN" editorId="211" x="60" y="83">
+        <state frame="1" back="勾选框-未选中" format="978773_12_居中" editorId="212"/>
+        <state frame="2" back="勾选框-选中" format="ffe4c3_12_居中" editorId="213"/>
+        <state frame="3" back="勾选框-未选中" format="ffe4c3_12_居中" editorId="214"/>
+        <state frame="4" back="勾选框-选中" format="ffe4c3_12_居中" editorId="215"/>
+        <state frame="5" back="勾选框-选中" format="ffe4c3_12_居中" editorId="216"/>
+      </labelToggleButton>
+      <labelButton name="addBtn" label="加为好友" width="82" height="28" center="0" y="186" editorId="217" x="129">
+        <state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中" editorId="218"/>
+        <state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中" editorId="219"/>
+        <state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中" editorId="220"/>
+      </labelButton>
+    </box>
+  </controls>
+</xml>

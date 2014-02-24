@@ -1,0 +1,16 @@
+﻿<xml>
+	<swfs>
+		<swf id="activityBar" src="../swfs/activityBar.swf"/>
+
+	</swfs>
+	<texts>
+		<text id="activity1">点击进入赚金币</text>
+		<text id="activity2">点击进入挑战副本</text>
+		<text id="activity3">点击进入组队副本</text>
+		<text id="activity4">点击查看排行榜</text>
+		<text id="activity5">点击进入血战前线</text>
+		<text id="activity6">点击查看人气活动</text>
+		<text id="activity7">点击进入决斗神殿</text>
+		<text id="activity8">点击进入竞技场</text>
+	</texts>
+</xml>

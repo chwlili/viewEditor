@@ -1,0 +1,227 @@
+<xml name="圣器" editorId="1">
+  <depends editorId="2">
+    <depend src="/public/controls/window/CloseButton.xml" editorId="3"/>
+    <depend src="/public/controls/window/WindowBack.xml" editorId="4"/>
+    <depend src="/public/controls/scroller/Scroller.xml" editorId="5"/>
+    <depend src="/public/publicFormats.xml" editorId="6"/>
+    <depend src="/public/publicFrames.xml" editorId="7"/>
+    <depend src="/public/publicButtons.xml" editorId="8"/>
+    <depend src="/public/publicFilters.xml" editorId="9"/>
+  </depends>
+  <bitmaps editorId="10">
+    <bitmap id="战斗力" src="imgs/数字.png" editorId="11"/>
+    <bitmap id="大底板" src="imgs/大底板.jpg" editorId="12"/>
+    <bitmap id="大底板边框" src="imgs/大底板.png" editorId="13"/>
+    <bitmap id="魔法防御属性文字01" src="imgs/魔法防御属性文字01.png" editorId="14"/>
+    <bitmap id="魔法攻击属性文字01" src="imgs/魔法攻击属性文字01.png" editorId="15"/>
+    <bitmap id="生命上限属性文字01" src="imgs/生命上限属性文字01.png" editorId="16"/>
+    <bitmap id="物理防御属性文字01" src="imgs/物理防御属性文字01.png" editorId="17"/>
+    <bitmap id="物理攻击属性文字01" src="imgs/物理攻击属性文字01.png" editorId="18"/>
+    <bitmap id="右翻页按钮01" src="imgs/翻页右-01.png" editorId="19"/>
+    <bitmap id="右翻页按钮02" src="imgs/翻页右-02.png" editorId="20"/>
+    <bitmap id="右翻页按钮03" src="imgs/翻页右-03.png" editorId="21"/>
+    <bitmap id="左翻页按钮01" src="imgs/翻页左-01.png" editorId="22"/>
+    <bitmap id="左翻页按钮02" src="imgs/翻页左-02.png" editorId="23"/>
+    <bitmap id="左翻页按钮03" src="imgs/翻页左-03.png" editorId="24"/>
+    <bitmap id="装备槽-已装备" src="imgs/装备槽-已装备.png" editorId="25"/>
+    <bitmap id="下方未锁定框" src="imgs/下方未锁定框.png" editorId="26"/>
+    <bitmap id="下方锁定框" src="imgs/下方锁定框.png" editorId="27"/>
+    <bitmap id="Lv文字" src="imgs/Lv文字.png" editorId="28"/>
+    <bitmap id="占星说明按钮01" src="imgs/占星说明按钮01.png" editorId="29"/>
+    <bitmap id="占星说明按钮02" src="imgs/占星说明按钮02.png" editorId="30"/>
+    <bitmap id="占星说明按钮03" src="imgs/占星说明按钮03.png" editorId="31"/>
+    <bitmap id="帮助图标" src="imgs/帮助图标.png" editorId="32"/>
+    <bitmap id="等级数字" src="imgs/等级数字.png" editorId="33"/>
+    <bitmap id="下方当前装备框" src="imgs/下方当前装备框.png" editorId="34"/>
+    <bitmap id="title" src="imgs/圣器标题文字.png" editorId="35"/>
+    <bitmap id="升级部件文字" src="imgs/升级部件文字.png" editorId="36"/>
+    <bitmap id="装配部件文字" src="imgs/装配部件文字.png" editorId="37"/>
+    <bitmap id="宝石升级按钮01" src="imgs/宝石升级按钮01.png" editorId="38"/>
+    <bitmap id="宝石升级按钮02" src="imgs/宝石升级按钮02.png" editorId="39"/>
+    <bitmap id="宝石升级按钮03" src="imgs/宝石升级按钮03.png" editorId="40"/>
+    <bitmap id="品质提升" src="imgs/品质提升.png" editorId="41"/>
+    <bitmap id="套装属性翻页01" src="imgs/套装属性翻页01.png" editorId="42"/>
+    <bitmap id="套装属性翻页02" src="imgs/套装属性翻页02.png" editorId="43"/>
+    <bitmap id="套装属性翻页03" src="imgs/套装属性翻页03.png" editorId="44"/>
+    <bitmap id="花环" src="imgs/圣器花环特效/花环.png" editorId="45"/>
+    <bitmap id="0" src="imgs/圣器花环特效/0.png" editorId="46"/>
+    <bitmap id="1" src="imgs/圣器花环特效/1.png" editorId="47"/>
+    <bitmap id="2" src="imgs/圣器花环特效/2.png" editorId="48"/>
+    <bitmap id="3" src="imgs/圣器花环特效/3.png" editorId="49"/>
+    <bitmap id="4" src="imgs/圣器花环特效/4.png" editorId="50"/>
+    <bitmap id="5" src="imgs/圣器花环特效/5.png" editorId="51"/>
+  </bitmaps>
+  <formats editorId="52">
+    <format id="宋体红色12" font="宋体" color="0xe00503" size="12" align="left" filter="黑色边框" editorId="53"/>
+    <format id="宋体橘黄色12" font="宋体" size="12" color="0xfa9600" align="left" filter="黑色边框" editorId="54"/>
+    <format id="宋体橘黄色12居中" font="宋体" size="12" color="0xfa9600" align="center" filter="黑色边框" editorId="55"/>
+    <format id="宋体浅黄色居中12" font="宋体" size="12" color="0xfdd59a" align="center" filter="黑色边框" editorId="56"/>
+    <format id="宋体浅黄色12" font="宋体" size="12" color="0xfdd59a" align="left" filter="黑色边框" editorId="57"/>
+    <format id="宋体黄色居中12" font="宋体" size="12" color="0xefb55a" align="center" filter="黑色边框" editorId="58"/>
+    <format id="宋体黄色居中12加粗" font="宋体" size="12" color="0xefb55a" align="center" filter="黑色边框" bold="true" editorId="59"/>
+    <format id="宋体灰色居中12" font="宋体" size="12" color="0x876b55" align="center" filter="黑色边框" editorId="60"/>
+    <format id="宋体深灰色居中12" font="宋体" size="12" color="0x5e4936" align="center" filter="黑色边框" editorId="61"/>
+    <format id="宋体暗红色居中12" font="宋体" size="12" color="0x8a6855" align="center" filter="黑色边框" editorId="62"/>
+    <format id="宋体绿色居中12" font="宋体" size="12" color="0x2feb16" align="center" filter="黑色边框" editorId="63"/>
+    <format id="宋体绿色12" font="宋体" size="12" color="0x2feb16" align="left" filter="黑色边框" editorId="64"/>
+    <format id="宋体绿色12间距" font="宋体" size="12" color="0x2feb16" align="left" filter="黑色边框" leading="6" editorId="65"/>
+  </formats>
+  <texts editorId="66">
+    <text id="佩戴" editorId="67">佩 戴</text>
+    <text id="装配" editorId="69">装 配</text>
+    <text id="部件" editorId="71"><![CDATA[部件 <font color='$COLOR'>$MIN/6</font>]]></text>
+    <text id="圣器等级" editorId="73"><![CDATA[<font color='#00ff12'>Lv.$LV</font>]]></text>
+    <text id="圣器加成" editorId="75"><![CDATA[<font color='#00ff12'>$NAME +$VALUE</font>]]></text>
+    <text id="道具获取" editorId="77"><![CDATA[<font color='#57443d'>该道具可以在勋章商店或太阳神殿获取</font>]]></text>
+    <text id="所需消耗" editorId="79"><![CDATA[所需消耗：<font color='$COLOR'>$NAME</font>]]></text>
+    <text id="集齐部件" editorId="81">集齐$NUM个Lv.$LV部件</text>
+    <text id="该圣器已达顶级" editorId="83"><![CDATA[  该圣器已达顶级]]></text>
+    <text id="圣器已激活" editorId="85"><![CDATA[<font color='#00ff12'>（已激活）</font>]]></text>
+    <text id="圣器未激活" editorId="87">（未激活）</text>
+    <text id="集齐6个圣器部件即可激活此效果" editorId="89">集齐6个圣器部件即可激活此效果</text>
+    <!--帮助文字-->
+    <text id="holy_help" editorId="92"><![CDATA[<font color='#efb55a'>1.通过圣器可以获得大量属性加成，每一个圣器均有自己的<font color='#00ff00'>专属稀有属性</font>以及<font color='#00ff00'>超炫专属特效</font>。2.圣器的每一个部件装配后均可以立即获得属性加成，集齐<font color='#00ff00'>2、4、6</font>件后另有额外套件加成，6件全装配后，将<font color='#f8d40e'>激活圣器，获得专属特效</font>。3.获得的重复部件可以用来升级该部件，<font color='#00ff00'>再次大幅度提高战斗力</font>。所有部件均升级后，圣器自身也会升级，获得<font color='#00ff00'>更多属性加成</font>。4.<font color='#f8d40e'>通过太阳神殿和勋章商店可获得圣器部件。</font></font></font>]]></text>
+    <text id="4000001" editorId="94"><![CDATA[特殊效果：   所过之处，鲜花盛开]]></text>
+    <text id="4000002" editorId="96"><![CDATA[特殊效果：   有几率麻痹攻击你的敌人]]></text>
+  </texts>
+  <controls editorId="98">
+    <window id="Main" width="917" height="550" editorId="99">
+      <ref ref="WindowBack" editorId="100" x="0" y="0"/>
+      <ref name="closeBtn" ref="CloseButton" editorId="101"/>
+      <image bmp="title" width="81" height="30" top="12" center="0" editorId="102"/>
+      <image bmp="大底板" width="878" height="403" x="16" y="48" editorId="103"/>
+      <image bmp="大底板边框" grid="40,40,40,40" width="886" height="413" x="11" y="44" editorId="104"/>
+      <image bmp="Lv文字" width="28" height="23" x="440" y="121" editorId="105"/>
+      <image name="bmp8" bmp="生命上限属性文字01" width="59" height="20" x="695" y="105" editorId="106"/>
+      <image name="bmp9" bmp="物理攻击属性文字01" width="59" height="20" x="695" y="130" editorId="107"/>
+      <image name="bmp11" bmp="魔法攻击属性文字01" width="59" height="20" x="695" y="153" editorId="108"/>
+      <image name="bmp10" bmp="物理防御属性文字01" width="59" height="20" x="695" y="177" editorId="109"/>
+      <image name="bmp12" bmp="魔法防御属性文字01" width="59" height="20" x="695" y="199" editorId="110"/>
+      <!--文字内容-->
+      <label x="42" y="102" width="200" height="25" format="宋体暗红色居中12" text="集齐6个圣器部件即可激活此效果" editorId="112"/>
+      <label name="desTf" x="261" y="60" width="415" height="25" format="宋体暗红色居中12" editorId="113"/>
+      <label name="propTf8" x="761" y="106" width="110" height="20" format="宋体绿色12" editorId="114"/>
+      <label name="propTf9" x="761" y="130" width="110" height="20" format="宋体绿色12" editorId="115"/>
+      <label name="propTf11" x="761" y="155" width="110" height="20" format="宋体绿色12" editorId="116"/>
+      <label name="propTf10" x="761" y="178" width="110" height="20" format="宋体绿色12" editorId="117"/>
+      <label name="propTf12" x="761" y="202" width="110" height="20" format="宋体绿色12" editorId="118"/>
+      <label name="contentTf" x="708" y="255" width="168" height="185" multiline="true" wordWrap="true" html="true" format="宋体绿色12间距" editorId="119"/>
+      <!--按钮-->
+      <labelButton name="leftBtn" width="33" height="49" x="13" y="466" editorId="121">
+        <state frame="1" back="左翻页按钮01" format="宋体橘黄色12居中" editorId="122"/>
+        <state frame="2" back="左翻页按钮02" format="宋体橘黄色12居中" editorId="123"/>
+        <state frame="3" back="左翻页按钮03" format="宋体橘黄色12居中" editorId="124"/>
+      </labelButton>
+      <labelButton name="rightBtn" width="33" height="49" x="867" y="466" editorId="125">
+        <state frame="1" back="右翻页按钮01" format="宋体橘黄色12居中" editorId="126"/>
+        <state frame="2" back="右翻页按钮02" format="宋体橘黄色12居中" editorId="127"/>
+        <state frame="3" back="右翻页按钮03" format="宋体橘黄色12居中" editorId="128"/>
+      </labelButton>
+      <labelButton name="faqBtn" width="29" height="30" x="641" y="55" editorId="129">
+        <state frame="1" back="占星说明按钮01" editorId="130"/>
+        <state frame="2" back="占星说明按钮02" editorId="131"/>
+        <state frame="3" back="占星说明按钮03" editorId="132"/>
+      </labelButton>
+      <labelButton name="equipBtn" width="82" height="28" label="佩戴" x="424" y="400" editorId="133" center="NaN">
+        <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中" grid="20,0,20,0" editorId="134"/>
+        <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中" grid="20,0,20,0" editorId="135"/>
+        <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中" grid="20,0,20,0" editorId="136"/>
+      </labelButton>
+      <button name="infoLeftBtn" width="24" height="31" x="712" y="334" scaleX="-1" editorId="137">
+        <state frame="1" back="套装属性翻页01" editorId="138"/>
+        <state frame="2" back="套装属性翻页02" editorId="139"/>
+        <state frame="3" back="套装属性翻页03" editorId="140"/>
+      </button>
+      <button name="infoRightBtn" width="24" height="31" x="870" y="334" editorId="141">
+        <state frame="1" back="套装属性翻页01" editorId="142"/>
+        <state frame="2" back="套装属性翻页02" editorId="143"/>
+        <state frame="3" back="套装属性翻页03" editorId="144"/>
+      </button>
+    </window>
+    <box id="PartCell" width="65" height="64" editorId="145">
+      <image name="bg" bmp="装备槽-已装备" width="65" height="64" x="0" y="0" editorId="146"/>
+      <label name="lvTf" x="0" y="-10" width="65" height="25" html="true" format="宋体绿色居中12" editorId="147"/>
+      <button name="upgradeBtn" width="23" height="19" x="41" y="37" editorId="148">
+        <state frame="1" back="宝石升级按钮01" editorId="149"/>
+        <state frame="2" back="宝石升级按钮02" editorId="150"/>
+        <state frame="3" back="宝石升级按钮03" editorId="151"/>
+      </button>
+      <labelButton name="setBtn" width="62" height="22" center="0" y="50" label="装配" editorId="152">
+        <state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中" editorId="153"/>
+        <state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中" editorId="154"/>
+        <state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中" editorId="155"/>
+      </labelButton>
+    </box>
+    <box id="Cell" width="65" height="65" editorId="156">
+      <image name="bg" bmp="下方未锁定框" width="65" height="65" x="0" y="0" editorId="157"/>
+      <image name="curEquip" bmp="下方当前装备框" width="81" height="95" x="-10" y="-25" editorId="158"/>
+      <label name="lvTf" x="0" y="0" width="65" height="30" html="true" format="宋体绿色居中12" editorId="159"/>
+      <label name="numTf" x="0" bottom="0" width="65" height="20" html="true" format="宋体浅黄色居中12" text="部件" editorId="160"/>
+    </box>
+    <box id="Help" width="397" height="314" center="0" middle="0" editorId="161">
+      <image bmp="中底板底" top="0" bottom="0" left="0" right="0" grid="20,100,20,20" editorId="162"/>
+      <image bmp="中底板标头" top="2" left="2" right="2" grid="50,0,50,0" height="36" editorId="163"/>
+      <!-- <image bmp="占星说明大" width="98" height="29" center="0" top="6" />-->
+      <ref name="closeBtn" ref="CloseButton" top="6" right="6" editorId="165"/>
+      <image bmp="中底板底" top="50" bottom="45" left="10" right="10" grid="20,100,20,20" editorId="166"/>
+      <label width="353" height="260" format="宋体白色12带间隔10" left="22" top="45" text="holy_help" multiline="true" wordWrap="true" html="true" editorId="167"/>
+      <labelButton name="okBtn" width="62" height="22" center="0" bottom="12" label="确定" editorId="168">
+        <state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中" editorId="169"/>
+        <state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中" editorId="170"/>
+        <state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中" editorId="171"/>
+      </labelButton>
+    </box>
+    <box id="AddPart" width="275" height="245" center="0" middle="0" editorId="172">
+      <image bmp="中底板底" top="0" bottom="0" left="0" right="0" grid="20,100,20,20" editorId="173"/>
+      <image bmp="中底板标头" top="2" left="2" right="2" grid="50,0,50,0" height="36" editorId="174"/>
+      <ref name="closeBtn" ref="CloseButton" top="6" right="6" editorId="175"/>
+      <image bmp="中底板底" top="50" bottom="90" left="10" right="10" grid="20,100,20,20" editorId="176"/>
+      <image bmp="装配部件文字" width="81" height="27" top="5" center="0" editorId="177"/>
+      <image bmp="框体左侧装饰03" width="17" height="40" left="1" middle="0" editorId="178"/>
+      <image bmp="框体左侧装饰03" width="17" height="40" right="-16" middle="0" scaleX="-1" editorId="179"/>
+      <image bmp="装备槽-已装备" width="65" height="64" y="68" center="0" editorId="180"/>
+      <label name="lvTf" center="0" y="55" width="100" height="25" html="true" format="宋体黄色居中12" text="圣器等级" editorId="181"/>
+      <label name="propTf" center="0" y="130" width="100" height="25" html="true" format="宋体黄色居中12" text="圣器加成" editorId="182"/>
+      <label name="needTf" x="0" y="165" width="275" height="25" html="true" format="宋体黄色居中12" text="所需消耗" editorId="183"/>
+      <label x="0" y="185" width="275" height="25" html="true" format="宋体深灰色居中12" text="道具获取" editorId="184"/>
+      <labelButton name="okBtn" label="确定" width="82" height="28" x="43" y="205" editorId="185">
+        <state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中" editorId="186"/>
+        <state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中" editorId="187"/>
+        <state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中" editorId="188"/>
+      </labelButton>
+      <labelButton name="cancelBtn" label="取消" width="82" height="28" x="148" y="205" editorId="189">
+        <state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中" editorId="190"/>
+        <state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中" editorId="191"/>
+        <state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中" editorId="192"/>
+      </labelButton>
+    </box>
+    <box id="UpgradePart" width="275" height="245" center="0" middle="0" editorId="193">
+      <image bmp="中底板底" top="0" bottom="0" left="0" right="0" grid="20,100,20,20" editorId="194"/>
+      <image bmp="中底板标头" top="2" left="2" right="2" grid="50,0,50,0" height="36" editorId="195"/>
+      <ref name="closeBtn" ref="CloseButton" top="6" right="6" editorId="196"/>
+      <image bmp="中底板底" top="50" bottom="90" left="10" right="10" grid="20,100,20,20" editorId="197"/>
+      <image bmp="升级部件文字" width="81" height="27" top="5" center="0" editorId="198"/>
+      <image bmp="框体左侧装饰03" width="17" height="40" left="1" middle="0" editorId="199"/>
+      <image bmp="框体左侧装饰03" width="17" height="40" right="-16" middle="0" scaleX="-1" editorId="200"/>
+      <image bmp="装备槽-已装备" width="65" height="64" x="38" y="68" editorId="201"/>
+      <image bmp="装备槽-已装备" width="65" height="64" x="175" y="68" editorId="202"/>
+      <image bmp="品质提升" width="67" height="48" y="80" center="0" editorId="203"/>
+      <label name="lvTf" x="21" y="55" width="100" height="25" html="true" format="宋体黄色居中12" text="圣器等级" editorId="204"/>
+      <label name="nextLvTf" x="155" y="55" width="100" height="25" html="true" format="宋体黄色居中12" text="圣器等级" editorId="205"/>
+      <label name="propTf" x="21" y="130" width="100" height="25" html="true" format="宋体黄色居中12" text="圣器加成" editorId="206"/>
+      <label name="nextPropTf" x="155" y="130" width="100" height="25" html="true" format="宋体黄色居中12" text="圣器加成" editorId="207"/>
+      <label name="needTf" x="0" y="165" width="275" height="25" html="true" format="宋体黄色居中12" text="所需消耗" editorId="208"/>
+      <label x="0" y="185" width="275" height="25" html="true" format="宋体深灰色居中12" text="道具获取" editorId="209"/>
+      <labelButton name="okBtn" label="确定" width="82" height="28" x="43" y="205" editorId="210">
+        <state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中" editorId="211"/>
+        <state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中" editorId="212"/>
+        <state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中" editorId="213"/>
+      </labelButton>
+      <labelButton name="cancelBtn" label="取消" width="82" height="28" x="148" y="205" editorId="214">
+        <state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中" editorId="215"/>
+        <state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中" editorId="216"/>
+        <state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中" editorId="217"/>
+      </labelButton>
+    </box>
+  </controls>
+</xml>

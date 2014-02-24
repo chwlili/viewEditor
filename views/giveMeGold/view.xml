@@ -1,0 +1,225 @@
+<xml name="赚金币">
+	<depends>
+		<depend src="/public/publicFrames.xml" />
+		<depend src="/public/publicButtons.xml" />
+
+		<depend src="/public/controls/window/CloseButton.xml" />
+		<depend src="/public/controls/window/WindowBack.xml" />
+		<depend src="/public/controls/scroller/Scroller.xml" />
+		<depend src="/public/publicFormats.xml" />
+		<depend src="/public/publicTexts.xml" />
+		<depend src="/public/publicIcons.xml" />
+		<depend src="/public/publicNumimage.xml" />
+	</depends>
+	<bitmaps>
+		<bitmap id="title" src="imgs/title.png" />
+		<bitmap id="title1" src="imgs/title1.png" />
+		<bitmap id="title2" src="imgs/title2.png" />
+		<bitmap id="title3" src="imgs/title3.png" />
+		<bitmap id="pic1" src="imgs/图片01.jpg" />
+		<bitmap id="pic2" src="imgs/图片02.jpg" />
+		<bitmap id="pic3" src="imgs/图片03.jpg" />
+		<bitmap id="bg" src="imgs/特殊底框.png" />
+
+		<bitmap id="rolehead" src="imgs/角色头像框.png" />
+		<bitmap id="roleheadFull" src="imgs/有角色时的头像框.png" />
+		<bitmap id="头像" src="imgs/1.png" />
+		<bitmap id="数字小框" src="imgs/数字小框.png" />
+
+		<bitmap id="上边框" src="imgs/上边框.png" />
+		<bitmap id="下边框" src="imgs/下边框.png" />
+		<bitmap id="中间框边" src="imgs/中间框边.png" />
+		<bitmap id="字体下面紫色底条" src="imgs/字体下面紫色底条.png" />
+		<bitmap id="大暴击字" src="/motion/imgs/大暴击.png"/>
+		<bitmap id="小暴击字" src="/motion/imgs/暴击.png"/>
+	</bitmaps>
+	<swfs>
+		<swf id="金换铜动画" src="../swfMotion/赚金币内金币特效.swf" />
+		<swf id="暴击字" src="../swfMotion/暴击字.swf" />
+	</swfs>
+
+
+
+	<texts>
+		<text id="进入金库">进入金库</text>
+		<text id="点石成金">
+			<![CDATA[点金<font color='#02e4f8'>($1钻石)</font>]]>
+		</text>
+		<text id="探索宝藏">
+			<![CDATA[探索<font color='#02e4f8'>($1钻石)</font>]]>
+		</text>
+		<text id="提前收获">提前收获</text>
+		<text id="完美收获">完美收获</text>
+		<text id="探索帮助">寻求帮助</text>
+		<text id="兑换铜钱"><![CDATA[<font color='#fde3ac'>使用 </font><font color='#1dd7ff'>$1 钻石 </font><font color='#fde3ac'>点金，可获 </font><font color='#f8d40e'>$2 金币</font>]]></text>
+		<text id="剩余使用次数">剩余使用次数</text>
+		<text id="提前收获注释"><![CDATA[注:提前收获只能获得一半收益<br>（骑士特权6级可得完美收益）]]></text>
+		<text id="提前收获注释他人">注:倒计时结束时矿主仍未收矿则自动收矿</text>
+		<text id="协助小伙伴">协助开采的小伙伴可获得$1金币</text>
+		<text id="矮人金库描述">进入副本打破矮人封印获取金币</text>
+		<text id="今日剩余次数">
+			<![CDATA[<font color='#fde3ac'>今日剩余次数: </font><font color='#03dd27'>$1</font>]]>
+		</text>
+		<text id="进入矮人金库将离开队伍">进入矮人金库将离开队伍</text>
+
+		<text id="开矿描述">召唤朋友寻宝，朋友越多收益越多</text>
+		<text id="isNotVipTxt">骑士1以上才能探索宝藏</text>
+		<text id="使用钻石开矿"><![CDATA[<font color='#fde3ac'>使用 </font><font color='#1dd7ff'>$1 钻石 </font><font color='#fde3ac'>可得最多 </font><font color='#f8d40e'>$2 金币</font>]]></text>
+
+		<text id="金库立即进入提示">
+			<![CDATA[您确定使用<font color='#00ff00'>10</font>钻石立即进入吗?]]></text>
+
+		<text id="清除CD提示">
+			<![CDATA[花费<font color='#1dd7ff'>10钻石</font>清除矮人金库冷却时间]]></text>
+		<text id="点石成金提示">
+			<![CDATA[花费<font color='#1dd7ff'>$1钻石</font>完成一次点石成金]]></text>
+		<text id="探索宝藏提示">
+			<![CDATA[花费<font color='#1dd7ff'>$1钻石</font>进行探索宝藏]]></text>
+		<text id="开矿立即进入提示">
+			<![CDATA[您确定使用<font color='#00ff00'>$1</font>钻石立即进入吗?]]></text>
+		<text id="VIP有暴击">骑士用户有几率暴击</text>
+		<text id="tobeVIP"><![CDATA[<p align='right'><font color='#00ff00' size='12'><a href='event:click'><u>成为骑士</u></a></font></p>]]></text>
+		<text id="点金提示">
+			<![CDATA[您确定使用<font color='#00ff00'>$1</font>钻石进行点金吗?]]></text>
+		<text id="VIP有暴击">骑士有几率出现暴击</text>
+		<text id="点金完毕">
+			<![CDATA[您的点金次数已经消耗完毕!升级骑士等级 获得更多点金次数。]]>
+		</text>
+		<text id="金币不够">
+			<![CDATA[您的金币不够了 请及时充值。]]>
+		</text>
+		<text id="获取奖励提示">
+			<![CDATA[<font color='#fde3ac'>奖励：金币</font><font color='#03dd27'>+$1</font>]]>
+		</text>
+		<text id="亚瑟王保箱">
+			<![CDATA[<font color='#b93ff8'>亚瑟王宝箱</font><font color='#fde3ac'>(几率掉落)</font>]]>
+		</text>
+		<text id="大小暴击提示">
+			<![CDATA[<font color='#03dd27'><font color='#fafd06'>大暴击:</font>5倍<font color='#fafd06'>小暴击:</font>2倍</font>]]>
+		</text>
+
+	</texts>
+	<controls>
+		<window id="main" width="798" height="400">
+			<ref ref="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+
+			<image bmp="title" center="0" top="10" width="77" height="29" />
+			<box name="item1" width="255" height="340" left="13" top="50">
+				<image bmp="knightFrame2" grid="30,47,77,54" top="0" bottom="0" left="0" right="0" />
+				<image bmp="knightFrame10" grid="46,42,46,42" top="8" bottom="8" left="8" right="8" />
+				<image bmp="上边框" grid="55,0,55,0" center="0" top="0" width="255" height="36" />
+				<image bmp="下边框" grid="55,0,55,0" center="0" bottom="0" width="255" height="36" />
+
+				<image bmp="title1" center="0" top="9" width="72" height="27" />
+				<image bmp="pic1" center="0" top="36" width="229" height="169" />
+				<image bmp="数字小框" top="40" left="16" width="30" height="22" />
+				<label name="可开启次数" top="41" left="18" width="26" height="20" format="黄色center" />
+				<image bmp="bg" center="0" top="205" width="229" height="51" grid="0,10,0,10"/>
+
+				<label name="desc" height="18" width="200" left="50" top="42" format="f79f13_12_left" text="矮人金库描述" />
+				<label name="reward" height="18" width="200" left="34" top="212" html="true" />
+				<label name="jewelRate" format="fde3ac_12居中" height="18" width="200" center="0" top="234" html="true" text="亚瑟王保箱" />
+				<label name="remainder" format="fde3ac_12居中" height="18" width="200" center="0" top="270" html="true" />
+
+				<labelButton name="button" width="82" height="28" center="0" bottom="15" label="进入金库">
+					<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中" />
+					<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中" />
+					<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中" />
+				</labelButton>
+			</box>
+			<box name="item2" width="255" height="340" top="50" center="0">
+				<image bmp="knightFrame2" grid="30,47,77,54" top="0" bottom="0" left="0" right="0" />
+				<image bmp="knightFrame10" grid="46,42,46,42" top="8" bottom="8" left="8" right="8" />
+				<image bmp="上边框" grid="55,0,55,0" center="0" top="-2" width="256" height="36" />
+				<image bmp="下边框" grid="55,0,55,0" center="0" bottom="-2" width="256" height="36" />
+				<image bmp="title2" center="0" top="9" width="72" height="27" />
+				<image bmp="pic2" center="0" top="36" width="229" height="169" />
+				<image bmp="数字小框" top="40" left="16" width="30" height="22" />
+				<label name="可开启次数" top="41" left="18" width="26" height="20" format="黄色center" />
+				<image bmp="bg" center="0" top="205" width="229" height="51" grid="0,10,0,10" />
+
+
+				<label name="成为VIP" top="42" left="177" width="60" height="20" html="true" />
+				<label name="desc" height="18" width="200" left="50" top="42" format="f79f13_12_left" text="VIP有暴击" />
+				
+				<label name="reward" height="18" width="200" left="34" top="207" html="true" />
+				<label name="大小暴击提示" height="18" width="200" center="0" top="223" html="true" format="fde3ac_12居中" text="大小暴击提示" />
+				<label name="jewelRate" format="fde3ac_12居中" height="18" width="200" center="0" top="238" html="true" text="亚瑟王保箱" />
+				
+				<label name="remainder" format="fde3ac_12居中" height="18" width="200" center="0" top="270" html="true" />
+
+				<swf name="金换铜动画" bmp="金换铜动画" x="120" y="175" />
+				
+				<labelButton name="button" width="100" height="28" center="0" bottom="15" label="点石成金">
+					<state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中" backGrid="20,0,20,0" grid="40,0,40,0" />
+					<state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中" backGrid="20,0,20,0" grid="40,0,40,0"/>
+					<state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中" backGrid="20,0,20,0" grid="40,0,40,0"/>
+				</labelButton>
+				
+				<filmAnimEffect name="大暴击字" bmp="大暴击字" center="0" bottom="60" row="3" col="3" tCount="9" frameDelay="50" loop="1"/>
+				<filmAnimEffect name="小暴击字" bmp="小暴击字" center="0" bottom="60" row="3" col="3" tCount="8" frameDelay="50" loop="1"/>
+			</box>
+			<box name="item3" width="255" height="340" top="50" center="257">
+				<box name="开矿前" top="0" bottom="0" left="0" right="0">
+					<image bmp="knightFrame2" grid="30,47,77,54" top="0" bottom="0" left="0" right="0" />
+					<image bmp="knightFrame10" grid="46,42,46,42" top="8" bottom="8" left="8" right="8" />
+					<image bmp="上边框" grid="55,0,55,0" center="0" top="-2" width="256" height="36" />
+					<image bmp="下边框" grid="55,0,55,0" center="0" bottom="-2" width="256" height="36" />
+					<image bmp="title3" center="0" top="9" width="72" height="27" />
+					<image bmp="pic3" center="0" top="36" width="229" height="169" />
+					<image bmp="bg" center="0" top="205" width="229" height="51" grid="0,10,0,10"/>
+
+					<label name="desc" height="18" width="200" left="50" top="42" format="f79f13_12_left" text="开矿描述" />
+					<label name="奖励提示" height="18" width="200" left="34" top="212" html="true" />
+					<label name="jewelRate" format="fde3ac_12居中" height="18" width="200" center="0" top="234" html="true" text="亚瑟王保箱" />
+					<label name="remainder" format="fde3ac_12居中" height="18" width="200" center="0" top="270" html="true" />
+
+					<labelButton name="button1" width="100" height="28" center="0" bottom="15" label="探索宝藏">
+						<state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中" backGrid="20,0,20,0" grid="40,0,40,0" />
+						<state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中" backGrid="20,0,20,0" grid="40,0,40,0"/>
+						<state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中" backGrid="20,0,20,0" grid="40,0,40,0"/>
+					</labelButton>
+					<label name="isNotVipHint" center="0" bottom="18" width="255" height="20" text="isNotVipTxt" visible="false"
+						format="fde3ac_12居中" />
+				</box>
+				<image bmp="数字小框" top="40" left="16" width="30" height="22" />
+				<label name="可开启次数" top="41" left="18" width="26" height="20" format="黄色center" />
+				<box name="开矿中" top="0" bottom="0" left="0" right="0">
+					<image bmp="knightFrame2" grid="30,47,77,54" top="0" bottom="0" left="0" right="0" />
+					<image bmp="knightFrame10" grid="46,42,46,42" top="8" bottom="8" left="8" right="8" />
+					<image bmp="上边框" grid="55,0,55,0" center="0" top="-2" width="256" height="36" />
+					<image bmp="下边框" grid="55,0,55,0" center="0" bottom="-2" width="256" height="36" />
+					<image bmp="中间框边" grid="81,0,81,0" center="0" middle="-2" width="256" height="36" />
+					<image bmp="title3" center="0" top="9" width="72" height="27" />
+					<image bmp="pic3" center="0" top="36" width="229" height="169" />
+
+					<label name="协助" top="212" bottom="80" left="0" right="0" format="f89802_12_居中" />
+					<label name="探索倒计时" left="0" top="240" right="0" height="20" format="fde3ac_12居中" text="提前收获注释" />
+					<label name="提前收获提示lab" left="0" top="262" right="0" height="50" format="fde3ac_12居中" html="true" multiline="true" text="提前收获注释" />
+					<labelButton name="button2" width="82" height="28" center="0" bottom="15" label="提前收获">
+						<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中" />
+						<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中" />
+						<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中" />
+					</labelButton>
+					<labelButton name="helpBtn" width="86" height="32" center="0" top="102" label="探索帮助">
+						<state frame="1" back="小红按钮四字01" format="ffbe57_12_居中" />
+						<state frame="2" back="小红按钮四字02" format="ffbe57_12_居中" />
+						<state frame="3" back="小红按钮四字03" format="ffbe57_12_居中" />
+					</labelButton>
+				</box>
+				<swf name="金换铜动画" bmp="金换铜动画" x="120" y="175" />
+			</box>
+
+		</window>
+		<box id="head" x="0" y="0" width="64" height="65">
+			<image name="nullImg" bmp="rolehead" top="0" bottom="0" left="0" right="0" />
+			<image name="fullImg" bmp="roleheadFull" top="0" bottom="0" left="0" right="0" />
+			<image name="headImg" top="11" bottom="11" left="11" right="11" />
+			<label name="rolename" width="85" height="20" bottom="0" format="fde3ac_12居中" />
+		</box>
+
+
+
+	</controls>
+</xml>

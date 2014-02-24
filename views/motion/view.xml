@@ -1,0 +1,68 @@
+<xml>
+	
+	<depends>
+		<depend src="../motion/image.xml"/>
+	</depends>
+	
+	<controls>
+		<box id="main" left="0" right="0" top="0" bottom="0" />
+		
+		<filmAnimEffect id="vip提示动画" bmp="vip闪光效果" row="1" col="7" frameDelay="150" loop="1"/>
+		<filmAnimEffect id="任务完成金边提示动画" bmp="任务完成金边" row="1" col="12" frameDelay="65" loop="0"/>
+		<filmAnimEffect id="聊天切换动画" bmp="闪动序列" row="1" col="9" frameDelay="65" loop="0"/>
+		<filmAnimEffect id="镶嵌宝石选择提示动画" bmp="镶嵌宝石选择提示" row="1" col="4" frameDelay="150" loop="0"/>
+		<filmAnimEffect id="装备强化提示动画" bmp="装备强化提示" row="1" col="10" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="装备升级提示动画" bmp="装备升级提示" row="1" col="17" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="装备升阶提示动画" bmp="装备升阶提示" row="1" col="13" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="加工提示动画" bmp="加工提示" row="1" col="13" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="精铸提示动画" bmp="精铸提示" row="1" col="8" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="神铸提示动画" bmp="神铸提示" row="1" col="8" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="精铸持续动画" bmp="精铸持续" row="1" col="10" frameDelay="150" loop="0"/>
+		<filmAnimEffect id="神铸持续动画" bmp="神铸持续" row="1" col="25" frameDelay="50" loop="0"/>
+		<filmAnimEffect id="福利升级动画" bmp="福利升级" row="1" col="12" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="技能强化动画" bmp="技能强化提示" row="1" col="16" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="技能升级动画" bmp="技能升级提示" row="1" col="11" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="技能升阶动画" bmp="技能升阶提示" row="1" col="11" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="符文开启动画" bmp="符文开启提示" row="1" col="6" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="密印开启动画" bmp="密印开启提示" row="1" col="15" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="宝石镶嵌动画" bmp="宝石镶嵌提示" row="1" col="12" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="宝石升级动画" bmp="宝石升级提示" row="1" col="15" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="宝石重铸动画" bmp="宝石重铸提示" row="1" col="7" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="获得铜币动画" bmp="获得铜币" row="1" col="9" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="获得金锭动画" bmp="获得金锭" row="1" col="13" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="首充动画" bmp="首充动画" row="1" col="10" frameDelay="100" loop="1"/>
+		
+		<filmAnimEffect id="vip星星动画" bmp="vip星星" row="1" col="5" frameDelay="50" loop="0"/>
+		<filmAnimEffect id="vip经验提升" bmp="vip经验提升" row="1" col="11" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="vip等级提升" bmp="vip等级提升" row="1" col="6" frameDelay="50" loop="1"/>
+		<filmAnimEffect id="圆形充值动画" bmp="圆形充值动画" row="1" col="11" frameDelay="100" loop="1"/>
+		<filmAnimEffect id="商城充值动画" bmp="商城充值动画" row="1" col="18" frameDelay="100" loop="1"/>
+		<filmAnimEffect id="商城充值动画" bmp="商城充值动画" row="1" col="18" frameDelay="100" loop="1"/>
+		<filmAnimEffect id="喇叭闪耀动画" bmp="大喇叭闪动动画" row="1" col="17" frameDelay="50" loop="0"/>
+		<filmAnimEffect id="流动金条动画" bmp="流动金条" row="1" col="17" frameDelay="30" loop="1"/>
+
+		<filmAnimEffect id="秘宝持续动画" bmp="秘宝" row="3" col="5" tCount="13" frameDelay="100" loop="0"/>
+		
+		<filmAnimEffect id="抽书渐现动画" bmp="抽书渐现" row="1" col="7" frameDelay="100" loop="1"/>
+		<filmAnimEffect id="抽书旋转动画" bmp="抽书旋转" row="1" col="6" frameDelay="100" loop="0"/>
+		<filmAnimEffect id="战斗力火焰动画" bmp="战斗力火焰" row="7" col="1" frameDelay="80" tCount="7" loop="0"/>
+		<filmAnimEffect id="缩小版战斗力火焰动画" bmp="缩小版战斗力火焰" row="1" col="7" frameDelay="80" tCount="7" loop="0"/>
+
+
+		<filmAnimEffect id="红装动画4040" bmp="红4040" row="1" col="10" frameDelay="100" loop="0"/>
+		<filmAnimEffect id="红装动画6060" bmp="红6060" row="1" col="10" frameDelay="100" loop="0"/>
+
+		<filmAnimEffect id="橙装动画4040" bmp="橙4040" row="1" col="11" frameDelay="100" loop="0"/>
+		<filmAnimEffect id="橙装动画6060" bmp="橙6060" row="1" col="11" frameDelay="100" loop="0"/>
+
+		<filmAnimEffect id="黄装动画4040" bmp="黄4040" row="1" col="10" frameDelay="100" loop="0"/>
+		<filmAnimEffect id="黄装动画6060" bmp="黄6060" row="1" col="10" frameDelay="100" loop="0"/>
+
+		<filmAnimEffect id="紫装动画4040" bmp="紫4040" row="1" col="10" frameDelay="100" loop="0"/>
+		<filmAnimEffect id="紫装动画6060" bmp="紫6060" row="1" col="10" frameDelay="100" loop="0"/>
+
+		
+		<filmAnimEffect id="转职按钮动画" bmp="转职" row="10" col="1" frameDelay="80" tCount="10" loop="0"/>
+
+	</controls>
+</xml>

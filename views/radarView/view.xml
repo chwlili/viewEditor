@@ -1,0 +1,20 @@
+﻿<xml>
+	<swfs>
+		<swf id="radarView" src="../swfs/radarView.swf"/>
+
+	</swfs>
+	<texts>
+		<text id="分享">分享</text>
+		<text id="好友">好友</text>
+		<text id="信息">信息</text>
+		<text id="邀请">邀请</text>
+		<text id="隐藏">隐藏</text>
+		<text id="设置">设置</text>
+		<text id="声音">声音</text>
+		<text id="挂机">挂机</text>
+		<text id="地图">地图</text>
+		<text id="领地">领地</text>
+		<text id="冥想">冥想</text>
+		<text id="是否要退出副本？">是否要退出副本？</text>
+	</texts>
+</xml>

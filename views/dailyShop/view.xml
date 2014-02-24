@@ -1,0 +1,111 @@
+﻿<xml name="每日秒杀">
+
+	<depends>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+   		<depend src="/public/controls/window/CloseButton.xml"/>
+    	<depend src="/public/publicFormats.xml"/>
+    	<depend src="/public/publicTexts.xml"/>
+	</depends>
+
+
+	<texts>
+		<text id="通关">通关</text>
+		<text id="今日日常">今日日常</text>
+		<text id="立即完成">立即完成</text>
+		<text id="放弃任务">放弃任务</text>
+		<text id="加星">加星</text>
+		<text id="全部完成">一键完成</text>
+		<text id="放弃">放弃</text>
+		<text id="星级提示">星级越高奖励越丰厚</text>
+		<text id="选择">选  择</text>
+		<text id="每人每天限购一次">（每人每天限购一次）</text>
+		<text id="参与10次限购可免费选取额外奖励">参与10次限购可免费选取额外奖励</text>
+	</texts>
+
+
+	<bitmaps>
+		<bitmap id="二选一" src="imgs/二选一.png" />
+		<bitmap id="进度条" src="imgs/进度条.png" />
+		<bitmap id="框01" src="imgs/框01.png" />
+
+		<bitmap id="框02" src="imgs/框02.jpg" />
+		<bitmap id="立即购买01" src="imgs/立即购买01.png" />
+
+		<bitmap id="立即购买02" src="imgs/立即购买02.png" />
+		<bitmap id="立即购买03" src="imgs/立即购买03.png" />
+		<bitmap id="每日特购标题" src="imgs/每日特购标题.png" />
+
+		<bitmap id="数据条" src="imgs/数据条.png" />
+		<bitmap id="数字01" src="imgs/数字01.png" />
+		
+		<bitmap id="数字02" src="imgs/数字02.png" />
+		<bitmap id="特购次数" src="imgs/特购次数.png" />
+		<bitmap id="特购图标框" src="imgs/特购图标框.png" />
+
+	</bitmaps>
+	<controls>
+		<window id="main" width="709" height="515">
+			<image bmp="框01" right="0" top="0" width="794" height="515"/>
+			<image bmp="框02" center="2" middle="10" width="697" height="487" />
+    		<ref name="closeBtn" ref="CloseButton" top="27"/>
+    		<image bmp="每日特购标题" center="-8"  y="23" width="126" height="33" />
+    		<image bmp="特购图标框" left="155"  top="80" width="80" height="81" />
+    		<image bmp="特购图标框" left="240"  top="80" width="80" height="81" />
+    		<image bmp="特购图标框" left="325"  top="80" width="80" height="81" />
+    		<image bmp="特购图标框" left="410"  top="80" width="80" height="81" />
+    		<image bmp="特购图标框" left="495"  top="80" width="80" height="81" />
+
+			<achieveEntity name="item1" x="165" y="90" isBig="true"/>
+			<achieveEntity name="item2" x="250" y="90" isBig="true"/>
+			<achieveEntity name="item3" x="335" y="90" isBig="true"/>
+			<achieveEntity name="item4" x="420" y="90" isBig="true"/>
+			<achieveEntity name="item5" x="505" y="90" isBig="true"/>
+
+			<achieveEntity name="itema" x="474" y="347" isBig="true"/>
+			<achieveEntity name="itemb" x="575" y="347" isBig="true"/>
+
+
+    		<image bmp="数据条" center="0"  y="190" width="650" height="41" />
+    		<image bmp="特购次数" left="85"  y="332" width="95" height="27" />
+    		<image bmp="二选一" left="465"  y="323" width="181" height="28" />
+
+
+ 			<button name="购买" width="149" height="54" left="275" top="240">
+ 				<state frame="1" back="立即购买01"/>
+ 				<state frame="2" back="立即购买02"/>
+				<state frame="3" back="立即购买03"/>
+ 			</button>
+
+			<labelButton name="选择A" width="82" height="28" top="423" left="464" label="选择">
+				<state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中"/>
+				<state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中"/>
+				<state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+			<labelButton name="选择B" width="82" height="28" top="423" left="565" label="选择">
+				<state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中"/>
+				<state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中"/>
+				<state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+
+    		<image name="count1" bmp="进度条" left="92"  top="374" width="35" height="16" />
+    		<image name="count2" bmp="进度条" left="130"  top="374" width="35" height="16" />
+    		<image name="count3" bmp="进度条" left="168"  top="374" width="35" height="16" />
+    		<image name="count4" bmp="进度条" left="206"  top="374" width="35" height="16" />
+    		<image name="count5" bmp="进度条" left="244"  top="374" width="35" height="16" />
+    		<image name="count6" bmp="进度条" left="282"  top="374" width="35" height="16" />
+    		<image name="count7" bmp="进度条" left="320"  top="374" width="35" height="16" />
+    		<image name="count8" bmp="进度条" left="358"  top="374" width="35" height="16" />
+    		<image name="count9" bmp="进度条" left="396"  top="374" width="35" height="16" />
+    		<image name="count10" bmp="进度条" left="434" top="374" width="35" height="16" />
+
+				<label text="每人每天限购一次" height="20" width="120" top="255" left="455" format="fdd59a_12_居中" />
+				<label text="参与10次限购可免费选取额外奖励" height="20" width="190" top="340" left="225" format="fdd59a_12_居中" />
+
+				<label name="次数" height="20" width="135" top="340" left="185" format="fmt_03dd27_12" />
+    	</window>
+
+
+
+	</controls>
+</xml>

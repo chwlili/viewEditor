@@ -1,0 +1,23 @@
+<xml>
+	<depends>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="绿色按钮1.png" src="/public/imgs/buttons/Button11_1.png" size="516"/>
+		<bitmap id="绿色按钮2.png" src="/public/imgs/buttons/Button11_2.png" size="151"/>
+	</bitmaps>
+	
+	<texts>
+		<text id="最大">最大</text>
+	</texts>
+	
+	<controls>
+	
+		<labelButton id="NumberSteperMaxButton" width="40" height="26" label="最大">
+			<state frame="1" back="绿色按钮1.png" backGrid="5,10,10,5" format="宋体白色12"/>
+			<state frame="3" back="绿色按钮2.png" backGrid="5,10,10,5" format="宋体白色12"/>
+		</labelButton>
+		
+	</controls>
+</xml>

@@ -1,0 +1,294 @@
+<xml name="前线">
+  <depends>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+
+    <depend src="/public/controls/window/CloseButton.xml"/>
+    <depend src="/public/controls/window/WindowBack.xml"/>
+    <depend src="/public/controls/scroller/Scroller.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+    <depend src="/public/publicTexts.xml"/>
+    <depend src="/public/publicIcons.xml"/>
+    <depend src="/public/publicNumimage.xml"/>
+  </depends>
+  <bitmaps>
+    <bitmap id="bg" src="imgs/bg.jpg"/>
+    <bitmap id="bg2" src="imgs/bg2.png"/>
+    <bitmap id="title" src="imgs/title.png"/>
+    <bitmap id="蓝旗" src="imgs/蓝旗.png"/>
+    <bitmap id="红旗" src="imgs/红旗.png"/>
+    <bitmap id="上阵" src="imgs/上阵.png"/>
+    <bitmap id="清理战场" src="imgs/清理战场.png"/>
+    <bitmap id="蓝加号" src="imgs/蓝加号.png"/>
+    <bitmap id="小红旗" src="imgs/小红旗.png"/>
+    <bitmap id="小红旗2" src="imgs/小红旗2.png"/>
+    <bitmap id="小蓝旗" src="imgs/小蓝旗.png"/>
+    <bitmap id="btnText1_1" src="imgs/魔化第1军团.png"/>
+    <bitmap id="btnText1_2" src="imgs/魔化第1军团02.png"/>
+    <bitmap id="btnText2_1" src="imgs/魔化第2军团.png"/>
+    <bitmap id="btnText2_2" src="imgs/魔化第2军团02.png"/>
+    <bitmap id="btnText3_1" src="imgs/魔化第3军团.png"/>
+    <bitmap id="btnText3_2" src="imgs/魔化第3军团02.png"/>
+    <bitmap id="btnText4_1" src="imgs/魔化第4军团.png"/>
+    <bitmap id="btnText4_2" src="imgs/魔化第4军团02.png"/>
+    <bitmap id="btnText5_1" src="imgs/魔化第5军团.png"/>
+    <bitmap id="btnText5_2" src="imgs/魔化第5军团02.png"/>
+    <bitmap id="vs" src="imgs/VS.png"/>
+    <bitmap id="狮鹫帝国" src="imgs/狮鹫帝国.png"/>
+    <bitmap id="boss半身像1" src="imgs/boss半身像1.png"/>
+    <bitmap id="boss半身像2" src="imgs/boss半身像2.png"/>
+    <bitmap id="boss半身像3" src="imgs/boss半身像3.png"/>
+    <bitmap id="boss半身像4" src="imgs/boss半身像4.png"/>
+    <bitmap id="boss半身像5" src="imgs/boss半身像5.png"/>
+
+    <bitmap id="角色半身像1" src="imgs/角色半身像1.png"/>
+    <bitmap id="角色半身像2" src="imgs/角色半身像2.png"/>
+    <bitmap id="角色半身像3" src="imgs/角色半身像3.png"/>
+    <bitmap id="角色半身像4" src="imgs/角色半身像4.png"/>
+    <bitmap id="小箭头" src="imgs/小箭头.png"/>
+
+    <bitmap id="tipback" src="imgs/tipback.png" />
+    <bitmap id="第几关文字" src="imgs/第几关文字.png" />
+	<bitmap id="生存挑战" src="imgs/生存挑战.png"/>
+  </bitmaps>
+  <bitmapReaders>
+    <bitmapReader id="btnText0" bmp="btnText1_1" />
+    <bitmapReader id="btnText1" bmp="btnText2_1" />
+    <bitmapReader id="btnText2" bmp="btnText3_1" />
+    <bitmapReader id="btnText3" bmp="btnText4_1" />
+    <bitmapReader id="btnText4" bmp="btnText5_1" />
+
+    <bitmapReader id="boss半身像0" bmp="boss半身像1" />
+    <bitmapReader id="boss半身像1" bmp="boss半身像2" />
+    <bitmapReader id="boss半身像2" bmp="boss半身像3" />
+    <bitmapReader id="boss半身像3" bmp="boss半身像4" />
+    <bitmapReader id="boss半身像4" bmp="boss半身像5" />
+
+    <bitmapReader id="角色半身像1" bmp="角色半身像1" />
+    <bitmapReader id="角色半身像2" bmp="角色半身像2" />
+    <bitmapReader id="角色半身像3" bmp="角色半身像3" />
+    <bitmapReader id="角色半身像4" bmp="角色半身像4" />
+
+    <bitmapReader id="小箭头" bmp="小箭头" />
+
+  </bitmapReaders>
+  <texts>
+    <text id="通关后开启1附魔">通关后开启战盔附魔</text>
+    <text id="通关后开启2附魔">通关后开启肩甲附魔</text>
+    <text id="通关后开启3附魔">通关后开启胸甲附魔</text>
+    <text id="通关后开启4附魔">通关后开启手套附魔</text>
+    <text id="通关后开启5附魔">通关后开启护腿附魔</text>
+    <text id="今日还可清理战场1次">今日还可清理战场  1次</text>
+    <text id="骑士$级可额外清理$次">骑士$1级还可清理  $2次</text>
+    <text id="今日已清理完战场">今日已清理完战场</text>
+    <text id="清理战场可收货所有已通关的关卡奖励">清理战场可收货所有已通关的关卡奖励</text>
+    <text id="今日还可上阵挑$1次"><![CDATA[今日还可上阵挑战 <font color='#00ff00'>$1</font> 次]]></text>
+    <text id="增加次数确认消息"><![CDATA[您确定花费 <font color='#00ff00'>10</font> 钻石增加 <font color='#00ff00'>1</font> 次上阵次数吗?]]></text>
+	<text id="增加次数提示"><![CDATA[花费 <font color='#00ff00'>10</font> 钻石增加 <font color='#00ff00'>1</font> 次上阵次数]]></text>
+    <text id="宝石扫塔确认消息"><![CDATA[您确定花费 <font color='#00ff00'>$1</font> 钻石清理战场吗?]]></text>
+
+    <text id="等级限制">需要角色等级达到$1</text>
+    <text id="战力限制">需要战斗力达到$1</text>
+    <text id="前关限制">魔化第$1军团</text>
+    <text id="尚未开放">尚未开放</text>
+
+    <text id="当前关卡通关奖励">当前关卡通关奖励</text>
+    <text id="阵线奖励1">10531</text>
+    <text id="阵线奖励2">10532</text>
+    <text id="阵线奖励3">10533</text>
+
+    <text id="未开启">未开启</text>
+    <text id="第1关">第 1 关</text>
+    <text id="第2关">第 2 关</text>
+    <text id="第3关">第 3 关</text>
+    <text id="第4关">第 4 关</text>
+    <text id="第5关">Boss 关</text>
+
+    <text id="当前关卡奖励">当前关卡奖励:</text>
+    <text id="概率获得">概率获得</text>
+    <text id="第1波奖励">第1波奖励</text>
+    <text id="第2波奖励">第2波奖励</text>
+    <text id="第3波奖励">第3波奖励</text>
+    <text id="第4波奖励">第4波奖励</text>
+    <text id="第5波奖励">第5波奖励</text>
+
+    <text id="经验">经验</text>
+
+    <text id="通关进度">通关进度:</text>
+    <text id="开启条件">开启条件:</text>
+    <text id="通关">通关:</text>
+    <text id="角色等级">角色等级:</text>
+    <text id="角色战斗力">角色战斗力:</text>
+    <text id="通关后特殊奖励">通关后特殊奖励:</text>
+    <text id="无">无</text>
+    <text id="清理战场收获了以下物品">清理战场收获了以下物品:</text>
+
+    <text id="经验:">经验:</text>
+    <text id="上阵">上阵</text>
+    <text id="清理战场">清理战场</text>
+  </texts>
+  <controls>
+    <window id="main" width="867" height="529">
+      <ref ref="WindowBack"/>
+      <ref name="closeBtn" ref="CloseButton"/>
+      <image bmp="title" width="103" height="28" center="0" top="10"/>
+      <box name="阵线1" width="159" height="65" top="65" center="-340">
+        <image bmp="knightLabelBtn4_1" width="159" height="65"/>
+        <image name="bg" bmp="knightLabelBtn4_2" width="159" height="65" visible="false"/>
+        <label name="progress" width="150" height="18" center="0" middle="-4" format="宋体绿色12居中" html="true"/>
+        <label name="label" width="150" height="18" center="0" bottom="10" text="通关后开启1附魔" format="86603f_12_居中" html="true"/>
+        <image name="title1" bmp="btnText1_1" top="-12" center="0" width="126" height="28" visible="false"/>
+        <image name="title2" bmp="btnText1_2" top="-12" center="0" width="126" height="28" visible="false"/>
+      </box>
+      <box name="阵线2" width="159" height="65" top="65" center="-170">
+        <image bmp="knightLabelBtn4_1" width="159" height="65"/>
+        <image name="bg" bmp="knightLabelBtn4_2" width="159" height="65" visible="false"/>
+        <label name="progress" width="150" height="18" center="0" middle="-4" format="宋体绿色12居中" html="true"/>
+        <label name="label" width="150" height="18" center="0" bottom="10" text="通关后开启2附魔" format="86603f_12_居中" html="true"/>
+        <image name="title1" bmp="btnText2_1" top="-12" center="0" width="126" height="28" visible="false"/>
+        <image name="title2" bmp="btnText2_2" top="-12" center="0" width="126" height="28" visible="false"/>
+      </box>
+      <box name="阵线3" width="159" height="65" top="65" center="0">
+        <image bmp="knightLabelBtn4_1" width="159" height="65"/>
+        <image name="bg" bmp="knightLabelBtn4_2" width="159" height="65" visible="false"/>
+        <label name="progress" width="150" height="18" center="0" middle="-4" format="宋体绿色12居中" html="true"/>
+        <label name="label" width="150" height="18" center="0" bottom="10" text="通关后开启3附魔" format="86603f_12_居中" html="true"/>
+        <image name="title1" bmp="btnText3_1" top="-12" center="0" width="126" height="28" visible="false"/>
+        <image name="title2" bmp="btnText3_2" top="-12" center="0" width="126" height="28" visible="false"/>
+      </box>
+      <box name="阵线4" width="159" height="65" top="65" center="170">
+        <image bmp="knightLabelBtn4_1" width="159" height="65"/>
+        <image name="bg" bmp="knightLabelBtn4_2" width="159" height="65" visible="false"/>
+        <label name="progress" width="150" height="18" center="0" middle="-4" format="宋体绿色12居中" html="true"/>
+        <label name="label" width="150" height="18" center="0" bottom="10" text="通关后开启4附魔" format="86603f_12_居中" html="true"/>
+        <image name="title1" bmp="btnText4_1" top="-12" center="0" width="126" height="28" visible="false"/>
+        <image name="title2" bmp="btnText4_2" top="-12" center="0" width="126" height="28" visible="false"/>
+      </box>
+      <box name="阵线5" width="159" height="65" top="65" center="340">
+        <image bmp="knightLabelBtn4_1" width="159" height="65"/>
+        <image name="bg" bmp="knightLabelBtn4_2" width="159" height="65" visible="false"/>
+        <label name="progress" width="150" height="18" center="0" middle="-4" format="宋体绿色12居中" html="true"/>
+        <label name="label" width="150" height="18" center="0" bottom="10" text="通关后开启6附魔" format="86603f_12_居中" html="true"/>
+        <image name="title1" bmp="btnText5_1" top="-12" center="0" width="126" height="28" visible="false"/>
+        <image name="title2" bmp="btnText5_2" top="-12" center="0" width="126" height="28" visible="false"/>
+      </box>
+      <box name="map" top="140" center="0" width="830" height="340">
+        <image bmp="bg" center="0" top="10" width="814" height="316"/>
+        <image bmp="bg2" left="10" top="10" width="117" height="325"/>
+        <image bmp="bg2" right="10" top="10" width="117" height="325"/>
+        <image bmp="蓝旗" top="10" left="10" width="153" height="223"/>
+        <image bmp="红旗" top="10" right="10" width="153" height="223"/>
+
+        <image name="leftFace" left="15" bottom="15"/>
+        <image name="rightFace" right="15" bottom="15"/>
+
+        <image bmp="knightFrame12" width="830" height="340" grid="100,100,100,100"/>
+        <box name="point1" width="29" height="59" top="170" left="165">
+          <image name="红旗" bmp="小红旗" center="0" bottom="0" width="29" height="59"/>
+          <image name="蓝旗" bmp="小蓝旗" center="0" bottom="0" width="29" height="59"/>
+          <label name="label" top="-20" center="0" width="70" height="20" html="true" text="第1关" format="宋体白色14居中加粗"/>
+        </box>
+        <box name="point2" width="29" height="59" top="64" left="292">
+          <image name="红旗" bmp="小红旗" center="0" bottom="0" width="29" height="59"/>
+          <image name="蓝旗" bmp="小蓝旗" center="0" bottom="0" width="29" height="59"/>
+          <label name="label" top="-20" center="0" width="70" height="20" html="true" text="第2关" format="宋体白色14居中加粗"/>
+        </box>
+        <box name="point3" width="29" height="59" top="75" left="410">
+          <image name="红旗" bmp="小红旗" center="0" bottom="0" width="29" height="59"/>
+          <image name="蓝旗" bmp="小蓝旗" center="0" bottom="0" width="29" height="59"/>
+          <label name="label" top="-20" center="0" width="70" height="20" html="true" text="第3关" format="宋体白色14居中加粗"/>
+        </box>
+        <box name="point4" width="29" height="59" top="200" left="440">
+          <image name="红旗" bmp="小红旗" center="0" bottom="0" width="29" height="59"/>
+          <image name="蓝旗" bmp="小蓝旗" center="0" bottom="0" width="29" height="59"/>
+          <label name="label" top="-20" center="0" width="70" height="20" html="true" text="第4关" format="宋体白色14居中加粗"/>
+        </box>
+        <box name="point5" width="29" height="59" top="120" left="590">
+          <image name="红旗" bmp="小红旗2" center="0" bottom="0" width="40" height="80"/>
+          <image name="蓝旗" bmp="小蓝旗" center="0" bottom="0" width="29" height="59"/>
+          <label name="label" top="-41" center="0" width="70" height="20" html="true" text="第5关" format="宋体白色14居中加粗"/>
+        </box>
+        <image bmp="vs" width="53" height="36" center="0" top="-5" />
+        <image bmp="狮鹫帝国" width="78" height="24" center="-80" top="-2" />
+        <image name="对方" width="126" height="28" center="100" top="-7" />
+
+        <image name="小箭头" bmp="小箭头" height="36" width="26" visible="false" top="-50" center="1" />
+      </box>
+      <box name="reward" width="300" height="18" center="0" bottom="80">
+        <label width="110" height="18" format="efb55a_12" text="当前关卡奖励" />
+        <image bmp="knightsExp_2" width="42" height="42" left="80" top="-12" />
+        <label name="exp" width="110" height="18" left="120" format="宋体白色12" />
+        <achieveEntity name="item" x="170" y="-11" id="0" />
+        <label width="110" height="18" left="215" format="宋体白色12" text="概率获得" />
+      </box>
+      <label name="次数" width="150" height="18" format="fdd59a_12" text="今日还可上阵挑$1次" bottom="26" left="45" html="true"/>
+      <labelButton name="蓝加号" width="16" height="16" bottom="26" left="175">
+        <state frame="1" back="蓝加号"/>
+        <state frame="2" back="蓝加号"/>
+        <state frame="3" back="蓝加号"/>
+      </labelButton>
+      <label width="200" height="18" format="876b55_12_居中" text="清理战场可收货所有已通关卡奖励" bottom="26" right="90" html="true" visible="false"/>
+      <labelButton name="enter" width="82" height="28" bottom="20" center="-60" label="上阵">
+        <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中"/>
+        <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中"/>
+        <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中"/>
+      </labelButton>
+      
+      <labelButton name="getReward" width="82" height="28" bottom="20" center="60" label="清理战场">
+        <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中"/>
+        <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中"/>
+        <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中"/>
+      </labelButton>
+     
+    </window>
+    <box id="bigPointTip" width="257" height="276">
+      <image bmp="tipback" grid="15,40,15,40" left="0" right="0" top="0" bottom="0" />
+      <image bmp="第几关文字" center="0" top="15" width="71" height="26" />
+      <image bmp="分割线" grid="40,0,40,0" top="50" width="200" height="1" center="0" />
+      <label width="80" height="18" format="efb55a_12" left="22" top="60" text="第1波奖励" />
+      <label name="11" width="130" height="18" format="宋体白色12" left="34" top="80" />
+      <label name="12" width="130" height="18" format="宋体白色12" left="105" top="80" html="true"/>
+      <label width="80" height="18" format="efb55a_12" left="22" top="100" text="第2波奖励" />
+      <label name="21" width="130" height="18" format="宋体白色12" left="34" top="120" />
+      <label name="22" width="130" height="18" format="宋体白色12" left="105" top="120" html="true"/>
+      <label width="80" height="18" format="efb55a_12" left="22" top="140" text="第3波奖励" />
+      <label name="31" width="130" height="18" format="宋体白色12" left="34" top="160" />
+      <label name="32" width="130" height="18" format="宋体白色12" left="105" top="160" html="true"/>
+      <label width="80" height="18" format="efb55a_12" left="22" top="180" text="第4波奖励" />
+      <label name="41" width="130" height="18" format="宋体白色12" left="34" top="200" />
+      <label name="42" width="130" height="18" format="宋体白色12" left="105" top="200" html="true"/>
+      <label width="80" height="18" format="efb55a_12" left="22" top="220" text="第5波奖励" />
+      <label name="51" width="130" height="18" format="宋体白色12" left="34" top="240" />
+      <label name="52" width="130" height="18" format="宋体白色12" left="105" top="240" html="true"/>
+    </box>
+    <box id="btnTip" width="188" height="160">
+      <image bmp="tipback" grid="15,40,15,40" left="0" right="0" top="0" bottom="0" />
+        <box name="开启条件" width="188" height="100">
+          <label name="开启条件" width="180" height="18" format="efb55a_12" left="22" top="15" text="开启条件" />
+          <label name="开启条件1" width="180" height="18" format="efb55a_12" left="34" top="35" html="true" />
+          <label name="开启条件2" width="180" height="18" format="efb55a_12" left="34" top="55" html="true" />
+          <label name="开启条件3" width="180" height="18" format="efb55a_12" left="34" top="75" html="true" />
+        </box>
+        <box name="进度" width="188" height="40">
+          <label name="通关进度" width="180" height="18" format="efb55a_12" left="22" top="15" html="true" />
+        </box>
+        <image name="line" bmp="分割线" grid="40,0,40,0" width="150" height="1" center="0" />
+        <label name="rewardLabel" width="180" height="18" format="efb55a_12" left="22" bottom="35" text="通关后特殊奖励" />
+        <label name="reward" width="180" height="18" format="宋体绿色12居中" center="0" bottom="15" html="true" />
+    </box>
+    <box id="清理战场tip" width="246" height="72">
+      <image bmp="tipback" grid="15,40,15,40" left="0" right="0" top="0" bottom="0" />
+      <label name="label" width="240" height="18" format="efb55a_12" left="20" top="15" html="true" />
+      <label width="240" height="18" format="86603f_12" left="20" bottom="15" text="清理战场可收货所有已通关的关卡奖励" />
+    </box>
+    <box id="收获" width="240" height="100" center="0" middle="0">
+      <image bmp="tipback" grid="15,40,15,40" left="0" right="0" top="0" bottom="0" />
+      <label width="240" height="18" format="efb55a_12_居中" center="0" top="25" html="true" text="清理战场收获了以下物品" />
+      <label name="exp" width="100" height="18" format="宋体白色12" center="0" top="50" html="true" />
+      <label name="item1" width="100" height="18" format="宋体白色12" center="0" top="70" html="true" />
+      <label name="item2" width="100" height="18" format="宋体白色12" center="0" top="90" html="true" />
+      <label name="item3" width="100" height="18" format="宋体白色12" center="0" top="110" html="true" />
+    </box>
+	<image id="生存挑战" bmp="生存挑战" width="278" height="31" center="0" top="80"/>
+  </controls>
+</xml>

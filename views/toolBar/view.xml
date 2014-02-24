@@ -1,0 +1,23 @@
+﻿<xml>
+	<swfs>
+		<swf id="toolBar" src="../swfs/toolBar.swf"/>
+
+	</swfs>
+	<texts>
+		<text id="当前经验">当前经验:</text>
+		<text id="shop">点击查看秘宝屋</text>
+		<text id="knightage">点击查看骑士团</text>
+		<text id="constellation">点击查看星座</text>
+		<text id="friend">点击查看伙伴</text>
+		<text id="gold_metallurgy">点击进入炼金</text>
+		<text id="soul_beast">点击查看灵魂兽</text>
+		<text id="equipup">点击进入强化装备</text>
+		<text id="skill">点击查看技能</text>
+		<text id="bag">点击查看背包</text>
+		<text id="role">点击查看角色信息</text>
+		<text id="aura">点击查看光环</text>
+		<text id="jewelry">点击查看魔法工坊</text>
+	</texts>
+
+
+</xml>

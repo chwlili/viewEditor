@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<xml name="太阳神秘宝"> 
+  <depends> 
+    <depend src="/public/controls/window/HelpButton.xml"/>  
+    <depend src="/public/controls/window/CloseButton.xml"/>  
+    <depend src="/public/controls/window/WindowBack.xml"/>  
+    <depend src="/public/controls/scroller/Scroller.xml"/>  
+    <depend src="/public/publicIcons.xml"/>  
+    <depend src="/public/publicFormats.xml"/>  
+    <depend src="/public/publicFrames.xml"/>  
+    <depend src="/public/publicButtons.xml"/>  
+    <depend src="/public/publicFilters.xml"/> 
+    <depend src="/public/controls/scroller/Scroller.xml"/> 
+  </depends>  
+  <formats> 
+    <format id="宋体红色12" font="宋体" color="0xe00503" size="12" align="left" filter="黑色边框"/>  
+    <format id="宋体橘黄色居中12" font="宋体" size="12" color="0xefb55a" align="center" filter="黑色边框"/>  
+    <format id="宋体深黄色居中12" font="宋体" size="12" color="0x876b55" align="center" filter="黑色边框"/>  
+    <format id="宋体浅黄色12" font="宋体" size="12" color="0xfde3ac" align="left" filter="黑色边框"/> 
+    <format id="宋体浅黄色居中12" font="宋体" size="12" color="0xfde3ac" align="center" filter="黑色边框"/>  
+    <format id="宋体灰色居中12" font="宋体" size="12" color="0x585755" align="center" filter="黑色边框"/>  
+    <format id="宋体蓝色居中12" font="宋体" size="12" color="0x12def7" align="center" filter="黑色边框"/> 
+  </formats>  
+  <bitmaps> 
+    <bitmap id="1次01" src="imgs/1次按钮01.png"/>  
+    <bitmap id="1次02" src="imgs/1次按钮02.png"/>  
+    <bitmap id="1次03" src="imgs/1次按钮03.png"/>  
+    <bitmap id="5次01" src="imgs/5次按钮01.png"/>  
+    <bitmap id="5次02" src="imgs/5次按钮02.png"/>  
+    <bitmap id="5次03" src="imgs/5次按钮03.png"/>  
+    <bitmap id="20次01" src="imgs/20次按钮01.png"/>  
+    <bitmap id="20次02" src="imgs/20次按钮02.png"/>  
+    <bitmap id="20次03" src="imgs/20次按钮03.png"/>  
+    <bitmap id="宝物包标题" src="imgs/宝物包标题.png"/>  
+    <bitmap id="太阳神标题" src="imgs/太阳神标题.png"/>  
+    <bitmap id="右侧底板" src="imgs/右侧底板.jpg"/>
+    <bitmap id="左侧底板" src="imgs/左侧底板.jpg"/>
+    <bitmap id="中央问号" src="imgs/中央问号.png"/>
+    <bitmap id="序列图" src="imgs/序列图.png"/>
+    <bitmap id="炼金飘动特效" src="imgs/炼金飘动特效.png"/>	
+    <bitmap id="炼金飘动结束特效" src="imgs/炼金飘动结束特效.png"/>
+    <bitmap id="eff1" src="imgs/1.png"/>	
+    <bitmap id="eff2" src="imgs/2.png"/>	
+    <bitmap id="我的开启秘宝日志" src="imgs/我的开启秘宝日志.png"/>	
+    <bitmap id="全服开启秘宝日志" src="imgs/全服开启秘宝日志.png"/>	
+    <bitmap id="数字输入条" src="imgs/数字输入条.png"/>	
+  </bitmaps>  
+  <texts> 
+    <text id="剩余探索次数"><![CDATA[免费寻宝次数：<font color='#2feb16'>$MIN/$MAX</font>]]></text>  
+    <text id="探险次数tip">每天8点、14点、20点各有一次恢复的机会</text>
+    <text id="拥有太阳神宝石"><![CDATA[拥有太阳神石 <font color='#2feb16'>$NUM</font>]]></text>  
+    <text id="砸金蛋-需要钻石">【$NUM钻石】</text>  
+    <text id="自己的日志">$TIME，获得 $ITEM</text>  
+    <text id="他人的日志">$NAME 获得 $ITEM</text>  
+    <text id="砸金蛋-钻石"><![CDATA[钻石：   <font color='#12def7'>$NUM</font>]]></text> 
+    <text id="砸金蛋-充值">充值</text> 
+    <text id="砸金蛋-宝物包">宝物包</text> 
+    <text id="砸金蛋-全部入包">全部入包</text> 
+    <text id="砸金蛋-获得">获得</text>
+    <text id="砸金蛋-免费"><![CDATA[<font color='#2feb16'>【免费】</font>]]></text>
+    <text id="砸金蛋-消耗太阳神石"><![CDATA[<font color='#2feb16'>【1个太阳神石】</font>]]></text>
+    <text id="寻宝1次">寻宝 1次</text>
+    <text id="寻宝5次">寻宝 5次</text>
+    <text id="寻宝20次">寻宝20次</text>
+  </texts>  
+  <controls> 
+    <window id="Main" width="1010" height="490">
+    	<ref ref="WindowBack"/>
+			<ref name="closeBtn" ref="CloseButton"/>
+			<image bmp="太阳神标题" width="154" height="31" top="12" center="0"/>
+			<image bmp="knightFrame2" grid="30,47,29,49" width="736" height="421" x="14" y="49"/>
+    	<image bmp="左侧底板" width="502" height="411" x="19" y="54"/>
+    	<image bmp="右侧底板" width="222" height="411" x="521" y="54"/>
+    	<image bmp="我的开启秘宝日志" width="103" height="20" x="578" y="63"/>
+    	<image bmp="全服开启秘宝日志" width="103" height="20" x="578" y="205"/>
+    	<image bmp="数字输入条" width="189" height="24" x="178" y="325"/>
+    	<image bmp="knightsBlueGem_1" width="25" height="25" x="610" y="387"/>
+    	<filmAnimEffect name="effect" bmp="序列图" x="216" y="159" row="1" col="5" frameDelay="80" loop="0" tCount="5"/>
+    	<image bmp="中央问号" width="55" height="55" x="241" y="184"/>
+    	<!--自己的log滚动条-->
+      <ref name="scroller" ref="Scroller" x="528" y="89" height="110" width="210"/>
+      <!--全服的log滚动条-->
+      <ref name="scroller2" ref="Scroller" x="528" y="241" height="150" width="210"/>
+    	<!--文字内容-->
+      <label name="timeTf" width="180" height="25" x="183" y="328" html="true" format="宋体浅黄色居中12" text="剩余探索次数"/>
+      <label width="300" height="25" x="125" y="353" html="true" format="宋体深黄色居中12" text="探险次数tip"/>
+      <!--<label name="numTf" width="188" height="25" x="179" y="348" html="true" format="宋体橘黄色居中12" text="拥有太阳神宝石"/>-->
+      <label name="diamondTf" width="130" height="25" x="578" y="391" html="true" format="宋体浅黄色12" text="砸金蛋-钻石"/>
+      <label name="goldTf1" width="100" height="25" x="106" y="390" html="true" format="宋体蓝色居中12" text="砸金蛋-需要钻石"/>
+      <label name="goldTf2" width="100" height="25" x="230" y="390" html="true" format="宋体蓝色居中12" text="砸金蛋-需要钻石"/>
+      <label name="goldTf3" width="100" height="25" x="355" y="390" html="true" format="宋体蓝色居中12" text="砸金蛋-需要钻石"/>
+      <label name="allLogTf" width="180" height="150" x="528" y="241" html="true" format="宋体浅黄色12"/>
+      <label name="selfLogTf" width="180" height="110" x="528" y="89" html="true" format="宋体浅黄色12"/>
+      <!--按钮-->
+      <labelButton name="okBtn0" width="95" height="37" x="110" y="415" label="寻宝1次">
+        <state frame="1" back="1次01" format="按钮标签_efb55a_12_居中"/>
+        <state frame="2" back="1次02" format="按钮标签_efb55a_12_居中"/>
+        <state frame="3" back="1次03" format="按钮标签_efb55a_12_居中"/>
+      </labelButton>
+      <labelButton name="okBtn1" width="95" height="37" x="232" y="415" label="寻宝5次">
+        <state frame="1" back="5次01" format="按钮标签_efb55a_12_居中"/>
+        <state frame="2" back="5次02" format="按钮标签_efb55a_12_居中"/>
+        <state frame="3" back="5次03" format="按钮标签_efb55a_12_居中"/>
+      </labelButton>
+      <labelButton name="okBtn2" width="95" height="37" x="357" y="415" label="寻宝20次">
+        <state frame="1" back="20次01" format="按钮标签_efb55a_12_居中"/>
+        <state frame="2" back="20次02" format="按钮标签_efb55a_12_居中"/>
+        <state frame="3" back="20次03" format="按钮标签_efb55a_12_居中"/>
+      </labelButton>
+      <labelButton name="payBtn" width="84" height="28" x="583" y="420" label="砸金蛋-充值">
+				<state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中"/>
+				<state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中"/>
+				<state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+<!--			<labelButton name="bagBtn" label="砸金蛋-宝物包" width="82" height="28" x="646" y="416">
+        <state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+        <state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+        <state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+      </labelButton>-->
+    </window> 
+    <window id="Bag" width="245" height="490">
+    	<!--<ref ref="WindowBack"/>-->
+			<!--<ref name="closeBtn" ref="CloseButton"/>-->
+			<!--<image bmp="宝物包标题" width="62" height="25" top="12" center="0"/>-->
+			<image bmp="knightFrame2" grid="30,47,29,49" width="230" height="395" x="6" y="49"/>
+			<labelButton name="getAllBtn" label="砸金蛋-全部入包" width="82" height="28" center="0" y="445">
+        <state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+        <state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+        <state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+      </labelButton>
+    </window>
+  </controls> 
+</xml>

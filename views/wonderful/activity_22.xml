@@ -1,0 +1,140 @@
+<xml desc="充值排行">
+	<depends>
+		<depend src="/public/controls/window/WindowBack.xml" />
+		<depend src="/public/controls/window/HelpButton.xml" />
+		<depend src="/public/controls/window/CloseButton.xml" />
+		<depend src="/public/publicFrames.xml" />
+		<depend src="/public/publicFormats.xml" />
+		<depend src="/public/publicNumimage.xml" />
+	</depends>
+	
+	
+	<texts>
+		<text id="排名倒计时activity22"><![CDATA[<p align="center"><font color='#fdd59a'>排名统计倒计时：</font></p>]]></text>
+		<text id="活动结束提示activity22"><![CDATA[<p align="center"><font color='#fdd59a'>活动已结束</font></p>]]></text>
+		<text id="领取activity22">领取</text>
+		<text id="不可领activity22">不可领</text>
+		
+		<text id="总价值activity22"><![CDATA[<p align="center"><font color='#36e314'>总价值$1钻石</font></p>]]></text>
+		<text id="我的充值标签activity22"><![CDATA[<font color='#fdd59a'>我的充值：</font>]]></text>
+		
+		<text id="myPayNumActivity22"><![CDATA[<p align="center"><font color='#2089ff'>$1</font></p>]]></text>
+		<text id="myRankNumActivity22"><![CDATA[<font color='#db7620'>我的排名：<font color='#db7620'>$1</font></font>]]></text>
+		<text id="最低充值Activity22"><![CDATA[<font color='#2089ff'>(最低充值五万钻石)</font>]]></text>
+	</texts>
+	
+	<bitmaps>
+		<bitmap id="奖励图标框" src="imgs01/奖励图标框.png"/>
+		
+		<bitmap id="精彩活动面版图2" src="imgs/精彩活动面版图2.jpg"/>
+		
+		<bitmap id="精彩活动面版2表格下方条" src="imgs/精彩活动面版2表格下方条.jpg"/>
+		
+		<bitmap id="未选择表格条" src="imgs/未选择表格条.png"/>
+		<bitmap id="选择表格条" src="imgs/选择表格条.png"/>
+		<bitmap id="虚位以待" src="imgs/虚位以待.png"/>
+		
+		<bitmap id="精彩活动前三名面版" src="imgs/精彩活动前三名面版.png"/>
+		<bitmap id="数字输入框" src="imgs/数字输入框.png"/>
+		
+		<bitmap id="rank_1" src="imgs/第4-10名.png"/>
+		<bitmap id="rank_2" src="imgs/第11-20名.png"/>
+		<bitmap id="rank_3" src="imgs/第21-50名.png"/>
+		
+		<bitmap id="eff1" src="imgs/1.png"/>	
+		<bitmap id="eff2" src="imgs/2.png"/>
+
+	</bitmaps>
+	
+	<controls>
+		<box id="activity_22" width="496" height="446">
+			<image name="背景" bmp="knightFrame2" left="0" top="0" right="0" bottom="0" grid="10,10,10,10" />
+			
+			<box name="upBox" width="486" height="104" center="0" top="4">
+				<image bmp="精彩活动面版图2" left="0" top="0" right="0" bottom="0"/>
+				<label name="timeCountDownLab" center="5" top="80" width="486" height="20" format="36e314_12" html="true" />
+			</box>
+			
+			<box name="topRankBox" center="0" top="108" width="491" height="148">
+				<image bmp="精彩活动前三名面版" left="0" top="0" right="0" bottom="0" />
+				<box name="rank1" left="81" top="3" />
+				<box name="rank2" left="81" top="52" />
+				<box name="rank3" left="81" top="102" />
+			</box>
+			
+			<box name="cellBox" width="486" height="153" center="0" top="256">
+				<label width="486" height="21" center="0" top="46" html="true" format="36e314_12_center" visible="false" />
+				<ref name="scroller" ref="Scroller" width="486" height="180" center="0" y="0"/>
+			</box>
+			
+			<box name="myPayBox" width="486" height="28" center="0" top="413">
+				<image bmp="精彩活动面版2表格下方条" left="0" top="0" right="0" bottom="0" />
+				<image bmp="数字输入框" width="98" height="25" left="132" middle="2" />
+				
+				<label name="我的充值标签" width="200" height="20" left="70" middle="2" html="true" text="我的充值标签activity22" format="36e314_12" />
+				<label name="myPayNum"  width="98" height="20" left="132" middle="2" html="true" text="myPayNumActivity22" format="36e314_12" />
+				
+				<label name="myRankNum" width="200" height="20" left="310" middle="2" html="true" text="myRankNumActivity22" format="36e314_12" />
+			</box>
+		</box>
+		
+		<box id="activity_22_cell" width="469" height="51">
+			<image bmp="未选择表格条" top="0" center="0" width="468" height="51" />
+			<image name="select" bmp="选择表格条" top="0" center="0" width="468" height="51" />
+			<image name="rankImg" bmp="rank_1" middle="0" left="2" width="76" height="20" />
+			<label name="totalPrice" left="320" middle="0" width="78" height="21" html="true" format="36e314_12_right" visible="false"/>
+			
+			<image name="item1Bg" bmp="奖励图标框" middle="0" left="90" width="42" height="42" />
+			<image name="item2Bg" bmp="奖励图标框" middle="0" left="137" width="42" height="42" />
+			<image name="item3Bg" bmp="奖励图标框" middle="0" left="184" width="42" height="42" />
+			<image name="item4Bg" bmp="奖励图标框" middle="0" left="231" width="42" height="42" />
+			<image name="item5Bg" bmp="奖励图标框" middle="0" left="278" width="42" height="42" />
+			
+			<achieveEntity name="item1" left="91" top="6"/>
+			<achieveEntity name="item2" left="138" top="6"/>
+			<achieveEntity name="item3" left="185" top="6"/>
+			<achieveEntity name="item4" left="232" top="6"/>
+			<achieveEntity name="item5" left="279" top="6"/>
+			
+			<labelButton name="领取" width="56" height="22" right="12" top="14" label="领取activity22">
+				<state frame="1" back="small_btn_1_1" format="ffbe57_12_居中"/>
+				<state frame="2" back="small_btn_1_2" format="ffbe57_12_居中"/>
+				<state frame="3" back="small_btn_1_3" format="ffbe57_12_居中"/>
+			</labelButton>
+		</box>
+		
+		<box id="TopRankCell" width="400" height="42">
+			<image name="item1Bg" bmp="奖励图标框" middle="0" left="0" width="42" height="42" />
+			<image name="item2Bg" bmp="奖励图标框" middle="0" left="43" width="42" height="42" />
+			<image name="item3Bg" bmp="奖励图标框" middle="0" left="86" width="42" height="42" />
+			<image name="item4Bg" bmp="奖励图标框" middle="0" left="129" width="42" height="42" />
+			<image name="item5Bg" bmp="奖励图标框" middle="0" left="176" width="42" height="42" />
+			
+			<achieveEntity name="item1" left="1" top="1"/>
+			<achieveEntity name="item2" left="44" top="1"/>
+			<achieveEntity name="item3" left="87" top="1"/>
+			<achieveEntity name="item4" left="130" top="1"/>
+			<achieveEntity name="item5" left="177" top="1"/>
+			
+			<image name="noFinished" bmp="虚位以待" left="300" middle="0" width="70" height="20" />
+			
+			<label name="totalPrice" left="171" middle="0" width="95" format="36e314_12" height="20" html="true" text="总价值activity22" visible="false"/>
+			
+			<label name="selfNameLab" left="270" middle="-6" width="124" format="36e314_12" height="20" visible="true" />
+			<label name="selfLvLab" left="270" middle="10" width="124" format="36e314_12" height="20" visible="true" />
+			
+			<label name="otherNameLab" left="270" middle="-6" width="124" format="f85d00_12_居中" height="20" visible="true" />
+			<label name="otherLvLab" left="270" middle="10" width="124" format="f85d00_12_居中" height="20" visible="true" />
+			
+			<label name="minPayNum" left="270" middle="10" width="124" format="f85d00_12_居中" text="最低充值Activity22" height="20" html="true" visible="true" />
+			
+			<labelButton name="领取" width="56" height="22" right="8" middle="0" label="领取activity22">
+				<state frame="1" back="small_btn_1_1" format="ffbe57_12_居中"/>
+				<state frame="2" back="small_btn_1_2" format="ffbe57_12_居中"/>
+				<state frame="3" back="small_btn_1_3" format="ffbe57_12_居中"/>
+			</labelButton>
+		</box>
+		
+	</controls>
+	
+</xml>

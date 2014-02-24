@@ -1,0 +1,22 @@
+<xml>
+	<bitmaps>
+    	<bitmap id="maohao" src="imgs/number/maohao.png"/>
+    	<bitmap id="colon9" src="imgs/number/colon9.png"/>
+		<bitmap id="num1" src="imgs/number/num1.png"/>
+		<bitmap id="num2" src="imgs/number/num2.png"/>
+		<bitmap id="num3" src="imgs/number/num3.png"/>
+		<bitmap id="num4" src="imgs/number/num4.png"/>
+    	<bitmap id="num5" src="imgs/number/num5.png"/>
+    	<bitmap id="num6" src="imgs/number/num6.png"/>
+    	<bitmap id="num7" src="imgs/number/num7.png"/>
+    	<bitmap id="num8" src="imgs/number/num8.png"/>
+		<bitmap id="num9" src="imgs/number/num9.png"/>
+		<bitmap id="num10" src="imgs/number/num10.png"/>
+		<bitmap id="num11" src="imgs/number/num11.png"/>
+		<bitmap id="num12" src="imgs/number/num12.png"/>
+		<bitmap id="num13" src="imgs/number/num13.png"/>
+		<bitmap id="num14" src="imgs/number/num14.png"/>
+
+
+	</bitmaps>
+</xml>

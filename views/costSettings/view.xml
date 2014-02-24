@@ -1,0 +1,59 @@
+<xml name="消费设置">
+  <depends>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+    <depend src="/public/controls/window/HelpButton.xml"/>
+    <depend src="/public/controls/window/CloseButton.xml"/>
+    <depend src="/public/controls/window/WindowBack.xml"/>
+    <depend src="/public/controls/scroller/Scroller.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+    <depend src="/public/publicTexts.xml"/>
+  </depends>
+  <bitmaps>
+    <bitmap id="title2" src="imgs/title2.png"/>
+    <bitmap id="scrollbg" src="imgs/scrollbg.png"/>
+    <bitmap id="transition" src="imgs/transition.png"/>
+  </bitmaps>
+  <texts>
+    <text id="all">全部勾选</text>
+    <text id="tip">勾选以下功能进行消费提示</text>
+    <text id="refreshSeed">药园元宝刷新种子</text>
+    <text id="clearCD">药园清除冷却时间</text>
+	<text id="save">保存</text>
+  </texts>
+  <controls>
+    <window id="main" width="394" height="382">
+      <ref ref="WindowBack"/>
+      <ref name="closeBtn" ref="CloseButton"/>
+      <image bmp="title2" width="151" height="27" top="12" center="0"/>
+      <image bmp="transition" width="420" height="20" top="80" left="15"/>
+      <label text="tip" format="宋体白色12" html="true" width="150" height="20" top="50" left="220"/>
+      <checkBox name="allBtn" label="all" width="90" height="25" top="50" left="20">
+        <state frame="1" back="SelectedButton3_1" format="宋体橙色12"/>
+        <state frame="2" back="SelectedButton3_1" format="宋体橙色12"/>
+        <state frame="3" back="SelectedButton3_1" format="宋体橙色12"/>
+        <state frame="4" back="SelectedButton3_1" format="宋体橙色12"/>
+        <state frame="5" back="SelectedButton3_2" format="宋体橙色12"/>
+        <state frame="6" back="SelectedButton3_2" format="宋体橙色12"/>
+        <state frame="7" back="SelectedButton3_2" format="宋体橙色12"/>
+        <state frame="8" back="SelectedButton3_2" format="宋体橙色12"/>
+      </checkBox>
+	  <ref name="scroller" ref="Scroller" width="360" height="220" left="17" y="95"/>
+	  <labelButton name="saveBtn" label="save" width="82" height="28" bottom="25" center="0">
+        <state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+        <state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+        <state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+      </labelButton>
+    </window>
+    <checkBox id="checkBox" label="refreshSeed" width="160" height="25" x="0" y="0">
+        <state frame="1" back="SelectedButton3_1" format="宋体橙色12"/>
+        <state frame="2" back="SelectedButton3_1" format="宋体橙色12"/>
+        <state frame="3" back="SelectedButton3_1" format="宋体橙色12"/>
+        <state frame="4" back="SelectedButton3_1" format="宋体橙色12"/>
+        <state frame="5" back="SelectedButton3_2" format="宋体橙色12"/>
+        <state frame="6" back="SelectedButton3_2" format="宋体橙色12"/>
+        <state frame="7" back="SelectedButton3_2" format="宋体橙色12"/>
+        <state frame="8" back="SelectedButton3_2" format="宋体橙色12"/>
+    </checkBox>
+  </controls>
+</xml>

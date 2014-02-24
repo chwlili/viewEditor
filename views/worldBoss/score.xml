@@ -1,0 +1,86 @@
+<xml desc="结果">
+	
+	<depends>
+	
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicIcons.xml"/>	
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFrames.xml"/>
+	</depends>
+	
+	<colors>		
+		
+	</colors>
+	
+	<bitmaps>
+		<bitmap id="失败文字" src="imgs/失败文字.png" />
+		<bitmap id="胜利文字" src="imgs/胜利文字.png" />
+		<bitmap id="离开按钮文字" src="imgs/离开按钮文字.png" />
+		<bitmap id="结算底板" src="imgs/结算底板.png" />
+		<bitmap id="分割用底图" src="imgs/分割用底图.png" />
+		
+	</bitmaps>
+	
+	<filters>
+	</filters>
+	
+	<formats>
+	</formats>
+	
+	<texts>
+		<text id="本次boss伤害"><![CDATA[本次BOSS战中你累计造成了<font color="#f76900">$1</font>点伤害,占总伤害的<font color="#f76900">$2%</font>]]></text>
+		<text id="累计获得"><![CDATA[累 计 获 得:<font color="#00ff00">$1</font>金币]]></text>
+		<text id="额外获得"><![CDATA[<font color="#FFff00">额外获得:$1]]></text>
+		
+		<text id="最后一击"><![CDATA[<font color="#EFB55A" face="宋体" size="12" bold="true">最后一击: </font><font color="#fb890e" face="宋体" size="14" bold="true"><b>$1</b></font>]]></text>
+		<text id="未能击杀"><![CDATA[<font color="#EFB55A" face="宋体" size="14" bold="true">虽众骑士奋力抗击,但很遗憾未能击杀...</font>]]></text>
+		<text id="伤害第一"><![CDATA[<font color="#EFB55A" face="宋体" size="12">伤害第一: </font><font color="#ffffff" face="宋体" size="14"><b>$1</b></font>]]></text>
+		<text id="伤害第二"><![CDATA[<font color="#EFB55A" face="宋体" size="12">伤害第二: </font><font color="#ffffff" face="宋体" size="14"><b>$1</b></font>]]></text>
+		<text id="伤害第三"><![CDATA[<font color="#EFB55A" face="宋体" size="12">伤害第三: </font><font color="#ffffff" face="宋体" size="14"><b>$1</b></font>]]></text>
+		<text id="总伤害排行"><![CDATA[<font color="#FA9600" face="宋体" size="12">本场战斗您的排名 </font><font color="#2FEB16" face="宋体" size="12">$1</font><font color="#FA9600" face="宋体" size="12">，获得了以下奖励</font>]]></text>
+		<text id="未击杀获得奖励提示"><![CDATA[<font color="#FA9600" face="宋体" size="12">本场战斗您获得了以下奖励</font>]]></text>
+		<text id="金币奖励">金币x$1</text>
+		<text id="战功奖励">战功x$1</text>
+		<text id="其他奖励">$1x$2</text>
+	</texts>
+	
+	<controls>
+		<confirm id="ResultWin" width="764" height="362">
+			<image name="resultBg" bmp="结算底板"  center="0" top="56" width="732" height="232" grid="0,12,0,12" />
+			
+			<image name="divisionBg" bmp="分割用底图"  center="0" top="222" width="680" height="44" scaleY="-1"/>
+			
+			<image name="faild" bmp="失败文字"  center="0" top="7" width="738" height="43" visible="false"/>
+			<image name="winning" bmp="胜利文字"  center="0" top="0" width="738" height="55"  visible="false"/>
+			<image bmp="centerback" width="488" height="280" top="48" center="0" grid="15,15,15,15" />
+			<box name="labels" center="0" top="0" width="440" height="362">
+				<label name="label1" left="0" top="77" width="440" height="20" html="true" format="ff8400_12" />
+				<label name="label2" left="0" top="103" width="440" height="20" html="true" format="ff8400_12" />
+				<label name="label3" left="0" top="127" width="440" height="20" html="true" format="ff8400_12" />
+				<label name="label4" left="0" top="153" width="440" height="20" html="true" format="ff8400_12" />
+			</box>
+			
+			<label name="notKill" center="0" top="130" width="440" height="20" html="true" format="ff7200_12_粗体"/>
+			<label name="label5" center="0" top="182" width="440" height="22" html="true" format="fde3ac_12居中"/>
+			<button name="leaveBtn" center="0" top="319" width="143" height="43">
+				<state frame="1" back="离开按钮1VS1_01"/>
+				<state frame="2" back="离开按钮1VS1_02"/>
+				<state frame="3" back="离开按钮1VS1_03"/>
+			</button>
+			<image bmp="离开按钮文字" center="0" top="325" width="81" height="33" />
+
+		</confirm>
+		
+		<box id="rewardBox" width="100" height="74">
+			<box name="imageBox"  width="48" height="49" top="0" center="0">
+				<image bmp="图标框" center="0" middle="0" width="48" height="49"/>
+				<image name="iconImg"  center="0" middle="0" width="48" height="49"/>
+				<achieveEntity name="item" center="0" middle="0"/>
+			</box>
+			
+			<label name="金币" center="0" top="53" width="110" height="20" format="队伍金色字体" text="金币奖励"/>
+			<label name="物品" center="0" top="53" width="110" height="20" format="b93ff8_12_center" text="其他奖励"/>
+		</box>
+	</controls>
+	
+</xml>

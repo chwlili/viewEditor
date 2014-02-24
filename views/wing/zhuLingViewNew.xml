@@ -1,0 +1,89 @@
+﻿<xml>
+	<depends>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicIcons.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicNumimage.xml"/>
+		<depend src="../wing/wingBitmap.xml"/>
+		<depend src="../wing/wingText.xml"/>
+		<depend src="../wing/wingFormat.xml"/>
+	</depends>
+	
+	<controls>
+		<window id="zhuLingNew" width="676" height="534">
+			<ref ref="WindowBack"/>
+			<ref name="closeBtn" ref="CloseButton"/>
+			<image bmp="圣天使之翼标题字" width="127" height="28" top="12" center="0"/>
+			
+			<box name="leftBox" width="340" height="383" left="10" top="50">
+				<image bmp="knightFrame2" grid="30,47,29,49" width="340" height="383"/>
+				<image bmp="注灵底板" width="332" height="365" center="0" middle="0"/>
+				<box name="翅膀名称" width="338" height="68" top="10">
+					<image bmp="圣天使之翼标题" width="299" height="30" center="0" top="0"/>
+					<image bmp="全服限量" width="142" height="38" center="0" bottom="0"/>
+				</box>
+				<box name="wingBox" width="338" height="241" top="78">
+					<image bmp="zhuLingBg" width="252" height="241" center="0" top="0"/>
+					<box name="roleBox" width="260" height="186" center="0" middle="0" />
+				</box>
+			</box>
+			
+			<box name="rightBox" width="318" height="383" right="10" top="50">
+				<image bmp="knightFrame2" grid="30,47,29,49" width="318" height="383"/>
+				
+				<box name="rightTopBox" width="318" height="52" top="20">
+					<image bmp="渐变框上" width="310" height="27" center="0" top="0"/>
+					<image bmp="渐变框中" width="310" height="2" center="0" top="27"/>
+					<image bmp="渐变框下" width="310" height="23" center="0" bottom="0"/>
+					<image bmp="霸道属性" width="126" height="21" center="0" top="-10"/>
+					<image bmp="能量上限" width="214" height="38" center="0" top="11"/>
+				</box>
+				
+				<box name="rightMiddleBox" width="318" height="89" top="89">
+					<image bmp="渐变框上" width="310" height="27" center="0" top="0"/>
+					<image bmp="渐变框中" width="310" height="39" center="0" top="27"/>
+					<image bmp="渐变框下" width="310" height="23" center="0" bottom="0"/>
+					<image bmp="永久获得" width="126" height="21" center="0" top="-10"/>
+					<label text="注灵称号描述" width="300" height="20" center="0" top="15" format="注灵称号字体"/>
+					<image bmp="圣翼使者" width="150" height="54" center="0" top="35"/>
+				</box>
+				
+				<box name="rightBottomBox" width="318" height="52" top="198">
+					<image bmp="渐变框上" width="310" height="27" center="0" top="0"/>
+					<image bmp="渐变框中" width="310" height="2" center="0" top="27"/>
+					<image bmp="渐变框下" width="310" height="23" center="0" bottom="0"/>
+					<image bmp="战力狂飙" width="126" height="21" center="0" top="-10"/>
+					<image bmp="战斗力" width="68" height="22" left="60" top="18"/>
+					<image bmp="加号" width="28" height="27" left="128" top="15"/>
+				</box>
+				
+				<box name="rightPropBox" width="318" height="100" top="270">
+					<image bmp="渐变框上" width="310" height="27" center="0" top="0"/>
+					<image bmp="渐变框中" width="310" height="50" center="0" top="27"/>
+					<image bmp="渐变框下" width="310" height="23" center="0" bottom="0"/>
+					<image bmp="翅膀属性" width="126" height="21" center="0" top="-10"/>
+				</box>
+			</box>
+			
+			<!--image bmp="costImg" width="72" height="20" left="200" bottom="90"/>
+			<image name="goldIcon" width="25" height="25" left="300" bottom="87.5"/>
+			<label text="消耗值" width="80" height="20" bottom="90" left="325" format="翅膀培养12"/>
+			<image bmp="分割线" grid="44,0,44,0" width="600" height="1" center="0" bottom="90"/-->
+			
+			<label text="注灵消耗" width="676" height="20" center="0" bottom="70" format="ffbe57_12_居中" html="true"/>
+			
+			<labelButton name="commitBtn" label="立刻抢购" width="84" height="28" center="0" bottom="35">
+				<state frame="1" back="付费类按钮01" format="ffbe57_12_居中"/>
+				<state frame="2" back="付费类按钮02" format="ffbe57_12_居中"/>
+				<state frame="3" back="付费类按钮03" format="ffbe57_12_居中"/>
+			</labelButton>
+			
+			<!--label text="注灵描述" width="614" height="20" bottom="10" center="0" format="ffbe57_12_居中" html="true"/-->
+		</window>
+		
+		<label id="propLabel" width="100" height="20" format="培养属性字体" html="true"/>
+	</controls>
+</xml>

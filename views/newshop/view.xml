@@ -1,0 +1,362 @@
+﻿<xml name="秘宝屋">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicIcons.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicTexts.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="大底图底" src="imgs/大底图.jpg" />
+		<bitmap id="大底图" src="imgs/大底图.png" />
+		<bitmap id="翻页数字框" src="imgs/翻页数字框.png" />	
+		<bitmap id="金钱框" src="imgs/金钱框.png" />
+		<bitmap id="金钱输入框" src="imgs/金钱输入框.png" />
+		<bitmap id="开关01" src="imgs/开关01.png" />
+		<bitmap id="开关02" src="imgs/开关02.png" />
+		<bitmap id="开关03" src="imgs/开关03.png" />
+
+		<bitmap id="勋章01-小" src="imgs/勋章01-小.png" />
+		<bitmap id="勋章02-小" src="imgs/勋章02-小.png" />
+		<bitmap id="勋章03-小" src="imgs/勋章03-小.png" />
+
+		<bitmap id="立即刷新按钮01" src="imgs/立即刷新按钮01.png" />
+		<bitmap id="立即刷新按钮02" src="imgs/立即刷新按钮02.png" />
+		<bitmap id="立即刷新按钮03" src="imgs/立即刷新按钮03.png" />
+		<bitmap id="秘宝屋" src="imgs/秘宝屋.png" />
+
+		<bitmap id="购买01" src="imgs/购买01.png" />		
+		<bitmap id="购买02" src="imgs/购买02.png" />
+		<bitmap id="购买03" src="imgs/购买03.png"/>
+		
+		<bitmap id="兑换01" src="imgs/购买01.png" />		
+		<bitmap id="兑换02" src="imgs/购买02.png" />
+		<bitmap id="兑换03" src="imgs/购买03.png"/>
+
+		<bitmap id="元宝购买按钮01" src="imgs/元宝购买按钮01.png"/>
+		<bitmap id="元宝购买按钮02" src="imgs/元宝购买按钮02.png" />
+		<bitmap id="元宝购买按钮03" src="imgs/元宝购买按钮03.png"/>
+
+		<bitmap id="普通商品框" src="imgs/普通商品框.png"/>
+
+		<bitmap id="骑士商店01" src="imgs/骑士商店01.png"/>
+		<bitmap id="骑士商店02" src="imgs/骑士商店02.png"/>
+		
+		<bitmap id="神秘商店01" src="imgs/神秘商店01.png"/>
+		<bitmap id="神秘商店02" src="imgs/神秘商店02.png"/>
+		<bitmap id="神秘商店03" src="imgs/神秘商店01.png"/>
+		
+		<bitmap id="勋章商店01" src="imgs/勋章商店01.png"/>
+		<bitmap id="勋章商店02" src="imgs/勋章商店02.png"/>
+
+		<bitmap id="时间输入框" src="imgs/时间输入框.png" />
+		<bitmap id="数量框" src="imgs/数量框.png"/>
+		<bitmap id="下方框" src="imgs/下方框.png"/>
+
+		<bitmap id="小上翻01" src="imgs/小上翻01.png" />
+		<bitmap id="小上翻02" src="imgs/小上翻02.png"/>
+		<bitmap id="小上翻03" src="imgs/小上翻03.png" />
+		<bitmap id="小下翻01" src="imgs/小下翻01.png"/>
+		<bitmap id="小下翻02" src="imgs/小下翻02.png" />
+		<bitmap id="小下翻03" src="imgs/小下翻03.png"/>
+
+		<bitmap id="右01" src="imgs/右01.png" />
+		<bitmap id="右02" src="imgs/右02.png"/>
+		<bitmap id="右03" src="imgs/右03.png" />
+		<bitmap id="左01" src="imgs/左01.png" />
+		<bitmap id="左02" src="imgs/左02.png"/>
+		<bitmap id="左03" src="imgs/左03.png" />
+
+		<!-- <bitmap id="元宝购买按钮01" src="imgs/元宝购买按钮01.png"/> -->
+		<!-- <bitmap id="元宝购买按钮02" src="imgs/元宝购买按钮02.png" /> -->
+		<!-- <bitmap id="元宝购买按钮03" src="imgs/元宝购买按钮03.png"/> -->
+		<bitmap id="元宝商品框" src="imgs/元宝商品框.png"/>
+
+
+		<bitmap id="蓝宝石图标_最小" src="imgs/蓝宝石图标_最小.png"/>
+		<bitmap id="金币图标_最小" src="imgs/金币图标_最小.png"/>
+		<bitmap id="下方框02" src="imgs/下方框02.png" />
+		<bitmap id="商城美女" src="imgs/商城美女.png"/>
+		<bitmap id="限量底板" src="imgs/限量底板.png"/>
+		
+		<!-- <bitmap id="合成光点底框" src="imgs/合成光点底框.png"/> -->
+		<!-- <bitmap id="图标框" src="imgs/图标框.png" />		 -->
+	</bitmaps>
+	<texts>
+		<text id="购买">购买</text>
+		<text id="当前拥有">当前拥有：</text>
+
+		<text id="立即刷新">立即刷新</text>
+
+		<text id="商店每">商店每</text>
+
+		<text id="个小时自动刷新一次">个小时自动刷新一次</text>
+
+		<text id="立即刷新消耗">立即刷新消耗  20</text>
+		<text id="花费钻石刷新商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>钻石刷新商品]]></text>
+		<text id="花费钻石购买商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>钻石购买此商品]]></text>
+		<text id="花费金币购买商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>金币购买此商品]]></text>
+		
+		<text id="花费勇气勋章兑换商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>勇气勋章兑换此商品]]></text>
+		<text id="花费荣誉勋章兑换商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>荣誉勋章兑换此商品]]></text>
+		<text id="花费王者勋章兑换商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>王者勋章兑换此商品]]></text>
+		<text id="花费勋章兑换商品"><![CDATA[您将花费<font color='#60ff4e'>$1</font>勋章兑换此商品]]></text>
+		
+		<text id="勋章获得提示1">参加世界BOSS、竞技场、巅峰对决、天神竞技可获得勋章。</text>
+		<text id="勇气勋章tip">勇气勋章：参加世界BOSS、竞技场、巅峰对决可获得</text>
+		<text id="荣誉勋章tip">荣誉勋章：世界BOSS伤害前10、巅峰对决获胜可获得</text>
+		<text id="王者勋章tip">王者勋章：世界BOSS【击退大礼包】、天神竞技白银以上可获得</text>
+		
+		<text id="限量Text"><![CDATA[<font color='#fff2b5'> 限量 </font><font color='#24ff00'>$1/$2</font>]]></text>
+	</texts>
+
+	<controls>
+		<window id="main" width="829" height="545">
+
+
+			<image bmp="大底图" left="0" top="0" width="829" height="545" />
+			<image bmp="大底图底" top="25" left="3" width="823" height="517" />
+ 			<button name="关闭" width="29" height="29" left="790" top="27">
+ 				<state frame="1" back="开关01"/>
+ 				<state frame="2" back="开关02"/>
+				<state frame="3" back="开关03"/>
+ 			</button>
+
+ 			<image bmp="秘宝屋" left="363" top="27" width="102" height="36" />
+ 			<image bmp="商城美女" left="-115" top="30" width="386" height="542" />
+			<!-- <image bmp="光环装备栏_锁定" left="145" top="122" width="65" height="65" />
+
+		
+			<image bmp="knightFrame2" grid="30,47,29,49" left="250" top="77" width="480" height="396" />
+			<image bmp="渐变底板01" grid="10,88,10,40" left="257" top="84" width="466" height="110" />
+			<image bmp="渐变底板01" grid="10,88,10,40" left="257" top="200" width="466" height="260" />
+
+
+			<image bmp="当前装备文字" left="30" top="73" width="79" height="26" />
+			<image bmp="初级文字" left="45" top="110" width="47" height="25" />
+			<image bmp="高级文字" left="140" top="110" width="47" height="25" />
+
+			<image bmp="knightFrame2" grid="30,47,29,49" left="330" top="112" width="315" height="60" />
+			<image bmp="框体右侧装饰01" left="311" top="111" width="30" height="60" />
+			<image bmp="框体左侧装饰01" left="633" top="111" width="30" height="60" />
+
+			<image bmp="光环图标底板01" left="353" top="118" width="48" height="48" />
+			<image bmp="光环图标底板01" left="408" top="118" width="48" height="48" />
+			<image bmp="光环图标底板01" left="463" top="118" width="48" height="48" />
+			<image bmp="光环图标底板01" left="518" top="118" width="48" height="48" />
+			<image bmp="光环图标底板01" left="573" top="118" width="48" height="48" />
+
+			<label text="装备一种" height="20" width="200" top="195" left="29" format="876b55_12_居中" />
+			<label text="装备光环" height="20" width="315" top="170" left="330" format="876b55_12_居中" /> -->
+<!-- 		<image name="bg1" bmp="光环图标底板02" left="350" top="115" width="54" height="54" />
+			<image name="bg2" bmp="光环图标底板02" left="405" top="115" width="54" height="54" />
+			<image name="bg3" bmp="光环图标底板02" left="460" top="115" width="54" height="54" />
+			<image name="bg4" bmp="光环图标底板02" left="515" top="115" width="54" height="54" />
+			<image name="bg5" bmp="光环图标底板02" left="570" top="115" width="54" height="54" /> -->
+			<box name="btnGroupBox" center="50" top="80" width="828" height="62">
+				<labelToggleButton name="骑士" width="192" height="62" center="-192" top="0">
+					<state frame="1" back="骑士商店01" />
+					<state frame="2" back="骑士商店02" />
+					<state frame="4" back="骑士商店01" />
+					<state frame="5" back="骑士商店02" />
+				</labelToggleButton>
+
+				<labelToggleButton name="神秘" width="192" height="62" center="0" top="0">
+					<state frame="1" back="神秘商店01" />
+					<state frame="2" back="神秘商店02" />
+					<state frame="4" back="神秘商店01" />
+					<state frame="5" back="神秘商店02" />
+				</labelToggleButton>
+				
+				<labelToggleButton name="勋章" width="192" height="62" center="192" top="0">
+					<state frame="1" back="勋章商店01" />
+					<state frame="2" back="勋章商店02" />
+					<state frame="4" back="勋章商店01" />
+					<state frame="5" back="勋章商店02" />
+				</labelToggleButton>
+			</box>
+
+			<box name="神秘商店列表" width="620" height="375" x="170" y="140">
+ 				<image bmp="下方框" left="0" top="300" width="620" height="71" />
+ 				<image bmp="时间输入框" left="240" top="327" width="78" height="20" />
+				<image bmp="蓝宝石图标_最小" left="490" top="337" width="25" height="25" />
+ 				<image bmp="金钱输入框" left="520" top="340" width="86" height="18" />
+ 				<image bmp="金币图标_最小" left="490" top="310" width="25" height="25" />
+ 				<image bmp="金钱输入框" left="520" top="313" width="86" height="18" />
+ 				<label text="当前拥有" height="18" width="80" top="312" left="410" format="商品计时字体" />
+ 				<label name="元宝" height="18" width="86" top="340" left="520" format="钻石文字字体" />
+ 				<label name="铜钱" height="18" width="86" top="313" left="520" format="商品价格字体" />
+<!--  				<labelButton name="立即刷新" width="78" height="25" top="340" left="200" label="立即刷新">
+					<state frame="1" back="立即刷新按钮01" format="ffbe57_12_居中"/>
+					<state frame="2" back="立即刷新按钮02" format="ffbe57_12_居中"/>
+					<state frame="3" back="立即刷新按钮03" format="ffbe57_12_居中"/>
+				</labelButton> -->
+				<!-- <image bmp="蓝宝石图标_最小" left="150" top="337" width="25" height="25" /> -->
+ 				<!-- <label text="立即刷新消耗" height="18" width="100" top="340" left="50" format="钻石文字字体" /> -->
+ 				<label name="刷新" height="18" width="180" top="326" left="55" format="商品计时字体" />
+ 				<label name="刷新时间" height="18" width="86" top="326" left="237" format="宋体绿色12居中" />
+
+			</box>
+
+			<box name="骑士商店列表" width="620" height="375" x="170" y="140">
+ 				<image bmp="下方框02" left="0" top="300" width="620" height="71" />
+ 				<image bmp="翻页数字框" left="270" top="315" width="78" height="18" />
+				<image bmp="蓝宝石图标_最小" left="490" top="342" width="25" height="25" />
+ 				<image bmp="金钱输入框" left="520" top="345" width="86" height="18" />
+ 				<button name="翻页左" width="24" height="22" left="239" top="313">
+ 					<state frame="1" back="翻页按钮左大01"/>
+ 					<state frame="2" back="翻页按钮左大02"/>
+					<state frame="3" back="翻页按钮左大03"/>
+ 				</button>
+ 				<button name="翻页右" width="24" height="22" left="354" top="313">
+ 					<state frame="1" back="翻页按钮右大01"/>
+ 					<state frame="2" back="翻页按钮右大02"/>
+					<state frame="3" back="翻页按钮右大03"/>
+ 				</button>
+ 				<label name="页" height="18" width="78" top="315" left="270" format="宋体白色12居中" />
+ 				<label text="当前拥有" height="18" width="80" top="344" left="410" format="商品计时字体" />
+ 				<label name="元宝" height="18" width="86" top="345" left="520" format="钻石文字字体" />
+			</box>
+			
+			<box name="勋章商店列表" width="620" height="375" x="170" y="140">
+ 				<image bmp="下方框02" left="0" top="290" width="620" height="85" />
+ 				<image bmp="翻页数字框" left="270" top="315" width="78" height="18" />
+ 				<button name="翻页左" width="24" height="22" left="239" top="313">
+ 					<state frame="1" back="翻页按钮左大01"/>
+ 					<state frame="2" back="翻页按钮左大02"/>
+					<state frame="3" back="翻页按钮左大03"/>
+ 				</button>
+ 				<button name="翻页右" width="24" height="22" left="354" top="313">
+ 					<state frame="1" back="翻页按钮右大01"/>
+ 					<state frame="2" back="翻页按钮右大02"/>
+					<state frame="3" back="翻页按钮右大03"/>
+ 				</button>
+ 				
+				<label name="页" height="18" width="78" top="315" left="270" format="宋体白色12居中" />
+ 				<label text="勋章获得提示1" height="18" width="400" top="344" center="0" format="商品计时字体" />
+ 				
+				
+				<box name="当前拥有勇气勋章" right="20" top="290" width="180" height="29">
+					<label text="当前拥有" left="0" middle="0"  width="80" height="18" format="商品计时字体" />
+					<image bmp="金钱输入框" left="100" middle="0" width="86" height="18" />
+					<label name="勋章" left="100" middle="0" width="86" height="18" format="钻石文字字体" />
+					<box name="icon" left="72" middle="0" width="29" height="29" >					
+						<image bmp="勋章01-小" left="0" top="0" right="0" bottom="0" />
+					</box>
+				</box>
+				
+				<box name="当前拥有荣誉勋章" right="20" top="318" width="180" height="29">
+					
+					<image bmp="金钱输入框" left="100" middle="0" width="86" height="18" />
+					<label name="勋章" left="100" middle="0" width="86" height="18" format="钻石文字字体" />
+					<box name="icon" left="72" middle="0" width="29" height="29">	
+						<image bmp="勋章02-小" left="0" top="0" right="0" bottom="0" />
+					</box>
+				</box>
+				
+				<box name="当前拥有王者勋章" right="20" top="345" width="180" height="29">
+					
+					<image bmp="金钱输入框" left="100" middle="0" width="86" height="18" />
+					<label name="勋章" left="100" middle="0" width="86" height="18" format="钻石文字字体" />
+					<box name="icon" left="72" middle="0" width="29" height="29">	
+						<image bmp="勋章03-小" left="0" top="0" right="0" bottom="0" />
+					</box>
+				</box>
+				
+			</box>
+
+		</window>
+
+		<box id="神秘商品框" width="209" height="93" left="0" top="0">
+ 			<image bmp="普通商品框" left="0" top="0" width="209" height="93" />
+ 			<image bmp="金钱框" left="112" top="36" width="80" height="18" />
+				<labelButton name="购买" width="72" height="27" top="60" left="110" >
+					<state frame="1" back="购买01" format="ffbe57_12_居中"/>
+					<state frame="2" back="购买02" format="ffbe57_12_居中"/>
+					<state frame="3" back="购买03" format="ffbe57_12_居中"/>
+				</labelButton>
+
+ 			<image name="钻石" bmp="蓝宝石图标_最小" left="84" top="32" width="25" height="25" />
+ 			<image name="金币" bmp="金币图标_最小" left="84" top="32" width="25" height="25" />
+
+			<achieveEntity name="item1" x="15" y="14" isBig="true"/>
+ 			<label name="商品名" height="30" width="118" top="7" left="80" format="商城14蓝色商品名" />
+ 			<label name="单价" height="18" width="80" top="36" left="112" format="商品价格字体" />
+ 			<label name="数量" height="18" width="40" top="53" left="46" format="宋体绿色12居中" />
+			<box name="限量Box" left="6" top="4" width="82" height="22" enabled="false" visible="false">
+				<image bmp="限量底板" left="0" top="0" right="0" bottom="0" />
+				<label name="限量label" left="0" top="2" width="82" height="20" format="宋体白色12" text="限量text" html="true" />
+			</box>
+		</box>
+		<box id="骑士商品框" width="209" height="93" left="0" top="0">
+ 			<image bmp="普通商品框" left="0" top="0" width="209" height="93" />
+ 			<image bmp="金钱框" left="112" top="36" width="80" height="18" />
+				<labelButton name="购买" width="72" height="27" top="60" left="125" >
+					<state frame="1" back="购买01" format="ffbe57_12_居中"/>
+					<state frame="2" back="购买02" format="ffbe57_12_居中"/>
+					<state frame="3" back="购买03" format="ffbe57_12_居中"/>
+				</labelButton>
+ 			<image bmp="数量框" left="81" top="58" width="44" height="26" />
+ 			<image bmp="蓝宝石图标_最小" left="84" top="32" width="25" height="25" />
+ 			<button name="加" width="12" height="9" left="111" top="60">
+ 				<state frame="1" back="小上翻01"/>
+ 				<state frame="2" back="小上翻02"/>
+				<state frame="3" back="小上翻03"/>
+ 			</button>
+ 			<button name="减" width="12" height="9" left="111" top="71">
+ 				<state frame="1" back="小下翻01"/>
+ 				<state frame="2" back="小下翻02"/>
+				<state frame="3" back="小下翻03"/>
+ 			</button>
+			<achieveEntity name="item1" x="15" y="14" isBig="true"/>
+ 			<label name="商品名" height="30" width="118" top="7" left="80" format="商城14蓝色商品名" />
+ 			<label name="单价" height="18" width="80" top="36" left="112" format="商品价格字体" />
+ 			<label name="数量" height="18" width="40" top="53" left="46" format="宋体绿色12居中" />
+			<box name="限量Box" left="6" top="4" width="82" height="22" enabled="false">
+				<image bmp="限量底板" left="0" top="0" right="0" bottom="0" />
+				<label name="限量label" left="0" top="2" width="82" height="20" format="宋体白色12" text="限量text" html="true" />
+			</box>
+		</box>
+		<box id="勋章商品框" width="209" height="93" left="0" top="0">
+ 			<image bmp="普通商品框" left="0" top="0" width="209" height="93" />
+ 			<image bmp="金钱框" left="112" top="36" width="80" height="18" />
+				<labelButton name="兑换" width="72" height="27" top="60" left="125" >
+					<state frame="1" back="兑换01" format="ffbe57_12_居中"/>
+					<state frame="2" back="兑换02" format="ffbe57_12_居中"/>
+					<state frame="3" back="兑换03" format="ffbe57_12_居中"/>
+				</labelButton>
+ 			<image bmp="数量框" left="81" top="58" width="44" height="26" />
+ 			<button name="加" width="12" height="9" left="111" top="60">
+ 				<state frame="1" back="小上翻01"/>
+ 				<state frame="2" back="小上翻02"/>
+				<state frame="3" back="小上翻03"/>
+ 			</button>
+ 			<button name="减" width="12" height="9" left="111" top="71">
+ 				<state frame="1" back="小下翻01"/>
+ 				<state frame="2" back="小下翻02"/>
+				<state frame="3" back="小下翻03"/>
+ 			</button>
+			<achieveEntity name="item1" x="15" y="14" isBig="true"/>
+ 			<label name="商品名" height="30" width="118" top="7" left="80" format="商城14蓝色商品名" />
+ 			<label name="单价" height="18" width="80" top="36" left="112" format="商品价格字体" />
+ 			<label name="数量" height="18" width="40" top="53" left="46" format="宋体绿色12居中" />
+			
+			<box name="王者勋章icon" left="84" top="32" width="29" height="29" >
+				<image bmp="勋章03-小" left="0" top="0" right="0" bottom="0" />
+			</box>
+			<box name="勇气勋章icon" left="84" top="32" width="29" height="29" >
+				<image bmp="勋章01-小" left="0" top="0" right="0" bottom="0" />
+			</box>
+			<box name="荣誉勋章icon" left="84" top="32" width="29" height="29" visible="false">
+				<image bmp="勋章02-小" left="0" top="0" right="0" bottom="0" />
+			</box>
+			
+			<box name="限量Box" left="6" top="4" width="82" height="22" enabled="false">
+				<image bmp="限量底板" left="0" top="0" right="0" bottom="0" />
+				<label name="限量label" left="0" top="2" width="82" height="20" format="宋体白色12" text="限量text" html="true" />
+			</box> 
+		</box>
+	</controls>	
+
+</xml>

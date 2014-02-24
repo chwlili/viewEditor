@@ -1,0 +1,18 @@
+﻿<xml> 
+	<depends>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+  <bitmaps> 
+    <bitmap id="右上角活动角标底板" src="imgs/cover/右上角活动角标底板.png"/>  
+    <bitmap id="任务完成金边" src="imgs/cover/gold.png"/>  
+    <bitmap id="上指键头" src="imgs/cover/上指键头.png" />
+		<bitmap id="主界面说明框体" src="imgs/cover/主界面说明框体.png" />
+  </bitmaps>
+  <controls>
+			<box id="Tip" width="160" height="46">
+				<image name="bg" bmp="主界面说明框体" grid="10,10,10,10" width="160" height="46" top="21"/>
+				<image bmp="上指键头" left="10" top="34" width="23" height="23"  scaleY="-1"/>
+				<label name="contentTf" center="0" top="30" width="140" autoHeight="true" format="ffe4b4_12" html="true" multiline="true" wordWrap="true" />
+			</box>
+	</controls>  
+</xml>

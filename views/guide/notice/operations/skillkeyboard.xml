@@ -1,0 +1,72 @@
+<xml>
+	<bitmaps>
+		<bitmap id="Key" src="按钮-小.png"/>
+
+		<bitmap id="A" src="A键.png"/>
+		<bitmap id="W" src="W键.png"/>
+		<bitmap id="S" src="S键.png"/>
+		<bitmap id="D" src="D键.png"/>
+
+		<bitmap id="U" src="U键.png"/>
+		<bitmap id="I" src="I键.png"/>
+		<bitmap id="O" src="O键.png"/>
+		<bitmap id="H" src="H键.png"/>
+		<bitmap id="J" src="J键.png"/>
+		<bitmap id="K" src="K键.png"/>
+		<bitmap id="L" src="L键.png"/>
+	</bitmaps>
+
+	<controls>
+		<box id="moveKeys" x="15" y="15">
+			<box x="0" y="25" width="25" height="25">
+				<bitmap bitmap="Key" width="25" height="25"/>
+				<bitmap bitmap="A"   width="11" height="13" x="7" y="4"/>
+			</box>
+			<box x="25" y="0" width="25" height="25">
+				<bitmap bitmap="Key" width="25" height="25"/>
+				<bitmap bitmap="W"   width="11" height="13" x="7" y="4"/>
+			</box>
+			<box x="25" y="25" width="25" height="25">
+				<bitmap bitmap="Key" width="25" height="25"/>
+				<bitmap bitmap="S"   width="11" height="13" x="7" y="4"/>
+			</box>
+			<box x="50" y="25" width="25" height="25">
+				<bitmap bitmap="Key" width="25" height="25"/>
+				<bitmap bitmap="D"   width="11" height="13" x="7" y="4"/>
+			</box>
+		</box>
+		
+		<box id="skillkeys" x="135" y="15">
+			<box name="ukey" x="0" y="0" width="25" height="25">
+				<bitmap bitmap="Key" width="25" height="25"/>
+				<bitmap bitmap="U"   width="11" height="13" x="7" y="4"/>
+			</box>
+			<box name="ikey" x="25" y="0" width="25" height="25">
+				<bitmap bitmap="Key" width="25" height="25"/>
+				<bitmap bitmap="I"   width="11" height="13" x="7" y="4"/>
+			</box>
+			<box name="okey" x="50" y="0" width="25" height="25">
+				<bitmap bitmap="Key" width="25" height="25"/>
+				<bitmap bitmap="O"   width="11" height="13" x="7" y="4"/>
+			</box>
+			
+			<box name="hkey" x="-25" y="25" width="25" height="25">
+				<bitmap bitmap="Key" width="25" height="25"/>
+				<bitmap bitmap="H"   width="11" height="13" x="7" y="4"/>
+			</box>
+			<box name="jkey" x="0" y="25" width="25" height="25">
+				<bitmap bitmap="Key" width="25" height="25"/>
+				<bitmap bitmap="J"   width="11" height="13" x="7" y="4"/>
+			</box>
+			<box name="kkey" x="25" y="25" width="25" height="25">
+				<bitmap bitmap="Key" width="25" height="25"/>
+				<bitmap bitmap="K"   width="11" height="13" x="7" y="4"/>
+			</box>
+			<box name="lkey" x="50" y="25" width="25" height="25">
+				<bitmap bitmap="Key" width="25" height="25"/>
+				<bitmap bitmap="L"   width="11" height="13" x="7" y="4"/>
+			</box>
+		</box>
+	</controls>
+
+</xml>

@@ -1,0 +1,49 @@
+<xml desc="yellow vip">
+	<depends>
+		<depend src="/public/publicFrames.xml" />
+		<depend src="/public/publicButtons.xml" />
+		<depend src="/public/publicFormats.xml" />
+		<depend src="/public/publicNumimage.xml" />
+		<depend src="/public/controls/window/CloseButton.xml" />
+		<depend src="/public/controls/window/WindowBack.xml" />
+	</depends>
+	<bitmaps>
+		<bitmap id="领取礼包" src="imgs/领取礼包.png" />
+		<bitmap id="内容框图" src="imgs/内容框图.jpg" />
+		<bitmap id="已领取灰色文字" src="imgs/已领取灰色文字.png"/>
+	</bitmaps>
+	<texts>
+		<text id="reward0"><![CDATA[<font color="#fff1cb">XXX超级道具</font>]]></text>
+		<text id="reward1"><![CDATA[<font color="#00ff12">XXX超级道具</font>]]></text>
+		<text id="reward2"><![CDATA[<font color="#f79f13">XXX超级道具</font>]]></text>
+	</texts>
+
+	<formats>
+
+	</formats>
+
+	<controls>
+		<box id="cell1" center="0" middle="0" width="605" height="316">
+			<image bmp="内容框图" width="605" height="316" center="0" middle="0" />
+
+			<box name="领取礼包BtnBox" left="255" top="200" width="104" height="42">
+				<button name="领取礼包" center="0" middle="0" width="104" height="42">
+					<state frame="1" back="大号按钮四字01" />
+					<state frame="2" back="大号按钮四字02" />
+					<state frame="3" back="大号按钮四字03" />
+				</button>
+				<image name="rewardImg" bmp="领取礼包" center="0" middle="0" width="77" height="22" enabled="false" />
+				<image name="rewardedImg" bmp="已领取灰色文字" center="0" middle="0" width="61" height="26" enabled="false" />
+			</box>
+
+			<achieveEntity name="reward0" left="175" top="94" count="1" id="100125" isBig="true" />
+			<achieveEntity name="reward1" left="275" top="94" count="1" id="100131" isBig="true" />
+			<achieveEntity name="reward2" left="375" top="94" count="1" id="43" isBig="true" />
+			
+			<label name="label0" left="160" top="172" width="87" height="20" text="reward0" format="e8ddcb_12_居中" html="true" />
+			<label name="label1" left="261" top="172" width="87" height="20" text="reward1" format="e8ddcb_12_居中" html="true" />
+			<label name="label2" left="361" top="172" width="87" height="20" text="reward2" format="e8ddcb_12_居中" html="true" />
+
+		</box>
+	</controls>
+</xml>

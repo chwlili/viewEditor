@@ -1,0 +1,95 @@
+<xml>
+  <bitmaps>
+  <bitmap id="WindowToggleButton1.bmp" src="/GameFiles/ui/Controls/WindowToggleButton1.png" />
+  <bitmap id="WindowToggleButton2.bmp" src="/GameFiles/ui/Controls/WindowToggleButton2.png" />
+  <bitmap id="frame1.bmp" src="/GameFiles/ui/frame1.png" />
+  <bitmap id="backHLine.bmp" src="/GameFiles/ui/backHLine.png" />
+  <bitmap id="questImage1.bmp" src="/GameFiles/ui/Quest/image1.png" />
+  <bitmap id="questImage2.bmp" src="/GameFiles/ui/Quest/image2.png" />
+  <bitmap id="questImage3.bmp" src="/GameFiles/ui/Quest/image3.png" />
+  <bitmap id="questTitle.bmp" src="/GameFiles/ui/Quest/questTitle.png" />
+  <bitmap id="BagWindowBack.bmp" src="/GameFiles/ui/backPanel1.png" />
+  <bitmap id="scrollbarTrack_1.bmp" src="/GameFiles/ui/Controls/ScrollBarTrack_1.png" />
+  <bitmap id="scrollBarDrag_1.bmp" src="/GameFiles/ui/Controls/ScrollBarDrag_1.png" />
+  <bitmap id="scrollBarUpArrow_1.bmp" src="/GameFiles/ui/Controls/ScrollBarUpArrow_1.png" />
+  <bitmap id="scrollBarDownArrow_1.bmp" src="/GameFiles/ui/Controls/ScrollBarDownArrow_1.png" />
+  <bitmap id="Button3_1.bmp" src="/GameFiles/ui/Controls/newButton2_1.png" />
+  <bitmap id="Button3_2.bmp" src="/GameFiles/ui/Controls/newButton2_1.png" />
+  <bitmap id="Button9_1.bmp" src="/GameFiles/ui/Controls/Button9_1.png" />
+  <bitmap id="Button9_2.bmp" src="/GameFiles/ui/Controls/Button9_2.png" />
+  <bitmap id="Button10_1.bmp" src="/GameFiles/ui/Controls/Button10_1.png" />
+  <bitmap id="Button10_2.bmp" src="/GameFiles/ui/Controls/Button10_2.png" />
+  <bitmap id="IntentBack.bmp" src="/GameFiles/ui/Quest/IntentBack.png" />
+  <bitmap id="TitleBack.bmp" src="/GameFiles/ui/Quest/TitleBack.png" />
+  <bitmap id="GoldIcon.bmp" src="/GameFiles/ui/BagWindow/GoldIcon.png" />
+  <bitmap id="CoinsIcon.bmp" src="/GameFiles/ui/UserState/Coins.png" />
+  <bitmap id="ExpIcon.bmp" src="/GameFiles/ui/icon/Exp.png" />
+  <bitmap id="nameBack.bmp" src="/GameFiles/ui/GuildMainHouse/nameBack.png" />
+  <bitmap id="closeButton_1.bmp" src="/GameFiles/ui/closeButton_1.png" />
+  <bitmap id="closeButton_2.bmp" src="/GameFiles/ui/closeButton_2.png" />
+  <bitmap id="windowBack.bmp" src="/GameFiles/ui/windowBack.png" />
+  <bitmap id="helpButton_1.bmp" src="/GameFiles/ui/helpButton_1.png" />
+  <bitmap id="helpButton_2.bmp" src="/GameFiles/ui/helpButton_2.png" />
+</bitmaps>
+<bitmapReaders>
+  <bitmapReader id="closeButton_1.br" bmp="closeButton_1.bmp" grid="0,0,0,0" />
+  <bitmapReader id="closeButton_2.br" bmp="closeButton_2.bmp" grid="0,0,0,0" />
+  <bitmapReader id="windowBack.br" bmp="windowBack.bmp" grid="50,50,50,50" />
+  <bitmapReader id="helpButton_1.br" bmp="helpButton_1.bmp" grid="0,0,0,0" />
+  <bitmapReader id="helpButton_2.br" bmp="helpButton_2.bmp" grid="0,0,0,0" />
+  <bitmapReader id="WindowToggleButton2.br" bmp="WindowToggleButton2.bmp" grid="0,0,0,0" />
+  <bitmapReader id="questTitle.br" bmp="questTitle.bmp" grid="0,0,0,0" />
+  <bitmapReader id="questImage1.br" bmp="questImage1.bmp" grid="0,0,0,0" />
+  <bitmapReader id="questImage2.br" bmp="questImage2.bmp" grid="0,0,0,0" />
+  <bitmapReader id="questImage3.br" bmp="questImage3.bmp" grid="0,0,0,0" />
+  <bitmapReader id="BagWindowBack.br" bmp="BagWindowBack.bmp" grid="40,40,40,40" />
+  <bitmapReader id="scrollbarTrack_1.br" bmp="scrollbarTrack_1.bmp" grid="2,2,2,2" />
+  <bitmapReader id="scrollBarDrag_1.br" bmp="scrollBarDrag_1.bmp" grid="2,2,2,2" />
+  <bitmapReader id="scrollBarUpArrow_1.br" bmp="scrollBarUpArrow_1.bmp" grid="2,2,2,2" />
+  <bitmapReader id="scrollBarDownArrow_1.br" bmp="scrollBarDownArrow_1.bmp" grid="2,2,2,2" />
+  <bitmapReader id="backHLine.br" bmp="backHLine.bmp" grid="200,0,200,0" />
+  <bitmapReader id="Button3_1.br" bmp="Button3_1.bmp" grid="6,0,6,0" />
+  <bitmapReader id="Button3_2.br" bmp="Button3_2.bmp" grid="6,0,6,0" />
+  <bitmapReader id="Button10_1.br" bmp="Button10_1.bmp" grid="6,0,6,0" />
+  <bitmapReader id="Button10_2.br" bmp="Button10_2.bmp" grid="6,0,6,0" />
+  <bitmapReader id="nameBack.br" bmp="nameBack.bmp" grid="0,0,0,0" />
+  <bitmapReader id="GoldIcon.br" bmp="GoldIcon.bmp" grid="0,0,0,0" />
+  <bitmapReader id="CoinsIcon.br" bmp="CoinsIcon.bmp" grid="0,0,0,0" />
+  <bitmapReader id="ExpIcon.br" bmp="ExpIcon.bmp" grid="0,0,0,0" />
+  <bitmapReader id="TitleBack.br" bmp="TitleBack.bmp" grid="8,8,8,8" />
+</bitmapReaders>
+    <formats>
+  <format id="st0xffffff12_align_center" font="宋体" size="12" color="0xffffff" align="center"/>
+  <format id="st0x2d030312粗体" font="宋体" size="12" color="0x2d0303" bold="true"/>
+  <format id="st0xffffff12" font="宋体" size="12" color="0xffffff" filter="0x000000_blurX_2_blurY_2_strength_10"/>
+  <format id="st0xa0a0a012" font="宋体" size="12" color="0xa0a0a0"/>
+  <format id="st0xffffff12_align_left" font="宋体" size="12" color="0xffffff" align="left"/>
+  <format id="st0xffffff12粗体_align_center" font="宋体" size="12" color="0xffffff" bold="true" align="center"/>
+  <format id="st0xffe16812_indent_24_leading_2" font="宋体" size="12" color="0xffe168" indent="24" leading="2"/>
+  <format id="st0xffffff14" font="宋体" size="14" color="0xffffff" filter="0x000000_blurX_2_blurY_2_strength_10"/>
+</formats>
+<filters>
+  <filter id="0x000000_blurX_2_blurY_2_strength_10">
+    <glow color="0x000000" alpha="1" blurX="2" blurY="2" strength="10" quality="1" />
+  </filter>
+</filters>
+<texts>
+  <text id="skin.intentCellSkin.label1Skin.label.text"><![CDATA[任务需求:]]></text>
+  <text id="skin.intentCellSkin.buttonSkin.label.text"><![CDATA[领奖]]></text>
+  <text id="skin.intentCellSkin.label2Skin.label.text"><![CDATA[任务奖励:]]></text>
+  <text id="skin.noQuestLabelSkin.label.text"><![CDATA[暂无目标任务]]></text>
+  <text id="skin.dailyButtonSkin.label.text"><![CDATA[查 看]]></text>
+  <text id="skin.dailyContentSkin.buttonSkin1.label.text"><![CDATA[前 往]]></text>
+  <text id="skin.dailyContentSkin.buttonSkin2.label.text"><![CDATA[前 往]]></text>
+  <text id="skin.chainCellSkin.label3Skin.label.text"><![CDATA[奖励;]]></text>
+  <text id="skin.chainCellSkin.label1Skin.label.text"><![CDATA[描述:]]></text>
+  <text id="skin.chainCellSkin.label2Skin.label.text"><![CDATA[目标:]]></text>
+  <text id="skin.chainCellSkin.buttonSkin2.label.text"><![CDATA[前 往]]></text>
+  <text id="skin.chainCellSkin.buttonSkin1.label.text"><![CDATA[前 往]]></text>
+  <text id="skin.descSkin.label.text"><![CDATA[每天完成日常任务可获得大量奖励,完成精英日常任务时更有机会免费摇取惊喜大奖.]]></text>
+  <text id="skin.questWindowQuestButtonSkin.label.text"><![CDATA[ ]]></text>
+
+  <text id="bindList">skin</text>
+
+</texts>   
+</xml>

@@ -1,0 +1,104 @@
+<xml>
+	<bitmaps>
+		<bitmap id="已领取对钩" src="imgs/icons/rewarded.png"/>
+		
+		<bitmap id="Coins" src="imgs/icons/Coins.png"/><!--1912-->
+		<bitmap id="Coins2" src="imgs/icons/Coins2.png"/><!--1818-->
+		<bitmap id="prestige" src="imgs/icons/prestige.png"/><!--1717-->
+		<bitmap id="alliancePrestige" src="imgs/icons/alliancePrestige.png"/><!--1717-->
+		<bitmap id="allianceContribution" src="imgs/icons/allianceContribution.png"/><!--1717-->
+		
+		
+		
+		<bitmap id="Star" src="imgs/icons/Star.png"/><!--1717-->
+		<bitmap id="Gold" src="imgs/icons/Gold.png"/><!--1912-->
+
+		<bitmap id="zhenwulin" src="imgs/icons/zhenwulin.png"/><!--1417-->
+		
+		<bitmap id="first" src="imgs/icons/first.png"/><!--3434-->
+		<bitmap id="second" src="imgs/icons/second.png"/><!--3434-->
+		<bitmap id="third" src="imgs/icons/third.png"/><!--3434-->
+		
+		<bitmap id="Wood" src="imgs/icons/Wood.png"/><!--1818-->
+		<bitmap id="Stone" src="imgs/icons/Stone.png"/><!--1818-->
+		
+		<bitmap id="alliancebuff" src="imgs/icons/alliancebuff.png"/><!--2020-->
+		<bitmap id="skillbuff" src="imgs/icons/skillbuff.png"/><!--2020-->
+		<bitmap id="smithbuff" src="imgs/icons/smithbuff.png"/><!--2020-->
+		<bitmap id="starbuff" src="imgs/icons/starbuff.png"/><!--2020-->
+		
+		<bitmap id="八折角标" src="imgs/icons/yellow8.png"/><!--4444-->
+		<bitmap id="3238锁" src="imgs/icons/lock.jpg"/><!--3238-->
+		
+		<bitmap id="copper3737" src="imgs/icons/copper3737.png"/><!--3737-->
+		<bitmap id="gold3737" src="imgs/icons/gold3737.png"/><!--3737-->
+		<bitmap id="prestige3737" src="imgs/icons/prestige3737.png"/><!--3737-->
+		
+		<bitmap id="copper3730" src="imgs/icons/copper3730.png"/><!--3730-->
+		<bitmap id="gold4530" src="imgs/icons/gold4530.png"/><!--4530-->
+		<bitmap id="prestige4141" src="imgs/icons/prestige4141.png"/><!--4141-->
+
+		<bitmap id="qpoint" src="imgs/icons/qpoint.png"/><!--1818-->
+		<bitmap id="yellowD" src="imgs/icons/yellowD.png"/><!--2318-->		
+		
+
+		<bitmap id="role1" src="imgs/icons/role1.png"/>
+		<bitmap id="role2" src="imgs/icons/role2.png"/>
+		<bitmap id="role3" src="imgs/icons/role3.png"/>
+		<bitmap id="role4" src="imgs/icons/role4.png"/>
+		<bitmap id="role5" src="imgs/icons/role5.png"/>
+		<bitmap id="role6" src="imgs/icons/role6.png"/>
+		<bitmap id="role7" src="imgs/icons/role7.png"/>
+		<bitmap id="role8" src="imgs/icons/role8.png"/>
+		<bitmap id="role9" src="imgs/icons/role9.png"/>
+		<bitmap id="role10" src="imgs/icons/role10.png"/>
+		<bitmap id="role11" src="imgs/icons/role11.png"/>
+		<bitmap id="role12" src="imgs/icons/role12.png"/>
+		<bitmap id="role13" src="imgs/icons/role13.png"/>
+		<bitmap id="role14" src="imgs/icons/role14.png"/>
+		<bitmap id="role15" src="imgs/icons/role15.png"/>
+		<bitmap id="role16" src="imgs/icons/role16.png"/>
+		<bitmap id="role17" src="imgs/icons/role17.png"/>
+		<bitmap id="role18" src="imgs/icons/role18.png"/>
+		<!-- <bitmap id="role19" src="imgs/icons/role19.png"/>-->
+		<bitmap id="role20" src="imgs/icons/role20.png"/>
+		<bitmap id="role21" src="imgs/icons/role21.png"/>
+		<bitmap id="role22" src="imgs/icons/role22.png"/>
+		<bitmap id="role23" src="imgs/icons/role23.png"/>
+		<bitmap id="role24" src="imgs/icons/role24.png"/>
+		<bitmap id="role25" src="imgs/icons/role25.png"/>
+
+		<bitmap id="arrow1" src="imgs/icons/arrow1.png"/><!--4135-->
+		<bitmap id="arrow2" src="imgs/icons/arrow2.png"/><!--3541-->
+		
+		<!--         新加在下方 上方将在将来清理掉             -->
+		
+		<bitmap id="knightsGold_1" src="imgs/icons/金币图标_大.png"/>
+		<bitmap id="knightsGold_2" src="imgs/icons/金币图标_小.png"/>
+		<bitmap id="knightsGold_3" src="imgs/icons/金币图标_最小.png"/>
+		
+		<bitmap id="knightsFeat_1" src="imgs/icons/功勋值图标_大.png"/>
+		<bitmap id="knightsFeat_2" src="imgs/icons/功勋值图标_小.png"/>
+		<bitmap id="knightsFeat_3" src="imgs/icons/战功图标_最小.png"/>
+		
+		<bitmap id="knightsExp_1" src="imgs/icons/经验值图标_大.png"/>
+		<bitmap id="knightsExp_2" src="imgs/icons/经验值图标_小.png"/>
+		
+		<bitmap id="knightsBlueGem_1" src="imgs/icons/蓝宝石图标_最小.png"/>
+		<bitmap id="knightsBlueGem_2" src="imgs/icons/gem1.png"/><!--3030-->
+		<bitmap id="knightsBlueGem_3" src="imgs/icons/蓝宝石大图标1.jpg"/><!--6060-->
+
+		<bitmap id="体力60" src="imgs/icons/体力60.png"/><!--6060-->
+		
+		<bitmap id="青铜宝箱" src="imgs/icons/青铜宝箱.png" />
+		<bitmap id="白银宝箱" src="imgs/icons/白银宝箱.png" />
+		<bitmap id="黄金宝箱" src="imgs/icons/黄金宝箱.png" />
+		
+		<bitmap id="青铜神灯" src="imgs/icons/青铜神灯.png" />
+		<bitmap id="白银神灯" src="imgs/icons/白银神灯.png" />
+		<bitmap id="黄金神灯" src="imgs/icons/黄金神灯.png" />
+		
+		<!-- 16 20  -->
+		<bitmap id="橧色碎片" src="imgs/icons/橧色碎片.png"/>
+	</bitmaps>
+</xml>

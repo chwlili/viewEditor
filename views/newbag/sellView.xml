@@ -1,0 +1,83 @@
+<xml>
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+	    <depend src="/public/publicButtons.xml"/>
+  		<depend src="/public/controls/scroller/Scroller.xml"/>
+	    <depend src="/public/controls/window/CloseButton.xml"/>
+	    <depend src="/public/controls/window/WindowBack.xml"/>
+
+	    <depend src="/public/publicFormats.xml"/>
+	    <depend src="/public/publicTexts.xml"/>
+	    <depend src="/public/publicIcons.xml"/>
+	</depends>
+
+  <bitmaps>
+  		<bitmap id="出售01.bmp" src="imgs/1号按钮01.png"/>
+		<bitmap id="出售02.bmp" src="imgs/1号按钮02.png"/>
+		<bitmap id="出售03.bmp" src="imgs/1号按钮03.png"/>
+		<bitmap id="底框格段条" src="imgs/底框格段条.png"/>
+		<bitmap id="物品框" src="imgs/物品框.png"/>
+		<bitmap id="金币图标" src="imgs/金币图标_最小_新.png"/>
+		<bitmap id="出售.bmp" src="imgs/出售.png"/>
+			
+  </bitmaps>
+  <texts>
+  	<text id="售价">售价：</text>
+   	<text id="出售">出   售</text>
+    <text id="取消出售">取   消</text>
+    <text id="出售总价">当前出售总价：</text>
+  </texts>
+  <texts>
+
+  </texts>
+
+    <controls>
+
+    	<window id="main" width="325" height="490" >	
+			<ref ref="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+			<image bmp="出售.bmp" left="123" top="8" width="79" height="31" />
+			<image bmp="knightFrame2" grid="30,47,29,49" left="14" top="50" right="14" bottom="15" />
+			<image bmp="knightFrame2" grid="30,47,29,49" left="14" top="50" right="14" bottom="15" alpha="0.6"/>
+			<image bmp="底框格段条.bmp" left="18" top="400" width="350" height="1" />
+			<image bmp="背包.bmp" left="145" top="10" width="77" height="27" />
+				<labelButton name="出售" x="65" y="437" width="82" height="28" label="出售">
+					<state frame="1" back="出售01.bmp" format="ffbe57_12_居中"/>
+					<state frame="2" back="出售02.bmp" format="ffbe57_12_居中"/>
+					<state frame="3" back="出售03.bmp" format="ffbe57_12_居中"/>
+				</labelButton>
+				<labelButton name="取消" x="177" y="437" width="82" height="28" label="取消出售">
+					<state frame="1" back="出售01.bmp" format="ffbe57_12_居中"/>
+					<state frame="2" back="出售02.bmp" format="ffbe57_12_居中"/>
+					<state frame="3" back="出售03.bmp" format="ffbe57_12_居中"/>
+				</labelButton>
+
+      		<ref name="scroller" ref="Scroller" width="290" height="342" left="15" y="54"/>
+      		<image bmp="底框格段条" left="17" top="400" width="290" height="1" />
+      		<image bmp="底框格段条" left="17" top="430" width="290" height="1" />
+
+      		<label text="出售总价" x="55" y="406" width="100" height="20" format="a03506_12" />
+      		<image name="icon" bmp="金币图标" left="140" top="402"  width="25" height="25"/>
+			<label name="总价" x="165" y="406" width="100" height="20" format="金色字体_left" />
+		</window>
+
+
+		<box id="sellCell" width="100" height="50">
+
+			<image name="borad" bmp="物品框" left="4" top="4"  width="42" height="42"/>
+			<achieveEntity name="item1" left="5" top="5"/>
+			<image name="icon" bmp="金币图标" left="50" top="5"  width="25" height="25"/>
+			<label name="物品价格" x="75" y="10" width="60" height="20" format="红色边框" />
+			<label name="物品名称" x="50" y="30" width="80" height="20" format="名字" />
+		</box>
+
+
+
+    </controls>
+
+
+
+
+
+
+</xml>

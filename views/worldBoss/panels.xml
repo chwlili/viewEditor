@@ -1,0 +1,102 @@
+<xml >
+
+	<depends>
+
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicIcons.xml"/>	
+		<depend src="/public/publicButtons.xml"/>	
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/controls/window/HeadBar.xml"/>
+		<depend src="/public/controls/window/BodyBack.xml"/>
+		<depend src="/public/controls/scroller/Scroller.xml"/>
+	</depends>
+
+	<colors>		
+
+	</colors>
+
+	<bitmaps>
+		<bitmap id="icon_arrow" src="imgs/icon_arrow.png"/>
+		<bitmap id="rank_num_1" src="imgs/排名1.png"/>
+		<bitmap id="rank_num_2" src="imgs/排名2.png"/>
+		<bitmap id="rank_num_3" src="imgs/排名3.png"/>
+		
+		<bitmap id="分割用底图" src="imgs/分割用底图.png"/>
+		
+		<bitmap id="伤害排行底板" src="imgs/伤害排行底板.png"/>
+		<bitmap id="排名底板" src="imgs/排名底板.png"/>
+		<bitmap id="排名分割线" src="imgs/伤害排行分割线.png"/>
+		<bitmap id="伤害排行表头" src="imgs/伤害排行表头.png"/>
+	</bitmaps>
+
+	<filters>
+	</filters>
+
+	<formats>
+
+	</formats>
+
+	<texts>
+		<text id="我的伤害">
+			<![CDATA[<p align="center"><font color="#fa9600" face="宋体" size="14">我的伤害量:</font><font color="#2feb16" face="宋体" size="14"> $1 </font><font color="#ffffff" face="宋体" size="14"> ($2%) </font></p>]]></text>
+		<text id="玩家名">玩家名</text>
+		<text id="伤害量">伤害量</text>
+		<text id="占比">占比</text>
+		<text id="自己标签颜色">0x2feb16</text>
+		<text id="他人标签颜色">0xffffff</text>
+	</texts>
+
+	<controls>
+		<box id="前十列表" width="280" height="312" top="100" right="2">
+			<image name="bg" bmp="伤害排行底板" left="0" top="0" width="280" height="312" grid="5,0,5,0"/>
+			<image bmp="伤害排行表头" left="0" top="0" width="280" height="29"/>
+			<image bmp="分割用底图"  left="0" top="312" width="280" height="44" scaleY="-1"/>
+			
+			<label name="title0" left="5" top="7" width="120" height="20" text="玩家名" format="e8dcbd_14_居中"/>
+			<label name="title1" left="150" top="7" width="50" height="20" text="伤害量" format="e8dcbd_14_居中"/>
+			<label name="title2" left="220" top="7" width="50" height="20" text="占比" format="e8dcbd_14_居中"/>
+			
+			<box name = "rank_0" left="0" top="29" width="280" height="30">
+				<image bmp="排名底板" left="0" top="0" width="280" height="27" grid="2,0,2,0"/>
+				<image bmp="排名分割线" left="0" top="27" width="280" height="2"/>
+				
+				<label name="label2" left="30" top="7" width="115" height="20" format="e98e19_14_left"/>
+				<label name="label3" left="145" top="7" width="73" height="20" format="e98e19_14_left"/>
+				<label name="label4" left="222" top="7" width="48" height="20" format="e98e19_14_right"/>
+			</box>
+			<box name = "rank_1" left="0" top="59" width="280" height="30">
+				<image bmp="排名底板" left="0" top="0" width="280" height="27" grid="2,0,2,0"/>
+				<image bmp="排名分割线" left="0" top="27" width="280" height="2"/>
+				
+				<label name="label2" left="30" top="7" width="115" height="20" format="b93ff8_14"/>
+				<label name="label3" left="145" top="7" width="73" height="20" format="b93ff8_14"/>
+				<label name="label4" left="222" top="7" width="48" height="20" format="b93ff8_14_right"/>
+			</box>
+			<box name = "rank_2" left="0" top="89" width="280" height="30">
+				<image bmp="排名底板" left="0" top="0" width="280" height="27" grid="2,0,2,0"/>
+				<image bmp="排名分割线" left="0" top="27" width="280" height="2"/>
+				
+				<label name="label2" left="30" top="7" width="115" height="20" format="2089ff_左对齐"/>
+				<label name="label3" left="145" top="7" width="73" height="20" format="2089ff_左对齐"/>
+				<label name="label4" left="222" top="7" width="48" height="20" format="2089ff_右对齐"/>
+			</box>
+			
+			<image bmp="rank_num_1"  left="12" top="33" width="14" height="24"/>
+			<image bmp="rank_num_2"  left="9" top="64" width="17" height="21"/>
+			<image bmp="rank_num_3"  left="9" top="94" width="16" height="21"/>
+
+			<box name="列表容器" top="120"/>
+			<label name="我的分数" left="0" top="281" width="280" height="20" html="true"/>
+			
+		</box>
+		
+		<box id="topTenCell" width="280" height="20" >
+			<label name="label1" left="9" top="1" width="18" height="18" format="宋体白色12居中间距4"/>
+			<label name="label2" left="30" top="1" width="115" height="18" format="宋体白色12"/>
+			<label name="label3" left="145" top="1" width="73" height="18" format="宋体白色12"/>
+			<label name="label4" left="222" top="1" width="48" height="18" format="宋体白色12_right"/>
+		</box>
+
+	</controls>
+</xml>

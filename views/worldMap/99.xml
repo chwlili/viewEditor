@@ -1,0 +1,46 @@
+<xml name="加载大地图">
+  <depends>
+    <depend src="/worldMap/baseImage.xml"/>
+  </depends>
+
+  <controls>
+    <box id="map" left="0" right="0" top="0" bottom="0" middle="0">
+      <image bmp="blackPoint" left="0" right="0" top="0" bottom="0" />
+      <box name="map" width="1400" height="600" left="0" top="0" >
+          <image bmp="大地图底图第一页" width="1400" height="600" left="0" middle="0"/>
+          <box name="bluered" width="1400" height="600" left="0" middle="0">
+            <image name="蓝" />
+            <image name="红" />
+          </box>
+          <box name="regionTitles" width="1400" height="600" left="0" top="0">
+            <image name="pos0" bmp="region_0" width="198" height="77" top="350" left="15"/>
+            <image name="pos1" bmp="region_1" width="216" height="91" top="116" left="154"/>
+            <image name="pos2" bmp="region_2" width="216" height="91" top="430" left="290"/>
+          </box>
+    	  <box name="blueTitles" width="1400" height="600" left="0" top="0">
+            <image name="pos0" bmp="region_0" width="198" height="77" top="350" left="15"/>
+            <image name="pos1" bmp="region_1_1" width="216" height="91" top="116" left="154"/>
+            <image name="pos2" bmp="region_2_1" width="216" height="91" top="430" left="290"/>
+          </box>
+          <box name="regions" width="1400" height="600" left="0" top="0">
+            <image name="region0" bmp="mask1" width="312" height="430" left="0" top="170"/>
+            <image name="region1" bmp="mask2" width="493" height="349" left="0" top="0"/>
+            <image name="region2" bmp="mask3" width="539" height="347" left="186" top="233"/>
+            <image name="region3" bmp="mask4" width="491" height="387" left="302" top="0"/>
+            <image name="region4" bmp="mask5" width="483" height="318" left="544" top="282"/>
+            <image name="region5" bmp="mask6" width="520" height="452" left="598" top="0"/>
+            <image name="region6" bmp="mask7" width="564" height="343" left="836" top="257"/>
+            <image name="region7" bmp="mask8" width="455" height="362" left="945" top="0"/>
+          </box>
+      </box>
+      <image bmp="地图边框阴影" grid="50,50,50,50" left="0" right="0" top="0" bottom="0" />
+      <image bmp="bg2" left="0" right="0" top="0" bottom="0" grid="150,150,150,150" />
+      <image bmp="title" width="438" height="55" center="0" top="0"/>
+      <button name="关闭按钮" width="80" height="38" right="5" top="5">
+        <state frame="1" back="关闭按钮001"/>
+        <state frame="2" back="关闭按钮002"/>
+        <state frame="3" back="关闭按钮003"/>
+      </button>
+    </box>
+  </controls>
+</xml>

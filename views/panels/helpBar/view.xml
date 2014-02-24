@@ -1,0 +1,49 @@
+<viewBag>
+
+	<depends>
+		<depend src="/panels/helpBar/imgs.xml" />
+	</depends>
+	
+	<filters>
+		<filter id="黑色边框">
+			<glow color="0x000000" alpha="1" blurX="2" blurY="2" strength="10"/>
+		</filter>
+	</filters>
+	
+	<formats>
+		<format id="宋体黄色12居中" font="宋体" size="12" color="0xead83c" align="center" filter="黑色边框"/>
+		<format id="宋体绿色12居中" font="宋体" size="12" color="0xaae61a" align="center" filter="黑色边框"/>
+	</formats>
+	
+	<controls>
+		
+		<box id="背景" width="136" height="588" left="-136">
+			<image bmp="背景.bmp" width="136" height="588"/>
+		</box>
+		
+		<box id="面板" width="90" height="400" x="-95" y="180">
+			<image bmp="底板.bmp" grid="10,10,10,10" left="0" right="0" top="0" bottom="0"/>
+			<box id="容器" left="5" top="5" right="5" bottom="5">
+				<labelButton name="按钮" width="81" height="25">
+					<state frame="1" back="父按钮.bmp"/>
+				</labelButton>
+			</box>
+		</box>
+		
+		<button id="切换按钮" width="13" height="36" left="0" middle="0">
+			<state frame="1" back="缩进按钮.bmp"/>
+		</button>
+		
+		<labelButton id="组按钮" width="81" height="25">
+			<state frame="1" back="父按钮.bmp" format="宋体黄色12居中"/>
+			<state frame="2" back="父按钮.bmp" format="宋体黄色12居中"/>
+		</labelButton>
+		
+		<labelButton id="子按钮" width="71" height="18">
+			<state frame="1" back="子按钮.bmp" format="宋体绿色12居中"/>
+			<state frame="2" back="子按钮.bmp" format="宋体绿色12居中"/>
+		</labelButton>
+		
+	</controls>
+	
+</viewBag>

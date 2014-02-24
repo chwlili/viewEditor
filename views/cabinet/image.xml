@@ -1,0 +1,15 @@
+<xml>
+	<bitmaps>
+		
+		<bitmap id="title" src="imgs/title.png"/>
+		<bitmap id="back" src="imgs/back.jpg"/>
+		<bitmap id="buy" src="imgs/mibao_buy_text.png"/>
+		
+		<bitmap id="剩余数字bmp" src="imgs/word_number_w30.png"/>
+		<bitmap id="limiticon" src="imgs/icon_xl.png"/>
+		<bitmap id="limittext" src="imgs/word_jinsgeng.png"/>
+		<bitmap id="priceback" src="imgs/priceback.png"/>
+		<bitmap id="line" src="imgs/canvas_line.png"/>
+		<bitmap id="numback" src="imgs/numBack.png"/>
+	</bitmaps>
+</xml>

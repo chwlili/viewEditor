@@ -1,0 +1,20 @@
+<xml>
+	
+	<bitmaps>
+		<bitmap id="标签01" src="/public/imgs/buttons/标签01.png" />
+		<bitmap id="标签0102" src="/public/imgs/buttons/标签0102.png" />
+		<bitmap id="标签0201" src="/public/imgs/buttons/标签0201.png" />
+		<bitmap id="标签0202" src="/public/imgs/buttons/标签0202.png" />
+	</bitmaps>
+	
+	<controls>
+		<labelToggleButton width="157" height="38" left="320" top="-5" >
+				<state frame="1" back="标签01" grid="8,8,8,0" format="宋体白色14"/>
+				<state frame="2" back="标签0102" grid="8,8,8,0" format="宋体白色14"/>
+				<state frame="3" back="标签0201" grid="8,8,8,0" format="宋体白色14"/>
+				<state frame="4" back="标签0202" grid="8,8,8,0" format="宋体白色14"/>
+				<state frame="5" back="标签0202" grid="8,8,8,0" format="宋体白色14"/>
+		</labelToggleButton>
+
+	</controls>
+</xml>

@@ -1,0 +1,38 @@
+﻿<xml desc="单笔充值返利">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="cell05背景" src="imgs/新春活动单笔充值返利图.jpg" />
+		<bitmap id="果断出手按钮01" src="imgs/果断出手按钮01.png" />
+		<bitmap id="果断出手按钮02" src="imgs/果断出手按钮02.png" />
+		<bitmap id="果断出手按钮03" src="imgs/果断出手按钮03.png" />
+		<bitmap id="果断前往按钮字" src="imgs/果断前往按钮字.png" />
+	</bitmaps>
+	
+	<texts>
+		
+	</texts>
+	
+	<formats>
+
+	</formats>
+	
+	<controls>
+		<box id="cell05"  width="482" height="270">			
+			<image bmp="cell05背景" width="482" height="270" center="6" bottom="0" />
+			<box name="payBox" width="160" height="54" right="25" bottom="35">
+				<labelButton name="payBtn" width="160" height="54">
+					<state frame="1" back="果断出手按钮01" />
+					<state frame="2" back="果断出手按钮02" />
+					<state frame="3" back="果断出手按钮03" />
+				</labelButton>
+				<image bmp="果断前往按钮字" width="106" height="30" center="0" middle="-3" />
+			</box>
+		</box>
+		
+	</controls>
+</xml>

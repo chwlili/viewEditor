@@ -1,0 +1,23 @@
+﻿<xml>
+	<swfs>
+		<swf id="HotKey" src="../swfs/HotKey.swf"/>
+		<swf id="controlsLib" src="../swfs/controlsLib.swf"/>
+	</swfs>
+
+	<texts>
+		<text id="item_h">H</text>
+		<text id="item_u">U</text>
+		<text id="item_i">I</text>
+		<text id="item_o">O</text>
+		<text id="item_l">L</text>
+		<text id="item_space">space</text>
+	</texts>
+	
+	<bitmaps>
+		<bitmap id="cdEffect" src="imgs/技能冷却特效.png"/>
+	</bitmaps>
+
+	<controls>
+		<filmAnimEffect id="cdEffect" bmp="cdEffect" x="0" y="0" row="2" col="8" frameDelay="50" loop="1"/>
+	</controls>
+</xml>

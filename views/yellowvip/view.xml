@@ -1,0 +1,72 @@
+<xml name="黄钻">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicNumimage.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="../yellowvip/v0.xml"/>
+		<depend src="../yellowvip/v1.xml"/>
+		<depend src="../yellowvip/v2.xml"/>
+		<depend src="../yellowvip/v3.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="8折标头广告词" src="imgs/8折标头广告词.png" />
+		<bitmap id="大黄钻空图标" src="imgs/大黄钻空图标.png" />
+		<bitmap id="翻页标签未选择" src="imgs/翻页标签未选择.png" />
+		<bitmap id="翻页标签选择" src="imgs/翻页标签选择.png" />
+		<bitmap id="黄钻标头字" src="imgs/黄钻标头字.png" />
+		<bitmap id="黄钻新手字体" src="imgs/黄钻新手字体.png" />
+		
+		<bitmap id="开通黄钻" src="imgs/开通黄钻.png" />
+		<bitmap id="开通年费黄钻" src="imgs/开通年费黄钻.png" />
+		<bitmap id="领取礼包" src="imgs/领取礼包.png" />
+		<bitmap id="内容框图" src="imgs/内容框图.jpg" />
+	</bitmaps>
+	<texts>
+		<text id="黄钻BtnLabel">黄钻特权介绍,黄钻新手礼包,黄钻每日礼包,黄钻升级礼包</text>
+		<text id="openYellowHint">您还未开通黄钻特权功能，是否立即开通？</text>
+	</texts>
+	
+	<formats>
+		<format id="btnFormat01" font="宋体" size="12" color="0x02f4f8" filter="黑色边框" align="center"/>
+		<format id="btnFormat02" font="宋体" size="12" color="0x02e4e8" filter="黑色边框" align="center"/>
+	</formats>
+	
+	<controls>
+		<window id="main"  width="641" height="525">
+			<ref ref="WindowBack" name="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+			
+			<image bmp="8折标头广告词" left="28" top="55" width="601" height="96" />
+			<image bmp="黄钻标头字" center="0" top="11" width="200" height="27" />
+			
+			<box name="cellBox" center="0" top="187" width="609" height="320">
+				<image name="cellBg" bmp="knightFrame2" center="0" middle="0" width="614" height="325" grid="20,20,20,20"/>
+				
+				<button name="开通黄钻" left="168" bottom="8" width="115" height="35">
+					<state frame="1" back="开通黄钻" />
+					<state frame="2" back="开通黄钻" />
+					<state frame="3" back="开通黄钻" />
+				</button>
+
+				<button name="开通年费黄钻" left="293" bottom="8" width="140" height="34">
+					<state frame="1" back="开通年费黄钻" />
+					<state frame="2" back="开通年费黄钻" />
+					<state frame="3" back="开通年费黄钻" />
+				</button>
+			</box>
+			
+			<box name="buttonGroupBox" left="29" top="164" />
+		</window>
+		
+		<labelToggleButton id="selectBtn" left="0" top="0" width="100" height="24" label="">
+			<state frame="1" back="翻页标签未选择" format="978773_12_居中"/>
+			<state frame="2" back="翻页标签选择" format="ffe4c3_12_居中"/>
+			<state frame="3" back="翻页标签选择" format="ffe4c3_12_居中"/>
+			<state frame="4" back="翻页标签选择" format="ffe4c3_12_居中"/>
+			<state frame="5" back="翻页标签选择" format="ffe4c3_12_居中"/>
+		</labelToggleButton>
+	</controls>
+</xml>

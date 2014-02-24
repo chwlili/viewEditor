@@ -1,0 +1,65 @@
+<xml>
+	<depends>
+		<depend src="/public/publicFrames.xml" />
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="警告图标" src="/public/imgs/frames/warningIcon1.png" />
+	</bitmaps>
+	
+	<texts>
+		<text id="打坐中">打坐练功中...</text>
+		<text id="累计获得">累计获得</text>
+		<text id="练功时间剩余">练功时间剩余</text>
+		<text id="练功场等级">练功场等级</text>
+
+		<text id="$潜能点">$潜能点</text>
+		<text id="$级">$1级(每小时获得$2)</text>
+		
+
+		<text id="加倍提示1">本次打坐获得<![CDATA[<font color="#00ff00">$1</font>]]>点潜能</text>
+		<text id="加倍提示2">是否要花费<![CDATA[<font color="#00ff00">$1</font>]]>钻石加倍?</text>
+		<text id="自动关闭">本窗口在<![CDATA[<font color="#00ff00">$1</font>]]>后自动关闭</text>
+		<text id="确定">确定</text>
+		<text id="取消">取消</text>
+
+	</texts>
+	
+	<controls>
+		<box id="main" width="240" height="114" bottom="50" right="10">
+			<image bmp="back1_3" grid="18,18,18,18" left="0" top="0" right="0" bottom="0"/>
+			<ref name="标准关闭按钮.btn" ref="CloseButton"/>
+
+			<label left="18" top="18" width="120" height="20" format="宋体黄色14加粗" text="打坐中"/>
+			<label left="18" top="45" width="80" height="20" format="宋体白色12" text="累计获得"/>
+			<label left="18" top="65" width="80" height="20" format="宋体白色12" text="练功时间剩余"/>
+			<label left="18" top="85" width="80" height="20" format="宋体白色12" text="练功场等级"/>
+
+			<label name="累计获得" left="100" top="45" width="80" height="20" format="宋体绿色12"/>
+			<label name="练功时间剩余" left="100" top="65" width="80" height="20" format="宋体绿色12"/>
+			<label name="练功场等级" left="100" top="85" width="140" height="20" format="宋体绿色12"/>
+		</box>
+
+		<box id="alert" width="333" height="122" center="0" middle="0">
+			<image bmp="back1_3" grid="18,18,18,18" left="0" top="0" right="0" bottom="0" />
+			<ref name="关闭按钮" ref="CloseButton"/>
+			<image bmp="警告图标" left="15" top="15" height="27" width="27"/>
+			<label name="提示" width="215" height="40" top="20" center="0" format="宋体白色12居中间距4" wordWrap="true" html="true" />
+			<label name="关闭提示" width="215" height="30" top="62" center="0" format="宋体白色12居中间距4" html="true" />
+
+			<labelButton name="ok" width="71" height="23" bottom="15" center="-60" label="确定">
+				<state frame="1" back="方角普通按钮1" format="宋体白色12"/>
+				<state frame="3" back="方角普通按钮2" format="宋体白色12"/>
+			</labelButton>
+			<labelButton name="pay" width="71" height="23" bottom="15" center="60" label="取消">
+				<state frame="1" back="方角普通按钮1" format="宋体白色12"/>
+				<state frame="3" back="方角普通按钮2" format="宋体白色12"/>
+			</labelButton>
+		</box>
+
+
+	</controls>
+</xml>

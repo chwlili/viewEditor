@@ -1,0 +1,74 @@
+<xml name="开服活动排行榜">
+    <depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicNumimage.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/openingActivity/jewel_rebate2.xml"/>
+		<depend src="/openingActivity2/cost.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="label_装备强化_2" src="imgs/装备强化页签01.jpg"/>
+		<bitmap id="label_装备强化_1" src="imgs/装备强化页签02.jpg"/>
+		
+		<bitmap id="label_技能总等级_2" src="imgs/技能总等级页签01.jpg"/>
+		<bitmap id="label_技能总等级_1" src="imgs/技能总等级页签02.jpg"/>
+		
+		<bitmap id="label_宝石总等级_2" src="imgs/宝石总等级01.jpg"/>
+		<bitmap id="label_宝石总等级_1" src="imgs/宝石总等级02.jpg"/>
+		
+		<bitmap id="第二名力图标" src="imgs/第二名力图标.png"/>
+		<bitmap id="第三名图标" src="imgs/第三名图标.png"/>
+		<bitmap id="第一名图标" src="imgs/第一名图标.png"/>
+		
+		<bitmap id="开服活动排行榜" src="imgs/开服活动排行榜.png"/>
+		<bitmap id="排行榜表格条" src="imgs/排行榜表格条.jpg"/>
+		<bitmap id="排行榜表格条选中效果" src="imgs/排行榜表格条选中效果.png"/>
+		<bitmap id="信息框底板头" src="imgs/信息框底板头.png"/>
+
+	</bitmaps>
+	<texts>
+		<text id="BtnLabel_RankOpenServer">装备强化,技能总等级,宝石总等级</text>
+	</texts>
+	
+	<formats>
+		
+	</formats>
+	
+	<controls>
+		<window id="main"  width="398" height="468">
+			<image name="backImg" bmp="knightFrame2" left="0" top="0" right="0" bottom="0" grid="10,10,10,10" />
+			<image name="cellBg" bmp="knightFrame2" center="0" top="40" width="388" height="390" grid="20,20,20,20"/>
+			
+			<image bmp="信息框底板头" top="0" center="0" width="398" height="36" grid="100,0,100,0"/>
+			<ref name="closeBtn" ref="CloseButton" top="6" right="5"/>
+			<image bmp="开服活动排行榜" top="6" center="0" width="136" height="23" />
+			
+			
+			<box name="buttonGroupBox" left="8" top="46" />
+			
+			<box name="cellBox" right="8" top="44" width="398" height="386">
+
+			</box>
+			
+			<box name="upBox" right="8" top="44" width="494" height="440">
+				
+			</box>
+			
+		</window>
+		<box id="selectBtnBox" left="0" top="0" width="128" height="58" >
+			<labelToggleButton name="selectBtn" center="0" middle="0" width="128" height="58">
+				<state frame="1" back="label_宝石总等级_1" format="978773_12_居中"/>
+				<state frame="2" back="label_宝石总等级_2" format="ffe4c3_12_居中"/>
+				<state frame="3" back="label_宝石总等级_2" format="ffe4c3_12_居中"/>
+				<state frame="4" back="label_宝石总等级_2" format="ffe4c3_12_居中"/>
+				<state frame="5" back="label_宝石总等级_2" format="ffe4c3_12_居中"/>
+			</labelToggleButton>
+			<image name="labelImg1" center="0" middle="0" width="128" height="58" enabled="false" />
+			<image name="labelImg2" center="0" middle="0" width="128" height="58" enabled="false" />
+			
+		</box>
+	</controls>
+</xml>

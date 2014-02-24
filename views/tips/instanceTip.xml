@@ -1,0 +1,90 @@
+<xml >
+  <depends>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicIcons.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+  </depends>
+  <bitmaps>
+
+    <bitmap id="rail" src="imgs/快捷任务区中间横条.png" />
+    <bitmap id="board" src="imgs/tooltips_底板.png" />
+  </bitmaps>
+
+  
+  <texts>
+    <text id="全部通关">全部通关</text>
+    <text id="完成度">完成度:</text>
+    <text id="可领奖">可领奖</text>
+    <text id="已领取">已领取</text>
+    <text id="未完成">未完成</text>
+    <text id="已获星数">已获星数:</text>
+    <text id="主城">主城</text>
+    <text id="副本">副本</text>
+    <text id="章节奖励">章节奖励:</text>
+    <text id="消耗体力">消耗体力</text>
+
+    <text id="1星通关奖励">1星通关奖励</text>
+    <text id="2星通关奖励">2星通关奖励</text>
+    <text id="3星通关奖励">3星通关奖励</text>
+  </texts>
+  <controls>
+    <box id="tip" width="215" height="265">
+
+      <image bmp="mapTipsBoard" grid="50,50,50,50" left="0" top="0" right="0" bottom="0" />
+      <label name="标题" x="20" y="15" width="150" height="24" format="蓝色标题"/>
+      <label name="消耗" x="20" y="40" width="150" height="24" format="技能名称_左"/>
+<!--       <image bmp="star1" x="110" y="13" width="23" height="22" />
+      <image bmp="star1" x="140" y="13" width="23" height="22" />
+      <image bmp="star1" x="170" y="13" width="23" height="22" />
+
+      <image name="star1" bmp="star2" x="110" y="13" width="23" height="22" />
+      <image name="star2" bmp="star2" x="140" y="13" width="23" height="22" />
+      <image name="star3" bmp="star2" x="170" y="13" width="23" height="22" />
+ -->
+      <image bmp="rail" x="0" y="60" width="212" height="3" />
+      
+      <box name="一星" x="20" y="65" width="190" height="65">
+        <label name="一星奖励" x="0" y="2" width="150" height="20" format="ff670c_12_左"/>
+        <image bmp="knightsGold_3" x="0" y="22" width="22" height="21" />
+        <image bmp="knightsExp_2" x="75" y="22" width="22" height="21" />
+        <image bmp="knightsFeat_2" x="0" y="44" width="22" height="21" />
+        <image name="青铜宝箱" bmp="青铜宝箱" x="72" y="42" width="25" height="25" visible="false" />
+        <image name="青铜神灯" bmp="青铜神灯" x="72" y="42" width="25" height="25" visible="false" />
+
+        <label name="金币1" x="25" y="22" width="55" height="20" format="ecd0ab_12_左"/>
+        <label name="经验1" x="100" y="22" width="55" height="20" format="ecd0ab_12_左"/>
+        <label name="功勋1" x="25" y="44" width="55" height="20" format="ecd0ab_12_左"/>
+        <label name="道具1" x="100" y="44" width="80" height="20" format="ecd0ab_12_左"/>
+      </box>
+      <box name="二星" x="20" y="125" width="190" height="65">
+        <label name="二星奖励" x="0" y="2" width="150" height="20" format="ff670c_12_左"/>
+        <image bmp="knightsGold_3" x="0" y="22" width="22" height="21" />
+        <image bmp="knightsExp_2" x="75" y="22" width="22" height="21" />
+        <image bmp="knightsFeat_2" x="0" y="44" width="22" height="21" />
+        <image name="白银宝箱" bmp="白银宝箱" x="72" y="42" width="25" height="25" visible="false" />
+        <image name="白银神灯" bmp="白银神灯" x="72" y="42" width="25" height="25" visible="false" />
+
+        <label name="金币2" x="25" y="22" width="55" height="20" format="ecd0ab_12_左"/>
+        <label name="经验2" x="100" y="22" width="55" height="20" format="ecd0ab_12_左"/>
+        <label name="功勋2" x="25" y="44" width="55" height="20" format="ecd0ab_12_左"/>
+        <label name="道具2" x="100" y="44" width="80" height="20" format="ecd0ab_12_左"/>
+      </box>
+
+      <box name="三星" x="20" y="190" width="190" height="65">
+        <label name="三星奖励" x="0" y="2" width="150" height="20" format="ff670c_12_左"/>
+        <image bmp="knightsGold_3" x="0" y="22" width="22" height="21" />
+        <image bmp="knightsExp_2" x="75" y="22" width="22" height="21" />
+        <image bmp="knightsFeat_2" x="0" y="44" width="22" height="21" />
+        <image name="黄金宝箱" bmp="黄金宝箱" x="72" y="42" width="25" height="25" visible="false" />
+        <image name="黄金神灯" bmp="黄金神灯" x="72" y="42" width="25" height="25" visible="false" />
+
+        <label name="金币3" x="25" y="22" width="55" height="20" format="ecd0ab_12_左"/>
+        <label name="经验3" x="100" y="22" width="55" height="20" format="ecd0ab_12_左"/>
+        <label name="功勋3" x="25" y="44" width="55" height="20" format="ecd0ab_12_左"/>
+        <label name="道具3" x="100" y="44" width="80" height="20" format="ecd0ab_12_左"/>
+      </box>
+
+
+    </box>
+  </controls>
+</xml>

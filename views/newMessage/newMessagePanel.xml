@@ -1,0 +1,31 @@
+﻿<xml>
+	<depends>
+		<depend src="../public/publicFrames.xml" />
+		<depend src="../public/publicFormats.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="新短消息背景.bmp" src="imgs/ChatPanelBack.png" size="156" />
+	</bitmaps>
+	
+	<texts>
+		<text id="忽略">忽略</text>
+		
+	</texts>
+	
+	<controls>
+		<view id="newMessage">
+			<box id="新短消息提示列表.panel" width="180" height="65" bottom="65" right="0">
+				<image bmp="标准提示框背景" grid="6,72,6,7" bottom="0" left="0" right="0" top="0"/>
+				<label name="数量" format="宋体白色12" width="20" left="10" text="忽略"/>
+			</box>
+		</view>
+		
+		<newMessageItem id="新短消息.item" width="155" height="60" mouseChild="false">
+			<image bmp="新短消息背景.bmp" grid="5,5,5,5" height="60" width="170"/>
+			<rtf name="文本框" width="168" height="60" html="true" multiline="true" left="5" type="dynamic" autoScroll="false"/>
+		</newMessageItem>
+		
+	</controls>
+	
+</xml>

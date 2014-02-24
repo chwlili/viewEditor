@@ -1,0 +1,86 @@
+﻿<xml name="首充">
+	<depends>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="bg" src="imgs/外围.png" />
+		<bitmap id="content" src="imgs/中央.jpg" />
+		<bitmap id="payBtn_1" src="imgs/果断充值01.png" />
+		<bitmap id="payBtn_2" src="imgs/果断充值02.png" />
+		<bitmap id="payBtn_3" src="imgs/果断充值03.png" />
+		<bitmap id="rewardBtn_1" src="imgs/领取礼包01.png" />
+		<bitmap id="rewardBtn_2" src="imgs/领取礼包02.png" />
+		<bitmap id="rewardBtn_3" src="imgs/领取礼包03.png" />
+		<bitmap id="btnEffect" src="imgs/充值按钮特效.png"/>
+		<bitmap id="wingEffect" src="imgs/首冲翅膀特效.png"/>
+		<bitmap id="itemEffect" src="imgs/首冲道具特效.png"/>
+		<bitmap id="rewardedIcon" src="imgs/已领取.png"/>
+	</bitmaps>
+
+	<controls>
+		<window id="win" width="742" height="509">
+			<image bmp="bg" width="742" height="509" />
+			<image bmp="content" width="695" height="457" left="17" top="34" />
+			<button name="closeBtn" width="26" height="26" right="45" top="41">
+				<state frame="1" back="knightCloseBtn1_1" />
+				<state frame="2" back="knightCloseBtn1_2" />
+				<state frame="3" back="knightCloseBtn1_3" />
+			</button>
+
+			<labelButton name="payBtn" width="161" height="57" center="60" bottom="30">
+				<state frame="1" back="payBtn_1" />
+				<state frame="2" back="payBtn_2" />
+				<state frame="3" back="payBtn_3" />
+			</labelButton>
+			<filmAnimEffect name="btnEffect" bmp="btnEffect" x="345" y="405" row="1" col="9" frameDelay="100" loop="0"/>
+			
+			<labelButton name="rewardBtn" width="153" height="54" center="60" bottom="30">
+				<state frame="1" back="rewardBtn_1" />
+				<state frame="2" back="rewardBtn_2" />
+				<state frame="3" back="rewardBtn_3" />
+			</labelButton>
+			
+			<achieveEntity name="firstRechargeGift0" x="341" y="163" id="2000000" count="1" isBig="true" />
+			<filmAnimEffect name="wingEffect" bmp="wingEffect" x="331" y="153" row="1" col="10" frameDelay="100" loop="0"/>
+			<label name="firstRechargeGiftName0" width="60" height="20" x="341" y="223" format="宋体白色12居中" html="true"/>
+			<image name="firstRewardedIcon0" bmp="rewardedIcon" width="79" height="33" x="341" y="176"/>
+			
+			<achieveEntity name="firstRechargeGift1" x="431" y="163" id="100125" count="1" isBig="true" />
+			<filmAnimEffect name="itemEffect1" bmp="itemEffect" x="421" y="153" row="1" col="10" frameDelay="100" loop="0"/>
+			<label name="firstRechargeGiftName1" width="60" height="20" x="431" y="223" format="宋体白色12居中" html="true"/>
+			<image name="firstRewardedIcon1" bmp="rewardedIcon" width="79" height="33" x="431" y="176"/>
+			
+			<achieveEntity name="firstRechargeGift2" x="521" y="163" id="100146" count="1" isBig="true" />
+			<filmAnimEffect name="itemEffect2" bmp="itemEffect" x="511" y="153" row="1" col="10" frameDelay="100" loop="0"/>
+			<label name="firstRechargeGiftName2" width="60" height="20" x="521" y="223" format="宋体白色12居中" html="true"/>
+			<image name="firstRewardedIcon2" bmp="rewardedIcon" width="79" height="33" x="521" y="176"/>
+			
+			<achieveEntity name="firstRechargeGift3" x="611" y="163" id="3156" count="5" isBig="true" />
+			<filmAnimEffect name="itemEffect3" bmp="itemEffect" x="601" y="153" row="1" col="10" frameDelay="100" loop="0"/>
+			<label name="firstRechargeGiftName3" width="60" height="20" x="611" y="223" format="宋体白色12居中" html="true"/>
+			<image name="firstRewardedIcon3" bmp="rewardedIcon" width="79" height="33" x="611" y="176"/>
+			
+			<achieveEntity name="secondRechargeGift0" x="341" y="334" id="4000011" count="1" isBig="true" />
+			<filmAnimEffect name="secondItemEffect0" bmp="wingEffect" x="331" y="324" row="1" col="10" frameDelay="100" loop="0"/>
+			<label name="secondRechargeGiftName0" width="60" height="20" x="341" y="394" format="宋体白色12居中" html="true"/>
+			<image name="secondRewardedIcon0" bmp="rewardedIcon" width="79" height="33" x="334" y="347"/>
+			
+			<achieveEntity name="secondRechargeGift1" x="431" y="334" id="100136" count="1" isBig="true" />
+			<filmAnimEffect name="secondItemEffect1" bmp="itemEffect" x="421" y="324" row="1" col="10" frameDelay="100" loop="0"/>
+			<label name="secondRechargeGiftName1" width="60" height="20" x="431" y="394" format="宋体白色12居中" html="true"/>
+			<image name="secondRewardedIcon1" bmp="rewardedIcon" width="79" height="33" x="431" y="347"/>
+			
+			<achieveEntity name="secondRechargeGift2" x="521" y="334" id="100127" count="1" isBig="true" />
+			<filmAnimEffect name="secondItemEffect2" bmp="itemEffect" x="511" y="324" row="1" col="10" frameDelay="100" loop="0"/>
+			<label name="secondRechargeGiftName2" width="60" height="20" x="521" y="394" format="宋体白色12居中" html="true"/>
+			<image name="secondRewardedIcon2" bmp="rewardedIcon" width="79" height="33" x="521" y="347"/>
+			
+			<achieveEntity name="secondRechargeGift3" x="611" y="334" id="100023" count="1" isBig="true" />
+			<filmAnimEffect name="secondItemEffect3" bmp="itemEffect" x="601" y="324" row="1" col="10" frameDelay="100" loop="0"/>
+			<label name="secondRechargeGiftName3" width="60" height="20" x="611" y="394" format="宋体白色12居中" html="true"/>
+			<image name="secondRewardedIcon3" bmp="rewardedIcon" width="79" height="33" x="611" y="347"/>
+			
+		</window>
+	</controls>
+</xml>

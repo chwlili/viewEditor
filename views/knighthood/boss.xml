@@ -1,0 +1,57 @@
+﻿<xml>
+  <depends>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+    <depend src="/public/controls/window/CloseButton.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+  </depends>
+  <bitmaps>
+    <bitmap id="中底板底" src="imgs/中底板底.png"/>
+    <bitmap id="召唤骑士团BOSS图" src="imgs/召唤骑士团BOSS图.jpg"/>
+    <bitmap id="召唤骑士团BOSS下方渐变" src="imgs/召唤骑士团BOSS下方渐变.png"/>
+    <bitmap id="召唤骑士团BOSS字" src="imgs/召唤骑士团BOSS字.png"/>
+    <bitmap id="召唤骑士团渐变条" src="imgs/召唤骑士团渐变条.png"/>
+  </bitmaps>
+  <texts>
+    <text id="召唤骑士团Boss">召唤骑士团Boss</text>
+    <text id="今日召唤次数"><![CDATA[今日剩余召唤次数：<font color='#2feb16'>$1</font> 次]]></text>
+    <text id="今日挑战次数"><![CDATA[今日剩余挑战次数：<font color='#2feb16'>$1</font> 次]]></text>
+    <text id="召唤军团BOSS消耗"><![CDATA[召唤骑士团BOSS需消耗： <font color='#02e4f8'>200钻石</font> ]]></text>
+
+    <text id="召唤者奖励"><![CDATA[召唤者可以额外获得：<font color='#2feb16'>$1</font><font color='#fde3ac'>历练值</font> <font color='#2feb16'>$4</font><font color='#fde3ac'>骑士团经验</font> <font color='#2feb16'>$2</font><font color='#fde3ac'>战功</font> <font color='#ff8400'>$3</font><font color='#f8d40e'>金币</font>奖励]]></text>
+
+    <text id="参与者奖励"><![CDATA[所有参与击杀骑士团BOSS的玩家均可获得：<font color='#2feb16'>$1</font><font color='#fde3ac'>历练值</font> <font color='#2feb16'>$4</font><font color='#fde3ac'>骑士团经验</font> <font color='#2feb16'>$2</font><font color='#fde3ac'>战功</font> <font color='#ff8400'>$3</font><font color='#f8d40e'>金币</font>奖励]]></text>
+
+    <text id="骑士团Boss召唤规则">BOSS被召唤出后，最多存留1小时，之后消失</text>
+    <text id="骑士团Boss奖励规则">BOSS等级与骑士团等级相同，等级越高奖励越高</text>
+  </texts>
+
+  <controls>
+    <window id="main" width="582" height="430">
+      <image bmp="中底板底" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" />
+      <image bmp="中底板标头" grid="50,0,50,0" top="0" left="0" right="0" height="36" />
+      <ref name="closeBtn" ref="CloseButton" top="5" right="5" />
+      <image bmp="召唤骑士团BOSS字" top="3" left="202" width="178" height="30" />
+      <image bmp="召唤骑士团渐变条" top="44" left="46" width="490" height="24" />
+      <image bmp="召唤骑士团BOSS图" top="75" center="0" width="377" height="282" />
+      <image bmp="召唤骑士团BOSS下方渐变" bottom="0" left="1" width="580" height="61" />
+
+      <label text="骑士团Boss奖励规则" left="155" top="100" width="280" height="20" format="fff600_12_居中" html="true"/>
+      <label text="骑士团Boss召唤规则" left="155" top="120" width="280" height="20" format="0793ff_12_居中" html="true"/>
+
+      <labelButton name="召唤" width="110" height="28" top="340" center="0" label="召唤骑士团Boss">
+        <state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中" grid="40,0,40,0" />
+        <state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+        <state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+      </labelButton>
+
+      <label name="召唤次数" left="155" top="48" width="140" height="20" format="fde3ac_12居中" html="true"/>
+      <label name="挑战次数" left="315" top="48" width="140" height="20" format="fde3ac_12居中" html="true"/>
+      <label center="0" top="320" width="200" height="20" format="fde3ac_12居中" text="召唤军团BOSS消耗" html="true"/>
+
+      <label name="召唤者奖励" center="0" top="380" width="460" height="20" format="ff8400_12" html="true"/>
+
+      <label name="参与者奖励" center="0" top="400" width="500" height="20" format="ff8400_12" html="true"/>  
+    </window>
+  </controls>
+</xml>

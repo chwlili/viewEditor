@@ -1,0 +1,51 @@
+﻿<xml preload="0">
+	<depends>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	<swfs>
+		<swf id="roleHead" src="../swfs/roleHead.swf"/>
+		<swf id="icons" src="../swfs/icons.swf"/>
+
+	</swfs>
+  <bitmaps>
+  		<bitmap id="VIP数字" src="imgs/VIP数字.png"/>
+  		<bitmap id="体力增加" src="imgs/体力增加.png"/>
+  		<bitmap id="lv0" src="imgs/黄钻1.png" />
+  		<bitmap id="lv1" src="imgs/黄钻1.png" />
+		<bitmap id="lv2" src="imgs/黄钻2.png" />
+		<bitmap id="lv3" src="imgs/黄钻3.png" />
+		<bitmap id="lv4" src="imgs/黄钻4.png" />
+		<bitmap id="lv5" src="imgs/黄钻5.png" />
+		<bitmap id="lv6" src="imgs/黄钻6.png" />
+		<bitmap id="lv7" src="imgs/黄钻7.png" />
+		<bitmap id="lv8" src="imgs/黄钻8.png" />
+		<bitmap id="能量不足特效" src="imgs/上层-蓝.png" />
+  </bitmaps>
+
+	<texts>
+		<text id="花费钻石购买体力"><![CDATA[花费<font color='#60ff4e'>$1</font>钻石,立即回复<font color='#60ff4e'>40</font>点体力]]></text>
+		<text id="等级">等级</text>
+		<text id="钻石">钻石</text>
+		<text id="钻石tips">钻石【主要获取途径】：充值购买、好友献花、每日活跃度宝箱、变强宝典、在线礼包。</text>
+		<text id="金币">金币</text>
+		<text id="金币tips">金币【主要产出途径】：世界BOSS、赚金币活动、活动礼包、猎魔团、通缉、骑士等级礼包、秘宝屋神秘商店。</text>
+		<text id="恢复体力"><![CDATA[剩余购买次数:<font color='#2feb16'>$1</font>次<br>花费<font color='#1dd7ff'>$2钻石</font>购买<font color='#2feb16'>40</font>体力]]></text>
+		<text id="vip额外体力"><![CDATA[每日<font color='#efb55a'>12点、18点</font>获得额外体力。]]></text>
+		<text id="vip额外体力2"><![CDATA[(<font color='#1ff103'> 骑士4级</font>及以上，每日<font color='#efb55a'>24点</font>也可获得额外体力 )]]></text>
+
+		<text id="当前体力"><![CDATA[体力（每30分钟恢复5点）<br>下次恢复时间是：<font color='#2feb16'>$1</font><br>体力值超过上限时不会恢复体力]]></text>
+		<text id="体力tips">【主要产出途径】：骑士特权每日领取、每日登陆、世界BOSS、通缉、个人挑战副本、秘宝屋神秘商店。</text>
+
+		<text id="额外体力"><![CDATA[额外体力: <font color='#1ff103'>$1</font>]]></text>
+		<text id="生命">生命</text>
+		<text id="能量描述"><![CDATA[能量：用于释放技能，每秒自动恢复<font color='#60ff4e'>3</font>点<br>攻击敌人每次加<font color='#60ff4e'>1</font>点，被攻击时每次加<font color='#60ff4e'>2</font>点]]></text>
+		
+		<text id="战斗tip标题"><![CDATA[<font color='#1ff103'>战斗增益</font>]]></text>
+		<text id="战斗tip内容"><![CDATA[<font color='#1ff103'>$1</font>]]></text>
+		<text id="战斗tip时间"><![CDATA[持续时间<font color='#1ff103'>$1</font>秒]]></text>
+	</texts>
+	
+	<controls>
+		<filmAnimEffect id="energyEffectTop" bmp="能量不足特效" x="0" y="0" row="1" col="4" frameDelay="100" loop="3"/>
+	</controls>
+</xml>

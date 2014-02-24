@@ -1,0 +1,72 @@
+<xml>
+  <depends>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+    <depend src="/public/controls/window/HelpButton.xml"/>
+    <depend src="/public/controls/window/CloseButton.xml"/>
+    <depend src="/public/controls/window/WindowBack.xml"/>
+    <depend src="/public/controls/scroller/Scroller.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+    <depend src="/public/publicTexts.xml"/>
+    <depend src="/public/publicIcons.xml"/>
+    <depend src="/public/publicNumimage.xml"/>
+	<depend src="/public/publicBitmapTexts.xml"/>
+  </depends>
+  <bitmaps>
+    <bitmap id="胜利文字" src="imgs/胜利文字.png"/>
+    <bitmap id="失败文字" src="imgs/失败文字.png"/>
+    <bitmap id="恭喜文字" src="imgs/恭喜文字.png"/>
+  </bitmaps>
+  <texts>
+  </texts>
+  <controls>
+    <confirm id="结算窗口" top="0" bottom="0" left="0" right="0">
+      <image bmp="knightFrame11" top="0" bottom="0" left="0" right="0"/>
+      <box name="box" width="335" height="280" center="0" middle="0">
+        <box name="成功" width="335" height="280">
+          <image bmp="胜利文字" width="324" height="54" center="0" top="0"/>
+          
+        </box>
+        <box name="失败" width="335" height="280">
+          <image bmp="失败文字" width="428" height="85" center="0" top="0"/>
+        </box>
+
+        <box name="reward" width="340" center="0" top="100">
+          <image bmp="knightFrame2" grid="30,47,77,54" left="0" right="0" top="0" bottom="0" />
+          <image bmp="knightFrame10" grid="46,42,46,42" left="10" right="10" top="10" bottom="10"/>
+          <image bmp="恭喜文字" center="0" top="-10" width="187" height="28"/>
+
+          <box name="item1" height="40" width="120" top="20" left="30">
+            <image name="exp" bmp="knightsExp_2" width="42" height="42" />
+            <achieveEntity name="item"/>
+            <label name="itemName" left="44" top="13" height="18" width="100" format="宋体白色12" html="true" />
+          </box>
+          <box name="item2" height="40" width="120" top="20" left="170">
+            <image name="exp" bmp="knightsExp_2" width="42" height="42" />
+            <achieveEntity name="item"/>
+            <label name="itemName" left="44" top="13" height="18" width="100" format="宋体白色12" html="true" />
+          </box>
+          <box name="item3" height="40" width="120" top="60" left="30">
+            <image name="exp" bmp="knightsExp_2" width="42" height="42" />
+            <achieveEntity name="item"/>
+            <label name="itemName" left="44" top="13" height="18" width="100" format="宋体白色12" html="true" />
+          </box>
+          <box name="item4" height="40" width="120" top="60" left="170">
+            <image name="exp" bmp="knightsExp_2" width="42" height="42" />
+            <achieveEntity name="item"/>
+            <label name="itemName" left="44" top="13" height="18" width="100" format="宋体白色12" html="true" />
+          </box>
+
+        </box>
+        
+        <labelButton name="button" width="159" height="55" center="0" bottom="0">
+			<state frame="1" back="战斗结算大号按钮01"/>
+	        <state frame="2" back="战斗结算大号按钮02"/>
+	        <state frame="3" back="战斗结算大号按钮03"/>
+        </labelButton>
+        <image name="离开按钮文字" bmp="战斗结算离开" center="0" middle="0" width="76" height="28"/>
+      </box>
+    </confirm>
+
+  </controls>
+</xml>

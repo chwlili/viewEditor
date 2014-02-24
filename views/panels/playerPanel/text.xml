@@ -1,0 +1,5 @@
+<xml>
+	<texts>
+		<text id="等级信息">等级:$1($2/$3)</text>
+	</texts>
+</xml>

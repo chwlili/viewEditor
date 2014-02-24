@@ -1,0 +1,59 @@
+<xml>
+	<depends>
+		<depend src="skillkeyboard.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="背景" src="背景.png"/>
+		<bitmap id="操作指南" src="操作指南.png"/>
+		
+
+		<bitmap id="标题文字-跳跃" src="标题文字-跳跃.png"/>
+
+		<bitmap id="def_key" src="按钮01.png"/>
+		<bitmap id="def_K" src="按钮01K.png"/>
+		<bitmap id="def_J" src="按钮01J.png"/>
+
+		<bitmap id="up_key" src="按钮01-红.png"/>
+		<bitmap id="down_key" src="按钮02-红.png"/>
+		
+		
+		<bitmap id="up_K" src="按钮01-红K.png"/>
+		<bitmap id="down_K" src="按钮02-红K.png"/>
+
+		<bitmap id="右手" src="手指-右手.png"/>
+	</bitmaps>
+
+	<controls>
+
+		<box id="引导框" x="321" y="40" width="226" height="82">
+			<image bmp="背景" width="226" height="82" grid="10,10,10,10"/>
+			<image bmp="操作指南" width="64" height="22" center="0" top="-8"/>
+
+			
+
+			<box name="动画面板" x="0" y="88" width="226" height="1">
+				<image bmp="标题文字-跳跃" width="107" height="26" center="0" top="0"/>
+
+				<box name="按键动画" width="73" height="33" center="0" top="26">
+					<box name="j_up" x="0" y="0" width="33" height="33">
+						<bitmap bitmap="def_key" width="33" height="33"/>
+						<bitmap bitmap="def_J"   width="15" height="12" x="7" y="8"/>
+					</box>
+					
+					<box name="k_up" x="40" y="0" width="33" height="33">
+						<bitmap bitmap="up_key" width="33" height="33"/>
+						<bitmap bitmap="up_K"   width="19" height="18" x="7" y="5"/>
+					</box>
+					<box name="k_down" x="40" y="0" width="33" height="33">
+						<bitmap bitmap="down_key" width="33" height="33"/>
+						<bitmap bitmap="down_K"   width="19" height="18" x="7" y="8"/>
+					</box>
+					
+					<bitmap name="handler_right" bitmap="右手" width="68" height="94" x="21" y="21"/>
+				</box>
+			</box>
+		</box>
+		
+	</controls>
+
+</xml>

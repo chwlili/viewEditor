@@ -1,0 +1,37 @@
+
+<xml>
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicTexts.xml"/>
+	</depends>
+	<bitmaps>
+
+		<bitmap id="特殊小窗体框" src="imgs/特殊小窗体框.png"/>
+		<bitmap id="第三级底板" src="imgs/第三级底板.png"/>
+		<bitmap id="密码输入框" src="imgs/密码输入框.png" />
+	</bitmaps>
+
+
+	<controls>
+		
+		<window id="密码输入" width="260" height="170">
+ 			<image  bmp="特殊小窗体框" grid="30,47,29,49" right="0" top="0" width="260" height="170" />
+ 			<image  bmp="第三级底板" grid="30,21,29,28" right="15" top="15" width="230" height="110" />
+ 			<image  bmp="密码输入框"  right="55" top="55" width="150" height="30" />
+ 			<labelButton name="确定" width="56" height="22" right="150" top="135" label="确定">
+ 				<state frame="1" back="小按钮01" format="ffbe57_12_居中"/>
+ 				<state frame="2" back="小按钮02" format="ffbe57_12_居中"/>
+				<state frame="3" back="小按钮03" format="ffbe57_12_居中"/>
+ 			</labelButton>
+ 			<labelButton name="取消" width="56" height="22" right="65" top="135" label="取消">
+ 				<state frame="1" back="小按钮01" format="ffbe57_12_居中"/>
+ 				<state frame="2" back="小按钮02" format="ffbe57_12_居中"/>
+				<state frame="3" back="小按钮03" format="ffbe57_12_居中"/>
+ 			</labelButton>
+		</window>
+
+	</controls>	
+
+</xml>

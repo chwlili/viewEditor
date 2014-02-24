@@ -1,0 +1,122 @@
+<xml name="签到">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicNumimage.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+
+	</depends>
+
+
+	<texts>
+		<text id="按钮_领取">领奖</text>
+		<text id="按钮_补签">续签</text>
+		<text id="补签_提示"><![CDATA[您确定使用<font color='#2089ff' size='12' face='宋体'>$1 钻石</font>来补签吗？]]></text>
+	</texts>
+
+	<bitmaps>
+		
+		<bitmap id="渐变光" src="imgs/渐变光.png" />
+		
+		<bitmap id="框" src="imgs/框.png" />
+		
+		<bitmap id="连续XX天" src="imgs/连续XX天.png" />
+		<bitmap id="每日签到广告标语" src="imgs/每日签到广告标语.png"/>
+		
+		<bitmap id="每日签到" src="imgs/每日签到.png"/>
+		<bitmap id="签到浮动效果条" src="imgs/签到浮动效果条.png"/>
+		<bitmap id="签到普通条" src="imgs/签到普通条.png"/>
+		<bitmap id="已领取" src="imgs/已领取.png"/>
+		<bitmap id="已领取后图标上面显示" src="imgs/已领取后图标上面显示.png"/>
+		
+	</bitmaps>
+	
+	<controls>
+		<window id="签到窗口" width="582" height="512">
+			<ref ref="WindowBack"/>
+			<ref name="closeBtn" ref="CloseButton" />
+			
+			<image bmp="knightFrame2" center="0" top="89" width="556" height="407" grid="20,20,20,20"/>
+			
+			<image bmp="每日签到" center="0" top="9" width="101" height="29"/>
+			<image bmp="每日签到广告标语" center="0" top="52" width="511" height="34"/>
+			<box name="数字容器" width="20" height="50" left="127" top="51"/>
+			
+			
+		</window>
+		
+		<box id="signItem" center="0" width="541" height="54" >
+			<image bmp="签到浮动效果条" left="0" top="0" width="541" height="54" />
+			<image name="normalBg" bmp="签到普通条" left="0" top="0" width="541" height="54" />
+			<image bmp="连续XX天" left="24" top="19" width="77" height="20"/>
+			<image bmp="渐变光" left="17" top="25" width="95" height="24"/>
+			<box name="数字容器" width="20" height="50" left="61" top="17"/>
+			
+			<image name="已领取" bmp="已领取" right="10" middle="0" width="70" height="45" visible="false" />
+			
+			<labelButton name="领取按钮" left="465" middle="0" width="56" height="22" label="按钮_领取">
+				<state frame="1" back="small_btn_1_1" format="ffbe57_12_居中" />
+				<state frame="2" back="small_btn_1_2" format="ffbe57_12_居中" />
+				<state frame="3" back="small_btn_1_3" format="ffbe57_12_居中" />
+			</labelButton>
+			
+			<labelButton name="补签按钮" left="465" middle="0" width="56" height="22" label="按钮_补签">
+				<state frame="1" back="small_btn_1_1" format="ffbe57_12_居中" />
+				<state frame="2" back="small_btn_1_2" format="ffbe57_12_居中" />
+				<state frame="3" back="small_btn_1_3" format="ffbe57_12_居中" />
+			</labelButton>
+		</box>
+		
+		<box id="rewardBox" width="52" height="53" >
+			<image name="bg" bmp="框" left="0" top="0" width="52" height="53"/>
+			<image name="maskImg" bmp="已领取后图标上面显示" left="3" top="1" width="46" height="47" visible="false" />
+			<achieveEntity name="item" left="6" top="5"/>
+		</box>
+		
+		<rewardData id="reward0" >
+			<articals aid="100140" anum="6" />
+			<articals aid="100147" anum="1" />
+			<articals aid="100146" anum="1" />
+		</rewardData>
+		<rewardData id="reward1" >
+			<articals aid="100140" anum="7" />
+			<articals aid="100147" anum="2" />
+			<articals aid="100146" anum="1" />
+		</rewardData>
+		<rewardData id="reward2" >
+			<articals aid="100140" anum="8" />
+			<articals aid="100147" anum="3" />
+			<articals aid="100146" anum="1" />
+			<articals aid="20000" anum="1" />
+		</rewardData>
+		<rewardData id="reward3" >
+			<articals aid="100140" anum="9" />
+			<articals aid="100147" anum="4" />
+			<articals aid="100146" anum="1" />
+			<articals aid="20000" anum="2" />
+		</rewardData>
+		<rewardData id="reward4" >
+			<articals aid="100140" anum="10" />
+			<articals aid="100147" anum="5" />
+			<articals aid="100146" anum="1" />
+			<articals aid="20000" anum="3" />
+			<articals aid="100019" anum="1" />
+		</rewardData>
+		<rewardData id="reward5" >
+			<articals aid="100140" anum="11" />
+			<articals aid="100147" anum="6" />
+			<articals aid="100146" anum="1" />
+			<articals aid="20000" anum="4" />
+			<articals aid="100019" anum="1" />
+		</rewardData>
+		<rewardData id="reward6" >
+			<articals aid="100140" anum="12" />
+			<articals aid="100147" anum="7" />
+			<articals aid="100146" anum="1" />
+			<articals aid="20000" anum="5" />
+			<articals aid="100019" anum="1" />
+		</rewardData>
+	</controls>
+</xml>

@@ -1,0 +1,43 @@
+<xml name="任务">
+  <depends>
+    <depend src="/public/publicIcons.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+    <depend src="/public/controls/window/CloseButton.xml"/>
+  </depends>
+  <bitmaps>
+    <bitmap id="底板" src="imgs/任务底板外框.png"/>
+    <bitmap id="任务底板中央" src="imgs/任务底板中央.jpg"/>
+    <bitmap id="名称底板" src="imgs/名称底板.png"/>
+    <bitmap id="奖励底板" src="imgs/奖励底板.png"/>
+    <bitmap id="对话框" src="imgs/对话框.png"/>
+  </bitmaps>
+  <texts>
+    <text id="接受">接受</text>
+    <text id="完成">完成</text>
+  </texts>
+  <controls>
+    <window id="main" width="684" height="251">
+      <image bmp="底板" width="684" height="251"/>
+      <image bmp="任务底板中央" width="645" height="211" x="19" y="20" />
+      <ref name="closeBtn" ref="CloseButton"/>
+      <image name="face" bottom="10" right="370"/>
+      <image bmp="对话框" width="452" height="121" top="58" left="200" />
+      <label name="questName" format="fff4de_14_加粗居中" width="200" height="20" top="30" center="92" html="true"/>
+      <image bmp="名称底板" bottom="22" left="20" width="209" height="26"/>
+      <label name="npcName" width="209" height="20" bottom="26" left="20" format="fff4de_14_加粗居中"/>
+      <label name="label" multiline="true" wordWrap="true" format="5a320c_12_leading6" width="400" height="90" top="70" left="236" html="true"/>
+      <image bmp="奖励底板" width="92" height="21" top="148" left="290"/>
+      <image bmp="奖励底板" width="92" height="21" top="148" left="440"/>
+      <image bmp="knightsGold_2" width="42" height="42" top="138" left="270"/>
+      <image bmp="knightsExp_2" width="42" height="42" top="138" left="420"/>
+      <label name="reward1Label" format="ffdfac_12_居中" html="true" width="70" height="18" top="149" left="308"/>
+      <label name="reward2Label" format="ffdfac_12_居中" html="true" width="70" height="18" top="149" left="458"/>
+      <labelButton name="button" width="128" height="39" center="96" bottom="22">
+        <state frame="1" back="2号按钮01" format="ffbe57_12_居中"/>
+        <state frame="2" back="2号按钮02" format="ffbe57_12_居中"/>
+        <state frame="3" back="2号按钮03" format="ffbe57_12_居中"/>
+      </labelButton>
+    </window>
+  </controls>
+</xml>

@@ -1,0 +1,105 @@
+﻿<xml>
+	<texts>
+		<text id="通关">通关</text>
+		<text id="今日日常">今日日常</text>
+		<text id="立即完成">立即完成</text>
+		<text id="放弃任务">放弃任务</text>
+		<text id="加星">加星</text>
+		<text id="全部完成">一键完成</text>
+		<text id="放弃">放弃</text>
+		<text id="星级提示">星级越高奖励越丰厚</text>
+
+		<text id="今日日常已全部完成">今日日常已全部完成</text>
+		<text id="刷新需要"><![CDATA[刷新需要$1钻石]]></text>
+		<text id="放弃任务提示"><![CDATA[亲！ 确定要放弃这个任务吗？]]></text>
+		<text id="加星提示"><![CDATA[<font color="#fdd59a" face="宋体" size="12">您确定使用</font><font color="#2feb16" face="宋体" size="12"> 10 钻石</font><font color="#fdd59a" face="宋体" size="12">升级任务吗？</font>]]></text>
+		<text id="全部完成提示"><![CDATA[<font color="#fdd59a" face="宋体" size="12">您确定使用</font><font color="#2feb16" face="宋体" size="12"> 300 钻石</font><font color="#fdd59a" face="宋体" size="12">完成全部任务吗？</font>]]></text>
+		<text id="立即完成提示"><![CDATA[<font color="#fdd59a" face="宋体" size="12">您确定使用</font><font color="#2feb16" face="宋体" size="12"> 10 钻石</font><font color="#fdd59a" face="宋体" size="12">立即完成任务吗？</font>]]></text>
+
+		<text id="完成日常"><![CDATA[您完成10个日常任务，获得额外的$1金币！]]></text>
+		<text id="全部完成tip">一键完成本轮日常任务，全部满星奖励</text>
+		<text id="立即完成vip需求">骑士$1级可拥有立即完成日常任务的特权，提升骑士等级</text>
+		<text id="一键完成vip需求">骑士$1级可拥有一键完成日常任务的特权，提升骑士等级</text>
+	</texts>
+
+	<depends>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+
+	<bitmaps>
+		<bitmap id="board" src="imgs/每日任务底板.png" />
+		<bitmap id="title" src="imgs/日常任务标题.png" />
+		<bitmap id="横条" src="imgs/快捷任务区中间横条.png" />
+
+		<bitmap id="star1" src="imgs/星级_亮.png" />
+		<bitmap id="star2" src="imgs/星级_暗.png" />
+
+		<bitmap id="pick1" src="imgs/收缩按钮01.png" />
+		<bitmap id="pick2" src="imgs/收缩按钮02.png" />
+		<bitmap id="pick3" src="imgs/收缩按钮03.png" />
+
+		<bitmap id="reset1" src="imgs/重置按钮01.png" />
+		<bitmap id="reset2" src="imgs/重置按钮02.png" />
+		<bitmap id="reset3" src="imgs/重置按钮03.png" />
+		
+		<bitmap id="getreward1" src="imgs/领奖按钮01.png" />
+		<bitmap id="getreward2" src="imgs/领奖按钮02.png" />
+		<bitmap id="getreward3" src="imgs/领奖按钮03.png" />
+
+	</bitmaps>
+	<controls>
+		<box id="main" width="204" height="115" x="0" y="0">
+			<image bmp="board" grid="15,35,15,25" left="0" top="0" right="0" bottom="0"/>
+			<image bmp="title" x="12" y="7" width="55" height="16" />
+			<image bmp="横条" x="0"  y="80" width="204" height="3" />
+
+			<label name="rate" x="93" y="5" width="55" height="18" format="宋体绿色12"/>
+
+			<label name="taskname" x="10" y="35" width="125" height="18" format="技能名称"/>
+			<label name="reward" x="10" y="85" width="125" height="18" format="技能名称"/>
+
+			<!--星星-->
+			<box name="星星" x="130" y="65" width="75" height="15">
+				<image bmp="star2" x="0" y="0" width="16" height="15" />
+				<image bmp="star2" x="15" y="0" width="16" height="15" />
+				<image bmp="star2" x="30" y="0" width="16" height="15" />
+				<image bmp="star2" x="45" y="0" width="16" height="15" />
+				<image bmp="star2" x="60" y="0" width="16" height="15" />
+
+				<image name="item1" bmp="star1" x="0" y="0" width="16" height="15" />
+				<image name="item2" bmp="star1" x="15" y="0" width="16" height="15" />
+				<image name="item3" bmp="star1" x="30" y="0" width="16" height="15" />
+				<image name="item4" bmp="star1" x="45" y="0" width="16" height="15" />
+				<image name="item5" bmp="star1" x="60" y="0" width="16" height="15" />
+
+			</box>
+				
+				
+			<button name="pickup" width="17" height="24" x="-9" y="40">
+				<state frame="1" back="pick1" />
+				<state frame="2" back="pick2" />
+				<state frame="3" back="pick3" />
+			</button>
+
+			<!--重置按钮-->
+			<button name="reset" width="44" height="21" x="80" y="88">
+				<state frame="1" back="reset1" />
+				<state frame="2" back="reset2" />
+				<state frame="3" back="reset3" />
+			</button>
+
+			<!--领奖按钮-->
+			<button name="getreward" width="44" height="21" x="80" y="88">
+				<state frame="1" back="getreward1" />
+				<state frame="2" back="getreward2" />
+				<state frame="3" back="getreward3" />
+			</button>
+
+
+		
+		</box>
+
+
+
+	</controls>
+</xml>

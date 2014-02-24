@@ -1,0 +1,30 @@
+<xml >
+  <depends>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicIcons.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+  </depends>
+  <bitmaps>
+    <bitmap id="rail" src="imgs/快捷任务区中间横条.png" />
+  </bitmaps>
+
+  
+  <texts>
+
+  </texts>
+  <controls>
+    <box id="tip" width="310" height="100">
+
+      <image bmp="mapTipsBoard" grid="50,50,50,50" left="0" top="0" right="0" bottom="0" />
+
+
+      <image bmp="rail" x="0" y="40" width="310" height="3" />
+
+      <label name="name1" x="17" y="18" width="85" height="20" format="提示说明文字"/>
+      <label name="name2" x="17" y="50" width="290" height="20" format="提示说明文字"/>
+      <label name="name3" x="17" y="70" width="290" height="20" format="提示说明文字"/>
+
+
+    </box>
+  </controls>
+</xml>

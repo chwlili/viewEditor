@@ -1,0 +1,65 @@
+<xml>
+	<bitmaps>
+		<bitmap id="vip闪光效果" src="imgs/vip.png"/>
+		<bitmap id="任务完成金边" src="imgs/gold.png"/>
+		<bitmap id="背包满" src="imgs/bagfull.png"/>
+		<bitmap id="闪动序列" src="imgs/flash.png"/>
+		<bitmap id="镶嵌宝石选择提示" src="imgs/gemselect.png"/>
+		<bitmap id="装备强化提示" src="imgs/upgrade.png"/>
+		<bitmap id="装备升级提示" src="imgs/upgradestar.png"/>
+		<bitmap id="装备升阶提示" src="imgs/upgradesun.png"/>
+		<bitmap id="加工提示" src="imgs/manufacture.png"/>
+		<bitmap id="精铸提示" src="imgs/jingzhu.png"/>
+		<bitmap id="神铸提示" src="imgs/shenzhu.png"/>
+		<bitmap id="精铸持续" src="imgs/equipjingzhu.png"/>
+		<bitmap id="神铸持续" src="imgs/equipshenzhu.png"/>
+		<bitmap id="福利升级" src="imgs/alliancebuffupgrade.png"/>
+		<bitmap id="技能强化提示" src="imgs/skillupgrade.png"/>
+		<bitmap id="技能升级提示" src="imgs/skillupgradestar.png"/>
+		<bitmap id="技能升阶提示" src="imgs/skillupgradesun.png"/>
+		<bitmap id="符文开启提示" src="imgs/staropen.png"/>
+		<bitmap id="密印开启提示" src="imgs/aoyiopen.png"/>
+		<bitmap id="宝石镶嵌提示" src="imgs/geminlay.png"/>
+		<bitmap id="宝石升级提示" src="imgs/gemupgrade.png"/>
+		<bitmap id="宝石重铸提示" src="imgs/gemrebuild.png"/>
+		<bitmap id="叹号" src="imgs/upgradeHint.png"/>
+		<bitmap id="获得铜币" src="imgs/getcopper.png"/>
+		<bitmap id="获得金锭" src="imgs/getgold.png"/>
+		<bitmap id="首充动画" src="imgs/firstpay.png"/>
+				
+		<bitmap id="vip星星" src="imgs/vipstar.png"/>
+		<bitmap id="vip经验提升" src="imgs/vipExpup.png"/>
+		<bitmap id="vip等级提升" src="imgs/vipLvup.png"/>
+		<bitmap id="圆形充值动画" src="imgs/yuanPay.png"/>
+		<bitmap id="商城充值动画" src="imgs/shopPay.png"/>
+		
+		<bitmap id="图标_铜币" src="../public/imgs/icons/Coins2.png"/>
+		<bitmap id="图标_金锭" src="../public/imgs/icons/Gold.png"/>
+		
+		<bitmap id="升级技能提示图标" src="imgs/skilluphint.png"/>
+		<bitmap id="加工提示图标" src="imgs/manufacturehint.png"/>
+		<bitmap id="强化装备提示图标" src="imgs/equipuphint.png"/>
+		<bitmap id="镶嵌提示图标" src="imgs/inlayhint.png"/>
+		
+		<bitmap id="大喇叭闪动动画" src="imgs/horn.png"/>
+		<bitmap id="流动金条" src="imgs/shinningback.png"/>
+
+		<bitmap id="秘宝" src="imgs/mibao.png"/>
+		
+		<bitmap id="抽书渐现" src="imgs/bookshow.png"/>
+		<bitmap id="抽书旋转" src="imgs/bookroate.png"/>
+		<bitmap id="战斗力火焰" src="imgs/fightforce.png"/>
+		<bitmap id="缩小版战斗力火焰" src="imgs/minifightforce.png"/>		
+
+		<bitmap id="红4040" src="imgs/红4040.png"/>
+		<bitmap id="红6060" src="imgs/红6060.png"/>
+		<bitmap id="橙4040" src="imgs/橙4040.png"/>
+		<bitmap id="橙6060" src="imgs/橙6060.png"/>
+		<bitmap id="黄4040" src="imgs/黄4040.png"/>
+		<bitmap id="黄6060" src="imgs/黄6060.png"/>
+		<bitmap id="紫4040" src="imgs/紫4040.png"/>
+		<bitmap id="紫6060" src="imgs/紫6060.png"/>
+
+				<bitmap id="转职" src="imgs/transfer.png"/>
+	</bitmaps>
+</xml>

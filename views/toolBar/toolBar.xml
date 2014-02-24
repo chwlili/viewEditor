@@ -1,0 +1,170 @@
+﻿<xml preload="0">
+	<depends>
+		<depend src="/public/publicFilters.xml"/>
+	</depends>
+
+	<bitmaps>
+		<bitmap id="角色_01" src="imgs/角色01.png"/>
+		<bitmap id="角色_02" src="imgs/角色02.png"/>
+		<bitmap id="角色_03" src="imgs/角色03.png"/>
+		<bitmap id="背包_01" src="imgs/背包01.png"/>
+		<bitmap id="背包_02" src="imgs/背包02.png"/>
+		<bitmap id="背包_03" src="imgs/背包03.png"/>
+		<bitmap id="强化_01" src="imgs/强化01.png"/>
+		<bitmap id="强化_02" src="imgs/强化02.png"/>
+		<bitmap id="强化_03" src="imgs/强化03.png"/>
+		<bitmap id="技能_01" src="imgs/技能01.png"/>
+		<bitmap id="技能_02" src="imgs/技能02.png"/>
+		<bitmap id="技能_03" src="imgs/技能03.png"/>
+		<bitmap id="炼金_01" src="imgs/炼金01.png"/>
+		<bitmap id="炼金_02" src="imgs/炼金02.png"/>
+		<bitmap id="炼金_03" src="imgs/炼金03.png"/>
+		<bitmap id="魔法工坊_01" src="imgs/新魔法工坊01.png"/>
+		<bitmap id="魔法工坊_02" src="imgs/新魔法工坊02.png"/>
+		<bitmap id="魔法工坊_03" src="imgs/新魔法工坊03.png"/>
+		<bitmap id="占星_01" src="imgs/占星01.png"/>
+		<bitmap id="占星_02" src="imgs/占星02.png"/>
+		<bitmap id="占星_03" src="imgs/占星03.png"/>
+		<bitmap id="骑士团_01" src="imgs/骑士团01.png"/>
+		<bitmap id="骑士团_02" src="imgs/骑士团02.png"/>
+		<bitmap id="骑士团_03" src="imgs/骑士团03.png"/>
+		<bitmap id="光环_01" src="imgs/新光环01.png"/>
+		<bitmap id="光环_02" src="imgs/新光环02.png"/>
+		<bitmap id="光环_03" src="imgs/新光环03.png"/>
+		<bitmap id="秘宝屋_01" src="imgs/秘宝屋01.png"/>
+		<bitmap id="秘宝屋_02" src="imgs/秘宝屋02.png"/>
+		<bitmap id="秘宝屋_03" src="imgs/秘宝屋03.png"/>
+		<bitmap id="经验条01" src="imgs/经验条01.png"/>
+		<bitmap id="经验条02" src="imgs/经验条02.png"/>
+
+		<bitmap id="装备附魔" src="imgs/装备附魔.png"/>
+		<bitmap id="装备进阶" src="imgs/装备进阶.png"/>
+		<bitmap id="装备镶嵌" src="imgs/装备镶嵌.png"/>
+		<bitmap id="解锁等级底板" src="imgs/解锁等级底板.png"/>
+		
+		<bitmap id="转职" src="imgs/转职图标.png"/>
+		
+		<bitmap id="翅膀_01" src="imgs/翅膀01.png"/>
+		<bitmap id="翅膀_02" src="imgs/翅膀02.png"/>
+		<bitmap id="翅膀_03" src="imgs/翅膀03.png"/>
+
+		<bitmap id="圣器_01" src="imgs/圣器01.png"/>
+		<bitmap id="圣器_02" src="imgs/圣器02.png"/>
+		<bitmap id="圣器_03" src="imgs/圣器03.png"/>
+	</bitmaps>
+
+	<texts>
+		<text id="工具栏_角色Tip">点击查看角色信息</text>
+		<text id="工具栏_背包Tip">点击查看背包</text>
+		<text id="工具栏_强化Tip">点击进入强化装备</text>
+		<text id="工具栏_技能Tip">点击查看技能</text>
+		<text id="工具栏_占星Tip">点击进入占星</text>
+		<text id="工具栏_魔法工坊Tip">点击查看魔法工坊</text>
+		<text id="工具栏_骑士团Tip">点击查看骑士团</text>
+		<text id="工具栏_光环Tip">点击查看光环</text>
+		<text id="工具栏_秘宝屋Tip">点击查看秘宝屋</text>
+		<text id="工具栏_翅膀Tip">点击查看翅膀</text>
+		<text id="工具栏_圣器Tip">点击查看圣器</text>
+
+		<text id="工具栏_骑士团禁用标签">31级</text>
+		<text id="工具栏_占星禁用标签">36级</text>
+		<text id="工具栏_圣器禁用标签">46级</text>
+		<text id="工具栏_光环禁用标签">42级</text>
+		<text id="工具栏_魔法工坊禁用标签">48级</text>
+
+		<text id="工具栏_骑士团启用任务ID">49</text>
+		<text id="工具栏_占星启用任务ID">58</text>
+		<text id="工具栏_圣器启用任务ID">100</text>
+		<text id="工具栏_光环启用任务ID">83</text>
+		<text id="工具栏_魔法工坊启用任务ID">113</text>
+
+		<text id="工具栏_骑士团禁用Tip"><![CDATA[<font>$1完成<font color="#00ff00">[主线]$2</font>后开启]]></text>
+		<text id="工具栏_占星禁用Tip"><![CDATA[<font>$1完成<font color="#00ff00">[主线]$2</font>后开启]]></text>
+		<text id="工具栏_圣器禁用Tip"><![CDATA[<font>$1完成<font color="#00ff00">[主线]$2</font>后开启]]></text>
+		<text id="工具栏_光环禁用Tip"><![CDATA[<font>$1完成<font color="#00ff00">[主线]$2</font>后开启]]></text>
+		<text id="工具栏_魔法工坊禁用Tip"><![CDATA[<font>$1完成<font color="#00ff00">[主线]$2</font>后开启]]></text>
+		
+		<text id="工具栏_点击打开角色">点击打开角色</text>
+		<text id="工具栏_点击打开背包">点击打开背包</text>
+		<text id="工具栏_点击打开技能">点击打开技能</text>
+		<text id="工具栏_点击打开强化">点击进入强化装备</text>
+	</texts>
+
+	<formats>
+		<format id="描述格式" color="0xffffff" size="12" align="center" filter="黑色边框"/>
+	</formats>
+
+	<controls>
+
+		<box id="工具条bar" width="0" height="71" right="0" bottom="0">
+			<box name="活动条" width="0" height="71" right="15" bottom="10">
+				<box name="角色" tip="工具栏_角色Tip" width="67" height="77">
+					<image bmp="角色_01" width="67" height="77"/>
+					<image bmp="角色_02" width="67" height="77"/>
+					<image bmp="角色_03" width="67" height="77"/>
+				</box>
+				<box name="背包" tip="工具栏_背包Tip" width="67" height="77">
+					<image bmp="背包_01" width="67" height="77"/>
+					<image bmp="背包_02" width="67" height="77"/>
+					<image bmp="背包_03" width="67" height="77"/>
+				</box>
+				<box name="强化" tip="工具栏_强化Tip" width="67" height="77">
+					<image bmp="强化_01" width="67" height="77"/>
+					<image bmp="强化_02" width="67" height="77"/>
+					<image bmp="强化_03" width="67" height="77"/>
+				</box>
+				<box name="技能" tip="工具栏_技能Tip" width="67" height="77">
+					<image bmp="技能_01" width="67" height="77"/>
+					<image bmp="技能_02" width="67" height="77"/>
+					<image bmp="技能_03" width="67" height="77"/>
+				</box>
+				<box name="翅膀" tip="工具栏_翅膀Tip" width="67" height="77">
+					<image bmp="翅膀_01" width="67" height="77"/>
+					<image bmp="翅膀_02" width="67" height="77"/>
+					<image bmp="翅膀_03" width="67" height="77"/>
+				</box>
+				<box name="骑士团" tip="工具栏_骑士团Tip" width="67" height="77">
+					<image bmp="骑士团_01" width="67" height="77"/>
+					<image bmp="骑士团_02" width="67" height="77"/>
+					<image bmp="骑士团_03" width="67" height="77"/>
+				</box>
+				<box name="占星" tip="工具栏_占星Tip" width="67" height="77">
+					<image bmp="占星_01" width="67" height="77"/>
+					<image bmp="占星_02" width="67" height="77"/>
+					<image bmp="占星_03" width="67" height="77"/>
+				</box>
+				<box name="光环" tip="工具栏_光环Tip" width="67" height="77">
+					<image bmp="光环_01" width="67" height="77"/>
+					<image bmp="光环_02" width="67" height="77"/>
+					<image bmp="光环_03" width="67" height="77"/>
+				</box>
+				<box name="圣器" tip="工具栏_圣器Tip" width="67" height="77">
+					<image bmp="圣器_01" width="67" height="77"/>
+					<image bmp="圣器_02" width="67" height="77"/>
+					<image bmp="圣器_03" width="67" height="77"/>
+				</box>
+				<box name="魔法工坊" tip="工具栏_魔法工坊Tip" width="67" height="77">
+					<image bmp="魔法工坊_01" width="67" height="77"/>
+					<image bmp="魔法工坊_02" width="67" height="77"/>
+					<image bmp="魔法工坊_03" width="67" height="77"/>
+				</box>
+				<box name="秘宝屋" tip="工具栏_秘宝屋Tip" width="67" height="77">
+					<image bmp="秘宝屋_01" width="67" height="77"/>
+					<image bmp="秘宝屋_02" width="67" height="77"/>
+					<image bmp="秘宝屋_03" width="67" height="77"/>
+				</box>
+			</box>
+			<box name="经验条" width="637" height="71" right="0" bottom="0">
+				<image bmp="经验条01" width="637" height="16" right="0" bottom="0"/>
+				 <progressBar name="progressBar" bmp="经验条02" width="637" height="16" left="0" bottom="0" scaleX="1" onlyFront="true" ease="true" />
+			</box>
+		</box>
+
+		<box id="禁用标签" width="46" height="22" center="0">
+			<image bmp="解锁等级底板" width="46" height="22" center="0" top="0"/>
+			<text name="标签" x="0" y="3" width="46" height="22" format="描述格式"/>
+		</box>
+
+	</controls>
+
+</xml>

@@ -1,0 +1,8 @@
+<xml name="炼金">
+	<swfs>
+		<swf id="btnLib" src="../swfs/btnLib.swf"/>
+		<swf id="frames" src="../swfs/frames.swf"/>
+		<swf id="controlsLib" src="../swfs/controlsLib.swf"/>
+		<swf id="alchemy" src="../swfs/alchemy.swf"/>
+	</swfs>
+</xml>

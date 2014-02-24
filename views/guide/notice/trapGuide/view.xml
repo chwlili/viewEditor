@@ -1,0 +1,35 @@
+﻿<xml>
+	<bitmaps>
+		<bitmap id="H" src="H键.png"/>
+		<bitmap id="I" src="I键.png"/>
+		<bitmap id="J" src="J键.png"/>
+		<bitmap id="K" src="K键.png"/>
+		<bitmap id="L" src="L键.png"/>
+		<bitmap id="O" src="O键.png"/>
+		<bitmap id="U" src="U键.png"/>
+		<bitmap id="D" src="D键.png"/>
+		<bitmap id="按钮01" src="按钮01.png"/>
+		<bitmap id="按钮02" src="按钮02.png"/>
+		<bitmap id="手指" src="手指.png"/>
+	</bitmaps>
+
+	<controls>
+
+		<box id="提示窗" width="33" height="33">
+			<box name="按钮" width="400" height="116">
+				<bitmap bitmap="按钮01" width="33" height="33"/>
+				<bitmap bitmap="按钮02" width="33" height="33"/>
+			</box>
+			<box name="文字" width="400" height="116">
+				<bitmap bitmap="H" width="10" height="13" x="11" y="8"/>
+				<bitmap bitmap="H" width="10" height="13" x="11" y="11"/>
+			</box>
+			<box name="手指">
+				<bitmap bitmap="手指" width="58" height="48" x="16" y="-33"/>
+				<bitmap bitmap="手指" width="58" height="48" x="16" y="-30"/>
+			</box>
+		</box>
+		
+	</controls>
+
+</xml>

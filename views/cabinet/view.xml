@@ -1,0 +1,96 @@
+﻿<xml name="每日限购">
+	<depends>
+		<depend src="../public/publicFrames.xml"/>
+		<depend src="../public/publicButtons.xml"/>
+		<depend src="../public/controls/numberSteper/NumberSteper.xml"/>
+		
+		<depend src="../cabinet/image.xml"/>
+		<depend src="../cabinet/text.xml"/>
+		<depend src="../cabinet/format.xml"/>
+	</depends>
+		
+	<controls>		
+		<window id="窗口" width="575" height="408">
+			<image bmp="back" left="0" top="0" right="0" bottom="0"/>
+
+			<labelToggleButton width="157" height="38" center="0" top="-7" >
+				<state frame="1" back="标准标签背景" grid="8,8,8,0" format="宋体白色14"/>
+				<state frame="2" back="标准标签背景" grid="8,8,8,0" format="宋体白色14"/>
+				<state frame="3" back="标准标签背景" grid="8,8,8,0" format="宋体白色14"/>
+				<state frame="4" back="标准标签背景" grid="8,8,8,0" format="宋体白色14"/>
+				<state frame="5" back="标准标签背景" grid="8,8,8,0" format="宋体白色14"/>
+			</labelToggleButton>
+			
+			<image bmp="title" width="93" height="21" center="0" top="1"/>
+			
+			<button name="标准关闭按钮.btn" width="40" height="40" right="0" top="0">
+				<state frame="1" back="标准关闭按钮1.png" format="1"/>
+				<state frame="3" back="标准关闭按钮2.png" format="1"/>
+			</button>
+			
+			<label name="说明文字" width="190" height="20" center="0" top="40" format="说明字体样式" text="说明"/>
+			
+			<label name="小时" width="20" height="20" left="230" top="77" format="小时字体样式" text="默认数字"/>
+			<label name="分" width="20" height="20" left="290" top="77" format="分字体样式" text="默认数字"/>
+			<label name="秒" width="40" height="40" left="338" top="67" format="秒字体样式" text="默认数字"/>
+			
+			<box name="容器1" x="24" y="139">
+				<box name="限量容器1" >
+					<image bmp="limiticon" width="92" height="90" left="0" top="0" />
+					<image bmp="limittext" width="133" height="27" left="105" top="-8" />
+					<box name="剩余数字容器1" left="170" top="-15" width="60" height="40"/>
+				</box>
+				<image bmp="priceback" width="53" height="18" left="147" top="59" />
+				<image bmp="priceback" width="53" height="18" left="147" top="89" />
+				<label name="商品名字" width="110" height="20" left="75" top="25" format="商品名字字体样式" text=""/>
+				<label width="40" height="20" left="105" top="60" format="原价字体样式" text="原价"/>
+				<label width="40" height="20" left="105" top="90" format="现价字体样式" text="现价"/>
+				<label name="原价" width="50" height="20" left="147" top="60" format="原价价格字体样式" text=""/>
+				<label name="折扣价" width="50" height="20" left="147" top="90" format="现价价格字体样式" text=""/>
+				
+				<label width="40" height="20" left="205" top="60" format="Q点字体样式" text="Q点"/>
+				<label width="40" height="20" left="205" top="90" format="Q点字体样式" text="Q点"/>
+				
+				<image bmp="line" width="122" height="2" left="105" top="68" />
+				<achieveEntity name="preview" x="32" y="56" id="2367" isBig="true"/>
+				<image bmp="numback" width="53" height="18" x="46" y="105"/>
+				<label name="数量" width="20" height="20" left="76" top="105" format="商品数量字体样式" text="" />
+				<button name="购买按钮1" width="83" height="34" left="135" top="135">
+					<state frame="1" back="红色按钮1.png" format="1"/>
+					<state frame="3" back="红色按钮2.png" format="1"/>
+				</button>
+				<image bmp="buy" width="42" height="20" left="155" top="143"/>
+			</box>
+			
+			<box name="容器2" x="295" y="139">
+				<box name="限量容器2" >
+					<image bmp="limiticon" width="92" height="90" left="0" top="0" />
+					<image bmp="limittext" width="133" height="27" left="105" top="-8" />
+					<box name="剩余数字容器2" left="170" top="-15" width="60" height="40"/>
+				</box>
+				<image bmp="priceback" width="53" height="18" left="147" top="59" />
+				<image bmp="priceback" width="53" height="18" left="147" top="89" />
+				<label name="商品名字" width="110" height="20" left="75" top="25" format="商品名字字体样式" text=""/>
+				<label width="40" height="20" left="105" top="60" format="原价字体样式" text="原价"/>
+				<label width="40" height="20" left="105" top="90" format="现价字体样式" text="现价"/>
+				<label name="原价" width="50" height="20" left="147" top="60" format="原价价格字体样式" text=""/>
+				<label name="折扣价" width="50" height="20" left="147" top="90" format="现价价格字体样式" text=""/>
+				
+				<label width="40" height="20" left="205" top="60" format="Q点字体样式" text="Q点"/>
+				<label width="40" height="20" left="205" top="90" format="Q点字体样式" text="Q点"/>
+				
+				<image bmp="line" width="122" height="2" left="105" top="68" />
+				<achieveEntity name="preview" x="32" y="56" id="2367" isBig="true"/>
+				<image bmp="numback" width="53" height="18" x="46" y="105"/>
+				<label name="数量" width="20" height="20" left="76" top="105" format="商品数量字体样式" text="" />
+				<button name="购买按钮2" width="83" height="34" left="135" top="135">
+					<state frame="1" back="红色按钮1.png" format="1"/>
+					<state frame="3" back="红色按钮2.png" format="1"/>
+				</button>
+				<image bmp="buy" width="42" height="20" left="155" top="143"/>
+			</box>
+
+		</window>
+
+	</controls>
+</xml>

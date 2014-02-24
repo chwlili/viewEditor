@@ -1,0 +1,347 @@
+<xml>
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicIcons.xml"/>
+		<depend src="/public/publicNumimage.xml"/>
+
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/controls/scroller/Scroller.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="title" src="imgs/标题文字.png" />
+		<bitmap id="禁术左侧标题" src="imgs/禁术左侧标题.png" />
+		<bitmap id="firstskill" src="imgs/职业技能.png" />
+		<bitmap id="secondskill" src="imgs/一转技能文字.png" />
+		<bitmap id="thirdskill" src="imgs/二转技能文字.png" />
+		<bitmap id="fourskill" src="imgs/三转技能文字.png" />
+		<bitmap id="skillstep" src="imgs/技能阶底板.png" />
+		<bitmap id="skillLock" src="imgs/技能框体-锁定.png" />
+		<bitmap id="选中" src="imgs/白.png" />
+		<bitmap id="未选中" src="imgs/黑.png" />
+
+		<bitmap id="skillBoard1" src="imgs/右侧大底板.png" />
+		<bitmap id="skillBoard1_2" src="imgs/右侧大底板02.jpg" />
+
+		<bitmap id="skillBoard2" src="imgs/右侧属性变化底板.png" />
+		
+
+		<bitmap id="右侧底板" src="imgs/右侧底板.png" />
+		<bitmap id="解锁所需文字" src="imgs/解锁所需文字.png" />
+		<bitmap id="升级所需文字" src="imgs/升级所需文字.png" />
+		<bitmap id="学习所需文字" src="imgs/学习所需文字.png" />
+		<bitmap id="禁术升级文字" src="imgs/禁术升级文字.png" />
+		<bitmap id="下一级属性文字" src="imgs/下一级属性文字.png" />
+
+
+		<bitmap id="skillFrame1" src="imgs/技能框体-灰色.png" />
+		<bitmap id="skillFrame2" src="imgs/技能框体-绿色.png" />
+		<bitmap id="skillFrame3" src="imgs/技能框体-蓝色.png" />
+		<bitmap id="skillFrame4" src="imgs/技能框体-紫色.png" />
+		<bitmap id="skillFrame5" src="imgs/技能框体-黄色.png" />
+		<bitmap id="skillFrame6" src="imgs/技能框体-橙色.png" />
+		<bitmap id="skillFrame7" src="imgs/技能框体-红色.png" />
+
+		<bitmap id="skillFrameB1" src="imgs/技能框体-灰色_大.png" />
+		<bitmap id="skillFrameB2" src="imgs/技能框体-绿色_大.png" />
+		<bitmap id="skillFrameB3" src="imgs/技能框体-蓝色_大.png" />
+		<bitmap id="skillFrameB4" src="imgs/技能框体-紫色_大.png" />
+		<bitmap id="skillFrameB5" src="imgs/技能框体-黄色_大.png" />
+		<bitmap id="skillFrameB6" src="imgs/技能框体-橙色_大.png" />
+		<bitmap id="skillFrameB7" src="imgs/技能框体-红色_大.png" />
+
+		<bitmap id="faction01" src="imgs/剑士.png"/>
+		<bitmap id="faction11" src="imgs/疾风剑士.png"/>
+		<bitmap id="faction21" src="imgs/皇家剑士.png"/>
+		<bitmap id="faction31" src="imgs/冰霜剑士.png"/>
+		<bitmap id="faction02" src="imgs/刺客.png"/>
+		<bitmap id="faction12" src="imgs/暗影刺客.png"/>
+		<bitmap id="faction22" src="imgs/梦魇刺客.png"/>
+		<bitmap id="faction32" src="imgs/死亡使者.png"/>
+		<bitmap id="faction03" src="imgs/战士.png"/>
+		<bitmap id="faction13" src="imgs/狂战士.png"/>
+		<bitmap id="faction23" src="imgs/皇家战士.png"/>
+		<bitmap id="faction33" src="imgs/毁灭战神.png"/>	
+		
+		<bitmap id="head" src="imgs/角色切页头像猪脚01.png" />
+		<bitmap id="小锁" src="imgs/小锁.png" />
+
+		<bitmap id="禁术技能底板01" src="imgs/禁术技能底板01.jpg" />
+		<bitmap id="禁术技能底板02" src="imgs/禁术技能底板02.jpg" />
+		<bitmap id="使用中禁术遮罩" src="imgs/使用中禁术遮罩.png" />
+		<bitmap id="未学会文字" src="imgs/未学会文字.png" />
+		<bitmap id="进度条背景" src="imgs/pic28.png" />
+		<bitmap id="进度条前景" src="imgs/pic29.png" />
+		<bitmap id="pic17" src="imgs/pic17.png" />
+		<bitmap id="lv" src="imgs/lv.png" />
+
+		<bitmap id="大暴击字" src="/motion/imgs/大暴击.png"/>
+    	<bitmap id="小暴击字" src="/motion/imgs/暴击.png"/>
+	</bitmaps>
+	<texts>
+		<text id="升级技能">升级技能</text>
+		<text id="学习技能">学习技能</text>
+		<text id="未学习">未学习</text>	
+		<text id="下一等级">下一等级</text>
+		<text id="阶段">阶</text>
+		<text id="级别">级</text>
+		<text id="需要角色等级">需要角色等级</text>
+		<text id="锁定">锁定</text>
+		
+		<text id="转职Tip">需要$1转之后开放</text>
+		
+		<text id="转职为后解锁11">转职为疾风剑士后解锁</text>
+		<text id="转职为后解锁21">转职为皇家剑士后解锁</text>
+		<text id="转职为后解锁31">转职为冰霜剑士后解锁</text>
+		<text id="转职为后解锁12">转职为暗影刺客后解锁</text>
+		<text id="转职为后解锁22">转职为梦魇刺客后解锁</text>
+		<text id="转职为后解锁32">转职为死亡使者后解锁</text>
+		<text id="转职为后解锁13">转职为狂战士后解锁</text>
+		<text id="转职为后解锁23">转职为皇家战士后解锁</text>
+		<text id="转职为后解锁33">转职为毁灭战神后解锁</text>
+
+
+		<text id="技能">技能</text>
+		<text id="禁术">禁术</text>
+		<text id="启用">启 用</text>
+		<text id="学习禁术">学习禁术</text>
+		<text id="禁术祭炼">禁术祭炼</text>
+		<text id="使用中">使用中</text>
+
+		<text id="禁术tips">
+<![CDATA[
+使用禁术祭练石获得经验,升级可提升禁术属性
+有几率获得小暴击(获得5倍经验)
+有几率获得大暴击(获得10倍经验)
+]]>
+		</text>
+		<text id="已达最高等级">已达最高等级</text>
+	</texts>
+
+	<controls>
+			<window id="main" width="830" height="520">
+				<ref ref="WindowBack" />
+				<ref name="closeBtn" ref="CloseButton" />
+
+				<image bmp="bg1" x="365" y="12" width="355" height="395" />
+				<image bmp="title" x="365" y="10" width="81" height="31" />
+				<image bmp="knightFrame2" grid="30,47,29,49" x="110" y="76" width="280" height="422" />
+
+				<labelToggleButton name="toggleBtn1" width="80" height="24" top="55" left="130" label="技能">
+        			<state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中"/>
+			        <state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        			<state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+			        <state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        			<state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+      			</labelToggleButton>
+      			<labelToggleButton name="toggleBtn2" width="80" height="24" top="55" left="215" label="禁术">
+        			<state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中"/>
+			        <state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        			<state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+			        <state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+        			<state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中"/>
+      			</labelToggleButton>
+			</window>
+
+			<box id="skillBox" width="830" height="500" top="20">
+				<box name="skillPanel" x="0" y="0" width="250" >
+					<box name="skillPanel1" x="0" y="0" width="250" >
+						<image name="skillbg1" bmp="skillstep" x="0" y="0" width="250" height="21" />
+						<image name="firstskill" center="0" y="0" width="65" height="24" />
+					</box>
+					<box name="skillPanel2" x="0" y="195" width="250" >
+						<image name="skillbg2" bmp="skillstep" x="0" y="0" width="250" height="21" />
+						<image name="secondskill" center="0" y="0" width="65" height="24" />
+					</box>
+					<box name="skillPanel3" x="0" y="315" width="250" >
+						<image name="skillbg3" bmp="skillstep" x="0" y="0" width="250" height="21" />
+						<image name="thirdskill" center="0" y="0" width="65" height="24" />
+					</box>
+					<box name="skillPanel4" x="0" y="435" width="250" >
+						<image name="skillbg4" bmp="skillstep" x="0" y="0" width="250" height="21" />
+						<image name="fourskill" center="0" y="0" width="65" height="24" />
+					</box>
+				</box>
+				<ref name="scroller" ref="Scroller" width="280" height="420" x="110" y="58"/>
+
+				<box name="底板" x="386" y="56" width="416" height="422" >
+					<image bmp="skillBoard1" x="0" y="0" width="416" height="422" />	
+					<image bmp="skillBoard1_2" x="39" y="53" width="343" height="327" />
+					<image name="当前技能名称" x="170" y="50" width="82" height="27"/>
+					<image bmp="knightTextBoard" grid="8,8,8,8" x="120" y="27" width="100" height="22" />
+					<image bmp="knightsFeat_2" x="100" y="15" width="42" height="42"/>
+					<label name="我的战功" x="150" y="27" width="120" height="22" format="战功字体"/>
+
+				</box>
+				<box name="属性" x="420" y="235" width="346" height="110" >
+					<image bmp="右侧底板" width="348" height="80" top="12" grid="0,30,0,30" />
+					<image bmp="下一级属性文字" left="20" width="80" height="23" />
+					<label name="下一等级" x="110" y="22" width="200" height="22" format="橘色宋体14"/>
+					<label name="下一等级value" x="170" y="22" width="200" height="22" format="宋体白色14带文字间距" />
+					<label name="技能描述" x="10" y="40" width="330" height="44" format="暗黄色" multiline="true" wordWrap="true"/>
+
+				</box>
+				<box name="消费" x="420" y="330" width="348" height="85" >
+					<image bmp="右侧底板" width="348" height="75" top="12" />
+					<image name="升级所需文字" bmp="升级所需文字" width="66" height="22" top="0" left="20" />
+					<image name="解锁所需文字" bmp="解锁所需文字" width="67" height="23" top="0" left="20" />
+					<image name="学习所需文字" bmp="学习所需文字" width="66" height="22" top="0" left="20" />
+					<box name="feat" x="120" y="40">
+						<image bmp="knightTextBoard" grid="8,8,8,8" x="20" y="10" width="80" height="22" />
+						<label name="战功" x="25" y="10" width="75" html="true" height="42" format="宋体绿色12居中"/>
+						<image bmp="knightsFeat_2" x="0" y="0" width="42" height="42"/>
+					</box>
+
+					<box name="skillBook" x="230" y="40">
+						<image name="技能书底板" bmp="knightTextBoard" grid="8,8,8,8" x="35" y="10" width="60" height="22" />
+						<achieveEntity name="消耗" x="0" y="0" id="3079" width="42" heigth="42"/>
+						<label name="技能书value" x="35" y="10" width="55" height="22" html="true" format="宋体绿色12居中"/>
+					</box>
+					<box name="gold" x="10" y="40">
+						<image bmp="knightTextBoard" grid="8,8,8,8" x="20" y="10" width="80" height="22" />
+						<label name="金币" x="25" y="10" width="75" height="42" html="true" format="宋体绿色12居中"/>
+						<image bmp="knightsGold_2" x="0" y="0" width="42" height="42"/>
+					</box>
+
+					<label name="需要等级" x="120" y="25" width="200" height="18" format="橘色宋体12" text="需要角色等级"/>
+					<label name="需要等级value" x="200" y="26" width="200" height="18" format="宋体红色12"/>
+					<label name="解锁需求转职" width="140" height="18" center="0" top="34" format="efb55a_12_居中" />
+				</box>
+				
+				<labelButton name="updateBtn"  width="101" height="39" label="升级技能" left="545" top="420">
+					<state frame="1" back="普通功能-大1" format="按钮标签_efb55a_12_居中"/>
+					<state frame="2" back="普通功能-大2" format="按钮标签_efb55a_12_居中"/>
+					<state frame="3" back="普通功能-大3" format="按钮标签_efb55a_12_居中"/>
+				</labelButton>
+			</box>
+
+			<box id="jinShuBox" width="830" height="500" top="20">
+				<box name="skillPanel" x="0" y="0" width="250" >
+					<box name="skillPanel1" x="0" y="0" width="250" >
+						<image name="skillbg1" bmp="skillstep" x="0" y="0" grid="0,10,0,10" width="250" height="28" />
+						<image name="禁术左侧标题" bmp="禁术左侧标题" center="0" y="0" width="57" height="27" />
+						<label name="key" center="90" y="4" width="120" height="22" format="橘色宋体14"/>
+					</box>
+				</box>
+				<ref name="scroller" ref="Scroller" width="280" height="420" x="110" y="58"/>
+
+				<box name="底板" x="386" y="56" width="416" height="422" >
+					<image  bmp="skillBoard1" x="0" y="0" width="416" height="422" />	
+					<image  bmp="skillBoard1_2" x="39" y="53" width="343" height="327" />
+					<image name="当前技能名称" x="140" y="50" />
+					<image bmp="knightTextBoard" grid="8,8,8,8" x="120" y="27" width="100" height="22" />
+					<image bmp="knightsFeat_2" x="100" y="15" width="42" height="42"/>
+					<label name="我的战功" x="150" y="27" width="120" height="22" format="战功字体"/>
+
+				</box>
+				<box name="属性" x="420" y="235" width="346" height="110" > 
+					<image  bmp="右侧底板" width="348" height="80" top="12" grid="0,30,0,30" />
+					<image bmp="下一级属性文字" left="20" width="80" height="23" />
+					<label name="下一等级" x="110" y="22" width="200" height="22" format="橘色宋体14"/>
+					<label name="下一等级value" x="170" y="22" width="200" height="22" format="宋体白色14带文字间距" />
+					<label name="技能描述" x="10" y="40" width="330" height="44" format="暗黄色" multiline="true" wordWrap="true"/>
+					<label name="已达最高等级" center="0" y="40" width="200" height="22" format="宋体红色14居中" text="已达最高等级" visible="false" />
+				</box>
+				<box name="消费" x="420" y="330" width="348" height="85" >
+					<image  bmp="右侧底板" width="348" height="75" top="12" />
+					<image name="禁术升级文字" bmp="禁术升级文字" width="66" height="22" top="0" left="20" />
+					<image name="学习所需文字" bmp="学习所需文字" width="66" height="22" top="0" left="20" />
+					<box name="skillBook" y="25" x="125">
+						<image name="技能书底板" bmp="knightTextBoard" grid="8,8,8,8" x="35" y="10" width="60" height="22" />
+						<achieveEntity name="消耗" x="0" y="0" id="3079" width="42" heigth="42"/>
+						<label name="技能书value" x="35" y="10" width="55" height="22" html="true" format="宋体绿色12居中"/>
+					</box>
+
+					<box name="upgrade" width="348" height="85">
+						<achieveEntity name="item" x="20" y="25" />
+						<label name="itemLabel" left="20" top="68" width="40" height="18" html="true" format="宋体绿色12居中"/>
+						<image name="progressBg" bmp="进度条背景" width="236" height="21" left="72" top="32" />
+						<progressBar name="progressBar" bmp="进度条前景" width="236" height="21" x="72" y="32" scaleX="1" onlyFront="true" ease="true" />
+						<image bmp="pic17" width="15" height="20" top="32" left="190" />
+
+						<filmAnimEffect name="大暴击字" bmp="大暴击字" center="0" middle="0" row="3" col="3" tCount="9" frameDelay="50" loop="1"/>
+      					<filmAnimEffect name="小暴击字" bmp="小暴击字" center="0" middle="0" row="3" col="3" tCount="8" frameDelay="50" loop="1"/>
+					</box>
+				</box>
+
+				<labelButton name="updateBtn"  width="101" height="39" label="升级技能" left="545" top="420">
+					<state frame="1" back="普通功能-大1" format="按钮标签_efb55a_12_居中"/>
+					<state frame="2" back="普通功能-大2" format="按钮标签_efb55a_12_居中"/>
+					<state frame="3" back="普通功能-大3" format="按钮标签_efb55a_12_居中"/>
+				</labelButton>
+			</box>
+
+			
+
+			<box id="skillCell" width="68" height="68" x="0" y="0">
+				<box name="skillIcon" width="68" height="68">
+					<image name="skillIcon" left="9" top="9" right="9" bottom="9"/>
+				</box>
+				<image name="frame1" bmp="skillFrame1" x="0" y="0" width="68" height="68"/>
+				<image name="frame2" bmp="skillFrame2" x="0" y="0" width="68" height="68"/>
+				<image name="frame3" bmp="skillFrame3" x="0" y="0" width="68" height="68"/>
+				<image name="frame4" bmp="skillFrame4" x="0" y="0" width="68" height="68"/>
+				<image name="frame5" bmp="skillFrame5" x="0" y="0" width="68" height="68"/>
+				<image name="frame6" bmp="skillFrame6" x="0" y="0" width="68" height="68"/>
+				<image name="frame7" bmp="skillFrame7" x="0" y="0" width="68" height="68"/>
+				<image name="skillIconLock" bmp="skillLock" left="0" top="0" right="0" bottom="0"/>
+				<label name="skillKey" x="0" y="-5" width="68" height="20" format="技能KEY" />
+				<image name="技能选中" bmp="选中" x="0" y="0" width="68" height="68"/>
+				<image name="技能未选中" bmp="未选中" x="0" y="0" width="68" height="68"/>
+				<image name="skillIconGray" left="2" top="2" right="2" bottom="2"/>
+				<label name="skillName" x="0" y="60" width="68" height="20" format="技能名称" html="true" />
+				<label name="skillLock" x="0" y="60" width="68" height="20" format="技能名称" html="true" />
+				<image name="小锁" bmp="小锁" bottom="-8" center="0" width="30" height="37" visible="false" />
+			</box>
+			<box id="skillCellBig" width="98" height="98" x="0" y="0">
+				<box name="skillIcon" width="98" height="98">
+					<image name="skillIcon" left="6" top="6" right="6" bottom="6"/>
+				</box>
+				<image name="frame1" bmp="skillFrameB1" x="0" y="0" width="98" height="98"/>
+				<image name="frame2" bmp="skillFrameB2" x="0" y="0" width="98" height="98"/>
+				<image name="frame3" bmp="skillFrameB3" x="0" y="0" width="98" height="98"/>
+				<image name="frame4" bmp="skillFrameB4" x="0" y="0" width="98" height="98"/>
+				<image name="frame5" bmp="skillFrameB5" x="0" y="0" width="98" height="98"/>
+				<image name="frame6" bmp="skillFrameB6" x="0" y="0" width="98" height="98"/>
+				<image name="frame7" bmp="skillFrameB7" x="0" y="0" width="98" height="98"/>
+				<image name="skillIconGray" left="2" top="2" right="2" bottom="2"/>
+				<image name="skillIconLock" bmp="skillLock" left="8" top="8" right="8" bottom="8"/>
+				<label name="skillName" x="0" y="62" width="98" height="20" format="技能名称" html="true" />
+				<label name="skillLock" x="0" y="62" width="98" height="20" format="解锁" html="true" />
+				<image name="小锁" bmp="小锁" bottom="-8" center="0" width="30" height="37" visible="false" />
+			</box>
+
+
+			<box id="jinShuItem" width="240" height="78">
+				<image bmp="禁术技能底板01" width="240" height="78" />
+				<image name="禁术技能底板02" bmp="禁术技能底板02" width="240" height="78" />
+				<box name="skillIcon" height="78" >
+					<image name="skillIcon" width="50" height="50" middle="-1" x="14" />
+				</box>
+				<image name="frame1" bmp="skillFrame1" x="5" middle="0" width="68" height="68"/>
+				<image name="frame6" bmp="skillFrame6" x="5" middle="0" width="68" height="68"/>
+				<label name="skillName" left="70" top="6" width="140" height="22" format="宋体白色14" html="true" />
+				<image name="未学会文字" bmp="未学会文字" width="48" height="22" left="70" bottom="14" />
+				<image name="使用中禁术遮罩" bmp="使用中禁术遮罩" width="240" height="78" />
+				<label bottom="15" right="15" width="62" height="18" format="宋体绿色12居中" text="使用中" />
+				<image name="lv" bmp="lv" width="25" height="19" left="72" bottom="20" />
+				<maskcontrol name="mask" width="240" height="78" />
+				<labelButton name="启用" width="62" height="22" bottom="15" right="15" label="启用" >
+		          <state frame="1" back="小按钮01"  format="按钮标签_efb55a_12_居中"/>
+		          <state frame="2" back="小按钮02"  format="按钮标签_efb55a_12_居中"/>
+		          <state frame="3" back="小按钮03"  format="按钮标签_efb55a_12_居中"/>
+		        </labelButton>
+			</box>
+
+			<box id="rolehead" width="60" height="60" x="0" y="0">
+				<image name="Rolehead1" bmp="knightRolehead1" left="0" top="0" right="0" bottom="0"/>
+				<image name="Rolehead2" bmp="knightRolehead2" left="0" top="0" right="0" bottom="0"/>
+				<image name="head" bmp="head" x="15" y="12" width="43" height="44"/>
+				<label name="roleName" x="4" y="40" width="68" height="20" format="名字" />
+				<label name="roleLv" x="4" y="4" width="68" height="20" format="名字" />
+			</box>
+	</controls>
+	
+</xml>

@@ -1,0 +1,120 @@
+﻿<xml>
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+
+	<bitmaps>
+		<bitmap id="背景" src="新功能开启底板.png"/>
+		<bitmap id="标题" src="新功能开启文字.png"/>
+		
+		<bitmap id="翅膀标头" src="开启翅膀-标头.png"/>
+		<bitmap id="翅膀标题" src="天使之翼.png"/>
+		<bitmap id="可升级" src="开启翅膀-可升级文字.png"/>
+		<bitmap id="可培养" src="开启翅膀-可培养文字.png"/>
+		
+		<bitmap id="镶嵌宝石标题" src="宝石镶嵌.png"/>
+		<bitmap id="装备进阶标题" src="装备进阶.png"/>
+		<bitmap id="装备附魔标题" src="装备附魔.png"/>
+		<bitmap id="光环标题" src="光环.png"/>
+		<bitmap id="骑士团标题" src="骑士团.png"/>
+		<bitmap id="占星标题" src="占星.png"/>
+		<bitmap id="圣器标题" src="圣器.png"/>
+		<bitmap id="魔法工坊标题" src="魔法工坊.png"/>
+	</bitmaps>
+	
+	<bitmapReaders>
+		<bitmapReader id="镶嵌宝石标题图标" bmp="镶嵌宝石标题"/>
+		<bitmapReader id="装备进阶标题图标" bmp="装备进阶标题"/>
+		<bitmapReader id="装备附魔标题图标" bmp="装备附魔标题"/>
+		<bitmapReader id="光环标题图标" bmp="光环标题"/>
+		<bitmapReader id="骑士团标题图标" bmp="骑士团标题"/>
+		<bitmapReader id="占星标题图标" bmp="占星标题"/>
+		<bitmapReader id="圣器标题图标" bmp="圣器标题"/>
+		<bitmapReader id="魔法工坊标题图标" bmp="魔法工坊标题"/>
+	</bitmapReaders>
+	
+	<texts>
+		<text id="镶嵌宝石左侧提示">可为装备镶嵌七彩宝石</text>
+		<text id="镶嵌宝石右侧提示">战斗力大幅飙升</text>
+		
+		<text id="装备进阶左侧提示">装备华丽进阶</text>
+		<text id="装备进阶右侧提示">强化属性再飙升</text>
+		
+		<text id="装备附魔左侧提示">为装备附魔</text>
+		<text id="装备附魔右侧提示">海量属性自由搭配</text>
+		
+		<text id="光环左侧提示">点亮脚下华丽光环</text>
+		<text id="光环右侧提示">轻松应对各种战况</text>
+		
+		<text id="骑士团左侧提示">赶快加入骑士团</text>
+		<text id="骑士团右侧提示">享受大量额外收益与活动</text>
+		
+		<text id="占星左侧提示">点亮高级星运</text>
+		<text id="占星右侧提示">属性直冲云霄</text>
+		
+		<text id="圣器左侧提示">华丽追尾特效</text>
+		<text id="圣器右侧提示">猛涨上万战力</text>
+		
+		<text id="魔法工坊左侧提示">打造完美首饰</text>
+		<text id="魔法工坊右侧提示">全攻全血不是梦</text>
+		
+		<text id="升级描述">快速获得大量战力</text>
+		<text id="培养描述">获得与众不同的属性</text>
+		<text id="我知道了">我知道了</text>
+	</texts>
+
+	<controls>
+
+		<box id="提示窗" width="400" height="116" center="0" middle="0">
+			<box name="容器" width="400" height="116">
+				<image bmp="背景" width="400" height="116"/>
+				<image bmp="标题" width="98" height="26" center="0" top="0"/>
+				<bitmap name="图标"/>
+			</box>
+		</box>
+		
+		<box id="功能提示窗" width="420" height="205" center="0" middle="0">
+			<image bmp="中底板底" grid="30,0,30,0" width="420" height="205"/>
+			<image bmp="翅膀标头" width="420" height="33" center="0" top="0"/>
+			
+			<box name="容器" width="400" height="116" center="0" top="45">
+				<image bmp="背景" width="400" height="116"/>
+				<image name="title" width="77" height="22" center="0" top="0"/>
+				<label name="leftDesc" width="140" height="20" left="0" top="60" format="翅膀培养12居中"/>
+				<label name="rightDesc" width="140" height="20" right="0" top="60" format="翅膀培养12居中"/>
+				<bitmap name="图标"/>
+			</box>
+			
+			<labelButton name="commitBtn" label="我知道了" width="82" height="28" center="0" bottom="12">
+				<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+				<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+				<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+			</labelButton>
+		</box>
+		
+		<box id="翅膀提示窗" width="420" height="205" center="0" middle="0">
+			<image bmp="中底板底" grid="30,0,30,0" width="420" height="205"/>
+			<image bmp="翅膀标头" width="420" height="33" center="0" top="0"/>
+			
+			<box name="容器" width="400" height="116" center="0" top="45">
+				<image bmp="背景" width="400" height="116"/>
+				<image bmp="翅膀标题" width="77" height="22" center="0" top="0"/>
+				<image bmp="可升级" width="50" height="22" left="45" top="35"/>
+				<label text="升级描述" width="120" height="20" left="10" top="60" format="翅膀培养12居中"/>
+				<image bmp="可培养" width="50" height="22" right="45" top="35"/>
+				<label text="培养描述" width="120" height="20" right="10" top="60" format="翅膀培养12居中"/>
+				<bitmap name="图标"/>
+			</box>
+			
+			<labelButton name="commitBtn" label="我知道了" width="82" height="28" center="0" bottom="12">
+				<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+				<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+				<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+			</labelButton>
+		</box>
+		
+	</controls>
+
+</xml>

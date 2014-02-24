@@ -1,0 +1,48 @@
+﻿<xml name="在线礼包">
+	<depends>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="标题" src="imgs/在线礼包文字.png"/>
+		<bitmap id="道具框" src="imgs/道具框.jpg"/>
+	</bitmaps>
+	
+	<texts>
+		<text id="稍后领取">稍后领取</text>
+		<text id="领取奖励">领取奖励</text>
+	</texts>
+
+	<controls>
+		<window id="main" width="300" height="190">
+			<ref ref="WindowBack"/>
+			<ref name="closeBtn" ref="CloseButton"/>
+			<image bmp="标题" width="105" height="31" top="10" center="0"/>
+			
+			<label name="desc" width="300" height="20" center="0" top="50" format="ffbe57_12_居中" html="true"/>
+			
+			<image bmp="道具框" width="48" height="48" left="45" top="80"/>
+			<image bmp="道具框" width="48" height="48" center="0" top="80"/>
+			<image bmp="道具框" width="48" height="48" right="45" top="80"/>
+
+			<labelButton name="delayBtn" width="82" height="28" center="0" bottom="15" label="稍后领取">
+				<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中" />
+				<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中" />
+				<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中" />
+			</labelButton>
+			
+			<labelButton name="rewardBtn" width="82" height="28" center="0" bottom="15" label="领取奖励">
+				<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中" />
+				<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中" />
+				<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中" />
+			</labelButton>
+			
+			<achieveEntity name="gift_0" x="49" y="84"/>
+			<achieveEntity name="gift_1" x="130" y="84"/>
+			<achieveEntity name="gift_2" x="211" y="84"/>
+		</window>
+	</controls>
+</xml>

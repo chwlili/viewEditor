@@ -1,0 +1,160 @@
+<xml desc="日日高升">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="表格头" src="imgs/日日高升表格标头.png"/>
+		<bitmap id="表格条" src="imgs/日日高升表格条.jpg"/>
+		<bitmap id="已领取" src="imgs/已领取.png"/>
+		<bitmap id="奖励图标框" src="imgs/奖励图标框.png"/>
+		<bitmap id="紫色光圈" src="imgs/1.png"/>
+	</bitmaps>
+	<texts>
+		<text id="gift_step_0">275</text>
+		<text id="gift_step_1">276</text>
+		<text id="gift_step_2">277</text>
+		<text id="gift_step_3">278</text>
+		<text id="gift_step_4">279</text>
+		<text id="gift_step_5">280</text>
+		<text id="gift_step_6">281</text>
+		<text id="gift_step_7">282</text>
+		<text id="gift_step_8">283</text>
+		<text id="gift_step_9">284</text>
+		<text id="vipGift_step_0">285</text>
+		<text id="vipGift_step_1">286</text>
+		<text id="vipGift_step_2">287</text>
+		<text id="vipGift_step_3">288</text>
+		<text id="vipGift_step_4">289</text>
+		<text id="vipGift_step_5">290</text>
+		<text id="vipGift_step_6">291</text>
+		<text id="vipGift_step_7">292</text>
+		<text id="vipGift_step_8">293</text>
+		<text id="vipGift_step_9">294</text>
+		<text id="date_0">1月30日</text>
+		<text id="date_1">1月31日</text>
+		<text id="date_2">2月1日</text>
+		<text id="date_3">2月2日</text>
+		<text id="date_4">2月3日</text>
+		<text id="date_5">2月4日</text>
+		<text id="date_6">2月5日</text>
+		<text id="date_7">2月6日</text>
+		<text id="date_8">2月7日</text>
+		<text id="date_9">2月8日</text>
+		<text id="全服领取">全服领取</text>
+		<text id="骑士特权领取">骑士特权领取</text>
+		<text id="领取">领取</text>
+		<text id="骑士特权">骑士领取</text>
+	</texts>
+	<formats>
+		<format id="表格头字体" font="宋体" size="12" color="0xa03506" filter="黑色边框" align="center"/>
+	</formats>
+	<controls>
+		<box id="cell04" width="482" height="270">
+			<image bmp="表格头" width="482" height="25" center="4" top="0"/>
+			<label text="全服领取" width="292" height="20" left="0" top="2" format="表格头字体"/>
+			<label text="骑士特权领取" width="190" height="20" right="0" top="2" format="表格头字体"/>
+			<ref name="scroller" ref="Scroller" width="490" height="252" center="4" y="20"/>
+		</box>
+		<box id="cell06ItemBox" width="487" height="48">
+			<image bmp="表格条" width="487" height="48"/>
+			<label name="活动时间" width="45" height="20" left="5" middle="0" format="fdd59a_12_居中"/>
+			<image bmp="奖励图标框" width="42" height="42" x="54" y="3"/>
+			<achieveEntity name="article_0" x="55" y="4"/>
+			<image bmp="奖励图标框" width="42" height="42" x="99" y="3"/>
+			<achieveEntity name="article_1" x="100" y="4"/>
+			<image bmp="奖励图标框" width="42" height="42" x="144" y="3"/>
+			<achieveEntity name="article_2" x="145" y="4"/>
+			<labelButton name="rewardBtn" width="56" height="22" left="197" middle="0" label="领取">
+				<state frame="1" back="small_btn_1_1" format="ffbe57_12_居中"/>
+				<state frame="2" back="small_btn_1_2" format="ffbe57_12_居中"/>
+				<state frame="3" back="small_btn_1_3" format="ffbe57_12_居中"/>
+			</labelButton>
+			<image name="rewardedImg" bmp="已领取" width="70" height="45" left="190" middle="0"/>
+			<image bmp="奖励图标框" width="42" height="42" x="289" y="3"/>
+			<achieveEntity name="article_3" x="290" y="4"/>
+			<image bmp="奖励图标框" width="42" height="42" x="334" y="3"/>
+			<achieveEntity name="article_4" x="335" y="4"/>
+			<filmAnimEffect name="effect_4" bmp="紫色光圈" x="318" y="-5" row="2" col="11" frameDelay="100" loop="0" tCount="21"/>
+			<labelButton name="vipRewardBtn" width="82" height="22" right="25" middle="0" label="骑士特权" >
+				<state frame="1" back="small_btn_1_1" format="ffbe57_12_居中" grid="25,0,25,0" />
+				<state frame="2" back="small_btn_1_2" format="ffbe57_12_居中" grid="25,0,25,0" />
+				<state frame="3" back="small_btn_1_3" format="ffbe57_12_居中" grid="25,0,25,0" />
+			</labelButton>
+			<image name="vipRewardedImg" bmp="已领取" width="70" height="45" right="20" middle="0"/>
+		</box>
+		<openingActivity2GiftDatas>
+			<giftData id="gift0">
+				<article id="100125" count="1"/>
+				<article id="100146" count="1"/>
+				<article id="100161" count="2"/>
+				<article id="100020" count="1"/>
+				<article id="10714" count="1"/>
+			</giftData>
+			<giftData id="gift1">
+				<article id="100125" count="1"/>
+				<article id="100146" count="1"/>
+				<article id="100161" count="2"/>
+				<article id="100020" count="1"/>
+				<article id="10714" count="1"/>
+			</giftData>
+			<giftData id="gift2">
+				<article id="100125" count="1"/>
+				<article id="100146" count="1"/>
+				<article id="100161" count="2"/>
+				<article id="100020" count="1"/>
+				<article id="10714" count="1"/>
+			</giftData>
+			<giftData id="gift3">
+				<article id="100125" count="1"/>
+				<article id="100146" count="1"/>
+				<article id="100161" count="2"/>
+				<article id="100020" count="1"/>
+				<article id="10714" count="1"/>
+			</giftData>
+			<giftData id="gift4">
+				<article id="100125" count="1"/>
+				<article id="100146" count="1"/>
+				<article id="100161" count="2"/>
+				<article id="100020" count="1"/>
+				<article id="10714" count="1"/>
+			</giftData>
+			<giftData id="gift5">
+				<article id="100125" count="1"/>
+				<article id="100146" count="1"/>
+				<article id="100161" count="2"/>
+				<article id="100020" count="1"/>
+				<article id="10714" count="1"/>
+			</giftData>
+			<giftData id="gift6">
+				<article id="100125" count="1"/>
+				<article id="100146" count="1"/>
+				<article id="100161" count="2"/>
+				<article id="100020" count="1"/>
+				<article id="10714" count="1"/>
+			</giftData>
+			<giftData id="gift7">
+				<article id="100125" count="1"/>
+				<article id="100146" count="1"/>
+				<article id="100161" count="2"/>
+				<article id="100020" count="1"/>
+				<article id="10714" count="1"/>
+			</giftData>
+			<giftData id="gift8">
+				<article id="100125" count="1"/>
+				<article id="100146" count="1"/>
+				<article id="100161" count="2"/>
+				<article id="100020" count="1"/>
+				<article id="10714" count="1"/>
+			</giftData>
+			<giftData id="gift9">
+				<article id="100125" count="1"/>
+				<article id="100146" count="1"/>
+				<article id="100161" count="2"/>
+				<article id="100020" count="1"/>
+				<article id="10714" count="1"/>
+			</giftData>
+		</openingActivity2GiftDatas>
+	</controls>
+</xml>

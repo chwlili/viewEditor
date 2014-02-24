@@ -1,0 +1,88 @@
+<xml>
+	<depends>
+		<!--depend src="/public/publicFrames.xml"/-->
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicFilters.xml"/>
+		<!--depend src="/public/publicNumimage.xml"/-->
+		<!--depend src="/public/publicIcons.xml"/-->
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="q0" src="imgs/q0.jpg"/>
+		<bitmap id="q1" src="imgs/q1.jpg"/>
+		<bitmap id="q2" src="imgs/q2.jpg"/>
+		<bitmap id="q3" src="imgs/q3.jpg"/>
+		<bitmap id="q4" src="imgs/q4.jpg"/>
+		<bitmap id="q5" src="imgs/q5.jpg"/>
+		<bitmap id="q6" src="imgs/q6.jpg"/>
+		<bitmap id="加号" src="imgs/加号.png"/>
+		
+		<bitmap id="mapTipsBoard" src="/public/imgs/frames/tooltips首都_底板.png"/>
+		<bitmap id="分割线" src="/public/imgs/frames/分割线.png"/>
+		<bitmap id="knightsGold_3" src="/public/imgs/icons/金币图标_最小.png"/>
+		<bitmap id="num8" src="/public/imgs/number/num8.png"/>
+	</bitmaps>
+	
+	<bitmapReaders>
+		<bitmapReader id="q0" bmp="q0" grid="4,4,5,5"/>
+		<bitmapReader id="q1" bmp="q1" grid="4,4,5,5"/>
+		<bitmapReader id="q2" bmp="q2" grid="4,4,5,5"/>
+		<bitmapReader id="q3" bmp="q3" grid="4,4,5,5"/>
+		<bitmapReader id="q4" bmp="q4" grid="4,4,5,5"/>
+		<bitmapReader id="q5" bmp="q5" grid="4,4,5,5"/>
+		<bitmapReader id="q6" bmp="q6" grid="4,4,5,5"/>
+	</bitmapReaders>
+	
+	<texts>
+		<text id="套装属性">套装属性:</text>
+		<text id="套装描述">集齐6个部件将激活额外套装属性</text>
+		<text id="佩戴特效">佩戴特效:</text>
+	</texts>
+	
+	<formats>
+		<format id="描述字体" font="宋体" size="12" color="0xffb400" filter="黑色边框" align="left"/>
+		<format id="套装属性字体" font="宋体" size="12" color="0xff4200" filter="黑色边框" align="left"/>
+		<format id="套装描述字体" font="宋体" size="12" color="0x784e37" filter="黑色边框" align="left"/>
+		<format id="产出途径字体" font="宋体" size="12" color="0xefb55a" filter="黑色边框" align="left"/>
+		<format id="产出描述字体" font="宋体" size="12" color="0xe0ceaf" filter="黑色边框" align="left"/>
+	</formats>
+	
+	<controls>
+		<box id="holyTip" width="253" height="324">
+			<image bmp="mapTipsBoard" grid="50,50,50,50" top="0" left="0" right="0" bottom="0"/>
+			
+			<box name="topField" width="253" height="69" center="0" top="15">
+				<box name="iconBox" width="69" height="69" left="20">
+					<image name="iconBg" width="69" height="69"/>
+					<image name="icon" width="60" height="60" center="0" middle="0"/>
+				</box>
+				
+				<box name="propBox" width="154" height="69" left="99">
+					<label name="名字" autoWidth="true" height="20" top="7" format="宋体白色14加粗" html="true"/>
+					<image bmp="加号" width="15" height="30" top="32" />
+					<box name="数值" left="18" top="37"/>
+					<label name="prop" width="60" height="18" right="10" top="42" format="fdd59a_12"/>
+				</box>
+			</box>
+			
+			<box name="descField" width="253" center="0" top="89">
+				<image bmp="分割线" grid="44,0,44,0" width="213" height="1" center="0"/>
+				<label name="desc" width="213" autoHeight="true" left="20" top="10" multiline="true" wordWrap="true" format="描述字体" html="true"/>
+			</box>
+			
+			<box name="holyPropField" width="253" center="0">
+				<image bmp="分割线" grid="44,0,44,0" width="213" height="1" center="0"/>
+				<label text="套装属性" width="213" height="20" left="20" top="10" format="套装属性字体"/>
+				<label text="套装描述" width="213" height="20" left="20" top="30" format="套装描述字体"/>
+				<label name="佩戴特效" width="213" autoHeight="true" left="20" multiline="true" wordWrap="true" format="套装属性字体"/>
+			</box>
+			
+			<box name="bottomField" width="253">
+				<image bmp="分割线" grid="44,0,44,0" width="213" height="1" center="0"/>
+				<label name="gainWay" width="213" autoHeight="true" left="20" top="10" multiline="true" wordWrap="true" format="产出描述字体" html="true"/>
+			</box>
+		</box>
+		
+		<label id="holyPropLabel" width="223" height="20" left="40" format="套装属性字体"/>
+	</controls>
+</xml>

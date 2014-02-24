@@ -1,0 +1,13 @@
+<xml>
+	
+	<bitmaps>
+		<bitmap id="前进" src="前进.png"/>
+	</bitmaps>
+	
+	<controls>
+		<box id="前进" width="196" height="107" right="10" middle="0">
+			<image bmp="前进" width="196" height="107" center="0" middle="0"/>
+		</box>
+	</controls>
+
+</xml>

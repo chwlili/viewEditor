@@ -1,0 +1,6 @@
+<xml>
+	<depends>
+		<depend src="/public/publicNumimage.xml"/>
+    <depend src="/public/publicFrames.xml"/>
+	</depends>
+</xml>

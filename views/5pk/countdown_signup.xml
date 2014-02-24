@@ -1,0 +1,43 @@
+<xml>
+
+	<depends>
+
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicFrames.xml"/>	
+		<depend src="/public/publicNumimage.xml"/>
+	</depends>
+
+	<colors>		
+
+	</colors>
+
+	<bitmaps>
+		<bitmap id="冒号" src="imgs/战斗倒计时_冒号.png"/>
+		<bitmap id="timeImg2" src="imgs/进入比赛场时底板.png"/>
+
+		<bitmap id="进入战场_01" src="imgs/进入战场_01.png" />
+		<bitmap id="进入战场_02" src="imgs/进入战场_02.png" />
+		<bitmap id="进入战场_03" src="imgs/进入战场_03.png" />
+	</bitmaps>
+
+	<texts>
+	</texts>
+
+	<controls>
+		<box id="倒计时3" width="664" height="128" top="10" center="0">
+			<image bmp="timeImg2" top="16" width="664" height="128"/>
+			<image bmp="冒号" center="0" top="58" width="17" height="30"/>
+
+			<countImage name="num1" bmp="num9" sliceCount="10" left="250" top="54" />
+			<countImage name="num2" bmp="num9" sliceCount="10" left="280" top="54" />
+			<countImage name="num3" bmp="num9" sliceCount="10" left="340" top="54" />
+			<countImage name="num4" bmp="num9" sliceCount="10" left="370" top="54" />
+
+			<button name="进入战场" width="224" height="75" center="0" top="300"> 
+		        <state frame="1" back="进入战场_01"/>  
+		        <state frame="2" back="进入战场_02"/>  
+		        <state frame="3" back="进入战场_03"/> 
+      		</button>
+		</box>
+	</controls>
+</xml>

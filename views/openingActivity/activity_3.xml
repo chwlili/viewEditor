@@ -1,0 +1,134 @@
+<xml desc="强化装备活动">
+	<depends>
+		<depend src="/public/controls/window/WindowBack.xml" />
+		<depend src="/public/controls/window/HelpButton.xml" />
+		<depend src="/public/controls/window/CloseButton.xml" />
+		<depend src="/public/publicFrames.xml" />
+		<depend src="/public/publicFormats.xml" />
+		<depend src="/public/publicNumimage.xml" />
+	</depends>
+	
+	
+	<texts>
+		<text id="活动提示activity3"><![CDATA[<p align="center"><font color='#fdd59a'>活动期间，装备强化总等级前三名，即可领取丰厚大礼！</font></p>]]></text>
+		<text id="查看activity3">查看排名</text>
+	</texts>
+	
+	<bitmaps>
+		<bitmap id="渐变条" src="imgs01/渐变条.png"/>
+		<bitmap id="全服冲级" src="imgs01/全服冲级.jpg"/>
+		<bitmap id="全服冲级表格头" src="imgs01/全服冲级表格头.png"/>
+		
+		<bitmap id="隔断条" src="imgs01/隔断条.png"/>
+		<bitmap id="奖励图标框" src="imgs01/奖励图标框.png"/>
+		
+		
+		<bitmap id="今日可领取" src="imgs01/今日可领取.png"/>
+		<bitmap id="明日还可领取" src="imgs01/明日还可领取.png"/>
+		<bitmap id="领取按钮字" src="imgs01/领取按钮字.png"/>
+		
+		<bitmap id="已领取按钮" src="imgs01/已领取按钮.png"/>
+		
+		<bitmap id="表格标头" src="imgs/表格标头.png"/>
+		
+		<bitmap id="第1名表格条" src="imgs/第一名表格条.jpg"/>
+		<bitmap id="第2名表格条" src="imgs/第二名表格条.jpg"/>
+		<bitmap id="第3名表格条" src="imgs/第三名表格条.jpg"/>
+		<bitmap id="第n名表格条" src="imgs/表格普通条.jpg"/>
+		
+		<bitmap id="第4-10名" src="imgs/第4-10名.png"/>
+		<bitmap id="第11-20名" src="imgs/第11-20名.png"/>
+		<bitmap id="第21-30名" src="imgs/第21-30名.png"/>
+		
+		<bitmap id="花纹" src="imgs/花纹.png"/>
+		<bitmap id="奖励图标框" src="imgs/奖励图标框.png"/>
+		
+		<bitmap id="第一模块标头" src="imgs/第一模块标头.jpg"/>
+		<bitmap id="第二模底板" src="imgs/第二模底板.jpg"/>
+
+		<bitmap id="前三名" src="imgs/前三名.png"/>
+		<bitmap id="虚位以待" src="imgs/虚位以待.png"/>
+		
+		<bitmap id="开服第一日标题01" src="imgs/开服第一日标题01.png"/>
+		<bitmap id="开服第一日标题02" src="imgs/开服第一日标题02.png"/>
+		
+		<bitmap id="开服第二日标题" src="imgs/开服第二日标题.png"/>
+		
+		<bitmap id="开服第三日标题01" src="imgs/开服第三日标题01.png"/>
+		<bitmap id="开服第三日标题02" src="imgs/开服第三日标题02.png"/>
+		
+		<bitmap id="开服第四日标题01" src="imgs/开服第四日标题01.png"/>
+		<bitmap id="开服第四日标题02" src="imgs/开服第四日标题02.png"/>
+		
+		<bitmap id="开服第五日标题01" src="imgs/开服第五日标题01.png"/>
+		<bitmap id="开服第五日标题02" src="imgs/开服第五日标题02.png"/>
+		
+		<bitmap id="开服第六日标题" src="imgs/开服第六日标题.png"/>
+		
+		<bitmap id="开服第七日标题01" src="imgs/开服第七日标题01.png"/>
+		<bitmap id="开服第七日标题02" src="imgs/开服第七日标题02.png"/>
+		
+	</bitmaps>
+	
+	<controls>
+		<box id="activity_3" width="496" height="488" top="44" left="162">
+			<image name="背景" bmp="knightFrame2" left="0" top="0" right="0" bottom="0" grid="10,10,10,10" />
+			
+			<box name="upBox" width="486" height="87" center="0" top="4">
+				<image bmp="第一模块标头" left="0" top="0" right="0" bottom="0"/>
+				<image bmp="开服第三日标题01" center="0" top="2" width="293" height="38" />
+				<label center="0" top="42" width="486" height="20" format="36e314_12" text="活动提示activity3" html="true" />
+				
+				<label name="排名统计倒计时" center="5" top="65" width="486" height="20" format="36e314_12" html="true" />
+				<label name="selfRankLab" right="75" top="65" width="200" height="20" format="36e314_12" html="true" />
+				
+				<labelButton name="loopUpBtn" right="5" top="62" width="66" height="22" label="查看activity3" >
+					<state frame="1" back="小按钮01" format="ffbe57_12_居中" grid="26,0,26,0"/>
+					<state frame="2" back="小按钮02" format="ffbe57_12_居中" grid="26,0,26,0"/>
+					<state frame="3" back="小按钮03" format="ffbe57_12_居中" grid="26,0,26,0"/>
+				</labelButton>
+			</box>
+			
+			<box name="firstToThreeBox" center="0" top="88" width="486" height="148">
+				<image bmp="前三名" left="0" top="0" right="0" bottom="0" />
+				<box name="rank1" left="134" top="3" />
+				<box name="rank2" left="134" top="52" />
+				<box name="rank3" left="134" top="102" />
+			</box>
+			
+			<box name="cellBox" width="486" height="236" center="0" top="234">
+				<image bmp="第二模底板" left="0" top="0" right="0" bottom="0"/>
+				<image bmp="开服第三日标题02" center="0" top="2" width="293" height="38" />
+				
+				<label name="领取奖励倒计时" width="480" height="21" center="0" top="46" html="true" format="36e314_12_center"/>
+				<ref name="scroller" ref="Scroller" width="486" height="180" center="0" y="65"/>
+			</box>
+			
+		</box>
+		
+		<box id="提升装备cell" width="455" height="52">
+			<image bmp="未选择表格条" top="0" center="0" width="455" height="52" />
+			<image name="select" bmp="选择表格条" top="0" center="0" width="455" height="52" />
+			<label width="180" height="21" left="10" top="16" name="desc"  format="36e314_12"/>
+
+			<image name="item1Bg" bmp="奖励图标框" top="5" left="175" width="42" height="42" />
+			<image name="item2Bg" bmp="奖励图标框" top="5" left="222" width="42" height="42" />
+			<image name="item3Bg" bmp="奖励图标框" top="5" left="269" width="42" height="42" />
+			<image name="item4Bg" bmp="奖励图标框" top="5" left="316" width="42" height="42" />
+			
+			<achieveEntity name="item1" left="176" top="6"/>
+			<achieveEntity name="item2" left="223" top="6"/>
+			<achieveEntity name="item3" left="270" top="6"/>
+			<achieveEntity name="item4" left="317" top="6"/>
+			
+			<labelButton name="领取" width="56" height="22" left="385" top="14" label="领取">
+				<state frame="1" back="small_btn_1_1" format="ffbe57_12_居中"/>
+				<state frame="2" back="small_btn_1_2" format="ffbe57_12_居中"/>
+				<state frame="3" back="small_btn_1_3" format="ffbe57_12_居中"/>
+			</labelButton>
+		</box>
+
+		
+	</controls>
+	
+</xml>

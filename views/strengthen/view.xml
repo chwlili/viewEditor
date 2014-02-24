@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<xml name="变强宝典"> 
+  <depends> 
+    <depend src="/public/controls/window/CloseButton.xml"/>  
+    <depend src="/public/controls/window/WindowBack.xml"/>  
+    <depend src="/public/controls/scroller/Scroller.xml"/>  
+    <depend src="/public/publicFormats.xml"/>  
+    <depend src="/public/publicFrames.xml"/>  
+    <depend src="/public/publicButtons.xml"/>  
+    <depend src="/public/publicFilters.xml"/> 
+  </depends>  
+  <bitmaps> 
+    <bitmap id="已领取" src="imgs/已领取.png"/>  
+    <bitmap id="未达成" src="imgs/未达成.png"/>  
+    <bitmap id="图标框状态02" src="imgs/图标框状态02.png"/>  
+    <bitmap id="图标框状态01" src="imgs/图标框状态01.png"/>  
+    <bitmap id="图标框" src="imgs/图标框.png"/>  
+    <bitmap id="挑战失败外框" src="imgs/挑战失败外框.png"/>  
+    <bitmap id="挑战失败标头" src="imgs/挑战失败标头.png"/>  
+    <bitmap id="目标战力" src="imgs/目标战力.png"/>  
+    <bitmap id="领取" src="imgs/领取.png"/>  
+    <bitmap id="奖励" src="imgs/奖励.png"/>  
+    <bitmap id="当前战力" src="imgs/当前战力.png"/>  
+    <bitmap id="变强宝典外框02" src="imgs/变强宝典外框02.jpg"/>  
+    <bitmap id="变强宝典外框01" src="imgs/变强宝典外框01.png"/>  
+    <bitmap id="变强宝典大图标" src="imgs/变强宝典大图标.png"/>  
+    <bitmap id="变强宝典标头字" src="imgs/变强宝典标头字.png"/>  
+    <bitmap id="宝石镶嵌图标" src="imgs/宝石镶嵌图标.png"/>  
+    <bitmap id="宝石镶嵌" src="imgs/宝石镶嵌.png"/>  
+    <bitmap id="按钮03" src="imgs/按钮03.png"/>  
+    <bitmap id="按钮02" src="imgs/按钮02.png"/>  
+    <bitmap id="按钮01" src="imgs/按钮01.png"/> 
+    <bitmap id="右翻页按钮01" src="imgs/右翻页按钮01.png"/> 
+    <bitmap id="右翻页按钮02" src="imgs/右翻页按钮02.png"/> 
+    <bitmap id="右翻页按钮03" src="imgs/右翻页按钮03.png"/> 
+    <bitmap id="左翻页按钮01" src="imgs/左翻页按钮01.png"/> 
+    <bitmap id="左翻页按钮02" src="imgs/左翻页按钮02.png"/> 
+    <bitmap id="左翻页按钮03" src="imgs/左翻页按钮03.png"/>
+  </bitmaps>  
+  <texts> 
+    <text id="变强宝典奖励">$1钻石</text> 
+    <text id="达到等级开启"><![CDATA[<font color='#848484'>等级达到$NUM级</font>]]></text> 
+    <text id="完成任务开启"><![CDATA[<font color='#848484'>完成$NUM任务</font>]]></text> 
+    <text id="此功能已开启">此功能已开启</text> 
+    <text id="7777777">7777777</text> 
+    <text id="我要变强提示">永不言败，请提升战力继续挑战！</text> 
+  </texts>  
+  <formats> 
+    <format id="深蓝字" font="宋体" size="12" align="left" color="0x2089ff" filter="黑色边框"/>  
+    <format id="蓝字" font="宋体" size="12" align="left" color="0x25e3ff" filter="黑色边框"/>  
+    <format id="绿字居中" font="宋体" size="12" align="center" color="0x00ff12" filter="黑色边框"/>  
+    <format id="绿字" font="宋体" size="12" align="left" color="0x00ff12" filter="黑色边框"/>  
+    <format id="红字" font="宋体" size="12" align="left" color="0xff0000" filter="黑色边框"/> 
+  </formats>  
+  <filters> 
+    <filter id="深蓝边框"> 
+      <glow color="0x110501" alpha="1" blurX="2" blurY="2" strength="10"/> 
+    </filter>  
+    <filter id="蓝边框"> 
+      <glow color="0x06065a" alpha="1" blurX="2" blurY="2" strength="10"/> 
+    </filter>  
+    <filter id="绿边框"> 
+      <glow color="0x652906" alpha="1" blurX="2" blurY="2" strength="10"/> 
+    </filter>  
+    <filter id="红边框"> 
+      <glow color="0x5a061a" alpha="1" blurX="2" blurY="2" strength="10"/> 
+    </filter> 
+  </filters>  
+  <controls> 
+    <window id="Main" width="632" height="397"> 
+      <image bmp="变强宝典外框01" left="0" top="0" right="0" bottom="0"/>  
+      <image bmp="变强宝典外框02" center="1" bottom="28" width="604" height="291"/>  
+      <image bmp="变强宝典标头字" center="0" top="-55" width="598" height="126"/>  
+      <button name="closeBtn" top="-12" right="-12" width="41" height="41"> 
+        <state frame="1" back="按钮01"/>  
+        <state frame="2" back="按钮02"/>  
+        <state frame="4" back="按钮03"/> 
+      </button>  
+      <image name="fightImg" bmp="当前战力" left="60" top="59" width="69" height="19" visible="false"/>  
+      <image name="got" bmp="已领取" right="50" top="55" width="104" height="27" visible="false"/>  
+      <image name="recive" bmp="未达成" right="50" top="55" width="104" height="27" visible="false"/>  
+      <image name="finish" bmp="领取" right="50" top="55" width="104" height="27" visible="false"/>  
+      <image name="targetImg" bmp="目标战力" left="185" top="59" width="69" height="19" visible="false"/>  
+      <image name="rewardImg" bmp="奖励" left="360" top="59" width="41" height="19" visible="false"/>  
+      <label name="fightTf" left="129" top="60" width="100" height="20" format="深蓝字" text="7777777" visible="false"/>  
+      <label name="targetTf" left="255" top="60" width="100" height="20" format="红字" text="7777777" visible="false"/>  
+      <label name="awardTf" left="401" top="60" width="100" height="20" format="蓝字" text="奖励" visible="false"/> 
+      <labelButton name="leftBtn" width="63" height="82" middle="0" left="0">
+        <state frame="1" back="左翻页按钮01" format="宋体橘黄色12居中"/>
+        <state frame="2" back="左翻页按钮02" format="宋体橘黄色12居中"/>
+        <state frame="3" back="左翻页按钮03" format="宋体橘黄色12居中"/>
+      </labelButton>
+      <labelButton name="rightBtn" width="63" height="82" middle="0" right="0">
+        <state frame="1" back="右翻页按钮01" format="宋体橘黄色12居中"/>
+        <state frame="2" back="右翻页按钮02" format="宋体橘黄色12居中"/>
+        <state frame="3" back="右翻页按钮03" format="宋体橘黄色12居中"/>
+      </labelButton>
+    </window>  
+    <box id="Cell" width="182" height="57"> 
+    	<labelButton name="bgBtn" width="182" height="57">
+        <state frame="1" back="图标框状态01" format="宋体橘黄色12居中"/>
+        <state frame="2" back="图标框状态02" format="宋体橘黄色12居中"/>
+        <state frame="3" back="图标框状态01" format="宋体橘黄色12居中"/>
+      </labelButton>
+      <image name="iconbg" bmp="图标框" width="56" height="56" x="0" y="0"/>  
+      <label name="conditionTf" x="55" y="25" width="126" height="30" format="绿字居中"/> 
+    </box> 
+    <window id="Tip" width="334" height="166" center="0" middle="0"> 
+    	<image bmp="挑战失败外框" width="334" height="166" center="0"/>  
+      <image bmp="挑战失败标头" width="295" height="24" x="29" y="-9"/>  
+    	<ref name="closeBtn" ref="CloseButton"/>
+      <image bmp="变强宝典大图标" width="113" height="100" center="0" middle="10"/>  
+      <label width="334" height="30" format="宋体白色12居中" text="我要变强提示" y="33" center="0"/> 
+         	<labelButton name="okBtn" label="确定" width="82" height="28" center="0" bottom="-10">
+        <state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+        <state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+        <state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+      </labelButton>
+    </window>
+  </controls> 
+</xml>

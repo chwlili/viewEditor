@@ -1,0 +1,296 @@
+<xml name="光环">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicTexts.xml"/>
+	</depends>
+	<swfs>
+   		<swf id="光环点" src="../swfMotion/光环点.swf"/>
+ 	</swfs>
+	<bitmaps>
+		<bitmap id="初级文字" src="imgs/初级文字.png" />
+		<bitmap id="当前装备文字" src="imgs/当前装备文字.png" />	
+		<bitmap id="高级文字" src="imgs/高级文字.png" />
+		<bitmap id="第二级底板" src="imgs/第二级底板.png" />
+		<bitmap id="渐变底板01" src="imgs/渐变底板01.png" />
+
+		<bitmap id="光环01" src="imgs/光环01.png" />
+		<bitmap id="光环02" src="imgs/光环02.png" />
+		<bitmap id="光环03" src="imgs/光环03.png" />
+		<bitmap id="光环04" src="imgs/光环04.png" />
+		<bitmap id="光环05" src="imgs/光环05.png" />	
+
+
+		<bitmap id="icon1" src="imgs/光环框_攻击.png" />
+		<bitmap id="icon3" src="imgs/光环框_暴击.png" />
+		<bitmap id="icon4" src="imgs/光环框_防爆.png" />
+		<bitmap id="icon2" src="imgs/光环框_防御.png" />
+		<bitmap id="icon5" src="imgs/光环框_霸体.png" />		
+
+		<bitmap id="光环图标底板01" src="imgs/光环图标底板01.png" />
+		<bitmap id="光环图标底板02" src="imgs/光环图标底板02.png"/>
+		<bitmap id="bg1" src="imgs/光环效果_攻击.png"/>
+		<bitmap id="bg3" src="imgs/光环效果_暴击.png" />
+		<bitmap id="bg4" src="imgs/光环效果_防爆.png"/>
+		<bitmap id="bg2" src="imgs/光环效果_防御.png"/>
+		<bitmap id="bg5" src="imgs/光环效果_霸体.png" />
+
+		<bitmap id="光环装备栏_开启" src="imgs/光环装备栏_开启.png"/>
+		<bitmap id="光环装备栏_锁定" src="imgs/光环装备栏_锁定.png"/>
+
+		<bitmap id="progressBg1" src="imgs/连线01_暗.png" />
+		<bitmap id="progressBg2" src="imgs/连线02_暗.png"/>
+		<bitmap id="progressBg3" src="imgs/连线03_暗.png"/>
+		<bitmap id="progressBg4" src="imgs/连线04_暗.png" />
+		<bitmap id="progressBg5" src="imgs/连线05_暗.png"/>
+
+		<bitmap id="progress1" src="imgs/连线01_亮.png" />
+		<bitmap id="progress2" src="imgs/连线02_亮.png"/>
+		<bitmap id="progress3" src="imgs/连线03_亮.png" />
+		<bitmap id="progress4" src="imgs/连线04_亮.png"/>
+		<bitmap id="progress5" src="imgs/连线05_亮.png" />
+
+		<bitmap id="页签01" src="imgs/页签01.png"/>
+		<bitmap id="页签02" src="imgs/页签02.png" />
+		<bitmap id="开点_未开启" src="imgs/开点_未开启.png"/>
+		<bitmap id="开点_点亮" src="imgs/开点_点亮.png" />
+
+		<bitmap id="右翻页按钮01" src="imgs/右翻页按钮01.png"/>
+		<bitmap id="右翻页按钮02" src="imgs/右翻页按钮02.png"/>
+		<bitmap id="右翻页按钮03" src="imgs/右翻页按钮03.png" />
+		<bitmap id="左翻页按钮01" src="imgs/左翻页按钮01.png"/>
+		<bitmap id="左翻页按钮02" src="imgs/左翻页按钮02.png"/>
+		<bitmap id="左翻页按钮03" src="imgs/左翻页按钮03.png" />
+		<bitmap id="框体右侧装饰01" src="imgs/框体右侧装饰01.png"/>
+		<bitmap id="框体左侧装饰01" src="imgs/框体左侧装饰01.png" />
+
+		<bitmap id="小按钮01" src="imgs/小按钮01.png"/>
+		<bitmap id="小按钮02" src="imgs/小按钮02.png"/>
+		<bitmap id="小按钮03" src="imgs/小按钮03.png" />
+		<bitmap id="消费型按钮01" src="imgs/消费型按钮01.png"/>
+		<bitmap id="消费型按钮02" src="imgs/消费型按钮02.png"/>
+		<bitmap id="消费型按钮03" src="imgs/消费型按钮03.png" />
+		<bitmap id="合成光点" src="imgs/合成光点.png"/>
+		<bitmap id="合成光点底框" src="imgs/合成光点底框.png"/>
+		<bitmap id="图标框" src="imgs/图标框.png" />		
+		<bitmap id="图标01" src="imgs/图标01.png" />
+
+		<bitmap id="点属性底板" src="imgs/点属性底板.png"/>
+		<bitmap id="底板" src="imgs/底板.png"/>
+		<bitmap id="光环底图" src="imgs/光环底图.png" />
+		<bitmap id="光环列表文字底板" src="imgs/光环列表文字底板.png"/>
+		<bitmap id="开点_锁定" src="imgs/开点_锁定.png"/>
+		<bitmap id="光环" src="imgs/光环.png"/>
+		<bitmap id="光环图标底板_锁定" src="imgs/光环图标底板_锁定.png"/>
+		<bitmap id="光环图标底板_未锁定" src="imgs/光环图标底板_未锁定.png"/>
+		<bitmap id="详细属性按钮" src="imgs/详细属性按钮.png"/>
+		<bitmap id="详细属性按钮2" src="imgs/详细属性按钮2.png"/>
+
+		<bitmap id="auraBmp" src="imgs/auraBmp.png"/>
+		<bitmap id="auraDotBig" src="imgs/auraDotBig.png"/>
+		<bitmap id="auraDotSmall" src="imgs/auraDotSmall.png"/>
+		<bitmap id="aura01" src="imgs/aura01.png"/>
+		<bitmap id="aura02" src="imgs/aura02.png"/>
+		<bitmap id="aura03" src="imgs/aura03.png"/>
+		<bitmap id="aura04" src="imgs/aura04.png"/>
+		<bitmap id="aura05" src="imgs/aura05.png"/>
+
+		<bitmap id="环1" src="imgs/环1.png"/>
+		<bitmap id="环2" src="imgs/环2.png"/>
+		<bitmap id="环3" src="imgs/环3.png"/>
+		<bitmap id="环4" src="imgs/环4.png"/>
+		<bitmap id="环5" src="imgs/环5.png"/>		
+		<bitmap id="光环阴影" src="imgs/光环阴影.png"/>
+		<bitmap id="装备中标志" src="imgs/装备中标志.png"/>
+	</bitmaps>
+	<texts>
+		<text id="购买">购买</text>
+		<text id="组队">组队</text>
+		<text id="扫荡">扫荡</text>
+		<text id="今日可通关次数">今日可通关次数:</text>
+		<text id="退队">是否离开队伍</text>
+		<text id="初级">初级光环</text>
+		<text id="高级">高级光环</text>
+		<text id="装备一种">同级别的光环只能装备一种</text>
+		<text id="装备">装备</text>
+		<text id="未开启">未开启</text>
+		<text id="合成光点">激活属性</text>
+		<text id="立即合成">一键激活</text>
+		<text id="需求道具"><![CDATA[需求材料<font color='#fa9600'>（点击材料自动寻路）</font>]]></text>
+		<text id="攻击光环">攻击光环</text>
+		<text id="防御光环">防御光环</text>
+		<text id="暴击光环">暴击光环</text>
+		<text id="防暴光环">防暴光环</text>
+		<text id="霸体光环">霸体光环</text>
+
+		<text id="初级光环列表">初级光环列表</text>
+		<text id="装备中">装备中</text>
+		<text id="点击激活">点击激活</text>
+		<text id="激活">激 活</text>
+		<text id="属性加成">属性加成</text>
+		<text id="骑士6级后可使用一键激活">骑士6级后可使用一键激活</text>
+		<text id="花费钻石激活属性"><![CDATA[你将花费<font color='#60ff4e'>$1</font>钻石激活属性]]></text>
+	</texts>
+
+	<controls>
+		<window id="main" width="758" height="500">
+			<ref ref="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+
+			<image bmp="knightFrame2" grid="30,47,29,49" left="16" top="77" width="235" height="403" />
+		
+			<image bmp="knightFrame2" grid="30,47,29,49" left="255" top="77" width="485" height="403" />
+			<image bmp="底板"  left="267" top="84" width="466" height="390" />
+			<!-- <image bmp="渐变底板01" grid="10,88,10,40" left="257" top="200" width="466" height="260" /> -->			
+			<image bmp="光环"  left="338" top="10" width="81" height="31" />
+			<image name="翻转底图" bmp="光环底图"  left="715" top="220" width="450" height="100" /> 
+			<image bmp="光环底图"  left="265" top="120" width="450" height="100" /> 
+
+			<image name="初级光环栏" bmp="光环装备栏_开启" left="50" top="122" width="65" height="65" />
+			<image bmp="光环装备栏_锁定" left="145" top="122" width="65" height="65" />
+
+			<image bmp="当前装备文字" left="30" top="73" width="79" height="26" />
+			<image bmp="初级文字" left="45" top="110" width="47" height="25" />
+			<image bmp="高级文字" left="140" top="110" width="47" height="25" />
+
+			<image bmp="光环列表文字底板" left="330" top="93" width="333" height="19" />
+			<label text="初级光环列表" height="19" width="200" top="93" left="460" format="efb55a_12" />
+<!-- 			<image bmp="框体右侧装饰01" left="311" top="111" width="30" height="60" />
+			<image bmp="框体左侧装饰01" left="633" top="111" width="30" height="60" /> -->
+
+			<image name="auraBg1" bmp="光环图标底板_锁定" left="303" top="127" width="68" height="66" />
+			<image name="auraBg2" bmp="光环图标底板_锁定" left="383" top="127" width="68" height="66" />
+			<image name="auraBg3" bmp="光环图标底板_锁定" left="463" top="127" width="68" height="66" />
+			<image name="auraBg4" bmp="光环图标底板_锁定" left="543" top="127" width="68" height="66" />
+			<image name="auraBg5" bmp="光环图标底板_锁定" left="623" top="127" width="68" height="66" />
+
+			<labelButton name="装备1" width="56" height="22" top="190" left="309" label="装备">
+					<state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中"/>
+					<state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中"/>
+					<state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+			<labelButton name="装备2" width="56" height="22" top="190" left="389" label="装备">
+					<state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中"/>
+					<state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中"/>
+					<state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+			<labelButton name="装备3" width="56" height="22" top="190" left="469" label="装备">
+					<state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中"/>
+					<state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中"/>
+					<state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+			<labelButton name="装备4" width="56" height="22" top="190" left="549" label="装备">
+					<state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中"/>
+					<state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中"/>
+					<state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+			<labelButton name="装备5" width="56" height="22" top="190" left="629" label="装备">
+					<state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中"/>
+					<state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中"/>
+					<state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+
+
+			<label name="低级等级" height="20" width="100" top="170" left="68" format="宋体绿色12" />
+			<label name="低级名称" height="20" width="100" top="190" left="57" format="宋体绿色12" />
+			<label text="装备一种" height="20" width="200" top="210" left="29" format="876b55_12_居中" />
+			<!-- <label text="装备光环" height="20" width="315" top="210" left="340" format="fa9600_12_居中" /> -->
+<!-- 			<image name="bg1" bmp="光环图标底板02" left="350" top="115" width="54" height="54" />
+			<image name="bg2" bmp="光环图标底板02" left="405" top="115" width="54" height="54" />
+			<image name="bg3" bmp="光环图标底板02" left="460" top="115" width="54" height="54" />
+			<image name="bg4" bmp="光环图标底板02" left="515" top="115" width="54" height="54" />
+			<image name="bg5" bmp="光环图标底板02" left="570" top="115" width="54" height="54" /> -->
+
+			<labelToggleButton name="初级" width="80" height="24" right="386" top="57" label="初级">
+					<state frame="1" back="页签02" format="e9d5a4_12_居中"/>
+ 					<state frame="2" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="4" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="5" back="页签01" format="e9d5a4_12_居中"/>
+  			</labelToggleButton>
+
+  			<labelToggleButton name="高级" width="80" height="24" right="286" top="57" label="高级">
+					<state frame="1" back="页签02" format="e9d5a4_12_居中"/>
+ 					<state frame="2" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="4" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="5" back="页签01" format="e9d5a4_12_居中"/>
+  			</labelToggleButton>
+
+			<button name="按钮左" width="33" height="51" left="264" top="310">
+ 				<state frame="1" back="左翻页按钮01"/>
+ 				<state frame="2" back="左翻页按钮02"/>
+ 				<state frame="3" back="左翻页按钮03"/>
+			</button>
+ 			<button name="按钮右" width="33" height="51" left="699" top="310">
+ 				<state frame="1" back="右翻页按钮01"/>s
+ 				<state frame="2" back="右翻页按钮02"/>
+				<state frame="3" back="右翻页按钮03"/>
+ 			</button>
+
+
+ 			<box name="scrollbox" width="500" height="251" left="298" top="215">
+     		<swf name="光环点开启动画" bmp="光环点" x="0" y="0" />
+			</box>
+				<labelButton name="激活" width="82" height="28" top="440" left="458" label="激活">
+					<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+					<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+					<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+				</labelButton>
+ 			<box name="详细属性按钮" width="49" height="61" left="670" top="405">
+				<image name="图1" bmp="详细属性按钮" left="0" top="0" width="49" height="61" />
+				<image name="图2" bmp="详细属性按钮2" left="0" top="0" width="49" height="61" />
+			</box>	
+ 			<box name="详细属性tip" width="129" height="300" left="720" top="105">
+       			<image name="bg" bmp="mapTipsBoard" grid="50,50,50,50" left="0" top="0" width="129" height="300" />
+       			<label text="属性加成" height="20" width="80" top="25" left="10" format="fa9600_14_居中"/>
+				<label name="详细属性" height="250" width="100" top="50" left="20" format="宋体绿色12"/>
+			</box>	
+
+		</window>
+			<box id="合成光点" width="280" height="290">
+
+				<image bmp="合成光点底框" left="1" top="1" width="278" height="289" />
+				<ref name="closeBtn" ref="CloseButton" />
+				<image bmp="合成光点" left="102" top="0" width="80" height="26" />
+				<image bmp="光环装备栏_开启" left="33" top="32" width="65" height="65" />
+				<image bmp="图标框" left="33" top="140" width="213" height="67" />
+				<labelButton name="道具合成" width="82" height="28" top="231" left="55" label="合成光点">
+					<state frame="1" back="knightLabelBtn2_1" format="efb55a_12_居中"/>
+					<state frame="2" back="knightLabelBtn2_2" format="efb55a_12_居中"/>
+					<state frame="3" back="knightLabelBtn2_3" format="efb55a_12_居中"/>
+				</labelButton>
+
+				<labelButton name="花钱合成" width="84" height="28" top="231" left="145" label="立即合成">
+					<state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中"/>
+					<state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中"/>
+					<state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中"/>
+				</labelButton>
+				<!--<label name="一键激活" text="立即合成" height="20" width="80" top="235" left="145" format="ffbe57_12_居中"/>-->
+				    <achieveEntity name="item1" x="45" y="152"/>
+				    <achieveEntity name="item2" x="95" y="152"/>
+				    <achieveEntity name="item3" x="145" y="152"/>
+				    <achieveEntity name="item4" x="195" y="152"/>
+				 <label name="desc" height="80" width="140" top="40" left="110" format="0x2089ff_12" />
+				 <label name="count1" height="20" width="50" top="190" left="40" />
+				 <label name="count2" height="20" width="50" top="190" left="90" />
+				 <label name="count3" height="20" width="50" top="190" left="140" />		
+				 <label name="count4" height="20" width="50" top="190" left="190" />	 
+				 <label height="20" width="213" top="110" left="23" text="需求道具" html="true" format="fdd69a_12_居中"/>
+				 <image name="光环图"  left="36" top="34" width="60" height="60" />
+			</box>
+
+		<filmAnimEffect id="光环特效" bmp="auraBmp" row="2" col="5" frameDelay="80" tCount="18" loop="0"/>
+		<filmAnimEffect id="光环大点" bmp="auraDotBig" row="2" col="11" frameDelay="80" tCount="21" loop="0"/>
+		<filmAnimEffect id="光环小点" bmp="auraDotSmall" row="1" col="21" frameDelay="80" tCount="21" loop="0"/>
+
+		<filmAnimEffect id="环1" bmp="环1" row="1" col="12" frameDelay="80" tCount="12" loop="0"/>
+		<filmAnimEffect id="环2" bmp="环2" row="1" col="6" frameDelay="100" tCount="6" loop="0"/>
+		<filmAnimEffect id="环3" bmp="环3" row="1" col="6" frameDelay="100" tCount="6" loop="0"/>
+		<filmAnimEffect id="环4" bmp="环4" row="3" col="4" frameDelay="80" tCount="12" loop="0"/>
+		<filmAnimEffect id="环5" bmp="环5" row="1" col="8" frameDelay="80" tCount="8" loop="0"/>
+	</controls>	
+
+</xml>

@@ -1,0 +1,123 @@
+<xml>
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicIcons.xml"/>
+		<depend src="/public/controls/scroller/Scroller.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="title" src="imgs/title.png" />
+		<bitmap id="光条" src="imgs/光条.png"/>
+		<bitmap id="firstboard" src="imgs/第一级底板.png" />
+		<bitmap id="secondboard" src="imgs/第二级底板.png" />
+		<bitmap id="bigboard" src="imgs/大底板.png" />
+		<bitmap id="选中" src="imgs/勾选框-选中.png" />
+		<bitmap id="未选中" src="imgs/勾选框-未选中.png" />
+		<bitmap id="不可选" src="imgs/勾选框-不可选.png" />
+
+		<bitmap id="进度条空" src="imgs/进度条-空.png" />
+		<bitmap id="进度条满" src="imgs/进度条-满.png" />
+		<bitmap id="数字底板" src="imgs/数字底板.png" />
+	</bitmaps>
+	<texts>
+		
+		<text id="挂机次数">扫荡次数:</text>
+		<text id="所需时间">所需时间:</text>
+		<text id="通关奖励">通关奖励:</text>
+		<text id="战报信息">战报信息</text>
+		<text id="消耗完所有体力">消耗完所有体力</text>
+		<text id="vip"><![CDATA[<font color='#e98e19'><b><u>骑士$1级</u></b></font>]]></text>
+		<text id="立即完成挂机">或80级以上可立即完成扫荡</text>
+
+		<text id="开始扫荡">开始扫荡</text>
+		<text id="取消扫荡">取消扫荡</text>
+		<text id="结束扫荡">结束扫荡</text>
+		<text id="copper">金币</text>
+		<text id="exp">经验</text>
+		<text id="gold">钻石</text>
+		<text id="actionpoint">行动力</text>
+		<text id="skillpoint">战功</text>
+		
+		<text id="几率获得">几率获得</text>
+		<text id="次消耗$1体力">次消耗$1体力</text>
+		<text id="取消">取消</text>
+		<text id="第$1次">第 $1 次扫荡获得：</text>
+		<text id="挂机">扫荡</text>
+		<text id="目标关卡">目标关卡</text>
+		<text id="战斗中">战斗中...</text>
+	</texts>
+
+	<controls>
+			<box id="start" width="415" height="232" center="0" middle="0">
+				<image bmp="中底板底" grid="30,60,30,30" left="0" top="0" right="0" bottom="0"/>
+				<image bmp="光条" width="228" height="17" center="0" top="-8" />
+				<image bmp="title" center="0" width="105" height="31" top="-15" />
+				<ref name="closeBtn" ref="CloseButton"  top="4" right="4"/>
+				
+				<box name="消耗" center="0" y="33" width="400" height="142">
+					<image bmp="bigboard" grid="30,30,30,30" left="0" top="0" right="0" bottom="0"/>
+					<label name="挂机次数" x="20" y="15" width="55" height="18" format="fdd59a_12"/>
+					<label name="所需时间" x="20" y="45" width="55" height="18" format="fdd59a_12"/>
+					<label name="通关奖励" x="20" y="75" width="55" height="18" format="ffb400_12"/>
+					<label name="消耗完所有体力" x="255" y="15" width="100" height="18" format="ffb400_12"/>
+					
+					<image bmp="数字底板" x="82" y="45" width="92" height="21" grid="5,5,5,5" />
+					<label name="所需时间value" x="80" y="45" width="92" height="18" format="宋体绿色12居中"/>
+					<label name="挂机消耗" x="132" y="15" width="110" height="18" format="ffb400_12"/>
+					<label name="通关奖励value" x="20" y="85" width="55" height="18" format="黄色"/>
+
+					<label name="vip" x="180" y="44" width="60" height="22" html="true" format="宋体橙色14"/>
+					<label name="立即完成挂机" x="235" y="45" width="150" height="22" html="true" format="fdd59a_12"/>
+
+					<image bmp="数字底板" x="108" y="15" width="24" height="21" grid="5,5,5,5" />
+					<box name="选择挂机次数" x="80" y="12" width="30" height="28" >
+						<image name="未选中" bmp="未选中"  left="0" top="0" right="0" bottom="0"/>
+						<image name="选中" bmp="选中"  left="0" top="0" right="0" bottom="0"/>
+					</box>
+					<box name="选择全部挂机" x="230" y="12" width="30" height="28" >
+						<image name="未选中" bmp="未选中"  left="0" top="0" right="0" bottom="0"/>
+						<image name="选中" bmp="选中"  left="0" top="0" right="0" bottom="0"/>
+					</box>
+				</box>
+
+				<box name="奖励" x="89" y="107" width="260" height="55">
+					<image bmp="数字底板" left="0" right="0" top="0" bottom="0" width="92" height="21" grid="5,5,5,5" />
+
+					<label name="经验" x="20" y="8" width="80" height="18" html="true" format="宋体白色12"/>
+					<label name="金币" x="130" y="8" width="80" height="18" html="true" format="宋体白色12"/>
+					<label name="战功" x="20" y="28" width="80" height="18" html="true" format="宋体白色12"/>
+					<label name="道具" x="130" y="28" width="130" height="18" html="true" format="宋体白色12"/>
+				</box>
+
+
+				<box name="progress" center="0" y="180" width="400" height="167">
+					<image bmp="secondboard"  left="0" top="0" right="0" bottom="0"/>
+					<image bmp="进度条空" grid="10,7,10,7" x="20" y="15" width="315" height="15"/>
+					<image name="进度条" bmp="进度条满" grid="10,7,10,7"  x="20" y="15" width="315" height="15"/>
+					<label name="进行时间" x="345" y="12" width="110" height="22" format="黄色"/>
+					<ref name="scroller" ref="Scroller" width="365" height="105" x="20" y="40"/>
+				</box>
+
+				<labelButton name="开始"  width="101" height="39" label="开始扫荡" center="0" bottom="10">
+					<state frame="1" back="普通功能-大1" format="按钮标签_efb55a_12_居中"/>
+					<state frame="2" back="普通功能-大2" format="按钮标签_efb55a_12_居中"/>
+					<state frame="3" back="普通功能-大3" format="按钮标签_efb55a_12_居中"/>
+				</labelButton>
+				<labelButton name="取消"  width="101" height="39" label="取消扫荡" center="0" bottom="10">
+					<state frame="1" back="普通功能-大1" format="按钮标签_efb55a_12_居中"/>
+					<state frame="2" back="普通功能-大2" format="按钮标签_efb55a_12_居中"/>
+					<state frame="3" back="普通功能-大3" format="按钮标签_efb55a_12_居中"/>
+				</labelButton>
+
+			</box>
+			<box id="board" x="0" y="0" width="1400" height="900">
+				<image name="底板" bmp="knightFrame11"  left="0" top="0" right="0" bottom="0" />
+			</box>
+
+			
+
+	</controls>
+
+</xml>

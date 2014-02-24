@@ -1,0 +1,34 @@
+<xml>
+
+	<depends>
+
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicFrames.xml"/>	
+		<depend src="/public/publicNumimage.xml"/>
+	</depends>
+
+	<colors>		
+
+	</colors>
+
+	<bitmaps>
+		<bitmap id="back" src="imgs/count_down_bg.png"/>
+		<bitmap id="start_fight" src="imgs/开始战斗.png"/>
+		<bitmap id="冒号" src="imgs/战斗倒计时_冒号.png"/>
+	</bitmaps>
+
+	<texts>
+		<text id="boss名字">
+			<![CDATA[<font color="#ff0000">$1 </font>]]>将在</text>
+		<text id="后出现">后出现...</text>
+		
+	</texts>
+
+	<controls>
+		<box id="倒计时" width="485" height="149" top="80" center="0">
+			<image bmp="back" grid="14,14,14,14" top="0" bottom="0" left="0" right="0"/> 
+			<image bmp="冒号" left="234" top="72" width="21" height="32"/>
+			<image name="start_fight" bmp="start_fight" left="110" top="42" width="267" height="82" visible="false"/>
+		</box>
+	</controls>
+</xml>

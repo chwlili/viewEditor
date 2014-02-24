@@ -1,0 +1,169 @@
+<xml name="翅膀">
+	<depends>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicIcons.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicNumimage.xml"/>
+		<depend src="../wing/bringUpView.xml"/>
+		<depend src="../wing/zhuLingViewNew.xml"/>
+		<depend src="../wing/wingBitmap.xml"/>
+		<depend src="../wing/wingText.xml"/>
+		<depend src="../wing/wingFormat.xml"/>
+	</depends>
+	
+	<swfs>
+		<swf id="暴击字" src="../swfMotion/暴击字.swf" />
+	</swfs>
+  
+	<controls>
+		<window id="main" width="675" height="560">
+			<ref ref="WindowBack"/>
+			<ref name="closeBtn" ref="CloseButton"/>
+			<image bmp="title" width="67" height="29" top="12" center="0"/>
+			
+			<box name="leftBox" width="330" height="480" left="10" top="54">
+				<image bmp="knightFrame2" width="330" height="480" grid="30,47,29,49"/>
+				
+				<box name="wingBox" width="317" height="253" center="0" top="6">
+					<image bmp="knightFrame10" width="317" height="253" grid="46,42,46,42"/>
+					<image bmp="wingBg" width="315" height="251" center="0" middle="0"/>
+					<image bmp="标题底板横条" width="305" height="30" center="0"/>
+					<image bmp="翅膀预览效果文字" width="106" height="24" center="0" top="3"/>
+					<swf name="upgradeAnim" bmp="暴击字" left="50" middle="0"/>
+				</box>
+				
+				<box name="normalWingBox" width="330" height="72" center="0" top="270">
+					<image bmp="普通翅膀底板" width="316" height="72" center="0" top="9"/>
+					<image bmp="普通翅膀文字" width="65" height="23" center="0"/>
+				</box>
+				
+				<box name="specialWingBox" width="330" height="72" center="0" top="360">
+					<image bmp="高级翅膀底板" width="316" height="72" center="0" top="9"/>
+					<image bmp="特殊翅膀文字" width="66" height="22" center="0"/>
+					<maskcontrol name="specWingMask" width="234" height="51" center="0" top="22"/>
+					<box name="specWingContainer" height="51" left="48" top="22"/>
+					
+					<labelButton name="turnLeftBtn" width="33" height="51" left="10" top="22">
+						<state frame="1" back="翅膀左翻页按钮01"/>
+						<state frame="2" back="翅膀左翻页按钮02"/>
+						<state frame="3" back="翅膀左翻页按钮03"/>
+					</labelButton>
+					
+					<labelButton name="turnRightBtn" width="33" height="51" right="10" top="22">
+						<state frame="1" back="翅膀右翻页按钮01"/>
+						<state frame="2" back="翅膀右翻页按钮02"/>
+						<state frame="3" back="翅膀右翻页按钮03"/>
+					</labelButton>
+				</box>
+				
+				<labelButton name="activeBtn" label="激活翅膀" width="84" height="28" center="0" bottom="5">
+					<state frame="1" back="付费类按钮01" format="ffbe57_12_居中"/>
+					<state frame="2" back="付费类按钮02" format="ffbe57_12_居中"/>
+					<state frame="3" back="付费类按钮03" format="ffbe57_12_居中"/>
+				</labelButton>
+				
+				<image bmp="borderUp" width="330" height="41" top="0"/>
+				<image bmp="borderDown" width="330" height="41" bottom="0"/>
+				<image bmp="lace3_1" width="31" height="76" left="0" top="183"/>
+				<image bmp="lace3_2" width="31" height="76" right="0" top="183"/>
+				
+				<box name="roleBox" width="260" height="186" center="0" top="40" />
+			</box>
+			
+			<box name="rightBox" width="320" height="480" right="10" top="54">
+				<image bmp="knightFrame2" width="320" height="480" grid="30,47,29,49"/>
+				<image bmp="knightFrame10" width="310" height="470" center="0" middle="0" grid="46,42,46,42"/>
+				
+				<box name="atkBox" width="320" height="68" center="0" top="10">
+					<image bmp="战斗力底板" width="295" height="56" center="0" top="6"/>
+					<image bmp="powerBg" width="217" height="41" center="0" top="16"/>
+					<image bmp="wingPowerTitle" width="112" height="24" left="30" top="0"/>
+				</box>
+				
+				<box name="propBox" width="320" height="186" center="0" top="75">
+					<image bmp="标题底板横条" width="305" height="30" center="0"/>
+					<image bmp="翅膀属性文字" width="73" height="24" center="0" top="3"/>
+					<label text="翅膀属性描述" width="305" height="20" center="0" top="35" format="翅膀培养12居中"/>
+					
+					<box name="basePropBox" width="320" height="73" center="0" top="60">
+						<image bmp="wingProp" width="290" height="73" center="0"/>
+						<label name="hp" format="翅膀属性12居中" width="95" height="16" left="74" top="2" html="true"/>
+						<label name="attack" format="翅膀属性12居中" width="95" height="16" left="74" top="30" html="true"/>
+						<label name="magic" format="翅膀属性12居中" width="95" height="16" left="74" top="57" html="true"/>
+						<label name="attackDef" format="翅膀属性12居中" width="75" height="16" right="15" top="2" html="true"/>
+						<label name="magicDef" format="翅膀属性12居中" width="75" height="16" right="15" top="30" html="true"/>
+					</box>
+					
+					<labelButton name="bringUpBtn" label="培养属性" width="82" height="28" left="60" bottom="12">
+						<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+						<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+						<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+					</labelButton>
+				
+					<labelButton name="gemBtn" label="宝石镶嵌" width="82" height="28" right="60" bottom="12">
+						<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+						<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+						<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+					</labelButton>
+				</box>
+				
+				<box name="upgradeBox" width="320" height="210" center="0" bottom="10">
+					<image bmp="标题底板横条" width="305" height="30" center="0"/>
+					<image bmp="翅膀等级文字" width="110" height="24" center="-10" top="3"/>
+					
+					<box name="progressField" width="320" top="35">
+						<label text="祝福描述" width="320" height="18" top="5" format="efb55a_12_居中" html="true"/>
+						<box name="progressBox" width="236" height="21" center="0" top="30">
+							<image bmp="progressBg" width="236" height="21"/>
+							<progressBar name="progressBar" bmp="progressBar" width="211" height="21" center="0" middle="0" onlyFront="true" ease="true" scaleX="1"/>
+							<label name="progressLabel" text="祝福进度" width="211" height="21" center="0" format="翅膀祝福" />
+						</box>
+					</box>
+				
+					<box name="消耗" bottom="50" width="297" height="60" center="0">
+						<image bmp="knightFrame4" grid="10,10,10,10" width="297" height="60"/>
+						<image bmp="costImg" width="72" height="20" top="-10" center="0"/>
+						
+						<box name="金钱消耗" width="80" height="22" left="30" middle="0">
+							<image bmp="knightFrame4" grid="10,10,10,10" width="80" height="22"/>
+							<image name="moneyIcon" width="42" height="42" left="-21" middle="0"/>
+							<label name="costMoney" width="80" height="20" left="0" middle="0" format="翅膀培养12居中" html="true"/>
+						</box>
+						
+						<box name="道具消耗" width="80" height="22" right="30" middle="0">
+							<image bmp="knightFrame4" grid="10,10,10,10" width="80" height="22"/>
+							<achieveEntity name="itemIcon" width="42" height="42" left="21"/>
+							<label name="costItem" width="80" height="20" left="0" middle="0" format="翅膀培养12居中" html="true"/>
+						</box>
+					</box>
+				
+					<box name="升级" bottom="12" width="322" height="28" center="0">
+						<labelButton name="upBtn" label="升级" width="82" height="28" left="60">
+							<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+							<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+							<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+						</labelButton>
+						
+						<labelButton name="autoUpBtn" label="自动升级" width="82" height="28" right="60">
+							<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+							<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+							<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+						</labelButton>
+					</box>
+				</box>
+			</box>
+		</window>
+		
+		<box id="wingEntity" width="51" height="51">
+			<image name="bg" center="0" middle="0"/>
+			<image bmp="锁" width="29" height="35" center="0" middle="0"/>
+			<achieveEntity name="item" x="5" y="5"/>
+			<label name="using" text="翅膀使用中" width="51" height="20" left="0" top="0" format="翅膀培养12居左"/>
+			<label name="disable" text="翅膀未激活" width="51" height="20" center="0" bottom="0" format="翅膀培养12居中"/>
+			<image name="selectedBorder" bmp="选中框" width="54" height="54" center="0" middle="0"/>
+		</box>
+	</controls>
+</xml>

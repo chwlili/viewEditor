@@ -1,0 +1,179 @@
+<xml name="开服活动">
+  <depends>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+    <depend src="/public/controls/window/CloseButton.xml"/>
+    <depend src="/public/controls/window/WindowBack.xml"/>
+    <depend src="/public/controls/scroller/Scroller.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+    <depend src="/public/publicTexts.xml"/>
+    <depend src="/public/publicNumimage.xml"/>
+    <depend src="activity_1.xml"/>
+    <depend src="activity_3.xml"/>
+	<depend src="activity_7.xml"/>
+	<depend src="baseActivity.xml"/>
+  </depends>
+
+  <bitmaps>
+    <bitmap id="表格标头条" src="imgs/表格标头条.png"/>
+    <bitmap id="第二级底板" src="imgs/第二级底板.png"/>
+    <bitmap id="奖励图标框" src="imgs/奖励图标框.png"/>
+    <bitmap id="框体右侧装饰" src="imgs/框体右侧装饰.png"/>
+    <bitmap id="框体左侧装饰" src="imgs/框体左侧装饰.png"/>
+    <bitmap id="开服活动" src="imgs/开服活动.png"/>
+    <bitmap id="未选择表格条" src="imgs/未选择表格条.png"/>
+    <bitmap id="选择表格条" src="imgs/选择表格条.png"/>
+    <bitmap id="隔断条" src="imgs/隔断条.png"/>
+    <bitmap id="页签选择" src="imgs/页签选择.png"/>
+    <bitmap id="页签未选择" src="imgs/页签未选择.png"/>
+    <bitmap id="提升战力表格条" src="imgs/提升战力表格条.png"/>
+    <bitmap id="提升装备表格条" src="imgs/提升装备表格条.png"/>
+    <bitmap id="切页小角标" src="imgs/切页小角标.png"/>
+
+    <bitmap id="BOSS首杀框" src="imgs/BOSS首杀框.png"/>
+    <bitmap id="BOSS头像框" src="imgs/BOSS头像框.png"/>
+    <bitmap id="BOSS已击杀" src="imgs/BOSS已击杀.png"/>
+    <bitmap id="不可领" src="imgs/不可领.png"/>
+    <bitmap id="大图" src="imgs/大图.jpg"/>
+    <bitmap id="首杀BOSS大图" src="imgs/首杀BOSS大图.jpg"/>
+    <bitmap id="击杀者底" src="imgs/击杀者底.png"/>
+    <bitmap id="领取按钮字" src="imgs/领取按钮字.png"/>
+    <bitmap id="首杀奖励标题" src="imgs/首杀奖励标题.png"/>
+    <bitmap id="已击杀" src="imgs/已击杀.png"/>
+  </bitmaps>
+
+  <texts>
+    <text id="boss名称">Boss名称</text>
+    <text id="奖励_openingActivity">奖励</text>
+    <text id="活动时间"><![CDATA[<font color='#fdd59a'>活动时间：</font>]]></text>
+    <text id="剩余时间"><![CDATA[<font color='#fdd59a'>剩余时间：</font>]]></text>
+	
+    <text id="排名统计倒计时"><![CDATA[<font color='#fdd59a'>排名统计倒计时：</font>]]></text>
+    <text id="领取奖励倒计时"><![CDATA[<font color='#fdd59a'>领取奖励倒计时：</font>]]></text>
+	
+    <text id="总战斗力达到"><![CDATA[<font color='#fdd59a'>总战斗力达到</font>]]></text>
+    <text id="领取">领取</text>
+    <text id="不可领">不可领</text>
+    <text id="未达成">未达成</text>
+    <text id="月">月</text>
+    <text id="日">日</text>
+    <text id="天">天</text>
+    <text id="虚位以待">虚位以待</text>
+    <text id="活动需求">活动需求</text>
+    <text id="万">万</text>
+    <text id="击杀">击杀</text>
+    <text id="已击杀">已击杀</text>
+    <text id="完成情况">完成情况</text>
+    <text id="装备总等级达到"><![CDATA[<font color='#fdd59a'>装备等级之和达到</font>]]></text>
+    <text id="级">级</text>
+    <text id="首杀：">首杀：</text>
+    <text id="btnLabel1">开服第一日 等级狂飙</text>
+    <text id="btnLabel2">开服第二日 竞技称霸</text>
+    <text id="btnLabel3">开服第三日 装备强化</text>
+    <text id="btnLabel4">开服第四日 技冠群雄</text>
+    <text id="btnLabel5">开服第五日 珠光宝气</text>
+    <text id="btnLabel6">开服第六日 骑士授勋</text>
+    <text id="btnLabel7">开服第七日 总战力榜</text>
+    <text id="btnLabel8">击杀BOSS 奖励多多</text>
+    <text id="btnLabel9">击杀BOSS 奖励多多</text>
+
+    
+  </texts>
+  <controls>
+    <window id="main" width="668" height="540">
+      <ref ref="WindowBack"/>
+      <ref name="closeBtn" ref="CloseButton"/>
+        <image bmp="开服活动" top="10" center="0" width="103" height="29" />
+
+
+    </window>
+
+
+
+    <box id="页签按钮" width="144" height="47" left="20">
+        <labelToggleButton name="toggleBtn" width="144" height="47" >
+          <state frame="1" back="页签未选择" format="e9d5a4_12_居中"/>
+          <state frame="2" back="页签选择" format="e9d5a4_12_居中"/>
+          <state frame="4" back="页签选择" format="e9d5a4_12_居中"/>
+          <state frame="5" back="页签选择" format="e9d5a4_12_居中"/>
+        </labelToggleButton>
+
+      <image name="tip" bmp="切页小角标" left="-6" top="-8" width="28" height="28" /> 
+      <label name="label" width="20" height="20" left="2" top="-4"  format="宋体白色14加粗"/>
+      <label name="btnLabel" width="140" height="20" left="4" top="12"  format="fff266_12居中"/>
+    </box>
+
+
+    <box id="全服通缉" width="509" height="530" left="153">
+      <image bmp="第二级底板" grid="30,47,29,49" center="0" top="45" width="492" height="475" />
+      <image bmp="大图" top="50" center="0" width="482" height="166" />
+      <image bmp="表格标头条" top="222" center="0" width="482" height="30" />
+      <image bmp="隔断条" top="215" center="0" width="484" height="3" />
+      <image bmp="框体右侧装饰" top="105" right="13" width="14" height="39" />
+      <image bmp="框体左侧装饰" top="105" left="12" width="14" height="39" />
+      <label width="240" height="21" left="250" top="165" text="活动时间" name="活动时间" format="36e314_12"/>
+      <label width="200" height="21" left="250" top="185" text="剩余时间" name="剩余时间" format="36e314_12"/>
+      <label width="78" height="21" left="95" top="225" text="boss名称" format="a03506_12"/>
+      <label width="78" height="21" left="300" top="225" text="奖励_openingActivity" format="a03506_12"/>
+      <ref name="scroller" ref="Scroller" width="483" height="260" center="0" y="253"/>
+    </box>
+
+    <box id="全服Boss首杀" width="509" height="530" left="152">
+      <image bmp="第二级底板" grid="30,47,29,49" center="0" top="45" width="492" height="440" />
+      <image bmp="首杀BOSS大图" top="50" center="0" width="482" height="166" />
+      <image bmp="隔断条" top="215" center="0" width="484" height="3" />
+      <image bmp="框体右侧装饰" top="105" right="13" width="14" height="39" />
+      <image bmp="框体左侧装饰" top="105" left="12" width="14" height="39" />
+      <label width="240" height="21" left="250" top="169" text="活动时间" name="活动时间" format="36e314_12"/>
+      <label width="200" height="21" left="250" top="189" text="剩余时间" name="剩余时间" format="36e314_12"/>
+    </box>
+
+    <box id="全服通缉cell" width="455" height="52">
+      <image bmp="未选择表格条" top="0" center="0" width="455" height="52" />
+      <image name="select" bmp="选择表格条" top="0" center="0" width="455" height="52" />
+      <label width="120" height="21" left="82" top="16" name="boss"  format="0x2089ff_12"/>
+
+      <image bmp="BOSS头像框" top="1" left="12" width="52" height="52" />
+      <image name="BOSS头像" top="5" left="18" width="40" height="41" />
+      <label width="72" height="21" left="2" top="31" name="killed"  format="36e314_12_center"/>
+      <image name="已击杀" bmp="已击杀" top="5" left="7" width="63" height="43" />
+      <image bmp="奖励图标框" top="5" left="228" width="42" height="42" />
+      <image bmp="奖励图标框" top="5" left="275" width="42" height="42" />
+      <image name="item3Bg" bmp="奖励图标框" top="5" left="322" width="42" height="42" />
+            <achieveEntity name="item1" left="229" top="6"/>
+            <achieveEntity name="item2" left="276" top="6"/>
+            <achieveEntity name="item3" left="323" top="6"/>
+      <labelButton name="领取" width="56" height="22" left="385" top="14" label="领取">
+          <state frame="1" back="small_btn_1_1" format="ffbe57_12_居中"/>
+          <state frame="2" back="small_btn_1_2" format="ffbe57_12_居中"/>
+          <state frame="3" back="small_btn_1_3" format="ffbe57_12_居中"/>
+      </labelButton>
+    </box>
+   
+    <box id="全服Boss首杀cell" width="138" height="265">
+      <box name="头像box" top="4" center="0" width="130" height="202">
+         <image name="BOSS头像" top="0" center="0" width="130" height="202" />
+      </box>
+      <image bmp="BOSS首杀框" top="0" center="0" width="138" height="209" />
+      <image bmp="首杀奖励标题" top="123" center="0" width="126" height="24" />
+      <image name="已击杀" bmp="BOSS已击杀" top="50" center="20" width="157" height="67" />
+      <label width="138" height="21" left="0" top="6" name="boss"  format="f79f13_14_center"/>
+      <image bmp="奖励图标框" top="150" left="4" width="42" height="42" />
+      <image bmp="奖励图标框" top="150" left="48" width="42" height="42" />
+      <image bmp="奖励图标框" top="150" left="92" width="42" height="42" />
+            <achieveEntity name="item1" left="5" top="151"/>
+            <achieveEntity name="item2" left="49" top="151"/>
+            <achieveEntity name="item3" left="93" top="151"/>
+      <labelButton name="领取" width="86" height="32" left="26" top="207">
+          <state frame="1" back="大号按钮活动用01" format="ffbe57_12_居中"/>
+          <state frame="2" back="大号按钮活动用02" format="ffbe57_12_居中"/>
+          <state frame="3" back="大号按钮活动用03" format="ffbe57_12_居中"/>
+      </labelButton>
+      <image name="可领" bmp="领取按钮字" top="212" left="44" width="50" height="21" />
+      <image name="不可领" bmp="不可领" top="210" left="29" width="80" height="26" />
+      <image name="击杀者底" bmp="击杀者底" top="213" left="9" width="121" height="42" />
+            <label width="138" height="21" left="0" top="237" name="killer"  format="36e314_12"/>
+    </box>
+	
+  </controls>
+</xml>

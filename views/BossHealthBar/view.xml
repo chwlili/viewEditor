@@ -1,0 +1,94 @@
+﻿<xml>
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/controls/window/HelpButton.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/controls/scroller/Scroller.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicTexts.xml"/>
+		<depend src="/public/publicIcons.xml"/>
+		<depend src="/public/publicNumimage.xml"/>
+	</depends>
+	<!--  
+	<swfs>
+		<swf id="BossHealthBar" src="../swfs/BossHealthBar.swf"/>
+		<swf id="controlsLib" src="../swfs/controlsLib.swf"/>
+	</swfs>
+	 -->
+	<texts>
+		<text id="留着">以后用</text>
+
+	</texts>
+
+	<bitmaps>
+		<bitmap id="lv_pic" src="imgs/等级.png" />
+		<bitmap id="lv_num" src="imgs/等级数字.png" />
+		
+		
+		<bitmap id="boss头像底板" src="imgs/boss头像底板.png" />
+		
+		<bitmap id="boss血条_橙" src="imgs/boss血条_橙.png" />
+		<bitmap id="boss血条_黑" src="imgs/boss血条_黑.png" />
+		<bitmap id="boss血条_红" src="imgs/boss血条_红.png" />
+		
+		<bitmap id="boss血条_黄" src="imgs/boss血条_黄.png" />
+		<bitmap id="boss血条_蓝" src="imgs/boss血条_蓝.png" />
+		<bitmap id="boss血条_绿" src="imgs/boss血条_绿.png" />
+		
+		<bitmap id="boss血条_深蓝" src="imgs/boss血条_深蓝.png" />
+		<bitmap id="boss血条_紫" src="imgs/boss血条_紫.png" />
+		
+		<bitmap id="乘号" src="imgs/乘号.png" />
+		
+		<bitmap id="精英小怪头像底板" src="imgs/精英小怪头像底板.png" />
+		<bitmap id="精英小怪血条" src="imgs/精英小怪血条.png" />
+		<bitmap id="精英小怪血条底板" src="imgs/精英小怪血条底板.png" />
+		<bitmap id="血条数字" src="imgs/血条数字.png" />
+		
+	</bitmaps>
+	
+	<controls>
+		<box id="bossHealthBar" width="557" height="134">
+			<box name="headBox" left="440" top="-66" width="130" height="111" >
+				<image bmp="boss头像底板" center="0" middle="0" width="130" height="111" />
+				<image name="headImg" center="0" bottom="10" width="86" height="117" />
+			</box>
+			
+			<box name="healthBarBox" left="16" top="4" width="420" height="27">
+				<image name="bar1" bmp="boss血条_黑" left="0" top="0" width="420" height="27"/>
+				<image name="bar2" bmp="boss血条_红" left="0" top="0" width="420" height="27"/>
+				<image name="bar3" bmp="boss血条_橙" left="0" top="0" width="420" height="27"/>
+				<image name="bar4" bmp="boss血条_黄" left="0" top="0" width="420" height="27"/>
+				<image name="bar5" bmp="boss血条_绿" left="0" top="0" width="420" height="27"/>
+				<image name="bar6" bmp="boss血条_蓝" left="0" top="0" width="420" height="27"/>
+				<image name="bar7" bmp="boss血条_深蓝" left="0" top="0" width="420" height="27"/>
+				<image name="bar8" bmp="boss血条_紫" left="0" top="0" width="420" height="27"/>
+			</box>
+			
+			<box name="smallHealthBar1" left="177" top="-40" width="147" height="41" visible="false">
+				<image bmp="精英小怪头像底板" right="3" middle="0" width="41" height="41"/>
+				<image bmp="精英小怪血条底板" left="0" middle="0" width="106" height="14"/>
+				<image name="bloodBar" bmp="精英小怪血条" right="41" middle="-1" width="101" height="7" grid="5,0,0,0" />
+				<image name="headImg" right="8" bottom="7" width="30" height="41" />
+			</box>
+			
+			<box name="smallHealthBar2" left="16" top="-40" width="147" height="41" visible="false">
+				<image bmp="精英小怪头像底板" right="3" middle="0" width="41" height="41"/>
+				<image bmp="精英小怪血条底板" left="0" middle="0" width="106" height="14"/>
+				<image name="bloodBar" bmp="精英小怪血条" right="41" middle="-1" width="101" height="7" grid="5,0,0,0" />
+				<image name="headImg" right="8" bottom="7" width="30" height="41" />
+			</box>
+			
+			<box name="bossNameBox" left="0" top="0" width="557" height="134">
+				<label name="bossname" left="338" top="-20" width="157" height="26" html="true" />
+				<image bmp="乘号" left="400" top="5" width="26" height="22" />
+			</box>
+		</box>
+		
+		<box id="boss_lv_num" left="483" top="-4" width="50" height="25">
+			<image bmp="lv_pic" left="0" middle="0" width="29" height="25"/>
+		</box>
+	</controls>
+</xml>

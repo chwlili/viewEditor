@@ -1,0 +1,121 @@
+<xml name="宝箱">
+
+  <depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/publicIcons.xml"/>
+
+  </depends>
+  <bitmaps>
+  	<bitmap id="白银宝箱文字" src="imgs/白银宝箱文字.png"/>
+  	<bitmap id="黄金宝箱文字" src="imgs/黄金宝箱文字.png"/>
+  	<bitmap id="青铜宝箱文字" src="imgs/青铜宝箱文字.png"/>
+  	<bitmap id="道具框_背面" src="imgs/道具框_背面.png"/>
+
+  	<bitmap id="道具框_橙" src="imgs/道具框_橙.png"/>
+  	<bitmap id="道具框_红" src="imgs/道具框_红.png"/>
+  	<bitmap id="道具框_黄" src="imgs/道具框_黄.png"/>
+  	<bitmap id="道具框_灰" src="imgs/道具框_灰.png"/>
+  	<bitmap id="道具框_蓝" src="imgs/道具框_蓝.png"/>
+  	<bitmap id="道具框_绿" src="imgs/道具框_绿.png"/>
+  	<bitmap id="道具框_紫" src="imgs/道具框_紫.png"/>
+	<bitmap id="花边1" src="imgs/下方侧边栏小装饰_右.png" />
+	<bitmap id="花边2" src="imgs/下方侧边栏小装饰_左.png" />
+	<bitmap id="中底板底" src="imgs/中底板底.png"/>
+	<bitmap id="稀有奖励框" src="imgs/稀有奖励框.png"/>
+	
+  	</bitmaps>
+  <texts>
+  	<text id="提示文字">点选下面方格开启宝藏</text>
+
+	<text id="开启次数">还可金币开启$1次</text>
+	<text id="钻石开启">还可钻石开启$1次</text>
+  	<text id="开启花费">本次开启花费：</text>
+
+  	<text id="开启完">宝箱已经全部开启</text>
+
+  	<text id="开宝箱">打开宝箱</text>
+	<text id="关闭宝箱">关闭宝箱</text>
+	<text id="宝箱元宝提示"><![CDATA[是否花费 <font color='#00ff00'>5</font> 钻石再抽一个道具?]]></text>
+	<text id="关闭确定">关闭窗口会使您失去宝箱和剩余的开启机会，您确定吗?</text>
+	<text id="再开一次"><![CDATA[<p align="center"><font color='#f79f13'>再抽1次</font><font color='#02e4f8'> (5钻石)</font></p>]]></text>
+	
+	<text id="宝石name0"><![CDATA[<font color='#ff0000'>$NAME</font>]]></text>
+    <text id="宝石name1"><![CDATA[<font color='#ffff00'>$NAME</font>]]></text>
+    <text id="宝石name2"><![CDATA[<font color='#49165e'>$NAME</font>]]></text>
+    <text id="宝石name3"><![CDATA[<font color='#1c3367'>$NAME</font>]]></text>
+    <text id="宝石name4"><![CDATA[<font color='#374e16'>$NAME</font>]]></text>
+    <text id="宝石name5"><![CDATA[<font color='#563615'>$NAME</font>]]></text>
+    <text id="宝石name6"><![CDATA[<font color='#40575a'>$NAME</font>]]></text>
+    <text id="宝石name-1"><![CDATA[<font color='#ffffff'>$NAME</font>]]></text>
+  </texts>
+	<formats>
+		<format id="rareFormat" font="宋体" size="12" align="left" color="0xffffff" leading="6" />
+	</formats>
+	<controls>
+		<window id="main" width="330" height="425">
+			<box name="topBox" x="0" y="0" width="330" height="431">
+				<image bmp="中底板底" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" />
+				<ref name="closeBtn" ref="CloseButton" />
+				<label name="提示" y="17" x="100" width="230" height="24" text="提示文字" format="宋体灰色12"/>
+				
+				<box name="rareBox" center="0" top="38" width="322" height="76">
+					<image bmp="稀有奖励框" left="0" top="0" right="0" bottom="0" />
+					<label name="稀有物品提示" left="25" top="26" width="285" height="48" html="true" multiline="true" wordWrap="true" format="rareFormat"/> 
+				</box>
+				<image name="青铜" bmp="青铜宝箱文字" center="0" top="-10" width="105" height="31"/>
+				<image name="白银" bmp="白银宝箱文字" center="0" top="-10" width="105" height="31"/>
+				<image name="黄金" bmp="黄金宝箱文字" center="0" top="-10" width="105" height="31"/>
+			</box>
+			<box name="downBox" x="0" y="434" width="330" height="65">
+				<image bmp="knightFrame10" grid="46,42,46,42" left="0" top="0" right="0" bottom="0" />
+				<image bmp="knightFrame9" grid="20,12,20,12" left="40" top="5" width="250" height="55"/>
+				<image bmp="花边1" grid="30,47,29,49" left="27" top="13" width="13" height="39" />
+				<image bmp="花边2" grid="30,47,29,49" right="27" top="13" width="13" height="39" />
+				
+				<box name="文本" left="0" top="0" right="0" bottom="0" >
+					<label name="开启" height="24" width="150" x="90" y="10" format="队伍金色14字体"/>
+					<label name="开启花费提示" height="18" width="85" x="90" y="35" format="暗黄色" text="开启花费"/>
+					<label name="花费" height="18" width="85" x="195" y="35" format="宋体绿色12"/>
+					<image name="金币" bmp="knightsGold_2" x="175" y="35" width="20" height="20"/>
+					<image name="钻石" bmp="knightsBlueGem_1" x="175" y="35" width="20" height="20"/>
+				</box>
+				<labelButton name="关闭宝箱"  width="143" height="43" label="关闭宝箱" center="0" middle="0">
+					<state frame="1" back="离开按钮1VS1_01" format="升级技能"/>
+					<state frame="2" back="离开按钮1VS1_02" format="升级技能"/>
+					<state frame="3" back="离开按钮1VS1_03" format="升级技能"/>
+				</labelButton>
+				<!-- 
+				<labelButton name="钻石开"  width="143" height="43" label="再开一次" center="0" middle="0">
+					<state frame="1" back="离开按钮1VS1_01" format="升级技能"/>
+					<state frame="2" back="离开按钮1VS1_02" format="升级技能"/>
+					<state frame="3" back="离开按钮1VS1_03" format="升级技能"/>
+				</labelButton>
+				 -->
+				<label name="钻石开" width="143" height="20" text="再开一次" center="0" html="true" format="升级技能" middle="0"/>
+			</box>
+
+
+		</window>
+
+
+
+		<box id="cell" width="106" height="104">
+			<image name="frame1" bmp="道具框_灰" width="106" height="104"/>
+			<image name="frame2" bmp="道具框_绿" width="106" height="104"/>
+			<image name="frame3" bmp="道具框_蓝" width="106" height="104"/>
+			<image name="frame4" bmp="道具框_紫" width="106" height="104"/>
+			<image name="frame5" bmp="道具框_黄" width="106" height="104"/>
+			<image name="frame6" bmp="道具框_橙" width="106" height="104"/>
+			<image name="frame7" bmp="道具框_红" width="106" height="104"/>
+			
+			<achieveEntity name="item" x="32" y="30" />
+
+			<image name="mask" bmp="道具框_背面" width="106" height="104"/>
+			
+		</box>
+	</controls>
+
+</xml>

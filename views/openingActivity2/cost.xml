@@ -1,0 +1,66 @@
+﻿<xml> 
+	<depends> 
+    <depend src="/public/controls/window/HelpButton.xml"/>  
+    <depend src="/public/controls/window/CloseButton.xml"/>  
+    <depend src="/public/controls/window/WindowBack.xml"/>  
+    <depend src="/public/controls/scroller/Scroller.xml"/>  
+    <depend src="/public/publicIcons.xml"/>  
+    <depend src="/public/publicFormats.xml"/>  
+    <depend src="/public/publicFrames.xml"/>  
+    <depend src="/public/publicButtons.xml"/>  
+    <depend src="/public/publicFilters.xml"/> 
+    <depend src="/public/controls/scroller/Scroller.xml"/> 
+  </depends> 
+  <bitmaps> 
+    <bitmap id="累计消费大奖表格头条" src="imgs/累计消费大奖表格头条.png"/>  
+    <bitmap id="未选择表格条" src="imgs/未选择表格条.png"/>  
+    <bitmap id="选择表格条" src="imgs/选择表格条.png"/>  
+    <bitmap id="奖励图标框" src="imgs/奖励图标框.png"/>  
+    <bitmap id="eff1" src="imgs/1.png"/>  
+    <bitmap id="eff2" src="imgs/2.png"/>  
+    <bitmap id="累积时间底" src="imgs/累积时间底.png"/>  
+  </bitmaps> 
+  <texts> 
+    <text id="累计消费达到"><![CDATA[累计消费达到 <font color='#12def7'>$NUM钻石</font>]]></text>  
+    <text id="领取">领取</text>
+    <text id="已领">已领</text>
+    <text id="不可领">不可领</text>
+    <text id="累计充值-活动时间"><![CDATA[活动时间：<font color='#2feb16'>$START-$END</font>]]></text>
+    <text id="累计充值-剩余时间"><![CDATA[剩余时间：<font color='#2feb16'>$TIME</font>]]></text>
+    <text id="累计充值-活动未开始"><![CDATA[<font color='#ff021a'>活动未开始</font>]]></text>
+    <text id="累计充值-活动已结束"><![CDATA[<font color='#ff021a'>活动已结束</font>]]></text>
+    <text id="累计充值-当前已消费"><![CDATA[当前已消费： <font color='#12def7'>$NUM钻石</font> <font color='#ff021a'>天降奇财不计入消费</font]]></text>
+  </texts>
+  <formats> 
+    <format id="宋体红色12" font="宋体" color="0xe00503" size="12" align="left" filter="黑色边框"/>  
+    <format id="宋体橘黄色居中12" font="宋体" size="12" color="0xefb55a" align="center" filter="黑色边框"/>  
+    <format id="宋体深黄色居中12" font="宋体" size="12" color="0x876b55" align="center" filter="黑色边框"/>  
+    <format id="宋体浅黄色12" font="宋体" size="12" color="0xfde3ac" align="left" filter="黑色边框"/> 
+    <format id="宋体浅黄色居中12" font="宋体" size="12" color="0xfde3ac" align="center" filter="黑色边框"/>  
+    <format id="宋体浅黄色居中粗体14" font="宋体" bold="true" size="14" color="0xfde3ac" align="center" filter="黑色边框"/>  
+    <format id="宋体灰色居中12" font="宋体" size="12" color="0x585755" align="center" filter="黑色边框"/>  
+    <format id="宋体蓝色居中12" font="宋体" size="12" color="0x12def7" align="center" filter="黑色边框"/> 
+  </formats>  
+  <controls> 
+    <window id="CostMain" width="483" height="276">
+    	<image bmp="累积时间底" width="319" height="40" center="0" y="-60"/>
+    	<image bmp="累计消费大奖表格头条" center="5" width="482" height="46"/>
+    	<label name="eventTimeTf" width="483" height="25" y="-60" html="true" format="宋体浅黄色居中12" text="累计充值-活动时间"/>
+    	<label name="leftTimeTf" width="483" height="25" y="-38" html="true" format="宋体浅黄色居中12" text="累计充值-剩余时间"/>
+    	<label name="costTf" width="483" height="25" y="17" html="true" format="宋体浅黄色居中粗体14" text="累计充值-当前已消费"/>
+    	<!--滚动条-->
+      <ref name="scroller" ref="Scroller" x="0" y="46" height="220" width="480"/>
+  	</window>
+  	<!--单个奖励条目-->
+  	<box id="CostCell" width="468" height="51">
+			<image name="unable" bmp="未选择表格条" width="468" height="51"/>
+			<image name="able" bmp="选择表格条" width="468" height="51"/>
+			<label name="costTf" width="150" height="25" x="3" y="20" html="true" format="宋体浅黄色12" text="累计消费达到"/>
+			<labelButton name="getBtn" width="56" height="22" left="388" top="14" label="领取">
+          <state frame="1" back="small_btn_1_1" format="ffbe57_12_居中"/>
+          <state frame="2" back="small_btn_1_2" format="ffbe57_12_居中"/>
+          <state frame="3" back="small_btn_1_3" format="ffbe57_12_居中"/>
+      </labelButton>
+		</box>
+ 	</controls> 
+</xml>

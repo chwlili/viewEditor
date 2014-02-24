@@ -1,0 +1,913 @@
+<xml name="工房" editorId="1">
+  <depends editorId="2">
+    <depend src="/public/publicFrames.xml" editorId="3"/>
+    <depend src="/public/publicButtons.xml" editorId="4"/>
+    <depend src="/public/controls/window/CloseButton.xml" editorId="5"/>
+    <depend src="/public/controls/window/WindowBack.xml" editorId="6"/>
+    <depend src="/public/controls/scroller/Scroller.xml" editorId="7"/>
+    <depend src="/public/publicFormats.xml" editorId="8"/>
+    <depend src="/public/publicTexts.xml" editorId="9"/>
+    <depend src="/public/publicIcons.xml" editorId="10"/>
+    <depend src="/public/publicNumimage.xml" editorId="11"/>
+  </depends>
+  <swfs editorId="12">
+    <swf id="motion1" src="../swfMotion/绿色附魔.swf" editorId="13"/>
+    <swf id="motion2" src="../swfMotion/蓝色附魔.swf" editorId="14"/>
+    <swf id="motion3" src="../swfMotion/紫色附魔.swf" editorId="15"/>
+  </swfs>
+  <bitmaps editorId="16">
+    <bitmap id="宝石升级" src="/motion/imgs/宝石升级.png" editorId="17"/>
+    <bitmap id="装备升级动画" src="/motion/imgs/强化.png" editorId="18"/>
+    <bitmap id="宝石嵌入上层动画" src="/motion/imgs/宝石镶嵌.png" editorId="19"/>
+    <bitmap id="大暴击字" src="/motion/imgs/大暴击.png" editorId="20"/>
+    <bitmap id="小暴击字" src="/motion/imgs/暴击.png" editorId="21"/>
+    <bitmap id="title1" src="imgs/title1.png" editorId="22"/>
+    <bitmap id="title2" src="imgs/title2.png" editorId="23"/>
+    <bitmap id="title3" src="imgs/title3.png" editorId="24"/>
+    <bitmap id="title4" src="imgs/title4.png" editorId="25"/>
+    <bitmap id="title5" src="imgs/title5.png" editorId="26"/>
+    <bitmap id="title6" src="imgs/title6.png" editorId="27"/>
+    <bitmap id="bg1" src="imgs/bg1.jpg" editorId="28"/>
+    <bitmap id="bg2" src="imgs/bg2.png" editorId="29"/>
+    <bitmap id="bg3" src="imgs/bg3.jpg" editorId="30"/>
+    <bitmap id="bg4" src="imgs/bg4.png" editorId="31"/>
+    <bitmap id="bg5" src="imgs/bg5.png" editorId="32"/>
+    <bitmap id="bg6" src="imgs/bg6.png" editorId="33"/>
+    <bitmap id="bg7" src="imgs/bg7.png" editorId="34"/>
+    <bitmap id="bg8" src="imgs/bg8.jpg" editorId="35"/>
+    <bitmap id="bg9" src="imgs/bg9.jpg" editorId="36"/>
+    <bitmap id="bg10" src="imgs/bg10.png" editorId="37"/>
+    <bitmap id="bg11" src="imgs/bg11.png" editorId="38"/>
+    <bitmap id="bg12" src="imgs/bg12.png" editorId="39"/>
+    <bitmap id="bg13" src="imgs/bg13.png" editorId="40"/>
+    <bitmap id="btn2_1" src="imgs/btn2_1.png" editorId="41"/>
+    <bitmap id="btn2_2" src="imgs/btn2_2.png" editorId="42"/>
+    <bitmap id="btn2_3" src="imgs/btn2_3.png" editorId="43"/>
+    <bitmap id="btn3_1" src="imgs/btn3_1.png" editorId="44"/>
+    <bitmap id="btn3_2" src="imgs/btn3_2.png" editorId="45"/>
+    <bitmap id="btn3_3" src="imgs/btn3_3.png" editorId="46"/>
+    <bitmap id="btn4_1" src="imgs/btn4_1.png" editorId="47"/>
+    <bitmap id="btn4_2" src="imgs/btn4_2.png" editorId="48"/>
+    <bitmap id="btn4_3" src="imgs/btn4_3.png" editorId="49"/>
+    <bitmap id="btn5_1" src="imgs/btn5_1.png" editorId="50"/>
+    <bitmap id="btn5_2" src="imgs/btn5_2.png" editorId="51"/>
+    <bitmap id="btn5_3" src="imgs/btn5_3.png" editorId="52"/>
+    <bitmap id="itemback1" src="imgs/itemback1.png" editorId="53"/>
+    <bitmap id="itemback2" src="imgs/itemback2.png" editorId="54"/>
+    <bitmap id="提示小标志" src="imgs/提示小标志.png" editorId="55"/>
+    <bitmap id="pic1" src="imgs/pic1.png" editorId="56"/>
+    <bitmap id="pic2" src="imgs/pic2.png" editorId="57"/>
+    <bitmap id="pic3" src="imgs/pic3.png" editorId="58"/>
+    <bitmap id="pic4" src="imgs/pic4.png" editorId="59"/>
+    <bitmap id="pic5" src="imgs/pic5.png" editorId="60"/>
+    <bitmap id="pic6" src="imgs/pic6.png" editorId="61"/>
+    <bitmap id="pic7" src="imgs/pic7.png" editorId="62"/>
+    <bitmap id="pic8" src="imgs/pic8.png" editorId="63"/>
+    <bitmap id="pic9" src="imgs/pic9.png" editorId="64"/>
+    <bitmap id="pic10" src="imgs/pic10.png" editorId="65"/>
+    <bitmap id="pic11" src="imgs/pic11.png" editorId="66"/>
+    <bitmap id="pic12" src="imgs/pic12.png" editorId="67"/>
+    <bitmap id="pic13" src="imgs/pic13.png" editorId="68"/>
+    <bitmap id="pic14" src="imgs/pic14.png" editorId="69"/>
+    <bitmap id="pic15" src="imgs/pic15.png" editorId="70"/>
+    <bitmap id="pic16" src="imgs/pic16.png" editorId="71"/>
+    <bitmap id="pic17" src="imgs/pic17.png" editorId="72"/>
+    <bitmap id="pic18" src="imgs/pic18.png" editorId="73"/>
+    <bitmap id="pic19" src="imgs/pic19.png" editorId="74"/>
+    <bitmap id="pic20" src="imgs/pic20.png" editorId="75"/>
+    <bitmap id="pic22" src="imgs/pic22.png" editorId="76"/>
+    <bitmap id="pic24" src="imgs/pic24.png" editorId="77"/>
+    <bitmap id="pic25" src="imgs/pic25.png" editorId="78"/>
+    <bitmap id="pic26" src="imgs/pic26.png" editorId="79"/>
+    <bitmap id="pic27" src="imgs/pic27.png" editorId="80"/>
+    <bitmap id="pic28" src="imgs/pic28.png" editorId="81"/>
+    <bitmap id="pic29" src="imgs/pic29.png" editorId="82"/>
+    <bitmap id="pic30" src="imgs/pic30.png" editorId="83"/>
+    <bitmap id="pic31" src="imgs/pic31.png" editorId="84"/>
+    <bitmap id="pic32" src="imgs/pic32.png" editorId="85"/>
+    <bitmap id="pic33" src="imgs/pic33.png" editorId="86"/>
+    <bitmap id="pic34" src="imgs/pic34.png" editorId="87"/>
+    <bitmap id="slotBack_1" src="imgs/slotBack1_1.png" editorId="88"/>
+    <bitmap id="slotBack_2" src="imgs/slotBack1_2.png" editorId="89"/>
+    <bitmap id="slotBack_3" src="imgs/slotBack1_3.png" editorId="90"/>
+    <bitmap id="slotBack_4" src="imgs/slotBack1_4.png" editorId="91"/>
+    <bitmap id="slotBack_5" src="imgs/slotBack1_5.png" editorId="92"/>
+    <bitmap id="slotBack_6" src="imgs/slotBack1_6.png" editorId="93"/>
+    <bitmap id="slotBack_7" src="imgs/slotBack1_7.png" editorId="94"/>
+    <bitmap id="slotBack1_1" src="imgs/slotBack2_1.png" editorId="95"/>
+    <bitmap id="slotBack1_2" src="imgs/slotBack2_2.png" editorId="96"/>
+    <bitmap id="slotBack1_3" src="imgs/slotBack2_3.png" editorId="97"/>
+    <bitmap id="slotBack1_4" src="imgs/slotBack2_4.png" editorId="98"/>
+    <bitmap id="slotBack1_5" src="imgs/slotBack2_5.png" editorId="99"/>
+    <bitmap id="slotBack1_6" src="imgs/slotBack2_6.png" editorId="100"/>
+    <bitmap id="slotBack1_7" src="imgs/slotBack2_7.png" editorId="101"/>
+    <bitmap id="slotbg" src="imgs/slotbg.png" editorId="102"/>
+    <bitmap id="slotSeleceedBg" src="imgs/slotSeleceedBg.png" editorId="103"/>
+    <bitmap id="fm" src="imgs/fm.png" editorId="104"/>
+    <bitmap id="fm0" src="imgs/fm0.png" editorId="105"/>
+    <bitmap id="fm1" src="imgs/fm1.png" editorId="106"/>
+    <bitmap id="fm2" src="imgs/fm2.png" editorId="107"/>
+    <bitmap id="fm3" src="imgs/fm3.png" editorId="108"/>
+    <bitmap id="fm4" src="imgs/fm4.png" editorId="109"/>
+    <bitmap id="fm5" src="imgs/fm5.png" editorId="110"/>
+    <bitmap id="fm6" src="imgs/fm6.png" editorId="111"/>
+    <bitmap id="完美属性" src="imgs/完美属性文字.png" editorId="112"/>
+    <bitmap id="完美附魔特效大" src="imgs/完美附魔特效大.png" editorId="113"/>
+    <bitmap id="完美附魔特效小" src="imgs/完美附魔特效小.png" editorId="114"/>
+    <bitmap id="king" src="imgs/皇冠图标.png" editorId="115"/>
+    <bitmap id="sun" src="imgs/太阳图标.png" editorId="116"/>
+    <bitmap id="moon" src="imgs/月亮图标.png" editorId="117"/>
+    <bitmap id="star" src="imgs/星星图标.png" editorId="118"/>
+    <bitmap id="四条线镶嵌" src="imgs/四条线镶嵌.png" editorId="119"/>
+    <bitmap id="六条线镶嵌" src="imgs/六条线镶嵌.png" editorId="120"/>
+  </bitmaps>
+  <bitmapReaders editorId="121">
+    <bitmapReader id="slotBack1" bmp="slotBack_1" editorId="122"/>
+    <bitmapReader id="slotBack2" bmp="slotBack_2" editorId="123"/>
+    <bitmapReader id="slotBack3" bmp="slotBack_3" editorId="124"/>
+    <bitmapReader id="slotBack4" bmp="slotBack_4" editorId="125"/>
+    <bitmapReader id="slotBack5" bmp="slotBack_5" editorId="126"/>
+    <bitmapReader id="slotBack6" bmp="slotBack_6" editorId="127"/>
+    <bitmapReader id="slotBack7" bmp="slotBack_7" editorId="128"/>
+    <bitmapReader id="slotBack1_1" bmp="slotBack1_1" editorId="129"/>
+    <bitmapReader id="slotBack1_2" bmp="slotBack1_2" editorId="130"/>
+    <bitmapReader id="slotBack1_3" bmp="slotBack1_3" editorId="131"/>
+    <bitmapReader id="slotBack1_4" bmp="slotBack1_4" editorId="132"/>
+    <bitmapReader id="slotBack1_5" bmp="slotBack1_5" editorId="133"/>
+    <bitmapReader id="slotBack1_6" bmp="slotBack1_6" editorId="134"/>
+    <bitmapReader id="slotBack1_7" bmp="slotBack1_7" editorId="135"/>
+    <bitmapReader id="fm" bmp="fm" editorId="136"/>
+    <bitmapReader id="fm0" bmp="fm0" editorId="137"/>
+    <bitmapReader id="fm1" bmp="fm1" editorId="138"/>
+    <bitmapReader id="fm2" bmp="fm2" editorId="139"/>
+    <bitmapReader id="fm3" bmp="fm3" editorId="140"/>
+    <bitmapReader id="fm4" bmp="fm4" editorId="141"/>
+    <bitmapReader id="fm5" bmp="fm5" editorId="142"/>
+    <bitmapReader id="fm6" bmp="fm6" editorId="143"/>
+    <bitmapReader id="kingIcon" bmp="king" editorId="144"/>
+    <bitmapReader id="sunIcon" bmp="sun" editorId="145"/>
+    <bitmapReader id="moonIcon" bmp="moon" editorId="146"/>
+    <bitmapReader id="starIcon" bmp="star" editorId="147"/>
+  </bitmapReaders>
+  <texts editorId="148">
+    <text id="装备强化" editorId="149">装备强化</text>
+    <text id="宝石镶嵌" editorId="151">宝石镶嵌</text>
+    <text id="符石刻印" editorId="153">装备进阶</text>
+    <text id="装备附魔" editorId="155">装备附魔</text>
+    <text id="升级" editorId="157">升  级</text>
+    <text id="突破" editorId="159">突  破</text>
+    <text id="强化$1级" editorId="161">强化$1级</text>
+    <text id="强化" editorId="163">强  化</text>
+    <text id="阶" editorId="165">阶</text>
+    <text id="级" editorId="167">级</text>
+    <text id="等级" editorId="169">等级:</text>
+    <text id="强化等级" editorId="171">强化等级</text>
+    <text id="翅膀等级" editorId="173">翅膀等级</text>
+    <text id="级开启" editorId="175">级开启</text>
+    <text id="堆叠显示" editorId="177">堆叠显示</text>
+    <text id="宝石升级desc" editorId="179">shift+点击可选择吞噬数量</text>
+    <text id="宝石槽开启条件1" editorId="181">30级开启</text>
+    <text id="宝石槽开启条件2" editorId="183">45级开启</text>
+    <text id="宝石槽开启条件3" editorId="185">60级开启</text>
+    <text id="翅膀宝石槽开启条件2" editorId="187">1级开启</text>
+    <text id="翅膀宝石槽开启条件3" editorId="189">2级开启</text>
+    <text id="翅膀宝石槽开启条件4" editorId="191">3级开启</text>
+    <text id="翅膀宝石槽开启条件5" editorId="193">4级开启</text>
+    <text id="需要等级" editorId="195">需要人物等级:</text>
+    <text id="当前刻印" editorId="197">当前等阶: $1阶</text>
+    <text id="当前刻印加成" editorId="199">当前等阶加成:</text>
+    <text id="元宝刻印" editorId="201">钻石进阶</text>
+    <text id="刻印消费提示" editorId="203"><![CDATA[您确定使用<font color='#00ff00'>$1</font>钻石进行装备进阶吗?]]></text>
+    <text id="洗炼" editorId="205">附 魔</text>
+    <text id="开启" editorId="207">开 启</text>
+    <text id="立即开启" editorId="209">立即开启</text>
+    <text id="未开启" editorId="211">未开启</text>
+    <text id="前往血战" editorId="213">前往血战</text>
+    <text id="激活" editorId="215">激 活</text>
+    <text id="神符洗炼" editorId="217">附魔石洗炼</text>
+    <text id="钻石洗炼" editorId="219">钻石洗炼</text>
+    <text id="洗炼消耗" editorId="221"><![CDATA[本次洗炼消耗<font color='#00ff00'>$1</font>个附魔石或者<font color='#00ff00'>$2</font>钻石]]></text>
+    <text id="金锭开启提示2" editorId="223"><![CDATA[您确定使用<font color='#00ff00'>500</font>钻石立即开启第二条附魔孔吗?]]></text>
+    <text id="金锭开启提示3" editorId="225"><![CDATA[您确定使用<font color='#00ff00'>1000</font>钻石立即开启第三条附魔孔吗?]]></text>
+    <text id="属性金锭开启提示2" editorId="227"><![CDATA[您确定使用<font color='#00ff00'>20</font>钻石立即开启第二个属性吗?]]></text>
+    <text id="属性金锭开启提示3" editorId="229"><![CDATA[您确定使用<font color='#00ff00'>30</font>钻石立即开启第三个属性吗?]]></text>
+    <text id="锁定" editorId="231">锁定</text>
+    <text id="刷新属性" editorId="233"><![CDATA[您确定使用<font color='#00ff00'>$1</font>钻石洗炼属性吗?]]></text>
+    <text id="普通精炼tip" editorId="235"><![CDATA[普通进阶获得<font color='#00ff00'>10</font>点经验有几率出现小暴击(获得<font color='#00ff00'>50</font>点经验)]]></text>
+    <text id="钻石精炼tip1" editorId="237"><![CDATA[花费<font color='#00ff00'>10</font>钻石进阶获得<font color='#00ff00'>20</font>点经验有几率出现小暴击(获得<font color='#00ff00'>100</font>点经验)有几率出现大暴击(获得<font color='#00ff00'>200</font>点经验)]]></text>
+    <text id="钻石精炼tip2" editorId="239"><![CDATA[花费<font color='#00ff00'>20</font>钻石进阶获得<font color='#00ff00'>20</font>点经验有几率出现小暴击(获得<font color='#00ff00'>100</font>点经验)有几率出现大暴击(获得<font color='#00ff00'>200</font>点经验)]]></text>
+    <text id="强化界面描述" editorId="241">强化装备可快速提高战斗力</text>
+    <text id="镶嵌界面描述" editorId="243">将宝石拖拽到镶嵌槽内镶嵌宝石</text>
+    <text id="精炼界面描述" editorId="245">装备进阶可增加装备强化属性并提高装备品质</text>
+    <text id="附魔界面描述" editorId="247">附魔可为装备提供附加属性</text>
+    <text id="绿装" editorId="249">绿装</text>
+    <text id="蓝装" editorId="251">蓝装</text>
+    <text id="紫装" editorId="253">紫装</text>
+    <text id="黄装" editorId="255">黄装</text>
+    <text id="橙装" editorId="257">橙装</text>
+    <text id="红装" editorId="259">红装</text>
+    <text id="强化属性增加" editorId="261">强化属性增加</text>
+    <text id="需要角色等级" editorId="263">需要角色等级</text>
+    <text id="需要角色等级$1级" editorId="265">需要角色等级$1级</text>
+    <text id="宝石经验" editorId="267">宝石经验:</text>
+    <text id="吞噬" editorId="269">吞噬</text>
+    <text id="可吞噬宝石" editorId="271">可吞噬宝石:</text>
+    <text id="宝石1" editorId="273"><![CDATA[<font color='#701717'>红宝石</font>]]></text>
+    <text id="宝石2" editorId="275"><![CDATA[<font color='#594511'>黄宝石</font>]]></text>
+    <text id="宝石3" editorId="277"><![CDATA[<font color='#49165e'>紫宝石</font>]]></text>
+    <text id="宝石4" editorId="279"><![CDATA[<font color='#1c3367'>蓝宝石</font>]]></text>
+    <text id="宝石5" editorId="281"><![CDATA[<font color='#374e16'>绿宝石</font>]]></text>
+    <text id="宝石6" editorId="283"><![CDATA[<font color='#563615'>橙宝石</font>]]></text>
+    <text id="宝石7" editorId="285"><![CDATA[<font color='#40575a'>白水晶</font>]]></text>
+    <text id="宝石10" editorId="287"><![CDATA[<font color='#ffffff'>任意宝石</font>]]></text>
+    <text id="宝石镶嵌tip" editorId="289">从背包中拖拽宝石到宝石孔,该孔可以镶嵌$1</text>
+    <text id="宝石颜色1" editorId="291">红宝石</text>
+    <text id="宝石颜色2" editorId="293">黄宝石</text>
+    <text id="宝石颜色3" editorId="295">紫宝石</text>
+    <text id="宝石颜色4" editorId="297">蓝宝石</text>
+    <text id="宝石颜色5" editorId="299">绿宝石</text>
+    <text id="宝石颜色6" editorId="301">橙宝石</text>
+    <text id="宝石颜色7" editorId="303">白水晶</text>
+    <text id="宝石颜色10" editorId="305">宝石</text>
+    <text id="需要开启附魔槽1" editorId="307">需要开启附魔槽1</text>
+    <text id="需要开启附魔槽2" editorId="309">需要开启附魔槽2</text>
+    <text id="已是最高级" editorId="311">已是最高级</text>
+    <text id="恭喜您!" editorId="313">恭喜您!</text>
+    <text id="强化已达满级" editorId="315">强化已达满级</text>
+    <text id="精炼已达满级" editorId="317">装备已达满阶</text>
+    <text id="宝石开孔提示" editorId="319">
+      您确定花费
+      <![CDATA[<font color='#00ff00'> 500 </font>]]>
+      钻石开启这个宝石孔吗?
+    </text>
+    <text id="附魔高品质未锁定提示" editorId="323">当前附魔有高品质未锁定属性，确认洗炼吗？</text>
+    <text id="血战限制1" editorId="325">$1附魔功能未开启</text>
+    <text id="血战限制2" editorId="327"><![CDATA[<p align='center'><font size='12' color='#56f592'>血战前线里</font>，通关 <font size='12' color='#ee280e'>$1</font> 后开启</p>]]></text>
+    <text id="血战前线" editorId="329">血战前线</text>
+    <text id="血战名称0" editorId="331">魔化第一军团</text>
+    <text id="血战名称1" editorId="333">魔化第二军团</text>
+    <text id="血战名称2" editorId="335">魔化第三军团</text>
+    <text id="血战名称3" editorId="337">魔化第四军团</text>
+    <text id="拆除tip" editorId="339">当开启了全部嵌孔后可进行宝石卸下操作</text>
+    <text id="点击可打开背包" editorId="341"><![CDATA[<font color='#00ff00'>点击打开背包</font>]]></text>
+    <text id="完美附魔" editorId="343">三条属性都为红色将得到完美附魔加成</text>
+  </texts>
+  <controls editorId="345">
+    <window id="main" width="676" height="490" editorId="346">
+      <ref ref="WindowBack" editorId="347"/>
+      <ref name="closeBtn" ref="CloseButton" editorId="348"/>
+      <image bmp="title1" width="101" height="27" top="12" center="0" editorId="349"/>
+      <image bmp="knightFrame2" grid="30,47,29,49" left="104" top="50" width="198" height="427" editorId="350"/>
+      <ref name="scroller" ref="Scroller" width="197" height="427" left="105" y="50" editorId="351"/>
+      <labelToggleButton name="toggleBtn1" width="80" height="24" top="53" left="320" label="装备强化" editorId="352">
+        <state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中" editorId="353"/>
+        <state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="354"/>
+        <state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="355"/>
+        <state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="356"/>
+        <state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="357"/>
+      </labelToggleButton>
+      <labelToggleButton name="toggleBtn2" width="80" height="24" top="53" left="402" label="宝石镶嵌" editorId="358">
+        <state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中" editorId="359"/>
+        <state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="360"/>
+        <state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="361"/>
+        <state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="362"/>
+        <state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="363"/>
+      </labelToggleButton>
+      <labelToggleButton name="toggleBtn3" width="80" height="24" top="53" left="484" label="符石刻印" editorId="364">
+        <state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中" editorId="365"/>
+        <state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="366"/>
+        <state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="367"/>
+        <state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="368"/>
+        <state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="369"/>
+      </labelToggleButton>
+      <labelToggleButton name="toggleBtn4" width="80" height="24" top="53" left="566" label="装备附魔" editorId="370">
+        <state frame="1" back="knightBtn1_1" grid="8,8,8,0" format="978773_12_居中" editorId="371"/>
+        <state frame="2" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="372"/>
+        <state frame="3" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="373"/>
+        <state frame="4" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="374"/>
+        <state frame="5" back="knightBtn1_2" grid="8,8,8,0" format="ffe4c3_12_居中" editorId="375"/>
+      </labelToggleButton>
+    </window>
+    <box id="roleToggleBox" width="90" height="50" editorId="376">
+      <image bmp="knightFrame2" grid="10,10,10,10" left="0" top="0" right="0" bottom="0" editorId="377"/>
+      <image bmp="knightFrame7" grid="20,0,20,0" left="5" top="3" width="85" height="49" editorId="378"/>
+      <label width="80" height="18" center="2" top="7" name="name" html="true" format="宋体白色12居中" editorId="379"/>
+      <label width="80" height="18" center="2" bottom="7" name="lv" html="true" format="宋体白色12居中" editorId="380"/>
+    </box>
+    <box id="equipCell" width="169" height="52" editorId="381">
+      <image name="bg1" bmp="itemback1" top="0" bottom="0" left="0" right="0" editorId="382"/>
+      <image name="bg2" bmp="itemback2" top="0" bottom="0" left="0" right="0" visible="false" editorId="383"/>
+      <achieveEntity name="item" x="6" y="6" editorId="384"/>
+      <label name="equipName" height="20" width="110" top="6" right="10" format="宋体白色14居中加粗" html="true" editorId="385"/>
+      <label name="equipDesc" height="18" width="110" bottom="8" right="10" format="f5cfb3_12_居中" editorId="386"/>
+      <image name="icon" bmp="提示小标志" top="3" left="28" width="22" height="22" editorId="387"/>
+    </box>
+    <box id="equipUpgradeBox" top="74" left="301" width="364" height="403" editorId="388">
+      <image bmp="knightFrame2" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" editorId="389"/>
+      <image bmp="bg8" left="5" top="4" width="354" height="394" editorId="390"/>
+      <image bmp="bg11" center="0" top="50" width="111" height="114" editorId="391"/>
+      <image bmp="bg12" center="0" top="4" width="322" height="29" editorId="392"/>
+      <label width="222" height="18" center="0" top="6" text="强化界面描述" format="fa9600_12_居中" editorId="393"/>
+      <achieveEntity name="item" isBig="true" top="75" left="151" editorId="394"/>
+      <image bmp="bg13" center="0" top="148" width="124" height="19" editorId="395"/>
+      <label name="equipName" format="宋体白色14居中加粗" html="true" height="20" width="105" top="147" center="0" editorId="396"/>
+      <filmAnimEffect name="装备升级动画" bmp="装备升级动画" x="99" y="24" row="1" col="10" tCount="10" frameDelay="30" loop="1" editorId="397"/>
+      <image bmp="knightFrame4" grid="20,20,20,20" width="150" height="76" left="22" top="186" editorId="398"/>
+      <image bmp="knightFrame4" grid="20,20,20,20" width="150" height="76" right="22" top="186" editorId="399"/>
+      <image bmp="pic2" width="62" height="45" center="0" top="203" editorId="400"/>
+      <box name="current" width="150" height="80" left="22" top="186" editorId="401">
+        <label name="equipDesc" format="宋体白色12居中加粗" html="true" height="18" width="105" top="6" center="0" editorId="402"/>
+        <label name="equipProp1" format="fce5b8_12" html="true" height="18" width="105" top="26" center="0" editorId="403"/>
+        <label name="equipProp2" format="fce5b8_12" html="true" height="18" width="105" top="46" center="0" editorId="404"/>
+      </box>
+      <box name="next" width="150" height="80" right="22" top="186" editorId="405">
+        <label name="equipDesc" format="宋体白色12居中加粗" html="true" height="18" width="105" top="6" center="0" editorId="406"/>
+        <label name="equipProp1" format="fce5b8_12" html="true" height="18" width="105" top="26" center="0" editorId="407"/>
+        <label name="equipProp2" format="fce5b8_12" html="true" height="18" width="105" top="46" center="0" editorId="408"/>
+      </box>
+      <labelButton name="强化" label="强化" width="82" height="28" center="0" bottom="11" editorId="409">
+        <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中" editorId="410"/>
+        <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中" editorId="411"/>
+        <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中" editorId="412"/>
+      </labelButton>
+      <image bmp="knightFrame4" grid="20,20,20,20" height="78" left="22" right="22" top="278" editorId="413"/>
+      <image bmp="title5" width="63" height="19" center="0" top="270" editorId="414"/>
+      <box width="100" height="21" center="-70" top="320" name="cost1" editorId="415">
+        <image bmp="knightTextBoard" width="92" height="21" x="8" editorId="416"/>
+        <image name="gold" bmp="knightsGold_2" width="42" height="42" y="-10" editorId="417"/>
+        <achieveEntity name="item" y="-10" id="1" editorId="418"/>
+        <label name="label" width="64" height="20" format="宋体绿色12居中" center="16" html="true" editorId="419"/>
+      </box>
+      <box width="100" height="21" center="70" top="320" name="cost2" editorId="420">
+        <image bmp="knightTextBoard" width="92" height="21" x="8" editorId="421"/>
+        <image name="gold" bmp="knightsGold_2" width="42" height="42" y="-10" editorId="422"/>
+        <achieveEntity name="item" y="-10" id="1" editorId="423"/>
+        <label name="label" width="64" height="20" format="宋体绿色12居中" center="16" html="true" editorId="424"/>
+      </box>
+      <label name="needlv" format="宋体白色12居中" width="100" height="18" top="290" center="0" html="true" editorId="425"/>
+      <image bmp="pic3" left="4" middle="0" width="31" height="76" editorId="426"/>
+      <image bmp="pic4" right="4" middle="0" width="31" height="76" editorId="427"/>
+    </box>
+    <box id="equipInsertBox" top="74" left="301" width="364" height="403" editorId="428">
+      <image bmp="knightFrame2" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" editorId="429"/>
+      <image bmp="bg3" left="5" top="4" width="355" height="395" editorId="430"/>
+      <image bmp="四条线镶嵌" width="164" height="163" center="-1" middle="-10" editorId="431"/>
+      <image bmp="pic3" left="4" middle="0" width="31" height="76" editorId="432"/>
+      <image bmp="pic4" right="4" middle="0" width="31" height="76" editorId="433"/>
+      <image bmp="bg12" center="0" top="4" width="322" height="29" editorId="434"/>
+      <image bmp="bg11" center="0" top="135" width="111" height="114" editorId="435"/>
+      <label width="222" height="18" center="0" top="6" text="镶嵌界面描述" format="fa9600_12_居中" editorId="436"/>
+      <achieveEntity name="item" isBig="true" left="153" top="162" editorId="437"/>
+      <button name="拆除" width="62" height="58" right="10" bottom="10" editorId="438">
+        <state frame="1" back="btn3_1" editorId="439"/>
+        <state frame="2" back="btn3_2" editorId="440"/>
+        <state frame="3" back="btn3_3" editorId="441"/>
+      </button>
+      <maskcontrol name="拆除mask" width="62" height="58" right="10" bottom="10" tip="拆除tip" editorId="442"/>
+      <box name="gemBox1" width="52" height="53" center="-1" top="67" editorId="443">
+        <image name="bg1" bmp="bg4" width="52" height="53" editorId="444"/>
+        <image name="bg2" bmp="bg5" width="52" height="53" editorId="445"/>
+        <image name="bg3" bmp="bg6" width="52" height="53" editorId="446"/>
+        <image name="colorImage" width="60" height="60" center="0" middle="-2" editorId="447"/>
+        <label name="label" width="50" height="18" center="1" middle="-1" html="true" format="宋体白色12居中" editorId="448"/>
+        <achieveEntity name="item" center="-2" middle="-4" editorId="449"/>
+        <filmAnimEffect name="motion2" bmp="宝石嵌入上层动画" x="-35" y="-30" row="1" col="8" tCount="8" frameDelay="40" loop="1" editorId="450"/>
+        <label name="label1" height="18" width="60" center="0" bottom="-14" text="强化等级" format="ffe4c3_12_居中" visible="false" editorId="451"/>
+        <label name="label2" height="18" width="60" center="0" bottom="-28" format="ffe4c3_12_居中" visible="false" editorId="452"/>
+        <maskcontrol name="mask" width="53" height="53" visible="false" editorId="453"/>
+        <button name="开启" width="56" height="26" center="0" bottom="-24" visible="false" editorId="454">
+          <state frame="1" back="btn2_1" editorId="455"/>
+          <state frame="2" back="btn2_2" editorId="456"/>
+          <state frame="3" back="btn2_3" editorId="457"/>
+        </button>
+        <button name="升级" width="23" height="19" right="-8" bottom="-2" visible="false" editorId="458">
+          <state frame="1" back="btn4_1" editorId="459"/>
+          <state frame="2" back="btn4_2" editorId="460"/>
+          <state frame="3" back="btn4_3" editorId="461"/>
+        </button>
+      </box>
+      <box name="gemBox2" width="52" height="53" center="-100" top="167" editorId="462">
+        <image name="bg1" bmp="bg4" width="52" height="53" editorId="463"/>
+        <image name="bg2" bmp="bg5" width="52" height="53" editorId="464"/>
+        <image name="bg3" bmp="bg6" width="52" height="53" editorId="465"/>
+        <image name="colorImage" width="60" height="60" center="0" middle="-2" editorId="466"/>
+        <label name="label" width="50" height="18" center="1" middle="-1" html="true" format="宋体白色12居中" editorId="467"/>
+        <achieveEntity name="item" center="-2" middle="-4" editorId="468"/>
+        <filmAnimEffect name="motion2" bmp="宝石嵌入上层动画" x="-35" y="-30" row="1" col="8" tCount="8" frameDelay="40" loop="1" editorId="469"/>
+        <label name="label1" height="18" width="60" center="0" bottom="-14" text="强化等级" format="ffe4c3_12_居中" visible="false" editorId="470"/>
+        <label name="label2" height="18" width="60" center="0" bottom="-28" format="ffe4c3_12_居中" visible="false" editorId="471"/>
+        <maskcontrol name="mask" width="53" height="53" visible="false" editorId="472"/>
+        <button name="开启" width="56" height="26" center="0" bottom="-24" visible="false" editorId="473">
+          <state frame="1" back="btn2_1" editorId="474"/>
+          <state frame="2" back="btn2_2" editorId="475"/>
+          <state frame="3" back="btn2_3" editorId="476"/>
+        </button>
+        <button name="升级" width="23" height="19" right="-8" bottom="-2" visible="false" editorId="477">
+          <state frame="1" back="btn4_1" editorId="478"/>
+          <state frame="2" back="btn4_2" editorId="479"/>
+          <state frame="3" back="btn4_3" editorId="480"/>
+        </button>
+      </box>
+      <box name="gemBox3" width="52" height="53" center="100" top="167" editorId="481">
+        <image name="bg1" bmp="bg4" width="52" height="53" editorId="482"/>
+        <image name="bg2" bmp="bg5" width="52" height="53" editorId="483"/>
+        <image name="bg3" bmp="bg6" width="52" height="53" editorId="484"/>
+        <image name="colorImage" width="60" height="60" center="0" middle="-2" editorId="485"/>
+        <label name="label" width="50" height="18" center="1" middle="-1" html="true" format="宋体白色12居中" editorId="486"/>
+        <achieveEntity name="item" center="-2" middle="-4" editorId="487"/>
+        <filmAnimEffect name="motion2" bmp="宝石嵌入上层动画" x="-35" y="-30" row="1" col="8" tCount="8" frameDelay="40" loop="1" editorId="488"/>
+        <label name="label1" height="18" width="60" center="0" bottom="-14" text="强化等级" format="ffe4c3_12_居中" visible="false" editorId="489"/>
+        <label name="label2" height="18" width="60" center="0" bottom="-28" format="ffe4c3_12_居中" visible="false" editorId="490"/>
+        <maskcontrol name="mask" width="53" height="53" visible="false" editorId="491"/>
+        <button name="开启" width="56" height="26" center="0" bottom="-24" visible="false" editorId="492">
+          <state frame="1" back="btn2_1" editorId="493"/>
+          <state frame="2" back="btn2_2" editorId="494"/>
+          <state frame="3" back="btn2_3" editorId="495"/>
+        </button>
+        <button name="升级" width="23" height="19" right="-8" bottom="-2" visible="false" editorId="496">
+          <state frame="1" back="btn4_1" editorId="497"/>
+          <state frame="2" back="btn4_2" editorId="498"/>
+          <state frame="3" back="btn4_3" editorId="499"/>
+        </button>
+      </box>
+      <box name="gemBox4" width="52" height="53" center="-1" top="262" editorId="500">
+        <image name="bg1" bmp="bg4" width="52" height="53" editorId="501"/>
+        <image name="bg2" bmp="bg5" width="52" height="53" editorId="502"/>
+        <image name="bg3" bmp="bg6" width="52" height="53" editorId="503"/>
+        <image name="colorImage" width="60" height="60" center="0" middle="-2" editorId="504"/>
+        <label name="label" width="50" height="18" center="1" middle="-1" html="true" format="宋体白色12居中" editorId="505"/>
+        <achieveEntity name="item" center="-2" middle="-4" editorId="506"/>
+        <filmAnimEffect name="motion2" bmp="宝石嵌入上层动画" x="-35" y="-30" row="1" col="8" tCount="8" frameDelay="40" loop="1" editorId="507"/>
+        <label name="label1" height="18" width="60" center="0" bottom="-14" text="强化等级" format="ffe4c3_12_居中" visible="false" editorId="508"/>
+        <label name="label2" height="18" width="60" center="0" bottom="-28" format="ffe4c3_12_居中" visible="false" editorId="509"/>
+        <maskcontrol name="mask" width="53" height="53" visible="false" editorId="510"/>
+        <button name="开启" width="56" height="26" center="0" bottom="-24" visible="false" editorId="511">
+          <state frame="1" back="btn2_1" editorId="512"/>
+          <state frame="2" back="btn2_2" editorId="513"/>
+          <state frame="3" back="btn2_3" editorId="514"/>
+        </button>
+        <button name="升级" width="23" height="19" right="-8" bottom="-2" visible="false" editorId="515">
+          <state frame="1" back="btn4_1" editorId="516"/>
+          <state frame="2" back="btn4_2" editorId="517"/>
+          <state frame="3" back="btn4_3" editorId="518"/>
+        </button>
+      </box>
+    </box>
+    <box id="wingInsertBox" top="74" left="301" width="364" height="403" editorId="519">
+      <image bmp="knightFrame2" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" editorId="520"/>
+      <image bmp="bg3" left="5" top="4" width="355" height="395" editorId="521"/>
+      <image bmp="六条线镶嵌" width="164" height="163" center="0" middle="-10" editorId="522"/>
+      <image bmp="pic3" left="4" middle="0" width="31" height="76" editorId="523"/>
+      <image bmp="pic4" right="4" middle="0" width="31" height="76" editorId="524"/>
+      <image bmp="bg12" center="0" top="4" width="322" height="29" editorId="525"/>
+      <image bmp="bg11" center="0" top="135" width="111" height="114" editorId="526"/>
+      <label width="222" height="18" center="0" top="6" text="镶嵌界面描述" format="fa9600_12_居中" editorId="527"/>
+      <achieveEntity name="item" isBig="true" left="153" top="162" editorId="528"/>
+      <button name="拆除" width="62" height="58" right="10" bottom="10" editorId="529">
+        <state frame="1" back="btn3_1" editorId="530"/>
+        <state frame="2" back="btn3_2" editorId="531"/>
+        <state frame="3" back="btn3_3" editorId="532"/>
+      </button>
+      <maskcontrol name="拆除mask" width="62" height="58" right="10" bottom="10" tip="拆除tip" editorId="533"/>
+      <box name="gemBox1" width="52" height="53" center="-50" top="67" editorId="534">
+        <image name="bg1" bmp="bg4" width="52" height="53" editorId="535"/>
+        <image name="bg2" bmp="bg5" width="52" height="53" editorId="536"/>
+        <image name="bg3" bmp="bg6" width="52" height="53" editorId="537"/>
+        <image name="colorImage" width="60" height="60" center="0" middle="-2" editorId="538"/>
+        <label name="label" width="50" height="18" center="1" middle="-1" html="true" format="宋体白色12居中" editorId="539"/>
+        <achieveEntity name="item" center="-2" middle="-4" editorId="540"/>
+        <filmAnimEffect name="motion2" bmp="宝石嵌入上层动画" x="-35" y="-30" row="1" col="8" tCount="8" frameDelay="40" loop="1" editorId="541"/>
+        <label name="label1" height="18" width="60" center="0" bottom="-14" text="翅膀等级" format="ffe4c3_12_居中" visible="false" editorId="542"/>
+        <label name="label2" height="18" width="60" center="0" bottom="-28" format="ffe4c3_12_居中" visible="false" editorId="543"/>
+        <maskcontrol name="mask" width="53" height="53" visible="false" editorId="544"/>
+        <button name="开启" width="56" height="26" center="0" bottom="-24" visible="false" editorId="545">
+          <state frame="1" back="btn2_1" editorId="546"/>
+          <state frame="2" back="btn2_2" editorId="547"/>
+          <state frame="3" back="btn2_3" editorId="548"/>
+        </button>
+        <button name="升级" width="23" height="19" right="-8" bottom="-2" visible="false" editorId="549">
+          <state frame="1" back="btn4_1" editorId="550"/>
+          <state frame="2" back="btn4_2" editorId="551"/>
+          <state frame="3" back="btn4_3" editorId="552"/>
+        </button>
+      </box>
+      <box name="gemBox2" width="52" height="53" center="50" top="67" editorId="553">
+        <image name="bg1" bmp="bg4" width="52" height="53" editorId="554"/>
+        <image name="bg2" bmp="bg5" width="52" height="53" editorId="555"/>
+        <image name="bg3" bmp="bg6" width="52" height="53" editorId="556"/>
+        <image name="colorImage" width="60" height="60" center="0" middle="-2" editorId="557"/>
+        <label name="label" width="50" height="18" center="1" middle="-1" html="true" format="宋体白色12居中" editorId="558"/>
+        <achieveEntity name="item" center="-2" middle="-4" editorId="559"/>
+        <filmAnimEffect name="motion2" bmp="宝石嵌入上层动画" x="-35" y="-30" row="1" col="8" tCount="8" frameDelay="40" loop="1" editorId="560"/>
+        <label name="label1" height="18" width="60" center="0" bottom="-14" text="翅膀等级" format="ffe4c3_12_居中" visible="false" editorId="561"/>
+        <label name="label2" height="18" width="60" center="0" bottom="-28" format="ffe4c3_12_居中" visible="false" editorId="562"/>
+        <maskcontrol name="mask" width="53" height="53" visible="false" editorId="563"/>
+        <button name="开启" width="56" height="26" center="0" bottom="-24" visible="false" editorId="564">
+          <state frame="1" back="btn2_1" editorId="565"/>
+          <state frame="2" back="btn2_2" editorId="566"/>
+          <state frame="3" back="btn2_3" editorId="567"/>
+        </button>
+        <button name="升级" width="23" height="19" right="-8" bottom="-2" visible="false" editorId="568">
+          <state frame="1" back="btn4_1" editorId="569"/>
+          <state frame="2" back="btn4_2" editorId="570"/>
+          <state frame="3" back="btn4_3" editorId="571"/>
+        </button>
+      </box>
+      <box name="gemBox3" width="52" height="53" center="-100" top="167" editorId="572">
+        <image name="bg1" bmp="bg4" width="52" height="53" editorId="573"/>
+        <image name="bg2" bmp="bg5" width="52" height="53" editorId="574"/>
+        <image name="bg3" bmp="bg6" width="52" height="53" editorId="575"/>
+        <image name="colorImage" width="60" height="60" center="0" middle="-2" editorId="576"/>
+        <label name="label" width="50" height="18" center="1" middle="-1" html="true" format="宋体白色12居中" editorId="577"/>
+        <achieveEntity name="item" center="-2" middle="-4" editorId="578"/>
+        <filmAnimEffect name="motion2" bmp="宝石嵌入上层动画" x="-35" y="-30" row="1" col="8" tCount="8" frameDelay="40" loop="1" editorId="579"/>
+        <label name="label1" height="18" width="60" center="0" bottom="-14" text="翅膀等级" format="ffe4c3_12_居中" visible="false" editorId="580"/>
+        <label name="label2" height="18" width="60" center="0" bottom="-28" format="ffe4c3_12_居中" visible="false" editorId="581"/>
+        <maskcontrol name="mask" width="53" height="53" visible="false" editorId="582"/>
+        <button name="开启" width="56" height="26" center="0" bottom="-24" visible="false" editorId="583">
+          <state frame="1" back="btn2_1" editorId="584"/>
+          <state frame="2" back="btn2_2" editorId="585"/>
+          <state frame="3" back="btn2_3" editorId="586"/>
+        </button>
+        <button name="升级" width="23" height="19" right="-8" bottom="-2" visible="false" editorId="587">
+          <state frame="1" back="btn4_1" editorId="588"/>
+          <state frame="2" back="btn4_2" editorId="589"/>
+          <state frame="3" back="btn4_3" editorId="590"/>
+        </button>
+      </box>
+      <box name="gemBox4" width="52" height="53" center="100" top="167" editorId="591">
+        <image name="bg1" bmp="bg4" width="52" height="53" editorId="592"/>
+        <image name="bg2" bmp="bg5" width="52" height="53" editorId="593"/>
+        <image name="bg3" bmp="bg6" width="52" height="53" editorId="594"/>
+        <image name="colorImage" width="60" height="60" center="0" middle="-2" editorId="595"/>
+        <label name="label" width="50" height="18" center="1" middle="-1" html="true" format="宋体白色12居中" editorId="596"/>
+        <achieveEntity name="item" center="-2" middle="-4" editorId="597"/>
+        <filmAnimEffect name="motion2" bmp="宝石嵌入上层动画" x="-35" y="-30" row="1" col="8" tCount="8" frameDelay="40" loop="1" editorId="598"/>
+        <label name="label1" height="18" width="60" center="0" bottom="-14" text="翅膀等级" format="ffe4c3_12_居中" visible="false" editorId="599"/>
+        <label name="label2" height="18" width="60" center="0" bottom="-28" format="ffe4c3_12_居中" visible="false" editorId="600"/>
+        <maskcontrol name="mask" width="53" height="53" visible="false" editorId="601"/>
+        <button name="开启" width="56" height="26" center="0" bottom="-24" visible="false" editorId="602">
+          <state frame="1" back="btn2_1" editorId="603"/>
+          <state frame="2" back="btn2_2" editorId="604"/>
+          <state frame="3" back="btn2_3" editorId="605"/>
+        </button>
+        <button name="升级" width="23" height="19" right="-8" bottom="-2" visible="false" editorId="606">
+          <state frame="1" back="btn4_1" editorId="607"/>
+          <state frame="2" back="btn4_2" editorId="608"/>
+          <state frame="3" back="btn4_3" editorId="609"/>
+        </button>
+      </box>
+      <box name="gemBox5" width="52" height="53" center="-50" top="262" editorId="610">
+        <image name="bg1" bmp="bg4" width="52" height="53" editorId="611"/>
+        <image name="bg2" bmp="bg5" width="52" height="53" editorId="612"/>
+        <image name="bg3" bmp="bg6" width="52" height="53" editorId="613"/>
+        <image name="colorImage" width="60" height="60" center="0" middle="-2" editorId="614"/>
+        <label name="label" width="50" height="18" center="1" middle="-1" html="true" format="宋体白色12居中" editorId="615"/>
+        <achieveEntity name="item" center="-2" middle="-4" editorId="616"/>
+        <filmAnimEffect name="motion2" bmp="宝石嵌入上层动画" x="-35" y="-30" row="1" col="8" tCount="8" frameDelay="40" loop="1" editorId="617"/>
+        <label name="label1" height="18" width="60" center="0" bottom="-14" text="翅膀等级" format="ffe4c3_12_居中" visible="false" editorId="618"/>
+        <label name="label2" height="18" width="60" center="0" bottom="-28" format="ffe4c3_12_居中" visible="false" editorId="619"/>
+        <maskcontrol name="mask" width="53" height="53" visible="false" editorId="620"/>
+        <button name="开启" width="56" height="26" center="0" bottom="-24" visible="false" editorId="621">
+          <state frame="1" back="btn2_1" editorId="622"/>
+          <state frame="2" back="btn2_2" editorId="623"/>
+          <state frame="3" back="btn2_3" editorId="624"/>
+        </button>
+        <button name="升级" width="23" height="19" right="-8" bottom="-2" visible="false" editorId="625">
+          <state frame="1" back="btn4_1" editorId="626"/>
+          <state frame="2" back="btn4_2" editorId="627"/>
+          <state frame="3" back="btn4_3" editorId="628"/>
+        </button>
+      </box>
+      <box name="gemBox6" width="52" height="53" center="50" top="262" editorId="629">
+        <image name="bg1" bmp="bg4" width="52" height="53" editorId="630"/>
+        <image name="bg2" bmp="bg5" width="52" height="53" editorId="631"/>
+        <image name="bg3" bmp="bg6" width="52" height="53" editorId="632"/>
+        <image name="colorImage" width="60" height="60" center="0" middle="-2" editorId="633"/>
+        <label name="label" width="50" height="18" center="1" middle="-1" html="true" format="宋体白色12居中" editorId="634"/>
+        <achieveEntity name="item" center="-2" middle="-4" editorId="635"/>
+        <filmAnimEffect name="motion2" bmp="宝石嵌入上层动画" x="-35" y="-30" row="1" col="8" tCount="8" frameDelay="40" loop="1" editorId="636"/>
+        <label name="label1" height="18" width="60" center="0" bottom="-14" text="翅膀等级" format="ffe4c3_12_居中" visible="false" editorId="637"/>
+        <label name="label2" height="18" width="60" center="0" bottom="-28" format="ffe4c3_12_居中" visible="false" editorId="638"/>
+        <maskcontrol name="mask" width="53" height="53" visible="false" editorId="639"/>
+        <button name="开启" width="56" height="26" center="0" bottom="-24" visible="false" editorId="640">
+          <state frame="1" back="btn2_1" editorId="641"/>
+          <state frame="2" back="btn2_2" editorId="642"/>
+          <state frame="3" back="btn2_3" editorId="643"/>
+        </button>
+        <button name="升级" width="23" height="19" right="-8" bottom="-2" visible="false" editorId="644">
+          <state frame="1" back="btn4_1" editorId="645"/>
+          <state frame="2" back="btn4_2" editorId="646"/>
+          <state frame="3" back="btn4_3" editorId="647"/>
+        </button>
+      </box>
+    </box>
+    <window id="gemUpgradeWin" width="320" height="490" editorId="648">
+      <ref ref="WindowBack" editorId="649"/>
+      <ref name="closeBtn" ref="CloseButton" editorId="650"/>
+      <image bmp="title2" width="101" height="27" top="12" center="0" editorId="651"/>
+      <image bmp="knightFrame2" grid="30,47,29,49" left="6" top="44" right="8" bottom="12" editorId="652"/>
+      <image bmp="pic6" center="0" width="82" height="84" top="60" editorId="653"/>
+      <image name="colorBack" width="50" height="49" center="0" top="75" editorId="654"/>
+      <image bmp="pic32" width="256" height="19" left="30" top="165" editorId="655"/>
+      <progressBar name="progressBar" bmp="pic33" width="246" height="8" x="35" y="171" scaleX="1" onlyFront="true" ease="true" editorId="656"/>
+      <image name="uppic" bmp="pic10" top="216" right="25" width="17" height="18" visible="false" editorId="657"/>
+      <achieveEntity name="当前宝石" center="-2" top="78" editorId="658"/>
+      <label name="当前属性" width="100" height="18" top="123" center="0" format="宋体绿色12居中" html="true" editorId="659"/>
+      <label name="exp" width="200" height="18" top="140" left="30" format="宋体绿色12" html="true" editorId="660"/>
+      <filmAnimEffect name="宝石升级动画" bmp="宝石升级" x="96" y="36" row="1" col="9" tCount="22" frameDelay="50" loop="1" editorId="661"/>
+      <image bmp="pic34" width="246" height="3" center="0" top="195" editorId="662"/>
+      <label width="100" height="18" top="204" left="30" format="efb55a_12" text="可吞噬宝石" editorId="663"/>
+      <image bmp="knightFrame2" grid="30,47,29,49" left="15" top="225" right="15" bottom="105" editorId="664"/>
+      <ref name="scroller" ref="Scroller" left="20" right="20" top="225" height="160" editorId="665"/>
+      <labelToggleButton name="checkBox" width="23" height="25" center="-30" bottom="76" editorId="666">
+        <state frame="1" back="SelectedButton3_1" editorId="667"/>
+        <state frame="2" back="SelectedButton3_1" editorId="668"/>
+        <state frame="3" back="SelectedButton3_2" editorId="669"/>
+        <state frame="4" back="SelectedButton3_2" editorId="670"/>
+        <state frame="5" back="SelectedButton3_2" editorId="671"/>
+      </labelToggleButton>
+      <label height="18" width="70" center="10" bottom="79" format="876b55_12_居中" text="堆叠显示" editorId="672"/>
+      <label height="18" left="10" right="10" bottom="56" format="876b55_12_居中" text="宝石升级desc" editorId="673"/>
+      <labelButton name="升级" width="82" height="28" center="0" bottom="22" label="吞噬" visible="false" editorId="674">
+        <state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中" editorId="675"/>
+        <state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中" editorId="676"/>
+        <state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中" editorId="677"/>
+      </labelButton>
+    </window>
+    <box id="gemUpgradeBox" width="50" height="50" editorId="678">
+      <image bmp="slotbg" width="40" height="40" center="0" middle="0" editorId="679"/>
+      <achieveEntity name="item" center="-1" middle="-1" editorId="680"/>
+      <image name="slotSeleceedBg" bmp="slotSeleceedBg" width="45" height="45" center="0" middle="0" visible="false" editorId="681"/>
+      <label name="label" width="40" height="18" center="0" middle="0" text="吞噬" format="fdd59a_12_居中" editorId="682"/>
+      <label name="count" width="40" height="18" center="0" bottom="0" format="宋体白色12居右" editorId="683"/>
+    </box>
+    <box id="castBox" top="74" left="301" width="364" height="403" editorId="684">
+      <image bmp="knightFrame2" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" editorId="685"/>
+      <image bmp="bg8" left="5" top="4" width="354" height="394" editorId="686"/>
+      <image bmp="bg11" center="0" top="50" width="111" height="114" editorId="687"/>
+      <image bmp="bg12" center="0" top="4" width="322" height="29" editorId="688"/>
+      <label width="250" height="18" center="0" top="6" text="精炼界面描述" format="fa9600_12_居中" editorId="689"/>
+      <achieveEntity name="item" isBig="true" top="75" left="151" editorId="690"/>
+      <image bmp="bg13" center="0" top="148" width="124" height="19" editorId="691"/>
+      <label name="equipName" format="宋体白色14居中加粗" html="true" height="20" width="105" top="147" center="0" editorId="692" x="129" y="147"/>
+      <filmAnimEffect name="装备升级动画" bmp="装备升级动画" x="99" y="24" row="1" col="10" tCount="10" frameDelay="30" loop="1" editorId="693"/>
+      <image bmp="pic28" width="236" height="21" center="0" middle="-20" editorId="694" x="64" y="171"/>
+      <progressBar name="progressBar" bmp="pic29" width="211" height="10" center="0" middle="-20" scaleX="1" onlyFront="true" ease="true" grid="10,0,10,0" editorId="695" x="76" y="176"/>
+      <image bmp="knightFrame4" grid="20,20,20,20" height="60" left="22" right="22" top="296" editorId="696"/>
+      <image bmp="title6" width="94" height="22" center="0" top="288" editorId="697"/>
+      <box width="100" height="21" center="-70" top="320" name="cost1" editorId="698">
+        <image bmp="knightTextBoard" width="92" height="21" x="8" editorId="699"/>
+        <image name="gold" bmp="knightsGold_2" width="42" height="42" y="-10" editorId="700"/>
+        <achieveEntity name="item" y="-10" editorId="701"/>
+        <label name="label" width="64" height="20" format="宋体绿色12居中" center="16" html="true" editorId="702"/>
+      </box>
+      <box width="100" height="21" center="70" top="320" name="cost2" editorId="703">
+        <image bmp="knightTextBoard" width="92" height="21" x="8" editorId="704"/>
+        <image name="gold" bmp="knightsGold_2" width="42" height="42" y="-10" editorId="705"/>
+        <achieveEntity name="item" y="-10" editorId="706"/>
+        <label name="label" width="64" height="20" format="宋体绿色12居中" center="16" html="true" editorId="707"/>
+      </box>
+      <image bmp="pic17" width="15" height="20" center="0" middle="-20" editorId="708"/>
+      <image bmp="knightFrame4" grid="20,20,20,20" width="150" height="85" left="22" top="198" editorId="709" x="22" y="198"/>
+      <image bmp="knightFrame4" grid="20,20,20,20" width="150" height="85" right="22" top="198" editorId="710"/>
+      <image bmp="pic5" center="0" width="65" height="47" top="216" editorId="711"/>
+      <box name="current" width="150" height="60" left="22" top="198" editorId="712">
+        <!--label name="equipDesc" format="宋体白色12居中加粗" html="true" height="18" width="105" top="6" center="0" /-->
+        <box name="lvBox" height="19" center="0" top="6" editorId="714"/>
+        <label name="equipProp1" format="fa9600_12_居中" html="true" height="18" width="105" top="26" center="0" editorId="715"/>
+        <label name="attr1" format="宋体绿色12" html="true" height="18" width="88" top="46" center="0" editorId="716"/>
+        <label name="attr2" format="宋体绿色12" html="true" height="18" width="88" top="66" center="0" editorId="717"/>
+      </box>
+      <box name="next" width="150" height="60" right="22" top="198" editorId="718">
+        <!--label name="equipDesc" format="宋体白色12居中加粗" html="true" height="18" width="105" top="6" center="0"/-->
+        <box name="lvBox" height="19" center="0" top="6" editorId="720"/>
+        <label name="equipProp1" format="fa9600_12_居中" html="true" height="18" width="105" top="26" center="0" editorId="721"/>
+        <label name="attr1" format="宋体绿色12" html="true" height="18" width="88" top="46" center="0" editorId="722"/>
+        <label name="attr2" format="宋体绿色12" html="true" height="18" width="88" top="66" center="0" editorId="723"/>
+      </box>
+      <labelButton name="符石刻印" width="82" height="28" center="-80" bottom="13" label="符石刻印" tip="普通精炼tip" editorId="724">
+        <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中" editorId="725"/>
+        <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中" editorId="726"/>
+        <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中" editorId="727"/>
+      </labelButton>
+      <maskcontrol name="符石刻印Mask" center="-80" bottom="13" width="82" height="28" buttonMode="true" tip="普通精炼tip" visible="false" editorId="728"/>
+      <labelButton name="元宝刻印" width="84" height="28" center="80" bottom="13" label="元宝刻印" editorId="729">
+        <state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中" editorId="730"/>
+        <state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中" editorId="731"/>
+        <state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中" editorId="732"/>
+      </labelButton>
+      <image bmp="pic3" left="4" middle="0" width="31" height="76" editorId="733"/>
+      <image bmp="pic4" right="4" middle="0" width="31" height="76" editorId="734"/>
+      <filmAnimEffect name="大暴击字" bmp="大暴击字" center="0" bottom="60" row="3" col="3" tCount="9" frameDelay="50" loop="1" editorId="735"/>
+      <filmAnimEffect name="小暴击字" bmp="小暴击字" center="0" bottom="60" row="3" col="3" tCount="8" frameDelay="50" loop="1" editorId="736"/>
+    </box>
+    <box id="enchantBox" top="74" left="301" width="364" height="403" editorId="737">
+      <image bmp="knightFrame2" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" editorId="738"/>
+      <image bmp="bg9" left="5" top="4" width="355" height="395" editorId="739"/>
+      <image bmp="bg11" center="0" top="50" width="111" height="114" editorId="740"/>
+      <image bmp="bg12" center="0" top="4" width="322" height="29" editorId="741"/>
+      <label width="222" height="18" center="0" top="6" text="附魔界面描述" format="fa9600_12_居中" editorId="742"/>
+      <achieveEntity name="item" isBig="true" top="75" left="151" editorId="743"/>
+      <image bmp="bg13" center="0" top="148" width="124" height="19" editorId="744"/>
+      <label name="equipName" format="宋体白色14居中加粗" html="true" height="20" width="105" top="147" center="0" editorId="745"/>
+      <box name="cell1" center="0" width="348" height="68" top="175" editorId="746">
+        <image bmp="bg10" top="0" bottom="0" left="0" right="0" editorId="747"/>
+        <image name="pic1" bmp="pic30" width="61" height="57" middle="8" left="9" editorId="748"/>
+        <image name="pic2" bmp="pic31" width="61" height="57" middle="4" left="9" editorId="749"/>
+        <image name="pic3" bmp="pic19" width="44" height="44" middle="0" left="17" editorId="750"/>
+        <image name="perfect" bmp="完美属性" width="55" height="14" left="12" bottom="5" editorId="751"/>
+        <image name="image1" width="14" height="14" left="82" middle="-18" editorId="752"/>
+        <image name="image2" width="14" height="14" left="82" middle="0" editorId="753"/>
+        <image name="image3" width="14" height="14" left="82" middle="18" editorId="754"/>
+        <label name="label1" width="165" height="18" format="fce5b8_12" middle="-19" left="102" html="true" editorId="755"/>
+        <label name="label2" width="165" height="18" format="fce5b8_12" middle="-1" left="102" html="true" editorId="756"/>
+        <label name="label3" width="165" height="18" format="fce5b8_12" middle="17" left="102" html="true" editorId="757"/>
+        <swf name="motion1" bmp="motion1" x="44" y="33" editorId="758"/>
+        <label name="notice" width="140" height="18" format="575757_12_居中" center="-15" middle="0" editorId="759"/>
+        <label name="notice1" width="140" height="18" format="575757_12_居中" center="-15" middle="-10" editorId="760"/>
+        <labelButton name="洗炼" width="82" height="28" middle="0" right="12" label="洗炼" editorId="761">
+          <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中" editorId="762"/>
+          <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中" editorId="763"/>
+          <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中" editorId="764"/>
+        </labelButton>
+        <labelButton name="开启" width="82" height="28" middle="0" right="12" label="开启" editorId="765">
+          <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中" editorId="766"/>
+          <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中" editorId="767"/>
+          <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中" editorId="768"/>
+        </labelButton>
+        <labelButton name="立即开启" width="84" height="28" middle="0" right="12" label="立即开启" editorId="769">
+          <state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中" editorId="770"/>
+          <state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中" editorId="771"/>
+          <state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中" editorId="772"/>
+        </labelButton>
+        <maskcontrol name="mask" middle="0" right="12" width="82" height="28" visible="false" editorId="773"/>
+        <filmAnimEffect name="effect" bmp="完美附魔特效小" x="16" y="10" row="1" col="8" frameDelay="100" loop="0" editorId="774"/>
+      </box>
+      <box name="cell2" center="0" width="348" height="68" top="245" editorId="775">
+        <image bmp="bg10" top="0" bottom="0" left="0" right="0" editorId="776"/>
+        <image name="pic1" bmp="pic30" width="61" height="57" middle="8" left="9" editorId="777"/>
+        <image name="pic2" bmp="pic31" width="61" height="57" middle="4" left="9" editorId="778"/>
+        <image name="pic3" bmp="pic20" width="44" height="44" middle="0" left="17" editorId="779"/>
+        <image name="perfect" bmp="完美属性" width="55" height="14" left="12" bottom="5" editorId="780"/>
+        <image name="image1" width="14" height="14" left="82" middle="-18" editorId="781"/>
+        <image name="image2" width="14" height="14" left="82" middle="0" editorId="782"/>
+        <image name="image3" width="14" height="14" left="82" middle="18" editorId="783"/>
+        <label name="label1" width="165" height="18" format="fce5b8_12" middle="-19" left="102" html="true" editorId="784"/>
+        <label name="label2" width="165" height="18" format="fce5b8_12" middle="-1" left="102" html="true" editorId="785"/>
+        <label name="label3" width="165" height="18" format="fce5b8_12" middle="17" left="102" html="true" editorId="786"/>
+        <swf name="motion2" bmp="motion2" x="44" y="33" editorId="787"/>
+        <label name="notice" width="140" height="18" format="575757_12_居中" center="-15" middle="10" editorId="788"/>
+        <label name="notice1" width="140" height="18" format="575757_12_居中" center="-15" middle="-10" text="需要开启附魔槽1" editorId="789"/>
+        <labelButton name="洗炼" width="82" height="28" middle="0" right="12" label="洗炼" editorId="790">
+          <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中" editorId="791"/>
+          <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中" editorId="792"/>
+          <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中" editorId="793"/>
+        </labelButton>
+        <labelButton name="开启" width="82" height="28" middle="0" right="12" label="开启" editorId="794">
+          <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中" editorId="795"/>
+          <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中" editorId="796"/>
+          <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中" editorId="797"/>
+        </labelButton>
+        <labelButton name="立即开启" width="84" height="28" middle="0" right="12" label="立即开启" editorId="798">
+          <state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中" editorId="799"/>
+          <state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中" editorId="800"/>
+          <state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中" editorId="801"/>
+        </labelButton>
+        <maskcontrol name="mask" middle="0" right="12" width="82" height="28" visible="false" editorId="802"/>
+        <filmAnimEffect name="effect" bmp="完美附魔特效小" x="16" y="10" row="1" col="8" frameDelay="100" loop="0" editorId="803"/>
+      </box>
+      <box name="cell3" center="0" width="348" height="68" top="315" editorId="804">
+        <image bmp="bg10" top="0" bottom="0" left="0" right="0" editorId="805"/>
+        <image name="pic1" bmp="pic30" width="61" height="57" middle="8" left="9" editorId="806"/>
+        <image name="pic2" bmp="pic31" width="61" height="57" middle="4" left="9" editorId="807"/>
+        <image name="pic3" bmp="pic22" width="44" height="44" middle="0" left="17" editorId="808"/>
+        <image name="perfect" bmp="完美属性" width="55" height="14" left="12" bottom="5" editorId="809"/>
+        <image name="image1" width="14" height="14" left="82" middle="-18" editorId="810"/>
+        <image name="image2" width="14" height="14" left="82" middle="0" editorId="811"/>
+        <image name="image3" width="14" height="14" left="82" middle="18" editorId="812"/>
+        <label name="label1" width="165" height="18" format="fce5b8_12" middle="-19" left="102" html="true" editorId="813"/>
+        <label name="label2" width="165" height="18" format="fce5b8_12" middle="-1" left="102" html="true" editorId="814"/>
+        <label name="label3" width="165" height="18" format="fce5b8_12" middle="17" left="102" html="true" editorId="815"/>
+        <swf name="motion3" bmp="motion3" x="44" y="33" editorId="816"/>
+        <label name="notice" width="140" height="18" format="575757_12_居中" center="-15" middle="10" editorId="817"/>
+        <label name="notice1" width="140" height="18" format="575757_12_居中" center="-15" middle="-10" text="需要开启附魔槽2" editorId="818"/>
+        <labelButton name="洗炼" width="82" height="28" middle="0" right="12" label="洗炼" editorId="819">
+          <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中" editorId="820"/>
+          <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中" editorId="821"/>
+          <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中" editorId="822"/>
+        </labelButton>
+        <labelButton name="开启" width="82" height="28" middle="0" right="12" label="开启" editorId="823">
+          <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中" editorId="824"/>
+          <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中" editorId="825"/>
+          <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中" editorId="826"/>
+        </labelButton>
+        <labelButton name="立即开启" width="84" height="28" middle="0" right="12" label="立即开启" editorId="827">
+          <state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中" editorId="828"/>
+          <state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中" editorId="829"/>
+          <state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中" editorId="830"/>
+        </labelButton>
+        <maskcontrol name="mask" middle="0" right="12" width="82" height="28" visible="false" editorId="831"/>
+        <filmAnimEffect name="effect" bmp="完美附魔特效小" x="16" y="10" row="1" col="8" frameDelay="100" loop="0" editorId="832"/>
+      </box>
+      <box name="unlaunchBox" center="0" top="175" width="348" height="210" editorId="833">
+        <image bmp="knightFrame4" center="0" top="30" width="252" height="70" editorId="834"/>
+        <label name="hint1" center="0" top="45" width="200" height="20" format="575757_12_居中" editorId="835"/>
+        <label name="hint2" center="0" top="72" width="240" height="20" format="fdd59a_12" html="true" editorId="836"/>
+        <labelButton name="gotoBtn" width="78" height="25" top="126" center="0" label="血战前线" visible="true" editorId="837">
+          <state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中" editorId="838"/>
+          <state frame="2" back="knightLabelBtn2_1" format="ffbe57_12_居中" editorId="839"/>
+          <state frame="3" back="knightLabelBtn2_1" format="ffbe57_12_居中" editorId="840"/>
+        </labelButton>
+      </box>
+      <image name="arrow_left" bmp="pic3" left="4" middle="0" width="31" height="76" editorId="841"/>
+      <image name="arrow_right" bmp="pic4" right="4" middle="0" width="31" height="76" editorId="842"/>
+      <!--      <image bmp="pic24" width="73" height="18" bottom="16" left="84" />      <image bmp="knightTextBoard" width="92" height="21" bottom="14" left="160" />      <label name="itemnum" width="92" height="18" format="f1ab03_12_居中"/>      -->
+    </box>
+    <window id="enchantRefishWin" width="445" height="317" editorId="844">
+      <ref ref="WindowBack" editorId="845"/>
+      <ref name="closeBtn" ref="CloseButton" editorId="846"/>
+      <image bmp="title4" width="81" height="31" top="10" center="0" editorId="847"/>
+      <image bmp="knightFrame2" grid="30,47,29,49" left="10" top="45" right="10" bottom="10" editorId="848"/>
+      <image bmp="knightFrame2" grid="30,47,29,49" left="10" top="215" right="10" bottom="10" editorId="849"/>
+      <label text="完美附魔" width="248" height="20" left="124" top="55" format="efb55a_12_居中" editorId="850"/>
+      <image bmp="pic25" width="106" height="124" left="17" top="70" editorId="851"/>
+      <image name="perfect" bmp="完美属性" width="55" height="14" left="42" top="169" editorId="852"/>
+      <image name="pic1" bmp="pic19" width="44" height="44" top="110" left="48" editorId="853"/>
+      <image name="pic2" bmp="pic20" width="44" height="44" top="110" left="48" editorId="854"/>
+      <image name="pic3" bmp="pic22" width="44" height="44" top="110" left="48" editorId="855"/>
+      <filmAnimEffect name="effect" bmp="完美附魔特效大" x="33" y="95" row="1" col="7" frameDelay="100" loop="0" tCount="14" editorId="856"/>
+      <box width="28" left="124" top="80" name="cell1" editorId="857">
+        <image bmp="pic26" width="248" height="28" editorId="858"/>
+        <label name="label" width="248" height="18" format="fce5b8_12_居中" html="true" top="5" editorId="859"/>
+        <image name="bg" bmp="pic27" width="248" height="28" editorId="860"/>
+        <labelToggleButton name="checkBox" width="22" height="22" left="254" top="2" editorId="861">
+          <state frame="1" back="SelectedButton2_1" editorId="862"/>
+          <state frame="2" back="SelectedButton2_1" editorId="863"/>
+          <state frame="3" back="SelectedButton2_2" editorId="864"/>
+          <state frame="4" back="SelectedButton2_2" editorId="865"/>
+          <state frame="5" back="SelectedButton2_2" editorId="866"/>
+        </labelToggleButton>
+        <label name="锁定" width="30" height="18" left="273" top="5" format="fce5b8_12" text="锁定" editorId="867"/>
+        <labelButton name="激活" width="56" height="22" left="251" top="3" label="激活" editorId="868">
+          <state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中" editorId="869"/>
+          <state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中" editorId="870"/>
+          <state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中" editorId="871"/>
+        </labelButton>
+      </box>
+      <box width="28" left="124" top="115" name="cell2" editorId="872">
+        <image bmp="pic26" width="248" height="28" editorId="873"/>
+        <label name="label" width="248" height="18" format="fce5b8_12_居中" html="true" top="5" editorId="874"/>
+        <image name="bg" bmp="pic27" width="248" height="28" editorId="875"/>
+        <labelToggleButton name="checkBox" width="22" height="22" left="254" top="2" editorId="876">
+          <state frame="1" back="SelectedButton2_1" editorId="877"/>
+          <state frame="2" back="SelectedButton2_1" editorId="878"/>
+          <state frame="3" back="SelectedButton2_2" editorId="879"/>
+          <state frame="4" back="SelectedButton2_2" editorId="880"/>
+          <state frame="5" back="SelectedButton2_2" editorId="881"/>
+        </labelToggleButton>
+        <label name="锁定" width="30" height="18" left="273" top="5" format="fce5b8_12" text="锁定" editorId="882"/>
+        <labelButton name="激活" width="56" height="22" left="251" top="3" label="激活" editorId="883">
+          <state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中" editorId="884"/>
+          <state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中" editorId="885"/>
+          <state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中" editorId="886"/>
+        </labelButton>
+      </box>
+      <box width="28" left="124" top="150" name="cell3" editorId="887">
+        <image bmp="pic26" width="248" height="28" editorId="888"/>
+        <label name="label" width="248" height="18" format="fce5b8_12_居中" html="true" top="5" editorId="889"/>
+        <image name="bg" bmp="pic27" width="248" height="28" editorId="890"/>
+        <labelToggleButton name="checkBox" width="22" height="22" left="254" top="2" editorId="891">
+          <state frame="1" back="SelectedButton2_1" editorId="892"/>
+          <state frame="2" back="SelectedButton2_1" editorId="893"/>
+          <state frame="3" back="SelectedButton2_2" editorId="894"/>
+          <state frame="4" back="SelectedButton2_2" editorId="895"/>
+          <state frame="5" back="SelectedButton2_2" editorId="896"/>
+        </labelToggleButton>
+        <label name="锁定" width="30" height="18" left="273" top="5" format="fce5b8_12" text="锁定" editorId="897"/>
+        <labelButton name="激活" width="56" height="22" left="251" top="3" label="激活" editorId="898">
+          <state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中" editorId="899"/>
+          <state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中" editorId="900"/>
+          <state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中" editorId="901"/>
+        </labelButton>
+      </box>
+      <label name="label" height="18" width="260" top="190" center="0" html="true" format="f1ab03_12_居中" editorId="902"/>
+      <image bmp="knightFrame9" width="98" height="25" left="115" top="235" editorId="903"/>
+      <achieveEntity name="item" left="105" top="225" id="1" editorId="904"/>
+      <label name="num" height="18" width="90" left="120" top="237" html="true" format="f1ab03_12_右对齐" editorId="905"/>
+      <image bmp="knightFrame9" width="98" height="25" left="225" top="235" editorId="906"/>
+      <image bmp="knightsBlueGem_1" width="25" height="25" left="227" top="234" editorId="907"/>
+      <label name="num2" height="18" width="90" left="230" top="237" html="true" format="f1ab03_12_右对齐" editorId="908"/>
+      <labelButton name="神符洗炼" width="82" height="28" bottom="19" center="-60" label="神符洗炼" editorId="909">
+        <state frame="1" back="普通功能按钮1" format="按钮标签_efb55a_12_居中" editorId="910"/>
+        <state frame="2" back="普通功能按钮2" format="按钮标签_efb55a_12_居中" editorId="911"/>
+        <state frame="3" back="普通功能按钮3" format="按钮标签_efb55a_12_居中" editorId="912"/>
+      </labelButton>
+      <labelButton name="钻石洗炼" width="84" height="28" bottom="19" center="55" label="钻石洗炼" editorId="913">
+        <state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中" editorId="914"/>
+        <state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中" editorId="915"/>
+        <state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中" editorId="916"/>
+      </labelButton>
+    </window>
+  </controls>
+</xml>

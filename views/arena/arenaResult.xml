@@ -1,0 +1,202 @@
+<xml> 
+  <depends> 
+    <depend src="/public/publicButtons.xml"/>  
+    <depend src="/public/publicFormats.xml"/>  
+    <depend src="/public/publicFrames.xml"/>  
+    <depend src="/public/publicNumimage.xml"/>  
+    <depend src="/public/publicIcons.xml"/>  
+    <depend src="/public/publicBitmapTexts.xml"/> 
+  </depends>  
+  <bitmaps> 
+    <bitmap id="black" src="imgs/result/black.jpg"/>  
+    <bitmap id="底图左" src="imgs/result/底图左.jpg"/>  
+    <bitmap id="底图右" src="imgs/result/底图右.jpg"/>  
+    <bitmap id="VS载图" src="imgs/result/VS载图.png"/>  
+    <bitmap id="匹配对手01" src="imgs/result/匹配对手01.png"/>  
+    <bitmap id="匹配对手02" src="imgs/result/匹配对手02.png"/>  
+    <bitmap id="匹配对手03" src="imgs/result/匹配对手03.png"/>  
+    <bitmap id="取消匹配01" src="imgs/result/取消匹配01.png"/>  
+    <bitmap id="取消匹配02" src="imgs/result/取消匹配02.png"/>  
+    <bitmap id="取消匹配03" src="imgs/result/取消匹配03.png"/>  
+    <bitmap id="渐变底" src="imgs/result/渐变底.png"/>  
+    <bitmap id="军衔1" src="imgs/result/军衔1.png"/>  
+    <bitmap id="军衔2" src="imgs/result/军衔2.png"/>  
+    <bitmap id="详细战绩" src="imgs/result/详细战绩.png"/>  
+    <bitmap id="巅峰对决" src="imgs/result/巅峰对决.png"/>  
+    <bitmap id="匹配时间渐变底" src="imgs/result/匹配时间渐变底.png"/>  
+    <bitmap id="角色101" src="imgs/result/角色/101.png"/>  
+    <bitmap id="角色111" src="imgs/result/角色/111.png"/>  
+    <bitmap id="角色121" src="imgs/result/角色/121.png"/>  
+    <bitmap id="角色131" src="imgs/result/角色/131.png"/>  
+    <bitmap id="角色301" src="imgs/result/角色/301.png"/>  
+    <bitmap id="角色311" src="imgs/result/角色/311.png"/>  
+    <bitmap id="角色321" src="imgs/result/角色/321.png"/>  
+    <bitmap id="角色331" src="imgs/result/角色/331.png"/>  
+    <bitmap id="胜利" src="imgs/result/胜利.png"/>  
+    <bitmap id="败北" src="imgs/result/败北.png"/>  
+    <bitmap id="恭喜" src="imgs/result/恭喜.png"/>  
+    <bitmap id="遗憾" src="imgs/result/遗憾.png"/>  
+    <bitmap id="你获得了以下奖励" src="imgs/result/你获得了以下奖励.png"/>  
+    <bitmap id="开始战斗" src="imgs/result/开始战斗.png"/>  
+    <bitmap id="itembg" src="imgs/result/bg.png"/>  
+    <bitmap id="剩余战斗次数底" src="imgs/result/剩余战斗次数底.png"/> 
+  </bitmaps>  
+  <bitmapReaders> 
+    <bitmapReader id="101" bmp="角色101"/>  
+    <bitmapReader id="111" bmp="角色111"/>  
+    <bitmapReader id="121" bmp="角色121"/>  
+    <bitmapReader id="131" bmp="角色131"/>  
+    <bitmapReader id="301" bmp="角色301"/>  
+    <bitmapReader id="311" bmp="角色311"/>  
+    <bitmapReader id="321" bmp="角色321"/>  
+    <bitmapReader id="341" bmp="角色341"/> 
+  </bitmapReaders>  
+  <texts> 
+    <text id="等级">等级:</text>  
+    <text id="姓名">姓名:</text>  
+    <text id="服务器">服务器:</text>  
+    <text id="荣誉">荣誉:</text>  
+    <text id="胜利1">胜利:</text>  
+    <text id="失败1">失败:</text>  
+    <text id="连胜">连胜:</text>  
+    <text id="逃跑">逃跑:</text>  
+    <text id="匹配中">正在匹配适合您的对手...</text>  
+    <text id="匹配了">匹配成功,正在进入...</text>  
+    <text id="金币">金币</text>  
+    <text id="荣誉">荣誉</text>  
+    <text id="剩余挑战次数">剩余挑战次数:</text>  
+    <text id="??">????</text>  
+    <text id="购买提示"><![CDATA[是否花费<font color='#00ff00'>20</font>钻石进入,点击确定购买次数,点击取消可体验竞技但不获得任何奖励]]></text> 
+  </texts>  
+  <controls> 
+    <!--<window id="main" left="0" right="0" top="0" bottom="0" center="0" middle="0"> 
+      <box width="1400" height="600" center="0" middle="0"> 
+        <image bmp="底图左" width="705" height="600" left="0" top="0"/>  
+        <image bmp="底图右" width="695" height="600" right="0" top="0"/>  
+        <image bmp="VS载图" width="221" height="269" center="10" middle="-25"/>  
+        <image bmp="巅峰对决" width="458" height="104" center="10" top="0"/> 
+      </box>  
+      <box name="centerBox" center="0" middle="0" width="332" height="90" visible="false"> 
+        <image bmp="匹配时间渐变底" width="332" height="90"/>  
+        <label name="label" top="20" center="0" width="250" height="18" format="宋体白色12居中" text="匹配中"/> 
+      </box>  
+      <image bmp="剩余战斗次数底" center="0" bottom="126" width="329" height="26"/>  
+      <label name="count" center="0" bottom="130" width="200" height="20" html="true" format="宋体白色14加粗居中"/>  
+      <button name="报名" width="222" height="79" center="0" bottom="48"> 
+        <state frame="1" back="匹配对手01"/>  
+        <state frame="2" back="匹配对手02"/>  
+        <state frame="3" back="匹配对手03"/> 
+      </button>  
+      <button name="取消报名" width="222" height="79" center="0" bottom="48"> 
+        <state frame="1" back="取消匹配01"/>  
+        <state frame="2" back="取消匹配02"/>  
+        <state frame="3" back="取消匹配03"/> 
+      </button>  
+      <button name="关闭" width="80" height="38" top="10" right="10"> 
+        <state frame="1" back="关闭按钮001"/>  
+        <state frame="2" back="关闭按钮002"/>  
+        <state frame="3" back="关闭按钮003"/> 
+      </button>  
+      <box name="left" center="-300" middle="0" width="320" height="440"> 
+        <image bmp="军衔1" width="311" height="16" top="10"/>  
+        <image bmp="渐变底" width="261" height="80" top="40"/>  
+        <image name="face" width="331" height="323" center="0" middle="0"/>  
+        <label width="54" height="18" left="40" top="50" text="等级" format="宋体白色12"/>  
+        <label width="54" height="18" left="40" top="70" text="姓名" format="宋体白色12"/>  
+        <label width="54" height="18" left="40" top="90" text="服务器" format="宋体白色12"/>  
+        <label name="军衔" width="100" height="30" left="84" top="0" format="0cb2ff黑体24"/>  
+        <label name="等级" width="54" height="18" left="84" top="50" format="宋体白色12"/>  
+        <label name="姓名" width="80" height="18" left="84" top="70" format="宋体白色12"/>  
+        <label name="服务器" width="80" height="18" left="84" top="90" format="宋体白色12"/>  
+        <image bmp="mapTipsBoard" center="0" bottom="20" width="216" height="110" grid="50,50,50,50"/>  
+        <image bmp="详细战绩" width="77" height="22" left="80" bottom="116"/>  
+        <label width="54" height="18" left="78" bottom="92" text="荣誉" format="宋体白色12"/>  
+        <label width="54" height="18" left="78" bottom="72" text="胜利1" format="宋体白色12"/>  
+        <label width="54" height="18" left="148" bottom="72" text="失败1" format="宋体白色12"/>  
+        <label width="54" height="18" left="78" bottom="52" text="连胜" format="宋体白色12"/>  
+        <label width="54" height="18" left="78" bottom="32" text="逃跑" format="宋体白色12"/>  
+        <label name="荣誉" width="80" height="18" left="110" bottom="92" format="宋体白色12"/>  
+        <label name="胜利" width="30" height="18" left="110" bottom="72" format="宋体白色12"/>  
+        <label name="失败" width="54" height="18" left="180" bottom="72" format="宋体白色12"/>  
+        <label name="连胜" width="54" height="18" left="110" bottom="52" format="宋体白色12"/>  
+        <label name="逃跑" width="54" height="18" left="110" bottom="32" format="宋体白色12"/> 
+      </box>  
+      <box name="right" center="300" middle="0" width="320" height="440"> 
+        <image bmp="军衔2" width="311" height="16" top="10"/>  
+        <image bmp="渐变底" width="261" height="80" top="40" left="100"/>  
+        <image name="face" width="331" height="323" center="0" middle="0"/>  
+        <label width="54" height="18" left="240" top="50" text="等级" format="宋体白色12"/>  
+        <label width="54" height="18" left="240" top="70" text="姓名" format="宋体白色12"/>  
+        <label width="54" height="18" left="240" top="90" text="服务器" format="宋体白色12"/>  
+        <label name="军衔" width="100" height="30" left="200" top="0" format="0cb2ff黑体24"/>  
+        <label name="等级" width="54" height="18" left="284" top="50" format="宋体白色12"/>  
+        <label name="姓名" width="80" height="18" left="284" top="70" format="宋体白色12"/>  
+        <label name="服务器" width="80" height="18" left="284" top="90" format="宋体白色12"/>  
+        <image bmp="mapTipsBoard" center="0" bottom="20" width="216" height="110" grid="50,50,50,50"/>  
+        <image bmp="详细战绩" width="77" height="22" left="80" bottom="116"/>  
+        <label width="54" height="18" left="78" bottom="92" text="荣誉" format="宋体白色12"/>  
+        <label width="54" height="18" left="78" bottom="72" text="胜利1" format="宋体白色12"/>  
+        <label width="54" height="18" left="148" bottom="72" text="失败1" format="宋体白色12"/>  
+        <label width="54" height="18" left="78" bottom="52" text="连胜" format="宋体白色12"/>  
+        <label width="54" height="18" left="78" bottom="32" text="逃跑" format="宋体白色12"/>  
+        <label name="荣誉" width="80" height="18" left="110" bottom="92" format="宋体白色12"/>  
+        <label name="胜利" width="30" height="18" left="110" bottom="72" format="宋体白色12"/>  
+        <label name="失败" width="54" height="18" left="180" bottom="72" format="宋体白色12"/>  
+        <label name="连胜" width="54" height="18" left="110" bottom="52" format="宋体白色12"/>  
+        <label name="逃跑" width="54" height="18" left="110" bottom="32" format="宋体白色12"/> 
+      </box> 
+    </window>  -->
+    <window id="score" left="0" right="0" top="0" bottom="0" center="0" middle="0"> 
+      <image bmp="black" left="0" right="0" top="0" bottom="0" center="0" middle="0" alpha="0.6"/>  
+     <!-- <box name="scoreBoxL" width="419" height="330" center="-300" middle="0"> 
+        <image name="face" width="499" height="334" center="0" middle="0"/>  -->
+        <!--<box name="propBox" center="0" bottom="0" width="261" height="80"> 
+          <image bmp="渐变底" width="261" height="80"/>  
+          <label width="54" height="18" left="40" top="10" text="等级" format="宋体白色12"/>  
+          <label width="54" height="18" left="40" top="30" text="姓名" format="宋体白色12"/>  
+          <label width="54" height="18" left="40" top="50" text="服务器" format="宋体白色12"/>  
+          <label name="等级" width="54" height="18" left="84" top="10" format="宋体白色12"/>  
+          <label name="姓名" width="80" height="18" left="84" top="30" format="宋体白色12"/>  
+          <label name="服务器" width="80" height="18" left="84" top="50" format="宋体白色12"/> 
+        </box>  -->
+       <!-- <image name="胜利" bmp="胜利" width="419" height="54" center="0" middle="0"/>  
+        <image name="败北" bmp="败北" width="419" height="54" center="0" middle="0"/> 
+      </box>  -->
+      <!--<box name="scoreBoxR" width="419" height="330" center="300" middle="0"> 
+        <image name="face" width="499" height="334" center="499" middle="0" scaleX="-1"/>  
+        <box name="propBox" center="0" bottom="0" width="261" height="80"> 
+          <image bmp="渐变底" width="261" height="80"/>  
+          <label width="54" height="18" left="40" top="10" text="等级" format="宋体白色12"/>  
+          <label width="54" height="18" left="40" top="30" text="姓名" format="宋体白色12"/>  
+          <label width="54" height="18" left="40" top="50" text="服务器" format="宋体白色12"/>  
+          <label name="等级" width="54" height="18" left="84" top="10" format="宋体白色12"/>  
+          <label name="姓名" width="80" height="18" left="84" top="30" format="宋体白色12"/>  
+          <label name="服务器" width="80" height="18" left="84" top="50" format="宋体白色12"/> 
+        </box>  
+        <image name="胜利" bmp="胜利" width="419" height="54" center="0" middle="0"/>  
+        <image name="败北" bmp="败北" width="419" height="54" center="0" middle="0"/> 
+      </box>  -->
+      <image name="恭喜" bmp="恭喜" top="180" center="0" width="334" height="45"/>  
+      <image name="遗憾" bmp="遗憾" top="180" center="0" width="276" height="29"/>  
+      <box name="reward" width="457" height="104" center="0" middle="0"> 
+        <image bmp="双层样式底框" grid="30,30,30,30" left="0" right="0" top="0" bottom="0"/>  
+        <image bmp="你获得了以下奖励" width="149" height="22" top="-10" center="0"/> 
+      </box>  
+      <button name="离开" width="159" height="55" center="0" bottom="100"> 
+        <state frame="1" back="战斗结算大号按钮01"/>  
+        <state frame="2" back="战斗结算大号按钮02"/>  
+        <state frame="3" back="战斗结算大号按钮03"/> 
+      </button>  
+      <image bmp="战斗结算离开" width="76" height="28" center="0" bottom="113.5"/> 
+    </window>  
+    <box id="countDown" width="550" height="250" center="0" middle="0"> 
+      <image name="开始战斗" bmp="开始战斗" width="267" height="82" center="0" middle="0" alpha="0"/> 
+    </box>  
+    <box id="RewardCell" height="49" width="140" middle="0" left="30"> 
+      <image bmp="itembg" width="48" height="49"/>   
+      <image name="image" x="4" y="4" width="40" height="40"/>  
+      <!--<achieveEntity name="item" x="4" y="4"/>-->  
+      <label name="label" width="92" height="18" left="50" top="10" format="宋体白色12" html="true"/>
+    </box> 
+  </controls> 
+</xml>

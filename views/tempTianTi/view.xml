@@ -1,0 +1,23 @@
+﻿<xml name="天神竞技">
+  <depends>
+    <depend src="/public/publicButtons.xml" />
+  </depends>
+  <bitmaps>
+    <bitmap id="ttt" src="imgs/ttt.jpg"/>
+    <bitmap id="title" src="imgs/离开文字.png"/>
+  </bitmaps>
+
+  <controls>
+    <window id="main" width="1400" height="600">
+        <image bmp="ttt" width="1400" height="600" />
+        <box name="box" width="98" height="46" center="0" top="347">
+            <labelButton name="btn" width="98" height="46">
+                <state frame="1" back="大号按钮两字01" />
+                <state frame="2" back="大号按钮两字02" />
+                <state frame="3" back="大号按钮两字03" />
+            </labelButton>
+            <image bmp="title" width="55" height="24" center="0" middle="0" />
+        </box>
+    </window>
+  </controls>
+</xml>

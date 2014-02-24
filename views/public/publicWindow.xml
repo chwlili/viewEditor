@@ -1,0 +1,36 @@
+<xml>
+	
+	<depends>
+		<depend src="publicTexts.xml"/>
+		<depend src="publicFilters.xml"/>
+		<depend src="publicFormats.xml"/>
+	</depends>
+	
+	<bitmaps>
+		<bitmap id="窗口背景.bmp" src="imgs/frames/back1_2.png" size="284"/>
+		<bitmap id="按钮1.bmp" src="imgs/buttons/newButton1_1.png" size="284"/>
+		<bitmap id="按钮2.bmp" src="imgs/buttons/newButton1_1.png" size="284"/>
+	</bitmaps>
+	
+	<controls>
+	
+		<errorWindow id="错误提示.win" width="300" height="160">
+		
+			<background bmp="窗口背景.bmp" grid="48,54,48,54" left="0" top="0" right="0" bottom="0"/>
+			
+			<message left="20" right="20" top="40" bottom="60" text="登录失败" format="宋体白色12居中"/>
+			
+			<okButton width="71" height="23" center="1" bottom="30" paddingLeft="0" paddingTop="0" label="确定" >
+				<state frame="1" back="按钮1.bmp" backGrid="7,11,7,11" format="宋体白色12居中" />
+				<state frame="2" back="按钮1.bmp" backGrid="7,11,7,11" format="宋体白色12居中" />
+			</okButton>
+			
+		</errorWindow>
+		
+		<scroller id="公共滚动条">
+			
+		</scroller>
+		
+	</controls>
+	
+</xml>

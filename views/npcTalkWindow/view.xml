@@ -1,0 +1,31 @@
+<xml name="对话">
+  <depends>
+    <depend src="/public/publicButtons.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+  </depends>
+  <bitmaps>
+    <bitmap id="外框" src="imgs/无任务底板-外框.png"/>
+    <bitmap id="中间" src="imgs/无任务底板-中间.jpg"/>
+    <bitmap id="名称底板" src="imgs/名称底板.png"/>
+    <bitmap id="无任务-对话框" src="imgs/无任务-对话框.png"/>
+  </bitmaps>
+  <texts>
+    <text id="离开">离 开</text>
+  </texts>
+  <controls>
+    <window id="main" width="609" height="178">
+      <image bmp="外框" width="609" height="178"/>
+      <image bmp="中间" width="576" height="151" top="12" right="16"/>
+      <image name="face" bottom="10" right="270"/>
+      <image bmp="无任务-对话框" width="342" height="81" top="30" left="225" />
+      <image bmp="名称底板" bottom="22" left="20" width="209" height="26"/>
+      <label name="label" width="292" height="60" top="40" left="260" multiline="true" wordWrap="true" format="5a320c_12_leading6"/>
+      <label name="npcName" width="209" height="20" bottom="26" left="20" format="fff4de_14_加粗居中"/>
+      <labelButton name="button" label="离开" width="128" height="39" center="100" bottom="20">
+        <state frame="1" back="2号按钮01" format="ffbe57_12_居中"/>
+        <state frame="2" back="2号按钮02" format="ffbe57_12_居中"/>
+        <state frame="3" back="2号按钮03" format="ffbe57_12_居中"/>
+      </labelButton>
+    </window>
+  </controls>
+</xml>

@@ -1,0 +1,37 @@
+<xml desc="天降奇财2">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="天降奇财表格内广告图" src="imgs/天降奇财表格内广告图.jpg" />
+		<bitmap id="果断出手按钮01" src="imgs/果断出手按钮01.png" />
+		<bitmap id="果断出手按钮02" src="imgs/果断出手按钮02.png" />
+		<bitmap id="果断出手按钮03" src="imgs/果断出手按钮03.png" />
+		<bitmap id="果断出手按钮字" src="imgs/果断出手按钮字.png" />
+	</bitmaps>
+	<texts>
+		
+	</texts>
+	
+	<formats>
+
+	</formats>
+	
+	<controls>
+		<box id="cell0"  width="482" height="270">			
+			<image bmp="天降奇财表格内广告图" right="0" bottom="0" left="0" top="0" />
+			
+			<box name="btnBox" center="0" bottom="20" width="160" height="54" >				
+				<button name="btn" width="160" height="54" bottom="0" middle="0">
+					<state frame="1" back="果断出手按钮01" format="ffbe57_12_居中" />
+					<state frame="2" back="果断出手按钮02" format="ffbe57_12_居中" />
+					<state frame="3" back="果断出手按钮03" format="ffbe57_12_居中" />
+				</button>
+				<image bmp="果断出手按钮字" center="0" middle="0" width="106" height="30" enabled="false" />
+			</box>
+		</box>
+		
+	</controls>
+</xml>

@@ -1,0 +1,18 @@
+<xml>
+	
+	<bitmaps>
+		<bitmap id="knightTitle1" src="/public/imgs/frames/knightTitle1.png" />
+		<bitmap id="knightFrame1" src="/public/imgs/frames/knightFrame1.png" />
+	</bitmaps>
+	
+	<controls>
+		
+		<box id="WindowBack" left="0" top="0" right="0" bottom="0">
+			<!-- 窗口标题 -->
+			<image bmp="knightTitle1" grid="48,0,43,0" left="0" top="0" right="0" height="43"/>
+			<!-- 窗口背景 -->
+			<image bmp="knightFrame1" grid="73,41,77,54" left="1" top="43" right="0" bottom="0"/>
+		</box>
+		
+	</controls>
+</xml>

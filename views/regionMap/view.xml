@@ -1,0 +1,14 @@
+<xml name="区域">
+	<swfs>
+		<swf id="btnLib" src="../swfs/btnLib.swf"/>
+		<swf id="frameLib" src="../swfs/frameLib.swf"/>
+		<swf id="controlsLib" src="../swfs/controlsLib.swf"/>
+		<swf id="regionMap" src="../swfs/regionMap.swf"/>
+	</swfs>
+
+	<texts>
+		<text id="挂机">挂机</text>
+		<text id="组队">组队</text>
+		<text id="点击进入">点击进入</text>
+	</texts>
+</xml>

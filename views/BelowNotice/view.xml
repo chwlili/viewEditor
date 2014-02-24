@@ -1,0 +1,11 @@
+﻿<xml>
+	<swfs>
+
+		<swf id="BelowNotice" src="../swfs/BelowNotice.swf"/>
+	</swfs>
+	<texts>
+		<text id="消息">您有新消息</text>
+
+	</texts>
+
+</xml>

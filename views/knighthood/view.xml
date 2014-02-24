@@ -1,0 +1,883 @@
+<xml name="骑士团">
+	<depends>
+		<depend src="/public/publicFrames.xml"/>
+		<depend src="/public/publicButtons.xml"/>
+
+		<depend src="/public/controls/window/CloseButton.xml"/>
+		<depend src="/public/controls/window/WindowBack.xml"/>
+		<depend src="/public/publicFormats.xml"/>
+		<depend src="/public/publicTexts.xml"/>
+		<depend src="/public/controls/scroller/Scroller.xml"/>
+	</depends>
+	<bitmaps>
+		<bitmap id="骑士团" src="imgs/骑士团.png" />
+		<bitmap id="标头" src="imgs/成员列表标头.png" />
+
+		<bitmap id="事件标头" src="imgs/事件标头.png" />
+		<bitmap id="翻页底条" src="imgs/翻页底条.png" />
+		<bitmap id="普通表格条" src="imgs/普通表格条.png" />
+		<bitmap id="普通表格条选中" src="imgs/普通表格条选中.png" />
+		
+		<bitmap id="骑士团资料" src="imgs/骑士团资料.png" />
+
+		<bitmap id="骑士团资料框" src="imgs/骑士团资料框.png" />
+		
+		<bitmap id="页签01" src="imgs/页签01.png" />	
+		<bitmap id="页签02" src="imgs/页签02.png" />
+
+
+		<bitmap id="编辑按钮" src="imgs/编辑按钮.png" />
+		<bitmap id="编辑按钮02" src="imgs/编辑按钮02.png" />
+		<bitmap id="编辑按钮03" src="imgs/编辑按钮03.png" />
+
+
+		<bitmap id="大号按钮1_01" src="imgs/大号按钮1_01.png" />		
+		<bitmap id="大号按钮1_02" src="imgs/大号按钮1_02.png" />
+		<bitmap id="大号按钮1_03" src="imgs/大号按钮1_03.png"/>
+		<bitmap id="右01" src="imgs/右01.png" />
+		<bitmap id="右02" src="imgs/右02.png"/>
+		<bitmap id="右03" src="imgs/右03.png"/>
+
+		<bitmap id="左01" src="imgs/左01.png" />
+		<bitmap id="左02" src="imgs/左02.png"/>
+		<bitmap id="左03" src="imgs/左03.png"/>
+
+		<bitmap id="翻页框" src="imgs/翻页框.png"/>
+		<bitmap id="表格条1" src="imgs/表格条1.png" />
+		<bitmap id="选择效果" src="imgs/选择效果.png" />
+
+		<bitmap id="中底板底" src="imgs/中底板底.png"/>
+		<bitmap id="骑士团申请入团标头" src="imgs/骑士团申请入团标头.png"/>
+		<bitmap id="骑士团资料" src="imgs/骑士团资料.png"/>
+
+		<bitmap id="1号按钮01" src="imgs/1号按钮01.png" />
+		<bitmap id="1号按钮02" src="imgs/1号按钮02.png"/>
+		<bitmap id="1号按钮03" src="imgs/1号按钮03.png"/>
+
+		<bitmap id="职位任命" src="imgs/职位任命.png" />
+		<bitmap id="创建骑士团" src="imgs/创建骑士团.png" />
+		<bitmap id="创建骑士团按钮字" src="imgs/创建骑士团按钮字.png" />
+		<bitmap id="输入框" src="imgs/输入框.png"/>
+		<bitmap id="创团所需底" src="imgs/创团所需底.png"/>
+		<bitmap id="编辑公告文字" src="imgs/编辑公告文字.png" />
+		<bitmap id="团长转让文字" src="imgs/团长转让文字.png"/>
+
+		<bitmap id="第三级底板03" src="imgs/第三级底板03.png" />
+		<bitmap id="团长转让选择01" src="imgs/团长转让选择01.png"/>
+		<bitmap id="团长转让选择02" src="imgs/团长转让选择02.png" />
+		<bitmap id="查看骑士团表格标头" src="imgs/查看骑士团表格标头.png"/>
+		<bitmap id="骑士团属性框体" src="imgs/骑士团属性框体.jpg" />
+		<bitmap id="骑士团属性框体头部" src="imgs/骑士团属性框体头部.png" />
+
+		<bitmap id="查看按钮01" src="imgs/查看按钮01.png"/>
+		<bitmap id="查看按钮02" src="imgs/查看按钮02.png" />
+		<bitmap id="查看按钮03" src="imgs/查看按钮03.png" />
+
+
+		<bitmap id="第三级底板" src="imgs/第三级底板.png" />
+		<bitmap id="title10" src="imgs/物攻强化.png" />
+		<bitmap id="title11" src="imgs/魔攻强化.png" />
+		<bitmap id="title12" src="imgs/韧性强化.png" />
+		<bitmap id="title9" src="imgs/生命强化.png" />
+
+		<bitmap id="attr10" src="imgs/物理攻击.jpg" />
+		<bitmap id="attr11" src="imgs/魔力.jpg" />
+		<bitmap id="attr12" src="imgs/韧性.jpg" />
+		<bitmap id="attr9" src="imgs/生命.jpg" />
+
+		<bitmap id="数字" src="imgs/数字.png" />
+		<bitmap id="战斗技巧—标头花边" src="imgs/战斗技巧—标头花边.png" />
+		<bitmap id="战斗技巧渐变底条" src="imgs/战斗技巧渐变底条.png" />
+		<bitmap id="间隔条" src="imgs/间隔条.png" />
+		<bitmap id="历练值框" src="imgs/历练值框.png" />
+		<bitmap id="当前历练值" src="imgs/当前历练值.png" />		
+		<bitmap id="scrollbar背景1.bmp" src="imgs/1.png"/>
+		<bitmap id="scrollbar滑块1.bmp" src="imgs/21.png"/>
+		<bitmap id="scrollbar滑块2.bmp" src="imgs/22.png"/>
+		<bitmap id="scrollbar滑块3.bmp" src="imgs/23.png"/>
+		<bitmap id="scrollbar上箭头1.bmp" src="imgs/31.png"/>		
+		<bitmap id="scrollbar上箭头2.bmp" src="imgs/32.png"/>		
+		<bitmap id="scrollbar上箭头3.bmp" src="imgs/33.png"/>	
+		<bitmap id="scrollbar下箭头1.bmp" src="imgs/41.png"/>		
+		<bitmap id="scrollbar下箭头2.bmp" src="imgs/42.png"/>		
+		<bitmap id="scrollbar下箭头3.bmp" src="imgs/43.png"/>	
+		<bitmap id="普通历练" src="imgs/普通历练.jpg"/>	
+		<bitmap id="钻石历练" src="imgs/钻石历练.jpg"/>	
+		<bitmap id="至尊历练" src="imgs/至尊历练.jpg"/>		
+		<bitmap id="高级" src="imgs/高级.png"/>	
+		<bitmap id="普通" src="imgs/普通.png"/>	
+		<bitmap id="至尊" src="imgs/至尊.png"/>	
+		<bitmap id="未开启" src="imgs/未开启.png"/>	
+		<bitmap id="确定" src="imgs/确定.png"/>	
+		<bitmap id="渐变条" src="imgs/渐变条.png"/>		
+		<bitmap id="骑士团成长框体底" src="imgs/骑士团成长框体底.png"/>		
+		<bitmap id="骑士团成长" src="imgs/骑士团成长.png"/>		
+		<bitmap id="大号按钮特殊-01" src="imgs/大号按钮特殊-01.png"/>		
+		<bitmap id="大号按钮特殊-02" src="imgs/大号按钮特殊-02.png"/>		
+		<bitmap id="大号按钮特殊-03" src="imgs/大号按钮特殊-03.png"/>		
+		<bitmap id="文字渐变底" src="imgs/文字渐变底.png"/>	
+				<bitmap id="骑士团活动" src="imgs/骑士团活动.jpg"/>	
+		<bitmap id="图1" src="imgs/图1.jpg"/>	
+		<bitmap id="图2" src="imgs/图2.jpg"/>	
+		<bitmap id="图3" src="imgs/图3.jpg"/>	
+		<bitmap id="图4" src="imgs/图4.jpg"/>	
+
+		<bitmap id="黄钻" src="imgs/黄钻.png"/>	
+		<bitmap id="骑士等级" src="imgs/骑士等级.png"/>	
+		<bitmap id="VIP数字" src="imgs/VIP数字.png"/>	
+
+		<bitmap id="创建骑士团插图" src="imgs/创建骑士团插图.jpg"/>	
+		<bitmap id="帮会名字" src="imgs/帮会名字.png"/>	
+		<bitmap id="帮会公告" src="imgs/帮会公告.png"/>	
+ 		<bitmap id="创建骑士团输入框" src="imgs/创建骑士团输入框.png"/>	
+
+	</bitmaps>
+	<texts>
+		<text id="骑士团排名">排名</text>
+		<text id="骑士团等级">等级</text>
+		<text id="骑士团名称">骑士团名称</text>
+		<text id="团长">团长</text>
+		<text id="成员数">成员数</text>
+		<text id="操作">操作</text>
+		<text id="创建骑士团">创建骑士团</text>
+		<text id="加入骑士团">加入骑士团</text>
+		<text id="申请">申请</text>
+		<text id="创建">创建</text>
+		<text id="升级骑士团可继续提升战斗技能">升级骑士团可继续提升战斗技能</text>
+		<text id="已达到最高级别">已达到最高级别</text>
+		<text id="输入骑士团名称">输入骑士团名称：</text>
+		<text id="创建骑士团所需">创建骑士团所需：</text>
+		<text id="骑士团名称不能超过6个汉字">骑士团名称不能超过6个汉字</text>
+		<text id="进入集会所">进入集会所</text>
+
+		<text id="成员列表">成员列表</text>
+		<text id="申请处理">申请处理</text>
+		<text id="骑士团招募成员">招募</text>
+		<text id="角色名称">角色名称</text>
+		<text id="职位">职位</text>
+		<text id="职业">职业</text>
+		<text id="今日贡献">今日贡献</text>
+		<text id="总贡献">总贡献</text>
+		<text id="最后上线时间">最后上线时间</text>
+		<text id="其他骑士团">其他骑士团</text>
+		<text id="申请时间">申请时间</text>
+		<text id="小时前">小时前</text>
+		<text id="天前">天前</text>
+		<text id="1小时内">1小时内</text>
+		<text id="接受">接受</text>
+		<text id="拒绝">拒绝</text>
+		<text id="名称：">名称：</text>
+		<text id="等级：">等级：</text>
+		<text id="排名：">排名：</text>
+		<text id="成员：">成员：</text>
+		<text id="女神：">女神：</text>
+		<text id="骑士团经验：">骑士团经验：</text>
+		<text id="个人历练：">个人历练：</text>
+		<text id="历史贡献：">历史贡献：</text>
+		<text id="可用贡献：">可用贡献：</text>
+		<text id="简介：">简介：</text>
+
+		<text id="转让">转让</text>
+		<text id="解散">解散</text>
+		<text id="退团">退团</text>
+		<text id="弹劾">弹劾</text>
+		<text id="公告：">公告：</text>
+		<text id="编辑">编辑</text>
+		<text id="输入公告内容：">输入公告内容：</text>
+		<text id="保存">保存</text>
+		<text id="公告内容不能超过200个汉字">内容不能超过200个汉字</text>		
+		<text id="请选择转让给那位将军">请选择转让给哪位副团长</text>		
+		<text id="任命">任命</text>	
+		<text id="踢出">踢出</text>	
+		<text id="是否解散骑士团">是否解散骑士团</text>		
+		<text id="是否退出骑士团">是否退出骑士团</text>		
+		<text id="是否花费50元宝弹劾团长">是否花费50钻石弹劾团长</text>		
+		<text id="其他骑士团">其他骑士团</text>		
+		<text id="剑客">剑士</text>		
+		<text id="团长">团长</text>		
+		<text id="副团长">副团长</text>
+		<text id="团员">成员</text>		
+		<text id="查看">查看</text>	
+		<text id="团长：">团长：</text>		
+		<text id="经验：">经验：</text>	
+		<text id="骑士团">骑士团</text>	
+		<text id="是否踢出该团员">是否踢出该团员</text>	
+		<text id="空缺">空缺</text>	
+		<text id="请选择要任命的职位">请选择要任命的职位</text>	
+		<text id="战斗技巧">战斗技巧</text>	
+		<text id="骑士团活动">骑士团活动</text>	
+		<text id="骑士团战斗导师">骑士团战斗导师提供多种战斗技能的训练，以此来提升骑士们的各种属性</text>	
+		<text id="当前：">当前：</text>	
+		<text id="下一级：">下一级：</text>	
+		<text id="升级需要：">升级需要：</text>	
+		<text id="获取历练值">获取历练值</text>	
+		<text id="历练值">历练值</text>	
+		<text id="捐献金币：50000">消耗金币：50000</text>	
+		<text id="捐献钻石：20">消耗钻石：20</text>	
+		<text id="捐献钻石：80">消耗钻石：80</text>			
+		<text id="今日剩余次数：">今日普通剩余次数：</text>	
+		<text id="vip3级开放，钻石捐献">骑士1级开放，钻石捐献</text>			
+		<text id="vip5级开放，至尊捐献">骑士3级开放，至尊捐献</text>	
+		<text id="titleword9">生命</text>			
+		<text id="titleword10">物攻</text>	
+		<text id="titleword11">魔攻</text>			
+		<text id="titleword12">韧性</text>	
+		<text id="sect1">剑士</text>
+		<text id="sect2">刺客</text>
+		<text id="sect3">战士</text>
+		<text id="sect4">骑士</text>
+		<text id="参加战斗">参加战斗</text>
+		<text id="点击进入">点击进入</text>
+		
+		<text id="骑士团等级不足">骑士团等级不足</text>
+		<text id="未开启">未开启</text>
+		<text id="金币：500万">金币：300万</text>
+		<text id="角色等级：50级">角色等级：36级</text>		
+		<text id="查看资料">查看资料</text>
+		<text id="邀请组队">邀请组队</text>
+		<text id="发送私聊">发送私聊</text>
+		<text id="加为好友">加为好友</text>
+		<text id="屏蔽发言">屏蔽发言</text>
+		<text id="复制姓名">复制姓名</text>
+		<text id="确定label">确 定</text>
+		<text id="骑士团事件">骑士团事件</text>
+		<text id="黄钻等级">黄钻等级</text>
+		<text id="骑士等级">骑士等级</text>
+		<text id="事件内容">事件内容</text>
+		<text id="事件时间">时间</text>
+		<text id="个人捐献简介">捐献可获得历练值，用于学习骑士团强大的战斗技巧。</text>
+		<text id="组团探险简介">与骑士团成员一起探险，也可获得历练值，用于学习骑士团强大的战斗技巧。</text>
+		<text id="骑士团BOSS简介">每个成员均可以召唤强大的敌人并集结战友共同对抗，分享丰厚的战利品。</text>
+		<text id="无主之地简介">骑士团间为了荣誉而发起的团体战争，获胜的骑士团成员均可获得丰厚奖励。</text>
+		<text id="骑士团创建流程">骑士团创建流程：</text>
+		<text id="创建骑士团描述1"><![CDATA[1、拥有<font color='#60ff4e'>（不会消耗）</font><font color='#02e4f8'>100钻石</font>。]]></text>
+		<text id="创建骑士团描述2"><![CDATA[2、确保自己等级在<font color='#60ff4e'>31级</font>以上。]]></text>
+		<text id="创建骑士团描述3">3、输入一个喜欢的骑士团名字和公告。</text>
+		<text id="创建骑士团描述4">4、点击创建骑士团</text>
+		<text id="已达成">已达成</text>
+		<text id="未达成">未达成</text>
+		<text id="骑士团介绍"><![CDATA[<font color='#ffeb09'>骑士团介绍：</font> $1<font color='#47f911'> 【战斗技巧】：</font>玩家可以利用骑士团专属的历练值培养战斗技巧，大幅提高生命值、物攻、魔攻和韧性。$2<font color='#47f911'> 【骑士团活动】：</font>玩家可以参加丰富多彩的骑士团活动如下：$3  <font color='#ff2d03'>1、骑士团成长：</font>为骑士团捐献可以获得历练值。$4  <font color='#ff2d03'>2、组团探险：</font>玩家与其他骑士团成员组团探险，可获得历练值。$5  <font color='#ff2d03'>3、骑士团Boss：</font>击败后所有参与的骑士团成员都可以获得历练值、金币和战功奖励。]]></text>
+	</texts>
+
+
+	<controls>
+		<window id="骑士团" width="865" height="463">
+			<ref ref="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+
+			<image bmp="骑士团资料框"  left="10" top="52" width="221" height="394" />
+			<image bmp="骑士团资料"  left="75" top="60" width="85" height="21" />
+			<label text="名称：" left="20" top="100" width="60" height="20" format="efb55a_12"/>
+			<label text="等级：" left="20" top="125" width="60" height="20" format="efb55a_12"/>
+			<label text="排名：" left="120" top="125" width="60" height="20" format="efb55a_12"/>
+			<label text="成员：" left="20" top="150" width="60" height="20" format="efb55a_12"/>
+			<!-- <label text="女神：" left="120" top="140" width="60" height="20" format="efb55a_12"/> -->
+			<label text="骑士团经验：" left="20" top="175" width="90" height="20" format="efb55a_12"/>
+			<label text="个人历练：" left="20" top="200" width="90" height="20" format="efb55a_12"/>
+			<label text="历史贡献：" left="20" top="225" width="90" height="20" format="efb55a_12"/>
+			<!-- <label text="可用贡献：" left="20" top="220" width="90" height="20" format="efb55a_12"/> -->
+			<label text="公告：" left="20" top="300" width="90" height="20" format="efb55a_12"/>
+			<label name="名称" left="55" top="100" width="140" height="20" format="e8ddcb_12" />
+			<label name="等级" left="55" top="125" width="60" height="20" format="e8ddcb_12" />
+			<label name="排名" left="155" top="125" width="60" height="20" format="e8ddcb_12" />
+			<label name="成员" left="55" top="150" width="90" height="20" format="e8ddcb_12" />
+<!-- 			<label name="女神" left="155" top="140" width="90" height="20" format="e8ddcb_12" /> -->
+			<label name="骑士团经验" left="90" top="175" width="120" height="20" format="e8ddcb_12" />
+			<label name="个人历练" left="90" top="200" width="120" height="20" format="e8ddcb_12" />
+			<label name="历史贡献" left="90" top="225" width="120" height="20" format="e8ddcb_12" />
+			<!-- <label name="可用贡献" left="90" top="220" width="120" height="20" format="e8ddcb_12" /> -->
+			<!-- <label name="公告" left="20" top="320" width="200" height="80" format="e8ddcb_12" /> -->
+			<ref name="scroller" ref="Scroller" width="200" height="80" left="20" top="320"/>
+			<labelButton name="转让" width="56" height="22" top="262" left="58" label="转让">
+				<state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中"/>
+				<state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中"/>
+				<state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+			<labelButton name="解散" width="56" height="22" top="262" left="128" label="解散">
+				<state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中"/>
+				<state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中"/>
+				<state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+			<labelButton name="退团" width="56" height="22" top="262" left="95" label="退团">
+				<state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中"/>
+				<state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中"/>
+				<state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+<!-- 			<labelButton name="弹劾" width="56" height="22" top="262" left="128" label="弹劾">
+				<state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中"/>
+				<state frame="2" back="小按钮02" format="ffbe57_12_居中"/>
+				<state frame="3" back="小按钮03" format="ffbe57_12_居中"/>
+			</labelButton> -->
+			<labelButton name="编辑" width="49" height="19" top="300" left="170" label="编辑">
+				<state frame="1" back="编辑按钮" format="ffbe57_12_居中"/>
+				<state frame="2" back="编辑按钮02" format="ffbe57_12_居中"/>
+				<state frame="3" back="编辑按钮03" format="ffbe57_12_居中"/>
+			</labelButton>
+
+			<labelButton name="招募成员" width="56" height="22" top="148" left="120" label="骑士团招募成员">
+				<state frame="1" back="小按钮01" format="ffbe57_12_居中"/>
+				<state frame="2" back="小按钮02" format="ffbe57_12_居中"/>
+				<state frame="3" back="小按钮03" format="ffbe57_12_居中"/>
+			</labelButton>
+
+			<labelButton name="进入集会所" width="82" height="28" top="413" left="80" label="进入集会所">
+				<state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+				<state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+				<state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+			</labelButton>
+
+			<image bmp="knightFrame2" grid="30,47,29,49" left="235" top="78" width="615" height="366" />
+			<image bmp="骑士团" left="393" top="10" width="78" height="28"/>		
+			<labelToggleButton name="成员列表" width="80" height="24" right="525" top="57" label="成员列表">
+					<state frame="1" back="页签02" format="e9d5a4_12_居中"/>
+ 					<state frame="2" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="4" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="5" back="页签01" format="e9d5a4_12_居中"/>
+  			</labelToggleButton>
+			<labelToggleButton name="战斗技巧" width="80" height="24" right="435" top="57" label="战斗技巧">
+					<state frame="1" back="页签02" format="e9d5a4_12_居中"/>
+ 					<state frame="2" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="4" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="5" back="页签01" format="e9d5a4_12_居中"/>
+  			</labelToggleButton>
+  			<labelToggleButton name="骑士团活动" width="80" height="24" right="345" top="57" label="骑士团活动">
+					<state frame="1" back="页签02" format="e9d5a4_12_居中"/>
+ 					<state frame="2" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="4" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="5" back="页签01" format="e9d5a4_12_居中"/>
+  			</labelToggleButton>
+
+  			<labelToggleButton name="申请处理" width="80" height="24" right="165" top="57" label="申请处理">
+					<state frame="1" back="页签02" format="e9d5a4_12_居中"/>
+ 					<state frame="2" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="4" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="5" back="页签01" format="e9d5a4_12_居中"/>
+  			</labelToggleButton>	
+  			<labelToggleButton name="骑士团事件" width="80" height="24" right="255" top="57" label="骑士团事件">
+					<state frame="1" back="页签02" format="e9d5a4_12_居中"/>
+ 					<state frame="2" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="4" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="5" back="页签01" format="e9d5a4_12_居中"/>
+  			</labelToggleButton>
+
+   			<labelToggleButton name="其他骑士团" width="80" height="24" right="40" top="57" label="其他骑士团">
+					<state frame="1" back="页签02" format="e9d5a4_12_居中"/>
+ 					<state frame="2" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="4" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="5" back="页签01" format="e9d5a4_12_居中"/>
+  			</labelToggleButton>
+		</window>
+
+
+ 		<box id="其他骑士团" width="605" height="360" left="240" top="82">
+ 			<image  bmp="查看骑士团表格标头"  left="0" top="0" width="605" height="30" />
+ 			<image  bmp="翻页底条" left="0" bottom="2" width="605" height="30" />
+			<label left="0" top="5" width="59" height="20" format="队伍红棕色字体" text="骑士团排名"/>
+			<label left="59" top="5" width="56" height="20" format="队伍红棕色字体" text="骑士团等级"/>
+			<label left="115" top="5" width="144" height="20" format="队伍红棕色字体" text="骑士团名称"/>
+			<label left="259" top="5" width="128" height="20" format="队伍红棕色字体" text="团长"/>
+			<label left="387" top="5" width="84" height="20" format="队伍红棕色字体" text="成员数"/>
+			<label left="466" top="5" width="142" height="20" format="队伍红棕色字体" text="操作"/>
+			<button name="按钮左" width="24" height="22" left="233" bottom="5">
+ 				<state frame="1" back="翻页按钮左大01"/>
+ 				<state frame="2" back="翻页按钮左大02"/>
+ 				<state frame="3" back="翻页按钮左大03"/>
+			</button>
+ 			<button name="按钮右" width="24" height="22" left="355" bottom="5">
+ 				<state frame="1" back="翻页按钮右大01"/>
+ 				<state frame="2" back="翻页按钮右大02"/>
+				<state frame="3" back="翻页按钮右大03"/>
+ 			</button>
+ 			 <image bmp="翻页框" left="267" bottom="7" width="78" height="18" />
+			<label name="页码" left="267" bottom="7" width="78" height="18" format="e8ddcb_12_居中"/>
+		</box>
+
+		<box id="其他骑士团格" width="605" height="30" left="0" top="0">
+ 			<image name="选中" bmp="普通表格条选中" left="0" top="0" width="605" height="30" />
+			<label name="骑士团排名" left="0" top="5" width="59" height="20" format="e8ddcb_12_居中"/>
+			<label name="骑士团等级" left="59" top="5" width="56" height="20" format="e8ddcb_12_居中"/>
+			<label name="骑士团名称" left="115" top="5" width="144" height="20" format="e8ddcb_12_居中"/>
+			<label name="骑士团团长" left="259" top="5" width="128" height="20" format="e8ddcb_12_居中"/>
+			<label name="骑士团成员数" left="387" top="5" width="84" height="20" format="e8ddcb_12_居中"/>
+			<labelButton name="查看" width="56" height="22" bottom="3" right="43" label="查看">
+				<state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中"/>
+				<state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中"/>
+				<state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+		</box>
+
+
+		<window id="查看骑士团" width="337" height="417" >
+			<image bmp="中底板底" grid="30,47,29,49" left="-1" top="7" width="340" height="422" />
+ 			<image bmp="骑士团属性框体头部" left="0" top="7" width="337" height="37" />
+ 			<image bmp="骑士团属性框体" left="6" top="47" width="325" height="370" />
+ 			<ref name="closeBtn" ref="CloseButton" />
+ 			<label text="团长：" left="20" top="63" width="60" height="20" format="efb55a_12"/>
+ 			<label text="排名：" left="20" top="83" width="60" height="20" format="efb55a_12"/>
+ 			<label text="成员：" left="175" top="83" width="60" height="20" format="efb55a_12"/>
+			<label text="等级：" left="20" top="103" width="60" height="20" format="efb55a_12"/>
+ 			<label text="经验：" left="175" top="103" width="60" height="20" format="efb55a_12"/>
+ 			<label text="公告：" left="20" top="145" width="60" height="20" format="efb55a_12"/>
+
+			<label left="4" top="226" width="120" height="20" format="队伍红棕色字体" text="角色名称"/>
+			<label left="124" top="226" width="50" height="20" format="队伍红棕色字体" text="骑士团等级"/>
+			<label left="173" top="226" width="87" height="20" format="队伍红棕色字体" text="职业"/>
+			<label left="260" top="226" width="70" height="20" format="队伍红棕色字体" text="职位"/>
+
+			<label name="团长" left="60" top="63" width="140" height="20" format="e8ddcb_12"/>
+			<label name="排名" left="60" top="83" width="100" height="20" format="e8ddcb_12"/>
+			<label name="成员" left="215" top="83" width="100" height="20" format="e8ddcb_12"/>
+			<label name="等级" left="60" top="103" width="100" height="20" format="e8ddcb_12"/>
+			<label name="经验" left="215" top="103" width="100" height="20" format="e8ddcb_12"/>
+			<!-- <label name="公告" left="20" top="165" width="300" height="55" format="e8ddcb_12"/> -->
+
+			<ref name="scroller" ref="Scroller" width="310" height="60" left="20" top="160"/>
+
+
+			<label name="骑士团名称" left="0" top="13" width="337" height="30" format="骑士团名称字体"/>
+			<button name="按钮左" width="24" height="22" left="96" bottom="8">
+ 				<state frame="1" back="翻页按钮左大01"/>
+ 				<state frame="2" back="翻页按钮左大02"/>
+ 				<state frame="3" back="翻页按钮左大03"/>
+			</button>
+ 			<button name="按钮右" width="24" height="22" left="218" bottom="8">
+ 				<state frame="1" back="翻页按钮右大01"/>
+ 				<state frame="2" back="翻页按钮右大02"/>
+				<state frame="3" back="翻页按钮右大03"/>
+ 			</button>
+ 			<image bmp="翻页框" left="130" bottom="10" width="78" height="18" />
+			<label name="页码" left="130" bottom="10" width="78" height="18" format="e8ddcb_12_居中"/>
+		</window>
+
+		<box id="查看骑士团格" width="320" height="25" left="0" top="0">
+			<label name="角色名称" left="4" top="0" width="120" height="20" format="e8ddcb_12_居中"/>
+			<label name="角色等级" left="124" top="0" width="50" height="20" format="e8ddcb_12_居中"/>
+			<label name="职业" left="173" top="0" width="87" height="20" format="e8ddcb_12_居中"/>
+			<label name="职位" left="260" top="0" width="70" height="20" format="e8ddcb_12_居中"/>
+		</box>
+
+
+
+
+		<box id="编辑公告" width="340" height="200">
+			<image bmp="中底板底" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" />
+			<image bmp="编辑公告文字" width="103" height="29" left="118" top="-14"  />
+			<image bmp="第三级底板03" grid="30,10,30,10" width="280" height="103" left="30" top="50"  />
+
+			<labelButton name="保存" width="82" height="28" top="160" left="75" label="保存">
+					<state frame="1" back="1号按钮01" format="ffbe57_12_居中"/>
+					<state frame="2" back="1号按钮02" format="ffbe57_12_居中"/>
+					<state frame="3" back="1号按钮03" format="ffbe57_12_居中"/>
+			</labelButton>
+			<labelButton name="取消" width="82" height="28" top="160" left="180" label="取消">
+					<state frame="1" back="1号按钮01" format="ffbe57_12_居中"/>
+					<state frame="2" back="1号按钮02" format="ffbe57_12_居中"/>
+					<state frame="3" back="1号按钮03" format="ffbe57_12_居中"/>
+			</labelButton>
+			 <label height="20" width="130" top="27" left="20" text="输入公告内容：" format="fdd69a_12_居中"/>
+
+		</box>
+
+
+		<box id="转让团长" width="460" height="150">
+			<image bmp="中底板底" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" />
+			<image bmp="团长转让文字" width="103" height="27" left="178" top="-13"  />
+			<image bmp="创团所需底" width="313" height="55" left="73" top="43"  />
+			<labelButton name="转让" width="82" height="28" top="110" left="135" label="转让">
+					<state frame="1" back="1号按钮01" format="ffbe57_12_居中"/>
+					<state frame="2" back="1号按钮02" format="ffbe57_12_居中"/>
+					<state frame="3" back="1号按钮03" format="ffbe57_12_居中"/>
+			</labelButton>
+			<labelButton name="取消" width="82" height="28" top="110" left="240" label="取消">
+					<state frame="1" back="1号按钮01" format="ffbe57_12_居中"/>
+					<state frame="2" back="1号按钮02" format="ffbe57_12_居中"/>
+					<state frame="3" back="1号按钮03" format="ffbe57_12_居中"/>
+			</labelButton>
+			 <checkBox name="将军1" x="90" y="55" width="120" height="22" >
+   				<state frame="1" back="团长转让选择01" format="6d6c6a_14居中"/>
+   				<state frame="5" back="团长转让选择02" format="队伍绿色字体"/>
+    		</checkBox>
+ 			<checkBox name="将军2" x="230" y="55" width="120" height="22" >
+   				<state frame="1" back="团长转让选择01" format="6d6c6a_14居中"/>
+   				<state frame="5" back="团长转让选择02" format="队伍绿色字体"/>
+    		</checkBox>
+<!--  			<checkBox name="将军3" x="305" y="55" width="120" height="22" >
+   				<state frame="1" back="团长转让选择01" format="队伍红色字体"/>
+   				<state frame="5" back="团长转让选择02" format="队伍红色字体"/>
+    		</checkBox> -->
+			 <label height="20" width="150" top="23" left="165" text="请选择转让给那位将军" format="fdd69a_12_居中"/>
+		</box>
+
+		<box id="职位任命" width="460" height="150">
+			<image bmp="中底板底" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" />
+			<image bmp="职位任命" width="103" height="27" left="178" top="-13"  />
+			<image bmp="创团所需底" width="313" height="55" left="73" top="43"  />
+			<labelButton name="确定" width="82" height="28" top="110" left="135" label="确定">
+					<state frame="1" back="1号按钮01" format="ffbe57_12_居中"/>
+					<state frame="2" back="1号按钮02" format="ffbe57_12_居中"/>
+					<state frame="3" back="1号按钮03" format="ffbe57_12_居中"/>
+			</labelButton>
+			<labelButton name="取消" width="82" height="28" top="110" left="240" label="取消">
+					<state frame="1" back="1号按钮01" format="ffbe57_12_居中"/>
+					<state frame="2" back="1号按钮02" format="ffbe57_12_居中"/>
+					<state frame="3" back="1号按钮03" format="ffbe57_12_居中"/>
+			</labelButton>
+			 <checkBox name="将军" x="135" y="55" width="80" height="22" label="副团长">
+   				<state frame="1" back="团长转让选择01" format="6d6c6a_14居中"/>
+   				<state frame="5" back="团长转让选择02" format="队伍绿色字体"/>
+    		</checkBox>
+ 			<checkBox name="团员" x="275" y="55" width="60" height="22" label="团员">
+   				<state frame="1" back="团长转让选择01" format="6d6c6a_14居中"/>
+   				<state frame="5" back="团长转让选择02" format="队伍绿色字体"/>
+    		</checkBox>
+			 <label height="20" width="130" top="23" left="165" text="请选择要任命的职位" format="fdd69a_12_居中"/>
+
+		</box>
+
+ 		<box id="成员列表框" width="605" height="360" left="240" top="82">
+ 			<image  bmp="标头"  left="0" top="0" width="605" height="30" />
+ 			<image  bmp="翻页底条" left="0" bottom="2" width="605" height="30" />
+			<label text="角色名称" left="65" top="5" width="60" height="20" format="队伍红棕色字体"/>
+			<label text="骑士团等级" left="190" top="5" width="49" height="20" format="队伍红棕色字体"/>
+			<label text="职位" left="239" top="5" width="69" height="20" format="队伍红棕色字体"/>
+			<label text="职业" left="308" top="5" width="79" height="20" format="队伍红棕色字体"/>
+			<label text="今日贡献" left="387" top="5" width="63" height="20" format="队伍红棕色字体"/>
+			<label text="总贡献" left="450" top="5" width="72" height="20" format="队伍红棕色字体"/>
+			<label text="最后上线时间" left="522" top="5" width="85" height="20" format="队伍红棕色字体"/>
+			<button name="按钮左" width="24" height="22" left="233" bottom="5">
+ 				<state frame="1" back="翻页按钮左大01"/>
+ 				<state frame="2" back="翻页按钮左大02"/>
+ 				<state frame="3" back="翻页按钮左大03"/>
+			</button>
+ 			<button name="按钮右" width="24" height="22" left="355" bottom="5">
+ 				<state frame="1" back="翻页按钮右大01"/>
+ 				<state frame="2" back="翻页按钮右大02"/>
+				<state frame="3" back="翻页按钮右大03"/>
+ 			</button>
+ 			 <image bmp="翻页框" left="267" bottom="7" width="78" height="18" />
+			<label name="页码" left="267" bottom="7" width="78" height="18" format="e8ddcb_12_居中"/>
+		</box>
+
+
+		<box id="成员列表格" width="605" height="30" left="0" top="0">
+ 			<!-- <image  bmp="普通表格条"  left="0" top="0" width="605" height="30" /> -->
+ 			<image name="选中" bmp="普通表格条选中" left="0" top="0" width="605" height="30" />
+ 			<image name="黄钻" bmp="黄钻" left="5" top="2" width="25" height="25"/>
+  			<image name="骑士等级" bmp="骑士等级" left="35" top="2" width="25" height="25" tip="骑士等级" />
+ 			<label name="骑士等级数" left="35" top="10" width="40" height="20" format="fff600_12_居中"/>
+			<label name="成员名" left="60" top="5" width="128" height="20" format="e8ddcb_12_居中"/>
+			<label name="成员等级" left="190" top="5" width="49" height="20" format="e8ddcb_12_居中"/>
+			<label name="成员职位" left="239" top="5" width="69" height="20" format="e8ddcb_12_居中"/>
+			<label name="成员职业" left="308" top="5" width="79" height="20" format="e8ddcb_12_居中"/>
+			<label name="成员贡献" left="387" top="5" width="63" height="20" format="e8ddcb_12_居中"/>
+			<label name="总贡献" left="450" top="5" width="72" height="20" format="e8ddcb_12_居中"/>
+			<label name="成员贡献时间" left="522" top="5" width="85" height="20" format="e8ddcb_12_居中"/>
+		</box>
+
+ 		<box id="logView" width="605" height="360" left="240" top="82">
+ 			<image  bmp="事件标头"  left="0" top="0" width="605" height="30" />
+ 			<image  bmp="翻页底条" left="0" bottom="2" width="605" height="30" />
+			<label text="事件内容" left="220" top="5" width="60" height="20" format="队伍红棕色字体"/>
+			<label text="事件时间" left="530" top="5" width="49" height="20" format="队伍红棕色字体"/>
+			<button name="按钮左" width="24" height="22" left="233" bottom="5">
+ 				<state frame="1" back="翻页按钮左大01"/>
+ 				<state frame="2" back="翻页按钮左大02"/>
+ 				<state frame="3" back="翻页按钮左大03"/>
+			</button>
+ 			<button name="按钮右" width="24" height="22" left="355" bottom="5">
+ 				<state frame="1" back="翻页按钮右大01"/>
+ 				<state frame="2" back="翻页按钮右大02"/>
+				<state frame="3" back="翻页按钮右大03"/>
+ 			</button>
+ 			 <image bmp="翻页框" left="267" bottom="7" width="78" height="18" />
+			<label name="页码" left="267" bottom="7" width="78" height="18" format="e8ddcb_12_居中"/>
+		</box>
+
+		<box id="logCell" width="605" height="30" left="0" top="0">
+ 			<image name="选中" bmp="普通表格条选中" left="0" top="0" width="605" height="30" />
+			<label name="事件" left="40" top="5" width="400" html="true" height="20" format="e8ddcb_12"/>
+			<label name="时间" left="528" top="5" width="52" height="20" format="e8ddcb_12_居中"/>
+		</box>
+
+
+		<box id="申请处理" width="605" height="360" left="240" top="82">
+ 			<image  bmp="骑士团申请入团标头"  left="0" top="0" width="605" height="30" />
+ 			<image  bmp="翻页底条" left="0" bottom="2" width="605" height="30" />
+			<label text="角色名称" left="33" top="5" width="60" height="20" format="队伍红棕色字体"/>
+			<label text="骑士团等级" left="123" top="5" width="60" height="20" format="队伍红棕色字体"/>
+			<label text="职业" left="143" top="5" width="150" height="20" format="队伍红棕色字体"/>
+			<label text="申请时间" left="257" top="5" width="148" height="20" format="队伍红棕色字体"/>
+			<label text="申请处理" left="405" top="5" width="200" height="20" format="队伍红棕色字体"/>
+			<button name="按钮左" width="24" height="22" left="233" bottom="5">
+ 				<state frame="1" back="翻页按钮左大01"/>
+ 				<state frame="2" back="翻页按钮左大02"/>
+ 				<state frame="3" back="翻页按钮左大03"/>
+			</button>
+ 			<button name="按钮右" width="24" height="22" left="355" bottom="5">
+ 				<state frame="1" back="翻页按钮右大01"/>
+ 				<state frame="2" back="翻页按钮右大02"/>
+				<state frame="3" back="翻页按钮右大03"/>
+ 			</button>
+ 			 <image bmp="翻页框" left="267" bottom="7" width="78" height="18" />
+			<label name="页码" left="267" bottom="7" width="78" height="18" format="e8ddcb_12_居中"/>
+		</box>
+
+
+
+		<box id="申请处理格" width="605" height="30" left="0" top="0">
+ 			<image name="选中" bmp="普通表格条选中" left="0" top="0" width="605" height="30" />
+			<label name="角色名称" left="0" top="5" width="128" height="20" format="e8ddcb_12_居中"/>
+			<label name="骑士团等级" left="128" top="5" width="50" height="20" format="e8ddcb_12_居中"/>
+			<label name="职业" left="178" top="5" width="79" height="20" format="e8ddcb_12_居中"/>
+			<label name="申请时间" left="257" top="5" width="148" height="20" format="e8ddcb_12_居中"/>
+			<labelButton name="接受" width="56" height="22" bottom="3" right="110" label="接受">
+				<state frame="1" back="小按钮01" format="ffbe57_12_居中"/>
+				<state frame="2" back="小按钮02" format="ffbe57_12_居中"/>
+				<state frame="3" back="小按钮03" format="ffbe57_12_居中"/>
+			</labelButton>
+			<labelButton name="拒绝" width="56" height="22" bottom="3" right="35" label="拒绝">
+				<state frame="1" back="小按钮01" format="ffbe57_12_居中"/>
+				<state frame="2" back="小按钮02" format="ffbe57_12_居中"/>
+				<state frame="3" back="小按钮03" format="ffbe57_12_居中"/>
+			</labelButton>
+		</box>
+
+		<box id="战斗技巧" width="600" height="360" left="240" top="82">
+			<image bmp="战斗技巧渐变底条" left="30" top="3" width="549" height="33" />
+			<label left="30" top="10" width="549" height="20" format="fa9600_12_居中" text="骑士团战斗导师"/>
+			<image  bmp="翻页底条" left="0" bottom="2" width="605" height="30" />
+			<image  bmp="历练值框" left="100" bottom="4" width="110" height="26" />
+			<image  bmp="当前历练值" left="15" bottom="8" width="81" height="17" />
+			<label left="100" bottom="1" width="110" height="26" format="宋体绿色12居中" name="当前历练"/>
+			<labelButton name="获取历练" width="82" height="28" bottom="4" right="37" label="获取历练值">
+				<state frame="1" back="1号按钮01" format="ffbe57_12_居中"/>
+				<state frame="2" back="1号按钮02" format="ffbe57_12_居中"/>
+				<state frame="3" back="1号按钮03" format="ffbe57_12_居中"/>
+			</labelButton>
+		</box>
+		<box id="战斗技巧单元" width="150" height="285" left="0" top="0">
+			<image bmp="第三级底板" grid="30,10,30,10" width="143" height="263" left="0" bottom="0"  />
+			<image bmp="战斗技巧—标头花边" left="2" top="25" width="147" height="39" />
+			<image bmp="间隔条" left="7" top="210" width="128" height="3" />
+
+
+			<image name="pic" left="3" top="70" width="137" height="106" />
+			<image name="title" left="40" top="30" width="80" height="26" />
+			<label left="5" top="165" width="80" height="20" format="fde3ac_12居中" text="当前："/>
+			<label left="65" top="165" width="100" height="20" format="道具培养" name="cur"/>
+			<label left="0" top="185" width="80" height="20" format="fde3ac_12居中" text="下一级："/>
+			<label left="65" top="185" width="100" height="20" format="道具培养" name="next"/>
+			<label left="0" top="215" width="80" height="20" format="fde3ac_12居中" text="升级需要："/>
+			<label left="67" top="215" width="100" height="20" format="宋体绿色12黑色边框2" name="need"/>
+			<labelButton name="升级" width="82" height="28" bottom="10" right="37" label="升级">
+				<state frame="1" back="1号按钮01" format="ffbe57_12_居中"/>
+				<state frame="2" back="1号按钮02" format="ffbe57_12_居中"/>
+				<state frame="3" back="1号按钮03" format="ffbe57_12_居中"/>
+			</labelButton>
+		</box>
+
+	
+		<window id="申请" width="700" height="480">
+			<ref ref="WindowBack" />
+			<ref name="closeBtn" ref="CloseButton" />
+			<image bmp="骑士团" left="311" top="10" width="78" height="28"/>
+			 <label name="介绍" text="骑士团介绍" height="160" width="680" top="50" left="20" format="fde3ac_12_left" html="true" wordWrap="true"/>
+			<labelToggleButton name="创建" width="80" height="24" right="485" top="137" label="创建骑士团">
+					<state frame="1" back="页签02" format="e9d5a4_12_居中"/>
+ 					<state frame="2" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="4" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="5" back="页签01" format="e9d5a4_12_居中"/>
+  			</labelToggleButton>
+			<labelToggleButton name="申请" width="80" height="24" right="575" top="137" label="加入骑士团">
+					<state frame="1" back="页签02" format="e9d5a4_12_居中"/>
+ 					<state frame="2" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="4" back="页签01" format="e9d5a4_12_居中"/>
+ 					<state frame="5" back="页签01" format="e9d5a4_12_居中"/>
+  			</labelToggleButton>
+
+		<box name="申请页签" top="109">
+			<image bmp="knightFrame2" grid="30,47,29,49" left="10" top="50" width="680" height="275" />
+			<image bmp="表格下方底板" left="8" top="318" width="605" height="63" />
+			<image bmp="队伍信息框" grid="30,47,29,49" left="10" top="80" width="603" height="240" />
+		
+			<image bmp="表格顶部" left="13" top="82" width="596" height="31" />		
+			<label left="40" top="60" width="60" height="20" format="队伍红棕色字体" text="骑士团排名"/>
+			<label left="100" top="60" width="60" height="20" format="队伍红棕色字体" text="骑士团等级"/>
+			<label left="160" top="60" width="150" height="20" format="队伍红棕色字体" text="骑士团名称"/>
+			<label left="310" top="60" width="140" height="20" format="队伍红棕色字体" text="团长"/>
+			<label left="450" top="60" width="90" height="20" format="队伍红棕色字体" text="成员数"/>
+			<label left="540" top="60" width="150" height="20" format="队伍红棕色字体" text="操作"/>
+			
+			<button name="按钮左" width="24" height="22" left="276" top="334">
+ 				<state frame="1" back="翻页按钮左大01"/>
+ 				<state frame="2" back="翻页按钮左大02"/>
+ 				<state frame="3" back="翻页按钮左大03"/>
+			</button>
+ 			<button name="按钮右" width="24" height="22" left="395" top="334">
+ 				<state frame="1" back="翻页按钮右大01"/>
+ 				<state frame="2" back="翻页按钮右大02"/>
+				<state frame="3" back="翻页按钮右大03"/>
+ 			</button>
+ 			<image bmp="翻页框" left="310" top="334" width="78" height="18" />
+			<label name="页码" left="310" top="334" width="78" height="18" format="e8ddcb_12_居中"/>
+		</box>
+		<box name="创建页签" top="80">
+			<image bmp="knightFrame2" grid="30,47,29,49" left="6" top="79" width="277" height="306" />
+			<image bmp="创建骑士团插图" left="17" top="88" width="255" height="164" />
+			 <label height="20" width="130" top="260" left="22" text="骑士团创建流程" format="ffeb09_12"/>
+			 <label height="20" width="200" top="284" left="27" text="创建骑士团描述1" html="true" format="fde3ac_12_left"/>
+			 <label height="20" width="200" top="308" left="27" text="创建骑士团描述2" html="true" format="fde3ac_12_left"/>
+			 <label height="20" width="230" top="332" left="27" text="创建骑士团描述3" format="fde3ac_12_left"/>
+			 <label height="20" width="180" top="356" left="27" text="创建骑士团描述4" format="fde3ac_12_left"/>
+
+			 <label name="needmoney" height="20" width="130" top="284" left="180" />
+			 <label name="needlv" height="20" width="130" top="308" left="180" />
+
+			<image bmp="knightFrame2" grid="30,47,29,49" left="281" top="79" width="410" height="306" />
+
+			<image bmp="创建骑士团输入框" left="350" top="220" width="245" height="30" grid="20,10,20,10"/>
+			<!-- <image bmp="帮会名字" left="440" top="140" width="84" height="19" /> -->
+			<!-- <image bmp="帮会公告" left="290" top="273" width="84" height="19" /> -->
+			 <label height="20" width="180" top="200" left="350" text="输入骑士团名称" format="fde3ac_12_left"/>
+			 <label name="name" type="input" width="250" height="29" x="355" y="225" html="true" format="宋体灰色12居中" text="骑士团名称不能超过6个汉字"/>
+
+<!-- 			 <ref name="scroller" ref="Scroller" width="275" height="70" left="395" top="271"/>
+			 <label name="notice" type="input" width="240" height="150" x="0" y="0" wordWrap="true" html="true" format="宋体灰色12居中" text="公告内容不能超过200个汉字"/> -->
+			<labelButton name="创建按钮" width="104" height="42" left="425" top="300" label="创建">
+				<state frame="1" back="大号按钮四字01" format="按钮标签_efb55a_12_居中"/>
+				<state frame="2" back="大号按钮四字02" format="按钮标签_efb55a_12_居中"/>
+				<state frame="3" back="大号按钮四字03" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+
+		</box>
+
+
+		</window>		
+
+
+ 		<box id="申请列表格" width="670" height="30" left="298" top="225">
+ 			<!-- <image  bmp="表格条1" grid="10,0,10,0" left="0" top="0" width="670" height="30" /> -->
+ 			<image name="选中" bmp="选择效果" grid="10,0,10,0" left="0" top="0" width="670" height="30" />
+			<label name="骑士团排名" left="23" top="5" width="60" height="20" format="e8ddcb_12_居中"/>
+			<label name="骑士团等级" left="83" top="5" width="60" height="20" format="e8ddcb_12_居中"/>
+			<label name="骑士团名称" left="143" top="5" width="150" height="20" format="e8ddcb_12_居中"/>
+			<label name="骑士团团长" left="293" top="5" width="140" height="20" format="e8ddcb_12_居中"/>
+			<label name="骑士团成员数" left="433" top="5" width="90" height="20" format="e8ddcb_12_居中"/>
+
+ 			<button name="查看" width="24" height="24" bottom="3" right="90">
+ 				<state frame="1" back="查看按钮01"/>
+ 				<state frame="2" back="查看按钮02"/>
+				<state frame="3" back="查看按钮03"/>
+ 			</button>
+			<labelButton name="申请按钮" width="56" height="22" middle="-1" right="25" label="申请">
+				<state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中"/>
+				<state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中"/>
+				<state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中"/>
+			</labelButton>
+		</box>
+
+
+		<box id="创建骑士团" width="340" height="275">
+			<image bmp="中底板底" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" alpha="0.8"/>
+			<image bmp="中底板底" grid="30,47,29,49" left="0" top="0" right="0" bottom="0" />
+			<image bmp="创建骑士团" width="127" height="27" left="107" top="-13"  />
+			<image bmp="输入框" width="230" height="32" left="57" top="50"  />
+			<image bmp="创团所需底" width="313" height="125" left="14" top="90"  />
+			<labelButton name="创建" width="82" height="28" top="225" left="80" label="创建">
+					<state frame="1" back="1号按钮01" format="ffbe57_12_居中"/>
+					<state frame="2" back="1号按钮02" format="ffbe57_12_居中"/>
+					<state frame="3" back="1号按钮03" format="ffbe57_12_居中"/>
+			</labelButton>
+			<labelButton name="取消" width="82" height="28" top="225" left="185" label="取消">
+					<state frame="1" back="1号按钮01" format="ffbe57_12_居中"/>
+					<state frame="2" back="1号按钮02" format="ffbe57_12_居中"/>
+					<state frame="3" back="1号按钮03" format="ffbe57_12_居中"/>
+			</labelButton>
+			 <label height="20" width="130" top="27" left="35" text="输入骑士团名称" format="fdd59a_12"/>
+
+		</box>
+
+		<box id="获取历练值" width="643" height="287" >
+			<image bmp="中底板底" grid="30,47,29,49" left="-1" top="7" width="646" height="292" alpha="0.8"/>
+			<image bmp="中底板底" grid="30,47,29,49" left="-1" top="7" width="646" height="292" />
+ 			<image bmp="骑士团成长框体底" left="1" top="7" width="643" height="35" />
+  			<image bmp="骑士团成长" left="273" top="13" width="97" height="22" />			
+
+ 			<image bmp="普通历练" left="10" top="55" width="204" height="133" />
+ 			<image bmp="钻石历练" left="222" top="55" width="204" height="133" />
+ 			<image bmp="至尊历练" left="432" top="55" width="204" height="133" />
+ 			<image bmp="文字渐变底" left="11" top="43" width="202" height="33" />
+ 			<image bmp="文字渐变底" left="223" top="43" width="202" height="33" />
+ 			<image bmp="文字渐变底" left="433" top="43" width="202" height="33" />
+ 			<image bmp="普通" left="83" top="50" width="49" height="16" />
+ 			<image bmp="高级" left="297" top="50" width="49" height="16" />
+ 			<image bmp="至尊" left="507" top="50" width="49" height="16" />
+ 			<ref name="closeBtn" ref="CloseButton" />
+
+ 			<label text="骑士团经验：" left="90" top="142" width="80" height="20" format="e9d5a4_12_居中"/>
+ 			<label text="历练值" left="105" top="162" width="60" height="20" format="e9d5a4_12_居中"/>
+ 			<label text="捐献金币：50000" left="53" top="190" width="120" height="20" format="ff7200_12_粗体"/>
+			<label text="骑士团经验：" left="302" top="142" width="80" height="20" format="e9d5a4_12_居中"/>
+ 			<label text="历练值" left="317" top="162" width="60" height="20" format="e9d5a4_12_居中"/>
+ 			<label text="捐献钻石：20" left="275" top="190" width="100" height="20" format="02e4f8_12_粗体"/>
+ 			<label text="骑士团经验：" left="514" top="142" width="80" height="20" format="e9d5a4_12_居中"/>
+ 			<label text="历练值" left="529" top="162" width="60" height="20" format="e9d5a4_12_居中"/>
+ 			<label text="捐献钻石：80" left="487" top="190" width="100" height="20" format="02e4f8_12_粗体"/>
+
+			<label name="普通经验" left="165" top="142" width="45" height="20" format="宋体绿色12黑色边框2"/>
+ 			<label name="普通历练" left="160" top="162" width="45" height="20" format="宋体绿色12黑色边框2"/>
+ 			<label name="高级经验" left="375" top="142" width="45" height="20" format="宋体绿色12黑色边框2" />
+ 			<label name="高级历练" left="370" top="162" width="45" height="20" format="宋体绿色12黑色边框2" />
+ 			<label name="至尊经验" left="585" top="142" width="45" height="20" format="宋体绿色12黑色边框2"/>
+ 			<label name="至尊历练" left="580" top="162" width="45" height="20" format="宋体绿色12黑色边框2" />
+
+ 			<labelButton name="普通按钮" width="84" height="28" left="70" top="214" label="确定label">
+ 				<state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+				<state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+				<state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+ 			</labelButton>
+ 			<labelButton name="高级按钮" width="84" height="28" left="285" top="214" label="确定label">
+ 				<state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+				<state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+				<state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+ 			</labelButton>
+ 			<labelButton name="至尊按钮" width="84" height="28" left="495" top="214" label="确定label">
+ 				<state frame="1" back="付费类按钮01" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+				<state frame="2" back="付费类按钮02" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+				<state frame="3" back="付费类按钮03" format="按钮标签_efb55a_12_居中" grid="40,0,40,0"/>
+ 			</labelButton>
+ 			
+ 			<image name="vip3开启" bmp="未开启" left="285" top="212" width="83" height="35" />
+ 			<image name="vip5开启" bmp="未开启" left="495" top="212" width="83" height="35" />
+
+ 			<image bmp="渐变条" left="-6" top="255" width="656" height="29" />
+			<label text="今日剩余次数：" left="270" top="265" width="140" height="20" format="e8ddcb_12"/>
+			<label name="次数" left="380" top="265" width="30" height="20" format="宋体绿色12黑色边框2" />
+
+
+
+		</box>
+
+		<box id="骑士团活动" width="600" height="360" left="240" top="82">
+			<ref name="scroller" ref="Scroller" width="605" height="350" left="0" top="0"/>
+		</box>
+		<box id="骑士团活动单元" width="574" height="88" left="0" top="0">
+			<image bmp="骑士团活动" grid="30,10,30,10" width="574" height="88" left="0" bottom="0"  />
+			<image name="pic" left="5" top="3" width="192" height="82" />
+			<box name="文字" width="600" height="360" left="0" top="0">
+						<label left="190" top="30" width="70" height="20" text="简介：" format="fde3ac_12居中"/>
+						<label name="简介" left="240" top="30" width="220" height="40" text="简介：" format="fmt_03dd27_12"/>
+			</box>
+			<labelButton name="点击进入" width="82" height="28" top="30" left="475" label="点击进入">
+					<state frame="1" back="1号按钮01" format="ffbe57_12_居中"/>
+					<state frame="2" back="1号按钮02" format="ffbe57_12_居中"/>
+					<state frame="3" back="1号按钮03" format="ffbe57_12_居中"/>
+			</labelButton>
+			<label name="等级不足" left="463" top="30" width="110" height="20" text="骑士团等级不足" format="4e4e4e_14"/>
+			<label name="未开启" left="463" top="30" width="110" height="20" text="未开启" format="4e4e4e_14"/>
+
+		</box>
+
+	</controls>	
+
+</xml>

@@ -1,0 +1,44 @@
+﻿<xml>
+	<depends>
+		<depend src="/public/controls/window/HelpButton.xml"/>
+    <depend src="/public/controls/window/CloseButton.xml"/>
+    <depend src="/public/controls/window/WindowBack.xml"/>
+    <depend src="/public/controls/scroller/Scroller.xml"/>
+    <depend src="/public/publicFormats.xml"/>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+    <depend src="/public/publicFilters.xml"/>
+	</depends>
+	<formats>
+		<format id="宋体浅黄色12" font="宋体" size="12" color="0xfde3ac" align="left" filter="描边"/>
+		<format id="宋体浅黄色居中12" font="宋体" size="12" color="0xfde3ac" align="center" filter="描边"/>
+		<format id="宋体蓝色居中12" font="宋体" size="12" color="0x02e4f8" align="center" filter="绿色描边"/>
+		<format id="宋体绿色居中12" font="宋体" size="12" color="0x03dd27" align="center" filter="绿色描边"/>
+		<format id="宋体橘黄色12居中" font="宋体" size="12" color="0xf79f13" align="center" filter="黑色边框"/>
+		<format id="宋体深橘黄色12居中" font="宋体" size="12" color="0xff8929" align="center" filter="黑色边框"/>
+	</formats>
+	<bitmaps>
+		<bitmap id="刷新后才能生效哦" src="imgs/刷新后才能生效哦-文字.png"/>
+		<bitmap id="引导提示框箭头-向右" src="imgs/引导提示框箭头-向右.png"/>
+	</bitmaps>	
+	<texts>
+    <text id="勾选硬件加速选项">勾选硬件加速选项</text>
+    <text id="更流畅的游戏体验">为了让您拥有更流畅的游戏体验，强烈建议您</text>
+   </texts>
+   <controls>		
+		<window id="VmodeTip" width="315" height="215" center="0" middle="0">
+			<image bmp="中底板底" width="315" height="225" grid="50,50,50,50" center="0" middle="-20"/> 
+			<image bmp="lace2_1" width="36" height="71" left="-9" middle="-20" /> 
+			<image bmp="lace2_2" width="36" height="71" right="-9" middle="-20"/> 
+			<image bmp="刷新后才能生效哦" width="170" height="21" center="0" middle="-15"/> 
+			<image name="arrow" bmp="引导提示框箭头-向右" width="111" height="104" x="-43" y="39"/> 
+			<label width="315" height="40" y="0" x="0" html="true" format="宋体浅黄色居中12" text="更流畅的游戏体验"/>
+			<label width="315" height="40" y="20" x="0" html="true" format="宋体绿色居中12" text="勾选硬件加速选项"/>
+			<labelButton name="okBtn" label="确定" width="82" height="28" center="0" y="130">
+        <state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中"/>
+        <state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中"/>
+        <state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中"/>
+      </labelButton>
+		</window>
+	 </controls>
+</xml>

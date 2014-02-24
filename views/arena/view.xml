@@ -1,0 +1,147 @@
+<xml name="竞技场" editorId="1">
+  <depends editorId="2">
+    <depend src="cover.xml" editorId="3"/>
+    <depend src="/public/controls/window/HelpButton.xml" editorId="4"/>
+    <depend src="/public/controls/window/CloseButton.xml" editorId="5"/>
+    <depend src="/public/controls/window/WindowBack.xml" editorId="6"/>
+    <depend src="/public/publicFormats.xml" editorId="7"/>
+    <depend src="/public/publicFrames.xml" editorId="8"/>
+    <depend src="/public/publicButtons.xml" editorId="9"/>
+  </depends>
+  <filters editorId="10">
+    <filter id="名字描边" editorId="11">
+      <glow color="0x231207" alpha="1" blurX="2" blurY="2" strength="10" editorId="12"/>
+    </filter>
+    <filter id="表头描边" editorId="13">
+      <glow color="0x1f0e04" alpha="1" blurX="2" blurY="2" strength="10" editorId="14"/>
+    </filter>
+    <filter id="我的排名描边" editorId="15">
+      <glow color="0x36150a" alpha="1" blurX="2" blurY="2" strength="10" editorId="16"/>
+    </filter>
+  </filters>
+  <formats editorId="17">
+    <format id="宋体橘黄色14号加宽" font="宋体" size="14" color="0xf79f13" align="center" filter="名字描边" bold="true" editorId="18"/>
+    <format id="宋体浅黄色14号居中加宽" font="宋体" size="14" color="0xfde3ac" align="center" filter="名字描边" bold="true" editorId="19"/>
+    <format id="宋体橘黄色12居中" font="宋体" size="12" color="0xf79f13" align="center" filter="黑色边框" editorId="20"/>
+    <format id="宋体浅黄色12居中" font="宋体" size="12" color="0xfde3ac" align="center" filter="黑色边框" editorId="21"/>
+    <format id="宋体绿色12居中" font="宋体" color="0x03dd27" size="12" align="center" filter="黑色边框" editorId="22"/>
+    <format id="宋体灰色12居中" font="宋体" color="0x978773" size="12" align="center" filter="黑色边框" editorId="23"/>
+  </formats>
+  <bitmaps editorId="24">
+    <bitmap id="black" src="imgs/result/black.jpg" editorId="25"/>
+    <bitmap id="查看按钮01" src="imgs/查看按钮01.png" editorId="26"/>
+    <bitmap id="查看按钮02" src="imgs/查看按钮02.png" editorId="27"/>
+    <bitmap id="查看按钮03" src="imgs/查看按钮03.png" editorId="28"/>
+    <bitmap id="小型按钮01" src="imgs/小型按钮01.png" editorId="29"/>
+    <bitmap id="小型按钮02" src="imgs/小型按钮02.png" editorId="30"/>
+    <bitmap id="小型按钮03" src="imgs/小型按钮03.png" editorId="31"/>
+    <bitmap id="大角色框" src="imgs/大角色框.jpg" editorId="32"/>
+    <bitmap id="角斗场" src="imgs/竞技场.png" editorId="33"/>
+    <bitmap id="角色框1" src="imgs/角色框1.png" editorId="34"/>
+    <bitmap id="角色框2" src="imgs/角色框2.png" editorId="35"/>
+    <bitmap id="决斗信息" src="imgs/决斗信息.png" editorId="36"/>
+    <bitmap id="内容字渐变" src="imgs/内容字渐变.png" editorId="37"/>
+    <bitmap id="信息框" src="imgs/信息框.png" editorId="38"/>
+    <bitmap id="异步竞技大背景" src="imgs/异步竞技大背景.jpg" editorId="39"/>
+    <bitmap id="战报信息" src="imgs/战报信息.png" editorId="40"/>
+    <bitmap id="数字输入框" src="imgs/数字输入框.png" editorId="41"/>
+    <bitmap id="J-竞技场战斗内提示" src="imgs/J-竞技场战斗内提示.png" editorId="42"/>
+    <bitmap id="J-竞技场战斗内提示-最后" src="imgs/J-竞技场战斗内提示-最后.png" editorId="43"/>
+  </bitmaps>
+  <texts editorId="44">
+    <text id="挑战一下TA" editorId="45">挑战一下TA</text>
+    <text id="在角斗场中击败你的对手" editorId="47">在竞技场中击败你的对手，获得属于你的荣誉以及丰厚的奖品</text>
+    <text id="全部排名" editorId="49">全部排名</text>
+    <text id="自己的等级" editorId="51">Lv $LV   $NAME</text>
+    <text id="rank" editorId="53"><![CDATA[排名：<font color='#03dd27'>$RANK</font>]]></text>
+    <text id="对手等级" editorId="55">Lv $LV</text>
+    <text id="挑战" editorId="57">挑战</text>
+    <text id="购买" editorId="59">购买</text>
+    <text id="清除" editorId="61">清除</text>
+    <text id="nextGift" editorId="63">$TIME 后可领取</text>
+    <text id="getGift" editorId="65">剩余时间 $TIME</text>
+    <text id="点击图标领取礼包" editorId="67">点击图标领取礼包</text>
+    <text id="今日还可挑战" editorId="69">今日还可挑战：</text>
+    <text id="继续挑战将退出队伍" editorId="71">继续挑战将退出队伍，您确定吗？</text>
+    <text id="times" editorId="73">$T次</text>
+    <text id="1_1_0" editorId="75"><![CDATA[$TIME，你挑战了<a href='event:$ID,$NAME'><font color='#03dd27'><u>$NAME</u></font></a>，你胜利了，排名不变]]></text>
+    <text id="1_0_0" editorId="77"><![CDATA[$TIME，你挑战了<a href='event:$ID,$NAME'><font color='#03dd27'><u>$NAME</u></font></a>，<font color='#198549'>你失败了</font>，排名不变]]></text>
+    <text id="1_1_1" editorId="79"><![CDATA[$TIME，你挑战了<a href='event:$ID,$NAME'><font color='#03dd27'><u>$NAME</u></font></a>，你胜利了，排名升至$RANK]]></text>
+    <text id="2_1_0" editorId="81"><![CDATA[$TIME，<a href='event:$ID,$NAME'><font color='#03dd27'><u>$NAME</u></font></a>挑战了你，你胜利了，排名不变]]></text>
+    <text id="2_0_0" editorId="83"><![CDATA[$TIME，<a href='event:$ID,$NAME'><font color='#03dd27'><u>$NAME</u></font></a>挑战了你，<font color='#198549'>你失败了</font>，排名不变]]></text>
+    <text id="2_0_2" editorId="85"><![CDATA[$TIME，<a href='event:$ID,$NAME'><font color='#03dd27'><u>$NAME</u></font></a>挑战了你，<font color='#198549'>你失败了</font>，排名降至$RANK]]></text>
+    <text id="消费提示" editorId="87"><![CDATA[是否花费<font color='#03dd27'>$NUM钻石</font>进行一次挑战？]]></text>
+    <text id="竞技场清CD" editorId="89"><![CDATA[是否花费<font color='#03dd27'>$NUM钻石</font>清除冷却时间？]]></text>
+    <!--<text id="冷却"><![CDATA[冷却时间:<font color='#03dd27'>$T</font>]]></text>-->
+    <text id="coldown" editorId="92"><![CDATA[冷却时间:  <font color='#03dd27'>$T</font>]]></text>
+    <text id="宝箱tip_声望" editorId="94"><![CDATA[奖励声望：<font color='#03dd27'>$NUM</font>]]></text>
+    <text id="宝箱tip_金币" editorId="96"><![CDATA[奖励金币：<font color='#03dd27'>$GOLD</font>]]></text>
+    <text id="宝箱tip_道具" editorId="98"><![CDATA[奖励道具：<font color='#03dd27'>$NUM</font>个<font color='#03dd27'>$NAME</font>]]></text>
+  </texts>
+  <controls editorId="100">
+    <window id="Main" width="1400" height="600" center="0" editorId="101">
+      <image bmp="black" left="0" right="0" top="0" bottom="0" center="0" middle="0" editorId="102" x="0" y="0"/>
+      <image bmp="异步竞技大背景" width="1400" height="550" x="0" y="25" editorId="103" center="0" middle="0"/>
+      <image bmp="大角色框" width="231" height="414" x="190" y="135" editorId="104"/>
+      <image bmp="信息框" grid="30,30,30,30" width="420" height="95" x="470" y="462" editorId="105"/>
+      <image bmp="信息框" grid="30,30,30,30" width="275" height="95" x="925" y="462" editorId="106"/>
+      <image bmp="角斗场" width="114" height="41" left="643" top="30" editorId="107" x="643" y="30"/>
+      <image bmp="决斗信息" width="69" height="19" x="950" y="475" editorId="108"/>
+      <image bmp="战报信息" width="69" height="19" x="495" y="475" editorId="109"/>
+      <image bmp="数字输入框" width="40" height="21" x="1060" y="500" editorId="110"/>
+      <button name="closeBtn" width="80" height="38" top="16" editorId="111">
+        <state frame="1" back="关闭按钮001" editorId="112"/>
+        <state frame="2" back="关闭按钮002" editorId="113"/>
+        <state frame="3" back="关闭按钮003" editorId="114"/>
+      </button>
+      <labelButton name="rankBtn" width="82" height="28" x="890" y="95" label="全部排名" visible="true" editorId="115">
+        <state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中" editorId="116"/>
+        <state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中" editorId="117"/>
+        <state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中" editorId="118"/>
+      </labelButton>
+      <!--<labelButton name="buyBtn" width="45" height="26" x="1110" y="500" label="购买" visible="true">
+				<state frame="1" back="小型按钮01" format="ffbe57_12_居中" />
+				<state frame="2" back="小型按钮02" format="ffbe57_12_居中" />
+				<state frame="3" back="小型按钮03" format="ffbe57_12_居中" />
+			</labelButton>-->
+      <labelButton name="cleanBtn" width="56" height="22" x="1110" y="525" label="清除" visible="true" editorId="120">
+        <state frame="1" back="小按钮01" format="按钮标签_efb55a_12_居中" editorId="121"/>
+        <state frame="2" back="小按钮02" format="按钮标签_efb55a_12_居中" editorId="122"/>
+        <state frame="3" back="小按钮03" format="按钮标签_efb55a_12_居中" editorId="123"/>
+      </labelButton>
+      <achieveEntity name="item" x="6" y="6" editorId="124"/>
+      <!--文字内容-->
+      <label width="335" height="25" left="532" top="100" html="true" format="宋体橘黄色12居中" text="在角斗场中击败你的对手" editorId="126" x="532" y="100"/>
+      <label name="nameTf" width="231" height="25" x="190" y="140" html="true" format="宋体橘黄色14号加宽" editorId="127"/>
+      <label name="rankTf" width="65" height="25" y="184" x="246" html="true" format="宋体白色12" editorId="128"/>
+      <label name="streakTf" width="65" height="25" y="184" x="356" html="true" format="宋体白色12" editorId="129"/>
+      <!--<label name="streakTf" width="65" height="25" y="209" x="246" html="true" format="宋体白色12"/>-->
+      <label name="TreaInfoTf" width="123" height="25" y="524" x="242" html="true" format="宋体绿色12居中" text="getGift" editorId="131"/>
+      <label width="88" height="25" y="500" x="970" html="true" format="宋体浅黄色12居中" text="今日还可挑战" editorId="132"/>
+      <label name="timesTf" width="40" height="25" y="500" x="1060" html="true" format="宋体绿色12居中" text="times" editorId="133"/>
+      <label name="cdTf" width="130" height="25" y="527" x="970" html="true" format="宋体浅黄色12居中" text="coldown" editorId="134"/>
+      <label name="reportTf" width="415" height="85" y="490" x="474" html="true" format="宋体浅黄色12居中" editorId="135"/>
+    </window>
+    <window id="Tip" width="580" height="235" bottom="0" right="0" editorId="136">
+      <filmAnimEffect name="eff" bmp="J-竞技场战斗内提示" center="0" bottom="0" row="7" col="1" tCount="7" frameDelay="80" loop="1" editorId="137"/>
+      <image name="bmp" bmp="J-竞技场战斗内提示-最后" width="304" height="133" center="0" bottom="0" visible="false" editorId="138"/>
+    </window>
+    <box id="Cell" top="0" left="0" width="154" height="313" editorId="139">
+      <image name="bg1" bmp="角色框1" width="154" height="313" left="0" top="0" editorId="140"/>
+      <!--<image name="bg2" bmp="角色框2" width="154" height="313" left="0" top="0"/>-->
+      <label name="rankTf" width="154" height="25" x="0" y="5" html="true" format="宋体浅黄色14号居中加宽" text="rank" editorId="142"/>
+      <label name="lvTf" width="154" height="25" x="0" y="35" html="true" format="宋体橘黄色14号加宽" text="对手等级" editorId="143"/>
+      <label name="nameTf" width="154" height="25" x="0" y="55" html="true" format="宋体橘黄色12居中" editorId="144"/>
+      <button name="seeBtn" width="24" height="24" x="125" y="5" editorId="145">
+        <state frame="1" back="查看按钮01" editorId="146"/>
+        <state frame="2" back="查看按钮02" editorId="147"/>
+        <state frame="3" back="查看按钮03" editorId="148"/>
+      </button>
+      <labelButton name="rankBtn" width="82" height="28" x="35" y="275" label="挑战" visible="true" editorId="149">
+        <state frame="1" back="knightLabelBtn2_1" format="ffbe57_12_居中" editorId="150"/>
+        <state frame="2" back="knightLabelBtn2_2" format="ffbe57_12_居中" editorId="151"/>
+        <state frame="3" back="knightLabelBtn2_3" format="ffbe57_12_居中" editorId="152"/>
+      </labelButton>
+    </box>
+  </controls>
+</xml>

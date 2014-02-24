@@ -1,0 +1,80 @@
+<xml>
+  <depends>
+    <depend src="/public/publicFrames.xml"/>
+    <depend src="/public/publicButtons.xml"/>
+  </depends>
+  <bitmaps>
+    <bitmap id="大地图底图第一页" src="imgs/大地图底图第一页.jpg"/>
+    <bitmap id="bg2" src="imgs/bg2.png"/>
+    <bitmap id="title" src="imgs/title.png"/>
+    <bitmap id="地图边框阴影" src="imgs/地图边框阴影.png"/>
+
+    <bitmap id="region_0" src="imgs/title/0.png"/>
+    <bitmap id="region_1" src="imgs/title/1.png"/>
+	  <bitmap id="region_1_1" src="imgs/title/1_1.png"/>
+    <bitmap id="region_2" src="imgs/title/2.png"/>
+	  <bitmap id="region_2_1" src="imgs/title/2_1.png"/>
+    <bitmap id="region_3" src="imgs/title/3.png"/>
+	  <bitmap id="region_3_1" src="imgs/title/3_1.png"/>
+    <bitmap id="region_4" src="imgs/title/4.png"/>
+	  <bitmap id="region_4_1" src="imgs/title/4_1.png"/>
+    <bitmap id="region_5" src="imgs/title/5.png"/>
+	  <bitmap id="region_5_1" src="imgs/title/5_1.png"/>
+    <bitmap id="region_6" src="imgs/title/6.png"/>
+	  <bitmap id="region_6_1" src="imgs/title/6_1.png"/>
+    <bitmap id="region_7" src="imgs/title/7.png"/>
+	  <bitmap id="region_7_1" src="imgs/title/7_1.png"/>
+
+    <bitmap id="mask1" src="imgs/雾/阴影001.png"/>
+    <bitmap id="mask2" src="imgs/雾/阴影002.png"/>
+    <bitmap id="mask3" src="imgs/雾/阴影003.png"/>
+    <bitmap id="mask4" src="imgs/雾/阴影004.png"/>
+    <bitmap id="mask5" src="imgs/雾/阴影005.png"/>
+    <bitmap id="mask6" src="imgs/雾/阴影006.png"/>
+    <bitmap id="mask7" src="imgs/雾/阴影007.png"/>
+    <bitmap id="mask8" src="imgs/雾/阴影008.png"/>
+
+    <bitmap id="关闭按钮001" src="imgs/关闭按钮001.png"/>
+    <bitmap id="关闭按钮002" src="imgs/关闭按钮002.png"/>
+    <bitmap id="关闭按钮003" src="imgs/关闭按钮003.png"/>
+
+    <!--
+    <bitmap id="蓝0" src="imgs/蓝域/蓝0.png"/>
+    <bitmap id="蓝1" src="imgs/蓝域/蓝1.png"/>
+    <bitmap id="蓝2" src="imgs/蓝域/蓝2.png"/>
+    <bitmap id="蓝3" src="imgs/蓝域/蓝3.png"/>
+    <bitmap id="蓝4" src="imgs/蓝域/蓝4.png"/>
+    <bitmap id="蓝5" src="imgs/蓝域/蓝5.png"/>
+    <bitmap id="蓝6" src="imgs/蓝域/蓝6.png"/>
+    -->
+
+
+    <bitmap id="红1" src="imgs/红域/红1.png"/>
+    <bitmap id="红2" src="imgs/红域/红2.png"/>
+    <bitmap id="红3" src="imgs/红域/红3.png"/>
+    <bitmap id="红4" src="imgs/红域/红4.png"/>
+    <bitmap id="红5" src="imgs/红域/红5.png"/>
+    <bitmap id="红6" src="imgs/红域/红6.png"/>
+    <bitmap id="红7" src="imgs/红域/红7.png"/>
+
+  </bitmaps>
+
+  <bitmapReaders>
+    <!--
+    <bitmapReader id="蓝0" bmp="蓝0"/>
+    <bitmapReader id="蓝1" bmp="蓝1"/>
+    <bitmapReader id="蓝2" bmp="蓝2"/>
+    <bitmapReader id="蓝3" bmp="蓝3"/>
+    <bitmapReader id="蓝4" bmp="蓝4"/>
+    <bitmapReader id="蓝5" bmp="蓝5"/>
+    <bitmapReader id="蓝6" bmp="蓝6"/>
+    -->
+    <bitmapReader id="红1" bmp="红1"/>
+    <bitmapReader id="红2" bmp="红2"/>
+    <bitmapReader id="红3" bmp="红3"/>
+    <bitmapReader id="红4" bmp="红4"/>
+    <bitmapReader id="红5" bmp="红5"/>
+    <bitmapReader id="红6" bmp="红6"/>
+    <bitmapReader id="红7" bmp="红7"/>
+  </bitmapReaders>
+</xml>

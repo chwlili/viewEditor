@@ -1,0 +1,75 @@
+﻿<xml preload="3">
+
+	<depends>
+		<depend src="/roleHead/view.xml"/>
+	</depends>
+
+	<bitmaps>
+		<bitmap id="标题" src="imgs/标题.png"/>
+		<bitmap id="关闭" src="imgs/关闭.png"/>
+
+		<bitmap id="显示按钮1" src="imgs/显示按钮1.png"/>
+		<bitmap id="显示按钮2" src="imgs/显示按钮2.png"/>
+		<bitmap id="显示按钮3" src="imgs/显示按钮3.png"/>
+		
+		<bitmap id="声音按钮1" src="imgs/声音按钮1.png"/>
+		<bitmap id="声音按钮2" src="imgs/声音按钮2.png"/>
+		<bitmap id="声音按钮3" src="imgs/声音按钮3.png"/>
+
+		<bitmap id="自动按钮1" src="imgs/自动按钮1.png"/>
+		<bitmap id="自动按钮2" src="imgs/自动按钮2.png"/>
+		<bitmap id="自动按钮3" src="imgs/自动按钮3.png"/>
+		
+		<bitmap id="退出按钮1" src="imgs/退出按钮1.png"/>
+		<bitmap id="退出按钮2" src="imgs/退出按钮2.png"/>
+		<bitmap id="退出按钮3" src="imgs/退出按钮3.png"/>
+	</bitmaps>
+
+
+	<texts>
+		<text id="退出栏_显示Tip">隐藏</text>
+		<text id="退出栏_声音Tip">声音</text>
+		<text id="退出栏_退出Tip">退出</text>
+		<text id="退出栏_自动Tip">点击开启自动战斗</text>
+		<text id="退出栏_自动Tip2">点击关闭自动战斗</text>
+		<text id="退出栏_是否退出">是否要退出副本？</text>
+	</texts>
+
+	<formats>
+		<format id="场景名称字体" color="0xFFE2C0" size="12" align="center" />
+	</formats>
+
+	<controls>
+		<box id="视图1" width="282" height="51" right="0" top="0">
+			
+			<image bmp="标题" width="252" height="35" y="7" grid="150,0,20,0"/>
+			<label name="场景名称" x="16" y="14" width="108" height="22" text="分享" format="场景名称字体"/>
+			
+			<box name="显示" tip="退出栏_显示Tip" width="31" height="31" right="118" middle="0">
+				<image bmp="显示按钮1" width="31" height="31"/>
+				<image bmp="显示按钮2" width="31" height="31"/>
+				<image bmp="显示按钮3" width="31" height="31"/>
+				<image bmp="关闭" width="30" height="30" x="-1" y="-1"/>
+			</box>
+			
+			<box name="声音" tip="世界栏_声音Tip" width="31" height="31" right="84" middle="0">
+				<image bmp="声音按钮1" width="31" height="31"/>
+				<image bmp="声音按钮2" width="31" height="31"/>
+				<image bmp="声音按钮3" width="31" height="31"/>
+				<image bmp="关闭" width="30" height="30" x="-1" y="-1"/>
+			</box>
+			<box name="自动" tip="退出栏_自动Tip" width="35" height="35" right="48" middle="0">
+				<image bmp="自动按钮1" width="35" height="35"/>
+				<image bmp="自动按钮2" width="35" height="35"/>
+				<image bmp="自动按钮3" width="35" height="35"/>
+				<image bmp="关闭" width="30" height="30" x="1" y="0"/>
+			</box>
+			<box name="退出" tip="退出栏_是否退出" width="51" height="51" right="-3" middle="0">
+				<image bmp="退出按钮1" width="51" height="51"/>
+				<image bmp="退出按钮2" width="51" height="51"/>
+				<image bmp="退出按钮3" width="51" height="51"/>
+			</box>
+		</box>
+	</controls>
+
+</xml>
